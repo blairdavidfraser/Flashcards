@@ -1,0 +1,241 @@
+#front|back|added|lastSeen|seen|score|enabled
+hola | hello |||0|0|true
+buenos días | good morning |||0|0|true
+buenas tardes | good afternoon |||0|0|true
+buenas noches | good evening / good night |||0|0|true
+adiós | goodbye |||0|0|true
+hasta luego | see you later ||2026-03-09|1|2|true
+hasta mañana | see you tomorrow |||0|0|true
+nos vemos | see you |||0|0|true
+por favor | please |||0|0|true
+gracias | thank you |||0|0|true
+muchas gracias | thank you very much |||0|0|true
+de nada | you're welcome |||0|0|true
+perdón | excuse me (light sorry) |||0|0|true
+lo siento | I'm sorry (strong sorry) |||0|0|true
+con permiso | excuse me (passing by) |||0|0|true
+¿cómo estás? | how are you? |||0|0|true
+¿cómo está usted? | how are you (formal)? |||0|0|true
+estoy bien | I am well |||0|0|true
+más o menos | so-so |||0|0|true
+muy bien | very well |||0|0|true
+¿qué tal? | how's it going? |||0|0|true
+mucho gusto | nice to meet you |||0|0|true
+encantado | pleased to meet you |||0|0|true
+¿de dónde eres? | where are you from? |||0|0|true
+soy de Canadá | I am from Canada |||0|0|true
+¿dónde está el baño? | where is the bathroom? |||0|0|true
+¿cuánto cuesta? | how much does it cost? |||0|0|true
+la cuenta, por favor | the bill please |||0|0|true
+¿habla inglés? | do you speak English? |||0|0|true
+no entiendo | I don't understand |||0|0|true
+¿puede repetir? | can you repeat? |||0|0|true
+¿puede hablar más despacio? | can you speak more slowly? |||0|0|true
+hablo un poco de español | I speak a little Spanish |||0|0|true
+¿qué significa? | what does it mean? |||0|0|true
+¿cómo se dice...? | how do you say...? |||0|0|true
+¿qué hora es? | what time is it? |||0|0|true
+¿dónde está el hotel? | where is the hotel? |||0|0|true
+¿dónde está el restaurante? | where is the restaurant? |||0|0|true
+necesito ayuda | I need help ||2026-03-09|2|4|true
+estoy perdido | I am lost |||0|0|true
+¿qué? | what |||0|0|true
+¿quién? | who |||0|0|true
+¿quiénes? | who (plural) |||0|0|true
+¿dónde? | where |||0|0|true
+¿cuándo? | when |||0|0|true
+¿por qué? | why |||0|0|true
+¿cómo? | how |||0|0|true
+¿cuánto? | how much |||0|0|true
+¿cuántos? | how many |||0|0|true
+¿cuál? | which |||0|0|true
+¿cuáles? | which (plural) |||0|0|true
+cero | zero |||0|0|true
+uno | one |||0|0|true
+dos | two |||0|0|true
+tres | three |||0|0|true
+cuatro | four |||0|0|true
+cinco | five |||0|0|true
+seis | six |||0|0|true
+siete | seven |||0|0|true
+ocho | eight |||0|0|true
+nueve | nine |||0|0|true
+diez | ten |||0|0|true
+once | eleven |||0|0|true
+doce | twelve |||0|0|true
+trece | thirteen |||0|0|true
+catorce | fourteen |||0|0|true
+quince | fifteen |||0|0|true
+veinte | twenty |||0|0|true
+treinta | thirty |||0|0|true
+cuarenta | forty |||0|0|true
+cincuenta | fifty ||2026-03-09|1|0|true
+cien | one hundred |||0|0|true
+lunes | Monday |||0|0|true
+martes | Tuesday |||0|0|true
+miércoles | Wednesday |||0|0|true
+jueves | Thursday |||0|0|true
+viernes | Friday |||0|0|true
+sábado | Saturday |||0|0|true
+domingo | Sunday |||0|0|true
+enero | January |||0|0|true
+febrero | February |||0|0|true
+marzo | March |||0|0|true
+abril | April |||0|0|true
+mayo | May ||2026-03-09|1|1|true
+junio | June |||0|0|true
+julio | July |||0|0|true
+agosto | August |||0|0|true
+septiembre | September |||0|0|true
+octubre | October |||0|0|true
+noviembre | November |||0|0|true
+diciembre | December |||0|0|true
+la familia | family |||0|0|true
+el padre | father ||2026-03-09|1|2|true
+la madre | mother |||0|0|true
+el hermano | brother |||0|0|true
+la hermana | sister |||0|0|true
+el abuelo | grandfather |||0|0|true
+la abuela | grandmother |||0|0|true
+el hijo | son |||0|0|true
+la hija | daughter |||0|0|true
+el tío | uncle |||0|0|true
+la tía | aunt |||0|0|true
+el primo | cousin |||0|0|true
+la prima | cousin (female) |||0|0|true
+el restaurante | restaurant |||0|0|true
+el café | coffee |||0|0|true
+el té | tea |||0|0|true
+el agua | water |||0|0|true
+la cerveza | beer |||0|0|true
+el vino | wine |||0|0|true
+el desayuno | breakfast ||2026-03-09|1|2|true
+el almuerzo | lunch |||0|0|true
+la cena | dinner |||0|0|true
+el pan | bread |||0|0|true
+el arroz | rice |||0|0|true
+la carne | meat |||0|0|true
+el pollo | chicken |||0|0|true
+el pescado | fish |||0|0|true
+la fruta | fruit |||0|0|true
+la manzana | apple |||0|0|true
+la naranja | orange |||0|0|true
+la ensalada | salad |||0|0|true
+el queso | cheese |||0|0|true
+el huevo | egg |||0|0|true
+la leche | milk |||0|0|true
+el azúcar | sugar |||0|0|true
+la sal | salt |||0|0|true
+el aeropuerto | airport |||0|0|true
+el hotel | hotel |||0|0|true
+la estación | station |||0|0|true
+el tren | train |||0|0|true
+el autobús | bus ||2026-03-09|1|2|true
+el taxi | taxi |||0|0|true
+el boleto | ticket |||0|0|true
+la reserva | reservation ||2026-03-09|1|2|true
+la maleta | suitcase |||0|0|true
+el pasaporte | passport |||0|0|true
+el mapa | map |||0|0|true
+la calle | street |||0|0|true
+la ciudad | city |||0|0|true
+el país | country |||0|0|true
+el mercado | market |||0|0|true
+la tienda | store |||0|0|true
+grande | big |||0|0|true
+pequeño | small |||0|0|true
+bueno | good |||0|0|true
+malo | bad |||0|0|true
+bonito | pretty |||0|0|true
+feo | ugly |||0|0|true
+nuevo | new |||0|0|true
+viejo | old |||0|0|true
+fácil | easy |||0|0|true
+difícil | difficult |||0|0|true
+rápido | fast |||0|0|true
+lento | slow |||0|0|true
+caro | expensive |||0|0|true
+barato | cheap |||0|0|true
+feliz | happy |||0|0|true
+triste | sad |||0|0|true
+ocupado | busy |||0|0|true
+libre | free |||0|0|true
+(yo) hablo | I speak |||0|0|true
+(tú) hablas | you speak |||0|0|true
+(él/ella/usted) habla | he/she/you speaks |||0|0|true
+(nosotros) hablamos | we speak |||0|0|true
+(ellos/ellas/ustedes) hablan | they/you speak |||0|0|true
+(yo) como | I eat |||0|0|true
+(tú) hcomes | you eat |||0|0|true
+(él/ella/usted) come | he/she/you eats |||0|0|true
+(nosotros) comemos | we eat |||0|0|true
+(ellos/ellas/ustedes) comen | they/you eat |||0|0|true
+(yo) vivo | I live |||0|0|true
+(tú) hvives | you live |||0|0|true
+(él/ella/usted) vive | he/she/you lives |||0|0|true
+(nosotros) vivimos | we live |||0|0|true
+(ellos/ellas/ustedes) viven | they/you live |||0|0|true
+(yo) soy | I am |||0|0|true
+(tú) heres | you are |||0|0|true
+(él/ella/usted) es | he/she/you is |||0|0|true
+(nosotros) somos | we are |||0|0|true
+(ellos/ellas/ustedes) son | they/you are |||0|0|true
+(yo) estoy | I am (temporary) |||0|0|true
+(tú) hestás | you are (temporary) |||0|0|true
+(él/ella/usted) está | he/she/you is (temporary) |||0|0|true
+(nosotros) estamos | we are (temporary) |||0|0|true
+(ellos/ellas/ustedes) están | they/you are (temporary) |||0|0|true
+(yo) tengo | I have |||0|0|true
+(tú) htienes | you have |||0|0|true
+(él/ella/usted) tiene | he/she/you has |||0|0|true
+(nosotros) tenemos | we have |||0|0|true
+(ellos/ellas/ustedes) tienen | they/you have |||0|0|true
+(yo) voy | I go |||0|0|true
+(tú) hvas | you go |||0|0|true
+(él/ella/usted) va | he/she/you goes |||0|0|true
+(nosotros) vamos | we go |||0|0|true
+(ellos/ellas/ustedes) van | they/you go |||0|0|true
+(yo) hago | I do |||0|0|true
+(tú) haces | you do |||0|0|true
+(él/ella/usted) hace | he/she/you does |||0|0|true
+(nosotros) hacemos | we do |||0|0|true
+(ellos/ellas/ustedes) hacen | they/you do |||0|0|true
+(yo) digo | I say |||0|0|true
+(tú) hdices | you say |||0|0|true
+(él/ella/usted) dice | he/she/you says |||0|0|true
+(nosotros) decimos | we say |||0|0|true
+(ellos/ellas/ustedes) dicen | they/you say |||0|0|true
+(yo) puedo | I can |||0|0|true
+tú puedes | you can |||0|0|true
+(él/ella/usted) puede | he/she/you can |||0|0|true
+(nosotros) podemos | we can |||0|0|true
+(ellos/ellas/ustedes) pueden | they/you can |||0|0|true
+(yo) quiero | I want |||0|0|true
+(tú) hquieres | you want |||0|0|true
+(él/ella/usted) quiere | he/she/you wants ||2026-03-09|1|2|true
+(nosotros) queremos | we want |||0|0|true
+(ellos/ellas/ustedes) quieren | they/you want |||0|0|true
+(yo) pienso | I think |||0|0|true
+(tú) hpiensas | you think |||0|0|true
+(él/ella/usted) piensa | he/she/you thinks |||0|0|true
+(nosotros) pensamos | we think |||0|0|true
+(ellos/ellas/ustedes) piensan | they think |||0|0|true
+(yo) duermo | I sleep |||0|0|true
+(tú) hduermes | you sleep |||0|0|true
+(él/ella/usted) duerme | he/she/you sleeps |||0|0|true
+(nosotros) dormimos | we sleep |||0|0|true
+(ellos/ellas/ustedes) duermen | they/you sleep |||0|0|true
+tengo hambre | I am hungry |||0|0|true
+tengo sed | I am thirsty |||0|0|true
+tengo frío | I am cold |||0|0|true
+tengo calor | I am hot |||0|0|true
+me gusta | I like |||0|0|true
+no me gusta | I don't like |||0|0|true
+me gusta el café | I like coffee |||0|0|true
+me gusta viajar | I like traveling |||0|0|true
+quiero aprender español | I want to learn Spanish |||0|0|true
+necesito practicar | I need to practice |||0|0|true
+voy al restaurante | I go to the restaurant |||0|0|true
+estoy en el hotel | I am in the hotel |||0|0|true
+vamos a comer | let's eat |||0|0|true
+vamos a viajar | let's travel |||0|0|true

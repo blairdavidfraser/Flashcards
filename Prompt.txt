@@ -1,0 +1,11 @@
+Something weird is going on.  When I click learn Spanish, then Recognition or Recall, the first screen may come up with:
+1: The card saying "press start" and no start button - only exit.
+2: The card saying "press start" and a start button.
+3: The card saying "press start" and the difficulty buttons showing.
+Seemingly randomly.
+
+What I want is when I say "Learn Spanish", then choose Recognition, Recall, Shuffle or Hard cards, then immediatly the first card comes up with no start screen.
+
+Also make the "0" rating button red.
+
+Also, how does score work.  I want to add a button between "Learn" and "Reset" that will give me some kind of statistics on how I'm doing. Remember that the vocabulary list will change over time, so it should be something stable to that. This screen will also show, number cards, number enbled cards.
