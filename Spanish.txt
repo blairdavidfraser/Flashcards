@@ -447,9 +447,9 @@ cierro la ventana | I close the window |2026-03-10|2026-03-10|1|0|true
 llego temprano | I arrive early |2026-03-10|2026-03-10|0|0|true
 salgo tarde del trabajo | I leave work late |2026-03-10|2026-03-10|4|-4|true
 me quedo en casa hoy | I stay home today |2026-03-10|2026-03-10|0|0|true
-bastante | quite |||||
-la sonrisa | smile |||||
-sonrir | to smile |||||
-entonces | then |||||
-el reloj | watch |||||
-volveré | I will return |||||
+bastante | quite |2026-03-10|2026-03-10|0|0|true
+la sonrisa | smile |2026-03-10|2026-03-10|0|0|true
+sonrir | to smile |2026-03-10|2026-03-10|0|0|true
+entonces | then |2026-03-10|2026-03-10|0|0|true
+el reloj | watch |2026-03-10|2026-03-10|0|0|true
+volveré | I will return |2026-03-10|2026-03-10|0|0|true

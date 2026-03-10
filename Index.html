@@ -63,20 +63,6 @@
             display: none;
             z-index: 1000;
         }
-
-        #copyNotification {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background: rgba(0, 0, 0, 0.8);
-            color: white;
-            padding: 15px 30px;
-            border-radius: 8px;
-            font-size: 18px;
-            display: none;
-            z-index: 1000;
-        }
     </style>
 </head>
 
@@ -84,9 +70,6 @@
 
     <h2>Language Flashcards</h2>
 
-    <div id="copyNotification">Text Copied</div>
-
-    <div id="copyNotification">Text Copied</div>
 
     <div id="mainMenu">
 
@@ -139,7 +122,7 @@
         <textarea id="resetBox"></textarea>
 
         <br>
-        <button onclick="copyToClipboard()">Copy</button>
+        <button onclick="selectAllText()">Select All</button>
         <button onclick="saveReset()">Save</button>
         <button onclick="backToMenu()">Cancel</button>
 
@@ -421,14 +404,8 @@
 
         }
 
-        function copyToClipboard() {
-            let text = document.getElementById("resetBox").value
-            navigator.clipboard.writeText(text)
-            let notification = document.getElementById("copyNotification")
-            notification.style.display = "block"
-            setTimeout(() => {
-                notification.style.display = "none"
-            }, 2000)
+        function selectAllText() {
+            document.getElementById("resetBox").select()
         }
 
     </script>
