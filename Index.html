@@ -49,12 +49,44 @@
             width: 60px;
             font-size: 20px;
         }
+
+        #copyNotification {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 18px;
+            display: none;
+            z-index: 1000;
+        }
+
+        #copyNotification {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 18px;
+            display: none;
+            z-index: 1000;
+        }
     </style>
 </head>
 
 <body>
 
     <h2>Language Flashcards</h2>
+
+    <div id="copyNotification">Text Copied</div>
+
+    <div id="copyNotification">Text Copied</div>
 
     <div id="mainMenu">
 
@@ -107,6 +139,7 @@
         <textarea id="resetBox"></textarea>
 
         <br>
+        <button onclick="copyToClipboard()">Copy</button>
         <button onclick="saveReset()">Save</button>
         <button onclick="backToMenu()">Cancel</button>
 
@@ -282,35 +315,25 @@
         }
 
         function rateDisabled() {
-
             if (!currentCard) return
 
             currentCard.enabled = false
-
             currentCard.seen++
-
             currentCard.lastSeen = Date.now()
 
             saveDeck(currentLang)
-
             nextCard()
-
         }
 
         function rateHard() {
-
             if (!currentCard) return
 
             currentCard.score = -1
-
             currentCard.seen++
-
             currentCard.lastSeen = Date.now()
 
             saveDeck(currentLang)
-
             nextCard()
-
         }
 
         function resetLanguage(lang) {
@@ -349,19 +372,13 @@
         }
 
         function formatDate(epoch) {
-
             if (!epoch) return ""
-
             return new Date(epoch).toISOString().slice(0, 10)
-
         }
 
         function parseDate(d) {
-
             if (!d) return Date.now()
-
             return new Date(d).getTime()
-
         }
 
         function saveReset() {
@@ -402,6 +419,16 @@
 
             backToMenu()
 
+        }
+
+        function copyToClipboard() {
+            let text = document.getElementById("resetBox").value
+            navigator.clipboard.writeText(text)
+            let notification = document.getElementById("copyNotification")
+            notification.style.display = "block"
+            setTimeout(() => {
+                notification.style.display = "none"
+            }, 2000)
         }
 
     </script>
