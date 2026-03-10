@@ -9,3 +9,7 @@ What I want is when I say "Learn Spanish", then choose Recognition, Recall, Shuf
 Also make the "0" rating button red.
 
 Also, how does score work.  I want to add a button between "Learn" and "Reset" that will give me some kind of statistics on how I'm doing. Remember that the vocabulary list will change over time, so it should be something stable to that. This screen will also show, number cards, number enbled cards.
+
+Implement hard-card mode as a button after "Recognition" , "Recall" and "Shuffle".
+
+Implement Swipe-left means easy (1), swipe right means forgot (4).

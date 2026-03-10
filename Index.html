@@ -88,7 +88,7 @@
         <button id="startBtn" onclick="nextCard()">Start</button>
 
         <div class="difficulty" id="difficultyButtons" style="display:none">
-            <button onclick="rate(0)">0</button>
+            <button onclick="rate(0)" style="background-color: red;">0</button>
             <button onclick="rate(1)">1</button>
             <button onclick="rate(2)">2</button>
             <button onclick="rate(3)">3</button>
@@ -169,7 +169,9 @@
             document.getElementById("modeMenu").style.display = "none"
             document.getElementById("studyArea").style.display = "block"
 
-            document.getElementById("card").innerText = "Press Start"
+            document.getElementById("startBtn").style.display = "none"
+
+            nextCard()
 
         }
 
@@ -242,6 +244,25 @@
             document.getElementById("startBtn").style.display = "none"
 
         }
+
+        let touchStartX = 0
+
+        document.getElementById("studyArea").addEventListener("touchstart", function (e) {
+            touchStartX = e.changedTouches[0].clientX
+        }, false)
+
+        document.getElementById("studyArea").addEventListener("touchend", function (e) {
+            let touchEndX = e.changedTouches[0].clientX
+            let diff = touchStartX - touchEndX
+
+            if (Math.abs(diff) > 50) {
+                if (diff > 0) {
+                    rate(1)
+                } else {
+                    rate(4)
+                }
+            }
+        }, false)
 
         document.getElementById("card").onclick = function () {
 
