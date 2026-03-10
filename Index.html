@@ -88,11 +88,11 @@
         <button id="startBtn" onclick="nextCard()">Start</button>
 
         <div class="difficulty" id="difficultyButtons" style="display:none">
-            <button onclick="rate(0)" style="background-color: red;">0</button>
+            <button onclick="rateDisabled()" style="background-color: red;">&larr;</button>
             <button onclick="rate(1)">1</button>
             <button onclick="rate(2)">2</button>
             <button onclick="rate(3)">3</button>
-            <button onclick="rate(4)">4</button>
+            <button onclick="rateHard()" style="background-color: red;">&rarr;</button>
         </div>
 
         <br>
@@ -270,22 +270,42 @@
         }
 
         function rate(d) {
+            if (!currentCard) return
+
+            currentCard.seen++
+            currentCard.lastSeen = Date.now()
+
+            currentCard.score += (3 - d)
+
+            saveDeck(currentLang)
+            nextCard()
+        }
+
+        function rateDisabled() {
 
             if (!currentCard) return
+
+            currentCard.enabled = false
 
             currentCard.seen++
 
             currentCard.lastSeen = Date.now()
 
-            if (d === 0) {
+            saveDeck(currentLang)
 
-                currentCard.enabled = false
+            nextCard()
 
-            } else {
+        }
 
-                currentCard.score += (3 - d)
+        function rateHard() {
 
-            }
+            if (!currentCard) return
+
+            currentCard.score = -1
+
+            currentCard.seen++
+
+            currentCard.lastSeen = Date.now()
 
             saveDeck(currentLang)
 
