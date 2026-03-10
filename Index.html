@@ -251,25 +251,6 @@
 
         }
 
-        let touchStartX = 0
-
-        document.getElementById("studyArea").addEventListener("touchstart", function (e) {
-            touchStartX = e.changedTouches[0].clientX
-        }, false)
-
-        document.getElementById("studyArea").addEventListener("touchend", function (e) {
-            let touchEndX = e.changedTouches[0].clientX
-            let diff = touchStartX - touchEndX
-
-            if (Math.abs(diff) > 50) {
-                if (diff > 0) {
-                    rate(1)
-                } else {
-                    rate(4)
-                }
-            }
-        }, false)
-
         document.getElementById("card").onclick = function () {
 
             if (!currentCard) return
