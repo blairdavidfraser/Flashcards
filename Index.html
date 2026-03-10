@@ -75,7 +75,7 @@
 
         <button onclick="startStudy('recognition')">Recognition</button>
         <button onclick="startStudy('recall')">Recall</button>
-        <button onclick="startStudy('shuffle')">Shuffle</button>
+        <button onclick="startStudy('hardcards')">Hard Cards</button>
 
         <br><br>
         <button onclick="backToMenu()">Back</button>
@@ -186,6 +186,12 @@
 
             let enabled = deck.filter(c => c.enabled !== false)
 
+            // Filter for hard cards mode
+            if (currentMode === 'hardcards') {
+                let mostRecentDate = Math.max(...deck.map(c => c.added || 0))
+                enabled = enabled.filter(c => c.score < 0 || c.added === mostRecentDate)
+            }
+
             if (enabled.length === 0) return null
 
             let weights = enabled.map(c => {
@@ -231,7 +237,7 @@
                 ? currentCard.back
                 : currentCard.front
 
-            if (currentMode === "shuffle") {
+            if (currentMode === "shuffle" || currentMode === "hardcards") {
                 text = Math.random() < 0.5 ? currentCard.front : currentCard.back
             }
 
