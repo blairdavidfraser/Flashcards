@@ -175,51 +175,61 @@ libre | free |2026-03-10|2026-03-10|0|0|0
 (él/ella/usted) vive | he/she/you lives |2026-03-10|2026-03-10|0|0|0
 (nosotros) vivimos | we live |2026-03-10|2026-03-10|0|0|0
 (ellos/ellas/ustedes) viven | they/you live |2026-03-10|2026-03-10|2|4|0
-(yo) soy | I am |2026-03-10|2026-03-10|1|1|0
-(tú) eres | you are |2026-03-10|2026-03-10|1|-1|1
-(él/ella/usted) es | he/she/you is |2026-03-10|2026-03-10|1|1|0
-(nosotros) somos | we are |2026-03-10|2026-03-10|0|0|0
-(ellos/ellas/ustedes) son | they/you are |2026-03-10|2026-03-10|0|0|0
+ser | to be (permanent) |2026-03-10|2026-03-10|1|1|0
+(yo) soy | I am (permanent) |2026-03-10|2026-03-10|1|1|0
+(tú) eres | you are (permanent) |2026-03-10|2026-03-10|1|-1|1
+(él/ella/usted) es (permanent) | he/she/you is |2026-03-10|2026-03-10|1|1|0
+(nosotros) somos | we are (permanent) |2026-03-10|2026-03-10|0|0|0
+(ellos/ellas/ustedes) son (permanent) | they/you are |2026-03-10|2026-03-10|0|0|0
+estar | to be (temporary) |2026-03-10|2026-03-10|0|0|0
 (yo) estoy | I am (temporary) |2026-03-10|2026-03-10|0|0|0
 (tú) estás | you are (temporary) |2026-03-10|2026-03-10|1|1|0
 (él/ella/usted) está | he/she/you is (temporary) |2026-03-10|2026-03-10|0|0|0
 (nosotros) estamos | we are (temporary) |2026-03-10|2026-03-10|0|0|0
 (ellos/ellas/ustedes) están | they/you are (temporary) |2026-03-10|2026-03-10|0|0|0
+tener | to have |2026-03-10|2026-03-10|3|6|0
 (yo) tengo | I have |2026-03-10|2026-03-10|3|6|0
 (tú) tienes | you have |2026-03-10|2026-03-10|2|4|0
 (él/ella/usted) tiene | he/she/you has |2026-03-10|2026-03-10|1|2|0
 (nosotros) tenemos | we have |2026-03-10|2026-03-10|3|3|0
 (ellos/ellas/ustedes) tienen | they/you have |2026-03-10|2026-03-10|2|3|0
+ver | to go |2026-03-10|2026-03-10|3|6|0
 (yo) voy | I go |2026-03-10|2026-03-10|2|4|0
 (tú) vas | you go |2026-03-10|2026-03-10|0|0|0
 (él/ella/usted) va | he/she/you goes |2026-03-10|2026-03-10|1|2|0
 (nosotros) vamos | we go |2026-03-10|2026-03-10|1|2|0
 (ellos/ellas/ustedes) van | they/you go |2026-03-10|2026-03-10|0|0|0
+hacer | to do |2026-03-10|2026-03-10|0|0|0
 (yo) hago | I do |2026-03-10|2026-03-10|0|0|0
 (tú) haces | you do |2026-03-10|2026-03-10|2|4|0
 (él/ella/usted) hace | he/she/you does |2026-03-10|2026-03-10|2|0|0
 (nosotros) hacemos | we do |2026-03-10|2026-03-10|0|0|0
 (ellos/ellas/ustedes) hacen | they/you do |2026-03-10|2026-03-10|0|0|0
+decier | to say |2026-03-10|2026-03-10|0|0|0
 (yo) digo | I say |2026-03-10|2026-03-10|0|0|0
 (tú) dices | you say |2026-03-10|2026-03-10|0|0|0
 (él/ella/usted) dice | he/she/you says |2026-03-10|2026-03-10|1|2|0
 (nosotros) decimos | we say |2026-03-10|2026-03-10|0|0|0
 (ellos/ellas/ustedes) dicen | they/you say |2026-03-10|2026-03-10|0|0|0
+poder | to be able |2026-03-10|2026-03-10|0|0|0
 (yo) puedo | I can |2026-03-10|2026-03-10|0|0|0
 (tú) puedes | you can |2026-03-10|2026-03-10|1|2|0
 (él/ella/usted) puede | he/she/you can |2026-03-10|2026-03-10|3|5|0
 (nosotros) podemos | we can |2026-03-10|2026-03-10|0|0|0
 (ellos/ellas/ustedes) pueden | they/you can |2026-03-10|2026-03-10|1|0|0
+querer | to want |2026-03-10|2026-03-10|0|0|0
 (yo) quiero | I want |2026-03-10|2026-03-10|0|0|0
 (tú) quieres | you want |2026-03-10|2026-03-10|0|0|0
 (él/ella/usted) quiere | he/she/you wants |2026-03-10|2026-03-10|3|3|0
 (nosotros) queremos | we want |2026-03-10|2026-03-10|0|0|0
 (ellos/ellas/ustedes) quieren | they/you want |2026-03-10|2026-03-10|1|1|0
+pensar | to think |2026-03-10|2026-03-10|0|0|0
 (yo) pienso | I think |2026-03-10|2026-03-10|2|4|0
 (tú) piensas | you think |2026-03-10|2026-03-10|1|2|0
 (él/ella/usted) piensa | he/she/you thinks |2026-03-10|2026-03-10|0|0|0
 (nosotros) pensamos | we think |2026-03-10|2026-03-10|0|0|0
 (ellos/ellas/ustedes) piensan | they think |2026-03-10|2026-03-10|2|1|0
+dormir | to sleep |2026-03-10|2026-03-10|0|0|0
 (yo) duermo | I sleep |2026-03-10|2026-03-10|1|2|0
 (tú) duermes | you sleep |2026-03-10|2026-03-10|0|0|0
 (él/ella/usted) duerme | he/she/you sleeps |2026-03-10|2026-03-10|1|1|0
@@ -315,7 +325,7 @@ claro que no | of course not |2026-03-10|2026-03-10|0|0|0
 por supuesto | of course |2026-03-10|2026-03-10|0|0|0
 tal vez | maybe |2026-03-10|2026-03-10|2|-2|1
 puede ser | maybe / could be |2026-03-10|2026-03-10|1|-1|1
-ya veo | I see |2026-03-10|2026-03-10|0|0|0
+ya veo | I see (Ahhh) |2026-03-10|2026-03-10|0|0|0
 ya entiendo | now I understand |2026-03-10|2026-03-10|0|0|0
 tienes razón | you are right |2026-03-10|2026-03-10|0|0|0
 no estoy seguro | I'm not sure |2026-03-10|2026-03-10|1|-1|1
