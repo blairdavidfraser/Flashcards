@@ -78,6 +78,11 @@
             <button onclick="resetLanguage('french')">Reset French</button>
         </div>
 
+        <div class="row">
+            <button onclick="showStats('spanish')">Stats Spanish</button>
+            <button onclick="showStats('french')">Stats French</button>
+        </div>
+
     </div>
 
     <div id="modeMenu" style="display:none">
@@ -128,6 +133,18 @@
         <button onclick="selectAllText()">Select All</button>
         <button onclick="saveReset()">Save</button>
         <button onclick="backToMenu()">Cancel</button>
+
+    </div>
+
+    <div id="statsArea" style="display:none">
+
+        <h3 id="statsTitle"></h3>
+
+        <div id="statsContent" style="text-align: left; display: inline-block; margin: 20px auto;">
+        </div>
+
+        <br><br>
+        <button onclick="backToMenu()">Back</button>
 
     </div>
 
@@ -189,6 +206,7 @@
             document.getElementById("modeMenu").style.display = "none"
             document.getElementById("studyArea").style.display = "none"
             document.getElementById("resetArea").style.display = "none"
+            document.getElementById("statsArea").style.display = "none"
 
         }
 
@@ -436,6 +454,48 @@
 
         function selectAllText() {
             document.getElementById("resetBox").select()
+        }
+
+        function showStats(lang) {
+
+            currentLang = lang
+            deck = loadDeck(lang)
+
+            let total = deck.length
+            let levelCounts = {}
+            let neverSeen = 0
+
+            // Count cards at each level and cards never seen
+            deck.forEach(c => {
+                let level = c.level
+                if (levelCounts[level] === undefined) {
+                    levelCounts[level] = 0
+                }
+                levelCounts[level]++
+
+                if (c.seen === 0) {
+                    neverSeen++
+                }
+            })
+
+            // Build stats display
+            let html = `
+                <p><strong>Total Cards:</strong> ${total}</p>
+                <p><strong>Never Seen:</strong> ${neverSeen}</p>
+            `
+
+            // Sort levels numerically
+            let levels = Object.keys(levelCounts).sort((a, b) => parseInt(a) - parseInt(b))
+            levels.forEach(level => {
+                let count = levelCounts[level]
+                html += `<p><strong>Level ${level}:</strong> ${count}</p>`
+            })
+
+            document.getElementById("mainMenu").style.display = "none"
+            document.getElementById("statsArea").style.display = "block"
+            document.getElementById("statsTitle").innerText = lang.charAt(0).toUpperCase() + lang.slice(1) + " Statistics"
+            document.getElementById("statsContent").innerHTML = html
+
         }
 
     </script>
