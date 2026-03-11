@@ -83,9 +83,14 @@
     <div id="modeMenu" style="display:none">
         <h3 id="languageTitle"></h3>
 
-        <button onclick="startStudy('recognition')">Recognition</button>
-        <button onclick="startStudy('recall')">Recall</button>
-        <button onclick="startStudy('hardcards')">Hard Cards</button>
+        <div class="row">
+            <label><input type="radio" name="mode" value="recognition"
+                    onclick="selectMode('recognition')">Recognition</label>
+            <label><input type="radio" name="mode" value="recall" onclick="selectMode('recall')">Recall</label>
+        </div>
+        <div class="row">
+            <button onclick="startHard()">Hard Cards</button>
+        </div>
 
         <br><br>
         <button onclick="backToMenu()">Back</button>
@@ -98,11 +103,11 @@
         <button id="startBtn" onclick="nextCard()">Start</button>
 
         <div class="difficulty" id="difficultyButtons" style="display:none">
-            <button onclick="rateDisabled()" style="background-color: red;">&larr;</button>
-            <button onclick="rate(1)">1</button>
-            <button onclick="rate(2)">2</button>
-            <button onclick="rate(3)">3</button>
-            <button onclick="rateHard()" style="background-color: red;">&rarr;</button>
+            <button onclick="rate(0, -1)" style="background-color: red;">&larr;</button>
+            <button onclick="rate(1, 0)">1</button>
+            <button onclick="rate(2, 0)">2</button>
+            <button onclick="rate(3, 0)">3</button>
+            <button onclick="rate()" style="background-color: red;">&rarr;</button>
         </div>
 
         <br>
@@ -129,6 +134,7 @@
 
         let currentLang = null
         let currentMode = null
+        let hardOnly = false
         let deck = []
         let currentCard = null
         let showingAnswer = false
@@ -140,10 +146,19 @@
         function loadDeck(lang) {
 
             let raw = localStorage.getItem(STORAGE_PREFIX + lang)
-
             if (!raw) return []
-
-            return JSON.parse(raw)
+            let arr = JSON.parse(raw)
+            arr.forEach(c => {
+                if (c.enabled !== undefined) {
+                    // old boolean format
+                    c.level = c.enabled ? 0 : -1
+                    delete c.enabled
+                }
+                if (c.level === undefined) {
+                    c.level = 0
+                }
+            })
+            return arr
         }
 
         function saveDeck(lang) {
@@ -186,6 +201,17 @@
 
         }
 
+        function selectMode(mode) {
+            currentMode = mode
+            hardOnly = false
+        }
+
+        function startHard() {
+            hardOnly = true
+            if (!currentMode) return
+            startStudy(currentMode)
+        }
+
         function exitStudy() {
 
             saveDeck(currentLang)
@@ -195,12 +221,11 @@
 
         function pickCard() {
 
-            let enabled = deck.filter(c => c.enabled !== false)
+            let enabled = deck.filter(c => c.level >= 0)
 
-            // Filter for hard cards mode
-            if (currentMode === 'hardcards') {
-                let mostRecentDate = Math.max(...deck.map(c => c.added || 0))
-                enabled = enabled.filter(c => c.score < 0 || c.added === mostRecentDate)
+            // Filter for hard cards (level >= 1)
+            if (hardOnly) {
+                enabled = enabled.filter(c => c.level >= 1)
             }
 
             if (enabled.length === 0) return null
@@ -280,39 +305,18 @@
 
         }
 
-        function rate(d) {
+        function rate(d, l) {
             if (!currentCard) return
 
             currentCard.seen++
             currentCard.lastSeen = Date.now()
-
+            currentCard.level = l
             currentCard.score += (3 - d)
 
             saveDeck(currentLang)
             nextCard()
         }
 
-        function rateDisabled() {
-            if (!currentCard) return
-
-            currentCard.enabled = false
-            currentCard.seen++
-            currentCard.lastSeen = Date.now()
-
-            saveDeck(currentLang)
-            nextCard()
-        }
-
-        function rateHard() {
-            if (!currentCard) return
-
-            currentCard.score = -1
-            currentCard.seen++
-            currentCard.lastSeen = Date.now()
-
-            saveDeck(currentLang)
-            nextCard()
-        }
 
         function resetLanguage(lang) {
 
@@ -327,7 +331,7 @@
 
             let lines = []
 
-            lines.push("#front|back|added|lastSeen|seen|score|enabled")
+            lines.push("#front|back|added|lastSeen|seen|score|level")
 
             deck.forEach(c => {
 
@@ -339,7 +343,7 @@
                         formatDate(c.lastSeen),
                         c.seen,
                         c.score,
-                        c.enabled
+                        c.level
                     ].join("|")
                 )
 
@@ -383,7 +387,7 @@
                     lastSeen: parseDate(parts[3]),
                     seen: parseInt(parts[4]) || 0,
                     score: parseInt(parts[5]) || 0,
-                    enabled: parts[6] !== "false"
+                    level: parseInt(parts[6]) || 0
 
                 }
 

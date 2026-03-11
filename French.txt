@@ -1,99 +1,99 @@
 #front|back|added|lastSeen|seen|score|enabled
-bonjour | hello |2026-03-11|2026-03-11|0|0|true
-bonsoir | good evening |2026-03-11|2026-03-11|0|0|true
-bonne nuit | good night |2026-03-11|2026-03-11|0|0|true
-au revoir | goodbye |2026-03-11|2026-03-11|0|0|true
-à bientôt | see you soon |2026-03-11|2026-03-11|0|0|true
-à demain | see you tomorrow |2026-03-11|2026-03-11|0|0|true
-s'il vous plaît | please (formal) |2026-03-11|2026-03-11|0|0|true
-merci | thank you |2026-03-11|2026-03-11|0|0|true
-merci beaucoup | thank you very much |2026-03-11|2026-03-11|0|0|true
-de rien | you're welcome |2026-03-11|2026-03-11|0|0|true
-excusez-moi | excuse me |2026-03-11|2026-03-11|0|0|true
-pardon | sorry |2026-03-11|2026-03-11|0|0|true
-oui | yes |2026-03-11|2026-03-11|0|0|true
-non | no |2026-03-11|2026-03-11|0|0|true
-peut-être | maybe |2026-03-11|2026-03-11|0|0|true
-bien sûr | of course |2026-03-11|2026-03-11|0|0|true
-je comprends | I understand |2026-03-11|2026-03-11|0|0|true
-je ne comprends pas | I don't understand |2026-03-11|2026-03-11|0|0|true
-parlez-vous anglais ? | do you speak English? |2026-03-11|2026-03-11|0|0|true
-pouvez-vous répéter ? | can you repeat? |2026-03-11|2026-03-11|0|0|true
-parlez plus lentement | speak more slowly |2026-03-11|2026-03-11|0|0|true
-qu'est-ce que ça veut dire ? | what does it mean? |2026-03-11|2026-03-11|0|0|true
-comment dit-on...? | how do you say...? |2026-03-11|2026-03-11|0|0|true
-où sont les toilettes ? | where is the bathroom? |2026-03-11|2026-03-11|0|0|true
-combien ça coûte ? | how much does it cost? |2026-03-11|2026-03-11|0|0|true
-l'addition, s'il vous plaît | the bill please |2026-03-11|2026-03-11|0|0|true
-je voudrais un café | I would like a coffee |2026-03-11|2026-03-11|0|0|true
-je voudrais de l'eau | I would like water |2026-03-11|2026-03-11|0|0|true
-je voudrais manger | I would like to eat |2026-03-11|2026-03-11|0|0|true
-où est l'hôtel ? | where is the hotel? |2026-03-11|2026-03-11|0|0|true
-où est le restaurant ? | where is the restaurant? |2026-03-11|2026-03-11|0|0|true
-où est la gare ? | where is the station? |2026-03-11|2026-03-11|0|0|true
-aidez-moi | help me |2026-03-11|2026-03-11|0|0|true
-je suis perdu | I am lost |2026-03-11|2026-03-11|0|0|true
-zéro | zero |2026-03-11|2026-03-11|0|0|true
-un | one |2026-03-11|2026-03-11|0|0|true
-deux | two |2026-03-11|2026-03-11|0|0|true
-trois | three |2026-03-11|2026-03-11|0|0|true
-quatre | four |2026-03-11|2026-03-11|0|0|true
-cinq | five |2026-03-11|2026-03-11|0|0|true
-six | six |2026-03-11|2026-03-11|0|0|true
-sept | seven |2026-03-11|2026-03-11|0|0|true
-huit | eight |2026-03-11|2026-03-11|0|0|true
-neuf | nine |2026-03-11|2026-03-11|0|0|true
-dix | ten |2026-03-11|2026-03-11|0|0|true
-onze | eleven |2026-03-11|2026-03-11|0|0|true
-douze | twelve |2026-03-11|2026-03-11|0|0|true
-treize | thirteen |2026-03-11|2026-03-11|0|0|true
-quatorze | fourteen |2026-03-11|2026-03-11|0|0|true
-quinze | fifteen |2026-03-11|2026-03-11|0|0|true
-seize | sixteen |2026-03-11|2026-03-11|0|0|true
-dix-sept | seventeen |2026-03-11|2026-03-11|0|0|true
-dix-huit | eighteen |2026-03-11|2026-03-11|0|0|true
-dix-neuf | nineteen |2026-03-11|2026-03-11|0|0|true
-vingt | twenty |2026-03-11|2026-03-11|0|0|true
-le café | coffee |2026-03-11|2026-03-11|0|0|true
-le thé | tea |2026-03-11|2026-03-11|0|0|true
-l'eau | water |2026-03-11|2026-03-11|0|0|true
-la bière | beer |2026-03-11|2026-03-11|0|0|true
-le vin | wine |2026-03-11|2026-03-11|0|0|true
-le pain | bread |2026-03-11|2026-03-11|0|0|true
-le riz | rice |2026-03-11|2026-03-11|0|0|true
-la viande | meat |2026-03-11|2026-03-11|0|0|true
-le poulet | chicken |2026-03-11|2026-03-11|0|0|true
-le poisson | fish |2026-03-11|2026-03-11|0|0|true
-la salade | salad |2026-03-11|2026-03-11|0|0|true
-le fromage | cheese |2026-03-11|2026-03-11|0|0|true
-la pomme | apple |2026-03-11|2026-03-11|0|0|true
-l'orange | orange |2026-03-11|2026-03-11|0|0|true
-le petit déjeuner | breakfast |2026-03-11|2026-03-11|0|0|true
-le déjeuner | lunch |2026-03-11|2026-03-11|0|0|true
-le dîner | dinner |2026-03-11|2026-03-11|0|0|true
-l'aéroport | airport |2026-03-11|2026-03-11|0|0|true
-l'hôtel | hotel |2026-03-11|2026-03-11|0|0|true
-la gare | station |2026-03-11|2026-03-11|0|0|true
-le train | train |2026-03-11|2026-03-11|0|0|true
-le bus | bus |2026-03-11|2026-03-11|0|0|true
-le taxi | taxi |2026-03-11|2026-03-11|0|0|true
-le billet | ticket |2026-03-11|2026-03-11|0|0|true
-la réservation | reservation |2026-03-11|2026-03-11|0|0|true
-la valise | suitcase |2026-03-11|2026-03-11|0|0|true
-le passeport | passport |2026-03-11|2026-03-11|0|0|true
-la rue | street |2026-03-11|2026-03-11|0|0|true
-la ville | city |2026-03-11|2026-03-11|0|0|true
-le pays | country |2026-03-11|2026-03-11|0|0|true
-le marché | market |2026-03-11|2026-03-11|0|0|true
-le magasin | store |2026-03-11|2026-03-11|0|0|true
-je suis | I am |2026-03-11|2026-03-11|0|0|true
-j'ai | I have |2026-03-11|2026-03-11|0|0|true
-je vais | I go |2026-03-11|2026-03-11|0|0|true
-je veux | I want |2026-03-11|2026-03-11|0|0|true
-je peux | I can |2026-03-11|2026-03-11|0|0|true
-je mange | I eat |2026-03-11|2026-03-11|0|0|true
-je bois | I drink |2026-03-11|2026-03-11|0|0|true
-je parle | I speak |2026-03-11|2026-03-11|0|0|true
-je comprends | I understand |2026-03-11|2026-03-11|0|0|true
-je travaille | I work |2026-03-11|2026-03-11|0|0|true
-je voyage | I travel |2026-03-11|2026-03-11|0|0|true
+bonjour | hello |2026-03-11|2026-03-11|0|0|0
+bonsoir | good evening |2026-03-11|2026-03-11|0|0|0
+bonne nuit | good night |2026-03-11|2026-03-11|0|0|0
+au revoir | goodbye |2026-03-11|2026-03-11|0|0|0
+à bientôt | see you soon |2026-03-11|2026-03-11|0|0|0
+à demain | see you tomorrow |2026-03-11|2026-03-11|0|0|0
+s'il vous plaît | please (formal) |2026-03-11|2026-03-11|0|0|0
+merci | thank you |2026-03-11|2026-03-11|0|0|0
+merci beaucoup | thank you very much |2026-03-11|2026-03-11|0|0|0
+de rien | you're welcome |2026-03-11|2026-03-11|0|0|0
+excusez-moi | excuse me |2026-03-11|2026-03-11|0|0|0
+pardon | sorry |2026-03-11|2026-03-11|0|0|0
+oui | yes |2026-03-11|2026-03-11|0|0|0
+non | no |2026-03-11|2026-03-11|0|0|0
+peut-être | maybe |2026-03-11|2026-03-11|0|0|0
+bien sûr | of course |2026-03-11|2026-03-11|0|0|0
+je comprends | I understand |2026-03-11|2026-03-11|0|0|0
+je ne comprends pas | I don't understand |2026-03-11|2026-03-11|0|0|0
+parlez-vous anglais ? | do you speak English? |2026-03-11|2026-03-11|0|0|0
+pouvez-vous répéter ? | can you repeat? |2026-03-11|2026-03-11|0|0|0
+parlez plus lentement | speak more slowly |2026-03-11|2026-03-11|0|0|0
+qu'est-ce que ça veut dire ? | what does it mean? |2026-03-11|2026-03-11|0|0|0
+comment dit-on...? | how do you say...? |2026-03-11|2026-03-11|0|0|0
+où sont les toilettes ? | where is the bathroom? |2026-03-11|2026-03-11|0|0|0
+combien ça coûte ? | how much does it cost? |2026-03-11|2026-03-11|0|0|0
+l'addition, s'il vous plaît | the bill please |2026-03-11|2026-03-11|0|0|0
+je voudrais un café | I would like a coffee |2026-03-11|2026-03-11|0|0|0
+je voudrais de l'eau | I would like water |2026-03-11|2026-03-11|0|0|0
+je voudrais manger | I would like to eat |2026-03-11|2026-03-11|0|0|0
+où est l'hôtel ? | where is the hotel? |2026-03-11|2026-03-11|0|0|0
+où est le restaurant ? | where is the restaurant? |2026-03-11|2026-03-11|0|0|0
+où est la gare ? | where is the station? |2026-03-11|2026-03-11|0|0|0
+aidez-moi | help me |2026-03-11|2026-03-11|0|0|0
+je suis perdu | I am lost |2026-03-11|2026-03-11|0|0|0
+zéro | zero |2026-03-11|2026-03-11|0|0|0
+un | one |2026-03-11|2026-03-11|0|0|0
+deux | two |2026-03-11|2026-03-11|0|0|0
+trois | three |2026-03-11|2026-03-11|0|0|0
+quatre | four |2026-03-11|2026-03-11|0|0|0
+cinq | five |2026-03-11|2026-03-11|0|0|0
+six | six |2026-03-11|2026-03-11|0|0|0
+sept | seven |2026-03-11|2026-03-11|0|0|0
+huit | eight |2026-03-11|2026-03-11|0|0|0
+neuf | nine |2026-03-11|2026-03-11|0|0|0
+dix | ten |2026-03-11|2026-03-11|0|0|0
+onze | eleven |2026-03-11|2026-03-11|0|0|0
+douze | twelve |2026-03-11|2026-03-11|0|0|0
+treize | thirteen |2026-03-11|2026-03-11|0|0|0
+quatorze | fourteen |2026-03-11|2026-03-11|0|0|0
+quinze | fifteen |2026-03-11|2026-03-11|0|0|0
+seize | sixteen |2026-03-11|2026-03-11|0|0|0
+dix-sept | seventeen |2026-03-11|2026-03-11|0|0|0
+dix-huit | eighteen |2026-03-11|2026-03-11|0|0|0
+dix-neuf | nineteen |2026-03-11|2026-03-11|0|0|0
+vingt | twenty |2026-03-11|2026-03-11|0|0|0
+le café | coffee |2026-03-11|2026-03-11|0|0|0
+le thé | tea |2026-03-11|2026-03-11|0|0|0
+l'eau | water |2026-03-11|2026-03-11|0|0|0
+la bière | beer |2026-03-11|2026-03-11|0|0|0
+le vin | wine |2026-03-11|2026-03-11|0|0|0
+le pain | bread |2026-03-11|2026-03-11|0|0|0
+le riz | rice |2026-03-11|2026-03-11|0|0|0
+la viande | meat |2026-03-11|2026-03-11|0|0|0
+le poulet | chicken |2026-03-11|2026-03-11|0|0|0
+le poisson | fish |2026-03-11|2026-03-11|0|0|0
+la salade | salad |2026-03-11|2026-03-11|0|0|0
+le fromage | cheese |2026-03-11|2026-03-11|0|0|0
+la pomme | apple |2026-03-11|2026-03-11|0|0|0
+l'orange | orange |2026-03-11|2026-03-11|0|0|0
+le petit déjeuner | breakfast |2026-03-11|2026-03-11|0|0|0
+le déjeuner | lunch |2026-03-11|2026-03-11|0|0|0
+le dîner | dinner |2026-03-11|2026-03-11|0|0|0
+l'aéroport | airport |2026-03-11|2026-03-11|0|0|0
+l'hôtel | hotel |2026-03-11|2026-03-11|0|0|0
+la gare | station |2026-03-11|2026-03-11|0|0|0
+le train | train |2026-03-11|2026-03-11|0|0|0
+le bus | bus |2026-03-11|2026-03-11|0|0|0
+le taxi | taxi |2026-03-11|2026-03-11|0|0|0
+le billet | ticket |2026-03-11|2026-03-11|0|0|0
+la réservation | reservation |2026-03-11|2026-03-11|0|0|0
+la valise | suitcase |2026-03-11|2026-03-11|0|0|0
+le passeport | passport |2026-03-11|2026-03-11|0|0|0
+la rue | street |2026-03-11|2026-03-11|0|0|0
+la ville | city |2026-03-11|2026-03-11|0|0|0
+le pays | country |2026-03-11|2026-03-11|0|0|0
+le marché | market |2026-03-11|2026-03-11|0|0|0
+le magasin | store |2026-03-11|2026-03-11|0|0|0
+je suis | I am |2026-03-11|2026-03-11|0|0|0
+j'ai | I have |2026-03-11|2026-03-11|0|0|0
+je vais | I go |2026-03-11|2026-03-11|0|0|0
+je veux | I want |2026-03-11|2026-03-11|0|0|0
+je peux | I can |2026-03-11|2026-03-11|0|0|0
+je mange | I eat |2026-03-11|2026-03-11|0|0|0
+je bois | I drink |2026-03-11|2026-03-11|0|0|0
+je parle | I speak |2026-03-11|2026-03-11|0|0|0
+je comprends | I understand |2026-03-11|2026-03-11|0|0|0
+je travaille | I work |2026-03-11|2026-03-11|0|0|0
+je voyage | I travel |2026-03-11|2026-03-11|0|0|0
