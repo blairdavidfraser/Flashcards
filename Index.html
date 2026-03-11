@@ -107,7 +107,6 @@
     <div id="studyArea" style="display:none">
 
         <div id="card" class="card">Press Here</div>
-
         <button id="startBtn" onclick="nextCard()">Start</button>
 
         <div class="difficulty" id="difficultyButtons" style="display:none">
@@ -118,8 +117,8 @@
             <button onclick="rate(4, 1)" style="background-color: red;">&rarr;</button>
         </div>
 
-        <br>
-        <button onclick="exitStudy()">Exit</button>
+        <button onclick="exitStudy()" style="margin-top:8px;">Exit</button>
+        <div id="cardInfo" style="color:#888; font-size:12px; margin-top:16px;"></div>
 
     </div>
 
@@ -329,9 +328,8 @@
             currentCard.showFront = text === currentCard.front
 
             document.getElementById("card").innerText = text
-
+            updateCardInfo()
             document.getElementById("difficultyButtons").style.display = "none"
-
             document.getElementById("startBtn").style.display = "none"
 
         }
@@ -349,7 +347,7 @@
                 : currentCard.front
 
             document.getElementById("card").innerText = text
-
+            updateCardInfo()
             document.getElementById("difficultyButtons").style.display = "block"
 
         }
@@ -364,6 +362,19 @@
 
             saveDeck(currentLang)
             nextCard()
+        }
+
+        function updateCardInfo() {
+            if (!currentCard) {
+                document.getElementById("cardInfo").innerText = ''
+                return
+            }
+            let added = parseDate(currentCard.added)
+            let last = currentCard.lastSeen ? new Date(currentCard.lastSeen) : null
+            let seen = currentCard.seen || 0
+            document.getElementById("cardInfo").innerText =
+                `level ${currentCard.level}, added ${formatDate(added)}, ` +
+                `last seen ${last ? formatDate(last) : 'never'}, seen ${seen}`
         }
 
 
