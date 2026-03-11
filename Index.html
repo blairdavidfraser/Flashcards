@@ -267,7 +267,7 @@
             if (filterMode === 'normal') {
                 enabled = enabled.filter(c => c.level >= 0)
             } else if (filterMode === 'new') {
-                enabled = enabled.filter(c => c.seen < 3 || (Date.now() - parseDate(c.added)) < 86400000 * 5)
+                enabled = enabled.filter(c => c.level >= 0 && (c.seen < 3 || (Date.now() - parseDate(c.added)) < 86400000 * 5))
             } else if (filterMode === 'hard') {
                 enabled = enabled.filter(c => c.level >= 1)
             } else if (filterMode === 'easy') {
