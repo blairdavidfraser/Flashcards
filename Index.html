@@ -127,7 +127,8 @@
         <h3 id="languageTitle"></h3>
 
         <div class="row">
-            <label><input type="radio" name="mode" value="recognition" onclick="selectMode('recognition')">Recognition</label>
+            <label><input type="radio" name="mode" value="recognition"
+                    onclick="selectMode('recognition')">Recognition</label>
             <label><input type="radio" name="mode" value="recall" onclick="selectMode('recall')" checked>Recall</label>
             <label><input type="radio" name="mode" value="shuffle" onclick="selectMode('shuffle')">Shuffle</label>
         </div>
@@ -135,7 +136,7 @@
             <button onclick="startNormal()">Normal</button>
             <button onclick="startNew()">New</button>
             <button onclick="startHard()">Hard</button>
-            <button onclick="startEasy()">Easy</button>
+            <button onclick="startReview()">Review</button>
         </div>
 
         <br><br>
@@ -290,8 +291,8 @@
             startStudy(currentMode)
         }
 
-        function startEasy() {
-            filterMode = 'easy'
+        function startReview() {
+            filterMode = 'review'
             if (!currentMode) return
             startStudy(currentMode)
         }
@@ -314,8 +315,11 @@
                 enabled = enabled.filter(c => c.level >= 0 && (c.seen < 3 || (Date.now() - parseDate(c.added)) < 86400000 * 5))
             } else if (filterMode === 'hard') {
                 enabled = enabled.filter(c => c.level >= 1)
-            } else if (filterMode === 'easy') {
-                enabled = enabled.filter(c => c.level < 0)
+            } else if (filterMode === 'review') {
+                enabled = enabled
+                    .filter(c => c.level === -1)
+                    .sort((a, b) => parseDate(a.lastSeen) - parseDate(b.lastSeen))
+                    .slice(0, 100)
             } else {
                 // default to normal if no filter mode set
                 enabled = enabled.filter(c => c.level >= 0)
