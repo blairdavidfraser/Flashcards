@@ -1,465 +1,464 @@
-#front|back|added|lastSeen|seen|score|level
-hola | hello |2026-03-10|2026-03-10|0|0|0
-buenos días | good morning |2026-03-10|2026-03-10|1|2|0
-buenas tardes | good afternoon |2026-03-10|2026-03-10|1|1|0
-buenas noches | good evening / good night |2026-03-10|2026-03-10|0|0|0
-adiós | goodbye |2026-03-10|2026-03-10|1|0|-1
-hasta luego | see you later |2026-03-10|2026-03-09|1|2|0
-hasta mañana | see you tomorrow |2026-03-10|2026-03-10|0|0|0
-nos vemos | see you |2026-03-10|2026-03-10|2|-2|1
-por favor | please |2026-03-10|2026-03-10|1|0|-1
-gracias | thank you |2026-03-10|2026-03-10|0|0|0
-muchas gracias | thank you very much |2026-03-10|2026-03-10|0|0|0
-de nada | you're welcome |2026-03-10|2026-03-10|0|0|0
-perdón | excuse me (light sorry) |2026-03-10|2026-03-10|0|0|0
-lo siento | I'm sorry (strong sorry) |2026-03-10|2026-03-10|0|0|0
-con permiso | excuse me (passing by) |2026-03-10|2026-03-10|1|0|0
-¿cómo estás? | how are you? |2026-03-10|2026-03-10|0|0|0
-¿cómo está usted? | how are you (formal)? |2026-03-10|2026-03-10|0|0|0
-estoy bien | I am well |2026-03-10|2026-03-10|0|0|0
-más o menos | so-so |2026-03-10|2026-03-10|1|-1|1
-muy bien | very well |2026-03-10|2026-03-10|2|4|0
-¿qué tal? | how's it going? |2026-03-10|2026-03-10|2|4|0
-mucho gusto | nice to meet you |2026-03-10|2026-03-10|0|0|0
-encantado | pleased to meet you |2026-03-10|2026-03-10|1|2|0
-¿de dónde eres? | where are you from? |2026-03-10|2026-03-10|0|0|0
-soy de Canadá | I am from Canada |2026-03-10|2026-03-10|1|2|0
-¿dónde está el baño? | where is the bathroom? |2026-03-10|2026-03-10|4|3|0
-¿cuánto cuesta? | how much does it cost? |2026-03-10|2026-03-10|1|2|0
-la cuenta, por favor | the bill please |2026-03-10|2026-03-10|0|0|0
-¿habla inglés? | do you speak English? |2026-03-10|2026-03-10|2|0|-1
-no entiendo | I don't understand |2026-03-10|2026-03-10|0|0|0
-¿puede repetir? | can you repeat? |2026-03-10|2026-03-10|2|3|0
-¿puede hablar más despacio? | can you speak more slowly? |2026-03-10|2026-03-10|2|1|0
-hablo un poco de español | I speak a little Spanish |2026-03-10|2026-03-10|2|4|0
-¿qué significa? | what does it mean? |2026-03-10|2026-03-10|2|0|0
-¿cómo se dice...? | how do you say...? |2026-03-10|2026-03-10|0|0|0
-¿qué hora es? | what time is it? |2026-03-10|2026-03-10|0|0|0
-¿dónde está el hotel? | where is the hotel? |2026-03-10|2026-03-10|1|2|0
-¿dónde está el restaurante? | where is the restaurant? |2026-03-10|2026-03-10|0|0|0
-necesito ayuda | I need help |2026-03-10|2026-03-09|2|4|0
-estoy perdido | I am lost |2026-03-10|2026-03-10|1|-1|1
-¿qué? | what |2026-03-10|2026-03-10|1|2|0
-¿quién? | who |2026-03-10|2026-03-10|1|2|0
-¿quiénes? | who (plural) |2026-03-10|2026-03-10|1|2|0
-¿dónde? | where |2026-03-10|2026-03-10|2|2|-1
-¿cuándo? | when |2026-03-10|2026-03-10|0|0|0
-¿por qué? | why |2026-03-10|2026-03-10|2|4|0
-¿cómo? | how |2026-03-10|2026-03-10|2|1|0
-¿cuánto? | how much |2026-03-10|2026-03-10|0|0|0
-¿cuántos? | how many |2026-03-10|2026-03-10|0|0|0
-¿cuál? | which |2026-03-10|2026-03-10|0|0|0
-¿cuáles? | which (plural) |2026-03-10|2026-03-10|0|0|0
-cero | zero |2026-03-10|2026-03-10|0|0|0
-uno | one |2026-03-10|2026-03-10|1|2|0
-dos | two |2026-03-10|2026-03-10|1|0|-1
-tres | three |2026-03-10|2026-03-10|0|0|0
-cuatro | four |2026-03-10|2026-03-10|1|0|0
-cinco | five |2026-03-10|2026-03-10|1|0|-1
-seis | six |2026-03-10|2026-03-10|1|2|0
-siete | seven |2026-03-10|2026-03-10|2|4|0
-ocho | eight |2026-03-10|2026-03-10|0|0|0
-nueve | nine |2026-03-10|2026-03-10|0|0|0
-diez | ten |2026-03-10|2026-03-10|1|0|-1
-once | eleven |2026-03-10|2026-03-10|1|0|-1
-doce | twelve |2026-03-10|2026-03-10|1|2|0
-trece | thirteen |2026-03-10|2026-03-10|1|0|0
-catorce | fourteen |2026-03-10|2026-03-10|2|4|0
-quince | fifteen |2026-03-10|2026-03-10|1|1|0
-veinte | twenty |2026-03-10|2026-03-10|0|0|0
-treinta | thirty |2026-03-10|2026-03-10|1|0|0
-cuarenta | forty |2026-03-10|2026-03-10|1|2|0
-cincuenta | fifty |2026-03-10|2026-03-10|2|1|0
-cien | one hundred |2026-03-10|2026-03-10|0|0|0
-lunes | Monday |2026-03-10|2026-03-10|0|0|0
-martes | Tuesday |2026-03-10|2026-03-10|3|5|0
-miércoles | Wednesday |2026-03-10|2026-03-10|0|0|0
-jueves | Thursday |2026-03-10|2026-03-10|0|0|0
-viernes | Friday |2026-03-10|2026-03-10|1|2|0
-sábado | Saturday |2026-03-10|2026-03-10|0|0|0
-domingo | Sunday |2026-03-10|2026-03-10|0|0|0
-enero | January |2026-03-10|2026-03-10|0|0|0
-febrero | February |2026-03-10|2026-03-10|1|1|0
-marzo | March |2026-03-10|2026-03-10|0|0|0
-abril | April |2026-03-10|2026-03-10|0|0|0
-mayo | May |2026-03-10|2026-03-10|3|5|0
-junio | June |2026-03-10|2026-03-10|0|0|0
-julio | July |2026-03-10|2026-03-10|1|2|0
-agosto | August |2026-03-10|2026-03-10|1|0|0
-septiembre | September |2026-03-10|2026-03-10|1|2|0
-octubre | October |2026-03-10|2026-03-10|0|0|0
-noviembre | November |2026-03-10|2026-03-10|0|0|0
-diciembre | December |2026-03-10|2026-03-10|0|0|0
-la familia | family |2026-03-10|2026-03-10|2|4|0
-el padre | father |2026-03-10|2026-03-09|1|2|0
-la madre | mother |2026-03-10|2026-03-10|1|0|-1
-el hermano | brother |2026-03-10|2026-03-10|0|0|0
-la hermana | sister |2026-03-10|2026-03-10|1|0|-1
-el abuelo | grandfather |2026-03-10|2026-03-10|0|0|0
-la abuela | grandmother |2026-03-10|2026-03-10|1|2|0
-el hijo | son |2026-03-10|2026-03-10|2|4|0
-la hija | daughter |2026-03-10|2026-03-10|0|0|0
-el tío | uncle |2026-03-10|2026-03-10|0|0|0
-la tía | aunt |2026-03-10|2026-03-10|1|2|0
-el primo | cousin |2026-03-10|2026-03-10|1|2|0
-la prima | cousin (female) |2026-03-10|2026-03-10|0|0|0
-el restaurante | restaurant |2026-03-10|2026-03-10|1|2|0
-el café | coffee |2026-03-10|2026-03-10|1|2|0
-el té | tea |2026-03-10|2026-03-10|1|2|0
-el agua | water |2026-03-10|2026-03-10|1|0|-1
-la cerveza | beer |2026-03-10|2026-03-10|1|2|0
-el vino | wine |2026-03-10|2026-03-10|1|2|0
-el desayuno | breakfast |2026-03-10|2026-03-10|2|4|0
-el almuerzo | lunch |2026-03-10|2026-03-10|0|0|0
-la cena | dinner |2026-03-10|2026-03-10|0|0|0
-el pan | bread |2026-03-10|2026-03-10|0|0|0
-el arroz | rice |2026-03-10|2026-03-10|0|0|0
-la carne | meat |2026-03-10|2026-03-10|0|0|0
-el pollo | chicken |2026-03-10|2026-03-10|0|0|0
-el pescado | fish |2026-03-10|2026-03-10|0|0|0
-la fruta | fruit |2026-03-10|2026-03-10|1|2|0
-la manzana | apple |2026-03-10|2026-03-10|0|0|0
-la naranja | orange |2026-03-10|2026-03-10|0|0|0
-la ensalada | salad |2026-03-10|2026-03-10|1|0|0
-el queso | cheese |2026-03-10|2026-03-10|0|0|0
-el huevo | egg |2026-03-10|2026-03-10|0|0|0
-la leche | milk |2026-03-10|2026-03-10|2|4|0
-el azúcar | sugar |2026-03-10|2026-03-10|0|0|0
-la sal | salt |2026-03-10|2026-03-10|1|2|0
-el aeropuerto | airport |2026-03-10|2026-03-10|1|2|0
-el hotel | hotel |2026-03-10|2026-03-10|1|2|0
-la estación | station |2026-03-10|2026-03-10|1|2|0
-el tren | train |2026-03-10|2026-03-10|1|2|0
-el autobús | bus |2026-03-10|2026-03-10|2|2|-1
-el taxi | taxi |2026-03-10|2026-03-10|0|0|0
-el boleto (billete Sp.) | ticket |2026-03-10|2026-03-10|0|0|0
-la reserva | reservation |2026-03-10|2026-03-10|2|2|0
-la maleta | suitcase |2026-03-10|2026-03-10|3|1|0
-el pasaporte | passport |2026-03-10|2026-03-10|0|0|0
-el mapa | map |2026-03-10|2026-03-10|0|0|0
-la calle | street |2026-03-10|2026-03-10|1|2|0
-la ciudad | city |2026-03-10|2026-03-10|0|0|0
-el país | country |2026-03-10|2026-03-10|0|0|0
-el mercado | market |2026-03-10|2026-03-10|1|2|0
-la tienda | store |2026-03-10|2026-03-10|1|2|0
-grande | big |2026-03-10|2026-03-10|1|0|-1
-pequeño | small |2026-03-10|2026-03-10|1|0|-1
-bueno | good |2026-03-10|2026-03-10|1|2|0
-malo | bad |2026-03-10|2026-03-10|1|0|0
-bonito | pretty |2026-03-10|2026-03-10|0|0|0
-feo | ugly |2026-03-10|2026-03-10|0|0|0
-nuevo | new |2026-03-10|2026-03-10|1|2|0
-viejo | old |2026-03-10|2026-03-10|1|2|0
-fácil | easy |2026-03-10|2026-03-10|1|2|0
-difícil | difficult |2026-03-10|2026-03-10|1|0|-1
-rápido | fast |2026-03-10|2026-03-10|1|2|0
-lento | slow |2026-03-10|2026-03-10|2|0|0
-caro | expensive |2026-03-10|2026-03-10|1|2|0
-barato | cheap |2026-03-10|2026-03-10|1|1|0
-feliz | happy |2026-03-10|2026-03-10|1|2|0
-triste | sad |2026-03-10|2026-03-10|1|2|0
-ocupado | busy |2026-03-10|2026-03-10|2|4|0
-libre | free |2026-03-10|2026-03-10|0|0|0
-(yo) hablo | I speak |2026-03-10|2026-03-10|0|0|0
-(tú) hablas | you speak |2026-03-10|2026-03-10|2|2|0
-(él/ella/usted) habla | he/she/you speaks |2026-03-10|2026-03-10|1|0|0
-(nosotros) hablamos | we speak |2026-03-10|2026-03-10|1|1|0
-(ellos/ellas/ustedes) hablan | they/you speak |2026-03-10|2026-03-10|0|0|0
-(yo) como | I eat |2026-03-10|2026-03-10|2|4|0
-(tú) comes | you eat |2026-03-10|2026-03-10|0|0|0
-(él/ella/usted) come | he/she/you eats |2026-03-10|2026-03-10|3|4|0
-(nosotros) comemos | we eat |2026-03-10|2026-03-10|0|0|0
-(ellos/ellas/ustedes) comen | they/you eat |2026-03-10|2026-03-10|0|0|0
-(yo) vivo | I live |2026-03-10|2026-03-10|0|0|0
-(tú) vives | you live |2026-03-10|2026-03-10|2|3|0
-(él/ella/usted) vive | he/she/you lives |2026-03-10|2026-03-10|0|0|0
-(nosotros) vivimos | we live |2026-03-10|2026-03-10|0|0|0
-(ellos/ellas/ustedes) viven | they/you live |2026-03-10|2026-03-10|2|4|0
-ser | to be (permanent) |2026-03-10|2026-03-10|1|1|0
-(yo) soy | I am (permanent) |2026-03-10|2026-03-10|1|1|0
-(tú) eres | you are (permanent) |2026-03-10|2026-03-10|1|-1|1
-(él/ella/usted) es (permanent) | he/she/you is |2026-03-10|2026-03-10|1|1|0
-(nosotros) somos | we are (permanent) |2026-03-10|2026-03-10|0|0|0
-(ellos/ellas/ustedes) son (permanent) | they/you are |2026-03-10|2026-03-10|0|0|0
-estar | to be (temporary) |2026-03-10|2026-03-10|0|0|0
-(yo) estoy | I am (temporary) |2026-03-10|2026-03-10|0|0|0
-(tú) estás | you are (temporary) |2026-03-10|2026-03-10|1|1|0
-(él/ella/usted) está | he/she/you is (temporary) |2026-03-10|2026-03-10|0|0|0
-(nosotros) estamos | we are (temporary) |2026-03-10|2026-03-10|0|0|0
-(ellos/ellas/ustedes) están | they/you are (temporary) |2026-03-10|2026-03-10|0|0|0
-tener | to have |2026-03-10|2026-03-10|3|6|0
-(yo) tengo | I have |2026-03-10|2026-03-10|3|6|0
-(tú) tienes | you have |2026-03-10|2026-03-10|2|4|0
-(él/ella/usted) tiene | he/she/you has |2026-03-10|2026-03-10|1|2|0
-(nosotros) tenemos | we have |2026-03-10|2026-03-10|3|3|0
-(ellos/ellas/ustedes) tienen | they/you have |2026-03-10|2026-03-10|2|3|0
-ver | to go |2026-03-10|2026-03-10|3|6|0
-(yo) voy | I go |2026-03-10|2026-03-10|2|4|0
-(tú) vas | you go |2026-03-10|2026-03-10|0|0|0
-(él/ella/usted) va | he/she/you goes |2026-03-10|2026-03-10|1|2|0
-(nosotros) vamos | we go |2026-03-10|2026-03-10|1|2|0
-(ellos/ellas/ustedes) van | they/you go |2026-03-10|2026-03-10|0|0|0
-hacer | to do |2026-03-10|2026-03-10|0|0|0
-(yo) hago | I do |2026-03-10|2026-03-10|0|0|0
-(tú) haces | you do |2026-03-10|2026-03-10|2|4|0
-(él/ella/usted) hace | he/she/you does |2026-03-10|2026-03-10|2|0|0
-(nosotros) hacemos | we do |2026-03-10|2026-03-10|0|0|0
-(ellos/ellas/ustedes) hacen | they/you do |2026-03-10|2026-03-10|0|0|0
-decier | to say |2026-03-10|2026-03-10|0|0|0
-(yo) digo | I say |2026-03-10|2026-03-10|0|0|0
-(tú) dices | you say |2026-03-10|2026-03-10|0|0|0
-(él/ella/usted) dice | he/she/you says |2026-03-10|2026-03-10|1|2|0
-(nosotros) decimos | we say |2026-03-10|2026-03-10|0|0|0
-(ellos/ellas/ustedes) dicen | they/you say |2026-03-10|2026-03-10|0|0|0
-poder | to be able |2026-03-10|2026-03-10|0|0|0
-(yo) puedo | I can |2026-03-10|2026-03-10|0|0|0
-(tú) puedes | you can |2026-03-10|2026-03-10|1|2|0
-(él/ella/usted) puede | he/she/you can |2026-03-10|2026-03-10|3|5|0
-(nosotros) podemos | we can |2026-03-10|2026-03-10|0|0|0
-(ellos/ellas/ustedes) pueden | they/you can |2026-03-10|2026-03-10|1|0|0
-querer | to want |2026-03-10|2026-03-10|0|0|0
-(yo) quiero | I want |2026-03-10|2026-03-10|0|0|0
-(tú) quieres | you want |2026-03-10|2026-03-10|0|0|0
-(él/ella/usted) quiere | he/she/you wants |2026-03-10|2026-03-10|3|3|0
-(nosotros) queremos | we want |2026-03-10|2026-03-10|0|0|0
-(ellos/ellas/ustedes) quieren | they/you want |2026-03-10|2026-03-10|1|1|0
-pensar | to think |2026-03-10|2026-03-10|0|0|0
-(yo) pienso | I think |2026-03-10|2026-03-10|2|4|0
-(tú) piensas | you think |2026-03-10|2026-03-10|1|2|0
-(él/ella/usted) piensa | he/she/you thinks |2026-03-10|2026-03-10|0|0|0
-(nosotros) pensamos | we think |2026-03-10|2026-03-10|0|0|0
-(ellos/ellas/ustedes) piensan | they think |2026-03-10|2026-03-10|2|1|0
-dormir | to sleep |2026-03-10|2026-03-10|0|0|0
-(yo) duermo | I sleep |2026-03-10|2026-03-10|1|2|0
-(tú) duermes | you sleep |2026-03-10|2026-03-10|0|0|0
-(él/ella/usted) duerme | he/she/you sleeps |2026-03-10|2026-03-10|1|1|0
-(nosotros) dormimos | we sleep |2026-03-10|2026-03-10|0|0|0
-(ellos/ellas/ustedes) duermen | they/you sleep |2026-03-10|2026-03-10|0|0|0
-tengo hambre | I am hungry |2026-03-10|2026-03-10|1|2|0
-tengo sed | I am thirsty |2026-03-10|2026-03-10|0|0|0
-tengo frío | I am cold |2026-03-10|2026-03-10|1|2|0
-tengo calor | I am hot |2026-03-10|2026-03-10|1|2|0
-me gusta | I like |2026-03-10|2026-03-10|0|0|0
-no me gusta | I don't like |2026-03-10|2026-03-10|0|0|0
-me gusta el café | I like coffee |2026-03-10|2026-03-10|0|0|0
-me gusta viajar | I like traveling |2026-03-10|2026-03-10|1|0|-1
-quiero aprender español | I want to learn Spanish |2026-03-10|2026-03-10|0|0|0
-necesito practicar | I need to practice |2026-03-10|2026-03-10|0|0|0
-voy al restaurante | I go to the restaurant |2026-03-10|2026-03-10|0|0|0
-estoy en el hotel | I am in the hotel |2026-03-10|2026-03-10|0|0|0
-vamos a comer | let's eat |2026-03-10|2026-03-10|0|0|0
-vamos a viajar | let's travel |2026-03-10|2026-03-10|1|-1|1
-el hombre | man |2026-03-10|2026-03-10|1|2|0
-la mujer | woman |2026-03-10|2026-03-10|0|0|0
-la persona | person |2026-03-10|2026-03-10|1|2|0
-la gente | people |2026-03-10|2026-03-10|3|6|0
-el amigo | friend |2026-03-10|2026-03-10|1|2|0
-la amiga | female friend |2026-03-10|2026-03-10|0|0|0
-el trabajo | work/job |2026-03-10|2026-03-10|2|4|0
-el dinero | money |2026-03-10|2026-03-10|0|0|0
-el tiempo | time/weather |2026-03-10|2026-03-10|1|2|0
-el día | day |2026-03-10|2026-03-10|1|2|0
-la noche | night |2026-03-10|2026-03-10|0|0|0
-la mañana | morning |2026-03-10|2026-03-10|1|2|0
-la tarde | afternoon |2026-03-10|2026-03-10|0|0|0
-la semana | week |2026-03-10|2026-03-10|0|0|0
-el año | year |2026-03-10|2026-03-10|0|0|0
-la hora | hour |2026-03-10|2026-03-10|1|2|0
-el minuto | minute |2026-03-10|2026-03-10|1|0|0
-el segundo | second |2026-03-10|2026-03-10|0|0|0
-la vida | life |2026-03-10|2026-03-10|0|0|0
-el mundo | world |2026-03-10|2026-03-10|0|0|0
-la casa | house |2026-03-10|2026-03-10|1|2|0
-el apartamento | apartment |2026-03-10|2026-03-10|0|0|0
-la habitación | room |2026-03-10|2026-03-10|1|-1|1
-la cocina | kitchen |2026-03-10|2026-03-10|0|0|0
-la puerta | door |2026-03-10|2026-03-10|2|3|0
-la ventana | window |2026-03-10|2026-03-10|1|2|0
-la mesa | table |2026-03-10|2026-03-10|2|1|0
-la silla | chair |2026-03-10|2026-03-10|0|0|0
-la cama | bed |2026-03-10|2026-03-10|0|0|0
-el sofá | sofa |2026-03-10|2026-03-10|1|-1|1
-la televisión | television |2026-03-10|2026-03-10|0|0|0
-el teléfono | phone |2026-03-10|2026-03-10|0|0|0
-la computadora | computer |2026-03-10|2026-03-10|0|0|0
-internet | internet |2026-03-10|2026-03-10|1|0|-1
-el libro | book |2026-03-10|2026-03-10|1|0|-1
-la página | page |2026-03-10|2026-03-10|0|0|0
-la palabra | word |2026-03-10|2026-03-10|0|0|0
-la frase | sentence |2026-03-10|2026-03-10|0|0|0
-la pregunta | question |2026-03-10|2026-03-10|2|4|0
-la respuesta | answer |2026-03-10|2026-03-10|3|-1|1
-el problema | problem |2026-03-10|2026-03-10|1|0|0
-la solución | solution |2026-03-10|2026-03-10|1|2|0
-la idea | idea |2026-03-10|2026-03-10|2|3|0
-el ejemplo | example |2026-03-10|2026-03-10|0|0|0
-la historia | story |2026-03-10|2026-03-10|0|0|0
-importante | important |2026-03-10|2026-03-10|1|2|0
-posible | possible |2026-03-10|2026-03-10|0|0|0
-necesario | necessary |2026-03-10|2026-03-10|1|2|0
-diferente | different |2026-03-10|2026-03-10|0|0|0
-igual | equal |2026-03-10|2026-03-10|2|0|0
-seguro | sure |2026-03-10|2026-03-10|0|0|0
-claro | clear / of course |2026-03-10|2026-03-10|1|2|0
-listo | ready |2026-03-10|2026-03-10|0|0|0
-cansado | tired |2026-03-10|2026-03-10|0|0|0
-enfermo | sick |2026-03-10|2026-03-10|1|-1|1
-sano | healthy |2026-03-10|2026-03-10|0|0|0
-fuerte | strong |2026-03-10|2026-03-10|0|0|0
-débil | weak |2026-03-10|2026-03-10|0|0|0
-abierto | open |2026-03-10|2026-03-10|0|0|0
-cerrado | closed |2026-03-10|2026-03-10|0|0|0
-lleno | full |2026-03-10|2026-03-10|1|-1|1
-vacío | empty |2026-03-10|2026-03-10|0|0|0
-limpio | clean |2026-03-10|2026-03-10|0|0|0
-sucio | dirty |2026-03-10|2026-03-10|2|1|0
-interesante | interesting |2026-03-10|2026-03-10|0|0|0
-aburrido | boring |2026-03-10|2026-03-10|3|-2|1
-¿qué pasa? | what's happening? |2026-03-10|2026-03-10|4|0|0
-¿qué estás haciendo? | what are you doing? |2026-03-10|2026-03-10|0|0|0
-¿qué quieres decir? | what do you mean? |2026-03-10|2026-03-10|1|0|0
-no hay problema | no problem |2026-03-10|2026-03-10|2|-2|1
-no importa | it doesn't matter |2026-03-10|2026-03-10|0|0|0
-claro que sí | of course |2026-03-10|2026-03-10|0|0|0
-claro que no | of course not |2026-03-10|2026-03-10|0|0|0
-por supuesto | of course |2026-03-10|2026-03-10|0|0|0
-tal vez | maybe |2026-03-10|2026-03-10|2|-2|1
-puede ser | maybe / could be |2026-03-10|2026-03-10|1|-1|1
-ya veo | I see (Ahhh) |2026-03-10|2026-03-10|0|0|0
-ya entiendo | now I understand |2026-03-10|2026-03-10|0|0|0
-tienes razón | you are right |2026-03-10|2026-03-10|0|0|0
-no estoy seguro | I'm not sure |2026-03-10|2026-03-10|1|-1|1
-no lo sé | I don't know |2026-03-10|2026-03-10|1|-1|1
-lo sé | I know |2026-03-10|2026-03-10|2|1|0
-creo que sí | I think so |2026-03-10|2026-03-10|4|1|0
-creo que no | I don't think so |2026-03-10|2026-03-10|0|0|0
-depende | it depends |2026-03-10|2026-03-10|4|-2|1
-qué bueno | that's good |2026-03-10|2026-03-10|2|-2|1
-qué lástima | what a shame |2026-03-10|2026-03-10|1|-1|1
-qué suerte | how lucky |2026-03-10|2026-03-10|1|-1|1
-buen trabajo | good job |2026-03-10|2026-03-10|2|0|0
-bien hecho | well done |2026-03-10|2026-03-10|0|0|0
-más o menos así | more or less like that |2026-03-10|2026-03-10|0|0|0
-tengo mucho trabajo hoy | I have a lot of work today |2026-03-10|2026-03-10|1|2|0
-no tengo tiempo ahora | I don't have time now |2026-03-10|2026-03-10|1|2|0
-quiero aprender más español | I want to learn more Spanish |2026-03-10|2026-03-10|0|0|0
-estoy muy cansado hoy | I am very tired today |2026-03-10|2026-03-10|2|-2|1
-necesito descansar | I need to rest |2026-03-10|2026-03-10|0|0|0
-vamos a comer algo | let's eat something |2026-03-10|2026-03-10|0|0|0
-voy a salir ahora | I'm going out now |2026-03-10|2026-03-10|0|0|0
-vuelvo en una hora | I'll come back in an hour |2026-03-10|2026-03-10|1|-1|1
-estoy en casa | I am at home |2026-03-10|2026-03-10|1|-1|1
-estoy en el trabajo | I am at work |2026-03-10|2026-03-10|3|1|0
-estoy con amigos | I am with friends |2026-03-10|2026-03-10|0|0|0
-hace mucho frío | it's very cold |2026-03-10|2026-03-10|1|-1|1
-hace mucho calor | it's very hot |2026-03-10|2026-03-10|0|0|0
-hoy hace buen tiempo | the weather is nice today |2026-03-10|2026-03-10|0|0|0
-mañana trabajo | tomorrow I work |2026-03-10|2026-03-10|0|0|0
-ayer salí con amigos | yesterday I went out with friends |2026-03-10|2026-03-10|0|0|0
-me gusta esta ciudad | I like this city |2026-03-10|2026-03-10|3|3|-1
-no me gusta este restaurante | I don't like this restaurant |2026-03-10|2026-03-10|0|0|0
-este lugar es bonito | this place is beautiful |2026-03-10|2026-03-10|0|0|0
-la comida está muy buena | the food is very good |2026-03-10|2026-03-10|1|-1|1
-trabajar | to work |2026-03-10|2026-03-10|1|2|0
-vivir | to live |2026-03-10|2026-03-10|1|-1|1
-viajar | to travel |2026-03-10|2026-03-10|1|2|0
-comprar | to buy |2026-03-10|2026-03-10|0|0|0
-vender | to sell |2026-03-10|2026-03-10|3|-3|1
-pagar | to pay |2026-03-10|2026-03-10|2|3|0
-usar | to use |2026-03-10|2026-03-10|1|1|0
-necesitar | to need |2026-03-10|2026-03-10|1|2|0
-buscar | to look for |2026-03-10|2026-03-10|1|-1|1
-encontrar | to find |2026-03-10|2026-03-10|0|0|0
-perder | to lose |2026-03-10|2026-03-10|0|0|0
-ganar | to win / earn |2026-03-10|2026-03-10|0|0|0
-abrir | to open |2026-03-10|2026-03-10|0|0|0
-cerrar | to close |2026-03-10|2026-03-10|1|2|0
-entrar | to enter |2026-03-10|2026-03-10|0|0|0
-salir | to leave / go out |2026-03-10|2026-03-10|0|0|0
-llegar | to arrive |2026-03-10|2026-03-10|0|0|0
-volver | to return |2026-03-10|2026-03-10|0|0|0
-quedarse | to stay |2026-03-10|2026-03-10|1|-1|1
-empezar | to start |2026-03-10|2026-03-10|1|-1|1
-terminar | to finish |2026-03-10|2026-03-10|0|0|0
-intentar | to try |2026-03-10|2026-03-10|5|-4|1
-recordar | to remember |2026-03-10|2026-03-10|0|0|0
-olvidar | to forget |2026-03-10|2026-03-10|0|0|0
-aprender | to learn |2026-03-10|2026-03-10|0|0|0
-enseñar | to teach |2026-03-10|2026-03-10|0|0|0
-leer | to read |2026-03-10|2026-03-10|2|4|0
-escribir | to write |2026-03-10|2026-03-10|2|1|0
-escuchar | to listen |2026-03-10|2026-03-10|1|2|0
-mirar | to look |2026-03-10|2026-03-10|1|-1|1
-ver | to see |2026-03-10|2026-03-10|1|2|0
-creer | to believe |2026-03-10|2026-03-10|0|0|0
-saber | to know (a fact) |2026-03-10|2026-03-10|1|2|0
-conocer | to know (a person/place) |2026-03-10|2026-03-10|0|0|0
-entender | to understand |2026-03-10|2026-03-10|2|0|0
-preguntar | to ask |2026-03-10|2026-03-10|1|2|0
-responder | to answer |2026-03-10|2026-03-10|1|-1|1
-explicar | to explain |2026-03-10|2026-03-10|3|3|0
-mostrar | to show |2026-03-10|2026-03-10|0|0|0
-cambiar | to change |2026-03-10|2026-03-10|1|2|0
-mejorar | to improve |2026-03-10|2026-03-10|0|0|0
-empeorar | to get worse |2026-03-10|2026-03-10|0|0|0
-rápidamente | quickly |2026-03-10|2026-03-10|1|0|0
-lentamente | slowly |2026-03-10|2026-03-10|2|4|0
-generalmente | generally |2026-03-10|2026-03-10|0|0|0
-normalmente | normally |2026-03-10|2026-03-10|0|0|0
-especialmente | especially |2026-03-10|2026-03-10|0|0|0
-¿qué quieres hacer? | what do you want to do? |2026-03-10|2026-03-10|0|0|0
-¿qué piensas? | what do you think? |2026-03-10|2026-03-10|1|2|0
-¿te gusta? | do you like it? |2026-03-10|2026-03-10|0|0|0
-me parece bien | that seems good to me |2026-03-10|2026-03-10|2|0|0
-me parece interesante | that seems interesting |2026-03-10|2026-03-10|1|-1|1
-eso es verdad | that's true |2026-03-10|2026-03-10|2|-2|1
-no estoy de acuerdo | I don't agree |2026-03-10|2026-03-10|1|-1|1
-estoy de acuerdo | I agree |2026-03-10|2026-03-10|0|0|0
-no estoy seguro de eso | I'm not sure about that |2026-03-10|2026-03-10|0|0|0
-eso depende | that depends |2026-03-10|2026-03-10|0|0|0
-todo está bien | everything is fine |2026-03-10|2026-03-10|0|0|0
-todo está listo | everything is ready |2026-03-10|2026-03-10|0|0|0
-vamos a ver | let's see |2026-03-10|2026-03-10|3|0|0
-vamos poco a poco | let's go little by little |2026-03-10|2026-03-10|1|1|0
-un momento | one moment |2026-03-10|2026-03-10|0|0|0
-espera un segundo | wait a second |2026-03-10|2026-03-10|2|-2|1
-dame un minuto | give me a minute |2026-03-10|2026-03-10|0|0|0
-no tengo idea | I have no idea |2026-03-10|2026-03-10|1|-1|1
-es una buena idea | it's a good idea |2026-03-10|2026-03-10|1|0|0
-es mala idea | it's a bad idea |2026-03-10|2026-03-10|1|0|0
-no pasa nada | nothing happens / it's fine |2026-03-10|2026-03-10|1|-1|1
-qué interesante | how interesting |2026-03-10|2026-03-10|1|2|0
-qué raro | how strange |2026-03-10|2026-03-10|1|-1|1
-qué divertido | how fun |2026-03-10|2026-03-10|2|1|0
-qué problema | what a problem |2026-03-10|2026-03-10|0|0|0
-trabajo desde casa | I work from home |2026-03-10|2026-03-10|2|-2|1
-trabajo en una oficina | I work in an office |2026-03-10|2026-03-10|0|0|0
-viajo mucho por trabajo | I travel a lot for work |2026-03-10|2026-03-10|0|0|0
-aprendo algo nuevo cada día | I learn something new every day |2026-03-10|2026-03-10|1|1|0
-leo noticias en español | I read news in Spanish |2026-03-10|2026-03-10|1|-1|1
-escucho podcasts en español | I listen to podcasts in Spanish |2026-03-10|2026-03-10|0|0|0
-quiero vivir en España | I want to live in Spain |2026-03-10|2026-03-10|2|2|-1
-me gusta aprender idiomas | I like learning languages |2026-03-10|2026-03-10|0|0|0
-hablo español todos los días | I speak Spanish every day |2026-03-10|2026-03-10|2|-1|1
-practico con amigos | I practice with friends |2026-03-10|2026-03-10|1|2|0
-necesito más práctica | I need more practice |2026-03-10|2026-03-10|0|0|0
-entiendo un poco | I understand a little |2026-03-10|2026-03-10|0|0|0
-no entiendo todo | I don't understand everything |2026-03-10|2026-03-10|2|-1|1
-puedo intentar otra vez | I can try again |2026-03-10|2026-03-10|0|0|0
-vamos al mercado | let's go to the market |2026-03-10|2026-03-10|1|0|-1
-vamos a caminar | let's go for a walk |2026-03-10|2026-03-10|2|-2|1
-vamos a tomar un café | let's get a coffee |2026-03-10|2026-03-10|0|0|0
-voy al supermercado | I go to the supermarket |2026-03-10|2026-03-10|0|0|0
-compro comida | I buy food |2026-03-10|2026-03-10|0|0|0
-preparo la cena | I prepare dinner |2026-03-10|2026-03-10|0|0|0
-abro la puerta | I open the door |2026-03-10|2026-03-10|0|0|0
-cierro la ventana | I close the window |2026-03-10|2026-03-10|1|0|0
-llego temprano | I arrive early |2026-03-10|2026-03-10|0|0|0
-salgo tarde del trabajo | I leave work late |2026-03-10|2026-03-10|4|-4|1
-me quedo en casa hoy | I stay home today |2026-03-10|2026-03-10|0|0|0
-bastante | quite |2026-03-10|2026-03-10|0|0|0
-la sonrisa | smile |2026-03-10|2026-03-10|0|0|0
-sonreír | to smile |2026-03-10|2026-03-10|0|0|0
-entonces | then |2026-03-10|2026-03-10|0|0|0
-el reloj | watch / clock |2026-03-10|2026-03-10|0|0|0
-volveré | I will return |2026-03-10|2026-03-10|0|0|0
+#front|back|emoji|category|added|lastSeen|seen|score|enabled
+hola | hello |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+buenos días | good morning |  | phrase | 2026-03-10|2026-03-10|1|2|true
+buenas tardes | good afternoon |  | phrase | 2026-03-10|2026-03-10|1|1|true
+buenas noches | good evening / good night |  | phrase | 2026-03-10|2026-03-10|0|0|true
+adiós | goodbye |  | miscellaneous | 2026-03-10|2026-03-10|1|0|false
+hasta luego | see you later |  | phrase | 2026-03-10|2026-03-09|1|2|true
+hasta mañana | see you tomorrow |  | phrase | 2026-03-10|2026-03-10|0|0|true
+nos vemos | see you |  | phrase | 2026-03-10|2026-03-10|2|-2|true
+por favor | please |  | phrase | 2026-03-10|2026-03-10|1|0|false
+gracias | thank you |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+muchas gracias | thank you very much |  | phrase | 2026-03-10|2026-03-10|0|0|true
+de nada | you're welcome |  | phrase | 2026-03-10|2026-03-10|0|0|true
+perdón | excuse me (light sorry) |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+lo siento | I'm sorry (strong sorry) |  | phrase | 2026-03-10|2026-03-10|0|0|true
+con permiso | excuse me (passing by) |  | phrase | 2026-03-10|2026-03-10|1|0|true
+¿cómo estás? | how are you? |  | question word | 2026-03-10|2026-03-10|0|0|true
+¿cómo está usted? | how are you (formal)? |  | question word | 2026-03-10|2026-03-10|0|0|true
+estoy bien | I am well |  | verb form | 2026-03-10|2026-03-10|0|0|true
+más o menos | so-so |  | conjunction | 2026-03-10|2026-03-10|1|-1|true
+muy bien | very well |  | phrase | 2026-03-10|2026-03-10|2|4|true
+¿qué tal? | how's it going? |  | question word | 2026-03-10|2026-03-10|2|4|true
+mucho gusto | nice to meet you |  | phrase | 2026-03-10|2026-03-10|0|0|true
+encantado | pleased to meet you |  | miscellaneous | 2026-03-10|2026-03-10|1|2|true
+¿de dónde eres? | where are you from? |  | question word | 2026-03-10|2026-03-10|0|0|true
+soy de Canadá | I am from Canada |  | verb form | 2026-03-10|2026-03-10|1|2|true
+¿dónde está el baño? | where is the bathroom? |  | question word | 2026-03-10|2026-03-10|4|3|true
+¿cuánto cuesta? | how much does it cost? |  | phrase | 2026-03-10|2026-03-10|1|2|true
+la cuenta, por favor | the bill please |  | noun | 2026-03-10|2026-03-10|0|0|true
+¿habla inglés? | do you speak English? |  | phrase | 2026-03-10|2026-03-10|2|0|false
+no entiendo | I don't understand |  | verb form | 2026-03-10|2026-03-10|0|0|true
+¿puede repetir? | can you repeat? |  | phrase | 2026-03-10|2026-03-10|2|3|true
+¿puede hablar más despacio? | can you speak more slowly? |  | phrase | 2026-03-10|2026-03-10|2|1|true
+hablo un poco de español | I speak a little Spanish |  | verb form | 2026-03-10|2026-03-10|2|4|true
+¿qué significa? | what does it mean? |  | question word | 2026-03-10|2026-03-10|2|0|true
+¿cómo se dice...? | how do you say...? |  | question word | 2026-03-10|2026-03-10|0|0|true
+¿qué hora es? | what time is it? |  | question word | 2026-03-10|2026-03-10|0|0|true
+¿dónde está el hotel? | where is the hotel? |  | question word | 2026-03-10|2026-03-10|1|2|true
+¿dónde está el restaurante? | where is the restaurant? |  | question word | 2026-03-10|2026-03-10|0|0|true
+necesito ayuda | I need help |  | verb form | 2026-03-10|2026-03-09|2|4|true
+estoy perdido | I am lost |  | verb form | 2026-03-10|2026-03-10|1|-1|true
+¿qué? | what |  | question word | 2026-03-10|2026-03-10|1|2|true
+¿quién? | who |  | question word | 2026-03-10|2026-03-10|1|2|true
+¿quiénes? | who (plural) |  | question word | 2026-03-10|2026-03-10|1|2|true
+¿dónde? | where |  | question word | 2026-03-10|2026-03-10|2|2|false
+¿cuándo? | when |  | question word | 2026-03-10|2026-03-10|0|0|true
+¿por qué? | why |  | question word | 2026-03-10|2026-03-10|2|4|true
+¿cómo? | how |  | question word | 2026-03-10|2026-03-10|2|1|true
+¿cuánto? | how much |  | phrase | 2026-03-10|2026-03-10|0|0|true
+¿cuántos? | how many |  | phrase | 2026-03-10|2026-03-10|0|0|true
+¿cuál? | which |  | phrase | 2026-03-10|2026-03-10|0|0|true
+¿cuáles? | which (plural) |  | phrase | 2026-03-10|2026-03-10|0|0|true
+cero | zero |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+uno | one |  | miscellaneous | 2026-03-10|2026-03-10|1|2|true
+dos | two |  | miscellaneous | 2026-03-10|2026-03-10|1|0|false
+tres | three |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+cuatro | four |  | miscellaneous | 2026-03-10|2026-03-10|1|0|true
+cinco | five |  | miscellaneous | 2026-03-10|2026-03-10|1|0|false
+seis | six |  | miscellaneous | 2026-03-10|2026-03-10|1|2|true
+siete | seven |  | miscellaneous | 2026-03-10|2026-03-10|2|4|true
+ocho | eight |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+nueve | nine |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+diez | ten |  | miscellaneous | 2026-03-10|2026-03-10|1|0|false
+once | eleven |  | miscellaneous | 2026-03-10|2026-03-10|1|0|false
+doce | twelve |  | miscellaneous | 2026-03-10|2026-03-10|1|2|true
+trece | thirteen |  | miscellaneous | 2026-03-10|2026-03-10|1|0|true
+catorce | fourteen |  | miscellaneous | 2026-03-10|2026-03-10|2|4|true
+quince | fifteen |  | miscellaneous | 2026-03-10|2026-03-10|1|1|true
+veinte | twenty |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+treinta | thirty |  | miscellaneous | 2026-03-10|2026-03-10|1|0|true
+cuarenta | forty |  | miscellaneous | 2026-03-10|2026-03-10|1|2|true
+cincuenta | fifty |  | miscellaneous | 2026-03-10|2026-03-10|2|1|true
+cien | one hundred |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+lunes | Monday |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+martes | Tuesday |  | miscellaneous | 2026-03-10|2026-03-10|3|5|true
+miércoles | Wednesday |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+jueves | Thursday |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+viernes | Friday |  | miscellaneous | 2026-03-10|2026-03-10|1|2|true
+sábado | Saturday |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+domingo | Sunday |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+enero | January |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+febrero | February |  | miscellaneous | 2026-03-10|2026-03-10|1|1|true
+marzo | March |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+abril | April |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+mayo | May |  | miscellaneous | 2026-03-10|2026-03-10|3|5|true
+junio | June |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+julio | July |  | miscellaneous | 2026-03-10|2026-03-10|1|2|true
+agosto | August |  | miscellaneous | 2026-03-10|2026-03-10|1|0|true
+septiembre | September |  | miscellaneous | 2026-03-10|2026-03-10|1|2|true
+octubre | October |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+noviembre | November |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+diciembre | December |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+la familia | family |  | noun | 2026-03-10|2026-03-10|2|4|true
+el padre | father |  | noun | 2026-03-10|2026-03-09|1|2|true
+la madre | mother |  | noun | 2026-03-10|2026-03-10|1|0|false
+el hermano | brother |  | noun | 2026-03-10|2026-03-10|0|0|true
+la hermana | sister |  | noun | 2026-03-10|2026-03-10|1|0|false
+el abuelo | grandfather |  | noun | 2026-03-10|2026-03-10|0|0|true
+la abuela | grandmother |  | noun | 2026-03-10|2026-03-10|1|2|true
+el hijo | son |  | noun | 2026-03-10|2026-03-10|2|4|true
+la hija | daughter |  | noun | 2026-03-10|2026-03-10|0|0|true
+el tío | uncle |  | noun | 2026-03-10|2026-03-10|0|0|true
+la tía | aunt |  | noun | 2026-03-10|2026-03-10|1|2|true
+el primo | cousin |  | noun | 2026-03-10|2026-03-10|1|2|true
+la prima | cousin (female) |  | noun | 2026-03-10|2026-03-10|0|0|true
+el restaurante | restaurant |  | noun | 2026-03-10|2026-03-10|1|2|true
+el café | coffee | ☕ | noun | 2026-03-10|2026-03-10|1|2|true
+el té | tea |  | noun | 2026-03-10|2026-03-10|1|2|true
+el agua | water |  | noun | 2026-03-10|2026-03-10|1|0|false
+la cerveza | beer | 🍺 | noun | 2026-03-10|2026-03-10|1|2|true
+el vino | wine | 🍷 | noun | 2026-03-10|2026-03-10|1|2|true
+el desayuno | breakfast |  | noun | 2026-03-10|2026-03-10|2|4|true
+el almuerzo | lunch |  | noun | 2026-03-10|2026-03-10|0|0|true
+la cena | dinner |  | noun | 2026-03-10|2026-03-10|0|0|true
+el pan | bread | 🍞 | noun | 2026-03-10|2026-03-10|0|0|true
+el arroz | rice |  | noun | 2026-03-10|2026-03-10|0|0|true
+la carne | meat |  | noun | 2026-03-10|2026-03-10|0|0|true
+el pollo | chicken |  | noun | 2026-03-10|2026-03-10|0|0|true
+el pescado | fish | 🐟 | noun | 2026-03-10|2026-03-10|0|0|true
+la fruta | fruit |  | noun | 2026-03-10|2026-03-10|1|2|true
+la manzana | apple | 🍎 | noun | 2026-03-10|2026-03-10|0|0|true
+la naranja | orange | 🍊 | noun | 2026-03-10|2026-03-10|0|0|true
+la ensalada | salad |  | noun | 2026-03-10|2026-03-10|1|0|true
+el queso | cheese |  | noun | 2026-03-10|2026-03-10|0|0|true
+el huevo | egg |  | noun | 2026-03-10|2026-03-10|0|0|true
+la leche | milk |  | noun | 2026-03-10|2026-03-10|2|4|true
+el azúcar | sugar |  | noun | 2026-03-10|2026-03-10|0|0|true
+la sal | salt |  | noun | 2026-03-10|2026-03-10|1|2|true
+el aeropuerto | airport | ⚓ | noun | 2026-03-10|2026-03-10|1|2|true
+el hotel | hotel |  | noun | 2026-03-10|2026-03-10|1|2|true
+la estación | station |  | noun | 2026-03-10|2026-03-10|1|2|true
+el tren | train | 🚆 | noun | 2026-03-10|2026-03-10|1|2|true
+el autobús | bus |  | noun | 2026-03-10|2026-03-10|2|2|false
+el taxi | taxi |  | noun | 2026-03-10|2026-03-10|0|0|true
+el boleto | ticket |  | noun | 2026-03-10|2026-03-10|0|0|true
+la reserva | reservation |  | noun | 2026-03-10|2026-03-10|2|2|true
+la maleta | suitcase |  | noun | 2026-03-10|2026-03-10|3|1|true
+el pasaporte | passport |  | noun | 2026-03-10|2026-03-10|0|0|true
+el mapa | map |  | noun | 2026-03-10|2026-03-10|0|0|true
+la calle | street |  | noun | 2026-03-10|2026-03-10|1|2|true
+la ciudad | city |  | noun | 2026-03-10|2026-03-10|0|0|true
+el país | country |  | noun | 2026-03-10|2026-03-10|0|0|true
+el mercado | market |  | noun | 2026-03-10|2026-03-10|1|2|true
+la tienda | store |  | noun | 2026-03-10|2026-03-10|1|2|true
+grande | big |  | miscellaneous | 2026-03-10|2026-03-10|1|0|false
+pequeño | small |  | miscellaneous | 2026-03-10|2026-03-10|1|0|false
+bueno | good |  | miscellaneous | 2026-03-10|2026-03-10|1|2|true
+malo | bad |  | miscellaneous | 2026-03-10|2026-03-10|1|0|true
+bonito | pretty |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+feo | ugly |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+nuevo | new |  | miscellaneous | 2026-03-10|2026-03-10|1|2|true
+viejo | old |  | miscellaneous | 2026-03-10|2026-03-10|1|2|true
+fácil | easy |  | miscellaneous | 2026-03-10|2026-03-10|1|2|true
+difícil | difficult |  | miscellaneous | 2026-03-10|2026-03-10|1|0|false
+rápido | fast |  | miscellaneous | 2026-03-10|2026-03-10|1|2|true
+lento | slow |  | miscellaneous | 2026-03-10|2026-03-10|2|0|true
+caro | expensive |  | miscellaneous | 2026-03-10|2026-03-10|1|2|true
+barato | cheap |  | miscellaneous | 2026-03-10|2026-03-10|1|1|true
+feliz | happy |  | miscellaneous | 2026-03-10|2026-03-10|1|2|true
+triste | sad |  | miscellaneous | 2026-03-10|2026-03-10|1|2|true
+ocupado | busy |  | miscellaneous | 2026-03-10|2026-03-10|2|4|true
+libre | free |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+(yo) hablo | I speak |  | verb form | 2026-03-10|2026-03-10|0|0|true
+(tú) hablas | you speak |  | phrase | 2026-03-10|2026-03-10|2|2|true
+(él/ella/usted) habla | he/she/you speaks |  | phrase | 2026-03-10|2026-03-10|1|0|true
+(nosotros) hablamos | we speak |  | verb form | 2026-03-10|2026-03-10|1|1|true
+(ellos/ellas/ustedes) hablan | they/you speak |  | phrase | 2026-03-10|2026-03-10|0|0|true
+(yo) como | I eat |  | verb form | 2026-03-10|2026-03-10|2|4|true
+(tú) comes | you eat |  | phrase | 2026-03-10|2026-03-10|0|0|true
+(él/ella/usted) come | he/she/you eats |  | phrase | 2026-03-10|2026-03-10|3|4|true
+(nosotros) comemos | we eat |  | verb form | 2026-03-10|2026-03-10|0|0|true
+(ellos/ellas/ustedes) comen | they/you eat |  | phrase | 2026-03-10|2026-03-10|0|0|true
+(yo) vivo | I live |  | verb form | 2026-03-10|2026-03-10|0|0|true
+(tú) vives | you live |  | phrase | 2026-03-10|2026-03-10|2|3|true
+(él/ella/usted) vive | he/she/you lives |  | phrase | 2026-03-10|2026-03-10|0|0|true
+(nosotros) vivimos | we live |  | verb form | 2026-03-10|2026-03-10|0|0|true
+(ellos/ellas/ustedes) viven | they/you live |  | phrase | 2026-03-10|2026-03-10|2|4|true
+(yo) soy | I am |  | verb form | 2026-03-10|2026-03-10|1|1|true
+(tú) eres | you are |  | phrase | 2026-03-10|2026-03-10|1|-1|true
+(él/ella/usted) es | he/she/you is |  | phrase | 2026-03-10|2026-03-10|1|1|true
+(nosotros) somos | we are |  | verb form | 2026-03-10|2026-03-10|0|0|true
+(ellos/ellas/ustedes) son | they/you are |  | phrase | 2026-03-10|2026-03-10|0|0|true
+(yo) estoy | I am (temporary) |  | verb form | 2026-03-10|2026-03-10|0|0|true
+(tú) estás | you are (temporary) |  | phrase | 2026-03-10|2026-03-10|1|1|true
+(él/ella/usted) está | he/she/you is (temporary) |  | phrase | 2026-03-10|2026-03-10|0|0|true
+(nosotros) estamos | we are (temporary) |  | verb form | 2026-03-10|2026-03-10|0|0|true
+(ellos/ellas/ustedes) están | they/you are (temporary) |  | phrase | 2026-03-10|2026-03-10|0|0|true
+(yo) tengo | I have |  | verb form | 2026-03-10|2026-03-10|3|6|true
+(tú) tienes | you have |  | phrase | 2026-03-10|2026-03-10|2|4|true
+(él/ella/usted) tiene | he/she/you has |  | phrase | 2026-03-10|2026-03-10|1|2|true
+(nosotros) tenemos | we have |  | verb form | 2026-03-10|2026-03-10|3|3|true
+(ellos/ellas/ustedes) tienen | they/you have |  | phrase | 2026-03-10|2026-03-10|2|3|true
+(yo) voy | I go |  | verb form | 2026-03-10|2026-03-10|2|4|true
+(tú) vas | you go |  | phrase | 2026-03-10|2026-03-10|0|0|true
+(él/ella/usted) va | he/she/you goes |  | phrase | 2026-03-10|2026-03-10|1|2|true
+(nosotros) vamos | we go |  | verb form | 2026-03-10|2026-03-10|1|2|true
+(ellos/ellas/ustedes) van | they/you go |  | phrase | 2026-03-10|2026-03-10|0|0|true
+(yo) hago | I do |  | verb form | 2026-03-10|2026-03-10|0|0|true
+(tú) haces | you do |  | phrase | 2026-03-10|2026-03-10|2|4|true
+(él/ella/usted) hace | he/she/you does |  | phrase | 2026-03-10|2026-03-10|2|0|true
+(nosotros) hacemos | we do |  | verb form | 2026-03-10|2026-03-10|0|0|true
+(ellos/ellas/ustedes) hacen | they/you do |  | phrase | 2026-03-10|2026-03-10|0|0|true
+(yo) digo | I say |  | verb form | 2026-03-10|2026-03-10|0|0|true
+(tú) dices | you say |  | phrase | 2026-03-10|2026-03-10|0|0|true
+(él/ella/usted) dice | he/she/you says |  | phrase | 2026-03-10|2026-03-10|1|2|true
+(nosotros) decimos | we say |  | verb form | 2026-03-10|2026-03-10|0|0|true
+(ellos/ellas/ustedes) dicen | they/you say |  | phrase | 2026-03-10|2026-03-10|0|0|true
+(yo) puedo | I can |  | verb form | 2026-03-10|2026-03-10|0|0|true
+(tú) puedes | you can |  | phrase | 2026-03-10|2026-03-10|1|2|true
+(él/ella/usted) puede | he/she/you can |  | phrase | 2026-03-10|2026-03-10|3|5|true
+(nosotros) podemos | we can |  | verb form | 2026-03-10|2026-03-10|0|0|true
+(ellos/ellas/ustedes) pueden | they/you can |  | phrase | 2026-03-10|2026-03-10|1|0|true
+(yo) quiero | I want |  | verb form | 2026-03-10|2026-03-10|0|0|true
+(tú) quieres | you want |  | phrase | 2026-03-10|2026-03-10|0|0|true
+(él/ella/usted) quiere | he/she/you wants |  | phrase | 2026-03-10|2026-03-10|3|3|true
+(nosotros) queremos | we want |  | verb form | 2026-03-10|2026-03-10|0|0|true
+(ellos/ellas/ustedes) quieren | they/you want |  | phrase | 2026-03-10|2026-03-10|1|1|true
+(yo) pienso | I think |  | verb form | 2026-03-10|2026-03-10|2|4|true
+(tú) piensas | you think |  | phrase | 2026-03-10|2026-03-10|1|2|true
+(él/ella/usted) piensa | he/she/you thinks |  | phrase | 2026-03-10|2026-03-10|0|0|true
+(nosotros) pensamos | we think |  | verb form | 2026-03-10|2026-03-10|0|0|true
+(ellos/ellas/ustedes) piensan | they think |  | verb form | 2026-03-10|2026-03-10|2|1|true
+(yo) duermo | I sleep |  | verb form | 2026-03-10|2026-03-10|1|2|true
+(tú) duermes | you sleep |  | phrase | 2026-03-10|2026-03-10|0|0|true
+(él/ella/usted) duerme | he/she/you sleeps |  | phrase | 2026-03-10|2026-03-10|1|1|true
+(nosotros) dormimos | we sleep |  | verb form | 2026-03-10|2026-03-10|0|0|true
+(ellos/ellas/ustedes) duermen | they/you sleep |  | phrase | 2026-03-10|2026-03-10|0|0|true
+tengo hambre | I am hungry |  | verb form | 2026-03-10|2026-03-10|1|2|true
+tengo sed | I am thirsty |  | verb form | 2026-03-10|2026-03-10|0|0|true
+tengo frío | I am cold |  | verb form | 2026-03-10|2026-03-10|1|2|true
+tengo calor | I am hot |  | verb form | 2026-03-10|2026-03-10|1|2|true
+me gusta | I like |  | verb form | 2026-03-10|2026-03-10|0|0|true
+no me gusta | I don't like |  | verb form | 2026-03-10|2026-03-10|0|0|true
+me gusta el café | I like coffee | ☕ | verb form | 2026-03-10|2026-03-10|0|0|true
+me gusta viajar | I like traveling |  | verb form | 2026-03-10|2026-03-10|1|0|false
+quiero aprender español | I want to learn Spanish |  | verb form | 2026-03-10|2026-03-10|0|0|true
+necesito practicar | I need to practice |  | verb form | 2026-03-10|2026-03-10|0|0|true
+voy al restaurante | I go to the restaurant |  | verb form | 2026-03-10|2026-03-10|0|0|true
+estoy en el hotel | I am in the hotel |  | verb form | 2026-03-10|2026-03-10|0|0|true
+vamos a comer | let's eat |  | phrase | 2026-03-10|2026-03-10|0|0|true
+vamos a viajar | let's travel |  | phrase | 2026-03-10|2026-03-10|1|-1|true
+el hombre | man |  | noun | 2026-03-10|2026-03-10|1|2|true
+la mujer | woman |  | noun | 2026-03-10|2026-03-10|0|0|true
+la persona | person |  | noun | 2026-03-10|2026-03-10|1|2|true
+la gente | people |  | noun | 2026-03-10|2026-03-10|3|6|true
+el amigo | friend |  | noun | 2026-03-10|2026-03-10|1|2|true
+la amiga | female friend |  | noun | 2026-03-10|2026-03-10|0|0|true
+el trabajo | work/job |  | noun | 2026-03-10|2026-03-10|2|4|true
+el dinero | money | 💰 | noun | 2026-03-10|2026-03-10|0|0|true
+el tiempo | time/weather |  | noun | 2026-03-10|2026-03-10|1|2|true
+el día | day |  | noun | 2026-03-10|2026-03-10|1|2|true
+la noche | night |  | noun | 2026-03-10|2026-03-10|0|0|true
+la mañana | morning |  | noun | 2026-03-10|2026-03-10|1|2|true
+la tarde | afternoon |  | noun | 2026-03-10|2026-03-10|0|0|true
+la semana | week |  | noun | 2026-03-10|2026-03-10|0|0|true
+el año | year |  | noun | 2026-03-10|2026-03-10|0|0|true
+la hora | hour |  | noun | 2026-03-10|2026-03-10|1|2|true
+el minuto | minute |  | noun | 2026-03-10|2026-03-10|1|0|true
+el segundo | second |  | noun | 2026-03-10|2026-03-10|0|0|true
+la vida | life |  | noun | 2026-03-10|2026-03-10|0|0|true
+el mundo | world |  | noun | 2026-03-10|2026-03-10|0|0|true
+la casa | house | 🏠 | noun | 2026-03-10|2026-03-10|1|2|true
+el apartamento | apartment |  | noun | 2026-03-10|2026-03-10|0|0|true
+la habitación | room |  | noun | 2026-03-10|2026-03-10|1|-1|true
+la cocina | kitchen |  | noun | 2026-03-10|2026-03-10|0|0|true
+la puerta | door | 🚪 | noun | 2026-03-10|2026-03-10|2|3|true
+la ventana | window |  | noun | 2026-03-10|2026-03-10|1|2|true
+la mesa | table | 🍽️ | noun | 2026-03-10|2026-03-10|2|1|true
+la silla | chair | 🪑 | noun | 2026-03-10|2026-03-10|0|0|true
+la cama | bed |  | noun | 2026-03-10|2026-03-10|0|0|true
+el sofá | sofa |  | noun | 2026-03-10|2026-03-10|1|-1|true
+la televisión | television |  | noun | 2026-03-10|2026-03-10|0|0|true
+el teléfono | phone | 📱 | noun | 2026-03-10|2026-03-10|0|0|true
+la computadora | computer | 💻 | noun | 2026-03-10|2026-03-10|0|0|true
+internet | internet |  | miscellaneous | 2026-03-10|2026-03-10|1|0|false
+el libro | book | 📚 | noun | 2026-03-10|2026-03-10|1|0|false
+la página | page |  | noun | 2026-03-10|2026-03-10|0|0|true
+la palabra | word |  | noun | 2026-03-10|2026-03-10|0|0|true
+la frase | sentence |  | noun | 2026-03-10|2026-03-10|0|0|true
+la pregunta | question |  | noun | 2026-03-10|2026-03-10|2|4|true
+la respuesta | answer |  | noun | 2026-03-10|2026-03-10|3|-1|true
+el problema | problem |  | noun | 2026-03-10|2026-03-10|1|0|true
+la solución | solution |  | noun | 2026-03-10|2026-03-10|1|2|true
+la idea | idea |  | noun | 2026-03-10|2026-03-10|2|3|true
+el ejemplo | example |  | noun | 2026-03-10|2026-03-10|0|0|true
+la historia | story |  | noun | 2026-03-10|2026-03-10|0|0|true
+importante | important |  | miscellaneous | 2026-03-10|2026-03-10|1|2|true
+posible | possible |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+necesario | necessary |  | miscellaneous | 2026-03-10|2026-03-10|1|2|true
+diferente | different |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+igual | equal |  | miscellaneous | 2026-03-10|2026-03-10|2|0|true
+seguro | sure |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+claro | clear / of course |  | miscellaneous | 2026-03-10|2026-03-10|1|2|true
+listo | ready |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+cansado | tired |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+enfermo | sick |  | miscellaneous | 2026-03-10|2026-03-10|1|-1|true
+sano | healthy |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+fuerte | strong |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+débil | weak |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+abierto | open |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+cerrado | closed |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+lleno | full |  | miscellaneous | 2026-03-10|2026-03-10|1|-1|true
+vacío | empty |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+limpio | clean |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+sucio | dirty |  | miscellaneous | 2026-03-10|2026-03-10|2|1|true
+interesante | interesting |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+aburrido | boring |  | miscellaneous | 2026-03-10|2026-03-10|3|-2|true
+¿qué pasa? | what's happening? |  | question word | 2026-03-10|2026-03-10|4|0|true
+¿qué estás haciendo? | what are you doing? |  | question word | 2026-03-10|2026-03-10|0|0|true
+¿qué quieres decir? | what do you mean? |  | question word | 2026-03-10|2026-03-10|1|0|true
+no hay problema | no problem |  | phrase | 2026-03-10|2026-03-10|2|-2|true
+no importa | it doesn't matter |  | phrase | 2026-03-10|2026-03-10|0|0|true
+claro que sí | of course |  | phrase | 2026-03-10|2026-03-10|0|0|true
+claro que no | of course not |  | phrase | 2026-03-10|2026-03-10|0|0|true
+por supuesto | of course |  | phrase | 2026-03-10|2026-03-10|0|0|true
+tal vez | maybe |  | phrase | 2026-03-10|2026-03-10|2|-2|true
+puede ser | maybe / could be |  | phrase | 2026-03-10|2026-03-10|1|-1|true
+ya veo | I see |  | verb form | 2026-03-10|2026-03-10|0|0|true
+ya entiendo | now I understand |  | phrase | 2026-03-10|2026-03-10|0|0|true
+tienes razón | you are right |  | phrase | 2026-03-10|2026-03-10|0|0|true
+no estoy seguro | I'm not sure |  | phrase | 2026-03-10|2026-03-10|1|-1|true
+no lo sé | I don't know |  | verb form | 2026-03-10|2026-03-10|1|-1|true
+lo sé | I know |  | verb form | 2026-03-10|2026-03-10|2|1|true
+creo que sí | I think so |  | verb form | 2026-03-10|2026-03-10|4|1|true
+creo que no | I don't think so |  | verb form | 2026-03-10|2026-03-10|0|0|true
+depende | it depends |  | miscellaneous | 2026-03-10|2026-03-10|4|-2|true
+qué bueno | that's good |  | phrase | 2026-03-10|2026-03-10|2|-2|true
+qué lástima | what a shame |  | phrase | 2026-03-10|2026-03-10|1|-1|true
+qué suerte | how lucky |  | phrase | 2026-03-10|2026-03-10|1|-1|true
+buen trabajo | good job |  | phrase | 2026-03-10|2026-03-10|2|0|true
+bien hecho | well done |  | phrase | 2026-03-10|2026-03-10|0|0|true
+más o menos así | more or less like that |  | conjunction | 2026-03-10|2026-03-10|0|0|true
+tengo mucho trabajo hoy | I have a lot of work today |  | verb form | 2026-03-10|2026-03-10|1|2|true
+no tengo tiempo ahora | I don't have time now |  | verb form | 2026-03-10|2026-03-10|1|2|true
+quiero aprender más español | I want to learn more Spanish |  | verb form | 2026-03-10|2026-03-10|0|0|true
+estoy muy cansado hoy | I am very tired today |  | verb form | 2026-03-10|2026-03-10|2|-2|true
+necesito descansar | I need to rest |  | verb form | 2026-03-10|2026-03-10|0|0|true
+vamos a comer algo | let's eat something |  | phrase | 2026-03-10|2026-03-10|0|0|true
+voy a salir ahora | I'm going out now |  | phrase | 2026-03-10|2026-03-10|0|0|true
+vuelvo en una hora | I'll come back in an hour |  | phrase | 2026-03-10|2026-03-10|1|-1|true
+estoy en casa | I am at home | 🏠 | verb form | 2026-03-10|2026-03-10|1|-1|true
+estoy en el trabajo | I am at work |  | verb form | 2026-03-10|2026-03-10|3|1|true
+estoy con amigos | I am with friends |  | verb form | 2026-03-10|2026-03-10|0|0|true
+hace mucho frío | it's very cold |  | phrase | 2026-03-10|2026-03-10|1|-1|true
+hace mucho calor | it's very hot |  | phrase | 2026-03-10|2026-03-10|0|0|true
+hoy hace buen tiempo | the weather is nice today |  | phrase | 2026-03-10|2026-03-10|0|0|true
+mañana trabajo | tomorrow I work |  | phrase | 2026-03-10|2026-03-10|0|0|true
+ayer salí con amigos | yesterday I went out with friends |  | phrase | 2026-03-10|2026-03-10|0|0|true
+me gusta esta ciudad | I like this city |  | verb form | 2026-03-10|2026-03-10|3|3|false
+no me gusta este restaurante | I don't like this restaurant |  | verb form | 2026-03-10|2026-03-10|0|0|true
+este lugar es bonito | this place is beautiful |  | phrase | 2026-03-10|2026-03-10|0|0|true
+la comida está muy buena | the food is very good |  | noun | 2026-03-10|2026-03-10|1|-1|true
+trabajar | to work |  | verb infinitive | 2026-03-10|2026-03-10|1|2|true
+vivir | to live |  | verb infinitive | 2026-03-10|2026-03-10|1|-1|true
+viajar | to travel |  | verb infinitive | 2026-03-10|2026-03-10|1|2|true
+comprar | to buy |  | verb infinitive | 2026-03-10|2026-03-10|0|0|true
+vender | to sell |  | verb infinitive | 2026-03-10|2026-03-10|3|-3|true
+pagar | to pay |  | verb infinitive | 2026-03-10|2026-03-10|2|3|true
+usar | to use |  | verb infinitive | 2026-03-10|2026-03-10|1|1|true
+necesitar | to need |  | verb infinitive | 2026-03-10|2026-03-10|1|2|true
+buscar | to look for |  | verb infinitive | 2026-03-10|2026-03-10|1|-1|true
+encontrar | to find |  | verb infinitive | 2026-03-10|2026-03-10|0|0|true
+perder | to lose |  | verb infinitive | 2026-03-10|2026-03-10|0|0|true
+ganar | to win / earn |  | verb infinitive | 2026-03-10|2026-03-10|0|0|true
+abrir | to open |  | verb infinitive | 2026-03-10|2026-03-10|0|0|true
+cerrar | to close |  | verb infinitive | 2026-03-10|2026-03-10|1|2|true
+entrar | to enter |  | verb infinitive | 2026-03-10|2026-03-10|0|0|true
+salir | to leave / go out |  | verb infinitive | 2026-03-10|2026-03-10|0|0|true
+llegar | to arrive |  | verb infinitive | 2026-03-10|2026-03-10|0|0|true
+volver | to return |  | verb infinitive | 2026-03-10|2026-03-10|0|0|true
+quedarse | to stay |  | verb infinitive | 2026-03-10|2026-03-10|1|-1|true
+empezar | to start |  | verb infinitive | 2026-03-10|2026-03-10|1|-1|true
+terminar | to finish |  | verb infinitive | 2026-03-10|2026-03-10|0|0|true
+intentar | to try |  | verb infinitive | 2026-03-10|2026-03-10|5|-4|true
+recordar | to remember |  | verb infinitive | 2026-03-10|2026-03-10|0|0|true
+olvidar | to forget |  | verb infinitive | 2026-03-10|2026-03-10|0|0|true
+aprender | to learn |  | verb infinitive | 2026-03-10|2026-03-10|0|0|true
+enseñar | to teach |  | verb infinitive | 2026-03-10|2026-03-10|0|0|true
+leer | to read |  | verb infinitive | 2026-03-10|2026-03-10|2|4|true
+escribir | to write |  | verb infinitive | 2026-03-10|2026-03-10|2|1|true
+escuchar | to listen |  | verb infinitive | 2026-03-10|2026-03-10|1|2|true
+mirar | to look |  | verb infinitive | 2026-03-10|2026-03-10|1|-1|true
+ver | to see |  | verb infinitive | 2026-03-10|2026-03-10|1|2|true
+creer | to believe |  | verb infinitive | 2026-03-10|2026-03-10|0|0|true
+saber | to know (a fact) |  | verb infinitive | 2026-03-10|2026-03-10|1|2|true
+conocer | to know (a person/place) |  | verb infinitive | 2026-03-10|2026-03-10|0|0|true
+entender | to understand |  | verb infinitive | 2026-03-10|2026-03-10|2|0|true
+preguntar | to ask |  | verb infinitive | 2026-03-10|2026-03-10|1|2|true
+responder | to answer |  | verb infinitive | 2026-03-10|2026-03-10|1|-1|true
+explicar | to explain |  | verb infinitive | 2026-03-10|2026-03-10|3|3|true
+mostrar | to show |  | verb infinitive | 2026-03-10|2026-03-10|0|0|true
+cambiar | to change |  | verb infinitive | 2026-03-10|2026-03-10|1|2|true
+mejorar | to improve |  | verb infinitive | 2026-03-10|2026-03-10|0|0|true
+empeorar | to get worse |  | verb infinitive | 2026-03-10|2026-03-10|0|0|true
+rápidamente | quickly |  | adverb | 2026-03-10|2026-03-10|1|0|true
+lentamente | slowly |  | adverb | 2026-03-10|2026-03-10|2|4|true
+generalmente | generally |  | adverb | 2026-03-10|2026-03-10|0|0|true
+normalmente | normally |  | adverb | 2026-03-10|2026-03-10|0|0|true
+especialmente | especially |  | adverb | 2026-03-10|2026-03-10|0|0|true
+¿qué quieres hacer? | what do you want to do? |  | question word | 2026-03-10|2026-03-10|0|0|true
+¿qué piensas? | what do you think? |  | question word | 2026-03-10|2026-03-10|1|2|true
+¿te gusta? | do you like it? |  | phrase | 2026-03-10|2026-03-10|0|0|true
+me parece bien | that seems good to me |  | phrase | 2026-03-10|2026-03-10|2|0|true
+me parece interesante | that seems interesting |  | phrase | 2026-03-10|2026-03-10|1|-1|true
+eso es verdad | that's true |  | phrase | 2026-03-10|2026-03-10|2|-2|true
+no estoy de acuerdo | I don't agree |  | verb form | 2026-03-10|2026-03-10|1|-1|true
+estoy de acuerdo | I agree |  | verb form | 2026-03-10|2026-03-10|0|0|true
+no estoy seguro de eso | I'm not sure about that |  | phrase | 2026-03-10|2026-03-10|0|0|true
+eso depende | that depends |  | phrase | 2026-03-10|2026-03-10|0|0|true
+todo está bien | everything is fine |  | phrase | 2026-03-10|2026-03-10|0|0|true
+todo está listo | everything is ready |  | phrase | 2026-03-10|2026-03-10|0|0|true
+vamos a ver | let's see |  | phrase | 2026-03-10|2026-03-10|3|0|true
+vamos poco a poco | let's go little by little |  | phrase | 2026-03-10|2026-03-10|1|1|true
+un momento | one moment |  | phrase | 2026-03-10|2026-03-10|0|0|true
+espera un segundo | wait a second |  | phrase | 2026-03-10|2026-03-10|2|-2|true
+dame un minuto | give me a minute |  | phrase | 2026-03-10|2026-03-10|0|0|true
+no tengo idea | I have no idea |  | verb form | 2026-03-10|2026-03-10|1|-1|true
+es una buena idea | it's a good idea |  | phrase | 2026-03-10|2026-03-10|1|0|true
+es mala idea | it's a bad idea |  | phrase | 2026-03-10|2026-03-10|1|0|true
+no pasa nada | nothing happens / it's fine |  | phrase | 2026-03-10|2026-03-10|1|-1|true
+qué interesante | how interesting |  | phrase | 2026-03-10|2026-03-10|1|2|true
+qué raro | how strange |  | phrase | 2026-03-10|2026-03-10|1|-1|true
+qué divertido | how fun |  | phrase | 2026-03-10|2026-03-10|2|1|true
+qué problema | what a problem |  | phrase | 2026-03-10|2026-03-10|0|0|true
+trabajo desde casa | I work from home | 🏠 | verb form | 2026-03-10|2026-03-10|2|-2|true
+trabajo en una oficina | I work in an office |  | verb form | 2026-03-10|2026-03-10|0|0|true
+viajo mucho por trabajo | I travel a lot for work |  | verb form | 2026-03-10|2026-03-10|0|0|true
+aprendo algo nuevo cada día | I learn something new every day |  | verb form | 2026-03-10|2026-03-10|1|1|true
+leo noticias en español | I read news in Spanish |  | verb form | 2026-03-10|2026-03-10|1|-1|true
+escucho podcasts en español | I listen to podcasts in Spanish |  | verb form | 2026-03-10|2026-03-10|0|0|true
+quiero vivir en España | I want to live in Spain |  | verb form | 2026-03-10|2026-03-10|2|2|false
+me gusta aprender idiomas | I like learning languages |  | verb form | 2026-03-10|2026-03-10|0|0|true
+hablo español todos los días | I speak Spanish every day |  | verb form | 2026-03-10|2026-03-10|2|-1|true
+practico con amigos | I practice with friends |  | verb form | 2026-03-10|2026-03-10|1|2|true
+necesito más práctica | I need more practice |  | verb form | 2026-03-10|2026-03-10|0|0|true
+entiendo un poco | I understand a little |  | verb form | 2026-03-10|2026-03-10|0|0|true
+no entiendo todo | I don't understand everything |  | verb form | 2026-03-10|2026-03-10|2|-1|true
+puedo intentar otra vez | I can try again |  | verb form | 2026-03-10|2026-03-10|0|0|true
+vamos al mercado | let's go to the market |  | phrase | 2026-03-10|2026-03-10|1|0|false
+vamos a caminar | let's go for a walk |  | phrase | 2026-03-10|2026-03-10|2|-2|true
+vamos a tomar un café | let's get a coffee | ☕ | phrase | 2026-03-10|2026-03-10|0|0|true
+voy al supermercado | I go to the supermarket |  | verb form | 2026-03-10|2026-03-10|0|0|true
+compro comida | I buy food |  | verb form | 2026-03-10|2026-03-10|0|0|true
+preparo la cena | I prepare dinner |  | verb form | 2026-03-10|2026-03-10|0|0|true
+abro la puerta | I open the door | 🚪 | verb form | 2026-03-10|2026-03-10|0|0|true
+cierro la ventana | I close the window |  | verb form | 2026-03-10|2026-03-10|1|0|true
+llego temprano | I arrive early |  | verb form | 2026-03-10|2026-03-10|0|0|true
+salgo tarde del trabajo | I leave work late |  | verb form | 2026-03-10|2026-03-10|4|-4|true
+me quedo en casa hoy | I stay home today | 🏠 | verb form | 2026-03-10|2026-03-10|0|0|true
+bastante | quite |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+la sonrisa | smile |  | noun | 2026-03-10|2026-03-10|0|0|true
+sonrir | to smile |  | verb infinitive | 2026-03-10|2026-03-10|0|0|true
+entonces | then |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
+el reloj | watch |  | noun | 2026-03-10|2026-03-10|0|0|true
+volveré | I will return |  | verb form | 2026-03-10|2026-03-10|0|0|true
+rojo (-a) | red | 🔴 | adjective | |||||
+naranja | orange | 🟠 | adjective | |||||
+amarillo (-a) | yellow | 🟡 | adjective | |||||
+verde | green | 🟢 | adjective | |||||
+azul | blue | 🔵 | adjective | |||||
+morado (-a) | purple | 🟣 | adjective | |||||
+negro (-a) | black | ⚫ | adjective | |||||
+gris | grey | 🔘 | adjective | |||||
+blanco (-a) | white | ⚪ | adjective | |||||

@@ -158,9 +158,6 @@
         let currentCard = null
         let showingAnswer = false
 
-        function today() {
-            return new Date().toISOString().slice(0, 10)
-        }
 
         function loadDeck(lang) {
 
@@ -185,7 +182,6 @@
         }
 
         function chooseLanguage(lang) {
-
             currentLang = lang
             currentMode = 'recall'
 
@@ -196,17 +192,14 @@
                 lang === "spanish" ? "Spanish" : "French"
 
             deck = loadDeck(lang)
-
         }
 
         function backToMenu() {
-
             document.getElementById("mainMenu").style.display = "block"
             document.getElementById("modeMenu").style.display = "none"
             document.getElementById("studyArea").style.display = "none"
             document.getElementById("resetArea").style.display = "none"
             document.getElementById("statsArea").style.display = "none"
-
         }
 
         function startStudy(mode) {
@@ -378,27 +371,28 @@
         }
 
 
+        //---------------------------------------------------------------------
+        // Language Reset screen
+        //---------------------------------------------------------------------
+
         function resetLanguage(lang) {
-
             currentLang = lang
-
             deck = loadDeck(lang)
 
             document.getElementById("mainMenu").style.display = "none"
             document.getElementById("resetArea").style.display = "block"
-
             document.getElementById("resetTitle").innerText = "Reset " + lang
 
+            // Convert language data to pipeline-separated format for editing
             let lines = []
-
-            lines.push("#front|back|added|lastSeen|seen|score|level")
-
+            lines.push("#front|back|emoji|category|added|lastSeen|seen|score|level")
             deck.forEach(c => {
-
                 lines.push(
                     [
                         c.front,
                         c.back,
+                        c.emoji || "",
+                        c.category || "",
                         formatDate(c.added),
                         formatDate(c.lastSeen),
                         c.seen,
@@ -406,69 +400,51 @@
                         c.level
                     ].join("|")
                 )
-
             })
-
             document.getElementById("resetBox").value = lines.join("\n")
-
-        }
-
-        function formatDate(epoch) {
-            if (!epoch) return ""
-            return new Date(epoch).toISOString().slice(0, 10)
-        }
-
-        function parseDate(d) {
-            if (!d) return Date.now()
-            return new Date(d).getTime()
         }
 
         function saveReset() {
-
             let text = document.getElementById("resetBox").value
-
             let lines = text.split("\n")
-
             let newDeck = []
 
+            // Convert pipeline-separated format back to language data structure
             for (let line of lines) {
-
                 line = line.trim()
-
                 if (!line || line.startsWith("#")) continue
 
                 let parts = line.split("|")
-
+                // support both old format and new with emoji/category
                 let card = {
-
                     front: parts[0],
                     back: parts[1],
-                    added: parseDate(parts[2]),
-                    lastSeen: parseDate(parts[3]),
-                    seen: parseInt(parts[4]) || 0,
-                    score: parseInt(parts[5]) || 0,
-                    level: parseInt(parts[6]) || 0
-
+                    emoji: parts[2] || "",
+                    category: parts[3] || "",
+                    added: parseDate(parts[4] || parts[2]),
+                    lastSeen: parseDate(parts[5] || parts[3]),
+                    seen: parseInt(parts[6] || parts[4]) || 0,
+                    score: parseInt(parts[7] || parts[5]) || 0,
+                    level: parseInt(parts[8] || parts[6]) || 0
                 }
-
                 newDeck.push(card)
-
             }
 
             deck = newDeck
-
             saveDeck(currentLang)
-
             backToMenu()
-
         }
 
         function selectAllText() {
             document.getElementById("resetBox").select()
         }
 
-        function showStats(lang) {
 
+        //---------------------------------------------------------------------
+        // Language Statistics screen
+        //---------------------------------------------------------------------
+
+        function showStats(lang) {
             currentLang = lang
             deck = loadDeck(lang)
 
@@ -506,7 +482,25 @@
             document.getElementById("statsArea").style.display = "block"
             document.getElementById("statsTitle").innerText = lang.charAt(0).toUpperCase() + lang.slice(1) + " Statistics"
             document.getElementById("statsContent").innerHTML = html
+        }
 
+
+        //---------------------------------------------------------------------
+        // Utility functions 
+        //---------------------------------------------------------------------
+
+        function today() {
+            return new Date().toISOString().slice(0, 10)
+        }
+
+        function formatDate(epoch) {
+            if (!epoch) return ""
+            return new Date(epoch).toISOString().slice(0, 10)
+        }
+
+        function parseDate(d) {
+            if (!d) return Date.now()
+            return new Date(d).getTime()
         }
 
     </script>
