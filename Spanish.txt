@@ -1,4 +1,4 @@
-#front|back|emoji|category|added|lastSeen|seen|score|enabled
+#front|back|emoji|category|added|lastSeen|seen|penalty|enabled
 hola | hello |  | miscellaneous | 2026-03-10|2026-03-10|0|0|true
 buenos días | good morning |  | phrase | 2026-03-10|2026-03-10|1|2|true
 buenas tardes | good afternoon |  | phrase | 2026-03-10|2026-03-10|1|1|true

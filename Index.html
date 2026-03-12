@@ -112,8 +112,8 @@
         </div>
 
         <div class="row">
-            <button onclick="resetLanguage('spanish')">Reset Spanish</button>
-            <button onclick="resetLanguage('french')">Reset French</button>
+            <button onclick="editLanguage('spanish')">Edit Spanish</button>
+            <button onclick="editLanguage('french')">Edit French</button>
         </div>
 
         <div class="row">
@@ -127,9 +127,9 @@
         <h3 id="languageTitle"></h3>
 
         <div class="row">
-            <label><input type="radio" name="mode" value="recognition"
-                    onclick="selectMode('recognition')">Recognition</label>
+            <label><input type="radio" name="mode" value="recognition" onclick="selectMode('recognition')">Recognition</label>
             <label><input type="radio" name="mode" value="recall" onclick="selectMode('recall')" checked>Recall</label>
+            <label><input type="radio" name="mode" value="shuffle" onclick="selectMode('shuffle')">Shuffle</label>
         </div>
         <div class="row">
             <button onclick="startNormal()">Normal</button>
@@ -166,15 +166,15 @@
 
     </div>
 
-    <div id="resetArea" style="display:none">
+    <div id="editArea" style="display:none">
 
-        <h3 id="resetTitle"></h3>
+        <h3 id="editTitle"></h3>
 
-        <textarea id="resetBox"></textarea>
+        <textarea id="editBox"></textarea>
 
         <br>
         <button onclick="selectAllText()">Select All</button>
-        <button onclick="saveReset()">Save</button>
+        <button onclick="saveEdit()">Save</button>
         <button onclick="backToMenu()">Cancel</button>
 
     </div>
@@ -201,6 +201,7 @@
         let deck = []
         let currentCard = null
         let showingAnswer = false
+        let shuffleFlip = false  // toggle for shuffle mode
 
 
         function loadDeck(lang) {
@@ -216,6 +217,9 @@
                 }
                 if (c.level === undefined) {
                     c.level = 0
+                }
+                if (c.penalty === undefined) {
+                    c.penalty = 0
                 }
             })
             return arr
@@ -242,7 +246,11 @@
             document.getElementById("mainMenu").style.display = "block"
             document.getElementById("modeMenu").style.display = "none"
             document.getElementById("studyArea").style.display = "none"
-            document.getElementById("resetArea").style.display = "none"
+            // hide editing and stats panels; old resetArea may not exist
+            let edit = document.getElementById("editArea")
+            if (edit) edit.style.display = "none"
+            let reset = document.getElementById("resetArea")
+            if (reset) reset.style.display = "none"
             document.getElementById("statsArea").style.display = "none"
         }
 
@@ -317,7 +325,7 @@
 
             let weights = enabled.map(c => {
 
-                let failRate = (c.score < 0) ? Math.abs(c.score) + 1 : 1
+                let failRate = (c.penalty < 0) ? Math.abs(c.penalty) + 1 : 1
                 let recentBoost = (Date.now() - c.added) < 86400000 * 7 ? 3 : 1
                 let seenPenalty = Math.max(1, c.seen / 5)
 
@@ -358,11 +366,18 @@
             showingAnswer = false
 
             // determine question text
-            let question = currentMode === "recall"
-                ? currentCard.back
-                : currentCard.front
-            if (currentMode === "shuffle" || currentMode === "hardcards") {
-                question = Math.random() < 0.5 ? currentCard.front : currentCard.back
+            let question;
+            if (currentMode === "recall") {
+                question = currentCard.back
+            } else if (currentMode === "recognition") {
+                question = currentCard.front
+            } else if (currentMode === "shuffle") {
+                // alternate front/back first each card
+                question = shuffleFlip ? currentCard.back : currentCard.front
+                shuffleFlip = !shuffleFlip
+            } else {
+                // fallback
+                question = currentCard.back
             }
             currentCard.showFront = question === currentCard.front
 
@@ -402,7 +417,7 @@
             currentCard.seen++
             currentCard.lastSeen = Date.now()
             currentCard.level = l
-            currentCard.score += (3 - d)
+            currentCard.penalty += (3 - d)
 
             saveDeck(currentLang)
             nextCard()
@@ -417,7 +432,7 @@
             let last = currentCard.lastSeen ? new Date(currentCard.lastSeen) : null
             let seen = currentCard.seen || 0
             document.getElementById("cardInfo").innerText =
-                `level ${currentCard.level}, added ${formatDate(added)}, ` +
+                `level ${currentCard.level} (${currentCard.penalty}), added ${formatDate(added)}, ` +
                 `last seen ${last ? formatDate(last) : 'never'}, seen ${seen}`
         }
 
@@ -426,17 +441,17 @@
         // Language Reset screen
         //---------------------------------------------------------------------
 
-        function resetLanguage(lang) {
+        function editLanguage(lang) {
             currentLang = lang
             deck = loadDeck(lang)
 
             document.getElementById("mainMenu").style.display = "none"
-            document.getElementById("resetArea").style.display = "block"
-            document.getElementById("resetTitle").innerText = "Reset " + lang
+            document.getElementById("editArea").style.display = "block"
+            document.getElementById("editTitle").innerText = "Edit " + lang
 
             // Convert language data to pipeline-separated format for editing
             let lines = []
-            lines.push("#front|back|emoji|category|added|lastSeen|seen|score|level")
+            lines.push("#front|back|emoji|category|added|lastSeen|seen|penalty|level")
             deck.forEach(c => {
                 lines.push(
                     [
@@ -447,16 +462,16 @@
                         formatDate(c.added),
                         formatDate(c.lastSeen),
                         c.seen,
-                        c.score,
+                        c.penalty,
                         c.level
                     ].join("|")
                 )
             })
-            document.getElementById("resetBox").value = lines.join("\n")
+            document.getElementById("editBox").value = lines.join("\n")
         }
 
-        function saveReset() {
-            let text = document.getElementById("resetBox").value
+        function saveEdit() {
+            let text = document.getElementById("editBox").value
             let lines = text.split("\n")
             let newDeck = []
 
@@ -475,7 +490,7 @@
                     added: parseDate(parts[4] || parts[2]),
                     lastSeen: parseDate(parts[5] || parts[3]),
                     seen: parseInt(parts[6] || parts[4]) || 0,
-                    score: parseInt(parts[7] || parts[5]) || 0,
+                    penalty: parseInt(parts[7] || parts[5]) || 0,
                     level: parseInt(parts[8] || parts[6]) || 0
                 }
                 newDeck.push(card)
@@ -487,7 +502,7 @@
         }
 
         function selectAllText() {
-            document.getElementById("resetBox").select()
+            document.getElementById("editBox").select()
         }
 
 
@@ -517,9 +532,11 @@
             })
 
             // Build stats display
+            let todayCount = deck.filter(c => formatDate(c.lastSeen) === today()).length;
             let html = `
                 <p><strong>Total Cards:</strong> ${total}</p>
                 <p><strong>Never Seen:</strong> ${neverSeen}</p>
+                <p><strong>Today:</strong> ${todayCount}</p>
             `
 
             // Sort levels numerically
