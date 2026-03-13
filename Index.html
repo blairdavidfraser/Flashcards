@@ -553,8 +553,8 @@
                     back: parts[1].trim(),
                     emoji: parts[2].trim() || "",
                     category: parts[3].trim() || "",
-                    added: parseDate(parts[4] || today()),
-                    lastSeen: parseDate(parts[5] || today()),
+                    added: parseDate(parts[4].trim() || today()),
+                    lastSeen: parseDate(parts[5].trim() || today()),
                     seen: parseInt(parts[6]) || 0,
                     penalty: parseInt(parts[7]) || 0,
                     level: parseInt(parts[8]) || 0

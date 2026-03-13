@@ -1,9 +1,9 @@
 #front|back|emoji|category|added|lastSeen|seen|penalty|level
-hola | hello |  | miscellaneous |2026-03-10|2026-03-12|1|3|-1
+hola | hello |  | phrase |2026-03-10|2026-03-12|1|3|-1
 buenos días | good morning |  | phrase |2026-03-10|2026-03-12|2|5|-1
 buenas tardes | good afternoon |  | phrase |2026-03-10|2026-03-11|2|4|-1
 buenas noches | good evening / good night |  | phrase |2026-03-10|2026-03-12|1|3|-1
-adiós | goodbye |  | miscellaneous |2026-03-10|2026-03-10|1|0|-1
+adiós | goodbye |  | phrase |2026-03-10|2026-03-10|1|0|-1
 hasta luego | see you later |  | phrase |2026-03-10|2026-03-09|1|2|0
 hasta mañana | see you tomorrow |  | phrase |2026-03-10|2026-03-11|1|3|-1
 nos vemos | see you |  | phrase |2026-03-10|2026-03-11|3|1|-1
@@ -11,20 +11,20 @@ por favor | please |  | phrase |2026-03-10|2026-03-11|2|3|-1
 gracias | thank you |  | miscellaneous |2026-03-10|2026-03-12|2|5|-1
 muchas gracias | thank you very much |  | phrase |2026-03-10|2026-03-11|1|3|-1
 de nada | you're welcome |  | phrase |2026-03-10|2026-03-11|1|3|-1
-perdón | excuse me (light sorry) |  | miscellaneous |2026-03-10|2026-03-12|5|10|-1
+perdón | excuse me (light sorry) |  | phrase |2026-03-10|2026-03-12|5|10|-1
 lo siento | I'm sorry (strong sorry) |  | phrase |2026-03-10|2026-03-11|1|3|-1
 con permiso | excuse me (passing by) |  | phrase |2026-03-10|2026-03-12|5|9|-1
-¿cómo estás? | how are you? |  | question word |2026-03-10|2026-03-11|1|3|-1
-¿cómo está usted? | how are you (formal)? |  | question word |2026-03-10|2026-03-11|1|3|-1
+¿cómo estás? | how are you? |  | phrase |2026-03-10|2026-03-11|1|3|-1
+¿cómo está usted? | how are you (formal)? |  | phrase |2026-03-10|2026-03-11|1|3|-1
 estoy bien | I am well |  | phrase |2026-03-10|2026-03-12|1|3|-1
-más o menos | so-so |  | conjunction |2026-03-10|2026-03-12|2|2|-1
+más o menos | so-so |  | phrase |2026-03-10|2026-03-12|2|2|-1
 muy bien | very well |  | phrase |2026-03-10|2026-03-12|4|8|-1
-¿qué tal? | how's it going? |  | question word |2026-03-10|2026-03-11|3|7|-1
+¿qué tal? | how's it going? |  | phrase |2026-03-10|2026-03-11|3|7|-1
 mucho gusto | nice to meet you |  | phrase |2026-03-10|2026-03-12|3|7|-1
 encantado | pleased to meet you |  | miscellaneous |2026-03-10|2026-03-11|3|8|-1
-¿de dónde eres? | where are you from? |  | question word |2026-03-10|2026-03-12|4|9|-1
+¿de dónde eres? | where are you from? |  | phrase |2026-03-10|2026-03-12|4|9|-1
 soy de Canadá | I am from Canada |  | phrase |2026-03-10|2026-03-12|2|4|0
-¿dónde está el baño? | where is the bathroom? |  | question word |2026-03-10|2026-03-11|5|6|-1
+¿dónde está el baño? | where is the bathroom? |  | phrase |2026-03-10|2026-03-11|5|6|-1
 ¿cuánto cuesta? | how much does it cost? |  | phrase |2026-03-10|2026-03-11|2|5|-1
 la cuenta, por favor | the bill please |  | noun |2026-03-10|2026-03-12|1|3|-1
 ¿habla inglés? | do you speak English? |  | phrase |2026-03-10|2026-03-10|2|0|-1
@@ -32,11 +32,11 @@ no entiendo | I don't understand |  | phrase |2026-03-10|2026-03-12|1|3|-1
 ¿puede repetir? | can you repeat? |  | phrase |2026-03-10|2026-03-12|5|7|0
 ¿puede hablar más despacio? | can you speak more slowly? |  | phrase |2026-03-10|2026-03-12|6|7|0
 hablo un poco de español | I speak a little Spanish |  | phrase |2026-03-10|2026-03-12|3|7|-1
-¿qué significa? | what does it mean? |  | question word |2026-03-10|2026-03-12|9|5|0
-¿cómo se dice...? | how do you say...? |  | question word |2026-03-10|2026-03-11|1|3|-1
-¿qué hora es? | what time is it? |  | question word |2026-03-10|2026-03-12|2|5|-1
-¿dónde está el hotel? | where is the hotel? |  | question word |2026-03-10|2026-03-12|4|7|-1
-¿dónde está el restaurante? | where is the restaurant? |  | question word |2026-03-10|2026-03-12|2|5|-1
+¿qué significa? | what does it mean? |  | phrase |2026-03-10|2026-03-12|9|5|0
+¿cómo se dice...? | how do you say...? |  | phrase |2026-03-10|2026-03-11|1|3|-1
+¿qué hora es? | what time is it? |  | phrase |2026-03-10|2026-03-12|2|5|-1
+¿dónde está el hotel? | where is the hotel? |  | phrase |2026-03-10|2026-03-12|4|7|-1
+¿dónde está el restaurante? | where is the restaurant? |  | phrase |2026-03-10|2026-03-12|2|5|-1
 necesito ayuda | I need help |  | phrase |2026-03-10|2026-03-13|7|15|-1
 estoy perdido | I am lost |  | phrase |2026-03-10|2026-03-12|3|2|-1
 ¿qué? | what |  | question word |2026-03-10|2026-03-11|2|5|-1
@@ -46,10 +46,10 @@ estoy perdido | I am lost |  | phrase |2026-03-10|2026-03-12|3|2|-1
 ¿cuándo? | when |  | question word |2026-03-10|2026-03-12|3|7|-1
 ¿por qué? | why |  | question word |2026-03-10|2026-03-11|3|7|-1
 ¿cómo? | how |  | question word |2026-03-10|2026-03-12|5|8|-1
-¿cuánto? | how much |  | phrase |2026-03-10|2026-03-11|1|3|-1
-¿cuántos? | how many |  | phrase |2026-03-10|2026-03-12|2|5|-1
-¿cuál? | which |  | phrase |2026-03-10|2026-03-12|1|2|0
-¿cuáles? | which (plural) |  | phrase |2026-03-10|2026-03-12|6|11|0
+¿cuánto? | how much |  | question word |2026-03-10|2026-03-11|1|3|-1
+¿cuántos? | how many |  | question word |2026-03-10|2026-03-12|2|5|-1
+¿cuál? | which |  | question word |2026-03-10|2026-03-12|1|2|0
+¿cuáles? | which (plural) |  | question word |2026-03-10|2026-03-12|6|11|0
 cero | zero |  | miscellaneous |2026-03-10|2026-03-12|1|3|-1
 uno | one |  | miscellaneous |2026-03-10|2026-03-12|2|5|-1
 dos | two |  | miscellaneous |2026-03-10|2026-03-10|1|0|-1
@@ -126,7 +126,7 @@ el huevo | egg |  | noun |2026-03-10|2026-03-12|2|3|0
 la leche | milk |  | noun |2026-03-10|2026-03-12|3|7|-1
 el azúcar | sugar |  | noun |2026-03-10|2026-03-12|1|3|-1
 la sal | salt |  | noun |2026-03-10|2026-03-12|2|5|-1
-el aeropuerto | airport | ⚓ | noun |2026-03-10|2026-03-12|2|5|-1
+el aeropuerto | airport | | noun |2026-03-10|2026-03-12|2|5|-1
 el hotel | hotel |  | noun |2026-03-10|2026-03-12|2|5|-1
 la estación | station |  | noun |2026-03-10|2026-03-11|2|5|-1
 el tren | train | 🚆 | noun |2026-03-10|2026-03-12|2|5|-1
@@ -142,24 +142,24 @@ la ciudad | city |  | noun |2026-03-10|2026-03-11|1|3|-1
 el país | country |  | noun |2026-03-10|2026-03-12|1|3|-1
 el mercado | market |  | noun |2026-03-10|2026-03-12|2|5|-1
 la tienda | store |  | noun |2026-03-10|2026-03-11|2|5|-1
-grande | big |  | miscellaneous |2026-03-10|2026-03-10|1|0|-1
-pequeño | small |  | miscellaneous |2026-03-10|2026-03-10|1|0|-1
-bueno | good |  | miscellaneous |2026-03-10|2026-03-12|2|5|-1
-malo | bad |  | miscellaneous |2026-03-10|2026-03-12|2|3|-1
-bonito | pretty |  | miscellaneous |2026-03-10|2026-03-12|2|4|-1
-feo | ugly |  | miscellaneous |2026-03-10|2026-03-11|1|3|-1
-nuevo | new |  | miscellaneous |2026-03-10|2026-03-12|2|5|-1
-viejo | old |  | miscellaneous |2026-03-10|2026-03-12|2|5|-1
-fácil | easy |  | miscellaneous |2026-03-10|2026-03-11|2|5|-1
-difícil | difficult |  | miscellaneous |2026-03-10|2026-03-10|1|0|-1
-rápido | fast |  | miscellaneous |2026-03-10|2026-03-12|5|10|0
-lento | slow |  | miscellaneous |2026-03-10|2026-03-12|4|3|0
-caro | expensive |  | miscellaneous |2026-03-10|2026-03-12|2|5|-1
-barato | cheap |  | miscellaneous |2026-03-10|2026-03-12|2|4|-1
-feliz | happy |  | miscellaneous |2026-03-10|2026-03-12|2|5|-1
-triste | sad |  | miscellaneous |2026-03-10|2026-03-12|2|5|-1
-ocupado | busy |  | miscellaneous |2026-03-10|2026-03-12|5|10|0
-libre | free |  | miscellaneous |2026-03-10|2026-03-12|1|3|-1
+grande | big |  | adjective |2026-03-10|2026-03-10|1|0|-1
+pequeño | small |  | adjective |2026-03-10|2026-03-10|1|0|-1
+bueno | good |  | adjective |2026-03-10|2026-03-12|2|5|-1
+malo | bad |  | adjective |2026-03-10|2026-03-12|2|3|-1
+bonito | pretty |  | adjective |2026-03-10|2026-03-12|2|4|-1
+feo | ugly |  | adjective |2026-03-10|2026-03-11|1|3|-1
+nuevo | new |  | adjective |2026-03-10|2026-03-12|2|5|-1
+viejo | old |  | adjective |2026-03-10|2026-03-12|2|5|-1
+fácil | easy |  | adjective |2026-03-10|2026-03-11|2|5|-1
+difícil | difficult |  | adjective |2026-03-10|2026-03-10|1|0|-1
+rápido | fast |  | adjective |2026-03-10|2026-03-12|5|10|0
+lento | slow |  | adjective |2026-03-10|2026-03-12|4|3|0
+caro | expensive |  | adjective |2026-03-10|2026-03-12|2|5|-1
+barato | cheap |  | adjective |2026-03-10|2026-03-12|2|4|-1
+feliz | happy |  | adjective |2026-03-10|2026-03-12|2|5|-1
+triste | sad |  | adjective |2026-03-10|2026-03-12|2|5|-1
+ocupado | busy |  | adjective |2026-03-10|2026-03-12|5|10|0
+libre | free |  | adjective |2026-03-10|2026-03-12|1|3|-1
 (yo) hablo | I speak |  | verb form |2026-03-10|2026-03-12|2|5|-1
 (tú) hablas | you speak |  | verb form |2026-03-10|2026-03-12|3|3|0
 (él/ella/usted) habla | he/she/you speaks |  | verb form |2026-03-10|2026-03-12|4|6|-1
@@ -329,7 +329,7 @@ qué lástima | what a shame |  | phrase |2026-03-10|2026-03-12|2|2|0
 qué suerte | how lucky |  | phrase |2026-03-10|2026-03-12|4|1|0
 buen trabajo | good job |  | phrase |2026-03-10|2026-03-12|3|7|-1
 bien hecho | well done |  | phrase |2026-03-10|2026-03-12|6|5|0
-más o menos así | more or less like that |  | conjunction |2026-03-10|2026-03-12|4|2|0
+más o menos así | more or less like that |  | phrase |2026-03-10|2026-03-12|4|2|0
 tengo mucho trabajo hoy | I have a lot of work today |  | phrase |2026-03-10|2026-03-12|7|8|0
 no tengo tiempo ahora | I don't have time now |  | phrase |2026-03-10|2026-03-11|5|4|-1
 quiero aprender más español | I want to learn more Spanish |  | phrase |2026-03-10|2026-03-12|4|7|-1
@@ -349,7 +349,7 @@ ayer salí con amigos | yesterday I went out with friends |  | phrase |2026-03-1
 me gusta esta ciudad | I like this city |  | phrase |2026-03-10|2026-03-12|3|5|-1
 no me gusta este restaurante | I don't like this restaurant |  | phrase |2026-03-10|2026-03-12|8|5|0
 este lugar es bonito | this place is beautiful |  | phrase |2026-03-10|2026-03-12|2|2|-1
-la comida está muy buena | the food is very good |  | noun |2026-03-10|2026-03-12|7|5|0
+la comida está muy buena | the food is very good |  | phrase |2026-03-10|2026-03-12|7|5|0
 trabajar | to work |  | verb infinitive |2026-03-10|2026-03-12|1|3|-1
 vivir | to live |  | verb infinitive |2026-03-10|2026-03-12|4|6|-1
 viajar | to travel |  | verb infinitive |2026-03-10|2026-03-12|3|4|0
@@ -518,3 +518,14 @@ el carrito | cart | | noun |2026-03-12|2026-03-12|1|1|-1
 la mochila | backpack | | noun |2026-03-12|2026-03-12|1|0|0
 el uniforme | uniform | | noun |2026-03-12|2026-03-12|1|1|1
 la gorra | cap | | noun |2026-03-12|2026-03-12|1|0|0
+la montaña | mountain | ⛰️ | noun | | | | |
+el sendero | trail / path | | noun | | | | |
+nublado | cloudy | ☁️ | adjective | | | | |
+la lluvia | rain | 🌧️ | noun | | | | |
+regresar | to return | 🔙 | verb | | | | |
+disfrutar | to enjoy | 😊 | verb | | | | |
+tengo sueño | I am sleepy | 😴 | phrase | | | | |
+vamos por este sendero | let's go along this trail | | phrase | | | | |
+creo que viene lluvia | I think rain is coming | 🌧️ | phrase | | | | |
+podemos regresar al coche | we can return to the car | | phrase | | | | |
+disfruto mucho este lugar | I enjoy this place a lot | 😊 | phrase | | | | |
