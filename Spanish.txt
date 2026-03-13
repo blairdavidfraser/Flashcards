@@ -462,59 +462,59 @@ morado (-a) | purple | 🟣 | adjective |2026-03-10|2026-03-12|7|10|-1
 negro (-a) | black | ⚫ | adjective |2026-03-10|2026-03-12|2|1|0
 gris | grey | 🔘 | adjective |2026-03-10|2026-03-12|3|6|0
 blanco (-a) | white | ⚪ | adjective |2026-03-10|2026-03-12|2|5|-1
-|volveré | I will return |2026-03-10|2026-03-10|2026-03-12|6|6|0
-|animado | lively / busy |2026-03-12|2026-03-12|2026-03-12|5|7|0
-|emocionado | excited |2026-03-12|2026-03-12|2026-03-12|2|2|0
-|preparar | to prepare |2026-03-12|2026-03-12|2026-03-12|3|6|0
-|el consejo | advice |2026-03-12|2026-03-12|2026-03-12|2|1|0
-|el zapato | shoe |2026-03-12|2026-03-12|2026-03-12|2|1|0
-|la chaqueta | jacket |2026-03-12|2026-03-12|2026-03-12|4|9|-1
-|extra | extra / spare |2026-03-12|2026-03-12|2026-03-12|3|6|-1
-|Estoy emocionado por el fin de semana | I am excited for the weekend |2026-03-12|2026-03-12|2026-03-12|1|1|0
-|Necesito preparar mi mochila | I need to prepare my backpack |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|El clima cambia rápido en la montaña | The weather changes quickly in the mountains |2026-03-12|2026-03-12|2026-03-12|2|0|0
-|¿Tienes un mapa? | Do you have a map? |2026-03-12|2026-03-12|2026-03-12|3|7|-1
-|Nos encontramos aquí mañana | We meet here tomorrow |2026-03-12|2026-03-12|2026-03-12|4|1|0
-|aunque | although |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|mientras | while |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|sin embargo | however |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|además | besides |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|todavía | still / yet |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|ya | already |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|casi | almost |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|quizás | maybe |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|seguramente | surely |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|seguir | to continue |2026-03-12|2026-03-12|2026-03-12|2|-2|1
-|mover | to move |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|cambiar | to change |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|ocurrir | to happen |2026-03-12|2026-03-12|2026-03-12|1|-1|1
-|resultar | to turn out |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|la pared | wall |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|el letrero | sign |2026-03-12|2026-03-12|2026-03-12|2|0|0
-|la señal | sign / signal |2026-03-12|2026-03-12|2026-03-12|2|1|0
-|la camisa | shirt |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|la caja | box |2026-03-12|2026-03-12|2026-03-12|1|-1|1
-|el suelo | floor / ground |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|el edificio | building |2026-03-12|2026-03-12|2026-03-12|1|2|0
-|la acera | sidewalk |2026-03-12|2026-03-12|2026-03-12|2|-2|1
-|la esquina | corner |2026-03-12|2026-03-12|2026-03-12|1|1|0
-|el techo | ceiling / roof |2026-03-12|2026-03-12|2026-03-12|1|-1|1
-|la escalera | staircase |2026-03-12|2026-03-12|2026-03-12|2|3|0
-|el ascensor | elevator |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|el pasillo | hallway |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|el barrio | neighborhood |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|la avenida | avenue |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|el puente | bridge |2026-03-12|2026-03-12|2026-03-12|1|1|0
-|el semáforo | traffic light |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|el banco | bench |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|la farola | streetlight |2026-03-12|2026-03-12|2026-03-12|1|-1|1
-|el poste | pole |2026-03-12|2026-03-12|2026-03-12|3|1|0
-|la reja | metal gate / bars |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|el buzón | mailbox |2026-03-12|2026-03-12|2026-03-12|1|-1|1
-|la vitrina | display case |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|el escaparate | shop window |2026-03-12|2026-03-12|2026-03-12|1|-1|1
-|la papelera | trash can |2026-03-12|2026-03-12|2026-03-12|2|-2|1
-|el carrito | cart |2026-03-12|2026-03-12|2026-03-12|1|-1|1
-|la mochila | backpack |2026-03-12|2026-03-12|2026-03-12|0|0|0
-|el uniforme | uniform |2026-03-12|2026-03-12|2026-03-12|1|1|0
-|la gorra | cap |2026-03-12|2026-03-12|2026-03-12|0|0|0
+volveré | I will return | | verb form |2026-03-10|2026-03-10|2026-03-12|6|6|0
+animado | lively / busy | | adjective |2026-03-12|2026-03-12|2026-03-12|5|7|0
+emocionado | excited | | adjective |2026-03-12|2026-03-12|2026-03-12|2|2|0
+preparar | to prepare | | verb |2026-03-12|2026-03-12|2026-03-12|3|6|0
+el consejo | advice | | noun |2026-03-12|2026-03-12|2026-03-12|2|1|0
+el zapato | shoe | | noun |2026-03-12|2026-03-12|2026-03-12|2|1|0
+la chaqueta | jacket | | noun |2026-03-12|2026-03-12|2026-03-12|4|9|-1
+extra | extra / spare | | adjective |2026-03-12|2026-03-12|2026-03-12|3|6|-1
+Estoy emocionado por el fin de semana | I am excited for the weekend | | phrase |2026-03-12|2026-03-12|2026-03-12|1|1|0
+Necesito preparar mi mochila | I need to prepare my backpack | | phrase |2026-03-12|2026-03-12|2026-03-12|0|0|0
+El clima cambia rápido en la montaña | The weather changes quickly in the mountains | | phrase |2026-03-12|2026-03-12|2026-03-12|2|0|0
+¿Tienes un mapa? | Do you have a map? | | phrase |2026-03-12|2026-03-12|2026-03-12|3|7|-1
+Nos encontramos aquí mañana | We meet here tomorrow | | phrase |2026-03-12|2026-03-12|2026-03-12|4|1|0
+aunque | although | | miscellaneous |2026-03-12|2026-03-12|2026-03-12|0|0|0
+mientras | while | | miscellaneous |2026-03-12|2026-03-12|2026-03-12|0|0|0
+sin embargo | however | | miscellaneous |2026-03-12|2026-03-12|2026-03-12|0|0|0
+además | besides | | miscellaneous |2026-03-12|2026-03-12|2026-03-12|0|0|0
+todavía | still / yet | | miscellaneous |2026-03-12|2026-03-12|2026-03-12|0|0|0
+ya | already | | miscellaneous |2026-03-12|2026-03-12|2026-03-12|0|0|0
+casi | almost | | miscellaneous |2026-03-12|2026-03-12|2026-03-12|0|0|0
+quizás | maybe | | miscellaneous |2026-03-12|2026-03-12|2026-03-12|0|0|0
+seguramente | surely | | miscellaneous |2026-03-12|2026-03-12|2026-03-12|0|0|0
+seguir | to continue | | verb |2026-03-12|2026-03-12|2026-03-12|2|-2|1
+mover | to move | | verb |2026-03-12|2026-03-12|2026-03-12|0|0|0
+cambiar | to change | | verb |2026-03-12|2026-03-12|2026-03-12|0|0|0
+ocurrir | to happen | | verb |2026-03-12|2026-03-12|2026-03-12|1|-1|1
+resultar | to turn out | | verb |2026-03-12|2026-03-12|2026-03-12|0|0|0
+la pared | wall | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
+el letrero | sign | | noun |2026-03-12|2026-03-12|2026-03-12|2|0|0
+la señal | sign / signal | | noun |2026-03-12|2026-03-12|2026-03-12|2|1|0
+la camisa | shirt | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
+la caja | box | | noun |2026-03-12|2026-03-12|2026-03-12|1|-1|1
+el suelo | floor / ground | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
+el edificio | building | | noun |2026-03-12|2026-03-12|2026-03-12|1|2|0
+la acera | sidewalk | | noun |2026-03-12|2026-03-12|2026-03-12|2|-2|1
+la esquina | corner | | noun |2026-03-12|2026-03-12|2026-03-12|1|1|0
+el techo | ceiling / roof | | noun |2026-03-12|2026-03-12|2026-03-12|1|-1|1
+la escalera | staircase | | noun |2026-03-12|2026-03-12|2026-03-12|2|3|0
+el ascensor | elevator | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
+el pasillo | hallway | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
+el barrio | neighborhood | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
+la avenida | avenue | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
+el puente | bridge | | noun |2026-03-12|2026-03-12|2026-03-12|1|1|0
+el semáforo | traffic light | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
+el banco | bench | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
+la farola | streetlight | | noun |2026-03-12|2026-03-12|2026-03-12|1|-1|1
+el poste | pole | | noun |2026-03-12|2026-03-12|2026-03-12|3|1|0
+la reja | metal gate / bars | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
+el buzón | mailbox | | noun |2026-03-12|2026-03-12|2026-03-12|1|-1|1
+la vitrina | display case | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
+el escaparate | shop window | | noun |2026-03-12|2026-03-12|2026-03-12|1|-1|1
+la papelera | trash can | | noun |2026-03-12|2026-03-12|2026-03-12|2|-2|1
+el carrito | cart | | noun |2026-03-12|2026-03-12|2026-03-12|1|-1|1
+la mochila | backpack | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
+el uniforme | uniform | | noun |2026-03-12|2026-03-12|2026-03-12|1|1|0
+la gorra | cap | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
