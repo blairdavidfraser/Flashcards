@@ -115,20 +115,32 @@
 
     <div id="mainMenu">
 
-        <div class="row">
-            <button onclick="chooseLanguage('spanish')">Learn Spanish</button>
-            <button onclick="chooseLanguage('french')">Learn French</button>
-        </div>
-
-        <div class="row">
-            <button onclick="editLanguage('spanish')">Edit Spanish</button>
-            <button onclick="editLanguage('french')">Edit French</button>
-        </div>
-
-        <div class="row">
-            <button onclick="showStats('spanish')">Stats Spanish</button>
-            <button onclick="showStats('french')">Stats French</button>
-        </div>
+        <table style="margin: 20px auto; border-collapse: collapse;">
+            <tr>
+                <td style="padding: 10px; font-weight: bold; text-align: right;">Spanish</td>
+                <td style="padding: 10px; font-weight: bold; text-align: right;">--</td>
+                <td style="padding: 10px;">
+                    <a href="#" onclick="chooseLanguage('spanish')"
+                        style="color: #fff; text-decoration: none; margin-right: 15px;">Learn</a> ::
+                    <a href="#" onclick="editLanguage('spanish')"
+                        style="color: #fff; text-decoration: none; margin: 0 15px;">Edit</a> ::
+                    <a href="#" onclick="showStats('spanish')"
+                        style="color: #fff; text-decoration: none; margin-left: 15px;">Statistics</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; font-weight: bold; text-align: right;">French</td>
+                <td style="padding: 10px; font-weight: bold; text-align: right;">--</td>
+                <td style="padding: 10px;">
+                    <a href="#" onclick="chooseLanguage('french')"
+                        style="color: #fff; text-decoration: none; margin-right: 15px;">Learn</a> ::
+                    <a href="#" onclick="editLanguage('french')"
+                        style="color: #fff; text-decoration: none; margin: 0 15px;">Edit</a> ::
+                    <a href="#" onclick="showStats('french')"
+                        style="color: #fff; text-decoration: none; margin-left: 15px;">Statistics</a>
+                </td>
+            </tr>
+        </table>
 
     </div>
 
