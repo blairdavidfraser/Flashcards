@@ -53,7 +53,7 @@
             color: #ccc;
             background: #282828;
             padding: 8px 12px;
-            text-align: left;
+            text-align: right;
             margin-top: 8px;
         }
 
@@ -90,6 +90,15 @@
             background: #222;
             color: white;
             font-size: 14px;
+        }
+
+        input[type="text"] {
+            background: #222;
+            color: white;
+            border: 1px solid #666;
+            padding: 8px;
+            font-size: 16px;
+            border-radius: 4px;
         }
 
         .difficulty button {
@@ -148,7 +157,7 @@
         <div id="card" class="card">
             <div id="cardHeader" class="card-header"></div>
             <div id="cardTop" class="card-top">Press Here</div>
-            <div id="cardDivider" class="card-divider">----- <span id="cardEmoji"></span> -----</div>
+            <div id="cardDivider" class="card-divider">--------- <span id="cardEmoji"></span> ---------</div>
             <div id="cardBottom" class="card-bottom"></div>
             <div id="cardFooter" class="card-footer"></div>
         </div>
@@ -189,6 +198,24 @@
 
         <br><br>
         <button onclick="backToMenu()">Back</button>
+
+    </div>
+
+    <div id="editCardArea" style="display:none">
+
+        <h3>Edit Card</h3>
+
+        <div style="text-align: left; display: inline-block; margin: 20px auto;">
+            <label>Front: <input type="text" id="editFront" style="width:300px;"></label><br><br>
+            <label>Back: <input type="text" id="editBack" style="width:300px;"></label><br><br>
+            <label>Emoji: <input type="text" id="editEmoji" style="width:300px;"
+                    placeholder="&#x1F914;"></label><br><br>
+            <label>Category: <input type="text" id="editCategory" style="width:300px;"></label><br><br>
+        </div>
+
+        <br>
+        <button onclick="saveCardEdit()">Save</button>
+        <button onclick="cancelEdit()">Cancel</button>
 
     </div>
 
@@ -253,6 +280,7 @@
             let reset = document.getElementById("resetArea")
             if (reset) reset.style.display = "none"
             document.getElementById("statsArea").style.display = "none"
+            document.getElementById("editCardArea").style.display = "none"
         }
 
         function startStudy(mode) {
@@ -362,7 +390,7 @@
                 document.getElementById("cardTop").innerText = "No cards."
                 document.getElementById("cardBottom").innerText = ""
                 document.getElementById("cardHeader").innerText = ""
-                document.getElementById("cardEmoji").innerText = ""
+                document.getElementById("cardEmoji").innerHTML = ""
                 return
 
             }
@@ -388,8 +416,8 @@
             document.getElementById("cardTop").innerText = question
             document.getElementById("cardBottom").innerText = ""
             document.getElementById("cardHeader").innerText = currentCard.category || ""
-            document.getElementById("cardEmoji").innerText = currentCard.emoji || "&#x1F914;"
-            document.getElementById("cardFooter").innerText = ""
+            document.getElementById("cardEmoji").innerHTML = currentCard.emoji || ""
+            document.getElementById("cardFooter").innerHTML = '<a href="#" onclick="showEditForm()" style="color:#ccc;text-decoration:none;">edit</a>'
 
             updateCardInfo()
             document.getElementById("difficultyButtons").style.display = "none"
@@ -440,6 +468,40 @@
                 `last seen ${last ? formatDate(last) : 'never'}, seen ${seen}`
         }
 
+        function showEditForm() {
+            if (!currentCard) return
+
+            document.getElementById("studyArea").style.display = "none"
+            document.getElementById("editCardArea").style.display = "block"
+
+            document.getElementById("editFront").value = currentCard.front
+            document.getElementById("editBack").value = currentCard.back
+            document.getElementById("editEmoji").value = currentCard.emoji || ""
+            document.getElementById("editCategory").value = currentCard.category || ""
+        }
+
+        function saveCardEdit() {
+            if (!currentCard) return
+
+            currentCard.front = document.getElementById("editFront").value.trim()
+            currentCard.back = document.getElementById("editBack").value.trim()
+            currentCard.emoji = document.getElementById("editEmoji").value.trim()
+            currentCard.category = document.getElementById("editCategory").value.trim()
+
+            saveDeck(currentLang)
+
+            document.getElementById("editCardArea").style.display = "none"
+            document.getElementById("studyArea").style.display = "block"
+
+            // Refresh the current card display
+            nextCard()
+        }
+
+        function cancelEdit() {
+            document.getElementById("editCardArea").style.display = "none"
+            document.getElementById("studyArea").style.display = "block"
+        }
+
 
         //---------------------------------------------------------------------
         // Language Reset screen
@@ -468,7 +530,7 @@
                         c.seen,
                         c.penalty,
                         c.level
-                    ].join("|")
+                    ].join(" | ")
                 )
             })
             document.getElementById("editBox").value = lines.join("\n")
@@ -487,15 +549,15 @@
                 let parts = line.split("|")
                 // support both old format and new with emoji/category
                 let card = {
-                    front: parts[0],
-                    back: parts[1],
-                    emoji: parts[2] || "",
-                    category: parts[3] || "",
-                    added: parseDate(parts[4] || parts[2]),
-                    lastSeen: parseDate(parts[5] || parts[3]),
-                    seen: parseInt(parts[6] || parts[4]) || 0,
-                    penalty: parseInt(parts[7] || parts[5]) || 0,
-                    level: parseInt(parts[8] || parts[6]) || 0
+                    front: parts[0].trim(),
+                    back: parts[1].trim(),
+                    emoji: parts[2].trim() || "",
+                    category: parts[3].trim() || "",
+                    added: parseDate(parts[4] || today()),
+                    lastSeen: parseDate(parts[5] || today()),
+                    seen: parseInt(parts[6]) || 0,
+                    penalty: parseInt(parts[7]) || 0,
+                    level: parseInt(parts[8]) || 0
                 }
                 newDeck.push(card)
             }
@@ -561,8 +623,10 @@
         // Utility functions 
         //---------------------------------------------------------------------
 
-        function today() {
-            return new Date().toISOString().slice(0, 10)
+        function decodeHtmlEntities(text) {
+            const textarea = document.createElement('textarea');
+            textarea.innerHTML = text;
+            return textarea.value;
         }
 
         function formatDate(epoch) {
