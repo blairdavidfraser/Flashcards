@@ -388,7 +388,7 @@
             document.getElementById("cardTop").innerText = question
             document.getElementById("cardBottom").innerText = ""
             document.getElementById("cardHeader").innerText = currentCard.category || ""
-            document.getElementById("cardEmoji").innerText = currentCard.emoji || ""
+            document.getElementById("cardEmoji").innerText = currentCard.emoji || "&#x1F914;"
             document.getElementById("cardFooter").innerText = ""
 
             updateCardInfo()
@@ -536,7 +536,7 @@
             })
 
             // Build stats display
-            let todayCount = deck.filter(c => formatDate(c.lastSeen) === today()).length;
+            let todayCount = deck.filter(c => c.seen > 0 && formatDate(c.lastSeen) === today()).length;
             let html = `
                 <p><strong>Total Cards:</strong> ${total}</p>
                 <p><strong>Never Seen:</strong> ${neverSeen}</p>

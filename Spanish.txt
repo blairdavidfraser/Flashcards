@@ -37,7 +37,7 @@ hablo un poco de español | I speak a little Spanish |  | phrase |2026-03-10|202
 ¿qué hora es? | what time is it? |  | question word |2026-03-10|2026-03-12|2|5|-1
 ¿dónde está el hotel? | where is the hotel? |  | question word |2026-03-10|2026-03-12|4|7|-1
 ¿dónde está el restaurante? | where is the restaurant? |  | question word |2026-03-10|2026-03-12|2|5|-1
-necesito ayuda | I need help |  | phrase |2026-03-10|2026-03-12|6|12|0
+necesito ayuda | I need help |  | phrase |2026-03-10|2026-03-13|7|15|-1
 estoy perdido | I am lost |  | phrase |2026-03-10|2026-03-12|3|2|-1
 ¿qué? | what |  | question word |2026-03-10|2026-03-11|2|5|-1
 ¿quién? | who |  | question word |2026-03-10|2026-03-11|2|5|-1
@@ -78,7 +78,7 @@ jueves | Thursday |  | miscellaneous |2026-03-10|2026-03-12|2|5|-1
 viernes | Friday |  | miscellaneous |2026-03-10|2026-03-11|2|5|-1
 sábado | Saturday |  | miscellaneous |2026-03-10|2026-03-12|2|5|-1
 domingo | Sunday |  | miscellaneous |2026-03-10|2026-03-11|2|6|-1
-enero | January |  | miscellaneous |2026-03-10|2026-03-12|2|2|0
+enero | January |  | miscellaneous |2026-03-10|2026-03-13|3|5|-1
 febrero | February |  | miscellaneous |2026-03-10|2026-03-12|3|5|0
 marzo | March |  | miscellaneous |2026-03-10|2026-03-12|1|3|-1
 abril | April |  | miscellaneous |2026-03-10|2026-03-12|1|3|-1
@@ -271,7 +271,7 @@ la cama | bed |  | noun |2026-03-10|2026-03-12|1|3|-1
 el sofá | sofa |  | noun |2026-03-10|2026-03-11|1|3|-1
 la televisión | television |  | noun |2026-03-10|2026-03-12|2|5|-1
 el teléfono | phone | 📱 | noun |2026-03-10|2026-03-11|1|3|-1
-la computadora | computer | 💻 | noun |2026-03-10|2026-03-12|4|3|0
+la computadora | computer | 💻 | noun |2026-03-10|2026-03-13|5|6|-1
 el internet | internet |  | noun |2026-03-10|2026-03-12|2|5|-1
 el libro | book | 📚 | noun |2026-03-10|2026-03-11|3|6|-1
 la página | page |  | noun |2026-03-10|2026-03-12|2|5|-1
@@ -289,7 +289,7 @@ posible | possible |  | miscellaneous |2026-03-10|2026-03-11|1|3|-1
 necesario | necessary |  | miscellaneous |2026-03-10|2026-03-12|1|1|0
 diferente | different |  | miscellaneous |2026-03-10|2026-03-11|3|7|-1
 igual | equal |  | miscellaneous |2026-03-10|2026-03-12|9|10|-1
-seguro | sure |  | miscellaneous |2026-03-10|2026-03-12|7|9|0
+seguro | sure |  | miscellaneous |2026-03-10|2026-03-13|8|10|0
 claro | clear / of course |  | miscellaneous |2026-03-10|2026-03-12|2|5|-1
 listo | ready |  | miscellaneous |2026-03-10|2026-03-12|3|6|-1
 cansado | tired |  | miscellaneous |2026-03-10|2026-03-12|1|3|-1
@@ -305,7 +305,7 @@ limpio | clean |  | miscellaneous |2026-03-10|2026-03-12|4|9|-1
 sucio | dirty |  | miscellaneous |2026-03-10|2026-03-12|6|10|0
 interesante | interesting |  | miscellaneous |2026-03-10|2026-03-12|4|6|-1
 aburrido | boring |  | miscellaneous |2026-03-10|2026-03-12|3|0|0
-¿qué pasa? | what's happening? |  | question word |2026-03-10|2026-03-12|3|1|0
+¿qué pasa? | what's happening? |  | question word |2026-03-10|2026-03-13|4|2|0
 ¿qué estás haciendo? | what are you doing? |  | question word |2026-03-10|2026-03-12|3|4|-1
 ¿qué quieres decir? | what do you mean? |  | question word |2026-03-10|2026-03-12|4|6|0
 no hay problema | no problem |  | phrase |2026-03-10|2026-03-12|2|4|0
@@ -316,13 +316,13 @@ por supuesto | of course |  | phrase |2026-03-10|2026-03-12|6|10|-1
 tal vez | maybe |  | phrase |2026-03-10|2026-03-11|1|3|-1
 puede ser | maybe / could be |  | phrase |2026-03-10|2026-03-12|6|5|-1
 ya veo | I see |  | phrase |2026-03-10|2026-03-12|8|5|0
-ya entiendo | now I understand |  | phrase |2026-03-10|2026-03-12|3|-1|1
+ya entiendo | now I understand |  | phrase |2026-03-10|2026-03-13|12|-10|1
 tienes razón | you are right |  | phrase |2026-03-10|2026-03-12|4|7|-1
 no estoy seguro | I'm not sure |  | phrase |2026-03-10|2026-03-12|7|4|0
 no lo sé | I don't know |  | phrase |2026-03-10|2026-03-12|5|5|0
 lo sé | I know |  | phrase |2026-03-10|2026-03-12|4|8|-1
 creo que sí | I think so |  | phrase |2026-03-10|2026-03-12|2|4|-1
-creo que no | I don't think so |  | phrase |2026-03-10|2026-03-12|2|0|0
+creo que no | I don't think so |  | phrase |2026-03-10|2026-03-13|3|1|0
 depende | it depends |  | miscellaneous |2026-03-10|2026-03-12|7|9|-1
 qué bueno | that's good |  | phrase |2026-03-10|2026-03-12|6|6|0
 qué lástima | what a shame |  | phrase |2026-03-10|2026-03-12|2|2|0
@@ -344,7 +344,7 @@ estoy con amigos | I am with friends |  | phrase |2026-03-10|2026-03-12|2|5|-1
 hace mucho frío | it's very cold |  | phrase |2026-03-10|2026-03-12|2|5|-1
 hace mucho calor | it's very hot |  | phrase |2026-03-10|2026-03-11|1|3|-1
 hoy hace buen tiempo | the weather is nice today |  | phrase |2026-03-10|2026-03-12|3|1|-1
-mañana trabajo | tomorrow I work |  | phrase |2026-03-10|2026-03-12|12|-4|1
+mañana trabajo | tomorrow I work |  | phrase |2026-03-10|2026-03-13|16|-8|1
 ayer salí con amigos | yesterday I went out with friends |  | phrase |2026-03-10|2026-03-12|3|7|-1
 me gusta esta ciudad | I like this city |  | phrase |2026-03-10|2026-03-12|3|5|-1
 no me gusta este restaurante | I don't like this restaurant |  | phrase |2026-03-10|2026-03-12|8|5|0
@@ -358,7 +358,7 @@ vender | to sell |  | verb infinitive |2026-03-10|2026-03-12|4|7|0
 pagar | to pay |  | verb infinitive |2026-03-10|2026-03-12|2|1|0
 usar | to use |  | verb infinitive |2026-03-10|2026-03-10|3|3|-1
 necesitar | to need |  | verb infinitive |2026-03-10|2026-03-12|3|5|0
-buscar | to look for |  | verb infinitive |2026-03-10|2026-03-12|3|6|0
+buscar | to look for |  | verb infinitive |2026-03-10|2026-03-13|4|9|-1
 encontrar | to find |  | verb infinitive |2026-03-10|2026-03-12|5|5|0
 perder | to lose |  | verb infinitive |2026-03-10|2026-03-12|3|7|-1
 ganar | to win / earn |  | verb infinitive |2026-03-10|2026-03-12|2|2|-1
@@ -400,7 +400,7 @@ especialmente | especially |  | adverb |2026-03-10|2026-03-11|2|1|0
 ¿qué quieres hacer? | what do you want to do? |  | question word |2026-03-10|2026-03-12|8|14|-1
 ¿qué piensas? | what do you think? |  | question word |2026-03-10|2026-03-12|3|1|0
 ¿te gusta? | do you like it? |  | phrase |2026-03-10|2026-03-12|5|11|-1
-me parece bien | that seems good to me |  | phrase |2026-03-10|2026-03-12|4|3|0
+me parece bien | that seems good to me |  | phrase |2026-03-10|2026-03-13|5|4|0
 me parece interesante | that seems interesting |  | phrase |2026-03-10|2026-03-12|6|4|0
 eso es verdad | that's true |  | phrase |2026-03-10|2026-03-12|3|5|-1
 no estoy de acuerdo | I don't agree |  | phrase |2026-03-10|2026-03-11|3|7|-1
@@ -412,7 +412,7 @@ todo está listo | everything is ready |  | phrase |2026-03-10|2026-03-12|2|5|-1
 vamos a ver | let's see |  | phrase |2026-03-10|2026-03-12|3|6|-1
 vamos poco a poco | let's go little by little |  | phrase |2026-03-10|2026-03-12|4|5|-1
 un momento | one moment |  | phrase |2026-03-10|2026-03-12|4|4|0
-espera un segundo | wait a second |  | phrase |2026-03-10|2026-03-12|4|1|0
+espera un segundo | wait a second |  | phrase |2026-03-10|2026-03-13|5|2|0
 dame un minuto | give me a minute |  | phrase |2026-03-10|2026-03-12|5|2|-1
 no tengo idea | I have no idea |  | phrase |2026-03-10|2026-03-11|1|3|-1
 es una buena idea | it's a good idea |  | phrase |2026-03-10|2026-03-12|7|5|0
@@ -427,14 +427,14 @@ trabajo en una oficina | I work in an office |  | phrase |2026-03-10|2026-03-12|
 viajo mucho por trabajo | I travel a lot for work |  | phrase |2026-03-10|2026-03-11|2|2|-1
 aprendo algo nuevo cada día | I learn something new every day |  | phrase |2026-03-10|2026-03-12|3|2|0
 leo noticias en español | I read news in Spanish |  | phrase |2026-03-10|2026-03-12|4|1|0
-escucho podcasts en español | I listen to podcasts in Spanish |  | phrase |2026-03-10|2026-03-12|9|3|0
+escucho podcasts en español | I listen to podcasts in Spanish |  | phrase |2026-03-10|2026-03-13|10|6|-1
 quiero vivir en España | I want to live in Spain |  | phrase |2026-03-10|2026-03-12|2|5|-1
 me gusta aprender idiomas | I like learning languages |  | phrase |2026-03-10|2026-03-12|5|5|0
 hablo español todos los días | I speak Spanish every day |  | phrase |2026-03-10|2026-03-12|6|9|-1
 practico con amigos | I practice with friends |  | phrase |2026-03-10|2026-03-12|1|2|0
 necesito más práctica | I need more practice |  | phrase|2026-03-10|2026-03-12|5|0|0
 entiendo un poco | I understand a little |  | phrase |2026-03-10|2026-03-12|3|6|-1
-no entiendo todo | I don't understand everything |  | phrase |2026-03-10|2026-03-12|1|1|0
+no entiendo todo | I don't understand everything |  | phrase |2026-03-10|2026-03-13|2|2|0
 puedo intentar otra vez | I can try again |  | phrase |2026-03-10|2026-03-12|3|3|0
 vamos al mercado | let's go to the market |  | phrase |2026-03-10|2026-03-12|4|5|-1
 vamos a caminar | let's go for a walk |  | phrase |2026-03-10|2026-03-10|0|0|0
@@ -459,62 +459,62 @@ amarillo (-a) | yellow | 🟡 | adjective |2026-03-10|2026-03-12|10|4|0
 verde | green | 🟢 | adjective |2026-03-10|2026-03-12|2|2|0
 azul | blue | 🔵 | adjective |2026-03-10|2026-03-12|3|2|0
 morado (-a) | purple | 🟣 | adjective |2026-03-10|2026-03-12|7|10|-1
-negro (-a) | black | ⚫ | adjective |2026-03-10|2026-03-12|2|1|0
-gris | grey | 🔘 | adjective |2026-03-10|2026-03-12|3|6|0
+negro (-a) | black | ⚫ | adjective |2026-03-10|2026-03-13|3|3|0
+gris | grey | 🔘 | adjective |2026-03-10|2026-03-13|4|9|-1
 blanco (-a) | white | ⚪ | adjective |2026-03-10|2026-03-12|2|5|-1
-volveré | I will return | | verb form |2026-03-10|2026-03-10|2026-03-12|6|6|0
-animado | lively / busy | | adjective |2026-03-12|2026-03-12|2026-03-12|5|7|0
-emocionado | excited | | adjective |2026-03-12|2026-03-12|2026-03-12|2|2|0
-preparar | to prepare | | verb |2026-03-12|2026-03-12|2026-03-12|3|6|0
-el consejo | advice | | noun |2026-03-12|2026-03-12|2026-03-12|2|1|0
-el zapato | shoe | | noun |2026-03-12|2026-03-12|2026-03-12|2|1|0
-la chaqueta | jacket | | noun |2026-03-12|2026-03-12|2026-03-12|4|9|-1
-extra | extra / spare | | adjective |2026-03-12|2026-03-12|2026-03-12|3|6|-1
-Estoy emocionado por el fin de semana | I am excited for the weekend | | phrase |2026-03-12|2026-03-12|2026-03-12|1|1|0
-Necesito preparar mi mochila | I need to prepare my backpack | | phrase |2026-03-12|2026-03-12|2026-03-12|0|0|0
-El clima cambia rápido en la montaña | The weather changes quickly in the mountains | | phrase |2026-03-12|2026-03-12|2026-03-12|2|0|0
-¿Tienes un mapa? | Do you have a map? | | phrase |2026-03-12|2026-03-12|2026-03-12|3|7|-1
-Nos encontramos aquí mañana | We meet here tomorrow | | phrase |2026-03-12|2026-03-12|2026-03-12|4|1|0
-aunque | although | | miscellaneous |2026-03-12|2026-03-12|2026-03-12|0|0|0
-mientras | while | | miscellaneous |2026-03-12|2026-03-12|2026-03-12|0|0|0
-sin embargo | however | | miscellaneous |2026-03-12|2026-03-12|2026-03-12|0|0|0
-además | besides | | miscellaneous |2026-03-12|2026-03-12|2026-03-12|0|0|0
-todavía | still / yet | | miscellaneous |2026-03-12|2026-03-12|2026-03-12|0|0|0
-ya | already | | miscellaneous |2026-03-12|2026-03-12|2026-03-12|0|0|0
-casi | almost | | miscellaneous |2026-03-12|2026-03-12|2026-03-12|0|0|0
-quizás | maybe | | miscellaneous |2026-03-12|2026-03-12|2026-03-12|0|0|0
-seguramente | surely | | miscellaneous |2026-03-12|2026-03-12|2026-03-12|0|0|0
-seguir | to continue | | verb |2026-03-12|2026-03-12|2026-03-12|2|-2|1
-mover | to move | | verb |2026-03-12|2026-03-12|2026-03-12|0|0|0
-cambiar | to change | | verb |2026-03-12|2026-03-12|2026-03-12|0|0|0
-ocurrir | to happen | | verb |2026-03-12|2026-03-12|2026-03-12|1|-1|1
-resultar | to turn out | | verb |2026-03-12|2026-03-12|2026-03-12|0|0|0
-la pared | wall | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
-el letrero | sign | | noun |2026-03-12|2026-03-12|2026-03-12|2|0|0
-la señal | sign / signal | | noun |2026-03-12|2026-03-12|2026-03-12|2|1|0
-la camisa | shirt | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
-la caja | box | | noun |2026-03-12|2026-03-12|2026-03-12|1|-1|1
-el suelo | floor / ground | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
-el edificio | building | | noun |2026-03-12|2026-03-12|2026-03-12|1|2|0
-la acera | sidewalk | | noun |2026-03-12|2026-03-12|2026-03-12|2|-2|1
-la esquina | corner | | noun |2026-03-12|2026-03-12|2026-03-12|1|1|0
-el techo | ceiling / roof | | noun |2026-03-12|2026-03-12|2026-03-12|1|-1|1
-la escalera | staircase | | noun |2026-03-12|2026-03-12|2026-03-12|2|3|0
-el ascensor | elevator | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
-el pasillo | hallway | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
-el barrio | neighborhood | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
-la avenida | avenue | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
-el puente | bridge | | noun |2026-03-12|2026-03-12|2026-03-12|1|1|0
-el semáforo | traffic light | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
-el banco | bench | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
-la farola | streetlight | | noun |2026-03-12|2026-03-12|2026-03-12|1|-1|1
-el poste | pole | | noun |2026-03-12|2026-03-12|2026-03-12|3|1|0
-la reja | metal gate / bars | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
-el buzón | mailbox | | noun |2026-03-12|2026-03-12|2026-03-12|1|-1|1
-la vitrina | display case | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
-el escaparate | shop window | | noun |2026-03-12|2026-03-12|2026-03-12|1|-1|1
-la papelera | trash can | | noun |2026-03-12|2026-03-12|2026-03-12|2|-2|1
-el carrito | cart | | noun |2026-03-12|2026-03-12|2026-03-12|1|-1|1
-la mochila | backpack | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
-el uniforme | uniform | | noun |2026-03-12|2026-03-12|2026-03-12|1|1|0
-la gorra | cap | | noun |2026-03-12|2026-03-12|2026-03-12|0|0|0
+volveré | I will return | | verb form |2026-03-10|2026-03-10|1|6|0
+animado | lively / busy | | adjective |2026-03-12|2026-03-12|1|5|0
+emocionado | excited | | adjective |2026-03-12|2026-03-12|1|2|0
+preparar | to prepare | | verb |2026-03-12|2026-03-12|1|3|0
+el consejo | advice | | noun |2026-03-12|2026-03-12|1|2|0
+el zapato | shoe | | noun |2026-03-12|2026-03-12|1|2|0
+la chaqueta | jacket | | noun |2026-03-12|2026-03-12|1|4|0
+extra | extra / spare | | adjective |2026-03-12|2026-03-12|1|3|0
+Estoy emocionado por el fin de semana | I am excited for the weekend | | phrase |2026-03-12|2026-03-12|1|1|0
+Necesito preparar mi mochila | I need to prepare my backpack | | phrase |2026-03-12|2026-03-12|1|0|0
+El clima cambia rápido en la montaña | The weather changes quickly in the mountains | | phrase |2026-03-12|2026-03-12|1|2|0
+¿Tienes un mapa? | Do you have a map? | | phrase |2026-03-12|2026-03-12|1|3|0
+Nos encontramos aquí mañana | We meet here tomorrow | | phrase |2026-03-12|2026-03-12|1|4|0
+aunque | although | | miscellaneous |2026-03-12|2026-03-12|1|0|0
+mientras | while | | miscellaneous |2026-03-12|2026-03-12|1|0|0
+sin embargo | however | | miscellaneous |2026-03-12|2026-03-12|1|0|0
+además | besides | | miscellaneous |2026-03-12|2026-03-12|1|0|0
+todavía | still / yet | | miscellaneous |2026-03-12|2026-03-12|1|0|0
+ya | already | | miscellaneous |2026-03-12|2026-03-12|1|0|0
+casi | almost | | miscellaneous |2026-03-12|2026-03-12|1|0|0
+quizás | maybe | | miscellaneous |2026-03-12|2026-03-12|1|0|0
+seguramente | surely | | miscellaneous |2026-03-12|2026-03-12|1|0|0
+seguir | to continue | | verb |2026-03-12|2026-03-12|1|2|0
+mover | to move | | verb |2026-03-12|2026-03-12|1|0|0
+cambiar | to change | | verb |2026-03-12|2026-03-12|1|0|0
+ocurrir | to happen | | verb |2026-03-12|2026-03-12|1|1|-1
+resultar | to turn out | | verb |2026-03-12|2026-03-12|1|0|0
+la pared | wall | | noun |2026-03-12|2026-03-12|1|0|0
+el letrero | sign | | noun |2026-03-12|2026-03-12|1|2|0
+la señal | sign / signal | | noun |2026-03-12|2026-03-12|1|2|1
+la camisa | shirt | | noun |2026-03-12|2026-03-12|1|0|0
+la caja | box | | noun |2026-03-12|2026-03-12|1|1|-1
+el suelo | floor / ground | | noun |2026-03-12|2026-03-12|1|0|0
+el edificio | building | | noun |2026-03-12|2026-03-12|1|1|0
+la acera | sidewalk | | noun |2026-03-12|2026-03-12|1|2|0
+la esquina | corner | | noun |2026-03-12|2026-03-12|1|1|1
+el techo | ceiling / roof | | noun |2026-03-12|2026-03-12|1|1|-1
+la escalera | staircase | | noun |2026-03-12|2026-03-12|1|2|0
+el ascensor | elevator | | noun |2026-03-12|2026-03-12|1|0|0
+el pasillo | hallway | | noun |2026-03-12|2026-03-12|1|0|0
+el barrio | neighborhood | | noun |2026-03-12|2026-03-12|1|0|0
+la avenida | avenue | | noun |2026-03-12|2026-03-12|1|0|0
+el puente | bridge | | noun |2026-03-12|2026-03-12|1|1|1
+el semáforo | traffic light | | noun |2026-03-12|2026-03-12|1|0|0
+el banco | bench | | noun |2026-03-12|2026-03-12|1|0|0
+la farola | streetlight | | noun |2026-03-12|2026-03-12|1|1|-1
+el poste | pole | | noun |2026-03-12|2026-03-12|1|3|1
+la reja | metal gate / bars | | noun |2026-03-12|2026-03-12|1|0|0
+el buzón | mailbox | | noun |2026-03-12|2026-03-12|1|1|-1
+la vitrina | display case | | noun |2026-03-12|2026-03-12|1|0|0
+el escaparate | shop window | | noun |2026-03-12|2026-03-12|1|1|-1
+la papelera | trash can | | noun |2026-03-12|2026-03-12|1|2|-1
+el carrito | cart | | noun |2026-03-12|2026-03-12|1|1|-1
+la mochila | backpack | | noun |2026-03-12|2026-03-12|1|0|0
+el uniforme | uniform | | noun |2026-03-12|2026-03-12|1|1|1
+la gorra | cap | | noun |2026-03-12|2026-03-12|1|0|0
