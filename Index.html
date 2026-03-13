@@ -154,6 +154,10 @@
             <label><input type="radio" name="mode" value="shuffle" onclick="selectMode('shuffle')">Shuffle</label>
         </div>
         <div class="row">
+            <label><input type="radio" name="sound" value="on" onclick="selectSound(true)">Sound</label>
+            <label><input type="radio" name="sound" value="off" onclick="selectSound(false)" checked>No sound</label>
+        </div>
+        <div class="row">
             <button onclick="startNormal()">Normal</button>
             <button onclick="startNew()">New</button>
             <button onclick="startHard()">Hard</button>
@@ -238,6 +242,7 @@
         let currentLang = null
         let currentMode = null
         let filterMode = null
+        let soundEnabled = false
         let deck = []
         let currentCard = null
         let showingAnswer = false
@@ -311,6 +316,10 @@
         function selectMode(mode) {
             currentMode = mode
             filterMode = null
+        }
+
+        function selectSound(enabled) {
+            soundEnabled = enabled
         }
 
         function startNormal() {
@@ -428,8 +437,17 @@
             document.getElementById("cardTop").innerText = question
             document.getElementById("cardBottom").innerText = ""
             document.getElementById("cardHeader").innerText = currentCard.category || ""
-            document.getElementById("cardEmoji").innerHTML = currentCard.emoji || ""
             document.getElementById("cardFooter").innerHTML = '<a href="#" onclick="showEditForm()" style="color:#ccc;text-decoration:none;">edit</a>'
+
+            // Emoji + sound behavior
+            if (currentCard.showFront) {
+                // front (foreign) showing first
+                document.getElementById("cardEmoji").innerHTML = currentCard.emoji || ""
+                speakText(currentCard.front, currentLang)
+            } else {
+                // back (English) showing first
+                document.getElementById("cardEmoji").innerHTML = ""
+            }
 
             updateCardInfo()
             document.getElementById("difficultyButtons").style.display = "none"
@@ -450,6 +468,13 @@
                 : currentCard.front
 
             document.getElementById("cardBottom").innerText = answer
+
+            // If the front (foreign) is revealed now, speak it and show emoji
+            if (!currentCard.showFront) {
+                speakText(currentCard.front, currentLang)
+                document.getElementById("cardEmoji").innerHTML = currentCard.emoji || ""
+            }
+
             updateCardInfo()
             document.getElementById("difficultyButtons").style.display = "block"
 
@@ -649,6 +674,27 @@
         function parseDate(d) {
             if (!d) return Date.now()
             return new Date(d).getTime()
+        }
+
+        function speakText(text, lang) {
+            if (!soundEnabled || !text) return
+
+            // Create speech synthesis utterance
+            const utterance = new SpeechSynthesisUtterance(text)
+
+            // Set language based on current language
+            if (lang === 'spanish') {
+                utterance.lang = 'es-ES' // Spanish (Spain) - you can adjust to 'es-MX' for Mexican Spanish, etc.
+            } else if (lang === 'french') {
+                utterance.lang = 'fr-FR' // French (France)
+            }
+
+            // Optional: adjust speech properties
+            utterance.rate = 0.8 // Slightly slower for learning
+            utterance.pitch = 1
+
+            // Speak the text
+            window.speechSynthesis.speak(utterance)
         }
 
     </script>
