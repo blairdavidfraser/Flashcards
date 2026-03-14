@@ -86,6 +86,11 @@
             border-top: 1px solid #e5eaf0;
         }
 
+        .card-footer span {
+            float: left;
+            font-size: 16px;
+        }
+
         /* Card content */
 
         .card-top,
@@ -202,10 +207,12 @@
             <label><input type="radio" name="sound" value="off" onclick="selectSound(false)">No sound</label>
         </div>
         <div class="row">
-            <button onclick="startNormal()">Normal</button>
-            <button onclick="startNew()">New</button>
-            <button onclick="startHard()">Hard</button>
-            <button onclick="startReview()">Review</button>
+            <div class="row">
+                <a href="#" onclick="startNormal(); return false;">Normal</a> ::
+                <a href="#" onclick="startNew(); return false;">New</a> ::
+                <a href="#" onclick="startHard(); return false;">Hard</a> ::
+                <a href="#" onclick="startReview(); return false;">Review</a>
+            </div>
         </div>
 
         <br><br>
@@ -480,16 +487,18 @@
             document.getElementById("cardTop").innerText = question
             document.getElementById("cardBottom").innerText = ""
             document.getElementById("cardHeader").innerText = currentCard.category || ""
-            document.getElementById("cardFooter").innerHTML = '<a href="#" onclick="showEditForm()" style="color:#ccc;text-decoration:none;">edit</a>'
+            document.getElementById("cardFooter").innerHTML = '<a href="#" onclick="showEditForm();return false;" style="color:#ccc;text-decoration:none;">edit</a>'
 
             // Emoji + sound behavior
             if (currentCard.showFront) {
-                // front (foreign) showing first
-                document.getElementById("cardEmoji").innerHTML = currentCard.emoji || ""
-                speakText(currentCard.front, currentLang)
-            } else {
-                // back (English) showing first
+                // If front (foreign) is shown first, no emoji and speak front immediately. The 
+                // emoji would be a clue.
                 document.getElementById("cardEmoji").innerHTML = ""
+                speakAndShowSpeaker(currentCard.front)
+            } else {
+                // If back (native) is shown first, show emoji, but only speak when user clicks to 
+                // reveal the front.
+                document.getElementById("cardEmoji").innerHTML = currentCard.emoji || ""
             }
 
             updateCardInfo()
@@ -512,9 +521,11 @@
 
             document.getElementById("cardBottom").innerText = answer
 
-            // If the front (foreign) is revealed now, speak it and show emoji
+            // If the front (foreign) is revealed now, speak it. If back (native) is
+            // revealed now, show the emoji.
             if (!currentCard.showFront) {
-                speakText(currentCard.front, currentLang)
+                speakAndShowSpeaker(currentCard.front)
+            } else {
                 document.getElementById("cardEmoji").innerHTML = currentCard.emoji || ""
             }
 
@@ -533,6 +544,17 @@
 
             saveDeck(currentLang)
             nextCard()
+        }
+
+        function speakAndShowSpeaker(text) {
+
+            speakText(text, currentLang)
+
+            const footer = document.getElementById("cardFooter")
+
+            footer.innerHTML =
+                '<span style="float:left;cursor:pointer;" onclick="speakText(currentCard.front,currentLang)">&#x1F508;</span>' +
+                '<a href="#" onclick="showEditForm();return false;" style="color:#ccc;text-decoration:none;">edit</a>'
         }
 
         function updateCardInfo() {
