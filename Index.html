@@ -684,10 +684,11 @@
 
             let total = deck.length
             let levelCounts = {}
+            let categoryCounts = {}
             let neverSeen = 0
 
-            // Count cards at each level and cards never seen
             deck.forEach(c => {
+
                 let level = c.level
                 if (levelCounts[level] === undefined) {
                     levelCounts[level] = 0
@@ -697,6 +698,13 @@
                 if (c.seen === 0) {
                     neverSeen++
                 }
+
+                let cat = (c.category || "uncategorized").trim()
+                if (!categoryCounts[cat]) {
+                    categoryCounts[cat] = 0
+                }
+
+                categoryCounts[cat]++
             })
 
             // Build stats display
@@ -712,6 +720,14 @@
             levels.forEach(level => {
                 let count = levelCounts[level]
                 html += `<p><strong>Level ${level}:</strong> ${count}</p>`
+            })
+
+            // Show category counts alphabetically
+            let cats = Object.keys(categoryCounts).sort()
+            cats.forEach(cat => {
+
+                html += `<p><strong>${cat}:</strong> ${categoryCounts[cat]}</p>`
+
             })
 
             document.getElementById("mainMenu").style.display = "none"
