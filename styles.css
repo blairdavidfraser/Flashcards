@@ -1,0 +1,154 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    background: #eef2f5;
+    color: #1f2933;
+    text-align: center;
+}
+
+a {
+    color: #334155;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- Buttons ---------- */
+
+button {
+    padding: 12px 18px;
+    margin: 6px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    transition: all .15s ease;
+}
+
+button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+    transform: translateY(0px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.difficulty button {
+    width: 60px;
+    font-size: 20px;
+}
+
+/* ---------- Card ---------- */
+
+.card {
+    margin: 40px auto;
+    background: white;
+    border-radius: 16px;
+    width: 92%;
+    max-width: 520px;
+    font-size: 26px;
+    cursor: pointer;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+/* Proper header and footer */
+
+.card-header {
+    font-size: 13px;
+    color: #6b7280;
+    background: #f6f8fb;
+    padding: 10px 16px;
+    text-align: left;
+    border-bottom: 1px solid #e5eaf0;
+}
+
+.card-footer {
+    font-size: 13px;
+    color: #6b7280;
+    background: #f6f8fb;
+    padding: 10px 16px;
+    text-align: right;
+    border-top: 1px solid #e5eaf0;
+}
+
+.card-footer span {
+    float: left;
+    font-size: 16px;
+}
+
+/* Card content */
+
+.card-top,
+.card-bottom {
+    padding: 28px 16px;
+    min-height: 70px;
+}
+
+/* Divider */
+
+.card-divider {
+    text-align: center;
+    margin: 6px 0;
+    font-size: 18px;
+    color: #d1d7de;
+}
+
+.card-divider #cardEmoji {
+    font-size: 26px;
+    margin: 0 6px;
+}
+
+/* ---------- Inputs ---------- */
+
+textarea {
+    width: 95%;
+    height: 350px;
+    background: white;
+    color: #1f2933;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 1px solid #d7dde4;
+    padding: 10px;
+}
+
+input[type="text"] {
+    background: white;
+    color: #1f2933;
+    border: 1px solid #d7dde4;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+/* ---------- Layout ---------- */
+
+.row {
+    margin-top: 14px;
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 600px) {
+
+    .card {
+        margin: 20px auto;
+        font-size: 24px;
+    }
+
+    .card-top,
+    .card-bottom {
+        padding: 24px 14px;
+    }
+
+    button {
+        font-size: 15px;
+    }
+
+}
