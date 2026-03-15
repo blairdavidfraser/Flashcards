@@ -449,30 +449,6 @@ function showStats(lang) {
 }
 
 
-//---------------------------------------------------------------------
-// Utility functions 
-//---------------------------------------------------------------------
-
-function today() {
-    return new Date().toISOString().slice(0, 10)
-}
-
-function decodeHtmlEntities(text) {
-    const textarea = document.createElement('textarea');
-    textarea.innerHTML = text;
-    return textarea.value;
-}
-
-function formatDate(epoch) {
-    if (!epoch) return ""
-    return new Date(epoch).toISOString().slice(0, 10)
-}
-
-function parseDate(d) {
-    if (!d) return Date.now()
-    return new Date(d).getTime()
-}
-
 function speakText(text, lang) {
     if (!soundEnabled || !text) return
 
@@ -492,4 +468,29 @@ function speakText(text, lang) {
 
     // Speak the text
     window.speechSynthesis.speak(utterance)
+}
+
+
+//---------------------------------------------------------------------
+// Utility functions 
+//---------------------------------------------------------------------
+
+function today() {
+    return new Date().toISOString().slice(0, 10)
+}
+
+function formatDate(epoch) {
+    if (!epoch) return ""
+    return new Date(epoch).toISOString().slice(0, 10)
+}
+
+function parseDate(d) {
+    if (!d) return Date.now()
+    return new Date(d).getTime()
+}
+
+function decodeHtmlEntities(text) {
+    const textarea = document.createElement('textarea');
+    textarea.innerHTML = text;
+    return textarea.value;
 }
