@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>DotLingo</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <h2>DotLingo</h2>
+
+    <div style="margin-top: 40px;">
+
+        <div class="card" style="max-width: 400px; cursor: default;">
+            <div class="card-top">
+                What will we practice today?
+            </div>
+
+            <div class="card-bottom">
+
+                <div class="row">
+                    <button onclick="go('Flashcards.html')">
+                        Vocabulary Flashcards
+                    </button>
+                </div>
+
+                <div class="row">
+                    <button onclick="go('Verbs.html')">
+                        Verb Trainer
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function go(page) {
+            window.location.href = page;
+        }
+    </script>
+
+</body>
+
+</html>

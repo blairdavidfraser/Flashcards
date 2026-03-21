@@ -3,13 +3,13 @@
 
 <head>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Language Flashcards</title>
+    <title>Verb Conjugation Trainer</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
 
-    <h2><a href="index.html">DotLingo</a> :: Flashcards</h2>
+    <h2><a href="index.html">DotLingo</a> :: Verb Trainer</h2>
 
 
     <div id="mainMenu">
@@ -19,22 +19,22 @@
                 <td style="padding: 10px; font-weight: bold; text-align: right;">Spanish</td>
                 <td style="padding: 10px; font-weight: bold; text-align: right;">--</td>
                 <td style="padding: 10px;">
-                    <a href="#" onclick="chooseLanguage('flashcards', 'spanish')" style="margin-right: 15px;">Learn</a>
+                    <a href="#" onclick="chooseLanguage('verbs','spanish')" style="margin-right: 15px;">Learn</a>
                     ::
-                    <a href="#" onclick="editLanguage('flashcards','spanish')" style="margin: 0 15px;">Edit</a>
+                    <a href="#" onclick="editLanguage('verbs','spanish')" style="margin: 0 15px;">Edit</a>
                     ::
-                    <a href="#" onclick="showStats('flashcards','spanish');" style="margin-left: 15px;">Statistics</a>
+                    <a href="#" onclick="showStats('verbs','spanish');" style="margin-left: 15px;">Statistics</a>
                 </td>
             </tr>
             <tr>
                 <td style="padding: 10px; font-weight: bold; text-align: right;">French</td>
                 <td style="padding: 10px; font-weight: bold; text-align: right;">--</td>
                 <td style="padding: 10px;">
-                    <a href="#" onclick="chooseLanguage('flashcards','french')" style="margin-right: 15px;">Learn</a>
+                    <a href="#" onclick="chooseLanguage('verbs','french')" style="margin-right: 15px;">Learn</a>
                     ::
-                    <a href="#" onclick="editLanguage('flashcards','french')" style="margin: 0 15px;">Edit</a>
+                    <a href="#" onclick="editLanguage('verbs','french')" style="margin: 0 15px;">Edit</a>
                     ::
-                    <a href="#" onclick="showStats('flashcards','french');" style="margin-left: 15px;">Statistics</a>
+                    <a href="#" onclick="showStats('verbs','french');" style="margin-left: 15px;">Statistics</a>
                 </td>
             </tr>
         </table>
@@ -43,14 +43,6 @@
 
     <div id="modeMenu" style="display:none">
         <h3 id="languageTitle"></h3>
-
-        <!-- Mode Selection -->
-        <div class="row">
-            <label><input type="radio" name="mode" value="recognition"
-                    onclick="selectMode('recognition')">Recognition</label>
-            <label><input type="radio" name="mode" value="recall" onclick="selectMode('recall')" checked>Recall</label>
-            <label><input type="radio" name="mode" value="shuffle" onclick="selectMode('shuffle')">Shuffle</label>
-        </div>
 
         <!-- Sound Selection -->
         <div class="row">

@@ -1,6 +1,4 @@
-
-const STORAGE_PREFIX = "flashcards_"
-
+let currentGame = null
 let currentLang = null
 let currentMode = null
 let filterMode = null
@@ -12,9 +10,9 @@ let showingAnswer = false
 let shuffleFlip = false  // toggle for shuffle mode
 
 
-function loadDeck(lang) {
+function loadDeck(game, lang) {
 
-    let raw = localStorage.getItem(STORAGE_PREFIX + lang)
+    let raw = localStorage.getItem(game + "_" + lang)
     if (!raw) return []
     let arr = JSON.parse(raw)
     arr.forEach(c => {
@@ -28,13 +26,14 @@ function loadDeck(lang) {
     return arr
 }
 
-function saveDeck(lang) {
-    localStorage.setItem(STORAGE_PREFIX + lang, JSON.stringify(deck))
+function saveDeck(game, lang) {
+    localStorage.setItem(game + "_" + lang, JSON.stringify(deck))
 }
 
-function chooseLanguage(lang) {
+function chooseLanguage(game, lang) {
     currentLang = lang
-    currentMode = 'recall'
+    currentGame = game
+    currentMode = currentGame === "verbs" ? 'recall' : currentMode;
 
     document.getElementById("mainMenu").style.display = "none"
     document.getElementById("modeMenu").style.display = "block"
@@ -42,7 +41,7 @@ function chooseLanguage(lang) {
     document.getElementById("languageTitle").innerText =
         lang === "spanish" ? "Spanish" : "French"
 
-    deck = loadDeck(lang)
+    deck = loadDeck(game, lang)
     renderCategoryFilters(deck)
 }
 
@@ -113,10 +112,6 @@ function startStudy(mode) {
 
 }
 
-function selectMode(mode) {
-    currentMode = mode
-    filterMode = null
-}
 
 function selectSound(enabled) {
     soundEnabled = enabled
@@ -148,7 +143,7 @@ function startReview() {
 
 function exitStudy() {
 
-    saveDeck(currentLang)
+    saveDeck(currentGame, currentLang)
     backToMenu()
 
 }
@@ -294,7 +289,7 @@ function rate(d, l) {
     currentCard.level = l
     currentCard.penalty += (3 - d)
 
-    saveDeck(currentLang)
+    saveDeck(currentGame, currentLang)
     nextCard()
 }
 
@@ -342,7 +337,7 @@ function saveCardEdit() {
     currentCard.emoji = document.getElementById("editEmoji").value.trim()
     currentCard.category = document.getElementById("editCategory").value.trim()
 
-    saveDeck(currentLang)
+    saveDeck(currentGame, currentLang)
 
     document.getElementById("editCardArea").style.display = "none"
     document.getElementById("studyArea").style.display = "block"
@@ -361,9 +356,10 @@ function cancelEdit() {
 // Language Reset screen
 //---------------------------------------------------------------------
 
-function editLanguage(lang) {
+function editLanguage(game, lang) {
     currentLang = lang
-    deck = loadDeck(lang)
+    currentGame = game
+    deck = loadDeck(game, lang)
 
     document.getElementById("mainMenu").style.display = "none"
     document.getElementById("editArea").style.display = "block"
@@ -417,7 +413,7 @@ function saveEdit() {
     }
 
     deck = newDeck
-    saveDeck(currentLang)
+    saveDeck(currentGame, currentLang)
     backToMenu()
 }
 
@@ -430,9 +426,8 @@ function selectAllText() {
 // Language Statistics screen
 //---------------------------------------------------------------------
 
-function showStats(lang) {
-    currentLang = lang
-    deck = loadDeck(lang)
+function showStats(game, lang) {
+    deck = loadDeck(game, lang)
 
     let total = deck.length
     let levelCounts = {}
