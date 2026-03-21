@@ -1,6 +1,6 @@
 let currentGame = null
 let currentLang = null
-let currentMode = 'recognition'  // default to recognition mode
+let currentMode = 'recall'  // default to recall mode
 let filterMode = null
 let soundEnabled = true
 let selectedCategories = new Set();
