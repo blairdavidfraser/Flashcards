@@ -5,6 +5,7 @@ let currentLang = null
 let currentMode = null
 let filterMode = null
 let soundEnabled = true
+let selectedCategories = new Set();
 let deck = []
 let currentCard = null
 let showingAnswer = false
@@ -17,11 +18,6 @@ function loadDeck(lang) {
     if (!raw) return []
     let arr = JSON.parse(raw)
     arr.forEach(c => {
-        if (c.enabled !== undefined) {
-            // old boolean format
-            c.level = c.enabled ? 0 : -1
-            delete c.enabled
-        }
         if (c.level === undefined) {
             c.level = 0
         }
@@ -47,6 +43,48 @@ function chooseLanguage(lang) {
         lang === "spanish" ? "Spanish" : "French"
 
     deck = loadDeck(lang)
+    renderCategoryFilters(deck)
+}
+
+function renderCategoryFilters(deck) {
+    const container = document.getElementById("categoryFilters");
+
+    // Build category counts
+    const counts = {};
+
+    deck.forEach(card => {
+        const cat = card.category || "Uncategorized";
+        counts[cat] = (counts[cat] || 0) + 1;
+    });
+
+    const categories = Object.keys(counts).sort();
+
+    // default: all selected
+    selectedCategories = new Set(categories);
+
+    container.innerHTML = "";
+
+    categories.forEach(cat => {
+        const id = "cat_" + cat.replace(/\s+/g, "_");
+
+        const label = document.createElement("label");
+        label.innerHTML = `
+            <input type="checkbox" id="${id}" checked>
+            ${cat} (${counts[cat]})
+        `;
+
+        const checkbox = label.querySelector("input");
+
+        checkbox.addEventListener("change", () => {
+            if (checkbox.checked) {
+                selectedCategories.add(cat);
+            } else {
+                selectedCategories.delete(cat);
+            }
+        });
+
+        container.appendChild(label);
+    });
 }
 
 function backToMenu() {
@@ -117,7 +155,9 @@ function exitStudy() {
 
 function pickCard() {
 
-    let enabled = deck
+    let enabled = deck.filter(c =>
+        selectedCategories.has(c.category || "Uncategorized")
+    )
 
     // Apply filter mode
     if (filterMode === 'normal') {
@@ -425,6 +465,7 @@ function showStats(lang) {
                 <p><strong>Total Cards:</strong> ${total}</p>
                 <p><strong>Never Seen:</strong> ${neverSeen}</p>
                 <p><strong>Today:</strong> ${todayCount}</p>
+                <hr/>
             `
 
     // Sort levels numerically
@@ -433,6 +474,7 @@ function showStats(lang) {
         let count = levelCounts[level]
         html += `<p><strong>Level ${level}:</strong> ${count}</p>`
     })
+    html += '<hr/>'
 
     // Show category counts alphabetically
     let cats = Object.keys(categoryCounts).sort()

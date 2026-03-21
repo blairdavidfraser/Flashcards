@@ -40,17 +40,31 @@
     <div id="modeMenu" style="display:none">
         <h3 id="languageTitle"></h3>
 
+        <!-- Mode Selection -->
         <div class="row">
             <label><input type="radio" name="mode" value="recognition"
                     onclick="selectMode('recognition')">Recognition</label>
             <label><input type="radio" name="mode" value="recall" onclick="selectMode('recall')" checked>Recall</label>
             <label><input type="radio" name="mode" value="shuffle" onclick="selectMode('shuffle')">Shuffle</label>
         </div>
+
+        <!-- Sound Selection -->
         <div class="row">
             <label><input type="radio" name="sound" value="on" onclick="selectSound(true)" checked>Sound</label>
             <label><input type="radio" name="sound" value="off" onclick="selectSound(false)">No sound</label>
         </div>
-        <div class="row">
+
+        <hr class="menu-divider">
+
+        <!-- Category Selection -->
+        <div id="categoryFilters" class="row" style="text-align:left; display:inline-block;">
+            <!-- dynamically filled -->
+        </div>
+
+        <hr class="menu-divider">
+
+        <!-- Start Game -->
+        <div class="row mode-buttons">
             <div class="row">
                 <a href="#" onclick="startNormal(); return false;">Normal</a> ::
                 <a href="#" onclick="startNew(); return false;">New</a> ::
@@ -130,7 +144,10 @@
     </div>
 
     <!-- Load application javascript -->
-    <script src="app.js"></script>
+    <script src="app.js">
+
+
+    </script>
 
 </body>
 

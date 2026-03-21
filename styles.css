@@ -15,6 +15,25 @@ a:hover {
     text-decoration: underline;
 }
 
+.menu-divider {
+    margin: 16px auto;
+    width: 80%;
+    border: none;
+    border-top: 1px solid #d7dde4;
+}
+
+.mode-buttons button {
+    font-size: 18px;
+    padding: 12px 20px;
+    font-weight: 600;
+}
+
+#categoryFilters label {
+    display: block;
+    margin: 6px 0;
+    font-size: 15px;
+}
+
 /* ---------- Buttons ---------- */
 
 button {
