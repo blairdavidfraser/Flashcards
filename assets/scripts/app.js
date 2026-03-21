@@ -1,16 +1,4 @@
 
-let currentGame = null
-let currentLang = null
-let currentMode = 'recall'  // default to recall mode
-let currentQuestionSide = 'front';
-let filterMode = null
-let soundEnabled = true
-let selectedCategories = new Set();
-let deck = []
-let currentCard = null
-let showingAnswer = false
-let shuffleFlip = false  // toggle for shuffle mode
-
 
 //=============================================================================
 // Card.js
@@ -77,6 +65,35 @@ class Card {
 }
 
 
+//=============================================================================
+// Game.js
+//
+//=============================================================================
+class Game {
+    constructor() { // Should have args.
+        this.name = null;
+        this.language = null;
+        this.mode = 'recall'; // recall, recognition, shuffle
+        this.level = 'normal'; // normal, new, hard, review
+
+        this.configuration = {
+            sound: true,
+            categories: new Set()
+        };
+
+
+    }
+}
+
+//=============================================================================
+// Globals
+//=============================================================================
+let game = new Game();
+let currentQuestionSide = 'front';
+let deck = []
+let currentCard = null
+let showingAnswer = false
+let shuffleFlip = false  // toggle for shuffle mode
 
 
 
@@ -85,22 +102,23 @@ class Card {
 
 
 
-function loadDeck(game, lang) {
-    let raw = localStorage.getItem(game + "_" + lang);
+
+function loadDeck(prefix, lang) {
+    let raw = localStorage.getItem(prefix + "_" + lang);
     if (!raw) return [];
     let arr = JSON.parse(raw);
     // Convert plain objects from JSON into Card class instances
     return arr.map(c => new Card(c));
 }
 
-function saveDeck(game, lang) {
-    localStorage.setItem(game + "_" + lang, JSON.stringify(deck))
+function saveDeck(prefix, lang) {
+    localStorage.setItem(prefix + "_" + lang, JSON.stringify(deck))
 }
 
-function chooseLanguage(game, lang) {
-    currentLang = lang
-    currentGame = game
-    currentMode = currentGame === "verbs" ? 'recall' : currentMode;
+function chooseLanguage(name, lang) {
+    game.name = name
+    game.language = lang
+    game.mode = game.name === "verbs" ? 'recall' : game.mode;
 
     document.getElementById("mainMenu").style.display = "none"
     document.getElementById("modeMenu").style.display = "block"
@@ -108,7 +126,7 @@ function chooseLanguage(game, lang) {
     document.getElementById("languageTitle").innerText =
         lang === "spanish" ? "Spanish" : "French"
 
-    deck = loadDeck(game, lang)
+    deck = loadDeck(name, lang)
     renderCategoryFilters(deck)
 }
 
@@ -126,7 +144,7 @@ function renderCategoryFilters(deck) {
     const categories = Object.keys(counts).sort();
 
     // default: all selected
-    selectedCategories = new Set(categories);
+    game.configuration.categories = new Set(categories);
 
     container.innerHTML = "";
 
@@ -143,9 +161,9 @@ function renderCategoryFilters(deck) {
 
         checkbox.addEventListener("change", () => {
             if (checkbox.checked) {
-                selectedCategories.add(cat);
+                game.configuration.categories.add(cat);
             } else {
-                selectedCategories.delete(cat);
+                game.configuration.categories.delete(cat);
             }
         });
 
@@ -169,7 +187,7 @@ function backToMenu() {
 function startStudy(mode) {
 
     console.log("Starting '" + mode + "' mode.");
-    currentMode = mode
+    game.mode = mode
 
     document.getElementById("modeMenu").style.display = "none"
     document.getElementById("studyArea").style.display = "block"
@@ -181,54 +199,33 @@ function startStudy(mode) {
 }
 
 function selectMode(mode) {
-    currentMode = mode
-    filterMode = null
+    game.mode = mode
 }
 
-function selectSound(enabled) {
-    soundEnabled = enabled
+function selectSound(sound) {
+    game.configuration.sound = sound
 }
 
-function startNormal() {
-    filterMode = 'normal'
-    if (!currentMode) return
-    startStudy(currentMode)
-}
-
-function startNew() {
-    filterMode = 'new'
-    if (!currentMode) return
-    startStudy(currentMode)
-}
-
-function startHard() {
-    filterMode = 'hard'
-    if (!currentMode) return
-    startStudy(currentMode)
-}
-
-function startReview() {
-    filterMode = 'review'
-    if (!currentMode) return
-    startStudy(currentMode)
+function start(level) {
+    game.level = level;
+    if (!game.mode) return
+    startStudy(game.mode)
 }
 
 function exitStudy() {
-
-    saveDeck(currentGame, currentLang)
+    saveDeck(game.name, game.language)
     backToMenu()
-
 }
 
 function pickCard() {
     let enabled = deck.filter(c =>
-        selectedCategories.has(c.category) && c.matches(filterMode)
+        game.configuration.categories.has(c.category) && c.matches(game.level)
     );
 
     if (enabled.length === 0) return null;
 
     // 2. Sort for Review mode specifically
-    if (filterMode === 'review') {
+    if (game.level === 'review') {
         return enabled
             .sort((a, b) => a.lastSeen - b.lastSeen)
             .slice(0, 100)[Math.floor(Math.random() * Math.min(enabled.length, 100))];
@@ -282,11 +279,11 @@ function nextCard() {
 
 
     // Logic to determine which side is the question
-    if (currentMode === "recall") {
+    if (game.mode === "recall") {
         currentQuestionSide = 'back';
-    } else if (currentMode === "recognition") {
+    } else if (game.mode === "recognition") {
         currentQuestionSide = 'front';
-    } else if (currentMode === "shuffle") {
+    } else if (game.mode === "shuffle") {
         currentQuestionSide = shuffleFlip ? 'back' : 'front';
         shuffleFlip = !shuffleFlip;
     }
@@ -317,18 +314,18 @@ function rate(d, l) {
     // Use the method defined in the Card class
     currentCard.rate(d, l);
 
-    saveDeck(currentGame, currentLang);
+    saveDeck(game.name, game.language);
     nextCard();
 }
 
 function speakAndShowSpeaker(text) {
 
-    speakText(text, currentLang)
+    speakText(text, game.language)
 
     const footer = document.getElementById("cardFooter")
 
     footer.innerHTML =
-        '<span style="float:left;cursor:pointer;" onclick="speakText(currentCard.front,currentLang)">&#x1F508;</span>' +
+        '<span style="float:left;cursor:pointer;" onclick="speakText(currentCard.front,game.language)">&#x1F508;</span>' +
         '<a href="#" onclick="showEditForm();return false;" style="color:#ccc;text-decoration:none;">edit</a>'
 }
 
@@ -352,7 +349,7 @@ function saveCardEdit() {
     currentCard.emoji = document.getElementById("editEmoji").value.trim()
     currentCard.category = document.getElementById("editCategory").value.trim()
 
-    saveDeck(currentGame, currentLang)
+    saveDeck(game.name, game.language)
 
     document.getElementById("editCardArea").style.display = "none"
     document.getElementById("studyArea").style.display = "block"
@@ -371,10 +368,10 @@ function cancelEdit() {
 // Language Reset screen
 //---------------------------------------------------------------------
 
-function editLanguage(game, lang) {
-    currentLang = lang
-    currentGame = game
-    deck = loadDeck(game, lang)
+function editLanguage(name, lang) {
+    game.name = name
+    game.language = lang
+    deck = loadDeck(name, lang)
 
     document.getElementById("mainMenu").style.display = "none"
     document.getElementById("editArea").style.display = "block"
@@ -428,7 +425,7 @@ function saveEdit() {
         }
     }
     deck = newDeck;
-    saveDeck(currentGame, currentLang);
+    saveDeck(game.name, game.language);
     backToMenu();
 }
 
@@ -502,7 +499,7 @@ function showStats(game, lang) {
 
 
 function speakText(text, lang) {
-    if (!soundEnabled || !text) return
+    if (!game.configuration.sound || !text) return
 
     // Create speech synthesis utterance
     const utterance = new SpeechSynthesisUtterance(text)
