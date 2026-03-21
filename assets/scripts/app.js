@@ -1,6 +1,8 @@
+
 let currentGame = null
 let currentLang = null
 let currentMode = 'recall'  // default to recall mode
+let currentQuestionSide = 'front';
 let filterMode = null
 let soundEnabled = true
 let selectedCategories = new Set();
@@ -10,20 +12,85 @@ let showingAnswer = false
 let shuffleFlip = false  // toggle for shuffle mode
 
 
-function loadDeck(game, lang) {
+//=============================================================================
+// Card.js
+//
+// A class representing a single flashcard, with front and back content.
+//=============================================================================
+class Card {
+    constructor(data) {
+        this.front = data.front;
+        this.back = data.back;
+        this.emoji = data.emoji || "";
+        this.category = data.category || "";
+        this.added = data.added || Date.now();
+        this.lastSeen = data.lastSeen || null;
+        this.seen = data.seen || 0;
+        this.penalty = data.penalty || 0;
+        this.level = data.level || 0;
+    }
 
-    let raw = localStorage.getItem(game + "_" + lang)
-    if (!raw) return []
-    let arr = JSON.parse(raw)
-    arr.forEach(c => {
-        if (c.level === undefined) {
-            c.level = 0
+    validate() {
+        const okFront = this.front && this.front.trim().length > 0;
+        const okBack = this.back && this.back.trim().length > 0;
+        return okFront && okBack;
+    }
+
+    rate(difficulty, newLevel) {
+        this.seen++;
+        this.lastSeen = Date.now();
+        this.level = newLevel;
+        this.penalty += (3 - difficulty);
+    }
+
+    matches(mode) {
+        const fiveDaysAgo = Date.now() - (86400000 * 5);
+        switch (mode) {
+            case 'normal':
+                return this.level >= 0;
+            case 'new':
+                return this.level >= 0 && (this.seen < 3 || this.added > fiveDaysAgo);
+            case 'hard':
+                return this.level >= 1;
+            case 'review':
+                return this.level === -1;
+            default:
+                return this.level >= 0;
         }
-        if (c.penalty === undefined) {
-            c.penalty = 0
-        }
-    })
-    return arr
+    }
+
+    priority() {
+        const failRate = (this.penalty < 0) ? Math.abs(this.penalty) + 1 : 1;
+        const isRecent = (Date.now() - this.added) < (86400000 * 7);
+        const recentBoost = isRecent ? 3 : 1;
+        const seenPenalty = Math.max(1, this.seen / 5);
+        return (failRate * recentBoost) / seenPenalty;
+    }
+
+    summary() {
+        let added = parseDate(currentCard.added)
+        let last = currentCard.lastSeen ? new Date(currentCard.lastSeen) : null
+        let seen = currentCard.seen || 0
+        return `level ${currentCard.level} (${currentCard.penalty}), added ${formatDate(added)}, ` +
+            `last seen ${last ? formatDate(last) : 'never'}, seen ${seen}`
+    }
+}
+
+
+
+
+
+
+
+
+
+
+function loadDeck(game, lang) {
+    let raw = localStorage.getItem(game + "_" + lang);
+    if (!raw) return [];
+    let arr = JSON.parse(raw);
+    // Convert plain objects from JSON into Card class instances
+    return arr.map(c => new Card(c));
 }
 
 function saveDeck(game, lang) {
@@ -154,58 +221,53 @@ function exitStudy() {
 }
 
 function pickCard() {
-
     let enabled = deck.filter(c =>
-        selectedCategories.has(c.category || "Uncategorized")
-    )
+        selectedCategories.has(c.category) && c.matches(filterMode)
+    );
 
-    // Apply filter mode
-    if (filterMode === 'normal') {
-        enabled = enabled.filter(c => c.level >= 0)
-    } else if (filterMode === 'new') {
-        enabled = enabled.filter(c => c.level >= 0 && (c.seen < 3 || (Date.now() - parseDate(c.added)) < 86400000 * 5))
-    } else if (filterMode === 'hard') {
-        enabled = enabled.filter(c => c.level >= 1)
-    } else if (filterMode === 'review') {
-        enabled = enabled
-            .filter(c => c.level === -1)
-            .sort((a, b) => parseDate(a.lastSeen) - parseDate(b.lastSeen))
-            .slice(0, 100)
-    } else {
-        // default to normal if no filter mode set
-        enabled = enabled.filter(c => c.level >= 0)
+    if (enabled.length === 0) return null;
+
+    // 2. Sort for Review mode specifically
+    if (filterMode === 'review') {
+        return enabled
+            .sort((a, b) => a.lastSeen - b.lastSeen)
+            .slice(0, 100)[Math.floor(Math.random() * Math.min(enabled.length, 100))];
     }
 
-    if (enabled.length === 0) return null
-
-    let weights = enabled.map(c => {
-
-        let failRate = (c.penalty < 0) ? Math.abs(c.penalty) + 1 : 1
-        let recentBoost = (Date.now() - c.added) < 86400000 * 7 ? 3 : 1
-        let seenPenalty = Math.max(1, c.seen / 5)
-
-        return failRate * recentBoost / seenPenalty
-
-    })
-
-    let total = weights.reduce((a, b) => a + b, 0)
-
-    let r = Math.random() * total
+    // 3. Weighted Random Selection using the class method
+    let weights = enabled.map(c => c.priority());
+    let total = weights.reduce((a, b) => a + b, 0);
+    let r = Math.random() * total;
 
     for (let i = 0; i < enabled.length; i++) {
-
-        r -= weights[i]
-
-        if (r <= 0) return enabled[i]
-
+        r -= weights[i];
+        if (r <= 0) return enabled[i]; // Returns one card
     }
 
-    return enabled[0]
+    return enabled[0]; // Fallback to first card, not the whole list
+}
 
+function handleCardFlip() {
+    if (!currentCard || showingAnswer) return;
+
+    showingAnswer = true;
+    const answerSide = (currentQuestionSide === 'front') ? 'back' : 'front';
+    const answerText = currentCard[answerSide];
+
+    document.getElementById("cardBottom").innerText = answerText;
+
+    if (answerSide === 'front') {
+        speakAndShowSpeaker(currentCard.front);
+    } else {
+        document.getElementById("cardEmoji").innerHTML = currentCard.emoji || "";
+    }
+
+    document.getElementById("cardInfo").innerText = currentCard ? currentCard.summary() : '';
+    document.getElementById("difficultyButtons").style.display = "block";
 }
 
 function nextCard() {
-
+    showingAnswer = false;
     currentCard = pickCard()
 
     if (!currentCard) {
@@ -218,84 +280,45 @@ function nextCard() {
 
     }
 
-    showingAnswer = false
 
-    // determine question text
-    let question;
+    // Logic to determine which side is the question
     if (currentMode === "recall") {
-        question = currentCard.back
+        currentQuestionSide = 'back';
     } else if (currentMode === "recognition") {
-        question = currentCard.front
+        currentQuestionSide = 'front';
     } else if (currentMode === "shuffle") {
-        // alternate front/back first each card
-        question = shuffleFlip ? currentCard.back : currentCard.front
-        shuffleFlip = !shuffleFlip
-    } else {
-        // fallback
-        question = currentCard.back
-    }
-    currentCard.showFront = question === currentCard.front
-
-    document.getElementById("cardTop").innerText = question
-    document.getElementById("cardBottom").innerText = ""
-    document.getElementById("cardHeader").innerText = currentCard.category || ""
-    document.getElementById("cardFooter").innerHTML = '<a href="#" onclick="showEditForm();return false;" style="color:#ccc;text-decoration:none;">edit</a>'
-
-    // Emoji + sound behavior
-    if (currentCard.showFront) {
-        // If front (foreign) is shown first, no emoji and speak front immediately. The 
-        // emoji would be a clue.
-        document.getElementById("cardEmoji").innerHTML = ""
-        speakAndShowSpeaker(currentCard.front)
-    } else {
-        // If back (native) is shown first, show emoji, but only speak when user clicks to 
-        // reveal the front.
-        document.getElementById("cardEmoji").innerHTML = currentCard.emoji || ""
+        currentQuestionSide = shuffleFlip ? 'back' : 'front';
+        shuffleFlip = !shuffleFlip;
     }
 
-    updateCardInfo()
+    const questionText = currentCard[currentQuestionSide]; // Dynamic access
+
+    document.getElementById("cardTop").innerText = questionText;
+    document.getElementById("cardBottom").innerText = "";
+    document.getElementById("cardHeader").innerText = currentCard.category || "";
+
+    // If the question is the foreign side (front), speak it and hide emoji
+    if (currentQuestionSide === 'front') {
+        document.getElementById("cardEmoji").innerHTML = "";
+        speakAndShowSpeaker(currentCard.front);
+    } else {
+        document.getElementById("cardEmoji").innerHTML = currentCard.emoji || "";
+    }
+
+    document.getElementById("cardInfo").innerText = currentCard ? currentCard.summary() : '';
     document.getElementById("difficultyButtons").style.display = "none"
     document.getElementById("startBtn").style.display = "none"
 
 }
 
-document.getElementById("card").onclick = function () {
-
-    if (!currentCard) return
-
-    if (showingAnswer) return
-
-    showingAnswer = true
-
-    let answer = currentCard.showFront
-        ? currentCard.back
-        : currentCard.front
-
-    document.getElementById("cardBottom").innerText = answer
-
-    // If the front (foreign) is revealed now, speak it. If back (native) is
-    // revealed now, show the emoji.
-    if (!currentCard.showFront) {
-        speakAndShowSpeaker(currentCard.front)
-    } else {
-        document.getElementById("cardEmoji").innerHTML = currentCard.emoji || ""
-    }
-
-    updateCardInfo()
-    document.getElementById("difficultyButtons").style.display = "block"
-
-}
-
 function rate(d, l) {
-    if (!currentCard) return
+    if (!currentCard) return;
 
-    currentCard.seen++
-    currentCard.lastSeen = Date.now()
-    currentCard.level = l
-    currentCard.penalty += (3 - d)
+    // Use the method defined in the Card class
+    currentCard.rate(d, l);
 
-    saveDeck(currentGame, currentLang)
-    nextCard()
+    saveDeck(currentGame, currentLang);
+    nextCard();
 }
 
 function speakAndShowSpeaker(text) {
@@ -307,19 +330,6 @@ function speakAndShowSpeaker(text) {
     footer.innerHTML =
         '<span style="float:left;cursor:pointer;" onclick="speakText(currentCard.front,currentLang)">&#x1F508;</span>' +
         '<a href="#" onclick="showEditForm();return false;" style="color:#ccc;text-decoration:none;">edit</a>'
-}
-
-function updateCardInfo() {
-    if (!currentCard) {
-        document.getElementById("cardInfo").innerText = ''
-        return
-    }
-    let added = parseDate(currentCard.added)
-    let last = currentCard.lastSeen ? new Date(currentCard.lastSeen) : null
-    let seen = currentCard.seen || 0
-    document.getElementById("cardInfo").innerText =
-        `level ${currentCard.level} (${currentCard.penalty}), added ${formatDate(added)}, ` +
-        `last seen ${last ? formatDate(last) : 'never'}, seen ${seen}`
 }
 
 function showEditForm() {
@@ -392,34 +402,34 @@ function editLanguage(game, lang) {
 }
 
 function saveEdit() {
-    let text = document.getElementById("editBox").value
-    let lines = text.split("\n")
-    let newDeck = []
+    let text = document.getElementById("editBox").value;
+    let lines = text.split("\n");
+    let newDeck = [];
 
-    // Convert pipeline-separated format back to language data structure
     for (let line of lines) {
-        line = line.trim()
-        if (!line || line.startsWith("#")) continue
+        line = line.trim();
+        if (!line || line.startsWith("#")) continue;
+        let parts = line.split("|");
 
-        let parts = line.split("|")
-        // support both old format and new with emoji/category
-        let card = {
+        let card = new Card({
             front: parts[0].trim(),
             back: parts[1].trim(),
             emoji: parts[2].trim() || "",
             category: parts[3].trim() || "",
-            added: parseDate(parts[4].trim() || today()),
-            lastSeen: parseDate(parts[5].trim() || today()),
+            added: parseDate(parts[4].trim()),
+            lastSeen: parseDate(parts[5].trim()),
             seen: parseInt(parts[6]) || 0,
             penalty: parseInt(parts[7]) || 0,
             level: parseInt(parts[8]) || 0
-        }
-        newDeck.push(card)
-    }
+        });
 
-    deck = newDeck
-    saveDeck(currentGame, currentLang)
-    backToMenu()
+        if (card.validate()) {
+            newDeck.push(card);
+        }
+    }
+    deck = newDeck;
+    saveDeck(currentGame, currentLang);
+    backToMenu();
 }
 
 function selectAllText() {
@@ -536,3 +546,5 @@ function decodeHtmlEntities(text) {
     textarea.innerHTML = text;
     return textarea.value;
 }
+
+
