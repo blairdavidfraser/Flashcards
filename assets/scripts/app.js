@@ -1,6 +1,6 @@
 let currentGame = null
 let currentLang = null
-let currentMode = null
+let currentMode = 'recognition'  // default to recognition mode
 let filterMode = null
 let soundEnabled = true
 let selectedCategories = new Set();
@@ -101,6 +101,7 @@ function backToMenu() {
 
 function startStudy(mode) {
 
+    console.log("Starting '" + mode + "' mode.");
     currentMode = mode
 
     document.getElementById("modeMenu").style.display = "none"
@@ -112,6 +113,10 @@ function startStudy(mode) {
 
 }
 
+function selectMode(mode) {
+    currentMode = mode
+    filterMode = null
+}
 
 function selectSound(enabled) {
     soundEnabled = enabled
