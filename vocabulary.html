@@ -83,21 +83,21 @@
 
     <div id="studyArea" style="display:none">
 
-        <div id="card" class="card" onclick="handleCardFlip()">
+        <div id="card" class="card" onclick="finishRound()">
             <div id="cardHeader" class="card-header"></div>
             <div id="cardTop" class="card-top">Press Here</div>
             <div id="cardDivider" class="card-divider">--------- <span id="cardEmoji"></span> ---------</div>
             <div id="cardBottom" class="card-bottom"></div>
-            <div id="cardFooter" class="card-footer"></div>
+            <div id="cardFooter" class="card-footer"><a href="#" onclick="showEditForm();">edit</a></div>
         </div>
         <button id="startBtn" onclick="nextCard()">Start</button>
 
         <div class="difficulty" id="difficultyButtons" style="display:none">
-            <button onclick="rate(0, -1)">&larr;</button>
-            <button onclick="rate(1, 0)">1</button>
-            <button onclick="rate(2, 0)">2</button>
-            <button onclick="rate(3, 0)">3</button>
-            <button onclick="rate(4, 1)">&rarr;</button>
+            <button onclick="cycleRound(0, -1)">&larr;</button>
+            <button onclick="cycleRound(1, 0)">1</button>
+            <button onclick="cycleRound(2, 0)">2</button>
+            <button onclick="cycleRound(3, 0)">3</button>
+            <button onclick="cycleRound(4, 1)">&rarr;</button>
         </div>
 
         <button onclick="exitStudy()" style="margin-top:8px;">Exit</button>

@@ -24,16 +24,16 @@ class Card {
         return okFront && okBack;
     }
 
-    rate(difficulty, newLevel) {
+    rate(difficulty, level) {
         this.seen++;
         this.lastSeen = Date.now();
-        this.level = newLevel;
+        this.level = level;
         this.penalty += (3 - difficulty);
     }
 
-    matches(mode) {
+    matches(level) {
         const fiveDaysAgo = Date.now() - (86400000 * 5);
-        switch (mode) {
+        switch (level) {
             case 'normal':
                 return this.level >= 0;
             case 'new':
@@ -56,10 +56,10 @@ class Card {
     }
 
     summary() {
-        let added = parseDate(currentCard.added)
-        let last = currentCard.lastSeen ? new Date(currentCard.lastSeen) : null
-        let seen = currentCard.seen || 0
-        return `level ${currentCard.level} (${currentCard.penalty}), added ${formatDate(added)}, ` +
+        let added = parseDate(game.state.card.added)
+        let last = game.state.card.lastSeen ? new Date(game.state.card.lastSeen) : null
+        let seen = game.state.card.seen || 0
+        return `level ${game.state.card.level} (${game.state.card.penalty}), added ${formatDate(added)}, ` +
             `last seen ${last ? formatDate(last) : 'never'}, seen ${seen}`
     }
 }
@@ -70,64 +70,172 @@ class Card {
 //
 //=============================================================================
 class Game {
-    constructor() { // Should have args.
-        this.name = null;
-        this.language = null;
-        this.mode = 'recall'; // recall, recognition, shuffle
-        this.level = 'normal'; // normal, new, hard, review
+    constructor(name = null, language = null) {
+        this.name = name;
+        this.language = language;
+        this.mode = 'recall';
+        this.rank = 'normal'; // normal, new, hard, review
 
         this.configuration = {
             sound: true,
             categories: new Set()
         };
 
+        this.state = {
+            card: null,
+            questionText: null,
+            questionEmoji: null,
+            questionSpeach: null,
+            answerText: null,
+            answerEmoji: null,
+            answerSpeach: null,
+            roundComplete: false,
+        }
 
+        this.deck = this.#load(this.name, this.language)
     }
+
+    draw() {
+        game.state.roundComplete = false;
+        game.state.card = this.#pickCard()
+
+        let round = this.mode === "shuffle"
+            ? Math.random() < 0.5 ? 'recognition' : 'recall'
+            : this.mode;
+
+        if (round === 'recognition') {
+            game.state.questionText = game.state.card.front; // Foreign shown first.
+            game.state.questionEmoji = ''; // Emoji would be clue to meaning.
+            game.state.questionSpeach = game.state.card.front; // Speak the foreign at question time.
+            game.state.answerText = game.state.card.back; // Reveal native answer.
+            game.state.answerEmoji = game.state.emoji || ''; // Reveal emoji if any.
+            game.state.answerSpeach = null; // Don't speak the native text.
+        }
+        else { // recall
+            game.state.questionText = game.state.card.back; // Native shown first.
+            game.state.questionEmoji = game.state.card.emoji || ''; // Show emoji if any.
+            game.state.questionSpeach = ''; // Don't speak the native text.
+            game.state.answerText = game.state.card.front; // Reveal foreign answer.
+            game.state.answerEmoji = game.state.card.emoji || ''; // Emoji still shows.
+            game.state.answerSpeach = game.state.card.front; // Speak the foreign text.
+        }
+    }
+
+    rate(difficulty, level) {
+        game.state.roundComplete = true;
+        if (!this.state.card) return;
+        this.state.card.rate(difficulty, level);
+        this.#save(this.name, this.language);
+    }
+
+    #load(prefix, language) {
+        let file = prefix + "_" + language;
+        let raw = localStorage.getItem(prefix + "_" + language);
+        let deck = raw ? JSON.parse(raw).map(c => new Card(c)) : [];
+        console.log(`Loaded '${deck.length}' cards from '${file}'.`);
+        return deck;
+    }
+
+    #save(prefix, language) {
+        localStorage.setItem(prefix + "_" + language, JSON.stringify(this.deck))
+    }
+
+    #pickCard() {
+        let enabled = this.deck.filter(c =>
+            this.configuration.categories.has(c.category) && c.matches(this.rate)
+        );
+
+        if (enabled.length === 0) return null;
+
+        // Sort for Review mode specifically
+        if (this.rate === 'review') {
+            return enabled
+                .sort((a, b) => a.lastSeen - b.lastSeen)
+                .slice(0, 100)[Math.floor(Math.random() * Math.min(enabled.length, 100))];
+        }
+
+        // Weighted Random Selection using the class method
+        let weights = enabled.map(c => c.priority());
+        let total = weights.reduce((a, b) => a + b, 0);
+        let r = Math.random() * total;
+        for (let i = 0; i < enabled.length; i++) {
+            r -= weights[i];
+            if (r <= 0) return enabled[i]; // Returns one card
+        }
+
+        return enabled[0]; // Fallback to first card, not the whole list
+    }
+}
+
+
+function saveDeck(prefix, lang) {
+    localStorage.setItem(prefix + "_" + lang, JSON.stringify(game.deck))
 }
 
 //=============================================================================
 // Globals
+//
 //=============================================================================
 let game = new Game();
-let currentQuestionSide = 'front';
-let deck = []
-let currentCard = null
-let showingAnswer = false
-let shuffleFlip = false  // toggle for shuffle mode
 
 
+//=============================================================================
+// UI Gameplay
+//
+//=============================================================================
 
+function startRound() {
+    game.draw();
 
+    console.log(`Start round: question='${game.state.questionSpeach}', answer='${game.state.answerSpeach}'.`)
+    if (!game.state.card) {
+        document.getElementById("cardTop").innerText = "No cards."
+        document.getElementById("cardBottom").innerText = ""
+        document.getElementById("cardHeader").innerText = ""
+        document.getElementById("cardEmoji").innerHTML = ""
+        return;
+    }
 
-
-
-
-
-function loadDeck(prefix, lang) {
-    let raw = localStorage.getItem(prefix + "_" + lang);
-    if (!raw) return [];
-    let arr = JSON.parse(raw);
-    // Convert plain objects from JSON into Card class instances
-    return arr.map(c => new Card(c));
+    document.getElementById("difficultyButtons").style.display = "none"
+    document.getElementById("startBtn").style.display = "none"
+    document.getElementById("cardHeader").innerText = game.state.card.category || "";
+    document.getElementById("cardTop").innerText = game.state.questionText;
+    document.getElementById("cardEmoji").innerHTML = game.state.questionEmoji;
+    document.getElementById("cardBottom").innerText = "";
+    document.getElementById("cardInfo").innerText = game.state.card ? game.state.card.summary() : '';
+    speakAndShowSpeaker(game.state.questionSpeach);
 }
 
-function saveDeck(prefix, lang) {
-    localStorage.setItem(prefix + "_" + lang, JSON.stringify(deck))
+function finishRound() {
+    console.log(`Flip: answer='${game.state.answerText}', speach='${game.state.answerSpeach}''`)
+    document.getElementById("cardBottom").innerText = game.state.answerText;
+    document.getElementById("cardEmoji").innerHTML = game.state.answerEmoji;
+    document.getElementById("cardInfo").innerText = game.state.card ? game.state.card.summary() : '';
+    document.getElementById("difficultyButtons").style.display = "block";
+    speakAndShowSpeaker(game.state.answerSpeach);
+
+
 }
 
-function chooseLanguage(name, lang) {
-    game.name = name
-    game.language = lang
+function cycleRound(difficulty, level) {
+    game.rate(difficulty, level);
+    startRound();
+}
+
+
+
+function chooseLanguage(name, language) {
+    game.name = name;
+    game.language = language;
     game.mode = game.name === "verbs" ? 'recall' : game.mode;
 
     document.getElementById("mainMenu").style.display = "none"
     document.getElementById("modeMenu").style.display = "block"
 
     document.getElementById("languageTitle").innerText =
-        lang === "spanish" ? "Spanish" : "French"
+        game.language === "spanish" ? "Spanish" : "French"
 
-    deck = loadDeck(name, lang)
-    renderCategoryFilters(deck)
+    renderCategoryFilters(game.deck)
 }
 
 function renderCategoryFilters(deck) {
@@ -185,17 +293,14 @@ function backToMenu() {
 }
 
 function startStudy(mode) {
-
     console.log("Starting '" + mode + "' mode.");
     game.mode = mode
 
     document.getElementById("modeMenu").style.display = "none"
     document.getElementById("studyArea").style.display = "block"
-
     document.getElementById("startBtn").style.display = "none"
 
-    nextCard()
-
+    startRound()
 }
 
 function selectMode(mode) {
@@ -206,8 +311,8 @@ function selectSound(sound) {
     game.configuration.sound = sound
 }
 
-function start(level) {
-    game.level = level;
+function start(rank) {
+    game.rate = rank;
     if (!game.mode) return
     startStudy(game.mode)
 }
@@ -217,145 +322,43 @@ function exitStudy() {
     backToMenu()
 }
 
-function pickCard() {
-    let enabled = deck.filter(c =>
-        game.configuration.categories.has(c.category) && c.matches(game.level)
-    );
-
-    if (enabled.length === 0) return null;
-
-    // 2. Sort for Review mode specifically
-    if (game.level === 'review') {
-        return enabled
-            .sort((a, b) => a.lastSeen - b.lastSeen)
-            .slice(0, 100)[Math.floor(Math.random() * Math.min(enabled.length, 100))];
-    }
-
-    // 3. Weighted Random Selection using the class method
-    let weights = enabled.map(c => c.priority());
-    let total = weights.reduce((a, b) => a + b, 0);
-    let r = Math.random() * total;
-
-    for (let i = 0; i < enabled.length; i++) {
-        r -= weights[i];
-        if (r <= 0) return enabled[i]; // Returns one card
-    }
-
-    return enabled[0]; // Fallback to first card, not the whole list
-}
-
-function handleCardFlip() {
-    if (!currentCard || showingAnswer) return;
-
-    showingAnswer = true;
-    const answerSide = (currentQuestionSide === 'front') ? 'back' : 'front';
-    const answerText = currentCard[answerSide];
-
-    document.getElementById("cardBottom").innerText = answerText;
-
-    if (answerSide === 'front') {
-        speakAndShowSpeaker(currentCard.front);
-    } else {
-        document.getElementById("cardEmoji").innerHTML = currentCard.emoji || "";
-    }
-
-    document.getElementById("cardInfo").innerText = currentCard ? currentCard.summary() : '';
-    document.getElementById("difficultyButtons").style.display = "block";
-}
-
-function nextCard() {
-    showingAnswer = false;
-    currentCard = pickCard()
-
-    if (!currentCard) {
-
-        document.getElementById("cardTop").innerText = "No cards."
-        document.getElementById("cardBottom").innerText = ""
-        document.getElementById("cardHeader").innerText = ""
-        document.getElementById("cardEmoji").innerHTML = ""
-        return
-
-    }
 
 
-    // Logic to determine which side is the question
-    if (game.mode === "recall") {
-        currentQuestionSide = 'back';
-    } else if (game.mode === "recognition") {
-        currentQuestionSide = 'front';
-    } else if (game.mode === "shuffle") {
-        currentQuestionSide = shuffleFlip ? 'back' : 'front';
-        shuffleFlip = !shuffleFlip;
-    }
 
-    const questionText = currentCard[currentQuestionSide]; // Dynamic access
-
-    document.getElementById("cardTop").innerText = questionText;
-    document.getElementById("cardBottom").innerText = "";
-    document.getElementById("cardHeader").innerText = currentCard.category || "";
-
-    // If the question is the foreign side (front), speak it and hide emoji
-    if (currentQuestionSide === 'front') {
-        document.getElementById("cardEmoji").innerHTML = "";
-        speakAndShowSpeaker(currentCard.front);
-    } else {
-        document.getElementById("cardEmoji").innerHTML = currentCard.emoji || "";
-    }
-
-    document.getElementById("cardInfo").innerText = currentCard ? currentCard.summary() : '';
-    document.getElementById("difficultyButtons").style.display = "none"
-    document.getElementById("startBtn").style.display = "none"
-
-}
-
-function rate(d, l) {
-    if (!currentCard) return;
-
-    // Use the method defined in the Card class
-    currentCard.rate(d, l);
-
-    saveDeck(game.name, game.language);
-    nextCard();
-}
 
 function speakAndShowSpeaker(text) {
-
+    if (!text) return;
+    console.log(`Speak: '${text}' in language='${game.language}'`)
     speakText(text, game.language)
-
-    const footer = document.getElementById("cardFooter")
-
-    footer.innerHTML =
-        '<span style="float:left;cursor:pointer;" onclick="speakText(currentCard.front,game.language)">&#x1F508;</span>' +
-        '<a href="#" onclick="showEditForm();return false;" style="color:#ccc;text-decoration:none;">edit</a>'
 }
 
 function showEditForm() {
-    if (!currentCard) return
+    if (!game.state.card) return
 
     document.getElementById("studyArea").style.display = "none"
     document.getElementById("editCardArea").style.display = "block"
 
-    document.getElementById("editFront").value = currentCard.front
-    document.getElementById("editBack").value = currentCard.back
-    document.getElementById("editEmoji").value = currentCard.emoji || ""
-    document.getElementById("editCategory").value = currentCard.category || ""
+    document.getElementById("editFront").value = game.state.card.front
+    document.getElementById("editBack").value = game.state.card.back
+    document.getElementById("editEmoji").value = game.state.card.emoji || ""
+    document.getElementById("editCategory").value = game.state.card.category || ""
 }
 
 function saveCardEdit() {
-    if (!currentCard) return
+    if (!game.state.card) return
 
-    currentCard.front = document.getElementById("editFront").value.trim()
-    currentCard.back = document.getElementById("editBack").value.trim()
-    currentCard.emoji = document.getElementById("editEmoji").value.trim()
-    currentCard.category = document.getElementById("editCategory").value.trim()
+    game.state.card.front = document.getElementById("editFront").value.trim()
+    game.state.card.back = document.getElementById("editBack").value.trim()
+    game.state.card.emoji = document.getElementById("editEmoji").value.trim()
+    game.state.card.category = document.getElementById("editCategory").value.trim()
 
-    saveDeck(game.name, game.language)
+    game.update()
 
     document.getElementById("editCardArea").style.display = "none"
     document.getElementById("studyArea").style.display = "block"
 
     // Refresh the current card display
-    nextCard()
+    startRound()
 }
 
 function cancelEdit() {
@@ -368,19 +371,17 @@ function cancelEdit() {
 // Language Reset screen
 //---------------------------------------------------------------------
 
-function editLanguage(name, lang) {
-    game.name = name
-    game.language = lang
-    deck = loadDeck(name, lang)
+function editLanguage(name, language) {
+    let game = new Game(name, language);
 
     document.getElementById("mainMenu").style.display = "none"
     document.getElementById("editArea").style.display = "block"
-    document.getElementById("editTitle").innerText = "Edit " + lang
+    document.getElementById("editTitle").innerText = "Edit " + language
 
     // Convert language data to pipeline-separated format for editing
     let lines = []
     lines.push("#front|back|emoji|category|added|lastSeen|seen|penalty|level")
-    deck.forEach(c => {
+    game.deck.forEach(c => {
         lines.push(
             [
                 c.front,
@@ -424,8 +425,8 @@ function saveEdit() {
             newDeck.push(card);
         }
     }
-    deck = newDeck;
-    saveDeck(game.name, game.language);
+    game.deck = newDeck;
+    saveDeck(game.name, game.language)
     backToMenu();
 }
 
@@ -438,15 +439,15 @@ function selectAllText() {
 // Language Statistics screen
 //---------------------------------------------------------------------
 
-function showStats(game, lang) {
-    deck = loadDeck(game, lang)
+function showStats(name, language) {
+    var game = new Game(name, language);
 
-    let total = deck.length
+    let total = game.deck.length
     let levelCounts = {}
     let categoryCounts = {}
     let neverSeen = 0
 
-    deck.forEach(c => {
+    game.deck.forEach(c => {
 
         let level = c.level
         if (levelCounts[level] === undefined) {
@@ -467,7 +468,7 @@ function showStats(game, lang) {
     })
 
     // Build stats display
-    let todayCount = deck.filter(c => c.seen > 0 && formatDate(c.lastSeen) === today()).length;
+    let todayCount = game.deck.filter(c => c.seen > 0 && formatDate(c.lastSeen) === today()).length;
     let html = `
                 <p><strong>Total Cards:</strong> ${total}</p>
                 <p><strong>Never Seen:</strong> ${neverSeen}</p>
@@ -493,7 +494,7 @@ function showStats(game, lang) {
 
     document.getElementById("mainMenu").style.display = "none"
     document.getElementById("statsArea").style.display = "block"
-    document.getElementById("statsTitle").innerText = lang.charAt(0).toUpperCase() + lang.slice(1) + " Statistics"
+    document.getElementById("statsTitle").innerText = game.language.charAt(0).toUpperCase() + game.language.slice(1) + " Statistics"
     document.getElementById("statsContent").innerHTML = html
 }
 
