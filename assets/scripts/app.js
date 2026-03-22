@@ -7,10 +7,10 @@
 //=============================================================================
 class Card {
     constructor(data) {
-        this.front = data.front;
-        this.back = data.back;
-        this.emoji = data.emoji || "";
-        this.category = data.category || "";
+        this.front = data.front.trim();
+        this.back = data.back.trim();
+        this.emoji = data.emoji.trim() || "";
+        this.category = data.category.trim() || "uncategorized";
         this.added = data.added || Date.now();
         this.lastSeen = data.lastSeen || null;
         this.seen = data.seen || 0;
@@ -90,8 +90,11 @@ class Game {
             answerEmoji: null,
             answerSpeach: null,
         }
+    }
 
-        this.deck = this.#load(this.name, this.language)
+    load() {
+        console.log(`Loading game name='${this.name}' in language='${this.language}'`)
+        this.deck = Persistence.loadCardsFrom(this.name, this.language);
     }
 
     draw() {
@@ -122,19 +125,7 @@ class Game {
     rate(difficulty, level) {
         if (!this.state.card) return;
         this.state.card.rate(difficulty, level);
-        this.#save(this.name, this.language);
-    }
-
-    #load(prefix, language) {
-        let file = prefix + "_" + language;
-        let raw = localStorage.getItem(prefix + "_" + language);
-        let deck = raw ? JSON.parse(raw).map(c => new Card(c)) : [];
-        console.log(`Loaded '${deck.length}' cards from '${file}'.`);
-        return deck;
-    }
-
-    #save(prefix, language) {
-        localStorage.setItem(prefix + "_" + language, JSON.stringify(this.deck))
+        Persistence.saveCardsTo(this.name, this.language, this.deck);
     }
 
     #pickCard() {
@@ -165,9 +156,38 @@ class Game {
 }
 
 
-function saveDeck(prefix, lang) {
-    localStorage.setItem(prefix + "_" + lang, JSON.stringify(game.deck))
+//=============================================================================
+// Persistence
+//
+//=============================================================================
+class Persistence {
+
+    constructor(name, language) {
+        this.name = name;
+        this.language = language;
+    }
+
+    loadCards() { return Persistence.loadCardsFrom(this.name, this.language) }
+    saveCards(cards) { Persistence.saveCardsTo(this.name, this.language, cards) }
+
+    static loadCardsFrom(name, language) {
+        let filename = Persistence.#cardsFilename(name, language)
+        let raw = localStorage.getItem(filename);
+        let cards = raw ? JSON.parse(raw).map(c => new Card(c)) : [];
+        console.log(`Loaded '${cards.length}' cards from '${filename}'.`);
+        return cards;
+    }
+
+    static saveCardsTo(name, language, cards) {
+        let filename = Persistence.#cardsFilename(name, language)
+        localStorage.setItem(filename, JSON.stringify(cards))
+        console.log(`Saved '${cards.length}' cards to '${filename}'.`);
+    }
+
+    static #cardsFilename(prefix, suffix) { return `${prefix}_${suffix}` }
+
 }
+
 
 //=============================================================================
 // Globals
@@ -188,6 +208,7 @@ function selectGameSound(sound) { game.configuration.sound = sound }
 
 function startGame(rank) {
     selectGameRank(rank)
+    game.load();
 
     console.log(`Starting game in rank='${game.rank}', direction='${game.direction}'.`);
     document.getElementById("configurationMenu").style.display = "none"
@@ -231,7 +252,7 @@ function cycleRound(difficulty, level) {
 }
 
 function endGame() {
-    saveDeck(game.name, game.language)
+    Persistence.saveCardsTo(game.name, game.language, game.deck)
     backToMenu()
 }
 
@@ -243,23 +264,21 @@ function endGame() {
 function selectGame(name, language) {
     game.name = name;
     game.language = language;
-    game.direction = game.name === "verbs" ? 'recall' : game.direction;
 
     document.getElementById("gameMenu").style.display = "none"
     document.getElementById("configurationMenu").style.display = "block"
-
-    document.getElementById("languageTitle").innerText =
-        game.language === "spanish" ? "Spanish" : "French"
+    document.getElementById("languageTitle").innerText = game.language
 
     configureGame(game.deck)
 }
 
 function configureGame(deck) {
+    game.load();
     const container = document.getElementById("categoryFilters");
 
     // Build category counts
     const counts = {};
-    deck.forEach(card => {
+    game.deck.forEach(card => {
         const cat = card.category || "Uncategorized";
         counts[cat] = (counts[cat] || 0) + 1;
     });
@@ -343,21 +362,20 @@ function cancelEdit() {
 }
 
 
-//---------------------------------------------------------------------
-// Language Reset screen
-//---------------------------------------------------------------------
+//=============================================================================
+// Game Dataset load and save
+//
+//=============================================================================
+let persistence = null;
 
-function editLanguage(name, language) {
-    let game = new Game(name, language);
+function editGameDataset(name, language) {
+    console.log(`Editing game=${name}, language=${language}.`)
+    persistence = new Persistence(name, language)
+    cards = persistence.loadCards()
 
-    document.getElementById("gameMenu").style.display = "none"
-    document.getElementById("editArea").style.display = "block"
-    document.getElementById("editTitle").innerText = "Edit " + language
-
-    // Convert language data to pipeline-separated format for editing
     let lines = []
     lines.push("#front|back|emoji|category|added|lastSeen|seen|penalty|level")
-    game.deck.forEach(c => {
+    cards.forEach(c => {
         lines.push(
             [
                 c.front,
@@ -372,13 +390,17 @@ function editLanguage(name, language) {
             ].join(" | ")
         )
     })
+
+    document.getElementById("gameMenu").style.display = "none"
+    document.getElementById("editArea").style.display = "block"
+    document.getElementById("editTitle").innerText = "Edit " + language
     document.getElementById("editBox").value = lines.join("\n")
 }
 
-function saveEdit() {
+function saveGameDataset() {
     let text = document.getElementById("editBox").value;
     let lines = text.split("\n");
-    let newDeck = [];
+    let cards = [];
 
     for (let line of lines) {
         line = line.trim();
@@ -398,11 +420,12 @@ function saveEdit() {
         });
 
         if (card.validate()) {
-            newDeck.push(card);
+            cards.push(card);
         }
     }
-    game.deck = newDeck;
-    saveDeck(game.name, game.language)
+
+    persistence.saveCards(cards)
+    persistence = null;
     backToMenu();
 }
 
@@ -411,61 +434,39 @@ function selectAllText() {
 }
 
 
-//---------------------------------------------------------------------
+//=============================================================================
 // Language Statistics screen
-//---------------------------------------------------------------------
-
-function showStats(name, language) {
+//
+//=============================================================================
+function statistics(name, language) {
     var game = new Game(name, language);
 
-    let total = game.deck.length
-    let levelCounts = {}
-    let categoryCounts = {}
-    let neverSeen = 0
+    let nTotal = game.deck.length
+    let nToday = game.deck.filter(c => c.seen > 0 && formatDate(c.lastSeen) === today()).length;
+    let nUnseen = game.deck.filter(c => c.seen === 0).length;
 
-    game.deck.forEach(c => {
-
-        let level = c.level
-        if (levelCounts[level] === undefined) {
-            levelCounts[level] = 0
-        }
-        levelCounts[level]++
-
-        if (c.seen === 0) {
-            neverSeen++
-        }
-
-        let cat = (c.category || "uncategorized").trim()
-        if (!categoryCounts[cat]) {
-            categoryCounts[cat] = 0
-        }
-
-        categoryCounts[cat]++
-    })
+    let nLevels = game.deck.reduce((a, c) => (a[c.level] = (a[c.level] || 0) + 1, a), {});
+    let nCategories = game.deck.reduce((a, c) => (a[c.category] = (a[c.category] || 0) + 1, a), {});
 
     // Build stats display
-    let todayCount = game.deck.filter(c => c.seen > 0 && formatDate(c.lastSeen) === today()).length;
     let html = `
-                <p><strong>Total Cards:</strong> ${total}</p>
-                <p><strong>Never Seen:</strong> ${neverSeen}</p>
-                <p><strong>Today:</strong> ${todayCount}</p>
+                <p><strong>Total Cards:</strong> ${nTotal}</p>
+                <p><strong>Never Seen:</strong> ${nUnseen}</p>
+                <p><strong>Today:</strong> ${nToday}</p>
                 <hr/>
             `
 
     // Sort levels numerically
-    let levels = Object.keys(levelCounts).sort((a, b) => parseInt(a) - parseInt(b))
+    let levels = Object.keys(nLevels).sort((a, b) => parseInt(a) - parseInt(b))
     levels.forEach(level => {
-        let count = levelCounts[level]
-        html += `<p><strong>Level ${level}:</strong> ${count}</p>`
+        html += `<p><strong>Level ${level}:</strong> ${nLevels[level]}</p>`
     })
     html += '<hr/>'
 
     // Show category counts alphabetically
-    let cats = Object.keys(categoryCounts).sort()
+    let cats = Object.keys(nCategories).sort()
     cats.forEach(cat => {
-
-        html += `<p><strong>${cat}:</strong> ${categoryCounts[cat]}</p>`
-
+        html += `<p><strong>${cat}:</strong> ${nCategories[cat]}</p>`
     })
 
     document.getElementById("gameMenu").style.display = "none"
@@ -476,11 +477,10 @@ function showStats(name, language) {
 
 
 
-
-
-//---------------------------------------------------------------------
+//=============================================================================
 // Utility functions 
-//---------------------------------------------------------------------
+//
+//=============================================================================
 
 function today() {
     return new Date().toISOString().slice(0, 10)
@@ -503,9 +503,9 @@ function speakText(text, lang) {
     const utterance = new SpeechSynthesisUtterance(text)
 
     // Set language based on current language
-    if (lang === 'spanish') {
+    if (lang === 'Spanish') {
         utterance.lang = 'es-ES' // Spanish (Spain) - you can adjust to 'es-MX' for Mexican Spanish, etc.
-    } else if (lang === 'french') {
+    } else if (lang === 'French') {
         utterance.lang = 'fr-FR' // French (France)
     }
 
