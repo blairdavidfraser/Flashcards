@@ -365,7 +365,7 @@ function saveCardEdit() {
     game.state.card.emoji = document.getElementById("editEmoji").value.trim()
     game.state.card.category = document.getElementById("editCategory").value.trim()
 
-    game.update()
+    Persistence.saveCardsTo(game.name, game.language, game.deck)
 
     document.getElementById("editCardArea").style.display = "none"
     document.getElementById("studyArea").style.display = "block"

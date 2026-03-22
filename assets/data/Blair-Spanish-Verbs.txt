@@ -1,29 +1,29 @@
 #front|back|emoji|category|added|lastSeen|seen|penalty|level
 Como pan con mantequilla cada mañana | I eat bread with butter every morning |  | Present | 2026-03-21 |  | 0 | 0 | 0
 Comes en ese restaurante los viernes | You eat at that restaurant on Fridays |  | Present | 2026-03-21 |  | 0 | 0 | 0
-Él come muy rápido durante el almuerzo | he eats very quickly during lunch |  | Present | 2026-03-21 |  | 0 | 0 | 0
+Él come muy rápido durante el almuerzo | He eats very quickly during lunch |  | Present | 2026-03-21 |  | 0 | 0 | 0
 María come ensalada con pollo hoy | María eats salad with chicken today |  | Present | 2026-03-21 |  | 0 | 0 | 0
-Comemos juntos en la cocina | we eat together in the kitchen |  | Present | 2026-03-21 |  | 0 | 0 | 0
-Ellos comen pizza después del trabajo | they eat pizza after work |  | Present | 2026-03-21 |  | 0 | 0 | 0
+Comemos juntos en la cocina | We eat together in the kitchen |  | Present | 2026-03-21 |  | 0 | 0 | 0
+Ellos comen pizza después del trabajo | They eat pizza after work |  | Present | 2026-03-21 |  | 0 | 0 | 0
 Voy al trabajo en metro | I go to work by subway |  | Present | 2026-03-21 |  | 0 | 0 | 0
 Vas al gimnasio después del trabajo | You go to the gym after work |  | Present | 2026-03-21 |  | 0 | 0 | 0
-Él va al supermercado por la tarde | he goes to the supermarket in the afternoon |  | Present | 2026-03-21 |  | 0 | 0 | 0
+Él va al supermercado por la tarde | He goes to the supermarket in the afternoon |  | Present | 2026-03-21 |  | 0 | 0 | 0
 Laura va al parque con su perro | Laura goes to the park with her dog |  | Present | 2026-03-21 |  | 0 | 0 | 0
-Vamos al cine los sábados | we go to the movies on Saturdays |  | Present | 2026-03-21 |  | 0 | 0 | 0
-Ellos van a la oficina temprano | they go to the office early |  | Present | 2026-03-21 |  | 0 | 0 | 0
+Vamos al cine los sábados | We go to the movies on Saturdays |  | Present | 2026-03-21 |  | 0 | 0 | 0
+Ellos van a la oficina temprano | They go to the office early |  | Present | 2026-03-21 |  | 0 | 0 | 0
 Tengo mucho trabajo hoy | I have a lot of work today |  | Present | 2026-03-21 |  | 0 | 0 | 0
 Tienes una reunión importante ahora | You have an important meeting now |  | Present | 2026-03-21 |  | 0 | 0 | 0
-Él tiene un coche nuevo este año | he has a new car this year |  | Present | 2026-03-21 |  | 0 | 0 | 0
+Él tiene un coche nuevo este año | He has a new car this year |  | Present | 2026-03-21 |  | 0 | 0 | 0
 Ana tiene dos perros en su casa | Ana has two dogs in her house |  | Present | 2026-03-21 |  | 0 | 0 | 0
-Tenemos poco tiempo hoy | we have little time today |  | Present | 2026-03-21 |  | 0 | 0 | 0
-Ellos tienen muchas ideas interesantes | they have many interesting ideas |  | Present | 2026-03-21 |  | 0 | 0 | 0
+Tenemos poco tiempo hoy | We have little time today |  | Present | 2026-03-21 |  | 0 | 0 | 0
+Ellos tienen muchas ideas interesantes | They have many interesting ideas |  | Present | 2026-03-21 |  | 0 | 0 | 0
 Hago la tarea en la noche | I do the homework at night |  | Present |  |  |  |  | 1
 Haces café en la mañana | You make coffee in the morning | | Present |  |  |  |  | 1
 Él hace ejercicio en el parque | He exercises in the park |  | Present |  |  |  |  | 1
-María hace la cena para todos | Maria makes dinner for everYone |  | Present |  |  |  | 1
+María hace la cena para todos | Maria makes dinner for everyone |  | Present |  |  |  | 1
 Hacemos un viaje juntos | We take a trip together |  | Present |  |  |  |  | 1
 Ellos hacen mucho trabajo hoy | They do a lot of work today |  | Present |  |  |  |  | 1
-Etoy en la casa ahora | I am in the house now |  | Present |  |  |  |  | 1
+Estoy en la casa ahora | I am in the house now |  | Present |  |  |  |  | 1
 Estás en el trabajo hoy | You are at work today |  | Present |  |  |  |  | 1
 Él está en el parque con amigos | He is in the park with friends |  | Present |  |  |  |  | 1
 Ana está muy cansada hoy | Ana is very tired today |  | Present |  |  |  |  | 1
@@ -41,87 +41,87 @@ Vas a la tienda ahora | You go to the store now |  | Present |  |  |  |  | 1
 Ana va a la escuela hoy | Ana goes to school today |  | Present |  |  |  |  | 1
 Vamos al cine juntos | We go to the cinema together |  | Present |  |  |  |  | 1
 Ellos van al restaurante hoy | They go to the restaurant today |  | Present |  |  |  |  | 1
-Yo comí en ese restaurante ayer | I ate at that restaurant yesterday |  | Preterit | 2026-03-21 |  | 0 | 0 | 0
-Tú comiste mucha comida anoche | You ate a lot of food last night |  | Preterit | 2026-03-21 |  | 0 | 0 | 0
-Juan comió con su familia el domingo | Juan ate with his family on Sunday |  | Preterit | 2026-03-21 |  | 0 | 0 | 0
-ella comió una ensalada muy grande | she ate a very big salad |  | Preterit | 2026-03-21 |  | 0 | 0 | 0
-Nosotros comimos tarde después del evento | we ate late after the event |  | Preterit | 2026-03-21 |  | 0 | 0 | 0
-Ellos comieron juntos en el centro | they ate together downtown |  | Preterit | 2026-03-21 |  | 0 | 0 | 0
-Yo fui al médico ayer por la mañana | I went to the doctor yesterday morning |  | Preterit | 2026-03-21 |  | 0 | 0 | 0
-Tú fuiste al concierto el viernes pasado | You went to the concert last Friday |  | Preterit | 2026-03-21 |  | 0 | 0 | 0
-Él fue al trabajo aunque estaba cansado | he went to work even though he was tired |  | Preterit | 2026-03-21 |  | 0 | 0 | 0
-Sofía fue a la tienda después de cenar | Sofía went to the store after dinner |  | Preterit | 2026-03-21 |  | 0 | 0 | 0
-Nosotros fuimos al centro el fin de semana | we went downtown on the weekend |  | Preterit | 2026-03-21 |  | 0 | 0 | 0
-Ellos fueron a la playa durante el verano | they went to the beach during the summer |  | Preterit | 2026-03-21 |  | 0 | 0 | 0
-Yo tuve un problema ayer en el trabajo | I had a problem yesterday at work |  | Preterit | 2026-03-21 |  | 0 | 0 | 0
-Tú tuviste una buena idea anoche | You had a good idea last night |  | Preterit | 2026-03-21 |  | 0 | 0 | 0
-Él tuvo una reunión larga esta mañana | he had a long meeting this morning |  | Preterit | 2026-03-21 |  | 0 | 0 | 0
-Marta tuvo un accidente pequeño ayer | Marta had a small accident yesterday |  | Preterit | 2026-03-21 |  | 0 | 0 | 0
-Nosotros tuvimos tiempo para descansar | we had time to rest |  | Preterit | 2026-03-21 |  | 0 | 0 | 0
-Ellos tuvieron mucha suerte ese día | they had a lot of luck that day |  | Preterit | 2026-03-21 |  | 0 | 0 | 0
-Yo hice la tarea ayer | I did the homework yesterday |  | Preterit |  |  |  |  | 1
-Tú hiciste un pastel anoche | You made a cake last night |  | Preterit |  |  |  |  | 1
-Él hizo ejercicio esta mañana | He exercised this morning |  | Preterit |  |  |  |  | 1
-Ana hizo la cena ayer | Ana made dinner yesterday |  | Preterit |  |  |  |  | 1
-Nosotros hicimos un viaje el año pasado | We took a trip last year |  | Preterit |  |  |  |  | 1
-Ellos hicieron mucho trabajo ayer | They did a lot of work yesterday |  | Preterit |  |  |  |  | 1
-Yo estuve en la casa ayer | I was at home yesterday |  | Preterit |  |  |  |  | 1
-Tú estuviste en el trabajo ayer | You were at work yesterday |  | Preterit |  |  |  |  | 1
-Él estuvo en el parque ayer | He was in the park yesterday |  | Preterit |  |  |  |  | 1
-María estuvo enferma ayer | Maria was sick yesterday |  | Preterit |  |  |  |  | 1
-Nosotros estuvimos en la oficina | We were in the office |  | Preterit |  |  |  |  | 1
-Ellos estuvieron en casa anoche | They were at home last night |  | Preterit |  |  |  |  | 1
-Yo fui profesor el año pasado | I was a teacher last year |  | Preterit |  |  |  |  | 1
-Tú fuiste muy amable ayer | You were very kind yesterday |  | Preterit |  |  |  |  | 1
-Él fue mi amigo en la escuela | He was my friend in school |  | Preterit |  |  |  |  | 1
-Laura fue muy inteligente | Laura was very intelligent |  | Preterit |  |  |  |  | 1
-Nosotros fuimos buenos amigos | We were good friends |  | Preterit |  |  |  |  | 1
-Ellos fueron estudiantes antes | They were students before |  | Preterit |  |  |  |  | 1
-Yo fui al parque ayer | I went to the park yesterday |  | Preterit |  |  |  |  | 1
-Tú fuiste a la tienda ayer | You went to the store yesterday |  | Preterit |  |  |  |  | 1
-Él fue al trabajo temprano | He went to work early |  | Preterit |  |  |  |  | 1
-Ana fue a la escuela ayer | Ana went to school yesterday |  | Preterit |  |  |  |  | 1
-Nosotros fuimos al cine juntos | We went to the cinema together |  | Preterit |  |  |  |  | 1
-Ellos fueron al restaurante | They went to the restaurant |  | Preterit |  |  |  |  | 1
-Yo comía pan con café cada mañana | I used to eat bread with coffee every morning |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
-Tú comías mucho cuando eras niño | You used to eat a lot when You were a child |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
-Él comía en casa todos los días | he used to eat at home every day |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
+Comí en ese restaurante ayer | I ate at that restaurant yesterday | | Preterit | 2026-03-21 | | 0 | 0 | 0
+Comiste mucha comida anoche | You ate a lot of food last night | | Preterit | 2026-03-21 | | 0 | 0 | 0
+Juan comió con su familia el domingo | Juan ate with his family on Sunday | | Preterit | 2026-03-21 | | 0 | 0 | 0
+Comió una ensalada muy grande | She ate a very big salad | | Preterit | 2026-03-21 | | 0 | 0 | 0
+Comimos tarde después del evento | We ate late after the event | | Preterit | 2026-03-21 | | 0 | 0 | 0
+Comieron juntos en el centro | They ate together downtown | | Preterit | 2026-03-21 | | 0 | 0 | 0
+Fui al médico ayer por la mañana | I went to the doctor yesterday morning | | Preterit | 2026-03-21 | | 0 | 0 | 0
+Fuiste al concierto el viernes pasado | You went to the concert last Friday | | Preterit | 2026-03-21 | | 0 | 0 | 0
+Fue al trabajo aunque estaba cansado | He went to work even though he was tired | | Preterit | 2026-03-21 | | 0 | 0 | 0
+Sofía fue a la tienda después de cenar | Sofía went to the store after dinner | | Preterit | 2026-03-21 | | 0 | 0 | 0
+Fuimos al centro el fin de semana | We went downtown on the weekend | | Preterit | 2026-03-21 | | 0 | 0 | 0
+Fueron a la playa durante el verano | They went to the beach during the summer | | Preterit | 2026-03-21 | | 0 | 0 | 0
+Tuve un problema ayer en el trabajo | I had a problem yesterday at work | | Preterit | 2026-03-21 | | 0 | 0 | 0
+Tuviste una buena idea anoche | You had a good idea last night | | Preterit | 2026-03-21 | | 0 | 0 | 0
+Tuvo una reunión larga esta mañana | He had a long meeting this morning | | Preterit | 2026-03-21 | | 0 | 0 | 0
+Marta tuvo un accidente pequeño ayer | Marta had a small accident yesterday | | Preterit | 2026-03-21 | | 0 | 0 | 0
+Tuvimos tiempo para descansar | We had time to rest | | Preterit | 2026-03-21 | | 0 | 0 | 0
+Tuvieron mucha suerte ese día | They had a lot of luck that day | | Preterit | 2026-03-21 | | 0 | 0 | 0
+Hice la tarea ayer | I did the homework yesterday | | Preterit | | | | | 1
+Hiciste un pastel anoche | You made a cake last night | | Preterit | | | | | 1
+Hizo ejercicio esta mañana | He exercised this morning | | Preterit | | | | | 1
+Ana hizo la cena ayer | Ana made dinner yesterday | | Preterit | | | | | 1
+Hicimos un viaje el año pasado | We took a trip last year | | Preterit | | | | | 1
+Hicieron mucho trabajo ayer | They did a lot of work yesterday | | Preterit | | | | | 1
+Estuve en la casa ayer | I was at home yesterday | | Preterit | | | | | 1
+Estuviste en el trabajo ayer | You were at work yesterday | | Preterit | | | | | 1
+Estuvo en el parque ayer | He was in the park yesterday | | Preterit | | | | | 1
+María estuvo enferma ayer | Maria was sick yesterday | | Preterit | | | | | 1
+Estuvimos en la oficina | We were in the office | | Preterit | | | | | 1
+Estuvieron en casa anoche | They were at home last night | | Preterit | | | | | 1
+Fui profesor el año pasado | I was a teacher last year | | Preterit | | | | | 1
+Fuiste muy amable ayer | You were very kind yesterday | | Preterit | | | | | 1
+Fue mi amigo en la escuela | He was my friend in school | | Preterit | | | | | 1
+Laura fue muy inteligente | Laura was very intelligent | | Preterit | | | | | 1
+Fuimos buenos amigos | We were good friends | | Preterit | | | | | 1
+Fueron estudiantes antes | They were students before | | Preterit | | | | | 1
+Fui al parque ayer | I went to the park yesterday | | Preterit | | | | | 1
+Fuiste a la tienda ayer | You went to the store yesterday | | Preterit | | | | | 1
+Fue al trabajo temprano | He went to work early | | Preterit | | | | | 1
+Ana fue a la escuela ayer | Ana went to school yesterday | | Preterit | | | | | 1
+Fuimos al cine juntos | We went to the cinema together | | Preterit | | | | | 1
+Fueron al restaurante | They went to the restaurant | | Preterit | | | | | 1
+Comía pan con café cada mañana | I used to eat bread with coffee every morning |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
+Comías mucho cuando eras niño | You used to eat a lot when You were a child |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
+Comía en casa todos los días | He used to eat at home every day |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
 Ana comía sola en su apartamento | Ana used to eat alone in her apartment |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
-Nosotros comíamos juntos los fines de semana | we used to eat together on weekends |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
-Ellos comían en ese lugar antes | they used to eat at that place before |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
-Yo iba al parque cada tarde | I used to go to the park every afternoon |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
-Tú ibas a esa escuela cuando eras joven | You used to go to that school when You were Young |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
-Él iba al trabajo en autobús antes | he used to go to work by bus before |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
+Comíamos juntos los fines de semana | We used to eat together on weekends |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
+Comían en ese lugar antes | They used to eat at that place before |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
+Iba al parque cada tarde | I used to go to the park every afternoon |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
+Ibas a esa escuela cuando eras joven | You used to go to that school when You were Young |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
+Iba al trabajo en autobús antes | He used to go to work by bus before |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
 Carlos iba al gimnasio todos los días | Carlos used to go to the gym every day |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
-Nosotros íbamos a la casa de mi abuela | we used to go to my grandmother’s house |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
-Ellos iban juntos al centro comercial | they used to go together to the mall |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
-Yo tenía mucho tiempo antes | I used to have a lot of time before |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
-Tú tenías un coche viejo en ese tiempo | You used to have an old car at that time |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
-Él tenía una casa grande en la ciudad | he used to have a big house in the city |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
+Íbamos a la casa de mi abuela | We used to go to my grandmother’s house |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
+Iban juntos al centro comercial | They used to go together to the mall |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
+Tenía mucho tiempo antes | I used to have a lot of time before |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
+Tenías un coche viejo en ese tiempo | You used to have an old car at that time |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
+Tenía una casa grande en la ciudad | He used to have a big house in the city |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
 Laura tenía muchos amigos en la escuela | Laura used to have many friends at school |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
-Nosotros teníamos más energía antes | we used to have more energy before |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
-Ellos tenían problemas con el jefe | they used to have problems with the boss |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
-Yo hacía la tarea cada noche | I used to do homework every night |  | Imperfect |  |  |  |  | 1
-Tú hacías café cada mañana | You used to make coffee every morning |  | Imperfect |  |  |  |  | 1
-Él hacía ejercicio siempre | He used to exercise always |  | Imperfect |  |  |  |  | 1
+Teníamos más energía antes | We used to have more energy before |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
+Tenían problemas con el jefe | They used to have problems with the boss |  | Imperfect | 2026-03-21 |  | 0 | 0 | 0
+Hacía la tarea cada noche | I used to do homework every night |  | Imperfect |  |  |  |  | 1
+Hacías café cada mañana | You used to make coffee every morning |  | Imperfect |  |  |  |  | 1
+Hacía ejercicio siempre | He used to exercise always |  | Imperfect |  |  |  |  | 1
 María hacía la cena a menudo | Maria used to make dinner often |  | Imperfect |  |  |  |  | 1
-Nosotros hacíamos viajes juntos | We used to take trips together |  | Imperfect |  |  |  |  | 1
-Ellos hacían mucho trabajo antes | They used to do a lot of work before |  | Imperfect |  |  |  |  | 1
-Yo estaba en la casa siempre | I used to be at home always |  | Imperfect |  |  |  |  | 1
-Tú estabas en el trabajo mucho | You used to be at work a lot |  | Imperfect |  |  |  |  | 1
-Él estaba en el parque a menudo | He used to be in the park often |  | Imperfect |  |  |  |  | 1
+Hacíamos viajes juntos | We used to take trips together |  | Imperfect |  |  |  |  | 1
+Hacían mucho trabajo antes | They used to do a lot of work before |  | Imperfect |  |  |  |  | 1
+Estaba en la casa siempre | I used to be at home always |  | Imperfect |  |  |  |  | 1
+Estabas en el trabajo mucho | You used to be at work a lot |  | Imperfect |  |  |  |  | 1
+Estaba en el parque a menudo | He used to be in the park often |  | Imperfect |  |  |  |  | 1
 Ana estaba muy cansada antes | Ana used to be very tired before |  | Imperfect |  |  |  |  | 1
-Nosotros estábamos en la oficina | We used to be in the office |  | Imperfect |  |  |  |  | 1
-Ellos estaban en casa siempre | They used to be at home always |  | Imperfect |  |  |  |  | 1
-Yo era profesor antes | I used to be a teacher |  | Imperfect |  |  |  |  | 1
-Tú eras muy amable siempre | You used to be very kind always |  | Imperfect |  |  |  |  | 1
-Él era mi amigo cercano | He used to be my close friend |  | Imperfect |  |  |  |  | 1
+Estábamos en la oficina | We used to be in the office |  | Imperfect |  |  |  |  | 1
+Estaban en casa siempre | They used to be at home always |  | Imperfect |  |  |  |  | 1
+Era profesor antes | I used to be a teacher |  | Imperfect |  |  |  |  | 1
+Eras muy amable siempre | You used to be very kind always |  | Imperfect |  |  |  |  | 1
+Era mi amigo cercano | He used to be my close friend |  | Imperfect |  |  |  |  | 1
 Laura era muy inteligente | Laura used to be very intelligent |  | Imperfect |  |  |  |  | 1
-Nosotros éramos buenos amigos | We used to be good friends |  | Imperfect |  |  |  |  | 1
-Ellos eran estudiantes antes | They used to be students before |  | Imperfect |  |  |  |  | 1
-Yo iba al parque siempre | I used to go to the park always |  | Imperfect |  |  |  |  | 1
-Tú ibas a la tienda a menudo | You used to go to the store often |  | Imperfect |  |  |  |  | 1
-Él iba al trabajo temprano | He used to go to work early |  | Imperfect |  |  |  |  | 1
+Éramos buenos amigos | We used to be good friends |  | Imperfect |  |  |  |  | 1
+Eran estudiantes antes | They used to be students before |  | Imperfect |  |  |  |  | 1
+Iba al parque siempre | I used to go to the park always |  | Imperfect |  |  |  |  | 1
+Ibas a la tienda a menudo | You used to go to the store often |  | Imperfect |  |  |  |  | 1
+Iba al trabajo temprano | He used to go to work early |  | Imperfect |  |  |  |  | 1
 Ana iba a la escuela antes | Ana used to go to school before |  | Imperfect |  |  |  |  | 1
-Nosotros íbamos al cine juntos | We used to go to the cinema together |  | Imperfect |  |  |  |  | 1
-Ellos iban al restaurante mucho | They used to go to the restaurant a lot |  | Imperfect |  |  |  |  | 1
+Íbamos al cine juntos | We used to go to the cinema together |  | Imperfect |  |  |  |  | 1
+Iban al restaurante mucho | They used to go to the restaurant a lot |  | Imperfect |  |  |  |  | 1
