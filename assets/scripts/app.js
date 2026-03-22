@@ -73,7 +73,7 @@ class Game {
     constructor(name = null, language = null) {
         this.name = name;
         this.language = language;
-        this.mode = 'recall';
+        this.direction = 'recall';
         this.rank = 'normal'; // normal, new, hard, review
 
         this.configuration = {
@@ -89,19 +89,17 @@ class Game {
             answerText: null,
             answerEmoji: null,
             answerSpeach: null,
-            roundComplete: false,
         }
 
         this.deck = this.#load(this.name, this.language)
     }
 
     draw() {
-        game.state.roundComplete = false;
         game.state.card = this.#pickCard()
 
-        let round = this.mode === "shuffle"
+        let round = this.direction === "shuffle"
             ? Math.random() < 0.5 ? 'recognition' : 'recall'
-            : this.mode;
+            : this.direction;
 
         if (round === 'recognition') {
             game.state.questionText = game.state.card.front; // Foreign shown first.
@@ -122,7 +120,6 @@ class Game {
     }
 
     rate(difficulty, level) {
-        game.state.roundComplete = true;
         if (!this.state.card) return;
         this.state.card.rate(difficulty, level);
         this.#save(this.name, this.language);
@@ -148,7 +145,7 @@ class Game {
         if (enabled.length === 0) return null;
 
         // Sort for Review mode specifically
-        if (this.rate === 'review') {
+        if (this.rank === 'review') {
             return enabled
                 .sort((a, b) => a.lastSeen - b.lastSeen)
                 .slice(0, 100)[Math.floor(Math.random() * Math.min(enabled.length, 100))];
@@ -178,11 +175,25 @@ function saveDeck(prefix, lang) {
 //=============================================================================
 let game = new Game();
 
+function selectGame(name, language) { game.name = name; game.language = language }
+function selectGameRank(rank) { game.rank = rank }
+function selectGameDirection(direction) { game.direction = direction }
+function selectGameSound(sound) { game.configuration.sound = sound }
+
 
 //=============================================================================
 // UI Gameplay
 //
 //=============================================================================
+
+function startGame(rank) {
+    selectGameRank(rank)
+
+    console.log(`Starting game in rank='${game.rank}', direction='${game.direction}'.`);
+    document.getElementById("configurationMenu").style.display = "none"
+    document.getElementById("studyArea").style.display = "block"
+    startRound()
+}
 
 function startRound() {
     game.draw();
@@ -197,13 +208,12 @@ function startRound() {
     }
 
     document.getElementById("difficultyButtons").style.display = "none"
-    document.getElementById("startBtn").style.display = "none"
     document.getElementById("cardHeader").innerText = game.state.card.category || "";
     document.getElementById("cardTop").innerText = game.state.questionText;
     document.getElementById("cardEmoji").innerHTML = game.state.questionEmoji;
     document.getElementById("cardBottom").innerText = "";
     document.getElementById("cardInfo").innerText = game.state.card ? game.state.card.summary() : '';
-    speakAndShowSpeaker(game.state.questionSpeach);
+    speakText(game.state.questionSpeach, game.language);
 }
 
 function finishRound() {
@@ -212,9 +222,7 @@ function finishRound() {
     document.getElementById("cardEmoji").innerHTML = game.state.answerEmoji;
     document.getElementById("cardInfo").innerText = game.state.card ? game.state.card.summary() : '';
     document.getElementById("difficultyButtons").style.display = "block";
-    speakAndShowSpeaker(game.state.answerSpeach);
-
-
+    speakText(game.state.answerSpeach, game.language);
 }
 
 function cycleRound(difficulty, level) {
@@ -222,28 +230,35 @@ function cycleRound(difficulty, level) {
     startRound();
 }
 
+function endGame() {
+    saveDeck(game.name, game.language)
+    backToMenu()
+}
 
 
-function chooseLanguage(name, language) {
+//=============================================================================
+// Menu and Game Configuration
+//
+//=============================================================================
+function selectGame(name, language) {
     game.name = name;
     game.language = language;
-    game.mode = game.name === "verbs" ? 'recall' : game.mode;
+    game.direction = game.name === "verbs" ? 'recall' : game.direction;
 
-    document.getElementById("mainMenu").style.display = "none"
-    document.getElementById("modeMenu").style.display = "block"
+    document.getElementById("gameMenu").style.display = "none"
+    document.getElementById("configurationMenu").style.display = "block"
 
     document.getElementById("languageTitle").innerText =
         game.language === "spanish" ? "Spanish" : "French"
 
-    renderCategoryFilters(game.deck)
+    configureGame(game.deck)
 }
 
-function renderCategoryFilters(deck) {
+function configureGame(deck) {
     const container = document.getElementById("categoryFilters");
 
     // Build category counts
     const counts = {};
-
     deck.forEach(card => {
         const cat = card.category || "Uncategorized";
         counts[cat] = (counts[cat] || 0) + 1;
@@ -255,10 +270,8 @@ function renderCategoryFilters(deck) {
     game.configuration.categories = new Set(categories);
 
     container.innerHTML = "";
-
     categories.forEach(cat => {
         const id = "cat_" + cat.replace(/\s+/g, "_");
-
         const label = document.createElement("label");
         label.innerHTML = `
             <input type="checkbox" id="${id}" checked>
@@ -266,7 +279,6 @@ function renderCategoryFilters(deck) {
         `;
 
         const checkbox = label.querySelector("input");
-
         checkbox.addEventListener("change", () => {
             if (checkbox.checked) {
                 game.configuration.categories.add(cat);
@@ -279,9 +291,11 @@ function renderCategoryFilters(deck) {
     });
 }
 
+
+
 function backToMenu() {
-    document.getElementById("mainMenu").style.display = "block"
-    document.getElementById("modeMenu").style.display = "none"
+    document.getElementById("gameMenu").style.display = "block"
+    document.getElementById("configurationMenu").style.display = "none"
     document.getElementById("studyArea").style.display = "none"
     // hide editing and stats panels; old resetArea may not exist
     let edit = document.getElementById("editArea")
@@ -292,45 +306,7 @@ function backToMenu() {
     document.getElementById("editCardArea").style.display = "none"
 }
 
-function startStudy(mode) {
-    console.log("Starting '" + mode + "' mode.");
-    game.mode = mode
 
-    document.getElementById("modeMenu").style.display = "none"
-    document.getElementById("studyArea").style.display = "block"
-    document.getElementById("startBtn").style.display = "none"
-
-    startRound()
-}
-
-function selectMode(mode) {
-    game.mode = mode
-}
-
-function selectSound(sound) {
-    game.configuration.sound = sound
-}
-
-function start(rank) {
-    game.rate = rank;
-    if (!game.mode) return
-    startStudy(game.mode)
-}
-
-function exitStudy() {
-    saveDeck(game.name, game.language)
-    backToMenu()
-}
-
-
-
-
-
-function speakAndShowSpeaker(text) {
-    if (!text) return;
-    console.log(`Speak: '${text}' in language='${game.language}'`)
-    speakText(text, game.language)
-}
 
 function showEditForm() {
     if (!game.state.card) return
@@ -374,7 +350,7 @@ function cancelEdit() {
 function editLanguage(name, language) {
     let game = new Game(name, language);
 
-    document.getElementById("mainMenu").style.display = "none"
+    document.getElementById("gameMenu").style.display = "none"
     document.getElementById("editArea").style.display = "block"
     document.getElementById("editTitle").innerText = "Edit " + language
 
@@ -499,26 +475,7 @@ function showStats(name, language) {
 }
 
 
-function speakText(text, lang) {
-    if (!game.configuration.sound || !text) return
 
-    // Create speech synthesis utterance
-    const utterance = new SpeechSynthesisUtterance(text)
-
-    // Set language based on current language
-    if (lang === 'spanish') {
-        utterance.lang = 'es-ES' // Spanish (Spain) - you can adjust to 'es-MX' for Mexican Spanish, etc.
-    } else if (lang === 'french') {
-        utterance.lang = 'fr-FR' // French (France)
-    }
-
-    // Optional: adjust speech properties
-    utterance.rate = 0.9 // Slightly slower for learning
-    utterance.pitch = 1
-
-    // Speak the text
-    window.speechSynthesis.speak(utterance)
-}
 
 
 //---------------------------------------------------------------------
@@ -539,10 +496,24 @@ function parseDate(d) {
     return new Date(d).getTime()
 }
 
-function decodeHtmlEntities(text) {
-    const textarea = document.createElement('textarea');
-    textarea.innerHTML = text;
-    return textarea.value;
-}
+function speakText(text, lang) {
+    if (!game.configuration.sound || !text) return
 
+    // Create speech synthesis utterance
+    const utterance = new SpeechSynthesisUtterance(text)
+
+    // Set language based on current language
+    if (lang === 'spanish') {
+        utterance.lang = 'es-ES' // Spanish (Spain) - you can adjust to 'es-MX' for Mexican Spanish, etc.
+    } else if (lang === 'french') {
+        utterance.lang = 'fr-FR' // French (France)
+    }
+
+    // Optional: adjust speech properties
+    utterance.rate = 0.9 // Slightly slower for learning
+    utterance.pitch = 1
+
+    // Speak the text
+    window.speechSynthesis.speak(utterance)
+}
 
