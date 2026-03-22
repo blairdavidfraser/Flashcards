@@ -468,7 +468,7 @@ function showStats(name, language) {
 
     })
 
-    document.getElementById("mainMenu").style.display = "none"
+    document.getElementById("gameMenu").style.display = "none"
     document.getElementById("statsArea").style.display = "block"
     document.getElementById("statsTitle").innerText = game.language.charAt(0).toUpperCase() + game.language.slice(1) + " Statistics"
     document.getElementById("statsContent").innerHTML = html
