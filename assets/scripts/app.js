@@ -77,7 +77,7 @@ class Game {
         this.rank = 'normal'; // normal, new, hard, review
 
         this.configuration = {
-            sound: true,
+            sound: false, // will toggle to true on document load
             categories: new Set()
         };
 
@@ -200,6 +200,12 @@ function selectGameRank(rank) { game.rank = rank }
 function selectGameDirection(direction) { game.direction = direction }
 function selectGameSound(sound) { game.configuration.sound = sound }
 
+function selectToggleSound() {
+    game.configuration.sound = !game.configuration.sound;
+}
+
+
+
 
 //=============================================================================
 // UI Gameplay
@@ -261,6 +267,20 @@ function endGame() {
 // Menu and Game Configuration
 //
 //=============================================================================
+function toggleMenu() {
+    const menu = document.getElementById("dropdownMenu");
+    menu.style.display = (menu.style.display === "none") ? "block" : "none";
+}
+
+function toggleSoundMenuItem() {
+    selectToggleSound();
+    const item = document.getElementById("soundToggleItem");
+    item.innerHTML = game.configuration.sound
+        ? "&#128263; Mute Sound"
+        : "&#128266; Enable Sound";
+    document.getElementById("dropdownMenu").style.display = "none";
+}
+
 function selectGame(name, language) {
     game.name = name;
     game.language = language;
@@ -310,8 +330,6 @@ function configureGame(deck) {
     });
 }
 
-
-
 function backToMenu() {
     document.getElementById("gameMenu").style.display = "block"
     document.getElementById("configurationMenu").style.display = "none"
@@ -325,14 +343,16 @@ function backToMenu() {
     document.getElementById("editCardArea").style.display = "none"
 }
 
-
-
-function showEditForm() {
-    if (!game.state.card) return
-
+//=============================================================================
+// Card edit form
+//
+// Allows for a card to be edited in-game, when an error is found. Doing so
+// abandons the card after edit and moves on to the next round - which is
+// something that can be reconsidered in the future.
+//=============================================================================
+function showCardEdit() {
     document.getElementById("studyArea").style.display = "none"
     document.getElementById("editCardArea").style.display = "block"
-
     document.getElementById("editFront").value = game.state.card.front
     document.getElementById("editBack").value = game.state.card.back
     document.getElementById("editEmoji").value = game.state.card.emoji || ""
@@ -340,8 +360,6 @@ function showEditForm() {
 }
 
 function saveCardEdit() {
-    if (!game.state.card) return
-
     game.state.card.front = document.getElementById("editFront").value.trim()
     game.state.card.back = document.getElementById("editBack").value.trim()
     game.state.card.emoji = document.getElementById("editEmoji").value.trim()
@@ -351,8 +369,6 @@ function saveCardEdit() {
 
     document.getElementById("editCardArea").style.display = "none"
     document.getElementById("studyArea").style.display = "block"
-
-    // Refresh the current card display
     startRound()
 }
 
@@ -365,6 +381,9 @@ function cancelEdit() {
 //=============================================================================
 // Game Dataset load and save
 //
+// Allows for the full export and re-load of game dataset in a pipe-separated
+// file format. Currently has no error checking or validation on the file
+// contents during upload - which is something to fix in the future.
 //=============================================================================
 let persistence = null;
 
@@ -434,20 +453,20 @@ function selectAllText() {
 }
 
 
+
+
 //=============================================================================
 // Language Statistics screen
 //
 //=============================================================================
 function statistics(name, language) {
-    let game = new Game(name, language);
-    game.load()
+    let cards = Persistence.loadCardsFrom(name, language);
 
-    let nTotal = game.deck.length
-    let nToday = game.deck.filter(c => c.seen > 0 && formatDate(c.lastSeen) === today()).length;
-    let nUnseen = game.deck.filter(c => c.seen === 0).length;
-
-    let nLevels = game.deck.reduce((a, c) => (a[c.level] = (a[c.level] || 0) + 1, a), {});
-    let nCategories = game.deck.reduce((a, c) => (a[c.category] = (a[c.category] || 0) + 1, a), {});
+    let nTotal = cards.length
+    let nToday = cards.filter(c => c.seen > 0 && formatDate(c.lastSeen) === today()).length;
+    let nUnseen = cards.filter(c => c.seen === 0).length;
+    let nLevels = cards.reduce((a, c) => (a[c.level] = (a[c.level] || 0) + 1, a), {});
+    let nCategories = cards.reduce((a, c) => (a[c.category] = (a[c.category] || 0) + 1, a), {});
 
     // Build stats display
     let html = `
@@ -518,3 +537,21 @@ function speakText(text, lang) {
     window.speechSynthesis.speak(utterance)
 }
 
+
+
+
+// Add this to your Menu and Game Configuration section
+window.addEventListener("click", function (event) {
+    const menu = document.getElementById("dropdownMenu");
+    const hamburger = document.getElementById("hamburger");
+
+    // If the menu is open AND the click was NOT on the hamburger 
+    // AND the click was NOT inside the menu itself...
+    if (menu.style.display === "block" &&
+        event.target !== hamburger &&
+        !menu.contains(event.target)) {
+        document.getElementById("dropdownMenu").style.display = "none";
+    }
+});
+
+toggleSoundMenuItem();

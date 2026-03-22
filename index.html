@@ -9,8 +9,17 @@
 
 <body>
 
-    <h2><a href="index.html">DotLingo</a> :: Flashcards</h2>
+    <div id="topBar">
+        <div id="hamburger" onclick="toggleMenu()">&#9776;</div>
+        <div id="topTitle">
+            <a href="index.html">DotLingo</a> :: Flashcards
+        </div>
+    </div>
 
+    <div id="dropdownMenu" style="display:none;">
+        <div id="soundToggleItem" class="menu-item" onclick="toggleSoundMenuItem()">
+        </div>
+    </div>
 
     <div id="gameMenu">
 
@@ -84,12 +93,6 @@
                     onclick="selectGameDirection('shuffle')">Shuffle</label>
         </div>
 
-        <!-- Sound Selection -->
-        <div class="row">
-            <label><input type="radio" name="sound" value="on" onclick="selectGameSound(true)" checked>Sound</label>
-            <label><input type="radio" name="sound" value="off" onclick="selectGameSound(false)">No sound</label>
-        </div>
-
         <hr class="menu-divider">
 
         <!-- Category Selection -->
@@ -120,7 +123,7 @@
             <div id="cardTop" class="card-top">Press Here</div>
             <div id="cardDivider" class="card-divider">--------- <span id="cardEmoji"></span> ---------</div>
             <div id="cardBottom" class="card-bottom"></div>
-            <div id="cardFooter" class="card-footer"><a href="#" onclick="showEditForm();">edit</a></div>
+            <div id="cardFooter" class="card-footer"><a href="#" onclick="showCardEdit();">edit</a></div>
         </div>
 
         <div class="difficulty" id="difficultyButtons" style="display:none">
