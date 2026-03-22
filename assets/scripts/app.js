@@ -440,6 +440,7 @@ function selectAllText() {
 //=============================================================================
 function statistics(name, language) {
     var game = new Game(name, language);
+    game.load()
 
     let nTotal = game.deck.length
     let nToday = game.deck.filter(c => c.seen > 0 && formatDate(c.lastSeen) === today()).length;
