@@ -109,7 +109,7 @@ class Game {
             game.state.questionEmoji = ''; // Emoji would be clue to meaning.
             game.state.questionSpeach = game.state.card.front; // Speak the foreign at question time.
             game.state.answerText = game.state.card.back; // Reveal native answer.
-            game.state.answerEmoji = game.state.emoji || ''; // Reveal emoji if any.
+            game.state.answerEmoji = game.state.card.emoji || ''; // Reveal emoji if any.
             game.state.answerSpeach = null; // Don't speak the native text.
         }
         else { // recall
@@ -439,7 +439,7 @@ function selectAllText() {
 //
 //=============================================================================
 function statistics(name, language) {
-    var game = new Game(name, language);
+    let game = new Game(name, language);
     game.load()
 
     let nTotal = game.deck.length
