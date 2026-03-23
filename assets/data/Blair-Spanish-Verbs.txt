@@ -7,12 +7,9 @@
 [yo digo, ns. decimos; tú dices, vs. decís; él dice, ellos dicen] | Conjugations of 'decir' | | Present | | | | | 1
 [yo veo, ns. vemos; tú ves, vs. veis; él ve, ellos ven] | Conjugations of 'ver' | | Present | | | | | 1
 [yo doy, ns. damos; tú das, vs. dais; él da, ellos dan] | Conjugations of 'dar' | | Present | | | | | 1
-[yo hablo, ns. hablamos; tú hablas, vs. habláis; él habla, ellos hablan] | -ar verbs (hablar) | | Present | | | | | 1
-[yo como, ns. comemos; tú comes, vs. coméis; él come, ellos comen] | -er verbs (comer) | | Present | | | | | 1
-[yo vivo, ns. vivimos; tú vives, vs. vivís; él vive, ellos viven] | -ir verbs (vivir) | | Present | | | | | 1
-[yo hablo, ns. hablamos; tú hablas, vs. habláis; él habla, ellos hablan] | -ar verbs (hablar) | | Present | | | | | 1
-[yo como, ns. comemos; tú comes, vs. coméis; él come, ellos comen] | -er verbs (comer) | | Present | | | | | 1
-[yo vivo, ns. vivimos; tú vives, vs. vivís; él vive, ellos viven] | -ir verbs (vivir) | | Present | | | | | 1
+[yo hablo, ns. hablamos; tú hablas, vs. habláis; él habla, ellos hablan] | Conjugations of hablar (-ar regular) | | Present | | | | | 1
+[yo como, ns. comemos; tú comes, vs. coméis; él come, ellos comen] | Conjugations of comer (-er regular) | | Present | | | | | 1
+[yo vivo, ns. vivimos; tú vives, vs. vivís; él vive, ellos viven] | Conjugations of vivir (-ir regular) | | Present | | | | | 1
 Como pan con mantequilla cada mañana | I eat bread with butter every morning |  | Present | 2026-03-21 | 2026-03-23 | 3 | 6 | 0
 Comes en ese restaurante los viernes | You eat at that restaurant on Fridays |  | Present | 2026-03-21 | 2026-03-23 | 3 | 3 | 0
 Él come muy rápido durante el almuerzo | He eats very quickly during lunch |  | Present | 2026-03-21 | 2026-03-23 | 2 | 3 | 0
@@ -80,16 +77,17 @@ Quieres salir aunque estás cansado | You want to go out even though you’re ti
 Lucía quiere aprender español rápidamente | Lucía wants to learn Spanish quickly | | Present | | | | | 1
 Queremos viajar este verano si podemos | We want to travel this summer if we can | | Present | | | | | 1
 Ellos quieren cambiar de trabajo pronto | They want to change jobs soon | | Present | | | | | 1
-[yo fui, ns. fuimos; tú fuiste, vs. fuisteis; él fue, ellos fueron] | ser/ir | | Preterit | | | | | 1
-[yo tuve, ns. tuvimos; tú tuviste, vs. tuvisteis; él tuvo, ellos tuvieron] | tener | | Preterit | | | | | 1
-[yo hice, ns. hicimos; tú hiciste, vs. hicisteis; él hizo, ellos hicieron] | hacer | | Preterit | | | | | 1
-[yo dije, ns. dijimos; tú dijiste, vs. dijisteis; él dijo, ellos dijeron] | decir | | Preterit | | | | | 1
-[yo pude, ns. pudimos; tú pudiste, vs. pudisteis; él pudo, ellos pudieron] | poder | | Preterit | | | | | 1
-[yo estuve, ns. estuvimos; tú estuviste, vs. estuvisteis; él estuvo, ellos estuvieron] | estar | | Preterit | | | | | 1
-[yo hablé, ns. hablamos; tú hablaste, vs. hablasteis; él habló, ellos hablaron] | -ar verbs (hablar) | | Preterit | | | | | 1
-[yo comí, ns. comimos; tú comiste, vs. comisteis; él comió, ellos comieron] | -er/-ir verbs (comer/vivir) | | Preterit | | | | | 1
-[yo hablé, ns. hablamos; tú hablaste, vs. hablasteis; él habló, ellos hablaron] | -ar verbs (hablar) | | Preterit | | | | | 1
-[yo comí, ns. comimos; tú comiste, vs. comisteis; él comió, ellos comieron] | -er/-ir verbs (comer/vivir) | | Preterit | | | | | 1
+[yo fui, ns. fuimos; tú fuiste, vs. fuisteis; él fue, ellos fueron] | Conjugations of ser | | Preterit | | | | | 1
+[yo fui, ns. fuimos; tú fuiste, vs. fuisteis; él fue, ellos fueron] | Conjugations of ir | | Preterit | | | | | 1
+[yo tuve, ns. tuvimos; tú tuviste, vs. tuvisteis; él tuvo, ellos tuvieron] | Conjugations of tener | | Preterit | | | | | 1
+[yo hice, ns. hicimos; tú hiciste, vs. hicisteis; él hizo, ellos hicieron] | Conjugations of hacer | | Preterit | | | | | 1
+[yo dije, ns. dijimos; tú dijiste, vs. dijisteis; él dijo, ellos dijeron] | Conjugations of decir | | Preterit | | | | | 1
+[yo pude, ns. pudimos; tú pudiste, vs. pudisteis; él pudo, ellos pudieron] | Conjugations of poder | | Preterit | | | | | 1
+[yo estuve, ns. estuvimos; tú estuviste, vs. estuvisteis; él estuvo, ellos estuvieron] | Conjugations of estar | | Preterit | | | | | 1
+[yo hablé, ns. hablamos; tú hablaste, vs. hablasteis; él habló, ellos hablaron] | Conjugations of hablar (-ar regular) | | Preterit | | | | | 1
+[yo comí, ns. comimos; tú comiste, vs. comisteis; él comió, ellos comieron] | Conjugations of comer (-er regular) | | Preterit | | | | | 1
+[yo viví, ns. vivimos; tú viviste, vs. vivisteis; él vivió, ellos vivieron] | Conjugations of vivir (-ir regular) | | Preterit | | | | | 1
+[yo hablé, ns. hablamos; tú hablaste, vs. hablasteis; él habló, ellos hablaron] | Conjugations of hablar (-ar regular) | | Preterit | | | | | 1
 Comí en ese restaurante ayer | I ate at that restaurant yesterday |  | Preterit | 2026-03-21 | 2026-03-22 | 0 | 0 | 0
 Comiste mucha comida anoche | You ate a lot of food last night |  | Preterit | 2026-03-21 | 2026-03-23 | 1 | 1 | 0
 Juan comió con su familia el domingo | Juan ate with his family on Sunday |  | Preterit | 2026-03-21 | 2026-03-23 | 3 | 1 | 0
@@ -135,10 +133,11 @@ Fueron al restaurante | They went to the restaurant |  | Preterit | 2026-03-22 |
 [yo era, ns. éramos; tú eras, vs. erais; él era, ellos eran] | Conjugations of 'ser' | | Imperfect | | | | | 1
 [yo iba, ns. íbamos; tú ibas, vs. ibais; él iba, ellos iban] | Conjugations of 'ir' | | Imperfect | | | | | 1
 [yo veía, ns. veíamos; tú veías, vs. veíais; él veía, ellos veían] | Conjugations of 'ver' | | Imperfect | | | | | 1
-[yo hablaba, ns. hablábamos; tú hablabas, vs. hablabais; él hablaba, ellos hablaban] | -ar verbs (hablar) | | Imperfect | | | | | 1
-[yo comía, ns. comíamos; tú comías, vs. comíais; él comía, ellos comían] | -er/-ir verbs (comer/vivir) | | Imperfect | | | | | 1
-[yo tenía, ns. teníamos; tú tenías, vs. teníais; él tenía, ellos tenían] | tener (pattern) | | Imperfect | | | | | 1
-[yo hacía, ns. hacíamos; tú hacías, vs. hacíais; él hacía, ellos hacían] | hacer (pattern) | | Imperfect | | | | | 1
+[yo hablaba, ns. hablábamos; tú hablabas, vs. hablabais; él hablaba, ellos hablaban] | Conjugations of hablar (-ar regular) | | Imperfect | | | | | 1
+[yo comía, ns. comíamos; tú comías, vs. comíais; él comía, ellos comían] | Conjugations of comer (-er regular) | | Imperfect | | | | | 1
+[yo vivía, ns. vivíamos; tú vivías, vs. vivíais; él vivía, ellos vivían] | Conjugations of vivir (-ir regular) | | Imperfect | | | | | 1
+[yo tenía, ns. teníamos; tú tenías, vs. teníais; él tenía, ellos tenían] | Conjugations of tener | | Imperfect | | | | | 1
+[yo hacía, ns. hacíamos; tú hacías, vs. hacíais; él hacía, ellos hacían] | Conjugations of hacer | | Imperfect | | | | | 1
 [yo estaba, ns. estábamos; tú estabas, vs. estabais; él estaba, ellos estaban] | estar (pattern) | | Imperfect | | | | | 1
 Comía pan con café cada mañana | I used to eat bread with coffee every morning |  | Imperfect | 2026-03-21 | 2026-03-23 | 2 | 4 | 0
 Comías mucho cuando eras niño | You used to eat a lot when you were a child |  | Imperfect | 2026-03-21 | 2026-03-23 | 4 | 5 | 0
