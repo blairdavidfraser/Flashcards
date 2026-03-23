@@ -161,8 +161,8 @@ button:active {
 
 .card-top,
 .card-bottom {
-    padding: 28px 16px;
-    min-height: 70px;
+    padding: 40px 20px;
+    min-height: 120px;
 }
 
 /* Divider */

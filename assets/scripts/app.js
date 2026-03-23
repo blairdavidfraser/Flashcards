@@ -234,22 +234,43 @@ function startRound() {
         return;
     }
 
-    document.getElementById("difficultyButtons").style.display = "none"
     document.getElementById("cardHeader").innerText = game.state.card.category || "";
-    document.getElementById("cardTop").innerText = game.state.questionText;
+    document.getElementById("cardTop").innerHTML = renderCardContent(game.state.questionText);
     document.getElementById("cardEmoji").innerHTML = game.state.questionEmoji;
-    document.getElementById("cardBottom").innerText = "";
+    document.getElementById("cardBottom").innerHTML = "";
+    document.getElementById("difficultyButtons").style.display = "none"
+    document.getElementById("exitButton").style.display = "inline-block";
     document.getElementById("cardInfo").innerText = game.state.card ? game.state.card.summary() : '';
     speakText(game.state.questionSpeach, game.language);
 }
 
 function finishRound() {
     console.log(`Flip: answer='${game.state.answerText}', speach='${game.state.answerSpeach}''`)
-    document.getElementById("cardBottom").innerText = game.state.answerText;
+    document.getElementById("cardBottom").innerHTML = renderCardContent(game.state.answerText);
     document.getElementById("cardEmoji").innerHTML = game.state.answerEmoji;
-    document.getElementById("cardInfo").innerText = game.state.card ? game.state.card.summary() : '';
     document.getElementById("difficultyButtons").style.display = "block";
+    document.getElementById("exitButton").style.display = "none";
+    document.getElementById("cardInfo").innerText = game.state.card ? game.state.card.summary() : '';
     speakText(game.state.answerSpeach, game.language);
+}
+
+function renderCardContent(text) {
+    text = text.trim();
+    if (text.startsWith("[") && text.endsWith("]")) {
+        const inner = text.slice(1, -1).trim();
+        const rows = inner.split(";").map(row => row.trim());
+
+        let html = "<table style='width:100%; border-collapse: collapse;'>";
+        rows.forEach(row => {
+            const cells = row.split(",").map(cell => cell.trim());
+            html += "<tr>";
+            cells.forEach(cell => { html += `<td style=" border: 1px solid #ddd; padding: 8px; text-align: center; ">${cell}</td>`; });
+            html += "</tr>";
+        });
+        html += "</table>";
+        return html;
+    }
+    return text;
 }
 
 function cycleRound(difficulty, level) {
