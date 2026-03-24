@@ -478,7 +478,7 @@ function saveGameDataset() {
         }
     }
 
-    persistence.saveCards(cards);
+    persistence.saveDataset(cards);
     persistence = null;
     backToMenu();
 }
