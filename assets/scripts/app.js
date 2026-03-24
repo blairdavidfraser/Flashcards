@@ -495,7 +495,8 @@ function selectAllText() {
 //
 //=============================================================================
 function statistics(name, language) {
-    let cards = Persistence.loadDatasetFrom(name, language);
+    let dataset = Persistence.loadDatasetFrom(name, language);
+    let cards = dataset.filter(item => !item.isComment).map(item => new Card(item));
 
     let nTotal = cards.length
     let nToday = cards.filter(c => c.seen > 0 && formatDate(c.lastSeen) === today()).length;
@@ -526,7 +527,7 @@ function statistics(name, language) {
 
     document.getElementById("gameMenu").style.display = "none"
     document.getElementById("statsArea").style.display = "block"
-    document.getElementById("statsTitle").innerText = game.language.charAt(0).toUpperCase() + game.language.slice(1) + " Statistics"
+    document.getElementById("statsTitle").innerText = `${language} Statistics`
     document.getElementById("statsContent").innerHTML = html
 }
 
