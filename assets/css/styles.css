@@ -126,7 +126,7 @@ button:active {
     border-radius: 16px;
     width: 92%;
     max-width: 520px;
-    font-size: 26px;
+    font-size: 22px;
     cursor: pointer;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
     overflow: hidden;
@@ -144,7 +144,7 @@ button:active {
 }
 
 .card-footer {
-    font-size: 13px;
+    font-size: 15px;
     color: #6b7280;
     background: #f6f8fb;
     padding: 10px 16px;

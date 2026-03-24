@@ -94,7 +94,8 @@ class Game {
 
     load() {
         console.log(`Loading game name='${this.name}' in language='${this.language}'`)
-        this.deck = Persistence.loadDatasetFrom(this.name, this.language);
+        this.dataset = Persistence.loadDatasetFrom(this.name, this.language);
+        this.deck = this.dataset.filter(item => item instanceof Card);
     }
 
     draw() {
@@ -125,13 +126,12 @@ class Game {
     rate(difficulty, level) {
         if (!this.state.card) return;
         this.state.card.rate(difficulty, level);
-        Persistence.saveDatasetTo(this.name, this.language, this.deck);
+        Persistence.saveDatasetTo(this.name, this.language, this.dataset);
     }
 
     #pickCard() {
         // Filter to ensure we only work with actual Card instances
         let enabled = this.deck.filter(c =>
-            !(c.isComment) &&
             this.configuration.categories.has(c.category) &&
             c.matches(this.rank) // Note: fixed 'this.rate' to 'this.rank' which appears to be a bug in your original code
         );
@@ -171,10 +171,10 @@ class Persistence {
     }
 
     loadDataset() { return Persistence.loadDatasetFrom(this.name, this.language) }
-    saveDataset(cards) { Persistence.saveDatasetTo(this.name, this.language, cards) }
+    saveDataset(items) { Persistence.saveDatasetTo(this.name, this.language, items) }
 
     static loadDatasetFrom(name, language) {
-        let filename = Persistence.#cardsFilename(name, language);
+        let filename = Persistence.#filename(name, language);
         let raw = localStorage.getItem(filename);
         if (!raw) return [];
 
@@ -185,13 +185,13 @@ class Persistence {
         });
     }
 
-    static saveDatasetTo(name, language, cards) {
-        let filename = Persistence.#cardsFilename(name, language)
-        localStorage.setItem(filename, JSON.stringify(cards))
-        console.log(`Saved '${cards.length}' cards to '${filename}'.`);
+    static saveDatasetTo(name, language, items) {
+        let filename = Persistence.#filename(name, language)
+        localStorage.setItem(filename, JSON.stringify(items))
+        console.log(`Saved '${items.length}' items to '${filename}'.`);
     }
 
-    static #cardsFilename(prefix, suffix) { return `${prefix}_${suffix}` }
+    static #filename(prefix, suffix) { return `${prefix}_${suffix}` }
 
 }
 
@@ -286,7 +286,7 @@ function cycleRound(difficulty, level) {
 }
 
 function endGame() {
-    Persistence.saveDatasetTo(game.name, game.language, game.deck)
+    Persistence.saveDatasetTo(game.name, game.language, game.dataset)
     backToMenu()
 }
 
@@ -317,10 +317,10 @@ function selectGame(name, language) {
     document.getElementById("configurationMenu").style.display = "block"
     document.getElementById("languageTitle").innerText = game.language
 
-    configureGame(game.deck)
+    configureGame()
 }
 
-function configureGame(deck) {
+function configureGame() {
     game.load();
     const container = document.getElementById("categoryFilters");
 
@@ -393,7 +393,7 @@ function saveCardEdit() {
     game.state.card.emoji = document.getElementById("editEmoji").value.trim()
     game.state.card.category = document.getElementById("editCategory").value.trim()
 
-    Persistence.saveDatasetTo(game.name, game.language, game.deck)
+    Persistence.saveDatasetTo(game.name, game.language, game.dataset)
 
     document.getElementById("editCardArea").style.display = "none"
     document.getElementById("studyArea").style.display = "block"
