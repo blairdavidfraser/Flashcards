@@ -16,6 +16,7 @@ class Card {
         this.seen = data.seen || 0;
         this.penalty = data.penalty || 0;
         this.level = data.level || 0;
+        this.comment = data.comment || null;
     }
 
     validate() {
@@ -89,6 +90,7 @@ class Game {
             answerText: null,
             answerEmoji: null,
             answerSpeach: null,
+            answerComment: null
         }
     }
 
@@ -112,6 +114,7 @@ class Game {
             game.state.answerText = game.state.card.back; // Reveal native answer.
             game.state.answerEmoji = game.state.card.emoji || ''; // Reveal emoji if any.
             game.state.answerSpeach = null; // Don't speak the native text.
+            game.state.answerComment = game.state.card.comment || null; // Show comment if any.
         }
         else { // recall
             game.state.questionText = game.state.card.back; // Native shown first.
@@ -120,6 +123,7 @@ class Game {
             game.state.answerText = game.state.card.front; // Reveal foreign answer.
             game.state.answerEmoji = game.state.card.emoji || ''; // Emoji still shows.
             game.state.answerSpeach = game.state.card.front; // Speak the foreign text.
+            game.state.answerComment = game.state.card.comment || null; // Show comment if any.
         }
     }
 
@@ -257,6 +261,7 @@ function finishRound() {
     document.getElementById("cardEmoji").innerHTML = game.state.answerEmoji;
     document.getElementById("difficultyButtons").style.display = "block";
     document.getElementById("exitButton").style.display = "none";
+    document.getElementById("cardComment").innerText = game.state.card ? game.state.card.comment : '';
     document.getElementById("cardInfo").innerText = game.state.card ? game.state.card.summary() : '';
     speakText(game.state.answerSpeach, game.language);
 }
@@ -435,7 +440,8 @@ function editGameDataset(name, language) {
                 formatDate(item.lastSeen),
                 item.seen,
                 item.penalty,
-                item.level
+                item.level,
+                item.comment || ""
             ].join(" | "));
         }
     });
@@ -470,7 +476,8 @@ function saveGameDataset() {
             lastSeen: parseDate(parts[5].trim()),
             seen: parseInt(parts[6]) || 0,
             penalty: parseInt(parts[7]) || 0,
-            level: parseInt(parts[8]) || 0
+            level: parseInt(parts[8]) || 0,
+            comment: parts[9].trim()
         });
 
         if (card.validate()) {

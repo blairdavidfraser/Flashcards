@@ -162,7 +162,7 @@ button:active {
 .card-top,
 .card-bottom {
     padding: 40px 20px;
-    min-height: 120px;
+    min-height: 100px;
 }
 
 /* Divider */
@@ -205,6 +205,12 @@ input[type="text"] {
 
 .row {
     margin-top: 14px;
+}
+
+/* ---------- Statistics ---------- */
+
+#statsContent {
+    line-height: 1.0;
 }
 
 /* ---------- Mobile ---------- */

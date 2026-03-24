@@ -885,3 +885,13 @@ funcionar | to function / work |  | Verb | 2026-03-20 | 2026-03-21 | 1 | 2 | 0
 tratar (de) | to try (to) |  | Verb | 2026-03-20 | 2026-03-22 | 2 | 2 | 0
 depender (de) | to depend (on) |  | Verb | 2026-03-20 | 2026-03-20 | 1 | 0 | 0
 pertenecer (a) | to belong (to) |  | Verb | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
+también | also / too | | Adverb | 2026-03-23 | | 1970-01-01 | | 1
+solo | only / just | | Adverb | 2026-03-23 | | 1970-01-01 | | 1
+todavía | still / yet | | Adverb | 2026-03-23 | | 1970-01-01 | | 1
+siempre | always | | Adverb | 2026-03-23 | | 1970-01-01 | | 1
+poner | to put | | Verb | 2026-03-23 | | 1970-01-01 | | 1
+cosa | thing | | Noun | 2026-03-23 | | 1970-01-01 | | 1
+vez | time (occasion) | | Noun | 2026-03-23 | | 1970-01-01 | | 1
+parte | part | | Noun | 2026-03-23 | | 1970-01-01 | | 1
+lugar | place | | Noun | 2026-03-23 | | 1970-01-01 | | 1
+forma | way (manner) | | Noun | 2026-03-23 | | 1970-01-01 | | 1
