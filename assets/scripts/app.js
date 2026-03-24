@@ -185,7 +185,7 @@ class Persistence {
 
         let data = JSON.parse(raw);
         return data.map(item => {
-            if (item.isComment) return item; // Return the comment object as-is
+            if (item.type == "Comment") return item; // Return the comment object as-is
             return new Card(item); // Rehydrate the Card class
         });
     }
@@ -428,7 +428,7 @@ function editGameDataset(name, language) {
 
     let lines = [];
     items.forEach(item => {
-        if (item.isComment) {
+        if (item.type == "Comment") {
             lines.push(item.value);
         } else {
             // It's a Card object
@@ -462,8 +462,7 @@ function saveGameDataset() {
         let trimmedLine = line.trim();
 
         if (trimmedLine.startsWith("#") || !trimmedLine) {
-            // Comment or empty line - preserve as-is
-            cards.push({ isComment: true, type: "Comment", value: trimmedLine });
+            cards.push({ type: "Comment", value: trimmedLine });
             continue;
         }
 
@@ -504,7 +503,7 @@ function selectAllText() {
 //=============================================================================
 function statistics(name, language) {
     let dataset = Persistence.loadDatasetFrom(name, language);
-    let cards = dataset.filter(item => !item.isComment).map(item => new Card(item));
+    let cards = dataset.filter(item => item instanceof Card);
 
     let nTotal = cards.length
     let nToday = cards.filter(c => c.seen > 0 && formatDate(c.lastSeen) === today()).length;
