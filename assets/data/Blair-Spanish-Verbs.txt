@@ -1,4 +1,4 @@
-# front | back | emoji | category | added | lastSeen | seen | penalty | level
+# front | back | emoji | category | added | lastSeen | seen | penalty | level | comment
 # 
 # front :: string, non-empty
 #   - Gives the foreign translation of the text. 
@@ -37,6 +37,11 @@
 #   - A level of 0 means the user finds the card normally difficult, and wants it presented in the 'learning' sets.
 #   - A level of 1 means the user finds the card very hard, and only wants it prested when studying the 'hard' set. 
 #   - When generating new cards, populate level as 1.
+#
+# comment :: string
+#   - Useful for learning tips. 
+#   - For example, explaining why on a given translation ser is used instead of estar.
+#   - For example, explaining why on a given translation preterit is used instead of imperfect.
 #
 # Content :: Verb study
 #   - This file is for learning conjugations of verbs in various tenses.

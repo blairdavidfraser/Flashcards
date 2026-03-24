@@ -185,7 +185,7 @@ class Persistence {
 
         let data = JSON.parse(raw);
         return data.map(item => {
-            if (item.type == "Comment") return item; // Return the comment object as-is
+            if (item.isComment) return item; // Return the comment object as-is
             return new Card(item); // Rehydrate the Card class
         });
     }
@@ -428,7 +428,7 @@ function editGameDataset(name, language) {
 
     let lines = [];
     items.forEach(item => {
-        if (item.type == "Comment") {
+        if (item.isComment) {
             lines.push(item.value);
         } else {
             // It's a Card object
@@ -462,7 +462,7 @@ function saveGameDataset() {
         let trimmedLine = line.trim();
 
         if (trimmedLine.startsWith("#") || !trimmedLine) {
-            cards.push({ type: "Comment", value: trimmedLine });
+            cards.push({ isComment: true, type: "Comment", value: trimmedLine });
             continue;
         }
 
