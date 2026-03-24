@@ -94,7 +94,7 @@ class Game {
 
     load() {
         console.log(`Loading game name='${this.name}' in language='${this.language}'`)
-        this.deck = Persistence.loadCardsFrom(this.name, this.language);
+        this.deck = Persistence.loadDatasetFrom(this.name, this.language);
     }
 
     draw() {
@@ -125,12 +125,15 @@ class Game {
     rate(difficulty, level) {
         if (!this.state.card) return;
         this.state.card.rate(difficulty, level);
-        Persistence.saveCardsTo(this.name, this.language, this.deck);
+        Persistence.saveDatasetTo(this.name, this.language, this.deck);
     }
 
     #pickCard() {
+        // Filter to ensure we only work with actual Card instances
         let enabled = this.deck.filter(c =>
-            this.configuration.categories.has(c.category) && c.matches(this.rate)
+            !(c.isComment) &&
+            this.configuration.categories.has(c.category) &&
+            c.matches(this.rank) // Note: fixed 'this.rate' to 'this.rank' which appears to be a bug in your original code
         );
 
         if (enabled.length === 0) return null;
@@ -167,18 +170,22 @@ class Persistence {
         this.language = language;
     }
 
-    loadCards() { return Persistence.loadCardsFrom(this.name, this.language) }
-    saveCards(cards) { Persistence.saveCardsTo(this.name, this.language, cards) }
+    loadDataset() { return Persistence.loadDatasetFrom(this.name, this.language) }
+    saveDataset(cards) { Persistence.saveDatasetTo(this.name, this.language, cards) }
 
-    static loadCardsFrom(name, language) {
-        let filename = Persistence.#cardsFilename(name, language)
+    static loadDatasetFrom(name, language) {
+        let filename = Persistence.#cardsFilename(name, language);
         let raw = localStorage.getItem(filename);
-        let cards = raw ? JSON.parse(raw).map(c => new Card(c)) : [];
-        console.log(`Loaded '${cards.length}' cards from '${filename}'.`);
-        return cards;
+        if (!raw) return [];
+
+        let data = JSON.parse(raw);
+        return data.map(item => {
+            if (item.isComment) return item; // Return the comment object as-is
+            return new Card(item); // Rehydrate the Card class
+        });
     }
 
-    static saveCardsTo(name, language, cards) {
+    static saveDatasetTo(name, language, cards) {
         let filename = Persistence.#cardsFilename(name, language)
         localStorage.setItem(filename, JSON.stringify(cards))
         console.log(`Saved '${cards.length}' cards to '${filename}'.`);
@@ -279,7 +286,7 @@ function cycleRound(difficulty, level) {
 }
 
 function endGame() {
-    Persistence.saveCardsTo(game.name, game.language, game.deck)
+    Persistence.saveDatasetTo(game.name, game.language, game.deck)
     backToMenu()
 }
 
@@ -386,7 +393,7 @@ function saveCardEdit() {
     game.state.card.emoji = document.getElementById("editEmoji").value.trim()
     game.state.card.category = document.getElementById("editCategory").value.trim()
 
-    Persistence.saveCardsTo(game.name, game.language, game.deck)
+    Persistence.saveDatasetTo(game.name, game.language, game.deck)
 
     document.getElementById("editCardArea").style.display = "none"
     document.getElementById("studyArea").style.display = "block"
@@ -410,43 +417,50 @@ let persistence = null;
 
 function editGameDataset(name, language) {
     console.log(`Editing game=${name}, language=${language}.`)
-    persistence = new Persistence(name, language)
-    cards = persistence.loadCards()
+    persistence = new Persistence(name, language);
+    let items = persistence.loadDataset(); // This now returns mixed objects
 
-    let lines = []
-    lines.push("#front|back|emoji|category|added|lastSeen|seen|penalty|level")
-    cards.forEach(c => {
-        lines.push(
-            [
-                c.front,
-                c.back,
-                c.emoji || "",
-                c.category || "",
-                formatDate(c.added),
-                formatDate(c.lastSeen),
-                c.seen,
-                c.penalty,
-                c.level
-            ].join(" | ")
-        )
-    })
+    let lines = [];
+    items.forEach(item => {
+        if (item.isComment) {
+            lines.push(item.value);
+        } else {
+            // It's a Card object
+            lines.push([
+                item.front,
+                item.back,
+                item.emoji || "",
+                item.category || "",
+                formatDate(item.added),
+                formatDate(item.lastSeen),
+                item.seen,
+                item.penalty,
+                item.level
+            ].join(" | "));
+        }
+    });
 
-    document.getElementById("gameMenu").style.display = "none"
-    document.getElementById("editArea").style.display = "block"
-    document.getElementById("editTitle").innerText = "Edit " + language
-    document.getElementById("editBox").value = lines.join("\n")
+    document.getElementById("gameMenu").style.display = "none";
+    document.getElementById("editArea").style.display = "block";
+    document.getElementById("editTitle").innerText = "Edit " + language;
+    document.getElementById("editBox").value = lines.join("\n");
 }
 
 function saveGameDataset() {
     let text = document.getElementById("editBox").value;
     let lines = text.split("\n");
-    let cards = [];
+    let cards = []; // This will now hold both Cards and Comment objects
 
     for (let line of lines) {
-        line = line.trim();
-        if (!line || line.startsWith("#")) continue;
-        let parts = line.split("|");
+        let trimmedLine = line.trim();
 
+        if (trimmedLine.startsWith("#") || !trimmedLine) {
+            // Comment or empty line - preserve as-is
+            cards.push({ isComment: true, value: trimmedLine });
+            continue;
+        }
+
+        let parts = line.split("|");
         let card = new Card({
             front: parts[0].trim(),
             back: parts[1].trim(),
@@ -464,7 +478,7 @@ function saveGameDataset() {
         }
     }
 
-    persistence.saveCards(cards)
+    persistence.saveCards(cards);
     persistence = null;
     backToMenu();
 }
@@ -481,7 +495,7 @@ function selectAllText() {
 //
 //=============================================================================
 function statistics(name, language) {
-    let cards = Persistence.loadCardsFrom(name, language);
+    let cards = Persistence.loadDatasetFrom(name, language);
 
     let nTotal = cards.length
     let nToday = cards.filter(c => c.seen > 0 && formatDate(c.lastSeen) === today()).length;

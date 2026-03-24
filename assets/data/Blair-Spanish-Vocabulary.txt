@@ -1,4 +1,78 @@
-#front|back|emoji|category|added|lastSeen|seen|penalty|level
+# front | back | emoji | category | added | lastSeen | seen | penalty | level
+# 
+# front :: string, non-empty
+#   - Gives the foreign translation of the text. 
+#   - When generating new cards, if using a sentance, then capitalize and punctuate correctly.
+#
+# back :: string, non-empty
+#   - Gives the native translation of the text (English). 
+#   - When generating new cards, if using a sentance, then capitalize and punctuate correctly.
+#
+# emoji :: string, or empty.
+#   - When available, represents a visual cue to aid in memorization.
+#   - When generating new cards, only use emoji when for single word translation cards when there is a strong match.
+#   - When generating new cards, never use an emoji if the card is a sentance or phrase.
+# 
+# category :: string, non-empty, of values: Noun, Verb, Adjective, Adverb, Phrase, Miscellaneous
+#   - When generating new cards, only choose from the above stated categories.
+#   - Capitalize the first character.
+#   - If clearly a noun, verb, adjective or adverb then use those categories.
+#   - If it is a sentence or part of a sentance, then use Phrase.
+#   - If it is a word but fits none of the above cleanly, then use Miscellaneous.
+#   - If in doubt, use Miscellaneous.
+#
+# added :: date in YYYY-MM-DD form, or empty.
+#   - When generating new cards, use the current local date for added.
+#
+# lastSeen :: date in YYYY-MM-DD form, or empty.
+#   - When generating new cards, leave lastSeen empty.
+#
+# seen :: date in YYYY-MM-DD form, or empty.
+#   - When generating new cards, use 1970-01-01 for seen.
+#
+# penalty :: integer
+#   - Represents a score, that gets higher when the user ranks the card hard.
+#   - Increases as the card is shown repeatedly.
+#   - Increases faster if the card is ranked hard on each presentation.
+#   - When generating new cards, leave penalty blank.
+#
+# level :: integer of (-1, 0, 1)
+#   - Another representation of how hard a card is judged to me.
+#   - A level of -1 means the user finds the card too easy, and only wants it presented when studying the 'review' set.
+#   - A level of 0 means the user finds the card normally difficult, and wants it presented in the 'learning' sets.
+#   - A level of 1 means the user finds the card very hard, and only wants it prested when studying the 'hard' set. 
+#   - When generating new cards, populate level as 1.
+#
+# Content :: Vocabulary study
+#   - This file is for building vocabulary through words and short sentances or phrases.
+#   - Sentance cards should prefer sentance structure that is natural in Spanish.
+#   - Sentance cards should prefer sentances that are useful and someone may actually use.
+#   - Sentance cards should prefer proper capitalization and punctuate properly.
+#   - Consider the article: Spanish sometimes uses it, sometimes not. Prefer natural, common usage.
+#   - If the English needs some clarification or disambiguation, use a bracketed clarifying word: e.g. "to return (something)"
+#   - If the Spanish translates to two related English words, separate those English words with a '/'.
+#   - If the English translates to two related Spanish words, separate those Spanish words with a '/'.
+#
+# Convention :: when generating a noun card (category=Noun)
+#   - Prefer the singular, unless the singular is not used.
+#   - Use the article, le or la in front of the Spanish noun.
+#   - Comma separates the cells in a table row.
+#   - Semicolon separates the rows in a table.
+#
+# Convention :: when generating an adjective card (category=Adjective)
+#   - If the adjective has masculine and feminine forms then list both as <masculine>, o <feminine>
+#   - For example: rojo, o roja
+#   - If the adjective has only one form, then just use that alone.
+#  
+# Convention :: when generating a verb card (category=Verb)
+#   - A verb card may show a verb infinitive as the Spanish, in which case the English should start with the word 'to'.
+#   - A verb card may show nothing more than a conjugated form, in which case the Spanish article should be bracketed to show it is optionally used.
+#   - For the article of the third person singular, use (él/ella/usted)
+#   - For the article of the third person plural, use (ellos/ellas/ustedes)
+#   - Don't create cards of conjugations for vosotros.
+#  
+# *** If you notice a bug or error in these translations, always call them out ***
+#
 hola | hello |  | Phrase | 2026-03-10 | 2026-03-15 | 2 | 6 | -1
 buenos días | good morning |  | Phrase | 2026-03-10 | 2026-03-15 | 3 | 8 | -1
 buenas tardes | good afternoon |  | Phrase | 2026-03-10 | 2026-03-15 | 3 | 7 | -1
@@ -32,7 +106,7 @@ no entiendo | I don't understand |  | Phrase | 2026-03-10 | 2026-03-19 | 4 | 10 
 ¿puede repetir? | can you repeat? |  | Phrase | 2026-03-10 | 2026-03-14 | 9 | 15 | 0
 ¿puede hablar más despacio? | can you speak more slowly? |  | Phrase | 2026-03-10 | 2026-03-16 | 9 | 13 | 0
 hablo un poco de español | I speak a little Spanish |  | Phrase | 2026-03-10 | 2026-03-15 | 4 | 10 | -1
-¿qué significa? | what does it mean? |  | Phrase | 2026-03-10 | 2026-03-16 | 11 | 8 | 0
+¿qué significa? | what does it mean? |  | Phrase | 2026-03-10 | 2026-03-22 | 12 | 8 | 0
 ¿cómo se dice...? | how do you say...? |  | Phrase | 2026-03-10 | 2026-03-15 | 2 | 6 | -1
 ¿qué hora es? | what time is it? |  | Phrase | 2026-03-10 | 2026-03-15 | 3 | 8 | -1
 ¿dónde está el hotel? | where is the hotel? |  | Phrase | 2026-03-10 | 2026-03-15 | 5 | 10 | -1
@@ -132,7 +206,7 @@ la estación | station |  | Noun | 2026-03-10 | 2026-03-15 | 3 | 8 | -1
 el tren | train | 🚆 | Noun | 2026-03-10 | 2026-03-15 | 3 | 8 | -1
 el autobús | bus | 🚌 | Noun | 2026-03-10 | 2026-03-19 | 3 | 5 | -1
 el taxi | taxi | 🚕 | Noun | 2026-03-10 | 2026-03-15 | 2 | 6 | -1
-el boleto, o la billete en España | ticket | 🎟️ | Noun | 2026-03-10 | 2026-03-14 | 11 | 15 | 0
+el boleto, o la billete en España | ticket | 🎟️ | Noun | 2026-03-10 | 2026-03-22 | 12 | 17 | 0
 la reserva | reservation |  | Noun | 2026-03-10 | 2026-03-15 | 4 | 8 | -1
 la maleta | suitcase | 🧳 | Noun | 2026-03-10 | 2026-03-15 | 9 | 15 | -1
 el pasaporte | passport | 🪪 | Noun | 2026-03-10 | 2026-03-15 | 2 | 6 | -1
@@ -199,7 +273,7 @@ libre | free |  | Adjective | 2026-03-10 | 2026-03-12 | 1 | 3 | -1
 (tú) haces | you do |  | Verb | 2026-03-10 | 2026-03-15 | 4 | 10 | -1
 (él/ella/usted) hace | he/she/you does |  | Verb | 2026-03-10 | 2026-03-16 | 3 | 8 | -1
 (nosotros) hacemos | we do |  | Verb | 2026-03-10 | 2026-03-12 | 3 | 7 | -1
-(ellos/ellas/ustedes) hacen | they/you do |  | Verb | 2026-03-10 | 2026-03-15 | 3 | 7 | 0
+(ellos/ellas/ustedes) hacen | they/you do |  | Verb | 2026-03-10 | 2026-03-22 | 5 | 11 | 0
 (yo) digo | I say |  | Verb | 2026-03-10 | 2026-03-12 | 3 | 7 | -1
 (tú) dices | you say |  | Verb | 2026-03-10 | 2026-03-15 | 5 | 12 | -1
 (él/ella/usted) dice | he/she/you says |  | Verb | 2026-03-10 | 2026-03-15 | 7 | 12 | -1
@@ -282,14 +356,14 @@ la respuesta | answer |  | Noun | 2026-03-10 | 2026-03-19 | 3 | 4 | 0
 el problema | problem |  | Noun | 2026-03-10 | 2026-03-15 | 2 | 6 | -1
 la solución | solution |  | Noun | 2026-03-10 | 2026-03-15 | 3 | 7 | -1
 la idea | idea |  | Noun | 2026-03-10 | 2026-03-19 | 2 | 6 | -1
-el ejemplo | example |  | Noun | 2026-03-10 | 2026-03-20 | 4 | 5 | 0
+el ejemplo | example |  | Noun | 2026-03-10 | 2026-03-22 | 5 | 7 | 0
 la historia | story |  | Noun | 2026-03-10 | 2026-03-15 | 3 | 6 | -1
 importante | important |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 5 | 10 | -1
 posible | possible |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 2 | 6 | -1
 necesario, o necesaria | necessary |  | Adjective | 2026-03-10 | 2026-03-19 | 4 | 9 | -1
 diferente | different |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 4 | 10 | -1
 igual | equal |  | Miscellaneous | 2026-03-10 | 2026-03-19 | 10 | 13 | -1
-seguro | sure |  | Miscellaneous | 2026-03-10 | 2026-03-14 | 12 | 18 | 0
+seguro | sure |  | Miscellaneous | 2026-03-10 | 2026-03-22 | 14 | 20 | 0
 claro | clear / of course |  | Miscellaneous | 2026-03-10 | 2026-03-16 | 6 | 14 | -1
 listo, o lista | ready |  | Adjective | 2026-03-10 | 2026-03-12 | 3 | 6 | -1
 cansado | tired | 🫩 | Miscellaneous | 2026-03-10 | 2026-03-19 | 2 | 6 | -1
@@ -315,10 +389,10 @@ claro que no | of course not |  | Phrase | 2026-03-10 | 2026-03-14 | 9 | 17 | -1
 por supuesto | of course |  | Phrase | 2026-03-10 | 2026-03-15 | 7 | 13 | -1
 tal vez | maybe |  | Phrase | 2026-03-10 | 2026-03-15 | 2 | 6 | -1
 puede ser | maybe / could be |  | Phrase | 2026-03-10 | 2026-03-18 | 9 | 8 | 0
-ya veo | I see (ahhh) |  | Phrase | 2026-03-10 | 2026-03-16 | 11 | 8 | 0
+ya veo | I see (ahhh) |  | Phrase | 2026-03-10 | 2026-03-22 | 12 | 8 | 0
 ya entiendo | now I understand |  | Phrase | 2026-03-10 | 2026-03-17 | 20 | 1 | 0
 tienes razón | you are right |  | Phrase | 2026-03-10 | 2026-03-15 | 5 | 10 | -1
-no estoy seguro | I'm not sure |  | Phrase | 2026-03-10 | 2026-03-16 | 10 | 9 | 0
+no estoy seguro | I'm not sure |  | Phrase | 2026-03-10 | 2026-03-22 | 11 | 11 | 0
 no lo sé | I don't know |  | Phrase | 2026-03-10 | 2026-03-13 | 7 | 7 | 0
 lo sé | I know (that) |  | Phrase | 2026-03-10 | 2026-03-16 | 5 | 11 | -1
 creo que sí | I think so |  | Phrase | 2026-03-10 | 2026-03-15 | 3 | 6 | 0
@@ -327,14 +401,14 @@ depende | it depends |  | Miscellaneous | 2026-03-10 | 2026-03-16 | 8 | 12 | -1
 qué bueno | that's good |  | Phrase | 2026-03-10 | 2026-03-16 | 9 | 5 | 0
 qué lástima | what a shame |  | Phrase | 2026-03-10 | 2026-03-13 | 7 | 13 | -1
 qué suerte | how lucky | 🍀 | Phrase | 2026-03-10 | 2026-03-17 | 7 | 9 | -1
-buen trabajo | good job | 👍 | Phrase | 2026-03-10 | 2026-03-15 | 4 | 9 | 0
-bien hecho | well done | 👌 | Phrase | 2026-03-10 | 2026-03-19 | 11 | 15 | 0
+buen trabajo | good job | 👍 | Phrase | 2026-03-10 | 2026-03-22 | 5 | 9 | 0
+bien hecho | well done | 👌 | Phrase | 2026-03-10 | 2026-03-22 | 12 | 17 | 0
 más,, o menos así | more or less like that |  | Phrase | 2026-03-10 | 2026-03-14 | 8 | 9 | 0
 tengo mucho trabajo hoy | I have a lot of work today |  | Phrase | 2026-03-10 | 2026-03-16 | 10 | 16 | -1
 no tengo tiempo ahora | I don't have time now |  | Phrase | 2026-03-10 | 2026-03-15 | 6 | 7 | -1
 quiero aprender más español | I want to learn more Spanish |  | Phrase | 2026-03-10 | 2026-03-16 | 5 | 10 | -1
 estoy muy cansado hoy | I am very tired today |  | Phrase | 2026-03-10 | 2026-03-16 | 7 | 4 | 0
-necesito descansar | I need to rest | 😴 | Phrase | 2026-03-10 | 2026-03-19 | 17 | -1 | 0
+necesito descansar | I need to rest | 😴 | Phrase | 2026-03-10 | 2026-03-22 | 18 | -1 | 0
 vamos a comer algo | let's eat something |  | Phrase | 2026-03-10 | 2026-03-15 | 5 | 9 | -1
 voy a salir ahora | I'm going out now |  | Phrase | 2026-03-10 | 2026-03-12 | 3 | 2 | -1
 vuelvo en una hora | I'll come back in an hour |  | Phrase | 2026-03-10 | 2026-03-19 | 5 | 5 | 0
@@ -359,7 +433,7 @@ pagar | to pay |  | Verb | 2026-03-10 | 2026-03-20 | 6 | 10 | 0
 usar | to use |  | Verb | 2026-03-10 | 2026-03-15 | 4 | 6 | -1
 necesitar | to need |  | Verb | 2026-03-10 | 2026-03-19 | 8 | 17 | -1
 buscar | to look for |  | Verb | 2026-03-10 | 2026-03-13 | 4 | 9 | -1
-encontrar | to find |  | Verb | 2026-03-10 | 2026-03-17 | 10 | 14 | 0
+encontrar | to find |  | Verb | 2026-03-10 | 2026-03-22 | 11 | 16 | 0
 perder | to lose |  | Verb | 2026-03-10 | 2026-03-16 | 4 | 10 | -1
 ganar | to win / earn |  | Verb | 2026-03-10 | 2026-03-15 | 3 | 5 | -1
 abrir | to open |  | Verb | 2026-03-10 | 2026-03-17 | 3 | 8 | -1
@@ -367,9 +441,9 @@ cerrar | to close |  | Verb | 2026-03-10 | 2026-03-16 | 2 | 6 | -1
 entrar | to enter |  | Verb | 2026-03-10 | 2026-03-13 | 8 | 8 | -1
 salir | to leave / to go out |  | Verb | 2026-03-10 | 2026-03-16 | 5 | 11 | -1
 llegar | to arrive |  | Verb | 2026-03-10 | 2026-03-12 | 4 | 8 | -1
-volver | to return / to do again |  | Verb | 2026-03-10 | 2026-03-16 | 8 | 5 | 0
+volver | to return / to do again |  | Verb | 2026-03-10 | 2026-03-22 | 9 | 5 | 0
 quedarse | to stay |  | Verb | 2026-03-10 | 2026-03-12 | 9 | 11 | -1
-empezar | to start |  | Verb | 2026-03-10 | 2026-03-16 | 11 | 13 | 0
+empezar | to start |  | Verb | 2026-03-10 | 2026-03-22 | 12 | 15 | 0
 terminar | to finish |  | Verb | 2026-03-10 | 2026-03-14 | 8 | 14 | -1
 intentar | to try (to do something) |  | Verb | 2026-03-10 | 2026-03-12 | 5 | 10 | -1
 recordar | to remember |  | Verb | 2026-03-10 | 2026-03-14 | 10 | 19 | 0
@@ -391,22 +465,22 @@ explicar | to explain |  | Verb | 2026-03-10 | 2026-03-15 | 5 | 9 | -1
 mostrar | to show |  | Verb | 2026-03-10 | 2026-03-12 | 8 | 16 | -1
 cambiar | to change |  | Verb | 2026-03-10 | 2026-03-19 | 6 | 10 | -1
 mejorar | to improve |  | Verb | 2026-03-10 | 2026-03-20 | 7 | 14 | 0
-empeorar | to get worse |  | Verb | 2026-03-10 | 2026-03-16 | 5 | 11 | 0
+empeorar | to get worse |  | Verb | 2026-03-10 | 2026-03-22 | 6 | 13 | 0
 rápidamente | quickly |  | Adverb | 2026-03-10 | 2026-03-16 | 13 | 24 | -1
 lentamente | slowly |  | Adverb | 2026-03-10 | 2026-03-17 | 6 | 13 | -1
 generalmente | generally |  | Adverb | 2026-03-10 | 2026-03-15 | 5 | 8 | -1
 normalmente | normally |  | Adverb | 2026-03-10 | 2026-03-16 | 12 | 24 | 0
 especialmente | especially |  | Adverb | 2026-03-10 | 2026-03-13 | 3 | 4 | -1
 ¿qué quieres hacer? | what do you want to do? |  | Phrase | 2026-03-10 | 2026-03-19 | 9 | 17 | -1
-¿qué piensas? | what do you think? |  | Phrase | 2026-03-10 | 2026-03-20 | 7 | 9 | 0
+¿qué piensas? | what do you think? |  | Phrase | 2026-03-10 | 2026-03-22 | 9 | 13 | 0
 ¿te gusta? | do you like it? |  | Phrase | 2026-03-10 | 2026-03-15 | 6 | 14 | -1
-me parece bien | that seems good to me |  | Phrase | 2026-03-10 | 2026-03-14 | 10 | 14 | 0
+me parece bien | that seems good to me |  | Phrase | 2026-03-10 | 2026-03-22 | 11 | 16 | 0
 me parece interesante | that seems interesting |  | Phrase | 2026-03-10 | 2026-03-20 | 12 | 16 | 0
 eso es verdad | that's true |  | Phrase | 2026-03-10 | 2026-03-19 | 5 | 9 | 0
 no estoy de acuerdo | I don't agree |  | Phrase | 2026-03-10 | 2026-03-16 | 5 | 11 | 0
 estoy de acuerdo | I agree |  | Phrase | 2026-03-10 | 2026-03-16 | 3 | 8 | -1
 no estoy seguro de eso | I'm not sure about that |  | Phrase | 2026-03-10 | 2026-03-15 | 2 | 6 | -1
-eso depende | that depends |  | Phrase | 2026-03-10 | 2026-03-19 | 5 | 8 | 0
+eso depende | that depends |  | Phrase | 2026-03-10 | 2026-03-22 | 6 | 10 | 0
 todo está bien | everything is fine |  | Phrase | 2026-03-10 | 2026-03-16 | 4 | 10 | -1
 todo está listo | everything is ready |  | Phrase | 2026-03-10 | 2026-03-17 | 3 | 8 | -1
 vamos a ver | let's see |  | Phrase | 2026-03-10 | 2026-03-12 | 3 | 6 | -1
@@ -417,7 +491,7 @@ dame un minuto | give me a minute |  | Phrase | 2026-03-10 | 2026-03-17 | 6 | 5 
 no tengo idea | I have no idea |  | Phrase | 2026-03-10 | 2026-03-15 | 2 | 6 | -1
 es una buena idea | it's a good idea |  | Phrase | 2026-03-10 | 2026-03-16 | 10 | 9 | 0
 es mala idea | it's a bad idea |  | Phrase | 2026-03-10 | 2026-03-16 | 7 | 7 | 0
-no pasa nada | nothing happens / it's fine |  | Phrase | 2026-03-10 | 2026-03-17 | 6 | 6 | 0
+no pasa nada | nothing happens / it's fine |  | Phrase | 2026-03-10 | 2026-03-22 | 7 | 6 | 0
 qué interesante | how interesting |  | Phrase | 2026-03-10 | 2026-03-15 | 7 | 11 | -1
 qué raro | how strange |  | Phrase | 2026-03-10 | 2026-03-19 | 9 | 12 | 0
 qué divertido | how fun |  | Phrase | 2026-03-10 | 2026-03-16 | 4 | 9 | -1
@@ -452,7 +526,7 @@ la sonrisa | smile | 😁 | Noun | 2026-03-10 | 2026-03-14 | 9 | 14 | -1
 sonreír | to smile | 😁 | Verb | 2026-03-10 | 2026-03-12 | 1 | 3 | -1
 entonces | then |  | Miscellaneous | 2026-03-10 | 2026-03-16 | 7 | 11 | 0
 el reloj | watch | ⌚ | Noun | 2026-03-10 | 2026-03-13 | 7 | 11 | -1
-rojo,, o roja | red | 🔴 | Adjective | 2026-03-10 | 2026-03-13 | 8 | 11 | -1
+rojo, o roja | red | 🔴 | Adjective | 2026-03-10 | 2026-03-13 | 8 | 11 | -1
 naranjo, o naranja | orange | 🟠 | Adjective | 2026-03-10 | 2026-03-13 | 6 | 8 | -1
 amarillo, o amarilla | yellow | 🟡 | Adjective | 2026-03-10 | 2026-03-14 | 11 | 6 | 0
 verde | green | 🟢 | Adjective | 2026-03-10 | 2026-03-19 | 4 | 8 | -1
@@ -471,12 +545,12 @@ la chaqueta | jacket | 🧥 | Noun | 2026-03-12 | 2026-03-13 | 3 | 9 | -1
 extra | extra / spare |  | Adjective | 2026-03-12 | 2026-03-19 | 3 | 9 | -1
 Estoy emocionado por el fin de semana | I am excited for the weekend |  | Phrase | 2026-03-12 | 2026-03-16 | 8 | 13 | 0
 Necesito preparar mi mochila | I need to prepare my backpack |  | Phrase | 2026-03-12 | 2026-03-18 | 8 | 7 | 0
-El clima cambia rápido en la montaña | The weather changes quickly in the mountains |  | Phrase | 2026-03-12 | 2026-03-16 | 6 | 9 | 0
+El clima cambia rápido en la montaña | The weather changes quickly in the mountains |  | Phrase | 2026-03-12 | 2026-03-22 | 8 | 9 | 0
 ¿Tienes un mapa? | Do you have a map? |  | Phrase | 2026-03-12 | 2026-03-13 | 4 | 9 | -1
-Nos encontramos aquí mañana | We meet here tomorrow |  | Phrase | 2026-03-12 | 2026-03-18 | 7 | 13 | 0
-aunque | although |  | Miscellaneous | 2026-03-12 | 2026-03-18 | 10 | 15 | 0
-mientras | while |  | Miscellaneous | 2026-03-12 | 2026-03-21 | 9 | 14 | 0
-sin embargo | however |  | Miscellaneous | 2026-03-12 | 2026-03-17 | 8 | 2 | 1
+Nos encontramos aquí mañana | We meet here tomorrow |  | Phrase | 2026-03-12 | 2026-03-22 | 8 | 14 | 0
+aunque | although |  | Miscellaneous | 2026-03-12 | 2026-03-22 | 12 | 19 | 0
+mientras | while |  | Miscellaneous | 2026-03-12 | 2026-03-22 | 10 | 16 | 0
+sin embargo | however |  | Miscellaneous | 2026-03-12 | 2026-03-22 | 9 | 1 | 1
 además | besides |  | Miscellaneous | 2026-03-12 | 2026-03-16 | 11 | 0 | 0
 todavía | still / yet |  | Miscellaneous | 2026-03-12 | 2026-03-16 | 12 | 2 | 0
 ya | already |  | Miscellaneous | 2026-03-12 | 2026-03-14 | 6 | 10 | 0
@@ -487,32 +561,32 @@ seguir | to continue (to carry on) |  | Verb | 2026-03-12 | 2026-03-19 | 9 | 3 |
 mover | to move |  | Verb | 2026-03-12 | 2026-03-19 | 7 | 10 | 0
 cambiar | to change |  | Verb | 2026-03-12 | 2026-03-13 | 3 | 5 | -1
 ocurrir | to happen |  | Verb | 2026-03-12 | 2026-03-12 | 1 | 1 | -1
-resultar | to turn out |  | Verb | 2026-03-12 | 2026-03-17 | 6 | 6 | 0
+resultar | to turn out |  | Verb | 2026-03-12 | 2026-03-22 | 7 | 8 | 0
 la pared | wall |  | Noun | 2026-03-12 | 2026-03-13 | 4 | 7 | -1
 el letrero | sign |  | Noun | 2026-03-12 | 2026-03-20 | 8 | 5 | 0
 la señal | sign / signal |  | Noun | 2026-03-12 | 2026-03-16 | 10 | 17 | 0
 la camisa | shirt | 👕 | Noun | 2026-03-12 | 2026-03-19 | 5 | 10 | -1
-la caja | box | 📦 | Noun | 2026-03-12 | 2026-03-19 | 3 | 0 | 1
+la caja | box | 📦 | Noun | 2026-03-12 | 2026-03-22 | 4 | 0 | 0
 el suelo | floor / ground |  | Noun | 2026-03-12 | 2026-03-17 | 11 | 10 | 0
 el edificio | building | 🏢 | Noun | 2026-03-12 | 2026-03-17 | 10 | 17 | 0
 la acera | sidewalk |  | Noun | 2026-03-12 | 2026-03-17 | 9 | 6 | 0
 la esquina | corner |  | Noun | 2026-03-12 | 2026-03-17 | 5 | 7 | 0
 el techo | ceiling / roof |  | Noun | 2026-03-12 | 2026-03-12 | 1 | 1 | -1
 la escalera | staircase |  | Noun | 2026-03-12 | 2026-03-19 | 8 | 13 | -1
-el ascensor | elevator | 🛗 | Noun | 2026-03-12 | 2026-03-17 | 7 | 6 | 0
+el ascensor | elevator | 🛗 | Noun | 2026-03-12 | 2026-03-22 | 8 | 8 | 0
 el pasillo | hallway |  | Noun | 2026-03-12 | 2026-03-16 | 10 | -2 | 0
 el barrio | neighborhood |  | Noun | 2026-03-12 | 2026-03-16 | 4 | 7 | -1
 la avenida | avenue | 🛣️ | Noun | 2026-03-12 | 2026-03-13 | 3 | 5 | -1
 el puente | bridge | 🌉 | Noun | 2026-03-12 | 2026-03-16 | 10 | 18 | 0
 el semáforo | traffic light | 🚦 | Noun | 2026-03-12 | 2026-03-18 | 6 | 5 | 0
-el banco | bench |  | Noun | 2026-03-12 | 2026-03-18 | 6 | 1 | 0
+el banco | bench |  | Noun | 2026-03-12 | 2026-03-22 | 7 | 4 | -1
 la farola | streetlight |  | Noun | 2026-03-12 | 2026-03-18 | 3 | 0 | 1
 el poste | pole |  | Noun | 2026-03-12 | 2026-03-16 | 5 | 12 | -1
 la reja | metal gate / bars |  | Noun | 2026-03-12 | 2026-03-21 | 6 | 0 | 0
 el buzón | mailbox | 📬 | Noun | 2026-03-12 | 2026-03-18 | 3 | 0 | 1
 la vitrina | display case |  | Noun | 2026-03-12 | 2026-03-20 | 15 | -3 | 0
-el escaparate | shop window |  | Noun | 2026-03-12 | 2026-03-18 | 6 | 1 | 0
-la papelera | trash can | 🗑️ | Noun | 2026-03-12 | 2026-03-17 | 4 | 2 | 0
+el escaparate | shop window |  | Noun | 2026-03-12 | 2026-03-22 | 7 | 1 | 0
+la papelera | trash can | 🗑️ | Noun | 2026-03-12 | 2026-03-22 | 6 | 4 | 0
 el carrito | cart | 🛒 | Noun | 2026-03-12 | 2026-03-20 | 4 | -1 | 1
 la mochila | backpack | 🎒 | Noun | 2026-03-12 | 2026-03-14 | 8 | 3 | 0
 el uniforme | uniform | 👨‍✈️ | Noun | 2026-03-12 | 2026-03-16 | 6 | 8 | 0
@@ -536,12 +610,12 @@ los mariscos | seafood | 🦐 | Noun | 2026-03-13 | 2026-03-21 | 11 | 16 | 0
 las verduras | vegetables | 🥕 | Noun | 2026-03-13 | 2026-03-17 | 5 | 2 | 0
 la papa | potato | 🥔 | Noun | 2026-03-13 | 2026-03-18 | 4 | 7 | -1
 el tomate | tomato | 🍅 | Noun | 2026-03-13 | 2026-03-19 | 4 | 10 | -1
-la cebolla | onion | 🧅 | Noun | 2026-03-13 | 2026-03-16 | 8 | 8 | 1
+la cebolla | onion | 🧅 | Noun | 2026-03-13 | 2026-03-22 | 9 | 9 | 0
 el ajo | garlic | 🧄 | Noun | 2026-03-13 | 2026-03-16 | 8 | 12 | 0
 el limón | lemon | 🍋 | Noun | 2026-03-13 | 2026-03-19 | 3 | 8 | -1
 la fresa | strawberry | 🍓 | Noun | 2026-03-13 | 2026-03-19 | 7 | 7 | 0
 el postre | dessert | 🍰 | Noun | 2026-03-13 | 2026-03-16 | 1 | 3 | -1
-horneado, o horneada | baked | 🔥 | Adjective | 2026-03-13 | 2026-03-19 | 8 | 2 | 0
+horneado, o horneada | baked | 🔥 | Adjective | 2026-03-13 | 2026-03-22 | 9 | 4 | 0
 frito, o frita | fried | 🍳 | Adjective | 2026-03-13 | 2026-03-21 | 7 | 11 | 0
 asado, o asada | roasted / grilled | 🔥 | Adjective | 2026-03-13 | 2026-03-20 | 7 | 10 | 0
 a la parrilla | grilled | 🔥 | Phrase | 2026-03-13 | 2026-03-19 | 6 | 1 | 0
@@ -554,26 +628,26 @@ crujiente | crunchy |  | Adjective | 2026-03-13 | 2026-03-19 | 5 | 6 | 0
 tierno, o tierna | tender |  | Adjective | 2026-03-13 | 2026-03-19 | 10 | 0 | 0
 la salsa | sauce | 🫗 | Noun | 2026-03-13 | 2026-03-14 | 3 | 7 | -1
 las hierbas | herbs | 🌿 | Noun | 2026-03-13 | 2026-03-18 | 6 | 6 | 0
-el aceite de oliva | olive oil | 🫒 | Noun | 2026-03-13 | 2026-03-17 | 7 | 10 | 0
+el aceite de oliva | olive oil | 🫒 | Noun | 2026-03-13 | 2026-03-22 | 8 | 13 | -1
 la albahaca | basil | 🌿 | Noun | 2026-03-14 | 2026-03-19 | 24 | -4 | 0
 el pepino | cucumber | 🥒 | Noun | 2026-03-14 | 2026-03-18 | 4 | 2 | 0
-la aceituna | olive | 🫒 | Noun | 2026-03-14 | 2026-03-19 | 5 | 8 | 0
+la aceituna | olive | 🫒 | Noun | 2026-03-14 | 2026-03-22 | 6 | 8 | 0
 salteado, o salteada | sautéed | 🍳 | Adjective | 2026-03-14 | 2026-03-20 | 7 | 8 | 0
 el romero | rosemary | 🌿 | Noun | 2026-03-14 | 2026-03-18 | 6 | 5 | 0
 la zanahoria | carrot | 🥕 | Noun | 2026-03-14 | 2026-03-21 | 7 | 9 | 0
-el calabacín | zucchini |  | Noun | 2026-03-14 | 2026-03-20 | 8 | -8 | 1
+el calabacín | zucchini |  | Noun | 2026-03-14 | 2026-03-22 | 9 | -7 | 0
 el champiñón | mushroom | 🍄 | Noun | 2026-03-14 | 2026-03-20 | 4 | 4 | 0
 la tarta | pie / tart | 🥧 | Noun | 2026-03-14 | 2026-03-15 | 4 | 8 | -1
-la canela | cinnamon |  | Noun | 2026-03-14 | 2026-03-19 | 9 | -2 | 0
+la canela | cinnamon |  | Noun | 2026-03-14 | 2026-03-22 | 10 | 0 | 0
 el helado | ice cream | 🍨 | Noun | 2026-03-14 | 2026-03-16 | 3 | 5 | -1
-la vainilla | vanilla |  | Noun | 2026-03-14 | 2026-03-14 | 2 | 2 | 0
+la vainilla | vanilla |  | Noun | 2026-03-14 | 2026-03-22 | 3 | 4 | 0
 cremoso, o cremosa | creamy |  | Adjective | 2026-03-14 | 2026-03-20 | 8 | 5 | 0
 crujiente | crunchy |  | Adjective | 2026-03-14 | 2026-03-20 | 16 | -3 | 0
 fresco, o fresca | fresh | 🥬 | Adjective | 2026-03-14 | 2026-03-19 | 2 | 4 | 0
 ¿puedo ver el menú? | can I see the menu? | 📋 | Phrase | 2026-03-14 | 2026-03-20 | 7 | 8 | 0
 ¿qué recomienda? | what do you recommend? | ⭐ | Phrase | 2026-03-14 | 2026-03-20 | 11 | 5 | -1
 quiero pedir | I want to order | 🍽️ | Phrase | 2026-03-14 | 2026-03-18 | 9 | 7 | 0
-para mí | for me | 🙋 | Phrase | 2026-03-14 | 2026-03-14 | 2 | 4 | 0
+para mí | for me | 🙋 | Phrase | 2026-03-14 | 2026-03-22 | 3 | 3 | 1
 sin sal | without salt | 🧂 | Phrase | 2026-03-14 | 2026-03-19 | 4 | 10 | -1
 sin azúcar | without sugar | 🚫🍬 | Phrase | 2026-03-14 | 2026-03-17 | 4 | 9 | -1
 con hielo | with ice | 🧊 | Phrase | 2026-03-14 | 2026-03-15 | 3 | 2 | 0
@@ -582,9 +656,9 @@ para llevar | to take away / takeaway | 🥡 | Phrase | 2026-03-14 | 2026-03-20 
 ¿puedo pagar con tarjeta? | can I pay with card? | 💳 | Phrase | 2026-03-14 | 2026-03-20 | 4 | 5 | 0
 la almeja | clam | 🦪 | Noun | 2026-03-15 | 2026-03-20 | 31 | -17 | 0
 el mejillón | mussel | 🦪 | Noun | 2026-03-15 | 2026-03-20 | 21 | -3 | 0
-la parrillada | mixed grill | 🔥 | Noun | 2026-03-15 | 2026-03-19 | 19 | -6 | 0
+la parrillada | mixed grill | 🔥 | Noun | 2026-03-15 | 2026-03-22 | 20 | -6 | 0
 la guarnición | side dish | 🍽️ | Noun | 2026-03-15 | 2026-03-18 | 4 | 2 | 0
-la berenjena | eggplant | 🍆 | Noun | 2026-03-15 | 2026-03-21 | 38 | -13 | 0
+la berenjena | eggplant | 🍆 | Noun | 2026-03-15 | 2026-03-22 | 39 | -11 | 0
 el pimiento | bell pepper | 🫑 | Noun | 2026-03-15 | 2026-03-20 | 6 | 8 | 0
 la remolacha | beet |  | Noun | 2026-03-15 | 2026-03-19 | 10 | 1 | 0
 la alcaparra | caper |  | Noun | 2026-03-15 | 2026-03-21 | 13 | 0 | 0
@@ -594,14 +668,14 @@ caramelizado, o caramelizada | caramelized |  | Adjective | 2026-03-15 | 2026-03
 picado, o picada | chopped | 🔪 | Adjective | 2026-03-15 | 2026-03-18 | 9 | 8 | 0
 relleno, o rellena | stuffed | 🥟 | Adjective | 2026-03-15 | 2026-03-19 | 1 | 2 | 0
 la masa | dough | 🥖 | Noun | 2026-03-15 | 2026-03-19 | 2 | 1 | 0
-la corteza | crust |  | Noun | 2026-03-15 | 2026-03-19 | 20 | -3 | 0
+la corteza | crust |  | Noun | 2026-03-15 | 2026-03-22 | 21 | -1 | 0
 el caldo | broth | 🍲 | Noun | 2026-03-15 | 2026-03-19 | 10 | 3 | 0
 reducido, o reducida | reduced (sauce) |  | Adjective | 2026-03-15 | 2026-03-19 | 2 | 2 | 0
 la parrilla | grill | 🔥 | Noun | 2026-03-15 | 2026-03-20 | 12 | 1 | 0
-la sartén | frying pan | 🍳 | Noun | 2026-03-15 | 2026-03-19 | 24 | -8 | 0
-la receta | recipe | 📜 | Noun | 2026-03-15 | 2026-03-21 | 6 | 12 | 0
+la sartén | frying pan | 🍳 | Noun | 2026-03-15 | 2026-03-22 | 25 | -7 | 0
+la receta | recipe | 📜 | Noun | 2026-03-15 | 2026-03-22 | 7 | 15 | -1
 no necesito esforzarme mucho | I don't need to make a big effort |  | Phrase | 2026-03-15 | 2026-03-21 | 9 | 8 | 0
-ayer fui al restaurante | yesterday I went to the restaurant | 🍽️ | Phrase | 2026-03-15 | 2026-03-21 | 4 | 2 | 0
+ayer fui al restaurante | yesterday I went to the restaurant | 🍽️ | Phrase | 2026-03-15 | 2026-03-22 | 6 | 6 | 0
 ayer comí pescado | yesterday I ate fish | 🐟 | Phrase | 2026-03-15 | 2026-03-19 | 4 | 3 | 0
 anoche cené con amigos | last night I had dinner with friends | 🌙 | Phrase | 2026-03-15 | 2026-03-20 | 15 | -4 | 0
 cuando era niño comía aquí | when I was a child I used to eat here | 👦 | Phrase | 2026-03-15 | 2026-03-20 | 11 | 5 | 0
@@ -628,28 +702,28 @@ calentar | to heat | 🔥 | Verb | 2026-03-15 | 2026-03-20 | 15 | -1 | 0
 caminar | to walk | 🚶 | Verb | 2026-03-15 | 2026-03-18 | 1 | 3 | -1
 cancelar | to cancel | ❌ | Verb | 2026-03-15 | 2026-03-18 | 3 | 7 | -1
 cocinar | to cook | 👨‍🍳 | Verb | 2026-03-15 | 2026-03-17 | 4 | 9 | -1
-comprobar | to check / verify | ✔️ | Verb | 2026-03-15 | 2026-03-19 | 9 | -4 | 0
+comprobar | to check / verify | ✔️ | Verb | 2026-03-15 | 2026-03-22 | 11 | 0 | 0
 conducir | to drive | 🚗 | Verb | 2026-03-15 | 2026-03-19 | 7 | 8 | -1
 confiar | to trust |  | Verb | 2026-03-15 | 2026-03-20 | 16 | 3 | 0
 congelar | to freeze | ❄️ | Verb | 2026-03-15 | 2026-03-18 | 6 | 4 | 0
-considerar | to consider |  | Verb | 2026-03-15 | 2026-03-19 | 5 | 8 | 0
-contener | to contain | 📦 | Verb | 2026-03-15 | 2026-03-20 | 5 | 8 | 0
+considerar | to consider |  | Verb | 2026-03-15 | 2026-03-22 | 6 | 10 | 0
+contener | to contain | 📦 | Verb | 2026-03-15 | 2026-03-22 | 6 | 10 | 0
 continuar | to continue (formal or after a break) | ▶️ | Verb | 2026-03-15 | 2026-03-20 | 5 | 6 | 0
 contribuir | to contribute |  | Verb | 2026-03-15 | 2026-03-18 | 3 | 6 | 0
-controlar | to control |  | Verb | 2026-03-15 | 2026-03-21 | 6 | 5 | 0
+controlar | to control |  | Verb | 2026-03-15 | 2026-03-22 | 7 | 7 | 0
 convencer | to convince | 🗣️ | Verb | 2026-03-15 | 2026-03-19 | 8 | 5 | 0
 cortar | to cut | 🔪 | Verb | 2026-03-15 | 2026-03-18 | 4 | 1 | 0
 crear | to create | 🎨 | Verb | 2026-03-15 | 2026-03-18 | 7 | 7 | -1
 cruzar | to cross |  | Verb | 2026-03-15 | 2026-03-20 | 10 | 3 | 0
-cuidar (de) | to take care (of) | ❤️ | Verb | 2026-03-15 | 2026-03-19 | 2 | 4 | 0
+cuidar (de) | to take care (of) | ❤️ | Verb | 2026-03-15 | 2026-03-22 | 3 | 6 | 0
 deber | must / to owe |  | Verb | 2026-03-15 | 2026-03-20 | 7 | 11 | 0
 dejar | to leave / allow |  | Verb | 2026-03-15 | 2026-03-19 | 12 | 0 | 0
 demostrar | to demonstrate | 📊 | Verb | 2026-03-15 | 2026-03-16 | 1 | 2 | 0
 desarrollar | to develop |  | Verb | 2026-03-15 | 2026-03-20 | 8 | 1 | 0
 descubrir | to discover | 🔎 | Verb | 2026-03-15 | 2026-03-20 | 7 | 6 | 0
 desear | to wish / desire |  | Verb | 2026-03-15 | 2026-03-20 | 3 | 5 | 0
-detener | to stop / detain | ✋ | Verb | 2026-03-15 | 2026-03-19 | 2 | 4 | 0
-discutir | to discuss / argue | 💬 | Verb | 2026-03-15 | 2026-03-20 | 8 | 10 | 0
+detener | to stop / detain | ✋ | Verb | 2026-03-15 | 2026-03-22 | 3 | 6 | 0
+discutir | to discuss / argue | 💬 | Verb | 2026-03-15 | 2026-03-22 | 9 | 11 | 0
 dividir | to divide | ➗ | Verb | 2026-03-15 | 2026-03-19 | 7 | 13 | -1
 la vinagreta | vinaigrette dressing |  | Noun | 2026-03-15 | 2026-03-21 | 8 | 11 | -1
 guisar | to stew / braise |  | Verb | 2026-03-15 | 2026-03-20 | 10 | -5 | 0
@@ -658,156 +732,156 @@ las gafas de sol | sunglasses | 🕶️ | Noun | 2026-03-16 | 2026-03-18 | 5 | 1
 el suéter | sweater |  | Noun | 2026-03-16 | 2026-03-20 | 2 | 1 | 0
 los pantalones | pants | 👖 | Noun | 2026-03-16 | 2026-03-17 | 3 | 7 | -1
 los calcetines | socks | 🧦 | Noun | 2026-03-16 | 2026-03-20 | 7 | 0 | 0
-la taza | mug | ☕ | Noun | 2026-03-16 | 2026-03-19 | 4 | 6 | 0
-el vaso | drinking glass | 🥛 | Noun | 2026-03-16 | 2026-03-18 | 2 | 3 | 0
-el tenedor | fork | 🍴 | Noun | 2026-03-16 | 2026-03-19 | 4 | 8 | 0
-la cuchara | spoon | 🥄 | Noun | 2026-03-16 | 2026-03-18 | 2 | 0 | 0
+la taza | mug | ☕ | Noun | 2026-03-16 | 2026-03-22 | 6 | 10 | 0
+el vaso | drinking glass | 🥛 | Noun | 2026-03-16 | 2026-03-22 | 3 | 5 | 0
+el tenedor | fork | 🍴 | Noun | 2026-03-16 | 2026-03-22 | 6 | 13 | -1
+la cuchara | spoon | 🥄 | Noun | 2026-03-16 | 2026-03-22 | 3 | 0 | 0
 el cuchillo | knife | 🔪 | Noun | 2026-03-16 | 2026-03-19 | 10 | 2 | 0
 el monitor | monitor | 🖥️ | Noun | 2026-03-16 | 2026-03-18 | 2 | 5 | -1
 los auriculares | headphones | 🎧 | Noun | 2026-03-16 | 2026-03-21 | 7 | 1 | 0
 el escritorio | desk |  | Noun | 2026-03-16 | 2026-03-19 | 2 | 4 | 0
 el ratón | computer mouse | 🖱️ | Noun | 2026-03-16 | 2026-03-18 | 5 | 7 | -1
 el sótano | basement |  | Noun | 2026-03-16 | 2026-03-19 | 9 | 0 | 0
-el cordón | shoelace |  | Noun | 2026-03-16 | 2026-03-17 | 9 | -1 | 0
-la bota | boot | 👢 | Noun | 2026-03-16 | 2026-03-19 | 2 | 1 | 0
-las manoplas | mittens | 🧤 | Noun | 2026-03-16 | 2026-03-20 | 8 | 3 | 0
+el cordón | shoelace |  | Noun | 2026-03-16 | 2026-03-22 | 10 | 0 | 0
+la bota | boot | 👢 | Noun | 2026-03-16 | 2026-03-22 | 3 | 3 | 0
+las manoplas | mittens | 🧤 | Noun | 2026-03-16 | 2026-03-22 | 9 | 4 | 0
 los guantes | gloves |  | Noun | 2026-03-16 | 2026-03-19 | 8 | 1 | 0
-la bufanda | scarf | 🧣 | Noun | 2026-03-16 | 2026-03-20 | 8 | 4 | 0
-la lechuga | lettuce | 🥬 | Noun | 2026-03-16 | 2026-03-20 | 3 | 1 | 0
-al parecer | apparently |  | Phrase | 2026-03-16 | 2026-03-19 | 7 | 1 | 0
-nunca lo he usado | I have never used it |  | Phrase | 2026-03-16 | 2026-03-18 | 3 | 2 | 0
-yo hablé | I spoke / I talked (preterit) |  | Verb | 2026-03-16 | 2026-03-20 | 5 | 2 | 1
+la bufanda | scarf | 🧣 | Noun | 2026-03-16 | 2026-03-22 | 9 | 6 | 0
+la lechuga | lettuce | 🥬 | Noun | 2026-03-16 | 2026-03-22 | 7 | 10 | -1
+al parecer | apparently |  | Phrase | 2026-03-16 | 2026-03-22 | 8 | 2 | 0
+nunca lo he usado | I have never used it |  | Phrase | 2026-03-16 | 2026-03-22 | 4 | 4 | 0
+yo hablé | I spoke / I talked (preterit) |  | Verb | 2026-03-16 | 2026-03-22 | 7 | 2 | 0
 tú hablaste | you spoke / you talked (preterit) |  | Verb | 2026-03-16 | 2026-03-16 | 0 | 0 | 1
-yo comí | I ate (preterit) |  | Verb | 2026-03-16 | 2026-03-21 | 5 | 4 | 0
+yo comí | I ate (preterit) |  | Verb | 2026-03-16 | 2026-03-22 | 7 | 8 | 0
 tú comiste | you ate (preterit) |  | Verb | 2026-03-16 | 2026-03-19 | 8 | 1 | 0
-yo viví | I lived (preterit) |  | Verb | 2026-03-16 | 2026-03-21 | 2 | 4 | 0
-tú viviste | you lived (preterit) |  | Verb | 2026-03-16 | 2026-03-19 | 4 | 0 | 0
-yo hablaba | I was speaking / I used to speak (imperfect) |  | Verb | 2026-03-16 | 2026-03-20 | 7 | 2 | 0
-tú hablabas | you were speaking / you used to speak (imperfect) |  | Verb | 2026-03-16 | 2026-03-21 | 5 | 2 | 0
-yo comía | I was eating / I used to eat (imperfect) |  | Verb | 2026-03-16 | 2026-03-19 | 14 | -3 | 0
+yo viví | I lived (preterit) |  | Verb | 2026-03-16 | 2026-03-22 | 4 | 6 | 0
+tú viviste | you lived (preterit) |  | Verb | 2026-03-16 | 2026-03-22 | 5 | 1 | 0
+yo hablaba | I was speaking / I used to speak (imperfect) |  | Verb | 2026-03-16 | 2026-03-22 | 9 | 6 | 0
+tú hablabas | you were speaking / you used to speak (imperfect) |  | Verb | 2026-03-16 | 2026-03-22 | 6 | 4 | 0
+yo comía | I was eating / I used to eat (imperfect) |  | Verb | 2026-03-16 | 2026-03-22 | 15 | -2 | 0
 tú comías | you were eating / you used to eat (imperfect) |  | Verb | 2026-03-16 | 2026-03-19 | 7 | 0 | 0
 yo vivía | I was living / I used to live (imperfect) |  | Verb | 2026-03-16 | 2026-03-20 | 10 | 8 | 0
 tú vivías | you were living / you used to live (imperfect) |  | Verb | 2026-03-16 | 2026-03-20 | 12 | 0 | 0
-yo fui | I went (preterit) |  | Verb | 2026-03-16 | 2026-03-19 | 12 | 1 | 0
+yo fui | I went (preterit) |  | Verb | 2026-03-16 | 2026-03-22 | 13 | 3 | 0
 tú fuiste | you went (preterit) |  | Verb | 2026-03-16 | 2026-03-21 | 8 | 2 | 0
 yo tuve | I had (preterit) |  | Verb | 2026-03-16 | 2026-03-19 | 4 | 4 | 0
 tú tuviste | you had (preterit) |  | Verb | 2026-03-16 | 2026-03-20 | 4 | 3 | 0
-yo hice | I did / I made (preterit) |  | Verb | 2026-03-16 | 2026-03-19 | 5 | -1 | 0
+yo hice | I did / I made (preterit) |  | Verb | 2026-03-16 | 2026-03-22 | 6 | 0 | 0
 tú hiciste | you did / you made (preterit) |  | Verb | 2026-03-16 | 2026-03-20 | 8 | 3 | 0
-yo dije | I said (preterit) |  | Verb | 2026-03-16 | 2026-03-19 | 4 | 1 | 0
+yo dije | I said (preterit) |  | Verb | 2026-03-16 | 2026-03-22 | 6 | 4 | 0
 tú dijiste | you said (preterit) |  | Verb | 2026-03-16 | 2026-03-19 | 11 | 2 | 0
-yo pude | I was able / I managed (preterit) |  | Verb | 2026-03-16 | 2026-03-19 | 7 | 4 | 0
-tú pudiste | you were able / you managed (preterit) |  | Verb | 2026-03-16 | 2026-03-20 | 10 | 1 | 0
-yo puse | I put (preterit) |  | Verb | 2026-03-16 | 2026-03-19 | 4 | 0 | 0
+yo pude | I was able / I managed (preterit) |  | Verb | 2026-03-16 | 2026-03-22 | 9 | 8 | 0
+tú pudiste | you were able / you managed (preterit) |  | Verb | 2026-03-16 | 2026-03-22 | 11 | 3 | 0
+yo puse | I put (preterit) |  | Verb | 2026-03-16 | 2026-03-22 | 5 | 2 | 0
 tú pusiste | you put (preterit) |  | Verb | 2026-03-16 | 2026-03-20 | 5 | 5 | 0
 yo estuve | I was (preterit, temporary) |  | Verb | 2026-03-16 | 2026-03-21 | 8 | 0 | 0
 tú estuviste | you were (preterit, temporary) |  | Verb | 2026-03-16 | 2026-03-20 | 6 | 1 | 0
 yo vi | I saw (preterit) |  | Verb | 2026-03-16 | 2026-03-20 | 6 | 5 | 0
-tú viste | you saw (preterit) |  | Verb | 2026-03-16 | 2026-03-17 | 4 | 0 | 0
+tú viste | you saw (preterit) |  | Verb | 2026-03-16 | 2026-03-22 | 5 | 0 | 0
 yo era | I was / I used to be (imperfect, temporary) |  | Verb | 2026-03-16 | 2026-03-20 | 9 | -1 | 0
-tú eras | you were / you used to be (imperfect, temporary) |  | Verb | 2026-03-16 | 2026-03-20 | 7 | -4 | 1
-yo iba | I was going / I used to go (imperfect) |  | Verb | 2026-03-16 | 2026-03-19 | 14 | -2 | 0
+tú eras | you were / you used to be (imperfect, temporary) |  | Verb | 2026-03-16 | 2026-03-22 | 9 | -2 | 0
+yo iba | I was going / I used to go (imperfect) |  | Verb | 2026-03-16 | 2026-03-22 | 15 | -1 | 0
 tú ibas | you were going / you used to go (imperfect) |  | Verb | 2026-03-16 | 2026-03-19 | 4 | 1 | 0
-yo veía | I was seeing / I used to see (imperfect) |  | Verb | 2026-03-16 | 2026-03-16 | 0 | 0 | 1
+yo veía | I was seeing / I used to see (imperfect) |  | Verb | 2026-03-16 | 2026-03-22 | 2 | 3 | 0
 tú veías | you were seeing / you used to see (imperfect) |  | Verb | 2026-03-16 | 2026-03-20 | 10 | -1 | 0
-lograr | to achieve |  | Verb | 2026-03-17 | 2026-03-20 | 5 | 6 | 0
-evitar | to avoid |  | Verb | 2026-03-17 | 2026-03-21 | 5 | 4 | 0
+lograr | to achieve |  | Verb | 2026-03-17 | 2026-03-22 | 7 | 10 | 0
+evitar | to avoid |  | Verb | 2026-03-17 | 2026-03-22 | 6 | 6 | 0
 incluir | to include |  | Verb | 2026-03-17 | 2026-03-20 | 4 | 9 | -1
 mantener | to maintain |  | Verb | 2026-03-17 | 2026-03-21 | 2 | 4 | 0
 recordar | to remember |  | Verb | 2026-03-17 | 2026-03-19 | 4 | 9 | -1
-olvidar | to forget |  | Verb | 2026-03-17 | 2026-03-20 | 1 | 2 | 0
+olvidar | to forget |  | Verb | 2026-03-17 | 2026-03-22 | 3 | 6 | 0
 así | like this / thus |  | Miscellaneous | 2026-03-17 | 2026-03-20 | 8 | 4 | 0
-al menos | at least |  | Phrase | 2026-03-17 | 2026-03-19 | 1 | 1 | 0
+al menos | at least |  | Phrase | 2026-03-17 | 2026-03-22 | 2 | 1 | 0
 en realidad | actually / in reality |  | Phrase | 2026-03-17 | 2026-03-19 | 2 | 4 | 0
 de hecho | in fact |  | Phrase | 2026-03-17 | 2026-03-20 | 7 | 1 | 0
 porque de hecho | because in fact |  | Phrase | 2026-03-17 | 2026-03-19 | 7 | 2 | 0
 ya que | since / because |  | Phrase | 2026-03-17 | 2026-03-19 | 5 | 0 | 0
 por lo tanto | therefore |  | Phrase | 2026-03-17 | 2026-03-19 | 8 | -1 | 0
-la razón | reason |  | Noun | 2026-03-17 | 2026-03-19 | 3 | 5 | 0
-el resultado | result |  | Noun | 2026-03-17 | 2026-03-20 | 2 | 3 | 0
-el cambio | change |  | Noun | 2026-03-17 | 2026-03-20 | 2 | 0 | 0
+la razón | reason |  | Noun | 2026-03-17 | 2026-03-22 | 5 | 8 | 0
+el resultado | result |  | Noun | 2026-03-17 | 2026-03-22 | 3 | 3 | 0
+el cambio | change |  | Noun | 2026-03-17 | 2026-03-22 | 3 | 1 | 0
 la diferencia | difference |  | Noun | 2026-03-17 | 2026-03-20 | 6 | 12 | 0
 la experiencia | experience |  | Noun | 2026-03-17 | 2026-03-18 | 2 | 5 | -1
-mismo, o misma | same |  | Adjective | 2026-03-17 | 2026-03-19 | 5 | 9 | 0
-capaz | capable |  | Adjective | 2026-03-17 | 2026-03-18 | 1 | 0 | 0
-suficiente | enough / sufficient |  | Adjective | 2026-03-17 | 2026-03-20 | 4 | 8 | 0
-demasiado, o demasiada | too much / too many |  | Adverb | 2026-03-17 | 2026-03-17 | 0 | 0 | 1
+mismo, o misma | same |  | Adjective | 2026-03-17 | 2026-03-22 | 6 | 11 | 0
+capaz | capable |  | Adjective | 2026-03-17 | 2026-03-22 | 2 | 2 | 0
+suficiente | enough / sufficient |  | Adjective | 2026-03-17 | 2026-03-22 | 5 | 10 | 0
+demasiado, o demasiada | too much / too many |  | Adverb | 2026-03-17 | 2026-03-22 | 2 | 5 | -1
 casi | almost |  | Adverb | 2026-03-17 | 2026-03-19 | 3 | 6 | -1
 al mismo tiempo | at the same time |  | Phrase | 2026-03-17 | 2026-03-19 | 1 | 2 | 0
-por ejemplo | for example |  | Phrase | 2026-03-17 | 2026-03-20 | 3 | 6 | 0
-es decir | that is to say |  | Phrase | 2026-03-17 | 2026-03-21 | 5 | 2 | 0
+por ejemplo | for example |  | Phrase | 2026-03-17 | 2026-03-22 | 4 | 8 | 0
+es decir | that is to say |  | Phrase | 2026-03-17 | 2026-03-22 | 6 | 2 | 0
 en general | in general |  | Phrase | 2026-03-17 | 2026-03-19 | 1 | 3 | -1
-ayer | yesterday |  | Adverb | 2026-03-19 | 2026-03-20 | 4 | 8 | 0
+ayer | yesterday |  | Adverb | 2026-03-19 | 2026-03-22 | 5 | 11 | -1
 anoche | last night |  | Adverb | 2026-03-19 | 2026-03-19 | 1 | 3 | -1
 una vez | once / one time |  | Adverb | 2026-03-19 | 2026-03-19 | 2 | 5 | -1
 de repente | suddenly |  | Adverb | 2026-03-19 | 2026-03-21 | 4 | 3 | 0
-cuando era niño | when I was a child |  | Phrase | 2026-03-19 | 2026-03-19 | 1 | 2 | 0
+cuando era niño | when I was a child |  | Phrase | 2026-03-19 | 2026-03-22 | 2 | 4 | 0
 siempre | always |  | Adverb | 2026-03-19 | 2026-03-19 | 1 | 3 | -1
-a menudo | often |  | Adverb | 2026-03-19 | 2026-03-19 | 0 | 0 | 1
+a menudo | often |  | Adverb | 2026-03-19 | 2026-03-22 | 1 | -1 | 1
 antes | before |  | Adverb | 2026-03-19 | 2026-03-19 | 1 | 2 | 0
 por cierto | by the way |  | Phrase | 2026-03-20 | 2026-03-21 | 1 | 0 | 0
 es que | it's just that / the thing is |  | Phrase | 2026-03-20 | 2026-03-21 | 1 | 0 | 0
 lo que pasa es que | what happens is / the thing is |  | Phrase | 2026-03-20 | 2026-03-20 | 1 | 2 | 0
-a propósito | by the way / speaking of that |  | Phrase | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
+a propósito | by the way / speaking of that |  | Phrase | 2026-03-20 | 2026-03-22 | 2 | -2 | 1
 a ver (qué/si)... | let's see (what/if)... |  | Phrase | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
-con razón... | no wonder... |  | Phrase | 2026-03-20 | 2026-03-21 | 2 | 2 | 0
-por eso... | that's why / for that reason |  | Phrase | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
-en fin... | anyway / in the end |  | Phrase | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
+con razón... | no wonder... |  | Phrase | 2026-03-20 | 2026-03-22 | 3 | 1 | 1
+por eso... | that's why / for that reason |  | Phrase | 2026-03-20 | 2026-03-22 | 2 | 4 | 0
+en fin... | anyway / in the end |  | Phrase | 2026-03-20 | 2026-03-22 | 1 | 1 | 0
 total que | so anyway / long story short |  | Phrase | 2026-03-20 | 2026-03-20 | 1 | -1 | 1
 resulta (que) | it turns out (that) |  | Phrase | 2026-03-20 | 2026-03-21 | 1 | 0 | 0
-fíjate (que) | look / you see |  | Phrase | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
+fíjate (que) | look / you see |  | Phrase | 2026-03-20 | 2026-03-22 | 2 | -2 | 1
 menos mal (que) | it's a good thing (that) |  | Phrase | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
 la verdad es (que) | the truth is (that) |  | Phrase | 2026-03-20 | 2026-03-20 | 1 | 2 | 0
 lo bueno es (que) | the good thing is (that) |  | Phrase | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
 lo malo es (que) | the bad thing is (that) |  | Phrase | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
-lo único es (que) | the only thing is (that) |  | Phrase | 2026-03-20 | 2026-03-20 | 1 | 0 | 0
-lo difícil es (que) | the hard thing is (that) |  | Phrase | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
+lo único es (que) | the only thing is (that) |  | Phrase | 2026-03-20 | 2026-03-22 | 2 | 2 | 0
+lo difícil es (que) | the hard thing is (that) |  | Phrase | 2026-03-20 | 2026-03-22 | 1 | 2 | 0
 lo peor es (que) | the worst thing is (that) |  | Phrase | 2026-03-20 | 2026-03-21 | 2 | 4 | 0
-lo mejor es (que) | the best thing is (that) |  | Phrase | 2026-03-20 | 2026-03-21 | 1 | 2 | 0
+lo mejor es (que) | the best thing is (that) |  | Phrase | 2026-03-20 | 2026-03-22 | 3 | 6 | 0
 lo raro es (que) / lo extraño es (que) | the strange thing is (that) |  | Phrase | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
-lo chistoso es (que) | the funny thing is (that) |  | Phrase | 2026-03-20 | 2026-03-20 | 1 | 0 | 0
+lo chistoso es (que) | the funny thing is (that) |  | Phrase | 2026-03-20 | 2026-03-22 | 2 | 0 | 0
 lo increíble es (que) | the incredible thing is (that) |  | Phrase | 2026-03-20 | 2026-03-20 | 1 | 2 | 0
 lo (más) absurdo es (que) | the absurd thing is (that) |  | Phrase | 2026-03-20 | 2026-03-20 | 1 | 0 | 0
-pues | well / so |  | Phrase | 2026-03-20 | 2026-03-20 | 1 | 2 | 0
+pues… | well… / so… |  | Phrase | 2026-03-20 | 2026-03-22 | 2 | 3 | 0
 claro (que sí) / ¿cómo no? | of course (it is) |  | Phrase | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
-está bien | okay / alright |  | Phrase | 2026-03-20 | 2026-03-20 | 1 | 0 | 0
+está bien | okay / alright |  | Phrase | 2026-03-20 | 2026-03-22 | 2 | 2 | 0
 conste | just so you know / I'll hold you to that |  | Phrase | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
 (buen) provecho | enjoy your meal |  | Phrase | 2026-03-20 | 2026-03-20 | 1 | 1 | 0
-de acuerdo / hecho | agreed / it's a deal |  | Phrase | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
+de acuerdo / hecho | agreed / it's a deal |  | Phrase | 2026-03-20 | 2026-03-22 | 1 | 0 | 0
 ¿verdad? | right? / isn't that true? |  | Phrase | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
 no me importa | I don't care / it doesn't matter to me |  | Phrase | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
 ¿y qué? o ¿y eso qué? | so what? |  | Phrase | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
 ¿y a mí qué? | what's it to me? |  | Phrase | 2026-03-20 | 2026-03-20 | 1 | 0 | 0
 ¿y? | so? |  | Phrase | 2026-03-20 | 2026-03-20 | 1 | 2 | 0
-o sea | I mean / in other words |  | Phrase | 2026-03-20 | 2026-03-20 | 2 | -2 | 1
-ni hablar | no way / forget it / oh well |  | Phrase | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
-cuando sea | whenever |  | Phrase | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
+o sea | I mean / in other words |  | Phrase | 2026-03-20 | 2026-03-22 | 4 | -3 | 0
+ni hablar | no way / forget it / oh well |  | Phrase | 2026-03-20 | 2026-03-22 | 2 | -2 | 1
+cuando sea | whenever |  | Phrase | 2026-03-20 | 2026-03-22 | 2 | 0 | 0
 como sea | however / anyway |  | Phrase | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
 donde sea | wherever |  | Phrase | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
-quien sea | whoever |  | Phrase | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
+quien sea | whoever |  | Phrase | 2026-03-20 | 2026-03-22 | 1 | 2 | 0
 principalmente | mainly |  | Adverb | 2026-03-20 | 2026-03-21 | 2 | -1 | 0
-especialmente | especially |  | Adverb | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
+especialmente | especially |  | Adverb | 2026-03-20 | 2026-03-22 | 1 | 2 | 0
 probablemente | probably |  | Adverb | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
 realmente | really / actually |  | Adverb | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
 simplemente | simply |  | Adverb | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
 finalmente | finally |  | Adverb | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
 actualmente | currently |  | Adverb | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
 recientemente | recently |  | Adverb | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
-posible | possible |  | Adjective | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
+posible | possible |  | Adjective | 2026-03-20 | 2026-03-22 | 1 | 3 | -1
 probable | probable / likely |  | Adjective | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
-difícil | difficult |  | Adjective | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
-fácil | easy |  | Adjective | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
-común | common |  | Adjective | 2026-03-20 | 2026-03-20 | 1 | 2 | 0
-especial | special |  | Adjective | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
+difícil | difficult |  | Adjective | 2026-03-20 | 2026-03-22 | 1 | 2 | 0
+fácil | easy |  | Adjective | 2026-03-20 | 2026-03-22 | 1 | 2 | 0
+común | common |  | Adjective | 2026-03-20 | 2026-03-22 | 2 | 4 | 0
+especial | special |  | Adjective | 2026-03-20 | 2026-03-22 | 1 | 2 | 0
 el éxito | success |  | Noun | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
-el fracaso | failure |  | Noun | 2026-03-20 | 2026-03-21 | 1 | -1 | 1
-la decisión | decision |  | Noun | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
+el fracaso | failure |  | Noun | 2026-03-20 | 2026-03-22 | 3 | -1 | 0
+la decisión | decision |  | Noun | 2026-03-20 | 2026-03-22 | 1 | 2 | 0
 la elección | choice |  | Noun | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
-el comportamiento | behavior |  | Noun | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
-superar | to overcome |  | Verb | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
+el comportamiento | behavior |  | Noun | 2026-03-20 | 2026-03-22 | 1 | 0 | 0
+superar | to overcome |  | Verb | 2026-03-20 | 2026-03-22 | 1 | 0 | 0
 cumplir | to fulfill / accomplish |  | Verb | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
 ocupar | to occupy / take up |  | Verb | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
 funcionar | to function / work |  | Verb | 2026-03-20 | 2026-03-21 | 1 | 2 | 0
-tratar (de) | to try (to) |  | Verb | 2026-03-20 | 2026-03-20 | 0 | 0 | 1
+tratar (de) | to try (to) |  | Verb | 2026-03-20 | 2026-03-22 | 2 | 2 | 0
 depender (de) | to depend (on) |  | Verb | 2026-03-20 | 2026-03-20 | 1 | 0 | 0
 pertenecer (a) | to belong (to) |  | Verb | 2026-03-20 | 2026-03-20 | 0 | 0 | 1

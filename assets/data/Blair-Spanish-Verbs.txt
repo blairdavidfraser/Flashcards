@@ -1,4 +1,62 @@
-#front|back|emoji|category|added|lastSeen|seen|penalty|level
+# front | back | emoji | category | added | lastSeen | seen | penalty | level
+# 
+# front :: string, non-empty
+#   - Gives the foreign translation of the text. 
+#   - When generating new cards, if using a sentance, then capitalize and punctuate correctly.
+#
+# back :: string, non-empty
+#   - Gives the native translation of the text (English). 
+#   - When generating new cards, if using a sentance, then capitalize and punctuate correctly.
+#
+# emoji :: string, or empty.
+#   - When available, represents a visual cue to aid in memorization.
+#   - When generating new cards, only use emoji when for single word translation cards when there is a strong match.
+#   - When generating new cards, never use an emoji if the card is a sentance or phrase.
+# 
+# category :: string, non-empty, use verb tense names (e.g. Present, Imperfect, Preterit, ...).
+#   - When generating new cards, capitalize the first character of each word in category.
+#
+# added :: date in YYYY-MM-DD form, or empty.
+#   - When generating new cards, use the current local date for added.
+#
+# lastSeen :: date in YYYY-MM-DD form, or empty.
+#   - When generating new cards, leave lastSeen empty.
+#
+# seen :: date in YYYY-MM-DD form, or empty.
+#   - When generating new cards, use 1970-01-01 for seen.
+#
+# penalty :: integer
+#   - Represents a score, that gets higher when the user ranks the card hard.
+#   - Increases as the card is shown repeatedly.
+#   - Increases faster if the card is ranked hard on each presentation.
+#   - When generating new cards, leave penalty blank.
+#
+# level :: integer of (-1, 0, 1)
+#   - Another representation of how hard a card is judged to me.
+#   - A level of -1 means the user finds the card too easy, and only wants it presented when studying the 'review' set.
+#   - A level of 0 means the user finds the card normally difficult, and wants it presented in the 'learning' sets.
+#   - A level of 1 means the user finds the card very hard, and only wants it prested when studying the 'hard' set. 
+#   - When generating new cards, populate level as 1.
+#
+# Content :: Verb study
+#   - This file is for learning conjugations of verbs in various tenses.
+#   - It contains two types of cards: full congugation cards for a given verb and tense, and sentance cards.
+#   - Sentance cards should prioritize a variety of sentance structures with different nouns, verbs, and other words.
+#   - The primary goal of this study is to learn verb conjugations, but the secondary goal is to reinforce vocabulary.
+#   - Choose these additional words from the users known vocabulary or occasionaly new words at a similar level.
+#   - Prefer sentance structure that is natural in Spanish.
+#   - Prefer sentances that are useful and someone may actually use.
+#
+# Convention :: for a verb full congugation card
+#   - The foreign is all forms of the verb in a table like "[yo soy, ns. somos; tú eres, vs. sois; él es, ellos son]"
+#   - The characters '[' and ']' denote the table start and end. 
+#   - Comma separates the cells in a table row.
+#   - Semicolon separates the rows in a table.
+#
+# *** If you notice a bug or error in these translations, always call them out ***
+#
+
+# >>> Present Tense
 [yo soy, ns. somos; tú eres, vs. sois; él es, ellos son] | Conjugations of 'ser' | | Present | | | | | 1
 [yo estoy, ns. estamos; tú estás, vs. estáis; él está, ellos están] | Conjugations of 'estar' | | Present | | | | | 1
 [yo hago, ns. hacemos; tú haces, vs. hacéis; él hace, ellos hacen] | Conjugations of 'hacer' | | Present | | | | | 1
@@ -77,6 +135,36 @@ Quieres salir aunque estás cansado | You want to go out even though you’re ti
 Lucía quiere aprender español rápidamente | Lucía wants to learn Spanish quickly | | Present | | | | | 1
 Queremos viajar este verano si podemos | We want to travel this summer if we can | | Present | | | | | 1
 Ellos quieren cambiar de trabajo pronto | They want to change jobs soon | | Present | | | | | 1
+
+# >>> Present Continuous Tense
+Estoy comiendo en el restaurante ahora | I am eating at the restaurant now | | Present Continuous | 2026-03-23 | | 1970-01-01 | | 1
+Estás trabajando en la oficina hoy | You are working in the office today | | Present Continuous | 2026-03-23 | | 1970-01-01 | | 1
+Él está preparando la comida | He is preparing the food | | Present Continuous | 2026-03-23 | | 1970-01-01 | | 1
+Ana está estudiando español esta tarde | Ana is studying Spanish this afternoon | | Present Continuous | 2026-03-23 | | 1970-01-01 | | 1
+Estamos viendo una película interesante | We are watching an interesting movie | | Present Continuous | 2026-03-23 | | 1970-01-01 | | 1
+Ellos están abriendo el restaurante ahora | They are opening the restaurant now | | Present Continuous | 2026-03-23 | | 1970-01-01 | | 1
+Estoy escribiendo un mensaje importante | I am writing an important message | | Present Continuous | 2026-03-23 | | 1970-01-01 | | 1
+Estás aprendiendo mucho en este curso | You are learning a lot in this course | | Present Continuous | 2026-03-23 | | 1970-01-01 | | 1
+Estamos haciendo ejercicio en el parque | We are doing exercise in the park | | Present Continuous | 2026-03-23 | | 1970-01-01 | | 1
+Ellas están compartiendo la comida | They are sharing the food | | Present Continuous | 2026-03-23 | | 1970-01-01 | | 1
+
+# >>> Immediate Future Tense
+Voy a comer en el restaurante esta noche | I am going to eat at the restaurant tonight | | Immediate Future | 2026-03-23 | | 1970-01-01 | | 1
+Vas a trabajar mañana por la mañana | You are going to work tomorrow morning | | Immediate Future | 2026-03-23 | | 1970-01-01 | | 1
+Él va a comprar comida en el mercado | He is going to buy food at the market | | Immediate Future | 2026-03-23 | | 1970-01-01 | | 1
+Ana va a preparar la cena para su familia | Ana is going to prepare dinner for her family | | Immediate Future | 2026-03-23 | | 1970-01-01 | | 1
+Vamos a viajar a otra ciudad este fin de semana | We are going to travel to another city this weekend | | Immediate Future | 2026-03-23 | | 1970-01-01 | | 1
+Ellos van a estudiar español esta noche | They are going to study Spanish tonight | | Immediate Future | 2026-03-23 | | 1970-01-01 | | 1
+Voy a ver una película interesante hoy | I am going to watch an interesting movie today | | Immediate Future | 2026-03-23 | | 1970-01-01 | | 1
+Vas a escribir un mensaje al cliente | You are going to write a message to the client | | Immediate Future | 2026-03-23 | | 1970-01-01 | | 1
+María va a abrir el restaurante temprano | María is going to open the restaurant early | | Immediate Future | 2026-03-23 | | 1970-01-01 | | 1
+Vamos a hacer ejercicio en el parque | We are going to exercise in the park | | Immediate Future | 2026-03-23 | | 1970-01-01 | | 1
+Voy a comer contigo, pero estoy trabajando ahora | I am going to eat with you, but I am working now | | Immediate Future | 2026-03-23 | | 1970-01-01 | | 1
+Vamos a salir esta noche, pero estamos estudiando ahora | We are going to go out tonight, but we are studying now | | Immediate Future | 2026-03-23 | | 1970-01-01 | | 1
+Ella va a preparar la cena, pero está hablando por teléfono ahora | She is going to prepare dinner, but she is talking on the phone now | | Immediate Future | 2026-03-23 | | 1970-01-01 | | 1
+Voy a ver una película después, pero estoy escribiendo un correo ahora | I am going to watch a movie later, but I am writing an email now | | Immediate Future | 2026-03-23 | | 1970-01-01 | | 1
+
+# >>> Preterit Past Tense
 [yo fui, ns. fuimos; tú fuiste, vs. fuisteis; él fue, ellos fueron] | Conjugations of ser | | Preterit | | | | | 1
 [yo fui, ns. fuimos; tú fuiste, vs. fuisteis; él fue, ellos fueron] | Conjugations of ir | | Preterit | | | | | 1
 [yo tuve, ns. tuvimos; tú tuviste, vs. tuvisteis; él tuvo, ellos tuvieron] | Conjugations of tener | | Preterit | | | | | 1
@@ -130,6 +218,8 @@ Fue al trabajo temprano | He went to work early |  | Preterit | 2026-03-22 | 202
 Ana fue a la escuela ayer | Ana went to school yesterday |  | Preterit | 2026-03-22 | 2026-03-22 | 1 | 2 | 0
 Fuimos al cine juntos | We went to the cinema together |  | Preterit | 2026-03-22 | 2026-03-23 | 1 | 1 | 0
 Fueron al restaurante | They went to the restaurant |  | Preterit | 2026-03-22 | 2026-03-23 | 2 | 1 | 0
+
+# >>> Imperfect Past Tense
 [yo era, ns. éramos; tú eras, vs. erais; él era, ellos eran] | Conjugations of 'ser' | | Imperfect | | | | | 1
 [yo iba, ns. íbamos; tú ibas, vs. ibais; él iba, ellos iban] | Conjugations of 'ir' | | Imperfect | | | | | 1
 [yo veía, ns. veíamos; tú veías, vs. veíais; él veía, ellos veían] | Conjugations of 'ver' | | Imperfect | | | | | 1
