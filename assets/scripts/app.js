@@ -7,6 +7,7 @@
 //=============================================================================
 class Card {
     constructor(data) {
+        this.type = "Card";
         this.front = data.front.trim();
         this.back = data.back.trim();
         this.emoji = data.emoji.trim() || "";
@@ -462,7 +463,7 @@ function saveGameDataset() {
 
         if (trimmedLine.startsWith("#") || !trimmedLine) {
             // Comment or empty line - preserve as-is
-            cards.push({ isComment: true, value: trimmedLine });
+            cards.push({ isComment: true, type: "Comment", value: trimmedLine });
             continue;
         }
 
