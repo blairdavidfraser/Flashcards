@@ -403,6 +403,7 @@ function showCardEdit() {
     document.getElementById("editBack").value = game.state.card.back
     document.getElementById("editEmoji").value = game.state.card.emoji || ""
     document.getElementById("editCategory").value = game.state.card.category || ""
+    document.getElementById("editComment").value = game.state.card.comment || ""
 }
 
 function saveCardEdit() {
@@ -410,6 +411,7 @@ function saveCardEdit() {
     game.state.card.back = document.getElementById("editBack").value.trim()
     game.state.card.emoji = document.getElementById("editEmoji").value.trim()
     game.state.card.category = document.getElementById("editCategory").value.trim()
+    game.state.card.comment = document.getElementById("editComment").value.trim()
 
     Persistence.saveDatasetTo(game.name, game.language, game.dataset)
 
