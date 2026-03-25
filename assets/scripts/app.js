@@ -427,6 +427,7 @@ function editGameDataset(name, language) {
     let items = persistence.loadDataset(); // This now returns mixed objects
 
     let lines = [];
+    /*
     items.forEach(item => {
         if (item.isComment) {
             lines.push(item.value);
@@ -446,6 +447,7 @@ function editGameDataset(name, language) {
             ].join(" | "));
         }
     });
+    */
 
     document.getElementById("gameMenu").style.display = "none";
     document.getElementById("editArea").style.display = "block";
@@ -462,7 +464,7 @@ function saveGameDataset() {
         let trimmedLine = line.trim();
 
         if (trimmedLine.startsWith("#") || !trimmedLine) {
-            cards.push({ isComment: true, type: "Comment", value: trimmedLine });
+            cards.push({ type: "Comment", value: trimmedLine });
             continue;
         }
 
