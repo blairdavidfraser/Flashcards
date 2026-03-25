@@ -185,7 +185,7 @@ class Persistence {
 
         let data = JSON.parse(raw);
         return data.map(item => {
-            if (item.isComment) return item; // Return the comment object as-is
+            if (item.type === "Comment") return item;
             return new Card(item); // Rehydrate the Card class
         });
     }
@@ -427,9 +427,8 @@ function editGameDataset(name, language) {
     let items = persistence.loadDataset(); // This now returns mixed objects
 
     let lines = [];
-    /*
     items.forEach(item => {
-        if (item.isComment) {
+        if (item.type === "Comment") {
             lines.push(item.value);
         } else {
             // It's a Card object
@@ -447,7 +446,6 @@ function editGameDataset(name, language) {
             ].join(" | "));
         }
     });
-    */
 
     document.getElementById("gameMenu").style.display = "none";
     document.getElementById("editArea").style.display = "block";
