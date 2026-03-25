@@ -68,6 +68,18 @@ class Card {
 
 
 //=============================================================================
+// Comment.js
+//
+// A class representing a single in the dataset file.
+//=============================================================================
+class Comment {
+    constructor(value) {
+        this.type = "Comment";
+        this.value = value.trim();
+    }
+}
+
+//=============================================================================
 // Game.js
 //
 //=============================================================================
@@ -185,8 +197,8 @@ class Persistence {
 
         let data = JSON.parse(raw);
         return data.map(item => {
-            if (item.type === "Comment") return item;
-            return new Card(item); // Rehydrate the Card class
+            if (item.type === "Comment") return new Comment(item.value);
+            return new Card(item);
         });
     }
 
@@ -459,10 +471,10 @@ function saveGameDataset() {
     let cards = []; // This will now hold both Cards and Comment objects
 
     for (let line of lines) {
-        let trimmedLine = line.trim();
+        let trimmed = line.trim();
 
-        if (trimmedLine.startsWith("#") || !trimmedLine) {
-            cards.push({ type: "Comment", value: trimmedLine });
+        if (trimmed.startsWith("#") || !trimmed) {
+            cards.push(new Comment(trimmed));
             continue;
         }
 
