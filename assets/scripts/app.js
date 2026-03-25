@@ -289,7 +289,7 @@ function renderCardContent(text) {
         rows.forEach(row => {
             const cells = row.split(",").map(cell => cell.trim());
             html += "<tr>";
-            cells.forEach(cell => { html += `<td style=" border: 1px solid #ddd; padding: 4px; text-align: center; ">${cell}</td>`; });
+            cells.forEach(cell => { html += `<td style=" border: 1px solid #ddd; padding: 2px; text-align: center; ">${cell}</td>`; });
             html += "</tr>";
         });
         html += "</table>";
