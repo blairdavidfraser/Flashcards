@@ -489,7 +489,7 @@ function saveGameDataset() {
             seen: parseInt(parts[6]) || 0,
             penalty: parseInt(parts[7]) || 0,
             level: parseInt(parts[8]) || 0,
-            comment: parts[9].trim()
+            comment: parts[9]?.trim() || ""
         });
 
         if (card.validate()) {
