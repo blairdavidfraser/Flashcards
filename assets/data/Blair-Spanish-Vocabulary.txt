@@ -181,7 +181,6 @@ la hija | daughter |  | Noun | 2026-03-10 | 2026-03-15 | 2 | 6 | -1 |
 el tío | uncle |  | Noun | 2026-03-10 | 2026-03-15 | 2 | 6 | -1 | 
 la tía | aunt |  | Noun | 2026-03-10 | 2026-03-15 | 3 | 8 | -1 | 
 el primo, o la prima | cousin |  | Noun | 2026-03-10 | 2026-03-15 | 3 | 8 | -1 | 
-la prima | cousin (female) |  | Noun | 2026-03-10 | 2026-03-15 | 2 | 6 | -1 | 
 el restaurante | restaurant |  | Noun | 2026-03-10 | 2026-03-12 | 2 | 5 | -1 | 
 el café | coffee | ☕ | Noun | 2026-03-10 | 2026-03-15 | 3 | 8 | -1 | 
 el té | tea | 🍵 | Noun | 2026-03-10 | 2026-03-15 | 3 | 8 | -1 | 
@@ -211,7 +210,7 @@ la estación | station |  | Noun | 2026-03-10 | 2026-03-15 | 3 | 8 | -1 |
 el tren | train | 🚆 | Noun | 2026-03-10 | 2026-03-15 | 3 | 8 | -1 | 
 el autobús | bus | 🚌 | Noun | 2026-03-10 | 2026-03-19 | 3 | 5 | -1 | 
 el taxi | taxi | 🚕 | Noun | 2026-03-10 | 2026-03-15 | 2 | 6 | -1 | 
-el boleto, o la billete en España | ticket | 🎟️ | Noun | 2026-03-10 | 2026-03-22 | 12 | 17 | 0 | 
+el boleto, o el billete en España | ticket | 🎟️ | Noun | 2026-03-10 | 2026-03-22 | 12 | 17 | 0 | 
 la reserva | reservation |  | Noun | 2026-03-10 | 2026-03-15 | 4 | 8 | -1 | 
 la maleta | suitcase | 🧳 | Noun | 2026-03-10 | 2026-03-15 | 9 | 15 | -1 | 
 el pasaporte | passport | 🪪 | Noun | 2026-03-10 | 2026-03-15 | 2 | 6 | -1 | 
@@ -895,8 +894,12 @@ solo | only / just |  | Adverb | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 |
 todavía | still / yet |  | Adverb | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
 siempre | always |  | Adverb | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
 poner | to put |  | Verb | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
-cosa | thing |  | Noun | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
-vez | time (occasion) |  | Noun | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
-parte | part |  | Noun | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
-lugar | place |  | Noun | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
-forma | way (manner) |  | Noun | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
+la cosa | thing |  | Noun | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
+la vez | time (occasion) |  | Noun | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
+la parte | part |  | Noun | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
+el lugar | place |  | Noun | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
+la forma | way (manner) |  | Noun | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
+este, o esta | this |  | Adjective | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
+ese, o esa | that |  | Adjective | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
+todo, o toda | all / everything |  | Adjective | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
+otro, o otra | other / another |  | Adjective | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 

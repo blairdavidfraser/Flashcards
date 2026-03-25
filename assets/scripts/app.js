@@ -39,7 +39,7 @@ class Card {
             case 'normal':
                 return this.level >= 0;
             case 'new':
-                return this.level >= 0 && (this.seen < 3 || this.added > fiveDaysAgo);
+                return this.level >= 0 && (this.seen < 3 || this.added < fiveDaysAgo);
             case 'hard':
                 return this.level >= 1;
             case 'review':

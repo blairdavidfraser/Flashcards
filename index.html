@@ -105,10 +105,17 @@
         <!-- Start Game -->
         <div class="row mode-buttons">
             <div class="row">
-                <a href="#" onclick="startGame('normal'); return false;">Normal</a> ::
-                <a href="#" onclick="startGame('new'); return false;">New</a> ::
-                <a href="#" onclick="startGame('hard'); return false;">Hard</a> ::
-                <a href="#" onclick="startGame('review'); return false;">Review</a>
+                <a href="#" onclick="startGame('normal'); return false;"
+                    title="Study all cards, excluding those marked as 'too easy'.">Normal</a>
+                ::
+                <a href="#" onclick="startGame('new'); return false;"
+                    title="Study only cards seen less than three times or added recently, excluding those marked as 'too easy'.">New</a>
+                ::
+                <a href="#" onclick="startGame('hard'); return false;"
+                    title="Study only cards explicitly marked as 'hard'.">Hard</a>
+                ::
+                <a href="#" onclick="startGame('review'); return false;"
+                    title="Review cards that were marked as 'too easy', but haven't been seen in a while.">Review</a>
             </div>
         </div>
 
@@ -127,11 +134,11 @@
         </div>
 
         <div class="difficulty" id="difficultyButtons" style="display:none">
-            <button onclick="cycleRound(0, -1)">&larr;</button>
-            <button onclick="cycleRound(1, 0)">1</button>
-            <button onclick="cycleRound(2, 0)">2</button>
-            <button onclick="cycleRound(3, 0)">3</button>
-            <button onclick="cycleRound(4, 1)">&rarr;</button>
+            <button onclick="cycleRound(0, -1)" title="Move card into 'too easy' set.">&larr;</button>
+            <button onclick="cycleRound(1, 0)" title="Got it!">1</button>
+            <button onclick="cycleRound(2, 0)" title="Made a small error.">2</button>
+            <button onclick="cycleRound(3, 0)" title="Missed it.">3</button>
+            <button onclick="cycleRound(4, 1)" title="Move card into 'hard' set.">&rarr;</button>
         </div>
 
         <button id="exitButton" onclick="endGame()" style="margin-top:8px;">Exit</button>
