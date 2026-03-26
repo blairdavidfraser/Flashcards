@@ -1,5 +1,3 @@
-
-
 //=============================================================================
 // Card.js
 //
@@ -10,26 +8,26 @@ class Card {
         this.type = "Card";
         this.front = data.front.trim();
         this.back = data.back.trim();
-        this.emoji = data.emoji.trim() || "";
-        this.category = data.category.trim() || "uncategorized";
+        this.emoji = data.emoji?.trim() || "";
+        this.category = data.category?.trim() || "uncategorized";
         this.added = data.added || Date.now();
         this.lastSeen = data.lastSeen || null;
         this.seen = data.seen || 0;
         this.penalty = data.penalty || 0;
         this.level = data.level || 0;
-        this.comment = data.comment || null;
+        this.comment = data.comment?.trim() || "";
     }
 
     validate() {
-        const okFront = this.front && this.front.trim().length > 0;
-        const okBack = this.back && this.back.trim().length > 0;
+        const okFront = this.front?.trim()?.length > 0;
+        const okBack = this.back?.trim()?.length > 0;
         return okFront && okBack;
     }
 
     rate(difficulty, level) {
         this.seen++;
         this.lastSeen = Date.now();
-        this.level = level;
+        this.level = Math.max(Math.min(level, 1), -1);
         this.penalty += (3 - difficulty);
     }
 
@@ -66,7 +64,6 @@ class Card {
     }
 }
 
-
 //=============================================================================
 // Comment.js
 //
@@ -85,6 +82,7 @@ class Comment {
 //=============================================================================
 class Game {
     constructor(name = null, language = null) {
+        console.log('Constructing game.')
         this.name = name;
         this.language = language;
         this.direction = 'recall';
@@ -114,14 +112,14 @@ class Game {
     }
 
     draw() {
-        game.state.card = this.#pickCard()
+        game.state.card = this.#pickCard() || new Card({ front: "No cards available.", back: "Please add some cards to start playing." });
 
         let round = this.direction === "shuffle"
             ? Math.random() < 0.5 ? 'recognition' : 'recall'
             : this.direction;
 
         if (round === 'recognition') {
-            game.state.questionText = game.state.card.front; // Foreign shown first.
+            game.state.questionText = game.state.card?.front; // Foreign shown first.
             game.state.questionEmoji = ''; // Emoji would be clue to meaning.
             game.state.questionSpeach = game.state.card.front; // Speak the foreign at question time.
             game.state.answerText = game.state.card.back; // Reveal native answer.
@@ -132,7 +130,7 @@ class Game {
         else { // recall
             game.state.questionText = game.state.card.back; // Native shown first.
             game.state.questionEmoji = game.state.card.emoji || ''; // Show emoji if any.
-            game.state.questionSpeach = ''; // Don't speak the native text.
+            game.state.questionSpeach = null; // Don't speak the native text.
             game.state.answerText = game.state.card.front; // Reveal foreign answer.
             game.state.answerEmoji = game.state.card.emoji || ''; // Emoji still shows.
             game.state.answerSpeach = game.state.card.front; // Speak the foreign text.
@@ -149,7 +147,7 @@ class Game {
     #pickCard() {
         // Filter to ensure we only work with actual Card instances
         let enabled = this.deck.filter(c =>
-            this.configuration.categories.has(c.category) &&
+            (this.configuration.categories.size === 0 || this.configuration.categories.has(c.category)) &&
             c.matches(this.rank) // Note: fixed 'this.rate' to 'this.rank' which appears to be a bug in your original code
         );
 
@@ -509,59 +507,61 @@ function selectAllText() {
 }
 
 
-
-
 //=============================================================================
 // Language Statistics screen
 //
 //=============================================================================
 function statistics(name, language) {
-    let dataset = Persistence.loadDatasetFrom(name, language);
-    let cards = dataset.filter(item => item instanceof Card);
-
-    let nTotal = cards.length
-    let nToday = cards.filter(c => c.seen > 0 && formatDate(c.lastSeen) === today()).length;
-    let nUnseen = cards.filter(c => c.seen === 0).length;
-    let nLevels = cards.reduce((a, c) => (a[c.level] = (a[c.level] || 0) + 1, a), {});
-    let nCategories = cards.reduce((a, c) => (a[c.category] = (a[c.category] || 0) + 1, a), {});
-
-    // Build stats display
-    let html = `
-                <p><strong>Total Cards:</strong> ${nTotal}</p>
-                <p><strong>Never Seen:</strong> ${nUnseen}</p>
-                <p><strong>Today:</strong> ${nToday}</p>
-                <hr/>
-            `
-
-    // Sort levels numerically
-    let levels = Object.keys(nLevels).sort((a, b) => parseInt(a) - parseInt(b))
-    levels.forEach(level => {
-        html += `<p><strong>Level ${level}:</strong> ${nLevels[level]}</p>`
-    })
-    html += '<hr/>'
-
-    // Show category counts alphabetically
-    let cats = Object.keys(nCategories).sort()
-    cats.forEach(cat => {
-        html += `<p><strong>${cat}:</strong> ${nCategories[cat]}</p>`
-    })
-
-    document.getElementById("gameMenu").style.display = "none"
-    document.getElementById("statsArea").style.display = "block"
-    document.getElementById("statsTitle").innerText = `${language} Statistics`
-    document.getElementById("statsContent").innerHTML = html
+    const dataset = Persistence.loadDatasetFrom(name, language);
+    const cards = dataset.filter(item => item instanceof Card);
+    const stats = calculateStatistics(cards);
+    const html = renderStatistics(stats, language);
+    document.getElementById("gameMenu").style.display = "none";
+    document.getElementById("statsArea").style.display = "block";
+    document.getElementById("statsTitle").innerText = `${language} Statistics`;
+    document.getElementById("statsContent").innerHTML = html;
 }
 
+function renderStatistics(stats) {
+    let html = `
+        <p><strong>Total Cards:</strong> ${stats.total}</p>
+        <p><strong>Never Seen:</strong> ${stats.unseen}</p>
+        <p><strong>Today:</strong> ${stats.today}</p>
+        <hr/>`;
 
+    Object.keys(stats.levels) // Levels (numeric sort)
+        .sort((a, b) => parseInt(a) - parseInt(b))
+        .forEach(level => {
+            html += `<p><strong>Level ${level}:</strong> ${stats.levels[level]}</p>`;
+        });
+
+    html += '<hr/>';
+
+    Object.keys(stats.categories) // Categories (alphabetical)
+        .sort()
+        .forEach(cat => {
+            html += `<p><strong>${cat}:</strong> ${stats.categories[cat]}</p>`;
+        });
+
+    return html;
+}
+
+function calculateStatistics(cards, now = new Date()) {
+    const today = new Date(now).toISOString().slice(0, 10);
+    console.log(`Calculate statistics for today='${today}'.`);
+    return {
+        total: cards.length,
+        today: cards.filter(c => c.seen > 0 && c.lastSeen && new Date(c.lastSeen).toISOString().slice(0, 10) === today).length,
+        unseen: cards.filter(c => c.seen === 0).length,
+        levels: cards.reduce((a, c) => (a[c.level] = (a[c.level] || 0) + 1, a), {}),
+        categories: cards.reduce((a, c) => (a[c.category] = (a[c.category] || 0) + 1, a), {})
+    };
+}
 
 //=============================================================================
 // Utility functions 
 //
 //=============================================================================
-
-function today() {
-    return new Date().toISOString().slice(0, 10)
-}
 
 function formatDate(epoch) {
     if (!epoch) return ""
@@ -576,7 +576,7 @@ function parseDate(d) {
 function speakText(text, lang) {
     if (!game.configuration.sound || !text) return
 
-    // Create speech synthesis utterance
+    // Create speech synthesis 
     const utterance = new SpeechSynthesisUtterance(text)
 
     // Set language based on current language
@@ -612,3 +612,5 @@ window.addEventListener("click", function (event) {
 });
 
 toggleSoundMenuItem();
+
+
