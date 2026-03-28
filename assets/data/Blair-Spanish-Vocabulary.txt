@@ -874,183 +874,182 @@ funcionar | to function / work |  | Verb | 2026-03-20 | 2026-03-26 | 4 | 9 | -1 
 tratar (de) | to try (to) |  | Verb | 2026-03-20 | 2026-03-28 | 9 | 17 | -1 | 
 depender (de) | to depend (on) |  | Verb | 2026-03-20 | 2026-03-28 | 7 | 13 | -1 | 
 pertenecer (a) | to belong (to) |  | Verb | 2026-03-20 | 2026-03-28 | 10 | 20 | 0 | 
-también | also / too |  | Adverb | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
-solo | only / just |  | Adverb | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
-todavía | still / yet |  | Adverb | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
-siempre | always |  | Adverb | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
-poner | to put |  | Verb | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
-cosa | thing |  | Noun | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
-vez | time (occasion) |  | Noun | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
-parte | part |  | Noun | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
-lugar | place |  | Noun | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
-forma | way (manner) |  | Noun | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
-la cabeza | head | 🧠 | Noun | 2026-03-23 | 2026-03-27 | 1970 | 0 | 1 | 
-el pelo | hair | 💇 | Noun | 2026-03-23 | 2026-03-27 | 1971 | 2 | 0 | 
-el brazo | arm | 💪 | Noun | 2026-03-23 | 2026-03-27 | 1970 | 0 | 1 | 
-los brazos | arms | 💪 | Noun | 2026-03-23 | 2026-03-27 | 1970 | 0 | 1 | 
-el codo | elbow |  | Noun | 2026-03-23 | 2026-03-27 | 1970 | 0 | 1 | 
-la mano | hand | ✋ | Noun | 2026-03-23 | 2026-03-27 | 1970 | 0 | 1 | 
-el pecho | chest |  | Noun | 2026-03-23 | 2026-03-27 | 1970 | 0 | 1 | 
-la espalda | back |  | Noun | 2026-03-23 | 2026-03-27 | 1970 | 0 | 1 | 
-la pierna | leg | 🦵 | Noun | 2026-03-23 | 2026-03-27 | 1970 | 0 | 1 | 
-la rodilla | knee |  | Noun | 2026-03-23 | 2026-03-27 | 1970 | 0 | 1 | 
-el pie | foot | 🦶 | Noun | 2026-03-23 | 2026-03-27 | 1970 | 0 | 1 | 
-la cara | face | 🙂 | Noun | 2026-03-23 | 2026-03-27 | 1970 | 0 | 1 | 
-los ojos | eyes | 👀 | Noun | 2026-03-23 | 2026-03-27 | 1970 | 0 | 1 | 
-la boca | mouth | 👄 | Noun | 2026-03-23 | 2026-03-27 | 1970 | 0 | 1 | 
-la nariz | nose | 👃 | Noun | 2026-03-23 | 2026-03-27 | 1971 | 2 | 0 | 
-la oreja | ear | 👂 | Noun | 2026-03-23 | 2026-03-27 | 1970 | 0 | 1 | 
-el trasero | butt |  | Noun | 2026-03-23 | 2026-03-27 | 1970 | 0 | 1 | 
-acabar | to finish / end |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-acordarse | to remember (reflexive) |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-ayudar | to help |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-bajar | to go down |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-subir | to go up |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-quitar | to remove / take away |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-romper | to break |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-abrirse | to open (itself) |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-sentarse | to sit down |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-levantarse | to get up |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-acostarse | to go to bed |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-ducharse | to shower |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-vestirse | to get dressed |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-ponerse | to put on |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-traer | to bring |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-caer | to fall |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-reír | to laugh |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-sonreír | to smile |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-llorar | to cry |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-gritar | to shout |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-callar | to be quiet |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-tocar | to touch / play (instrument) |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-mover | to move (something) |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-moverse | to move (oneself) |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-probar | to try (test) |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-servir | to serve |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-cocinar | to cook |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-limpiar | to clean |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-ensuciar | to dirty |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-llenar | to fill |  | Verb | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la vida | life |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el mundo | world | 🌍 | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el niño / la niña | child |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la persona | person |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el grupo | group |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el equipo | team |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la empresa | company |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la oficina | office |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el jefe | boss |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el cliente | client |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el servicio | service |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la reunión | meeting |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el plan | plan |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el cambio | change |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la oportunidad | opportunity |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el nivel | level |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el tipo | type/kind |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la información | information |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la historia | story/history |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la verdad | truth |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la mentira | lie |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el error | error |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la solución | solution |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la pregunta | question |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la conversación | conversation |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la palabra | word |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la voz | voice |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el sonido | sound |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la música | music | 🎵 | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la luz | light | 💡 | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la sombra | shadow |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el baño | bathroom | 🚿 | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la cocina | kitchen | 🍳 | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la sala | living room | 🛋️ | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el comedor | dining room | 🍽️ | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el dormitorio | bedroom | 🛏️ | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el pasillo | hallway |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el sótano | basement |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el ático | attic |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el garaje | garage | 🚗 | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la lavandería | laundry room |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la oficina (en casa) | home office |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el estudio | study |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el vestidor | walk-in closet |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el balcón | balcony |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la terraza | terrace |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el patio | patio / yard |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el recibidor | entryway |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el trastero | storage room |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la despensa | pantry |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el inodoro | toilet | 🚽 | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el sofá | sofa | 🛋️ | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el sillón | armchair |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la estantería | shelf / bookcase |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el armario | wardrobe |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la cómoda | dresser |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la mesita | small table / nightstand |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el escritorio | desk |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la lámpara | lamp | 💡 | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la alfombra | rug |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-las cortinas | curtains |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el espejo | mirror |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el banco | bench |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la litera | bunk bed |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la cuna | crib |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el colchón | mattress |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la almohada | pillow |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la manta | blanket |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el mueble | piece of furniture |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la vitrina | display cabinet |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el taburete | stool |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la hamaca | hammock |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el perchero | coat rack |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la repisa | wall shelf |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el tocador | vanity |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la encimera | countertop |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el fregadero | sink |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la bañera | bathtub | 🛁 | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la ducha | shower | 🚿 | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el grifo | faucet |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el árbol | tree | 🌳 | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el bosque | forest | 🌲 | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la hoja | leaf | 🍃 | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la rama | branch |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el tronco | trunk |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la raíz | root |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la piedra | rock |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el sendero | path |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el barro | mud |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el río | river |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el arroyo | stream |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la cascada | waterfall |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el lago | lake |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la montaña | mountain |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la colina | hill |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la flor | flower | 🌸 | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el insecto | insect |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la mariposa | butterfly | 🦋 | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el pájaro | bird | 🐦 | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el nido | nest |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el hongo | mushroom | 🍄 | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la sombra | shade |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el viento | wind |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la tierra | soil |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la huella | footprint / track |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el cruce | intersection |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el peatón | pedestrian |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el tráfico | traffic |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el coche | car | 🚗 | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la bicicleta | bicycle | 🚲 | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la moto | motorcycle |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la torre | tower |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la plaza | square |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el parque | park |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la fuente | fountain |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la tienda de ropa | clothing store |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la farmacia | pharmacy |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el hospital | hospital |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la escuela | school |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la universidad | university |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el policía | police officer |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-el ruido | noise |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
-la multitud | crowd |  | Noun | 2026-03-28 | 2026-03-28 | 1970 | 0 | 1 | 
+también | also / too |  | Adverb | 2026-03-23 | 2026-03-25 | 0 | 0 | 1 | 
+solo | only / just |  | Adverb | 2026-03-23 | 2026-03-25 | 0 | 0 | 1 | 
+todavía | still / yet |  | Adverb | 2026-03-23 | 2026-03-25 | 0 | 0 | 1 | 
+siempre | always |  | Adverb | 2026-03-23 | 2026-03-25 | 0 | 0 | 1 | 
+poner | to put |  | Verb | 2026-03-23 | 2026-03-25 | 0 | 0 | 1 | 
+cosa | thing |  | Noun | 2026-03-23 | 2026-03-25 | 0 | 0 | 1 | 
+vez | time (occasion) |  | Noun | 2026-03-23 | 2026-03-25 | 0 | 0 | 1 | 
+parte | part |  | Noun | 2026-03-23 | 2026-03-25 | 0 | 0 | 1 | 
+lugar | place |  | Noun | 2026-03-23 | 2026-03-25 | 0 | 0 | 1 | 
+forma | way (manner) |  | Noun | 2026-03-23 | 2026-03-25 | 0 | 0 | 1 | 
+la cabeza | head | 🧠 | Noun | 2026-03-23 | 2026-03-27 | 0 | 0 | 1 | 
+el pelo | hair | 💇 | Noun | 2026-03-23 | 2026-03-27 | 1 | 2 | 0 | 
+el brazo | arm | 💪 | Noun | 2026-03-23 | 2026-03-27 | 0 | 0 | 1 | 
+los brazos | arms | 💪 | Noun | 2026-03-23 | 2026-03-27 | 0 | 0 | 1 | 
+el codo | elbow |  | Noun | 2026-03-23 | 2026-03-27 | 0 | 0 | 1 | 
+la mano | hand | ✋ | Noun | 2026-03-23 | 2026-03-27 | 0 | 0 | 1 | 
+el pecho | chest |  | Noun | 2026-03-23 | 2026-03-27 | 0 | 0 | 1 | 
+la espalda | back |  | Noun | 2026-03-23 | 2026-03-27 | 0 | 0 | 1 | 
+la pierna | leg | 🦵 | Noun | 2026-03-23 | 2026-03-27 | 0 | 0 | 1 | 
+la rodilla | knee |  | Noun | 2026-03-23 | 2026-03-27 | 0 | 0 | 1 | 
+el pie | foot | 🦶 | Noun | 2026-03-23 | 2026-03-27 | 0 | 0 | 1 | 
+la cara | face | 🙂 | Noun | 2026-03-23 | 2026-03-27 | 0 | 0 | 1 | 
+los ojos | eyes | 👀 | Noun | 2026-03-23 | 2026-03-27 | 0 | 0 | 1 | 
+la boca | mouth | 👄 | Noun | 2026-03-23 | 2026-03-27 | 0 | 0 | 1 | 
+la nariz | nose | 👃 | Noun | 2026-03-23 | 2026-03-27 | 1 | 2 | 0 | 
+la oreja | ear | 👂 | Noun | 2026-03-23 | 2026-03-27 | 0 | 0 | 1 | 
+el trasero | butt |  | Noun | 2026-03-23 | 2026-03-27 | 0 | 0 | 1 | 
+acabar | to finish / end |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+acordarse | to remember (reflexive) |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+ayudar | to help |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+bajar | to go down |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+subir | to go up |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+quitar | to remove / take away |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+romper | to break |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+abrirse | to open (itself) |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+sentarse | to sit down |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+levantarse | to get up |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+acostarse | to go to bed |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+ducharse | to shower |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+vestirse | to get dressed |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+ponerse | to put on |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+traer | to bring |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+caer | to fall |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+reír | to laugh |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+sonreír | to smile |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+llorar | to cry |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+gritar | to shout |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+callar | to be quiet |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+tocar | to touch / play (instrument) |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+mover | to move (something) |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+moverse | to move (oneself) |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+probar | to try (test) |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+servir | to serve |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+cocinar | to cook |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+limpiar | to clean |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+ensuciar | to dirty |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+llenar | to fill |  | Verb | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la vida | life |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el mundo | world | 🌍 | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el niño / la niña | child |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la persona | person |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el grupo | group |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el equipo | team |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la empresa | company |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la oficina | office |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el jefe | boss |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el cliente | client |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el servicio | service |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la reunión | meeting |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el plan | plan |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el cambio | change |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la oportunidad | opportunity |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el nivel | level |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el tipo | type/kind |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la información | information |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la historia | story/history |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la verdad | truth |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la mentira | lie |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el error | error |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la solución | solution |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la pregunta | question |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la conversación | conversation |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la palabra | word |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la voz | voice |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el sonido | sound |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la música | music | 🎵 | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la luz | light | 💡 | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la sombra | shadow |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el baño | bathroom | 🚿 | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la cocina | kitchen | 🍳 | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la sala | living room | 🛋️ | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el comedor | dining room | 🍽️ | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el dormitorio | bedroom | 🛏️ | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el pasillo | hallway |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el sótano | basement |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el ático | attic |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el garaje | garage | 🚗 | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la lavandería | laundry room |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la oficina (en casa) | home office |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el estudio | study |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el vestidor | walk-in closet |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el balcón | balcony |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la terraza | terrace |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el patio | patio / yard |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el recibidor | entryway |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el trastero | storage room |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la despensa | pantry |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el inodoro | toilet | 🚽 | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el sofá | sofa | 🛋️ | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el sillón | armchair |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la estantería | shelf / bookcase |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el armario | wardrobe |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la cómoda | dresser |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la mesita | small table / nightstand |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la lámpara | lamp | 💡 | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la alfombra | rug |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+las cortinas | curtains |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el espejo | mirror |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el banco | bench |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la litera | bunk bed |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la cuna | crib |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el colchón | mattress |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la almohada | pillow |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la manta | blanket |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el mueble | piece of furniture |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la vitrina | display cabinet |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el taburete | stool |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la hamaca | hammock |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el perchero | coat rack |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la repisa | wall shelf |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el tocador | vanity |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la encimera | countertop |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el fregadero | sink |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la bañera | bathtub | 🛁 | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la ducha | shower | 🚿 | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el grifo | faucet |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el árbol | tree | 🌳 | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el bosque | forest | 🌲 | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la hoja | leaf | 🍃 | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la rama | branch |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el tronco | trunk |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la raíz | root |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la piedra | rock |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el sendero | path |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el barro | mud |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el río | river |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el arroyo | stream |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la cascada | waterfall |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el lago | lake |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la montaña | mountain |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la colina | hill |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la flor | flower | 🌸 | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el insecto | insect |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la mariposa | butterfly | 🦋 | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el pájaro | bird | 🐦 | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el nido | nest |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el hongo | mushroom | 🍄 | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la sombra | shade |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el viento | wind |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la tierra | soil |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la huella | footprint / track |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el cruce | intersection |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el peatón | pedestrian |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el tráfico | traffic |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el coche | car | 🚗 | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la bicicleta | bicycle | 🚲 | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la moto | motorcycle |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la torre | tower |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la plaza | square |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el parque | park |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la fuente | fountain |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la tienda de ropa | clothing store |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la farmacia | pharmacy |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el hospital | hospital |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la escuela | school |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la universidad | university |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el policía | police officer |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+el ruido | noise |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 
+la multitud | crowd |  | Noun | 2026-03-28 | 2026-03-28 | 0 | 0 | 1 | 

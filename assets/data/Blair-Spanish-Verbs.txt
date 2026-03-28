@@ -148,18 +148,18 @@ El clima cambia rápido en la montaña | The weather changes quickly in the moun
 ¿Tienes un mapa? | Do you have a map? |  | Present | 2026-03-12 | 2026-03-13 | 4 | 9 | -1 | 
 Nos encontramos aquí mañana | We meet here tomorrow |  | Present | 2026-03-12 | 2026-03-28 | 12 | 21 | 0 | 
 no necesito esforzarme mucho | I don't need to make a big effort |  | Present | 2026-03-15 | 2026-03-28 | 13 | 15 | 0 | 
-acabo de llegar a la ciudad | I just arrived in the city |  | Present | 2026-03-28 |  | 1970-01-01 |  | 1
-he estado buscando este lugar | I’ve been looking for this place |  | Present | 2026-03-28 |  | 1970-01-01 |  | 1
-¿me puedes decir dónde queda esto? | can you tell me where this is? |  | Present | 2026-03-28 |  | 1970-01-01 |  | 1
-¿qué me recomiendas? | what do you recommend? |  | Present | 2026-03-28 |  | 1970-01-01 |  | 1
-voy a quedarme unos días | I’m going to stay a few days |  | Present | 2026-03-28 |  | 1970-01-01 |  | 1
-¿vale la pena? | is it worth it? |  | Present | 2026-03-28 |  | 1970-01-01 |  | 1
-qué raro, ¿no? | that’s weird, right? |  | Present | 2026-03-28 |  | 1970-01-01 |  | 1
-por poco no llego | I almost didn’t make it |  | Present | 2026-03-28 |  | 1970-01-01 |  | 1
-¿te ha pasado eso antes? | has that happened to you before? |  | Present | 2026-03-28 |  | 1970-01-01 |  | 1
-no puede ser | no way |  | Present | 2026-03-28 |  | 1970-01-01 |  | 1
-ya veremos | we’ll see |  | Present | 2026-03-28 |  | 1970-01-01 |  | 1
-a ver qué pasa | let’s see what happens |  | Present | 2026-03-28 |  | 1970-01-01 |  | 1
+acabo de llegar a la ciudad | I just arrived in the city |  | Present | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+he estado buscando este lugar | I’ve been looking for this place |  | Present | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+¿me puedes decir dónde queda esto? | can you tell me where this is? |  | Present | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+¿qué me recomiendas? | what do you recommend? |  | Present | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+voy a quedarme unos días | I’m going to stay a few days |  | Present | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+¿vale la pena? | is it worth it? |  | Present | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+qué raro, ¿no? | that’s weird, right? |  | Present | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+por poco no llego | I almost didn’t make it |  | Present | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+¿te ha pasado eso antes? | has that happened to you before? |  | Present | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+no puede ser | no way |  | Present | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+ya veremos | we’ll see |  | Present | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+a ver qué pasa | let’s see what happens |  | Present | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
 
 # >>> Present Continuous Tense
 Estoy comiendo en el restaurante ahora | I am eating at the restaurant now |  | Present Continuous | 2026-03-23 | 2026-03-25 | 1970 | 0 | 1 | 
@@ -251,34 +251,34 @@ ayer tuvimos hambre | yesterday we were hungry | | Preterit | 2026-03-15 | 2026-
 ayer vino mi amigo | yesterday my friend came | | Preterit | 2026-03-15 | 2026-03-28 | 20 | 4 | 0 | 
 ayer dije la verdad | yesterday I told the truth | | Preterit | 2026-03-15 | 2026-03-20 | 8 | 6 | 0 | 
 ayer pude pagar con tarjeta | yesterday I was able to pay with card | | Preterit | 2026-03-15 | 2026-03-28 | 12 | 7 | -1 | 
-eso pensé yo | that’s what I thought |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-pensé que estaba cerrado | I thought it was closed |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-¿me dijiste que era por aquí? | you told me it was this way? |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-me perdí en el camino | I got lost on the way |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-¿ya cerraron? | did they already close? |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-se me olvidó traer dinero | I forgot to bring money |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-no encontré la entrada | I didn’t find the entrance |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-no me di cuenta | I didn’t realize |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-me dijeron que era fácil de encontrar | they told me it was easy to find |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-lo vi en internet | I saw it online |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-me recomendaron este lugar | they recommended this place to me |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-terminé yendo a otro sitio | I ended up going somewhere else |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-¿te pasó lo mismo? | did the same thing happen to you? |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-no tuve tiempo | I didn’t have time |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-me quedé sin batería | my battery died |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-se me cayó el teléfono | I dropped my phone |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-lo intenté varias veces | I tried several times |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-no me dejaron entrar | they didn’t let me in |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-me dijeron que estaba lleno | they told me it was full |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-ni idea de qué pasó | no idea what happened |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-menos mal que llegué a tiempo | good thing I arrived on time |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-me tocó esperar | I had to wait |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-estuve esperando como una hora | I was waiting for like an hour |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-al final me fui | in the end I left |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-no lo entendí bien | I didn’t understand it well |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-me pareció caro | it seemed expensive to me |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-me gustó bastante | I liked it quite a bit |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
-no me convenció | it didn’t convince me |  | Preterit | 2026-03-28 |  | 1970-01-01 |  | 1
+eso pensé yo | that’s what I thought |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+pensé que estaba cerrado | I thought it was closed |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+¿me dijiste que era por aquí? | you told me it was this way? |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+me perdí en el camino | I got lost on the way |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+¿ya cerraron? | did they already close? |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+se me olvidó traer dinero | I forgot to bring money |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+no encontré la entrada | I didn’t find the entrance |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+no me di cuenta | I didn’t realize |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+me dijeron que era fácil de encontrar | they told me it was easy to find |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+lo vi en internet | I saw it online |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+me recomendaron este lugar | they recommended this place to me |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+terminé yendo a otro sitio | I ended up going somewhere else |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+¿te pasó lo mismo? | did the same thing happen to you? |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+no tuve tiempo | I didn’t have time |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+me quedé sin batería | my battery died |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+se me cayó el teléfono | I dropped my phone |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+lo intenté varias veces | I tried several times |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+no me dejaron entrar | they didn’t let me in |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+me dijeron que estaba lleno | they told me it was full |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+ni idea de qué pasó | no idea what happened |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+menos mal que llegué a tiempo | good thing I arrived on time |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+me tocó esperar | I had to wait |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+estuve esperando como una hora | I was waiting for like an hour |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+al final me fui | in the end I left |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+no lo entendí bien | I didn’t understand it well |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+me pareció caro | it seemed expensive to me |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+me gustó bastante | I liked it quite a bit |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+no me convenció | it didn’t convince me |  | Preterit | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
 
 # >>> Imperfect Past Tense
 [yo era, ns. éramos; tú eras, vs. erais; él era, ellos eran] | Imperfect forms of 'ser' |  | Imperfect | 2026-03-25 | 2026-03-25 | 2 | 2 | 0 | 
@@ -359,14 +359,14 @@ Queríamos salir aunque estaba lloviendo | We used to want to go out even though
 Ellos querían comprar la casa pero era cara | They used to want to buy the house but it was expensive |  | Imperfect | 2026-03-25 | 2026-03-25 | 0 | 0 | 1 | 
 cuando era niño comía aquí | when I was a child I used to eat here | | Imperfect | 2026-03-15 | 2026-03-28 | 13 | 9 | 0 | 
 antes vivía en Canadá | before, I used to live in Canada |  | Imperfect | 2026-03-15 | 2026-03-17 | 11 | -2 | -1 | 
-ya había venido antes | I had come before |  | Imperfect | 2026-03-28 |  | 1970-01-01 |  | 1
-no sabía que había que pagar aquí | I didn’t know you had to pay here |  | Imperfect | 2026-03-28 |  | 1970-01-01 |  | 1
-no había probado esto antes | I hadn’t tried this before |  | Imperfect | 2026-03-28 |  | 1970-01-01 |  | 1
-pensaba que abrían más tarde | I thought they opened later |  | Imperfect | 2026-03-28 |  | 1970-01-01 |  | 1
-como no… tenía que pasar esto | of course… this had to happen |  | Imperfect | 2026-03-28 |  | 1970-01-01 |  | 1
-iba a ir ayer, pero no pude | I was going to go yesterday, but I couldn’t |  | Imperfect | 2026-03-28 |  | 1970-01-01 |  | 1
-no funcionaba | it wasn’t working |  | Imperfect | 2026-03-28 |  | 1970-01-01 |  | 1
-ya lo había visto antes | I had already seen it before |  | Imperfect | 2026-03-28 |  | 1970-01-01 |  | 1
+ya había venido antes | I had come before |  | Imperfect | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+no sabía que había que pagar aquí | I didn’t know you had to pay here |  | Imperfect | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+no había probado esto antes | I hadn’t tried this before |  | Imperfect | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+pensaba que abrían más tarde | I thought they opened later |  | Imperfect | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+como no… tenía que pasar esto | of course… this had to happen |  | Imperfect | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+iba a ir ayer, pero no pude | I was going to go yesterday, but I couldn’t |  | Imperfect | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+no funcionaba | it wasn’t working |  | Imperfect | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
+ya lo había visto antes | I had already seen it before |  | Imperfect | 2026-03-28 |  1970-01-01 | 0 | 0 | 1 |
 
 
 
