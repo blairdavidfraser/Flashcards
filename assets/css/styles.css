@@ -46,7 +46,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
+    height: 45px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
     z-index: 1000;
 }
@@ -92,7 +92,7 @@ a:hover {
 /* ---------- Buttons ---------- */
 
 button {
-    padding: 12px 18px;
+    padding: 12px 16px;
     margin: 6px;
     font-size: 16px;
     border-radius: 10px;
@@ -121,10 +121,10 @@ button:active {
 /* ---------- Card ---------- */
 
 .card {
-    margin: 40px auto;
+    margin: 20px auto;
     background: white;
     border-radius: 16px;
-    width: 92%;
+    width: 95%;
     max-width: 520px;
     font-size: 24px;
     cursor: pointer;
@@ -138,7 +138,7 @@ button:active {
     font-size: 15px;
     color: #6b7280;
     background: #f6f8fb;
-    padding: 10px 16px;
+    padding: 8px 16px;
     text-align: left;
     border-bottom: 1px solid #e5eaf0;
 }
@@ -147,7 +147,7 @@ button:active {
     font-size: 15px;
     color: #6b7280;
     background: #f6f8fb;
-    padding: 10px 16px;
+    padding: 8px 16px;
     text-align: right;
     border-top: 1px solid #e5eaf0;
 }
@@ -161,7 +161,7 @@ button:active {
 
 .card-top,
 .card-bottom {
-    padding: 20px 20px;
+    padding: 15px 15px;
     min-height: 100px;
 }
 
@@ -218,13 +218,13 @@ input[type="text"] {
 @media (max-width: 600px) {
 
     .card {
-        margin: 20px auto;
+        margin: 15px auto;
         font-size: 20px;
     }
 
     .card-top,
     .card-bottom {
-        padding: 24px 14px;
+        padding: 18px 14px;
     }
 
     button {
