@@ -220,7 +220,6 @@ class Persistence {
 //=============================================================================
 let game = new Game();
 
-function selectGame(name, language) { game.name = name; game.language = language }
 function selectGameRank(rank) { game.rank = rank }
 function selectGameDirection(direction) { game.direction = direction }
 function selectGameSound(sound) { game.configuration.sound = sound }
