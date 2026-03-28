@@ -6,38 +6,15 @@ import { Game } from "./Game.js"
 
 export const game = new Game();
 
-const UI =
-{
-    selectGameRank(rank) { game.rank = rank }
-}
 
-window.selectGameRank = UI.selctGameRank.bind(UI)
 
-window.selectGameDirection = selectGameDirection
-window.selectGameSound = selectGameSound
-window.toggleSound = selectToggleSound
-window.startGame = startGame
-window.startRound = startRound
-window.finishRound = finishRound
-window.cycleRound = cycleRound
-window.endGame = endGame
-window.toggleMenu = toggleMenu
-window.toggleSoundMenuItem = toggleSoundMenuItem
-window.selectGame = selectGame
-window.configureGame = configureGame
-window.backToMenu = backToMenu
-window.showCardEdit = showCardEdit
-window.saveCardEdit = saveCardEdit
-window.cancelEdit = cancelEdit
-window.editGameDataset = editGameDataset
-window.saveGameDataset = saveGameDataset
-window.selectAllText = selectAllText
-window.statistics = statistics
+
 
 //=============================================================================
 // Globals
 //
 //=============================================================================
+function selectGameRank(rank) { game.rank = rank }
 function selectGameDirection(direction) { game.direction = direction }
 function selectGameSound(sound) { game.configuration.sound = sound }
 
@@ -284,7 +261,7 @@ function editGameDataset(name, language) {
 
     document.getElementById("gameMenu").style.display = "none";
     document.getElementById("editArea").style.display = "block";
-    document.getElementById("editTitle").innerText = "Edit " + language;
+    document.getElementById("editTitle").innerText = `Edit ${language} / ${name}`;
     document.getElementById("editBox").value = lines.join("\n");
 }
 
@@ -410,6 +387,29 @@ function speakText(text, lang) {
 
 
 
+
+window.selectGameRank = selectGameRank
+
+window.selectGameDirection = selectGameDirection
+window.selectGameSound = selectGameSound
+window.toggleSound = selectToggleSound
+window.startGame = startGame
+window.startRound = startRound
+window.finishRound = finishRound
+window.cycleRound = cycleRound
+window.endGame = endGame
+window.toggleMenu = toggleMenu
+window.toggleSoundMenuItem = toggleSoundMenuItem
+window.selectGame = selectGame
+window.configureGame = configureGame
+window.backToMenu = backToMenu
+window.showCardEdit = showCardEdit
+window.saveCardEdit = saveCardEdit
+window.cancelEdit = cancelEdit
+window.editGameDataset = editGameDataset
+window.saveGameDataset = saveGameDataset
+window.selectAllText = selectAllText
+window.statistics = statistics
 
 // Add this to your Menu and Game Configuration section
 window.addEventListener("click", function (event) {
