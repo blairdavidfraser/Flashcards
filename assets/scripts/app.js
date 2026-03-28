@@ -6,8 +6,8 @@
 class Card {
     constructor(data) {
         this.type = "Card";
-        this.front = data.front.trim();
-        this.back = data.back.trim();
+        this.front = data.front?.trim() || "";
+        this.back = data.back?.trim() || "";
         this.emoji = data.emoji?.trim() || "";
         this.category = data.category?.trim() || "uncategorized";
         this.added = data.added || Date.now();
@@ -56,10 +56,10 @@ class Card {
     }
 
     summary() {
-        let added = parseDate(game.state.card.added)
-        let last = game.state.card.lastSeen ? new Date(game.state.card.lastSeen) : null
-        let seen = game.state.card.seen || 0
-        return `level ${game.state.card.level} (${game.state.card.penalty}), added ${formatDate(added)}, ` +
+        let added = parseDate(this.added)
+        let last = this.lastSeen ? new Date(this.lastSeen) : null
+        let seen = this.seen || 0
+        return `level ${this.level} (${this.penalty}), added ${formatDate(added)}, ` +
             `last seen ${last ? formatDate(last) : 'never'}, seen ${seen}`
     }
 }
@@ -112,29 +112,30 @@ class Game {
     }
 
     draw() {
-        game.state.card = this.#pickCard() || new Card({ front: "No cards available.", back: "Please add some cards to start playing." });
+        this.state.card = this.#pickCard() || new Card({ front: "No cards available.", back: "Please add some cards to start playing." });
+        console.log(`state = ${this.state.card.front}`)
 
         let round = this.direction === "shuffle"
             ? Math.random() < 0.5 ? 'recognition' : 'recall'
             : this.direction;
 
         if (round === 'recognition') {
-            game.state.questionText = game.state.card?.front; // Foreign shown first.
-            game.state.questionEmoji = ''; // Emoji would be clue to meaning.
-            game.state.questionSpeach = game.state.card.front; // Speak the foreign at question time.
-            game.state.answerText = game.state.card.back; // Reveal native answer.
-            game.state.answerEmoji = game.state.card.emoji || ''; // Reveal emoji if any.
-            game.state.answerSpeach = null; // Don't speak the native text.
-            game.state.answerComment = game.state.card.comment || null; // Show comment if any.
+            this.state.questionText = this.state.card?.front; // Foreign shown first.
+            this.state.questionEmoji = ''; // Emoji would be clue to meaning.
+            this.state.questionSpeach = this.state.card.front; // Speak the foreign at question time.
+            this.state.answerText = this.state.card.back; // Reveal native answer.
+            this.state.answerEmoji = this.state.card.emoji || ''; // Reveal emoji if any.
+            this.state.answerSpeach = ''; // Don't speak the native text.
+            this.state.answerComment = this.state.card.comment || ''; // Show comment if any.
         }
         else { // recall
-            game.state.questionText = game.state.card.back; // Native shown first.
-            game.state.questionEmoji = game.state.card.emoji || ''; // Show emoji if any.
-            game.state.questionSpeach = null; // Don't speak the native text.
-            game.state.answerText = game.state.card.front; // Reveal foreign answer.
-            game.state.answerEmoji = game.state.card.emoji || ''; // Emoji still shows.
-            game.state.answerSpeach = game.state.card.front; // Speak the foreign text.
-            game.state.answerComment = game.state.card.comment || null; // Show comment if any.
+            this.state.questionText = this.state.card.back; // Native shown first.
+            this.state.questionEmoji = this.state.card.emoji || ''; // Show emoji if any.
+            this.state.questionSpeach = ''; // Don't speak the native text.
+            this.state.answerText = this.state.card.front; // Reveal foreign answer.
+            this.state.answerEmoji = this.state.card.emoji || ''; // Emoji still shows.
+            this.state.answerSpeach = this.state.card.front; // Speak the foreign text.
+            this.state.answerComment = this.state.card.comment || ''; // Show comment if any.
         }
     }
 
@@ -151,7 +152,7 @@ class Game {
             c.matches(this.rank) // Note: fixed 'this.rate' to 'this.rank' which appears to be a bug in your original code
         );
 
-        if (enabled.length === 0) return null;
+        let result = null;
 
         // Sort for Review mode specifically
         if (this.rank === 'review') {
@@ -166,10 +167,12 @@ class Game {
         let r = Math.random() * total;
         for (let i = 0; i < enabled.length; i++) {
             r -= weights[i];
-            if (r <= 0) return enabled[i]; // Returns one card
+            if (r <= 0) {
+                return enabled[i];
+            }
         }
 
-        return enabled[0]; // Fallback to first card, not the whole list
+        return result;
     }
 }
 
@@ -397,19 +400,19 @@ function backToMenu() {
 function showCardEdit() {
     document.getElementById("studyArea").style.display = "none"
     document.getElementById("editCardArea").style.display = "block"
-    document.getElementById("editFront").value = game.state.card.front
-    document.getElementById("editBack").value = game.state.card.back
-    document.getElementById("editEmoji").value = game.state.card.emoji || ""
-    document.getElementById("editCategory").value = game.state.card.category || ""
-    document.getElementById("editComment").value = game.state.card.comment || ""
+    document.getElementById("editFront").value = this.state.card.front
+    document.getElementById("editBack").value = this.state.card.back
+    document.getElementById("editEmoji").value = this.state.card.emoji || ""
+    document.getElementById("editCategory").value = this.state.card.category || ""
+    document.getElementById("editComment").value = this.state.card.comment || ""
 }
 
 function saveCardEdit() {
-    game.state.card.front = document.getElementById("editFront").value.trim()
-    game.state.card.back = document.getElementById("editBack").value.trim()
-    game.state.card.emoji = document.getElementById("editEmoji").value.trim()
-    game.state.card.category = document.getElementById("editCategory").value.trim()
-    game.state.card.comment = document.getElementById("editComment").value.trim()
+    this.state.card.front = document.getElementById("editFront").value.trim()
+    this.state.card.back = document.getElementById("editBack").value.trim()
+    this.state.card.emoji = document.getElementById("editEmoji").value.trim()
+    this.state.card.category = document.getElementById("editCategory").value.trim()
+    this.state.card.comment = document.getElementById("editComment").value.trim()
 
     Persistence.saveDatasetTo(game.name, game.language, game.dataset)
 
