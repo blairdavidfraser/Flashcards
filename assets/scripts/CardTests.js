@@ -1,3 +1,9 @@
+//=============================================================================
+// CardTests.js
+//
+//=============================================================================
+import { Card } from './Card.js';
+
 describe('Card', function () {
 
     // Construction
@@ -139,46 +145,42 @@ describe('Card', function () {
             assert.isTrue(c.matches('normal'));
         });
 
-        it('should match new when seen < 3', function () {
+        it('should match rank is new when seen < 3', function () {
             const c = new Card({ front: 'a', back: 'b', seen: 2 });
             assert.isTrue(c.matches('new'));
         });
 
-        it('should match new when old (added long ago)', function () {
-            const oldTime = Date.now() - (86400000 * 10);
-            const c = new Card({
-                front: 'a',
-                back: 'b',
-                seen: 10,
-                added: oldTime
-            });
+        it('should match rank is new when recent (even if seen plenty)', function () {
+            const time = Date.now() - (86400000 * 2);
+            const c = new Card({ front: 'a', back: 'b', seen: 10, added: time });
             assert.isTrue(c.matches('new'));
         });
 
-        it('should not match new when seen >= 3 and recent', function () {
-            const recent = Date.now();
-            const c = new Card({
-                front: 'a',
-                back: 'b',
-                seen: 5,
-                added: recent
-            });
+        it('should match rank is new when seen little (even if old)', function () {
+            const time = Date.now() - (86400000 * 10);
+            const c = new Card({ front: 'a', back: 'b', seen: 1, added: time });
+            assert.isTrue(c.matches('new'));
+        });
+
+        it('should not match rank is new when old and seen plenty', function () {
+            const time = Date.now() - (86400000 * 10);
+            const c = new Card({ front: 'a', back: 'b', seen: 10, added: time });
             assert.isFalse(c.matches('new'));
         });
 
-        it('should match hard when level >= 1', function () {
+        it('should match rank is hard when level >= 1', function () {
             const c = new Card({ front: 'a', back: 'b', level: 1 });
             assert.isTrue(c.matches('hard'));
         });
 
-        it('should match review when level === -1', function () {
+        it('should match rank is review when level === -1', function () {
             const c = new Card({ front: 'a', back: 'b', level: -1 });
             assert.isTrue(c.matches('review'));
         });
 
-        it('should use default case for unknown level', function () {
+        it('should return false if rank is invalid', function () {
             const c = new Card({ front: 'a', back: 'b', level: 0 });
-            assert.isTrue(c.matches('unknown'));
+            assert.isFalse(c.matches('unknown'));
         });
 
     });

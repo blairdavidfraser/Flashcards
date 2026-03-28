@@ -1,226 +1,43 @@
-//=============================================================================
-// Card.js
-//
-// A class representing a single flashcard, with front and back content.
-//=============================================================================
-class Card {
-    constructor(data) {
-        this.type = "Card";
-        this.front = data.front?.trim() || "";
-        this.back = data.back?.trim() || "";
-        this.emoji = data.emoji?.trim() || "";
-        this.category = data.category?.trim() || "uncategorized";
-        this.added = data.added || Date.now();
-        this.lastSeen = data.lastSeen || null;
-        this.seen = data.seen || 0;
-        this.penalty = data.penalty || 0;
-        this.level = data.level || 0;
-        this.comment = data.comment?.trim() || "";
-    }
+import { parseDate, formatDate } from "./Utilities.js"
+import { Card } from "./Card.js"
+import { Comment } from "./Comment.js"
+import { Persistence } from "./Persistence.js"
+import { Game } from "./Game.js"
 
-    validate() {
-        const okFront = this.front?.trim()?.length > 0;
-        const okBack = this.back?.trim()?.length > 0;
-        return okFront && okBack;
-    }
+export const game = new Game();
 
-    rate(difficulty, level) {
-        this.seen++;
-        this.lastSeen = Date.now();
-        this.level = Math.max(Math.min(level, 1), -1);
-        this.penalty += (3 - difficulty);
-    }
-
-    matches(level) {
-        const fiveDaysAgo = Date.now() - (86400000 * 5);
-        switch (level) {
-            case 'normal':
-                return this.level >= 0;
-            case 'new':
-                return this.level >= 0 && (this.seen < 3 || this.added < fiveDaysAgo);
-            case 'hard':
-                return this.level >= 1;
-            case 'review':
-                return this.level === -1;
-            default:
-                return this.level >= 0;
-        }
-    }
-
-    priority() {
-        const failRate = (this.penalty < 0) ? Math.abs(this.penalty) + 1 : 1;
-        const isRecent = (Date.now() - this.added) < (86400000 * 7);
-        const recentBoost = isRecent ? 3 : 1;
-        const seenPenalty = Math.max(1, this.seen / 5);
-        return (failRate * recentBoost) / seenPenalty;
-    }
-
-    summary() {
-        let added = parseDate(this.added)
-        let last = this.lastSeen ? new Date(this.lastSeen) : null
-        let seen = this.seen || 0
-        return `level ${this.level} (${this.penalty}), added ${formatDate(added)}, ` +
-            `last seen ${last ? formatDate(last) : 'never'}, seen ${seen}`
-    }
+const UI =
+{
+    selectGameRank(rank) { game.rank = rank }
 }
 
-//=============================================================================
-// Comment.js
-//
-// A class representing a single in the dataset file.
-//=============================================================================
-class Comment {
-    constructor(value) {
-        this.type = "Comment";
-        this.value = value.trim();
-    }
-}
+window.selectGameRank = UI.selctGameRank.bind(UI)
 
-//=============================================================================
-// Game.js
-//
-//=============================================================================
-class Game {
-    constructor(name = null, language = null) {
-        console.log('Constructing game.')
-        this.name = name;
-        this.language = language;
-        this.direction = 'recall';
-        this.rank = 'normal'; // normal, new, hard, review
-
-        this.configuration = {
-            sound: false, // will toggle to true on document load
-            categories: new Set()
-        };
-
-        this.state = {
-            card: null,
-            questionText: null,
-            questionEmoji: null,
-            questionSpeach: null,
-            answerText: null,
-            answerEmoji: null,
-            answerSpeach: null,
-            answerComment: null
-        }
-    }
-
-    load() {
-        console.log(`Loading game name='${this.name}' in language='${this.language}'`)
-        this.dataset = Persistence.loadDatasetFrom(this.name, this.language);
-        this.deck = this.dataset.filter(item => item instanceof Card);
-    }
-
-    draw() {
-        this.state.card = this.#pickCard() || new Card({ front: "No cards available.", back: "Please add some cards to start playing." });
-        console.log(`state = ${this.state.card.front}`)
-
-        let round = this.direction === "shuffle"
-            ? Math.random() < 0.5 ? 'recognition' : 'recall'
-            : this.direction;
-
-        if (round === 'recognition') {
-            this.state.questionText = this.state.card?.front; // Foreign shown first.
-            this.state.questionEmoji = ''; // Emoji would be clue to meaning.
-            this.state.questionSpeach = this.state.card.front; // Speak the foreign at question time.
-            this.state.answerText = this.state.card.back; // Reveal native answer.
-            this.state.answerEmoji = this.state.card.emoji || ''; // Reveal emoji if any.
-            this.state.answerSpeach = ''; // Don't speak the native text.
-            this.state.answerComment = this.state.card.comment || ''; // Show comment if any.
-        }
-        else { // recall
-            this.state.questionText = this.state.card.back; // Native shown first.
-            this.state.questionEmoji = this.state.card.emoji || ''; // Show emoji if any.
-            this.state.questionSpeach = ''; // Don't speak the native text.
-            this.state.answerText = this.state.card.front; // Reveal foreign answer.
-            this.state.answerEmoji = this.state.card.emoji || ''; // Emoji still shows.
-            this.state.answerSpeach = this.state.card.front; // Speak the foreign text.
-            this.state.answerComment = this.state.card.comment || ''; // Show comment if any.
-        }
-    }
-
-    rate(difficulty, level) {
-        if (!this.state.card) return;
-        this.state.card.rate(difficulty, level);
-        Persistence.saveDatasetTo(this.name, this.language, this.dataset);
-    }
-
-    #pickCard() {
-        // Filter to ensure we only work with actual Card instances
-        let enabled = this.deck.filter(c =>
-            (this.configuration.categories.size === 0 || this.configuration.categories.has(c.category)) &&
-            c.matches(this.rank) // Note: fixed 'this.rate' to 'this.rank' which appears to be a bug in your original code
-        );
-
-        let result = null;
-
-        // Sort for Review mode specifically
-        if (this.rank === 'review') {
-            return enabled
-                .sort((a, b) => a.lastSeen - b.lastSeen)
-                .slice(0, 100)[Math.floor(Math.random() * Math.min(enabled.length, 100))];
-        }
-
-        // Weighted Random Selection using the class method
-        let weights = enabled.map(c => c.priority());
-        let total = weights.reduce((a, b) => a + b, 0);
-        let r = Math.random() * total;
-        for (let i = 0; i < enabled.length; i++) {
-            r -= weights[i];
-            if (r <= 0) {
-                return enabled[i];
-            }
-        }
-
-        return result;
-    }
-}
-
-
-//=============================================================================
-// Persistence
-//
-//=============================================================================
-class Persistence {
-
-    constructor(name, language) {
-        this.name = name;
-        this.language = language;
-    }
-
-    loadDataset() { return Persistence.loadDatasetFrom(this.name, this.language) }
-    saveDataset(items) { Persistence.saveDatasetTo(this.name, this.language, items) }
-
-    static loadDatasetFrom(name, language) {
-        let filename = Persistence.#filename(name, language);
-        let raw = localStorage.getItem(filename);
-        if (!raw) return [];
-
-        let data = JSON.parse(raw);
-        return data.map(item => {
-            if (item.type === "Comment") return new Comment(item.value);
-            return new Card(item);
-        });
-    }
-
-    static saveDatasetTo(name, language, items) {
-        let filename = Persistence.#filename(name, language)
-        localStorage.setItem(filename, JSON.stringify(items))
-        console.log(`Saved '${items.length}' items to '${filename}'.`);
-    }
-
-    static #filename(prefix, suffix) { return `${prefix}_${suffix}` }
-
-}
-
+window.selectGameDirection = selectGameDirection
+window.selectGameSound = selectGameSound
+window.toggleSound = selectToggleSound
+window.startGame = startGame
+window.startRound = startRound
+window.finishRound = finishRound
+window.cycleRound = cycleRound
+window.endGame = endGame
+window.toggleMenu = toggleMenu
+window.toggleSoundMenuItem = toggleSoundMenuItem
+window.selectGame = selectGame
+window.configureGame = configureGame
+window.backToMenu = backToMenu
+window.showCardEdit = showCardEdit
+window.saveCardEdit = saveCardEdit
+window.cancelEdit = cancelEdit
+window.editGameDataset = editGameDataset
+window.saveGameDataset = saveGameDataset
+window.selectAllText = selectAllText
+window.statistics = statistics
 
 //=============================================================================
 // Globals
 //
 //=============================================================================
-let game = new Game();
-
-function selectGameRank(rank) { game.rank = rank }
 function selectGameDirection(direction) { game.direction = direction }
 function selectGameSound(sound) { game.configuration.sound = sound }
 
@@ -230,14 +47,13 @@ function selectToggleSound() {
 
 
 
-
 //=============================================================================
 // UI Gameplay
 //
 //=============================================================================
 
 function startGame(rank) {
-    selectGameRank(rank)
+    UI.selectGameRank(rank)
     game.load();
 
     console.log(`Starting game in rank='${game.rank}', direction='${game.direction}'.`);
@@ -309,6 +125,7 @@ function endGame() {
 }
 
 
+
 //=============================================================================
 // Menu and Game Configuration
 //
@@ -321,10 +138,12 @@ function toggleMenu() {
 function toggleSoundMenuItem() {
     selectToggleSound();
     const item = document.getElementById("soundToggleItem");
-    item.innerHTML = game.configuration.sound
-        ? "&#128263; Mute Sound"
-        : "&#128266; Enable Sound";
-    document.getElementById("dropdownMenu").style.display = "none";
+    if (item) {
+        item.innerHTML = game.configuration.sound
+            ? "&#128263; Mute Sound"
+            : "&#128266; Enable Sound";
+        document.getElementById("dropdownMenu").style.display = "none";
+    }
 }
 
 function selectGame(name, language) {
@@ -389,6 +208,7 @@ function backToMenu() {
     document.getElementById("editCardArea").style.display = "none"
 }
 
+
 //=============================================================================
 // Card edit form
 //
@@ -399,19 +219,19 @@ function backToMenu() {
 function showCardEdit() {
     document.getElementById("studyArea").style.display = "none"
     document.getElementById("editCardArea").style.display = "block"
-    document.getElementById("editFront").value = this.state.card.front
-    document.getElementById("editBack").value = this.state.card.back
-    document.getElementById("editEmoji").value = this.state.card.emoji || ""
-    document.getElementById("editCategory").value = this.state.card.category || ""
-    document.getElementById("editComment").value = this.state.card.comment || ""
+    document.getElementById("editFront").value = game.state.card.front
+    document.getElementById("editBack").value = game.state.card.back
+    document.getElementById("editEmoji").value = game.state.card.emoji || ""
+    document.getElementById("editCategory").value = game.state.card.category || ""
+    document.getElementById("editComment").value = game.state.card.comment || ""
 }
 
 function saveCardEdit() {
-    this.state.card.front = document.getElementById("editFront").value.trim()
-    this.state.card.back = document.getElementById("editBack").value.trim()
-    this.state.card.emoji = document.getElementById("editEmoji").value.trim()
-    this.state.card.category = document.getElementById("editCategory").value.trim()
-    this.state.card.comment = document.getElementById("editComment").value.trim()
+    game.state.card.front = document.getElementById("editFront").value.trim()
+    game.state.card.back = document.getElementById("editBack").value.trim()
+    game.state.card.emoji = document.getElementById("editEmoji").value.trim()
+    game.state.card.category = document.getElementById("editCategory").value.trim()
+    game.state.card.comment = document.getElementById("editComment").value.trim()
 
     Persistence.saveDatasetTo(game.name, game.language, game.dataset)
 
@@ -438,7 +258,8 @@ let persistence = null;
 function editGameDataset(name, language) {
     console.log(`Editing game=${name}, language=${language}.`)
     persistence = new Persistence(name, language);
-    let items = persistence.loadDataset(); // This now returns mixed objects
+    let items = persistence.loadDataset();
+
 
     let lines = [];
     items.forEach(item => {
@@ -509,6 +330,7 @@ function selectAllText() {
 }
 
 
+
 //=============================================================================
 // Language Statistics screen
 //
@@ -564,16 +386,6 @@ function calculateStatistics(cards, now = new Date()) {
 // Utility functions 
 //
 //=============================================================================
-
-function formatDate(epoch) {
-    if (!epoch) return ""
-    return new Date(epoch).toISOString().slice(0, 10)
-}
-
-function parseDate(d) {
-    if (!d) return Date.now()
-    return new Date(d).getTime()
-}
 
 function speakText(text, lang) {
     if (!game.configuration.sound || !text) return

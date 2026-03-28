@@ -19,16 +19,27 @@
     </script>
 
 
-    <script src="assets/scripts/app.js"></script>
+    <script type="module">
+        // Import the classes needed for testing
+        //import { Card } from './assets/scripts/Card.js';
+        //import { Comment } from './assets/scripts/Comment.js';
+        //import { Game } from './assets/scripts/Game.js';
+        //import { Persistence } from './assets/scripts/Persistence.js';
 
-    <script src="assets/scripts/CommentTests.js"></script>
-    <script src="assets/scripts/CardTests.js"></script>
-    <script src="assets/scripts/GameTests.js"></script>
-    <script src="assets/scripts/StatisticsTests.js"></script>
+        // Attach them to window so the existing test files can see them
+        // (Or update the test files to use imports - see step 4)
+        //window.Game = Game;
+        //window.Persistence = Persistence;
 
-    <script>
+        // Dynamically import your test suites
+        await import('./assets/scripts/CardTests.js');
+        await import('./assets/scripts/CommentTests.js');
+        await import('./assets/scripts/GameTests.js');
+
+
         mocha.run();
     </script>
+
 
 </body>
 

@@ -1,5 +1,12 @@
-describe('Game', function () {
+//=============================================================================
+// GameTests.js
+//
+//=============================================================================
+import { Card } from "./Card.js"
+import { Game } from "./Game.js"
+import { Persistence } from "./Persistence.js"
 
+describe('Game', function () {
     let originalRandom;
 
     before(function () {
@@ -10,25 +17,14 @@ describe('Game', function () {
         Math.random = originalRandom;
     });
 
-    beforeEach(function () {
-        // Reset globals
-        window.Persistence = {
-            loadDatasetFrom: () => [],
-            saveDatasetTo: () => { }
-        };
-
-        window.Card = function () { };
-
-        window.game = new Game('Test', 'Spanish');
-    });
 
     describe('constructor', function () {
         it('should initialize defaults correctly', function () {
-            const g = new Game();
-            assert.equal(g.direction, 'recall');
-            assert.equal(g.rank, 'normal');
-            assert.isFalse(g.configuration.sound);
-            assert.instanceOf(g.configuration.categories, Set);
+            const game = new Game();
+            assert.equal(game.direction, 'recall');
+            assert.equal(game.rank, 'normal');
+            assert.isFalse(game.configuration.sound);
+            assert.instanceOf(game.configuration.categories, Set);
         });
     });
 
@@ -37,6 +33,8 @@ describe('Game', function () {
             const c1 = new Card({ front: "a", back: "b" });
             const c2 = new Comment("text");
             Persistence.loadDatasetFrom = () => [c1, c2];
+
+            const game = new Game("Vocabulary", "Testing");
             game.load();
             assert.equal(game.dataset.length, 2);
             assert.equal(game.deck.length, 1);
@@ -45,17 +43,17 @@ describe('Game', function () {
     });
 
     describe('draw()', function () {
-
         let card;
 
         beforeEach(function () {
             card = new Card({ front: 'hola', back: 'hello', emoji: '👋', comment: 'note' });
             card.matches = () => true;
             card.priority = () => 1;
-            game.deck = [card]; // Only one, so will always pick it
         });
 
         it('should set recognition mode correctly', function () {
+            const game = new Game("Vocabulary", "Testing");
+            game.deck = [card];
             game.direction = 'recognition';
             game.draw();
             assert.equal(game.state.questionText, 'hola');
@@ -63,16 +61,18 @@ describe('Game', function () {
             assert.equal(game.state.questionSpeach, 'hola');
             assert.equal(game.state.answerText, 'hello');
             assert.equal(game.state.answerEmoji, '👋');
-            assert.equal(game.state.answerSpeach, null);
+            assert.equal(game.state.answerSpeach, '');
             assert.equal(game.state.answerComment, 'note');
         });
 
         it('should set recall mode correctly', function () {
+            const game = new Game("Vocabulary", "Testing");
+            game.deck = [card];
             game.direction = 'recall';
             game.draw();
             assert.equal(game.state.questionText, 'hello');
             assert.equal(game.state.questionEmoji, '👋');
-            assert.equal(game.state.questionSpeach, null);
+            assert.equal(game.state.questionSpeach, '');
             assert.equal(game.state.answerText, 'hola');
             assert.equal(game.state.answerEmoji, '👋');
             assert.equal(game.state.answerSpeach, 'hola');
@@ -80,6 +80,8 @@ describe('Game', function () {
         });
 
         it('should randomize in shuffle mode', function () {
+            const game = new Game("Vocabulary", "Testing");
+            game.deck = [card];
             game.direction = 'shuffle';
 
             Math.random = () => 0.3; // < 0.5 → recognition
@@ -92,6 +94,7 @@ describe('Game', function () {
         });
 
         it('should handle null card gracefully', function () {
+            const game = new Game("Vocabulary", "Testing");
             game.deck = [];
             game.draw();
             assert.equal(game.state.card.front, 'No cards available.');
@@ -102,6 +105,7 @@ describe('Game', function () {
     describe('rate()', function () {
 
         it('should call card.rate and save dataset', function () {
+            const game = new Game("Vocabulary", "Testing");
             let rateCalled = false;
             let saveCalled = false;
             game.state.card = { rate: () => { rateCalled = true; } };
@@ -112,6 +116,7 @@ describe('Game', function () {
         });
 
         it('should do nothing if no current card', function () {
+            const game = new Game("Vocabulary", "Testing");
             game.state.card = null;
             let saveCalled = false;
             Persistence.saveDatasetTo = () => { saveCalled = true; };
@@ -126,6 +131,7 @@ describe('Game', function () {
             const c1 = new Card({ front: 'a', back: 'b', category: 'x', matches: () => true, priority: () => 1 });
             const c2 = new Card({ front: 'c', back: 'd', category: 'y', matches: () => true, priority: () => 1 });
 
+            const game = new Game("Vocabulary", "Testing");
             game.deck = [c1, c2];
             game.configuration.categories.add('x');
             game.draw();
@@ -135,6 +141,8 @@ describe('Game', function () {
         it('should return error card if no enabled cards', function () {
             const c = new Card({ front: 'a', back: 'b', category: 'x' });
             c.matches = () => false;
+
+            const game = new Game("Vocabulary", "Testing");
             game.deck = [c];
             game.configuration.categories.add('x');
             game.draw();
@@ -145,6 +153,7 @@ describe('Game', function () {
             const c1 = new Card({ front: 'a', back: 'b', category: 'a', matches: () => true, priority: () => 1 });
             const c2 = new Card({ front: 'c', back: 'd', category: 'a', matches: () => true, priority: () => 100 });
 
+            const game = new Game("Vocabulary", "Testing");
             game.deck = [c1, c2];
             game.configuration.categories.add('a');
             Math.random = () => 0.99; // bias toward high weight
@@ -156,6 +165,7 @@ describe('Game', function () {
             const c1 = new Card({ front: 'a', back: 'b', category: 'a', level: -1, matches: () => true, lastSeen: new Date() - 1000 });
             const c2 = new Card({ front: 'c', back: 'd', category: 'a', level: -1, matches: () => true, lastSeen: new Date() - 2000 });
 
+            const game = new Game("Vocabulary", "Testing");
             game.rank = 'review';
             game.deck = [c2, c1];
             game.configuration.categories.add('a');
