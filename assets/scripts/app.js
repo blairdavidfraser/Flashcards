@@ -30,7 +30,7 @@ function selectToggleSound() {
 //=============================================================================
 
 function startGame(rank) {
-    UI.selectGameRank(rank)
+    selectGameRank(rank)
     game.load();
 
     console.log(`Starting game in rank='${game.rank}', direction='${game.direction}'.`);
