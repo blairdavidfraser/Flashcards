@@ -9,7 +9,7 @@ import { Gameplay } from "./Gameplay.js"
 //
 //=============================================================================
 export const gameplay = new Gameplay(console);
-
+gameplay.direction = "Recognition"; // Same default as in html
 
 
 //=============================================================================
