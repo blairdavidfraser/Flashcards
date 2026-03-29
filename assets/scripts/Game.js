@@ -7,7 +7,6 @@ import { Persistence } from "./Persistence.js"
 
 export class Game {
     constructor(name = null, language = null) {
-        console.log('Constructing game.')
         this.name = name;
         this.language = language;
         this.direction = 'recall';
@@ -28,17 +27,18 @@ export class Game {
             answerSpeach: null,
             answerComment: null
         }
+
+        this.dataset = [];
+        this.deck = [];
     }
 
     load() {
-        console.log(`Loading game name='${this.name}' in language='${this.language}'`)
         this.dataset = Persistence.loadDatasetFrom(this.name, this.language);
         this.deck = this.dataset.filter(item => item instanceof Card);
     }
 
     draw() {
-        this.state.card = this.#pickCard() || new Card({ front: "No cards available.", back: "Please add some cards to start playing." });
-        console.log(`state = ${this.state.card.front}`)
+        this.state.card = this.#pickCard() || new Card({ front: `Please add some cards to start playing (count=${this.deck.length}).` });
 
         let round = this.direction === "shuffle"
             ? Math.random() < 0.5 ? 'recognition' : 'recall'

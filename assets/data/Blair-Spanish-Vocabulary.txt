@@ -2,39 +2,42 @@
 #
 # front :: string, non-empty
 #   - Gives the foreign translation of the text.
-#   - When generating new cards, if using a sentance, then capitalize and punctuate correctly.
+#   - When generating new cards, if using a sentence, then capitalize and punctuate correctly.
 #
 # back :: string, non-empty
 #   - Gives the native translation of the text (English).
-#   - When generating new cards, if using a sentance, then capitalize and punctuate correctly.
+#   - When generating new cards, if using a sentence, then capitalize and punctuate correctly.
 #
 # emoji :: string, or empty.
 #   - When available, represents a visual cue to aid in memorization.
 #   - When generating new cards, only use emoji when for single word translation cards when there is a strong match.
-#   - When generating new cards, never use an emoji if the card is a sentance or phrase.
+#   - When generating new cards, never use an emoji if the card is a sentence or phrase.
 #
 # category :: string, non-empty, of values: Noun, Verb, Adjective, Adverb, Phrase, Miscellaneous
 #   - When generating new cards, only choose from the above stated categories.
 #   - Capitalize the first character.
 #   - If clearly a noun, verb, adjective or adverb then use those categories.
-#   - If it is a sentence or part of a sentance, then use Phrase.
+#   - If it is a sentence or part of a sentence, then use Phrase.
 #   - If it is a word but fits none of the above cleanly, then use Miscellaneous.
 #   - If in doubt, use Miscellaneous.
 #
 # added :: date in YYYY-MM-DD form, or empty.
+#   - Gives the date on which the card was added to the user's deck.
 #   - When generating new cards, use the current local date for added.
 #
 # lastSeen :: date in YYYY-MM-DD form, or empty.
-#   - When generating new cards, leave lastSeen empty.
+#   - Gives the last date this card was seen by user.
+#   - When generating new cards, use 1970-01-01 for lastSeen.
 #
-# seen :: date in YYYY-MM-DD form, or empty.
-#   - When generating new cards, use 1970-01-01 for seen.
+# seen :: integer (count) or empty.
+#   - Gives the number of times this card has been seen by user.
+#   - When generating new cards, use 0 for seen.
 #
 # penalty :: integer
 #   - Represents a score, that gets higher when the user ranks the card hard.
 #   - Increases as the card is shown repeatedly.
 #   - Increases faster if the card is ranked hard on each presentation.
-#   - When generating new cards, leave penalty blank.
+#   - When generating new cards, use 0 for penalty.
 #
 # level :: integer of (-1, 0, 1)
 #   - Another representation of how hard a card is judged to me.
@@ -47,12 +50,16 @@
 #   - Useful for learning tips.
 #   - For example, explaining why on a given translation ser is used instead of estar.
 #   - For example, explaining why on a given translation preterit is used instead of imperfect.
+#   - When generating new cards, leave comment blank.
+#
+# Example new row:
+# hola | hello |  | Phrase | 2026-03-21 | 1970-01-01 | 0 | 0 | 1 |
 #
 # Content :: Vocabulary study
-#   - This file is for building vocabulary through words and short sentances or phrases.
-#   - Sentance cards should prefer sentance structure that is natural in Spanish.
-#   - Sentance cards should prefer sentances that are useful and someone may actually use.
-#   - Sentance cards should prefer proper capitalization and punctuate properly.
+#   - This file is for building vocabulary through words and short sentences or phrases.
+#   - Sentence cards should prefer sentence structure that is natural in Spanish.
+#   - Sentence cards should prefer sentences that are useful and someone may actually use.
+#   - Sentence cards should prefer proper capitalization and punctuate properly.
 #   - Consider the article: Spanish sometimes uses it, sometimes not. Prefer natural, common usage.
 #   - If the English needs some clarification or disambiguation, use a bracketed clarifying word: e.g. "to return (something)"
 #   - If the Spanish translates to two related English words, separate those English words with a '/'.
@@ -78,6 +85,7 @@
 #
 # *** If you notice a bug or error in these translations, always call them out ***
 #
+
 hola | hello |  | Phrase | 2026-03-10 | 2026-03-15 | 2 | 6 | -1 | 
 buenos días | good morning |  | Phrase | 2026-03-10 | 2026-03-15 | 3 | 8 | -1 | 
 buenas tardes | good afternoon |  | Phrase | 2026-03-10 | 2026-03-15 | 3 | 7 | -1 | 
@@ -87,7 +95,7 @@ hasta luego | see you later |  | Phrase | 2026-03-10 | 2026-03-13 | 2 | 5 | -1 |
 hasta mañana | see you tomorrow |  | Phrase | 2026-03-10 | 2026-03-15 | 2 | 6 | -1 | 
 nos vemos | see you |  | Phrase | 2026-03-10 | 2026-03-16 | 4 | 4 | -1 | 
 por favor | please |  | Phrase | 2026-03-10 | 2026-03-15 | 3 | 6 | -1 | 
-gracias | thank you |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 3 | 8 | -1 | 
+gracias | thank you |  | Phrase | 2026-03-10 | 2026-03-15 | 3 | 8 | -1 | 
 muchas gracias | thank you very much |  | Phrase | 2026-03-10 | 2026-03-15 | 2 | 6 | -1 | 
 de nada | you're welcome |  | Phrase | 2026-03-10 | 2026-03-15 | 2 | 6 | -1 | 
 perdón | excuse me / sorry (minor) |  | Phrase | 2026-03-10 | 2026-03-15 | 6 | 13 | -1 | 
@@ -211,7 +219,7 @@ la estación | station |  | Noun | 2026-03-10 | 2026-03-15 | 3 | 8 | -1 |
 el tren | train | 🚆 | Noun | 2026-03-10 | 2026-03-15 | 3 | 8 | -1 | 
 el autobús | bus | 🚌 | Noun | 2026-03-10 | 2026-03-19 | 3 | 5 | -1 | 
 el taxi | taxi | 🚕 | Noun | 2026-03-10 | 2026-03-15 | 2 | 6 | -1 | 
-el boleto, o la billete en España | ticket | 🎟️ | Noun | 2026-03-10 | 2026-03-28 | 14 | 21 | 0 | 
+el boleto, o el billete en España | ticket | 🎟️ | Noun | 2026-03-10 | 2026-03-28 | 14 | 21 | 0 | 
 la reserva | reservation |  | Noun | 2026-03-10 | 2026-03-15 | 4 | 8 | -1 | 
 la maleta | suitcase | 🧳 | Noun | 2026-03-10 | 2026-03-15 | 9 | 15 | -1 | 
 el pasaporte | passport | 🪪 | Noun | 2026-03-10 | 2026-03-15 | 2 | 6 | -1 | 

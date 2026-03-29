@@ -2,25 +2,13 @@ import { parseDate, formatDate } from "./Utilities.js"
 import { Card } from "./Card.js"
 import { Comment } from "./Comment.js"
 import { Persistence } from "./Persistence.js"
-import { Game } from "./Game.js"
-
-export const game = new Game();
-
-
-
-
+import { Gameplay } from "./Gameplay.js"
 
 //=============================================================================
 // Globals
 //
 //=============================================================================
-function selectGameRank(rank) { game.rank = rank }
-function selectGameDirection(direction) { game.direction = direction }
-function selectGameSound(sound) { game.configuration.sound = sound }
-
-function selectToggleSound() {
-    game.configuration.sound = !game.configuration.sound;
-}
+export const gameplay = new Gameplay(console);
 
 
 
@@ -30,46 +18,32 @@ function selectToggleSound() {
 //=============================================================================
 
 function startGame(rank) {
-    selectGameRank(rank)
-    game.load();
+    gameplay.initialize(rank);
 
-    console.log(`Starting game in rank='${game.rank}', direction='${game.direction}'.`);
     document.getElementById("configurationMenu").style.display = "none"
     document.getElementById("studyArea").style.display = "block"
     startRound()
 }
 
 function startRound() {
-    game.draw();
-
-    console.log(`Start round: question='${game.state.questionSpeach}', answer='${game.state.answerSpeach}'.`)
-    if (!game.state.card) {
-        document.getElementById("cardTop").innerText = "No cards."
-        document.getElementById("cardBottom").innerText = ""
-        document.getElementById("cardHeader").innerText = ""
-        document.getElementById("cardEmoji").innerHTML = ""
-        return;
-    }
-
-    document.getElementById("cardHeader").innerText = game.state.card.category || "";
-    document.getElementById("cardTop").innerHTML = renderCardContent(game.state.questionText);
-    document.getElementById("cardEmoji").innerHTML = game.state.questionEmoji;
+    gameplay.draw();
+    document.getElementById("cardHeader").innerText = gameplay.state.card.category || "";
+    document.getElementById("cardTop").innerHTML = renderCardContent(gameplay.state.questionText);
+    document.getElementById("cardEmoji").innerHTML = gameplay.state.questionEmoji;
     document.getElementById("cardBottom").innerHTML = "";
     document.getElementById("difficultyButtons").style.display = "none"
     document.getElementById("exitButton").style.display = "inline-block";
-    document.getElementById("cardInfo").innerText = game.state.card ? game.state.card.summary() : '';
-    speakText(game.state.questionSpeach, game.language);
+    document.getElementById("cardInfo").innerText = gameplay.state.card ? gameplay.state.card.summary() : '';
 }
 
 function finishRound() {
-    console.log(`Flip: answer='${game.state.answerText}', speach='${game.state.answerSpeach}''`)
-    document.getElementById("cardBottom").innerHTML = renderCardContent(game.state.answerText);
-    document.getElementById("cardEmoji").innerHTML = game.state.answerEmoji;
+    gameplay.reveal()
+    document.getElementById("cardBottom").innerHTML = renderCardContent(gameplay.state.answerText);
+    document.getElementById("cardEmoji").innerHTML = gameplay.state.answerEmoji;
     document.getElementById("difficultyButtons").style.display = "block";
     document.getElementById("exitButton").style.display = "none";
-    document.getElementById("cardComment").innerText = game.state.card ? game.state.card.comment : '';
-    document.getElementById("cardInfo").innerText = game.state.card ? game.state.card.summary() : '';
-    speakText(game.state.answerSpeach, game.language);
+    document.getElementById("cardComment").innerText = gameplay.state.card ? gameplay.state.card.comment : '';
+    document.getElementById("cardInfo").innerText = gameplay.state.card ? gameplay.state.card.summary() : '';
 }
 
 function renderCardContent(text) {
@@ -92,12 +66,12 @@ function renderCardContent(text) {
 }
 
 function cycleRound(difficulty, level) {
-    game.rate(difficulty, level);
+    gameplay.rate(difficulty, level);
     startRound();
 }
 
 function endGame() {
-    Persistence.saveDatasetTo(game.name, game.language, game.dataset)
+    gameplay.end();
     backToMenu()
 }
 
@@ -116,7 +90,7 @@ function toggleSoundMenuItem() {
     selectToggleSound();
     const item = document.getElementById("soundToggleItem");
     if (item) {
-        item.innerHTML = game.configuration.sound
+        item.innerHTML = gameplay.game.configuration.sound
             ? "&#128263; Mute Sound"
             : "&#128266; Enable Sound";
         document.getElementById("dropdownMenu").style.display = "none";
@@ -124,23 +98,23 @@ function toggleSoundMenuItem() {
 }
 
 function selectGame(name, language) {
-    game.name = name;
-    game.language = language;
+    gameplay.game.name = name;
+    gameplay.language = language;
 
     document.getElementById("gameMenu").style.display = "none"
     document.getElementById("configurationMenu").style.display = "block"
-    document.getElementById("languageTitle").innerText = game.language
+    document.getElementById("languageTitle").innerText = gameplay.language
 
     configureGame()
 }
 
 function configureGame() {
-    game.load();
+    gameplay.game.load();
     const container = document.getElementById("categoryFilters");
 
     // Build category counts
     const counts = {};
-    game.deck.forEach(card => {
+    gameplay.game.deck.forEach(card => {
         const cat = card.category || "Uncategorized";
         counts[cat] = (counts[cat] || 0) + 1;
     });
@@ -148,7 +122,7 @@ function configureGame() {
     const categories = Object.keys(counts).sort();
 
     // default: all selected
-    game.configuration.categories = new Set(categories);
+    gameplay.game.configuration.categories = new Set(categories);
 
     container.innerHTML = "";
     categories.forEach(cat => {
@@ -162,9 +136,9 @@ function configureGame() {
         const checkbox = label.querySelector("input");
         checkbox.addEventListener("change", () => {
             if (checkbox.checked) {
-                game.configuration.categories.add(cat);
+                gameplay.game.configuration.categories.add(cat);
             } else {
-                game.configuration.categories.delete(cat);
+                gameplay.game.configuration.categories.delete(cat);
             }
         });
 
@@ -196,21 +170,21 @@ function backToMenu() {
 function showCardEdit() {
     document.getElementById("studyArea").style.display = "none"
     document.getElementById("editCardArea").style.display = "block"
-    document.getElementById("editFront").value = game.state.card.front
-    document.getElementById("editBack").value = game.state.card.back
-    document.getElementById("editEmoji").value = game.state.card.emoji || ""
-    document.getElementById("editCategory").value = game.state.card.category || ""
-    document.getElementById("editComment").value = game.state.card.comment || ""
+    document.getElementById("editFront").value = gameplay.state.card.front
+    document.getElementById("editBack").value = gameplay.state.card.back
+    document.getElementById("editEmoji").value = gameplay.state.card.emoji || ""
+    document.getElementById("editCategory").value = gameplay.state.card.category || ""
+    document.getElementById("editComment").value = gameplay.state.card.comment || ""
 }
 
 function saveCardEdit() {
-    game.state.card.front = document.getElementById("editFront").value.trim()
-    game.state.card.back = document.getElementById("editBack").value.trim()
-    game.state.card.emoji = document.getElementById("editEmoji").value.trim()
-    game.state.card.category = document.getElementById("editCategory").value.trim()
-    game.state.card.comment = document.getElementById("editComment").value.trim()
+    gameplay.state.card.front = document.getElementById("editFront").value.trim()
+    gameplay.state.card.back = document.getElementById("editBack").value.trim()
+    gameplay.state.card.emoji = document.getElementById("editEmoji").value.trim()
+    gameplay.state.card.category = document.getElementById("editCategory").value.trim()
+    gameplay.state.card.comment = document.getElementById("editComment").value.trim()
 
-    Persistence.saveDatasetTo(game.name, game.language, game.dataset)
+    Persistence.saveDatasetTo(gameplay.game.name, gameplay.language, gameplay.game.dataset)
 
     document.getElementById("editCardArea").style.display = "none"
     document.getElementById("studyArea").style.display = "block"
@@ -364,35 +338,14 @@ function calculateStatistics(cards, now = new Date()) {
 //
 //=============================================================================
 
-function speakText(text, lang) {
-    if (!game.configuration.sound || !text) return
-
-    // Create speech synthesis 
-    const utterance = new SpeechSynthesisUtterance(text)
-
-    // Set language based on current language
-    if (lang === 'Spanish') {
-        utterance.lang = 'es-ES' // Spanish (Spain) - you can adjust to 'es-MX' for Mexican Spanish, etc.
-    } else if (lang === 'French') {
-        utterance.lang = 'fr-FR' // French (France)
-    }
-
-    // Optional: adjust speech properties
-    utterance.rate = 0.9 // Slightly slower for learning
-    utterance.pitch = 1
-
-    // Speak the text
-    window.speechSynthesis.speak(utterance)
-}
 
 
 
+window.selectGameRank = v => gameplay.rank = v
+window.selectGameDirection = v => gameplay.direction = v
+window.selectGameSound = v => gameplay.sound = v;
+window.selectToggleSound = () => gameplay.sound = !gameplay.sound;
 
-window.selectGameRank = selectGameRank
-
-window.selectGameDirection = selectGameDirection
-window.selectGameSound = selectGameSound
-window.toggleSound = selectToggleSound
 window.startGame = startGame
 window.startRound = startRound
 window.finishRound = finishRound
