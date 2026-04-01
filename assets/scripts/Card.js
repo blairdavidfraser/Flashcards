@@ -56,9 +56,8 @@ export class Card {
     priority() {
         const failRate = (this.penalty < 0) ? Math.abs(this.penalty) + 1 : 1;
         const isRecent = (Date.now() - this.added) < (86400000 * 7);
-        const recentBoost = isRecent ? 3 : 1;
         const seenPenalty = Math.max(1, this.seen / 5);
-        return (failRate * recentBoost) / seenPenalty;
+        return failRate / seenPenalty;
     }
 
     summary() {
