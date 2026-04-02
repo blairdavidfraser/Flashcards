@@ -32,6 +32,7 @@ function startRound() {
     document.getElementById("cardEmoji").innerHTML = gameplay.state.questionEmoji;
     document.getElementById("cardBottom").innerHTML = "";
     document.getElementById("difficultyButtons").style.display = "none"
+    document.getElementById("nextButtons").style.display = "none"
     document.getElementById("exitButton").style.display = "inline-block";
     document.getElementById("cardInfo").innerText = gameplay.state.card ? gameplay.state.card.summary() : '';
 }
@@ -40,7 +41,8 @@ function finishRound() {
     gameplay.reveal()
     document.getElementById("cardBottom").innerHTML = renderCardContent(gameplay.state.answerText);
     document.getElementById("cardEmoji").innerHTML = gameplay.state.answerEmoji;
-    document.getElementById("difficultyButtons").style.display = "block";
+    document.getElementById("difficultyButtons").style.display = gameplay.state.direction === "recall" ? "block" : "none";
+    document.getElementById("nextButtons").style.display = gameplay.state.direction === "recognition" ? "block" : "none";
     document.getElementById("exitButton").style.display = "none";
     document.getElementById("cardComment").innerText = gameplay.state.card ? gameplay.state.card.comment : '';
     document.getElementById("cardInfo").innerText = gameplay.state.card ? gameplay.state.card.summary() : '';
@@ -65,8 +67,10 @@ function renderCardContent(text) {
     return text;
 }
 
-function cycleRound(difficulty, level) {
-    gameplay.rate(difficulty, level);
+function cycleRound(difficulty = null, level = null) {
+    if (difficulty !== null) {
+        gameplay.rate(difficulty, level ?? gameplay.state.card.level);
+    }
     startRound();
 }
 

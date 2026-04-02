@@ -52,9 +52,9 @@ export class Card {
     }
 
     isHard() { return this.level >= 1; }
+    isReview() { return this.level <= -1; }
+    isNormal() { return this.level === 0; }
     isNew() { return this.level >= 0 && (this.seen < 3 || this.added >= Date.now() - 5 * 24 * 60 * 60 * 1000); }
-    isReview() { return this.level === -1; }
-    isNormal() { return this.level >= 0; }
 
     priority() {
         return (this.penalty + 0.1) / (1 + this.seen * 0.2);
@@ -64,7 +64,7 @@ export class Card {
         let added = parseDate(this.added)
         let last = this.lastSeen ? new Date(this.lastSeen) : null
         let seen = this.seen || 0
-        return `level ${this.level} (${this.penalty}), added ${formatDate(added)}, ` +
+        return `level ${this.level} (${this.penalty.toFixed(2)}), added ${formatDate(added)}, ` +
             `last seen ${last ? formatDate(last) : 'never'}, seen ${seen}`
     }
 }

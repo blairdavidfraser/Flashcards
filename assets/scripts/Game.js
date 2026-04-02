@@ -19,6 +19,7 @@ export class Game {
 
         this.state = {
             card: null,
+            direction: null,
             questionText: null,
             questionEmoji: null,
             questionSpeach: null,
@@ -40,11 +41,11 @@ export class Game {
     draw() {
         this.state.card = this.#pickCard() || new Card({ front: `Please add some cards to start playing (count=${this.deck.length}).` });
 
-        let round = this.direction === "shuffle"
+        this.state.direction = this.direction === "shuffle"
             ? Math.random() < 0.5 ? 'recognition' : 'recall'
             : this.direction;
 
-        if (round === 'recognition') {
+        if (this.state.direction === 'recognition') {
             this.state.questionText = this.state.card?.front; // Foreign shown first.
             this.state.questionEmoji = ''; // Emoji would be clue to meaning.
             this.state.questionSpeach = this.state.card.front; // Speak the foreign at question time.
@@ -71,32 +72,54 @@ export class Game {
     }
 
     #pickCard() {
-        // Filter to ensure we only work with actual Card instances
-        let enabled = this.deck.filter(c =>
-            (this.configuration.categories.size === 0 || this.configuration.categories.has(c.category)) &&
-            c.matches(this.rank)
-        );
+        let enabled = this.#filterByCategory(this.deck, this.configuration.categories);
+        switch (this.rank) {
 
-        let result = null;
+            case 'review':
+                // Review just picks the 100 rank === -1 cards not seen in longest time
+                enabled = this.#filterByRank(enabled, this.rank, 100);
+                break;
 
-        // Sort for Review mode specifically
-        if (this.rank === 'review') {
-            return enabled
-                .sort((a, b) => a.lastSeen - b.lastSeen)
-                .slice(0, 100)[Math.floor(Math.random() * Math.min(enabled.length, 100))];
+            case 'normal':
+                // Normal picks non-easy cards, but limits the number of hard cards to max 20.
+                let hard = this.#filterByRank(enabled, 'hard', 20);
+                let normal = this.#filterByRank(enabled, 'normal');
+                enabled = hard.concat(normal);
+                break;
+
+            default:
+                // For default, just pick by rank.
+                enabled = this.#filterByRank(enabled, this.rank);
+                break;
         }
+        enabled = this.#filterByRank(enabled, this.rank, this.rank === 'review' ? 100 : null);
+        console.log(`Game.#pickCard: ${enabled.length} cards match category and rank filters.`);
+        return this.#weightedRandom(enabled);
 
-        // Weighted Random Selection using the class method
-        let weights = enabled.map(c => c.priority());
+    }
+
+    #filterByCategory(cards, categories, n = null) {
+        return cards.filter(c => categories.size === 0 || categories.has(c.category))
+            .slice(0, n || cards.length);
+    }
+
+    #filterByRank(cards, rank, n = null) {
+        return cards.filter(c => c.matches(rank))
+            .sort((a, b) => a.lastSeen - b.lastSeen)
+            .slice(0, n || cards.length);
+    }
+
+    #weightedRandom(cards) {
+        let weights = cards.map(c => c.priority());
         let total = weights.reduce((a, b) => a + b, 0);
         let r = Math.random() * total;
-        for (let i = 0; i < enabled.length; i++) {
+        for (let i = 0; i < cards.length; i++) {
             r -= weights[i];
             if (r <= 0) {
-                return enabled[i];
+                return cards[i];
             }
         }
-
-        return result;
+        return null;
     }
+
 }

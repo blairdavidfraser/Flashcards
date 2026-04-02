@@ -45,7 +45,7 @@ export class Gameplay {
     }
 
     reveal() {
-        this.logger?.log(`Gameplay.reveal: answer='${this.state.answerText}', speach='${this.state.answerSpeach}'`)
+        this.logger?.log(`Gameplay.reveal (${this.state.direction}) answer='${this.state.answerText}', speach='${this.state.answerSpeach}'`)
         this.#speakText(this.state.answerSpeach, this.language);
     }
 
