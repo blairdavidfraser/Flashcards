@@ -230,7 +230,7 @@ function editGameDataset(name, language) {
                 formatDate(item.added),
                 formatDate(item.lastSeen),
                 item.seen,
-                item.penalty,
+                item.penalty.toFixed(4),
                 item.level,
                 item.comment || ""
             ].join(" | "));
@@ -265,7 +265,7 @@ function saveGameDataset() {
             added: parseDate(parts[4].trim()),
             lastSeen: parseDate(parts[5].trim()),
             seen: parseInt(parts[6]) || 0,
-            penalty: parseDouble(parts[7]) || 0,
+            penalty: parseFloat(parts[7]) || 0,
             level: parseInt(parts[8]) || 0,
             comment: parts[9]?.trim() || ""
         });
