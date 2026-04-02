@@ -18,7 +18,7 @@ describe('Card', function () {
                 added: 123456789,
                 lastSeen: 987654321,
                 seen: 5,
-                penalty: -2,
+                penalty: 2,
                 level: 1,
                 comment: '  Test comment  '
             };
@@ -31,7 +31,8 @@ describe('Card', function () {
             assert.equal(c.added, 123456789);
             assert.equal(c.lastSeen, 987654321);
             assert.equal(c.seen, 5);
-            assert.equal(c.penalty, -2);
+            assert.equal(c.totalFailure, 10);
+            assert.equal(c.penalty, 2);
             assert.equal(c.level, 1);
         });
 
@@ -43,6 +44,7 @@ describe('Card', function () {
             assert.isAtLeast(c.added, Date.now() - 1000);
             assert.isNull(c.lastSeen);
             assert.equal(c.seen, 0);
+            assert.equal(c.totalFailure, 0);
             assert.equal(c.penalty, 0);
             assert.equal(c.level, 0);
             assert.equal(c.comment, '');
@@ -67,13 +69,14 @@ describe('Card', function () {
                 front: 'a',
                 back: 'b',
                 seen: 5,
-                penalty: -2,
+                penalty: 4,
                 level: 3,
                 added: 123
             });
 
             assert.equal(c.seen, 5);
-            assert.equal(c.penalty, -2);
+            assert.equal(c.totalFailure, 20);
+            assert.equal(c.penalty, 4);
             assert.equal(c.level, 3);
             assert.equal(c.added, 123);
         });
@@ -133,7 +136,8 @@ describe('Card', function () {
 
         it('should adjust penalty based on difficulty', function () {
             const c = new Card({ front: 'a', back: 'b', penalty: 0 });
-            c.rate(1, 0); // penalty += (3 - 1) = 2
+            c.rate(3, 0); // failure = 3-1=2, totalFailure=2, penalty=2/1=2
+            assert.equal(c.totalFailure, 2);
             assert.equal(c.penalty, 2);
         });
     });

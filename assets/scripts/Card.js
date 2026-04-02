@@ -15,7 +15,8 @@ export class Card {
         this.added = data.added || Date.now();
         this.lastSeen = data.lastSeen || null;
         this.seen = data.seen || 0;
-        this.penalty = data.penalty || 0;
+        this.totalFailure = data.totalFailure || (data.penalty * (data.seen || 0));
+        this.penalty = this.seen > 0 ? this.totalFailure / this.seen : 0;
         this.level = data.level || 0;
         this.comment = data.comment?.trim() || "";
     }
@@ -30,7 +31,9 @@ export class Card {
         this.seen++;
         this.lastSeen = Date.now();
         this.level = Math.max(Math.min(level, 1), -1);
-        this.penalty += (3 - difficulty);
+        const failure = difficulty - 1;
+        this.totalFailure = (this.totalFailure || 0) + failure;
+        this.penalty = this.seen > 0 ? this.totalFailure / this.seen : 0;
     }
 
     matches(level) {
@@ -54,10 +57,7 @@ export class Card {
     isNormal() { return this.level >= 0; }
 
     priority() {
-        const failRate = (this.penalty < 0) ? Math.abs(this.penalty) + 1 : 1;
-        const isRecent = (Date.now() - this.added) < (86400000 * 7);
-        const seenPenalty = Math.max(1, this.seen / 5);
-        return failRate / seenPenalty;
+        return (this.penalty + 0.1) / (1 + this.seen * 0.2);
     }
 
     summary() {
