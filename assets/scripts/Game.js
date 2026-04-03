@@ -13,16 +13,21 @@ export class Game {
         this.rank = 'normal'; // normal, new, hard, review
 
         this.configuration = {
-            sound: false, // will toggle to true on document load
+            sound: {
+                foreign: true,
+                native: false
+            },
             categories: new Set()
         };
 
         this.state = {
             card: null,
             direction: null,
+            questionLanguage: null,
             questionText: null,
             questionEmoji: null,
             questionSpeach: null,
+            answerLanguage: null,
             answerText: null,
             answerEmoji: null,
             answerSpeach: null,
@@ -46,21 +51,25 @@ export class Game {
             : this.direction;
 
         if (this.state.direction === 'recognition') {
-            this.state.questionText = this.state.card?.front; // Foreign shown first.
+            this.state.questionLanguage = this.language; // Question is foreign
+            this.state.questionText = this.state.card?.front; // Foreign shown at question time.
             this.state.questionEmoji = ''; // Emoji would be clue to meaning.
-            this.state.questionSpeach = this.state.card.front; // Speak the foreign at question time.
-            this.state.answerText = this.state.card.back; // Reveal native answer.
+            this.state.questionSpeach = this.configuration.sound.foreign ? this.state.card.front : null;
+            this.state.answerLanguage = 'English'; // Answer is English
+            this.state.answerText = this.state.card.back; // Native shown at reveal time.
             this.state.answerEmoji = this.state.card.emoji || ''; // Reveal emoji if any.
-            this.state.answerSpeach = ''; // Don't speak the native text.
+            this.state.answerSpeach = this.configuration.sound.native ? this.state.card.back : null;
             this.state.answerComment = this.state.card.comment || ''; // Show comment if any.
         }
         else { // recall
-            this.state.questionText = this.state.card.back; // Native shown first.
+            this.state.questionLanguage = 'English';
+            this.state.questionText = this.state.card.back; // Native shown at question time.
             this.state.questionEmoji = this.state.card.emoji || ''; // Show emoji if any.
-            this.state.questionSpeach = ''; // Don't speak the native text.
-            this.state.answerText = this.state.card.front; // Reveal foreign answer.
+            this.state.questionSpeach = this.configuration.sound.native ? this.state.card.back : null;
+            this.state.answerLanguage = this.language; // Answer is foreign
+            this.state.answerText = this.state.card.front; // Reveal shown at reveal time.
             this.state.answerEmoji = this.state.card.emoji || ''; // Emoji still shows.
-            this.state.answerSpeach = this.state.card.front; // Speak the foreign text.
+            this.state.answerSpeach = this.configuration.sound.foreign ? this.state.card.front : null;
             this.state.answerComment = this.state.card.comment || ''; // Show comment if any.
         }
     }

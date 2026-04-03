@@ -6,22 +6,20 @@ import { Gameplay } from "./Gameplay.js"
 
 //=============================================================================
 // Globals
-//
 //=============================================================================
 export const gameplay = new Gameplay(console);
-gameplay.direction = "Recognition"; // Same default as in html
+gameplay.direction = "Recognition";
 
 
 //=============================================================================
 // UI Gameplay
-//
 //=============================================================================
 
 function startGame(rank) {
     gameplay.initialize(rank);
 
-    document.getElementById("configurationMenu").style.display = "none"
-    document.getElementById("studyArea").style.display = "block"
+    document.getElementById("configurationMenu").classList.add("hidden")
+    document.getElementById("studyArea").classList.remove("hidden");
     startRound()
 }
 
@@ -30,10 +28,10 @@ function startRound() {
     document.getElementById("cardHeader").innerText = gameplay.state.card.category || "";
     document.getElementById("cardTop").innerHTML = renderCardContent(gameplay.state.questionText);
     document.getElementById("cardEmoji").innerHTML = gameplay.state.questionEmoji;
-    document.getElementById("cardBottom").innerHTML = "";
-    document.getElementById("difficultyButtons").style.display = "none"
-    document.getElementById("nextButtons").style.display = "none"
-    document.getElementById("exitButton").style.display = "inline-block";
+    document.getElementById("cardBottom").innerHTML = "&nbsp;";
+    document.getElementById("difficultyButtons").classList.add("hidden")
+    document.getElementById("nextButtons").classList.add("hidden")
+    document.getElementById("exitButton").classList.remove("hidden");
     document.getElementById("cardInfo").innerText = gameplay.state.card ? gameplay.state.card.summary() : '';
 }
 
@@ -41,9 +39,16 @@ function finishRound() {
     gameplay.reveal()
     document.getElementById("cardBottom").innerHTML = renderCardContent(gameplay.state.answerText);
     document.getElementById("cardEmoji").innerHTML = gameplay.state.answerEmoji;
-    document.getElementById("difficultyButtons").style.display = gameplay.state.direction === "recall" ? "block" : "none";
-    document.getElementById("nextButtons").style.display = gameplay.state.direction === "recognition" ? "block" : "none";
-    document.getElementById("exitButton").style.display = "none";
+    if (gameplay.state.direction === "recognition") {
+        document.getElementById("difficultyButtons").classList.add("hidden")
+        document.getElementById("nextButtons").classList.remove("hidden");
+    } else {
+        document.getElementById("difficultyButtons").classList.remove("hidden");
+        document.getElementById("nextButtons").classList.add("hidden")
+    }
+
+
+    document.getElementById("exitButton").classList.add("hidden")
     document.getElementById("cardComment").innerText = gameplay.state.card ? gameplay.state.card.comment : '';
     document.getElementById("cardInfo").innerText = gameplay.state.card ? gameplay.state.card.summary() : '';
 }
@@ -83,21 +88,60 @@ function endGame() {
 
 //=============================================================================
 // Menu and Game Configuration
-//
 //=============================================================================
-function toggleMenu() {
-    const menu = document.getElementById("dropdownMenu");
-    menu.style.display = (menu.style.display === "none") ? "block" : "none";
+const menu = document.getElementById("dropdownMenu");
+const hamburger = document.getElementById("hamburger");
+
+// Toggle menu visibility
+hamburger.addEventListener("click", (e) => {
+    e.stopPropagation();
+    // Refresh labels every time we open to ensure they match current state
+    refreshSoundMenu();
+    menu.classList.toggle("hidden");
+});
+
+// Click outside = close
+document.addEventListener("click", () => {
+    menu.classList.add("hidden");
+});
+
+// Prevent clicks inside menu from closing it automatically 
+// (unless it's one of our toggle items which has its own logic)
+menu.addEventListener("click", (e) => {
+    e.stopPropagation();
+});
+
+/**
+ * Updates the text and emojis in the dropdown menu based on current state
+ */
+function refreshSoundMenu() {
+    const foreignItem = document.getElementById("foreignSoundToggle");
+    const nativeItem = document.getElementById("nativeSoundToggle");
+
+    if (foreignItem) {
+        foreignItem.innerHTML = gameplay.sound.foreign
+            ? "&#128266; Foreign Sound"
+            : "&#128263; Foreign Sound";
+    }
+
+    if (nativeItem) {
+        nativeItem.innerHTML = gameplay.sound.native
+            ? "&#128266; Native Sound"
+            : "&#128263; Native Sound";
+    }
 }
 
-function toggleSoundMenuItem() {
-    selectToggleSound();
-    const item = document.getElementById("soundToggleItem");
-    if (item) {
-        item.innerHTML = gameplay.game.configuration.sound
-            ? "&#128263; Mute Sound"
-            : "&#128266; Enable Sound";
-        document.getElementById("dropdownMenu").style.display = "none";
+/**
+ * Toggles a specific sound setting and closes the menu
+ * @param {string} type - 'foreign' or 'native'
+ */
+function toggleSound(type) {
+    if (gameplay.sound.hasOwnProperty(type)) {
+        gameplay.sound[type] = !gameplay.sound[type];
+        console.log(`${type} sound is now: ${gameplay.sound[type]}`);
+
+        // Close menu after selection
+        menu.classList.add("hidden");
     }
 }
 
@@ -105,8 +149,8 @@ function selectGame(name, language) {
     gameplay.game.name = name;
     gameplay.language = language;
 
-    document.getElementById("gameMenu").style.display = "none"
-    document.getElementById("configurationMenu").style.display = "block"
+    document.getElementById("gameMenu").classList.add("hidden")
+    document.getElementById("configurationMenu").classList.remove("hidden");
     document.getElementById("languageTitle").innerText = gameplay.language
 
     configureGame()
@@ -151,29 +195,25 @@ function configureGame() {
 }
 
 function backToMenu() {
-    document.getElementById("gameMenu").style.display = "block"
-    document.getElementById("configurationMenu").style.display = "none"
-    document.getElementById("studyArea").style.display = "none"
-    // hide editing and stats panels; old resetArea may not exist
+    document.getElementById("gameMenu").classList.remove("hidden");
+    document.getElementById("configurationMenu").classList.add("hidden")
+    document.getElementById("studyArea").classList.add("hidden")
+
     let edit = document.getElementById("editArea")
-    if (edit) edit.style.display = "none"
+    if (edit) edit.classList.add("hidden")
     let reset = document.getElementById("resetArea")
-    if (reset) reset.style.display = "none"
-    document.getElementById("statsArea").style.display = "none"
-    document.getElementById("editCardArea").style.display = "none"
+    if (reset) reset.classList.add("hidden")
+    document.getElementById("statsArea").classList.add("hidden")
+    document.getElementById("editCardArea").classList.add("hidden")
 }
 
 
 //=============================================================================
 // Card edit form
-//
-// Allows for a card to be edited in-game, when an error is found. Doing so
-// abandons the card after edit and moves on to the next round - which is
-// something that can be reconsidered in the future.
 //=============================================================================
 function showCardEdit() {
-    document.getElementById("studyArea").style.display = "none"
-    document.getElementById("editCardArea").style.display = "block"
+    document.getElementById("studyArea").classList.add("hidden")
+    document.getElementById("editCardArea").classList.remove("hidden");
     document.getElementById("editFront").value = gameplay.state.card.front
     document.getElementById("editBack").value = gameplay.state.card.back
     document.getElementById("editEmoji").value = gameplay.state.card.emoji || ""
@@ -190,38 +230,31 @@ function saveCardEdit() {
 
     Persistence.saveDatasetTo(gameplay.game.name, gameplay.language, gameplay.game.dataset)
 
-    document.getElementById("editCardArea").style.display = "none"
-    document.getElementById("studyArea").style.display = "block"
+    document.getElementById("editCardArea").classList.add("hidden")
+    document.getElementById("studyArea").classList.remove("hidden");
     startRound()
 }
 
 function cancelEdit() {
-    document.getElementById("editCardArea").style.display = "none"
-    document.getElementById("studyArea").style.display = "block"
+    document.getElementById("editCardArea").classList.add("hidden")
+    document.getElementById("studyArea").classList.remove("hidden");
 }
 
 
 //=============================================================================
 // Game Dataset load and save
-//
-// Allows for the full export and re-load of game dataset in a pipe-separated
-// file format. Currently has no error checking or validation on the file
-// contents during upload - which is something to fix in the future.
 //=============================================================================
 let persistence = null;
 
 function editGameDataset(name, language) {
-    console.log(`Editing game=${name}, language=${language}.`)
     persistence = new Persistence(name, language);
     let items = persistence.loadDataset();
-
 
     let lines = [];
     items.forEach(item => {
         if (item.type === "Comment") {
             lines.push(item.value);
         } else {
-            // It's a Card object
             lines.push([
                 item.front,
                 item.back,
@@ -237,8 +270,8 @@ function editGameDataset(name, language) {
         }
     });
 
-    document.getElementById("gameMenu").style.display = "none";
-    document.getElementById("editArea").style.display = "block";
+    document.getElementById("gameMenu").classList.add("hidden")
+    document.getElementById("editArea").classList.remove("hidden");
     document.getElementById("editTitle").innerText = `Edit ${language} / ${name}`;
     document.getElementById("editBox").value = lines.join("\n");
 }
@@ -246,7 +279,7 @@ function editGameDataset(name, language) {
 function saveGameDataset() {
     let text = document.getElementById("editBox").value;
     let lines = text.split("\n");
-    let cards = []; // This will now hold both Cards and Comment objects
+    let cards = [];
 
     for (let line of lines) {
         let trimmed = line.trim();
@@ -258,16 +291,16 @@ function saveGameDataset() {
 
         let parts = line.split("|");
         let card = new Card({
-            front: parts[0].trim(),
-            back: parts[1].trim(),
-            emoji: parts[2].trim() || "",
-            category: parts[3].trim() || "",
-            added: parseDate(parts[4].trim()),
-            lastSeen: parseDate(parts[5].trim()),
-            seen: parseInt(parts[6]) || 0,
-            penalty: parseFloat(parts[7]) || 0,
-            level: parseInt(parts[8]) || 0,
-            comment: parts[9]?.trim() || ""
+            front: parts.trim(),
+            back: parts.trim(),
+            emoji: parts.trim() || "",
+            category: parts.trim() || "",
+            added: parseDate(parts.trim()),
+            lastSeen: parseDate(parts.trim()),
+            seen: parseInt(parts) || 0,
+            penalty: parseFloat(parts) || 0,
+            level: parseInt(parts) || 0,
+            comment: parts?.trim() || ""
         });
 
         if (card.validate()) {
@@ -288,15 +321,14 @@ function selectAllText() {
 
 //=============================================================================
 // Language Statistics screen
-//
 //=============================================================================
 function statistics(name, language) {
     const dataset = Persistence.loadDatasetFrom(name, language);
     const cards = dataset.filter(item => item instanceof Card);
     const stats = calculateStatistics(cards);
     const html = renderStatistics(stats, language);
-    document.getElementById("gameMenu").style.display = "none";
-    document.getElementById("statsArea").style.display = "block";
+    document.getElementById("gameMenu").classList.add("hidden")
+    document.getElementById("statsArea").classList.remove("hidden");
     document.getElementById("statsTitle").innerText = `${language} Statistics`;
     document.getElementById("statsContent").innerHTML = html;
 }
@@ -308,7 +340,7 @@ function renderStatistics(stats) {
         <p><strong>Today:</strong> ${stats.today}</p>
         <hr/>`;
 
-    Object.keys(stats.levels) // Levels (numeric sort)
+    Object.keys(stats.levels)
         .sort((a, b) => parseInt(a) - parseInt(b))
         .forEach(level => {
             html += `<p><strong>Level ${level}:</strong> ${stats.levels[level]}</p>`;
@@ -316,7 +348,7 @@ function renderStatistics(stats) {
 
     html += '<hr/>';
 
-    Object.keys(stats.categories) // Categories (alphabetical)
+    Object.keys(stats.categories)
         .sort()
         .forEach(cat => {
             html += `<p><strong>${cat}:</strong> ${stats.categories[cat]}</p>`;
@@ -327,7 +359,6 @@ function renderStatistics(stats) {
 
 function calculateStatistics(cards, now = new Date()) {
     const today = new Date(now).toISOString().slice(0, 10);
-    console.log(`Calculate statistics for today='${today}'.`);
     return {
         total: cards.length,
         today: cards.filter(c => c.seen > 0 && c.lastSeen && new Date(c.lastSeen).toISOString().slice(0, 10) === today).length,
@@ -339,24 +370,17 @@ function calculateStatistics(cards, now = new Date()) {
 
 //=============================================================================
 // Utility functions 
-//
 //=============================================================================
-
-
-
 
 window.selectGameRank = v => gameplay.rank = v
 window.selectGameDirection = v => gameplay.direction = v
-window.selectGameSound = v => gameplay.sound = v;
-window.selectToggleSound = () => gameplay.sound = !gameplay.sound;
 
 window.startGame = startGame
 window.startRound = startRound
 window.finishRound = finishRound
 window.cycleRound = cycleRound
 window.endGame = endGame
-window.toggleMenu = toggleMenu
-window.toggleSoundMenuItem = toggleSoundMenuItem
+window.toggleSound = toggleSound // Updated global exposure
 window.selectGame = selectGame
 window.configureGame = configureGame
 window.backToMenu = backToMenu
@@ -368,20 +392,5 @@ window.saveGameDataset = saveGameDataset
 window.selectAllText = selectAllText
 window.statistics = statistics
 
-// Add this to your Menu and Game Configuration section
-window.addEventListener("click", function (event) {
-    const menu = document.getElementById("dropdownMenu");
-    const hamburger = document.getElementById("hamburger");
-
-    // If the menu is open AND the click was NOT on the hamburger 
-    // AND the click was NOT inside the menu itself...
-    if (menu.style.display === "block" &&
-        event.target !== hamburger &&
-        !menu.contains(event.target)) {
-        document.getElementById("dropdownMenu").style.display = "none";
-    }
-});
-
-toggleSoundMenuItem();
-
-
+// Initial render of menu items
+refreshSoundMenu();

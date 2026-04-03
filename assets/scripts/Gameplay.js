@@ -41,12 +41,12 @@ export class Gameplay {
     draw() {
         this.game.draw();
         this.logger?.log(`Gameplay.draw: question='${this.state.questionSpeach}', answer='${this.state.answerSpeach}'.`)
-        this.#speakText(this.state.questionSpeach, this.language);
+        this.#speakText(this.state.questionSpeach, this.state.questionLanguage);
     }
 
     reveal() {
         this.logger?.log(`Gameplay.reveal (${this.state.direction}) answer='${this.state.answerText}', speach='${this.state.answerSpeach}'`)
-        this.#speakText(this.state.answerSpeach, this.language);
+        this.#speakText(this.state.answerSpeach, this.state.answerLanguage);
     }
 
     rate(difficulty, level) {
@@ -70,6 +70,8 @@ export class Gameplay {
             utterance.lang = 'es-ES' // Spanish (Spain) - you can adjust to 'es-MX' for Mexican Spanish, etc.
         } else if (lang === 'French') {
             utterance.lang = 'fr-FR' // French (France)
+        } else if (lang === 'English') {
+            utterance.lang = 'en-CA' // English (Canada)
         }
 
         // Optional: adjust speech properties

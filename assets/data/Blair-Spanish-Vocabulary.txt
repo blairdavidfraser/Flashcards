@@ -11,15 +11,14 @@
 # emoji :: string, or empty.
 #   - When available, represents a visual cue to aid in memorization.
 #   - When generating new cards, only use emoji when for single word translation cards when there is a strong match.
-#   - When generating new cards, never use an emoji if the card is a sentence or phrase.
+#   - When generating new cards, never use an emoji if the card is a sentence or Conversational.
 #
-# category :: string, non-empty, of values: Noun, Verb, Adjective, Adverb, Phrase, Miscellaneous
+# category :: string, non-empty, of values: Noun, Verb, Adjective, Adverb, Conversational
 #   - When generating new cards, only choose from the above stated categories.
 #   - Capitalize the first character.
 #   - If clearly a noun, verb, adjective or adverb then use those categories.
-#   - If it is a sentence or part of a sentence, then use Phrase.
-#   - If it is a word but fits none of the above cleanly, then use Miscellaneous.
-#   - If in doubt, use Miscellaneous.
+#   - If it is a sentence, conversational frament or greeting, then use Conversational.
+#   - If it doesn't fit the above categories cleanly, use Conversational.
 #
 # added :: date in YYYY-MM-DD form, or empty.
 #   - Gives the date on which the card was added to the user's deck.
@@ -53,10 +52,10 @@
 #   - When generating new cards, leave comment blank.
 #
 # Example new row:
-# hola | hello |  | Phrase | 2026-03-21 | 1970-01-01 | 0 | 0 | 1 |
+# hola | hello |  | Conversational | 2026-03-21 | 1970-01-01 | 0 | 0 | 1 |
 #
 # Content :: Vocabulary study
-#   - This file is for building vocabulary through words and short sentences or phrases.
+#   - This file is for building vocabulary through words and short sentences or Conversationals.
 #   - Sentence cards should prefer sentence structure that is natural in Spanish.
 #   - Sentence cards should prefer sentences that are useful and someone may actually use.
 #   - Sentence cards should prefer proper capitalization and punctuate properly.
@@ -87,97 +86,97 @@
 #
 
 # >>> Basics
-hola | hello |  | Phrase | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
-buenos días | good morning |  | Phrase | 2026-03-10 | 2026-03-15 | 3 | 2.67 | -1 | 
-buenas tardes | good afternoon |  | Phrase | 2026-03-10 | 2026-04-01 | 4 | 2.50 | -1 | 
-buenas noches | good evening / good night |  | Phrase | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
-adiós | goodbye |  | Phrase | 2026-03-10 | 2026-03-15 | 2 | 1.50 | -1 | 
-hasta luego | see you later |  | Phrase | 2026-03-10 | 2026-03-13 | 2 | 2.50 | -1 | 
-hasta mañana | see you tomorrow |  | Phrase | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
-nos vemos | see you |  | Phrase | 2026-03-10 | 2026-03-16 | 4 | 1.00 | -1 | 
-por favor | please |  | Phrase | 2026-03-10 | 2026-04-01 | 4 | 2.25 | -1 | 
-gracias | thank you |  | Phrase | 2026-03-10 | 2026-04-01 | 4 | 2.75 | -1 | 
-muchas gracias | thank you very much |  | Phrase | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
-de nada | you're welcome |  | Phrase | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
-perdón | excuse me / sorry (minor) |  | Phrase | 2026-03-10 | 2026-03-15 | 6 | 2.17 | -1 | 
-lo siento | I'm sorry (strong sorry) |  | Phrase | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
-con permiso | excuse me (passing by) |  | Phrase | 2026-03-10 | 2026-04-01 | 7 | 2.14 | -1 | 
-¿cómo estás? | how are you? |  | Phrase | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
-¿cómo está usted? | how are you (formal)? |  | Phrase | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
-estoy bien | I am well |  | Phrase | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
-más o menos | so-so |  | Phrase | 2026-03-10 | 2026-03-15 | 3 | 1.67 | -1 | 
-muy bien | very well |  | Phrase | 2026-03-10 | 2026-03-19 | 9 | 1.44 | -1 | 
-¿qué tal? | how's it going? |  | Phrase | 2026-03-10 | 2026-03-16 | 4 | 2.50 | -1 | 
-mucho gusto | nice to meet you |  | Phrase | 2026-03-10 | 2026-04-01 | 5 | 2.60 | -1 | 
-encantado, o encantada | pleased to meet you / I'm enchanted |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 5 | 2.80 | -1 | 
-¿de dónde eres? | where are you from? |  | Phrase | 2026-03-10 | 2026-03-15 | 5 | 2.40 | -1 | 
-soy de Canadá | I am from Canada |  | Phrase | 2026-03-10 | 2026-03-26 | 5 | 2.20 | -1 | 
-¿dónde está el baño? | where is the bathroom? |  | Phrase | 2026-03-10 | 2026-04-01 | 6 | 1.50 | -1 | 
-¿cuánto cuesta? | how much does it cost? |  | Phrase | 2026-03-10 | 2026-03-15 | 3 | 2.67 | -1 | 
-la cuenta, por favor | the bill please |  | Phrase | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
-¿habla inglés? | do you speak English? |  | Phrase | 2026-03-10 | 2026-03-15 | 3 | 1.00 | -1 | 
-no entiendo | I don't understand |  | Phrase | 2026-03-10 | 2026-03-19 | 4 | 2.50 | -1 | 
-¿puede repetir? | can you repeat? |  | Phrase | 2026-03-10 | 2026-03-28 | 10 | 1.80 | -1 | 
-¿puede hablar más despacio? | can you speak more slowly? |  | Phrase | 2026-03-10 | 2026-03-28 | 11 | 1.64 | -1 | 
-hablo un poco de español | I speak a little Spanish |  | Phrase | 2026-03-10 | 2026-04-01 | 5 | 2.40 | 0 | 
-¿qué significa? | what does it mean? |  | Phrase | 2026-03-10 | 2026-03-26 | 13 | 0.62 | 0 | 
-¿cómo se dice...? | how do you say...? |  | Phrase | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
-¿qué hora es? | what time is it? |  | Phrase | 2026-03-10 | 2026-03-15 | 3 | 2.67 | -1 | 
-¿dónde está el hotel? | where is the hotel? |  | Phrase | 2026-03-10 | 2026-03-15 | 5 | 2.00 | -1 | 
-¿dónde está el restaurante? | where is the restaurant? |  | Phrase | 2026-03-10 | 2026-03-15 | 3 | 2.67 | -1 | 
-necesito ayuda | I need help |  | Phrase | 2026-03-10 | 2026-03-17 | 8 | 2.25 | -1 | 
-estoy perdido | I am lost |  | Phrase | 2026-03-10 | 2026-04-01 | 5 | 1.60 | -1 | 
-¿qué? | what? |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 3 | 2.67 | -1 | 
-¿quién? | who? |  | Miscellaneous | 2026-03-10 | 2026-03-19 | 3 | 2.67 | -1 | 
-¿quiénes? | who? (plural) |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 7 | 2.43 | -1 | 
-¿dónde? | where? |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 3 | 1.67 | -1 | 
-¿cuándo? | when? |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 5 | 2.60 | -1 | 
-¿por qué? | why? |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 5 | 2.60 | -1 | 
-¿cómo? | how? |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 7 | 2.00 | -1 | 
-¿cuánto? | how much? |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
-¿cuántos? | how many? |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 4 | 2.75 | -1 | 
-¿cuál? | which? |  | Miscellaneous | 2026-03-10 | 2026-03-16 | 4 | 2.50 | -1 | 
-¿cuáles? | which? (plural) |  | Miscellaneous | 2026-03-10 | 2026-03-16 | 9 | 2.00 | -1 | 
-cero | zero |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
-uno | one |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 4 | 2.75 | -1 | 
-dos | two |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 2 | 1.50 | -1 | 
-tres | three |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
-cuatro | four |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 4 | 2.25 | -1 | 
-cinco | five |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 4 | 2.25 | -1 | 
-seis | six |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 3 | 2.67 | -1 | 
-siete | seven |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 4 | 2.50 | -1 | 
-ocho | eight |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
-nueve | nine |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 4 | 2.75 | -1 | 
-diez | ten |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 3 | 2.00 | -1 | 
-once | eleven |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 3 | 2.00 | -1 | 
-doce | twelve |  | Miscellaneous | 2026-03-10 | 2026-03-16 | 3 | 2.67 | -1 | 
-trece | thirteen |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 3 | 2.00 | -1 | 
-catorce | fourteen |  | Miscellaneous | 2026-03-10 | 2026-03-16 | 4 | 2.50 | -1 | 
-quince | fifteen |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 4 | 2.50 | -1 | 
-veinte | twenty |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
-treinta | thirty |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 4 | 2.25 | -1 | 
-cuarenta | forty |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 3 | 2.67 | -1 | 
-cincuenta | fifty |  | Miscellaneous | 2026-03-10 | 2026-03-16 | 5 | 1.80 | -1 | 
-cien | one hundred |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
-lunes | Monday |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
-martes | Tuesday |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 5 | 2.20 | -1 | 
-miércoles | Wednesday |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
-jueves | Thursday |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 3 | 2.67 | -1 | 
-viernes | Friday |  | Miscellaneous | 2026-03-10 | 2026-03-18 | 4 | 2.50 | -1 | 
-sábado | Saturday |  | Miscellaneous | 2026-03-10 | 2026-03-16 | 3 | 2.67 | -1 | 
-domingo | Sunday |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 4 | 3.00 | -1 | 
-enero | January |  | Miscellaneous | 2026-03-10 | 2026-03-16 | 4 | 2.00 | -1 | 
-febrero | February |  | Miscellaneous | 2026-03-10 | 2026-03-26 | 8 | 1.88 | -1 | 
-marzo | March |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
-abril | April |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
-mayo | May |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 5 | 2.20 | -1 | 
-junio | June |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
-julio | July |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 4 | 2.75 | -1 | 
-agosto | August |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 4 | 2.25 | -1 | 
-septiembre | September |  | Miscellaneous | 2026-03-10 | 2026-03-28 | 7 | 2.29 | -1 | 
-octubre | October |  | Miscellaneous | 2026-03-10 | 2026-03-17 | 10 | 1.90 | -1 | 
-noviembre | November |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
-diciembre | December |  | Miscellaneous | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
+hola | hello |  | Conversational | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
+buenos días | good morning |  | Conversational | 2026-03-10 | 2026-03-15 | 3 | 2.67 | -1 | 
+buenas tardes | good afternoon |  | Conversational | 2026-03-10 | 2026-04-01 | 4 | 2.50 | -1 | 
+buenas noches | good evening / good night |  | Conversational | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
+adiós | goodbye |  | Conversational | 2026-03-10 | 2026-03-15 | 2 | 1.50 | -1 | 
+hasta luego | see you later |  | Conversational | 2026-03-10 | 2026-03-13 | 2 | 2.50 | -1 | 
+hasta mañana | see you tomorrow |  | Conversational | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
+nos vemos | see you |  | Conversational | 2026-03-10 | 2026-03-16 | 4 | 1.00 | -1 | 
+por favor | please |  | Conversational | 2026-03-10 | 2026-04-01 | 4 | 2.25 | -1 | 
+gracias | thank you |  | Conversational | 2026-03-10 | 2026-04-01 | 4 | 2.75 | -1 | 
+muchas gracias | thank you very much |  | Conversational | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
+de nada | you're welcome |  | Conversational | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
+perdón | excuse me / sorry (minor) |  | Conversational | 2026-03-10 | 2026-03-15 | 6 | 2.17 | -1 | 
+lo siento | I'm sorry (strong sorry) |  | Conversational | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
+con permiso | excuse me (passing by) |  | Conversational | 2026-03-10 | 2026-04-01 | 7 | 2.14 | -1 | 
+¿cómo estás? | how are you? |  | Conversational | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
+¿cómo está usted? | how are you (formal)? |  | Conversational | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
+estoy bien | I am well |  | Conversational | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
+más o menos | so-so |  | Conversational | 2026-03-10 | 2026-03-15 | 3 | 1.67 | -1 | 
+muy bien | very well |  | Conversational | 2026-03-10 | 2026-03-19 | 9 | 1.44 | -1 | 
+¿qué tal? | how's it going? |  | Conversational | 2026-03-10 | 2026-03-16 | 4 | 2.50 | -1 | 
+mucho gusto | nice to meet you |  | Conversational | 2026-03-10 | 2026-04-01 | 5 | 2.60 | -1 | 
+encantado, o encantada | pleased to meet you / I'm enchanted |  | Conversational | 2026-03-10 | 2026-04-01 | 5 | 2.80 | -1 | 
+¿de dónde eres? | where are you from? |  | Conversational | 2026-03-10 | 2026-03-15 | 5 | 2.40 | -1 | 
+soy de Canadá | I am from Canada |  | Conversational | 2026-03-10 | 2026-03-26 | 5 | 2.20 | -1 | 
+¿dónde está el baño? | where is the bathroom? |  | Conversational | 2026-03-10 | 2026-04-01 | 6 | 1.50 | -1 | 
+¿cuánto cuesta? | how much does it cost? |  | Conversational | 2026-03-10 | 2026-03-15 | 3 | 2.67 | -1 | 
+la cuenta, por favor | the bill please |  | Conversational | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
+¿habla inglés? | do you speak English? |  | Conversational | 2026-03-10 | 2026-03-15 | 3 | 1.00 | -1 | 
+no entiendo | I don't understand |  | Conversational | 2026-03-10 | 2026-03-19 | 4 | 2.50 | -1 | 
+¿puede repetir? | can you repeat? |  | Conversational | 2026-03-10 | 2026-03-28 | 10 | 1.80 | -1 | 
+¿puede hablar más despacio? | can you speak more slowly? |  | Conversational | 2026-03-10 | 2026-03-28 | 11 | 1.64 | -1 | 
+hablo un poco de español | I speak a little Spanish |  | Conversational | 2026-03-10 | 2026-04-01 | 5 | 2.40 | 0 | 
+¿qué significa? | what does it mean? |  | Conversational | 2026-03-10 | 2026-03-26 | 13 | 0.62 | 0 | 
+¿cómo se dice...? | how do you say...? |  | Conversational | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
+¿qué hora es? | what time is it? |  | Conversational | 2026-03-10 | 2026-03-15 | 3 | 2.67 | -1 | 
+¿dónde está el hotel? | where is the hotel? |  | Conversational | 2026-03-10 | 2026-03-15 | 5 | 2.00 | -1 | 
+¿dónde está el restaurante? | where is the restaurant? |  | Conversational | 2026-03-10 | 2026-03-15 | 3 | 2.67 | -1 | 
+necesito ayuda | I need help |  | Conversational | 2026-03-10 | 2026-03-17 | 8 | 2.25 | -1 | 
+estoy perdido | I am lost |  | Conversational | 2026-03-10 | 2026-04-01 | 5 | 1.60 | -1 | 
+¿qué? | what? |  | Conversational | 2026-03-10 | 2026-03-15 | 3 | 2.67 | -1 | 
+¿quién? | who? |  | Conversational | 2026-03-10 | 2026-03-19 | 3 | 2.67 | -1 | 
+¿quiénes? | who? (plural) |  | Conversational | 2026-03-10 | 2026-04-01 | 7 | 2.43 | -1 | 
+¿dónde? | where? |  | Conversational | 2026-03-10 | 2026-03-15 | 3 | 1.67 | -1 | 
+¿cuándo? | when? |  | Conversational | 2026-03-10 | 2026-04-01 | 5 | 2.60 | -1 | 
+¿por qué? | why? |  | Conversational | 2026-03-10 | 2026-04-01 | 5 | 2.60 | -1 | 
+¿cómo? | how? |  | Conversational | 2026-03-10 | 2026-04-01 | 7 | 2.00 | -1 | 
+¿cuánto? | how much? |  | Conversational | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
+¿cuántos? | how many? |  | Conversational | 2026-03-10 | 2026-04-01 | 4 | 2.75 | -1 | 
+¿cuál? | which? |  | Conversational | 2026-03-10 | 2026-03-16 | 4 | 2.50 | -1 | 
+¿cuáles? | which? (plural) |  | Conversational | 2026-03-10 | 2026-03-16 | 9 | 2.00 | -1 | 
+cero | zero |  | Conversational | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
+uno | one |  | Conversational | 2026-03-10 | 2026-04-01 | 4 | 2.75 | -1 | 
+dos | two |  | Conversational | 2026-03-10 | 2026-03-15 | 2 | 1.50 | -1 | 
+tres | three |  | Conversational | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
+cuatro | four |  | Conversational | 2026-03-10 | 2026-04-01 | 4 | 2.25 | -1 | 
+cinco | five |  | Conversational | 2026-03-10 | 2026-04-01 | 4 | 2.25 | -1 | 
+seis | six |  | Conversational | 2026-03-10 | 2026-03-15 | 3 | 2.67 | -1 | 
+siete | seven |  | Conversational | 2026-03-10 | 2026-03-15 | 4 | 2.50 | -1 | 
+ocho | eight |  | Conversational | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
+nueve | nine |  | Conversational | 2026-03-10 | 2026-04-01 | 4 | 2.75 | -1 | 
+diez | ten |  | Conversational | 2026-03-10 | 2026-03-15 | 3 | 2.00 | -1 | 
+once | eleven |  | Conversational | 2026-03-10 | 2026-04-01 | 3 | 2.00 | -1 | 
+doce | twelve |  | Conversational | 2026-03-10 | 2026-03-16 | 3 | 2.67 | -1 | 
+trece | thirteen |  | Conversational | 2026-03-10 | 2026-03-15 | 3 | 2.00 | -1 | 
+catorce | fourteen |  | Conversational | 2026-03-10 | 2026-03-16 | 4 | 2.50 | -1 | 
+quince | fifteen |  | Conversational | 2026-03-10 | 2026-04-01 | 4 | 2.50 | -1 | 
+veinte | twenty |  | Conversational | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
+treinta | thirty |  | Conversational | 2026-03-10 | 2026-04-01 | 4 | 2.25 | -1 | 
+cuarenta | forty |  | Conversational | 2026-03-10 | 2026-03-15 | 3 | 2.67 | -1 | 
+cincuenta | fifty |  | Conversational | 2026-03-10 | 2026-03-16 | 5 | 1.80 | -1 | 
+cien | one hundred |  | Conversational | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
+lunes | Monday |  | Conversational | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
+martes | Tuesday |  | Conversational | 2026-03-10 | 2026-03-15 | 5 | 2.20 | -1 | 
+miércoles | Wednesday |  | Conversational | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
+jueves | Thursday |  | Conversational | 2026-03-10 | 2026-03-15 | 3 | 2.67 | -1 | 
+viernes | Friday |  | Conversational | 2026-03-10 | 2026-03-18 | 4 | 2.50 | -1 | 
+sábado | Saturday |  | Conversational | 2026-03-10 | 2026-03-16 | 3 | 2.67 | -1 | 
+domingo | Sunday |  | Conversational | 2026-03-10 | 2026-04-01 | 4 | 3.00 | -1 | 
+enero | January |  | Conversational | 2026-03-10 | 2026-03-16 | 4 | 2.00 | -1 | 
+febrero | February |  | Conversational | 2026-03-10 | 2026-03-26 | 8 | 1.88 | -1 | 
+marzo | March |  | Conversational | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
+abril | April |  | Conversational | 2026-03-10 | 2026-04-01 | 3 | 3.00 | -1 | 
+mayo | May |  | Conversational | 2026-03-10 | 2026-03-15 | 5 | 2.20 | -1 | 
+junio | June |  | Conversational | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
+julio | July |  | Conversational | 2026-03-10 | 2026-04-01 | 4 | 2.75 | -1 | 
+agosto | August |  | Conversational | 2026-03-10 | 2026-04-01 | 4 | 2.25 | -1 | 
+septiembre | September |  | Conversational | 2026-03-10 | 2026-03-28 | 7 | 2.29 | -1 | 
+octubre | October |  | Conversational | 2026-03-10 | 2026-03-17 | 10 | 1.90 | -1 | 
+noviembre | November |  | Conversational | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
+diciembre | December |  | Conversational | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
 
 # >>> Nouns
 la familia | family |  | Noun | 2026-03-10 | 2026-03-15 | 4 | 2.50 | -1 | 
@@ -880,210 +879,210 @@ solo | only / just |  | Adverb | 2026-03-23 | 2026-03-25 | 0 | 0.00 | 1 |
 todavía | still / yet |  | Adverb | 2026-03-23 | 2026-04-01 | 2 | 2.00 | 0 | 
 siempre | always |  | Adverb | 2026-03-23 | 2026-03-30 | 1 | 3.00 | -1 | 
 
-# >>> Phrases and Miscellaneous
-aunque | although |  | Miscellaneous | 2026-03-12 | 2026-04-01 | 16 | 1.56 | 0 | 
-mientras | while |  | Miscellaneous | 2026-03-12 | 2026-03-26 | 11 | 1.73 | -1 | 
-sin embargo | however |  | Miscellaneous | 2026-03-12 | 2026-04-01 | 15 | 0.07 | 0 | 
-además | besides |  | Miscellaneous | 2026-03-12 | 2026-03-28 | 17 | 0.59 | 0 | 
-todavía | still / yet |  | Miscellaneous | 2026-03-12 | 2026-04-01 | 15 | 0.53 | 0 | 
-ya | already |  | Miscellaneous | 2026-03-12 | 2026-03-26 | 7 | 1.86 | -1 | 
-casi | almost |  | Miscellaneous | 2026-03-12 | 2026-03-26 | 7 | 1.86 | -1 | 
-quizás | maybe |  | Miscellaneous | 2026-03-12 | 2026-03-13 | 7 | 1.57 | -1 | 
-así | like this / thus |  | Miscellaneous | 2026-03-17 | 2026-04-01 | 15 | 1.00 | 0 | 
-bastante | quite |  | Miscellaneous | 2026-03-10 | 2026-04-01 | 11 | 1.00 | 0 | 
-entonces | then |  | Miscellaneous | 2026-03-10 | 2026-03-27 | 9 | 1.67 | -1 | 
-tengo hambre | I am hungry |  | Phrase | 2026-03-10 | 2026-03-13 | 3 | 2.00 | -1 | 
-tengo sed | I am thirsty |  | Phrase | 2026-03-10 | 2026-03-16 | 6 | 2.00 | -1 | 
-tengo frío | I am cold |  | Phrase | 2026-03-10 | 2026-03-15 | 9 | 1.78 | -1 | 
-tengo calor | I am hot |  | Phrase | 2026-03-10 | 2026-03-15 | 4 | 1.75 | -1 | 
-me gusta | I like |  | Phrase | 2026-03-10 | 2026-03-16 | 4 | 2.50 | -1 | 
-no me gusta | I don't like |  | Phrase | 2026-03-10 | 2026-03-15 | 6 | 2.33 | -1 | 
-me gusta el café | I like coffee | ☕ | Phrase | 2026-03-10 | 2026-03-27 | 11 | 1.91 | -1 | 
-me gusta viajar | I like traveling |  | Phrase | 2026-03-10 | 2026-03-15 | 5 | 2.20 | -1 | 
-quiero aprender español | I want to learn Spanish |  | Phrase | 2026-03-10 | 2026-03-16 | 9 | 1.56 | -1 | 
-necesito practicar | I need to practice |  | Phrase | 2026-03-10 | 2026-03-15 | 5 | 2.40 | -1 | 
-voy al restaurante | I go to the restaurant |  | Phrase | 2026-03-10 | 2026-03-15 | 3 | 2.67 | -1 | 
-estoy en el hotel | I am in the hotel |  | Phrase | 2026-03-10 | 2026-03-15 | 3 | 2.00 | -1 | 
-vamos a comer | let's eat |  | Phrase | 2026-03-10 | 2026-03-15 | 3 | 2.67 | -1 | 
-vamos a viajar | let's travel |  | Phrase | 2026-03-10 | 2026-03-16 | 3 | 2.67 | -1 | 
-al mismo tiempo | at the same time |  | Phrase | 2026-03-17 | 2026-03-26 | 2 | 2.50 | -1 | 
-por ejemplo | for example |  | Phrase | 2026-03-17 | 2026-03-26 | 5 | 2.20 | -1 | 
-es decir | that is to say |  | Phrase | 2026-03-17 | 2026-03-28 | 12 | 0.83 | 0 | 
-en general | in general |  | Phrase | 2026-03-17 | 2026-03-19 | 1 | 3.00 | -1 | 
-cuando era niño | when I was a child |  | Phrase | 2026-03-19 | 2026-03-27 | 4 | 2.25 | -1 | 
-por cierto | by the way |  | Phrase | 2026-03-20 | 2026-03-28 | 9 | 1.56 | 0 | 
-es que | it's just that / the thing is |  | Phrase | 2026-03-20 | 2026-03-28 | 8 | 1.25 | 0 | 
-lo que pasa es que | what happens is / the thing is |  | Phrase | 2026-03-20 | 2026-03-28 | 10 | 1.80 | 0 | 
-a propósito | by the way / speaking of that |  | Phrase | 2026-03-20 | 2026-03-28 | 13 | 0.46 | 0 | 
-a ver (qué/si)... | let's see (what/if)... |  | Phrase | 2026-03-20 | 2026-03-26 | 2 | 2.50 | -1 | 
-con razón... | no wonder... |  | Phrase | 2026-03-20 | 2026-04-01 | 11 | 0.00 | 0 | 
-por eso... | that's why / for that reason |  | Phrase | 2026-03-20 | 2026-03-26 | 4 | 2.25 | -1 | 
-en fin... | anyway / in the end |  | Phrase | 2026-03-20 | 2026-04-01 | 9 | 1.44 | 0 | 
-total que | so anyway / long story short |  | Phrase | 2026-03-20 | 2026-03-27 | 10 | 0.60 | 0 | 
-resulta (que) | it turns out (that) |  | Phrase | 2026-03-20 | 2026-03-28 | 5 | 1.80 | -1 | 
-fíjate (que) | look / you see |  | Phrase | 2026-03-20 | 2026-03-28 | 11 | 0.73 | 0 | 
-menos mal (que) | it's a good thing (that) |  | Phrase | 2026-03-20 | 2026-03-27 | 11 | 1.45 | 0 | 
-la verdad es (que) | the truth is (that) |  | Phrase | 2026-03-20 | 2026-03-26 | 3 | 2.33 | -1 | 
-lo bueno es (que) | the good thing is (that) |  | Phrase | 2026-03-20 | 2026-03-26 | 3 | 2.00 | -1 | 
-lo malo es (que) | the bad thing is (that) |  | Phrase | 2026-03-20 | 2026-03-26 | 3 | 2.00 | -1 | 
-lo único es (que) | the only thing is (that) |  | Phrase | 2026-03-20 | 2026-03-26 | 3 | 1.67 | -1 | 
-lo difícil es (que) | the hard thing is (that) |  | Phrase | 2026-03-20 | 2026-03-26 | 2 | 2.50 | -1 | 
-lo peor es (que) | the worst thing is (that) |  | Phrase | 2026-03-20 | 2026-03-26 | 4 | 2.25 | -1 | 
-lo mejor es (que) | the best thing is (that) |  | Phrase | 2026-03-20 | 2026-03-26 | 5 | 2.20 | -1 | 
-lo raro es (que) / lo extraño es (que) | the strange thing is (that) |  | Phrase | 2026-03-20 | 2026-03-26 | 1 | 3.00 | -1 | 
-lo chistoso es (que) | the funny thing is (that) |  | Phrase | 2026-03-20 | 2026-03-26 | 4 | 1.25 | -1 | 
-lo increíble es (que) | the incredible thing is (that) |  | Phrase | 2026-03-20 | 2026-03-26 | 3 | 2.33 | -1 | 
-lo (más) absurdo es (que) | the absurd thing is (that) |  | Phrase | 2026-03-20 | 2026-03-26 | 3 | 1.67 | -1 | 
-pues… | well… / so… |  | Phrase | 2026-03-20 | 2026-03-28 | 7 | 2.00 | -1 | 
-¡claro (que sí)!, o ¿cómo no? | of course (it is) |  | Phrase | 2026-03-20 | 2026-03-28 | 9 | 2.00 | 0 | 
-está bien | okay / alright |  | Phrase | 2026-03-20 | 2026-03-26 | 6 | 1.67 | -1 | 
-Conste | Just so you know / I'll hold you to that |  | Phrase | 2026-03-20 | 2026-04-01 | 7 | 1.71 | 0 | 
-(buen) provecho | enjoy your meal |  | Phrase | 2026-03-20 | 2026-03-28 | 5 | 1.80 | -1 | 
-de acuerdo, o hecho | agreed / it's a deal |  | Phrase | 2026-03-20 | 2026-03-28 | 9 | 1.44 | 0 | 
-¿verdad? | right? / isn't that true? |  | Phrase | 2026-03-20 | 2026-03-26 | 2 | 2.50 | -1 | 
-no me importa | I don't care / it doesn't matter to me |  | Phrase | 2026-03-20 | 2026-03-28 | 7 | 2.14 | -1 | 
-¿y qué?, o ¿y eso qué? | so what? |  | Phrase | 2026-03-20 | 2026-03-28 | 6 | 2.00 | 0 | 
-¿y a mí qué? | what's it to me? |  | Phrase | 2026-03-20 | 2026-03-28 | 9 | 1.89 | -1 | 
-¿y? | so? |  | Phrase | 2026-03-20 | 2026-03-26 | 2 | 2.50 | -1 | 
-o sea | I mean / in other words |  | Phrase | 2026-03-20 | 2026-03-28 | 16 | 0.56 | 0 | 
-ni hablar | no way / forget it / oh well |  | Phrase | 2026-03-20 | 2026-03-28 | 11 | 1.45 | 0 | 
-cuando sea | whenever |  | Phrase | 2026-03-20 | 2026-03-30 | 9 | 1.56 | -1 | 
-como sea | however / anyway |  | Phrase | 2026-03-20 | 2026-04-01 | 8 | 0.00 | 0 | 
-donde sea | wherever |  | Phrase | 2026-03-20 | 2026-03-26 | 2 | 2.50 | -1 | 
-quien sea | whoever |  | Phrase | 2026-03-20 | 2026-03-26 | 2 | 2.50 | -1 | 
-¿qué pasa? | what's happening? |  | Phrase | 2026-03-10 | 2026-03-14 | 7 | 1.00 | -1 | 
-¿qué estás haciendo? | what are you doing? |  | Phrase | 2026-03-10 | 2026-03-28 | 10 | 1.50 | -1 | 
-¿qué quieres decir? | what do you mean? |  | Phrase | 2026-03-10 | 2026-03-26 | 10 | 1.80 | -1 | 
-no hay problema | no problem |  | Phrase | 2026-03-10 | 2026-03-28 | 14 | 1.43 | -1 | 
-no importa | it doesn't matter |  | Phrase | 2026-03-10 | 2026-03-28 | 14 | 1.64 | 0 | 
-claro que sí | of course (it is) |  | Phrase | 2026-03-10 | 2026-03-13 | 4 | 2.25 | -1 | 
-claro que no | of course not |  | Phrase | 2026-03-10 | 2026-03-14 | 9 | 1.89 | -1 | 
-por supuesto | of course |  | Phrase | 2026-03-10 | 2026-03-15 | 7 | 1.86 | -1 | 
-tal vez | maybe |  | Phrase | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
-puede ser | maybe / could be |  | Phrase | 2026-03-10 | 2026-04-01 | 15 | 1.20 | 0 | 
-ya veo | I see (ahhh) |  | Phrase | 2026-03-10 | 2026-03-28 | 16 | 0.50 | 0 | 
-ya entiendo | now I understand |  | Phrase | 2026-03-10 | 2026-03-28 | 22 | 0.23 | 0 | 
-tienes razón | you are right |  | Phrase | 2026-03-10 | 2026-03-15 | 5 | 2.00 | -1 | 
-no estoy seguro | I'm not sure |  | Phrase | 2026-03-10 | 2026-03-26 | 12 | 1.08 | 0 | 
-no lo sé | I don't know |  | Phrase | 2026-03-10 | 2026-03-28 | 11 | 1.27 | 0 | 
-lo sé | I know (that) |  | Phrase | 2026-03-10 | 2026-03-16 | 5 | 2.20 | -1 | 
-creo que sí | I think so |  | Phrase | 2026-03-10 | 2026-03-28 | 7 | 2.00 | -1 | 
-creo que no | I don't think so |  | Phrase | 2026-03-10 | 2026-03-14 | 8 | 1.50 | -1 | 
-depende | it depends |  | Phrase | 2026-03-10 | 2026-03-16 | 8 | 1.50 | -1 | 
-qué bueno | that's good / what good |  | Phrase | 2026-03-10 | 2026-03-28 | 12 | 0.50 | 0 | 
-qué lástima | what a shame |  | Phrase | 2026-03-10 | 2026-03-13 | 7 | 1.86 | -1 | 
-qué suerte | how lucky | 🍀 | Phrase | 2026-03-10 | 2026-03-17 | 7 | 1.29 | -1 | 
-buen trabajo | good job | 👍 | Phrase | 2026-03-10 | 2026-03-28 | 8 | 1.63 | 0 | 
-bien hecho | well done | 👌 | Phrase | 2026-03-10 | 2026-03-27 | 14 | 1.50 | 0 | 
-más o menos así | more or less like that |  | Phrase | 2026-03-10 | 2026-03-28 | 9 | 1.11 | 0 | 
-tengo mucho trabajo hoy | I have a lot of work today |  | Phrase | 2026-03-10 | 2026-03-16 | 10 | 1.60 | -1 | 
-no tengo tiempo ahora | I don't have time now |  | Phrase | 2026-03-10 | 2026-03-15 | 6 | 1.17 | -1 | 
-quiero aprender más español | I want to learn more Spanish |  | Phrase | 2026-03-10 | 2026-03-16 | 5 | 2.00 | -1 | 
-estoy muy cansado hoy | I am very tired today |  | Phrase | 2026-03-10 | 2026-03-27 | 10 | 1.10 | -1 | 
-necesito descansar | I need to rest | 😴 | Phrase | 2026-03-10 | 2026-03-31 | 20 | 0.15 | 0 | 
-vamos a comer algo | let's eat something |  | Phrase | 2026-03-10 | 2026-03-15 | 5 | 1.80 | -1 | 
-voy a salir ahora | I'm going out now |  | Phrase | 2026-03-10 | 2026-04-01 | 4 | 1.25 | -1 | 
-vuelvo en una hora | I'll come back in an hour |  | Phrase | 2026-03-10 | 2026-04-01 | 9 | 0.78 | 0 | 
-estoy en casa | I am at home | 🏠 | Phrase | 2026-03-10 | 2026-03-28 | 9 | 1.33 | -1 | 
-estoy en el trabajo | I am at work |  | Phrase | 2026-03-10 | 2026-03-28 | 10 | 1.40 | -1 | 
-estoy con amigos | I am with friends |  | Phrase | 2026-03-10 | 2026-03-19 | 3 | 2.67 | -1 | 
-hace mucho frío | it's very cold | ❄️ | Phrase | 2026-03-10 | 2026-04-01 | 3 | 2.33 | 0 | 
-hace mucho calor | it's very hot | 🔥 | Phrase | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
-hoy hace buen tiempo | the weather is nice today | 🌤️ | Phrase | 2026-03-10 | 2026-03-16 | 4 | 1.00 | -1 | 
-mañana trabajo | tomorrow I work |  | Phrase | 2026-03-10 | 2026-03-27 | 22 | 0.09 | -1 | 
-ayer salí con amigos | yesterday I went out with friends |  | Phrase | 2026-03-10 | 2026-03-26 | 10 | 1.20 | 0 | 
-me gusta esta ciudad | I like this city |  | Phrase | 2026-03-10 | 2026-03-15 | 4 | 2.00 | -1 | 
-no me gusta este restaurante | I don't like this restaurant |  | Phrase | 2026-03-10 | 2026-03-18 | 14 | 1.29 | -1 | 
-este lugar es bonito | this place is beautiful |  | Phrase | 2026-03-10 | 2026-04-01 | 3 | 1.67 | -1 | 
-la comida está muy buena | the food is very good |  | Phrase | 2026-03-10 | 2026-03-26 | 14 | 1.14 | -1 | 
-¿qué quieres hacer? | what do you want to do? |  | Phrase | 2026-03-10 | 2026-03-19 | 9 | 1.89 | -1 | 
-¿qué piensas? | what do you think? |  | Phrase | 2026-03-10 | 2026-03-26 | 10 | 1.60 | -1 | 
-¿te gusta? | do you like it? |  | Phrase | 2026-03-10 | 2026-03-15 | 6 | 2.33 | -1 | 
-me parece bien | that seems good to me |  | Phrase | 2026-03-10 | 2026-03-28 | 14 | 1.64 | -1 | 
-me parece interesante | that seems interesting |  | Phrase | 2026-03-10 | 2026-03-28 | 15 | 1.53 | -1 | 
-eso es verdad | that's true |  | Phrase | 2026-03-10 | 2026-03-28 | 9 | 1.89 | -1 | 
-no estoy de acuerdo | I don't agree |  | Phrase | 2026-03-10 | 2026-03-28 | 10 | 1.90 | -1 | 
-estoy de acuerdo | I agree |  | Phrase | 2026-03-10 | 2026-03-16 | 3 | 2.67 | -1 | 
-no estoy seguro de eso | I'm not sure about that |  | Phrase | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
-eso depende | that depends |  | Phrase | 2026-03-10 | 2026-03-28 | 10 | 1.70 | 0 | 
-todo está bien | everything is fine |  | Phrase | 2026-03-10 | 2026-03-16 | 4 | 2.50 | -1 | 
-todo está listo | everything is ready |  | Phrase | 2026-03-10 | 2026-03-17 | 3 | 2.67 | -1 | 
-vamos a ver | let's see |  | Phrase | 2026-03-10 | 2026-04-01 | 5 | 2.00 | 0 | 
-vamos poco a poco | let's go little by little |  | Phrase | 2026-03-10 | 2026-03-16 | 5 | 1.60 | -1 | 
-un momento | one moment |  | Phrase | 2026-03-10 | 2026-03-16 | 6 | 1.67 | -1 | 
-espera un segundo | wait a second |  | Phrase | 2026-03-10 | 2026-03-31 | 13 | 1.23 | 0 | 
-dame un minuto | give me a minute |  | Phrase | 2026-03-10 | 2026-03-17 | 6 | 0.83 | -1 | 
-no tengo idea | I have no idea |  | Phrase | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
-es una buena idea | it's a good idea |  | Phrase | 2026-03-10 | 2026-03-28 | 14 | 1.07 | 0 | 
-es mala idea | it's a bad idea |  | Phrase | 2026-03-10 | 2026-04-01 | 10 | 1.10 | 0 | 
-no pasa nada | nothing happens / it's fine |  | Phrase | 2026-03-10 | 2026-03-30 | 13 | 0.92 | 0 | 
-qué interesante | how interesting |  | Phrase | 2026-03-10 | 2026-03-15 | 7 | 1.57 | -1 | 
-qué raro | how strange |  | Phrase | 2026-03-10 | 2026-03-27 | 10 | 1.50 | -1 | 
-qué divertido | how fun |  | Phrase | 2026-03-10 | 2026-03-16 | 4 | 2.25 | -1 | 
-qué problema | what a problem |  | Phrase | 2026-03-10 | 2026-03-17 | 3 | 2.67 | -1 | 
-trabajo desde casa | I work from home | 🏠 | Phrase | 2026-03-10 | 2026-03-28 | 11 | 1.18 | -1 | 
-trabajo en una oficina | I work in an office |  | Phrase | 2026-03-10 | 2026-03-26 | 8 | 2.00 | -1 | 
-viajo mucho por trabajo | I travel a lot for work |  | Phrase | 2026-03-10 | 2026-03-15 | 3 | 1.67 | -1 | 
-aprendo algo nuevo cada día | I learn something new every day |  | Phrase | 2026-03-10 | 2026-03-28 | 12 | 1.75 | -1 | 
-leo noticias en español | I read news in Spanish |  | Phrase | 2026-03-10 | 2026-03-13 | 6 | 1.00 | -1 | 
-escucho podcasts en español | I listen to podcasts in Spanish |  | Phrase | 2026-03-10 | 2026-04-01 | 11 | 0.82 | -1 | 
-quiero vivir en España | I want to live in Spain |  | Phrase | 2026-03-10 | 2026-04-01 | 3 | 2.33 | 0 | 
-me gusta aprender idiomas | I like learning languages |  | Phrase | 2026-03-10 | 2026-03-14 | 10 | 1.40 | -1 | 
-hablo español todos los días | I speak Spanish every day |  | Phrase | 2026-03-10 | 2026-03-16 | 7 | 1.71 | -1 | 
-practico con amigos | I practice with friends |  | Phrase | 2026-03-10 | 2026-03-26 | 5 | 2.20 | -1 | 
-necesito más práctica | I need more practice |  | Phrase | 2026-03-10 | 2026-03-26 | 10 | 1.00 | -1 | 
-entiendo un poco | I understand a little |  | Phrase | 2026-03-10 | 2026-03-19 | 4 | 2.25 | -1 | 
-no entiendo todo | I don't understand everything |  | Phrase | 2026-03-10 | 2026-03-27 | 9 | 1.89 | -1 | 
-puedo intentar otra vez | I can try again |  | Phrase | 2026-03-10 | 2026-04-01 | 13 | 1.77 | 0 | 
-vamos al mercado | let's go to the market |  | Phrase | 2026-03-10 | 2026-03-16 | 5 | 1.60 | -1 | 
-vamos a caminar | let's go for a walk |  | Phrase | 2026-03-10 | 2026-03-17 | 6 | 1.83 | -1 | 
-vamos a tomar un café | let's get a coffee | ☕ | Phrase | 2026-03-10 | 2026-03-15 | 3 | 1.67 | -1 | 
-voy al supermercado | I go to the supermarket |  | Phrase | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
-compro comida | I buy food |  | Phrase | 2026-03-10 | 2026-03-15 | 4 | 1.25 | -1 | 
-preparo la cena | I prepare dinner |  | Phrase | 2026-03-10 | 2026-03-16 | 4 | 2.50 | -1 | 
-abro la puerta | I open the door | 🚪 | Phrase | 2026-03-10 | 2026-03-16 | 4 | 2.50 | -1 | 
-cierro la ventana | I close the window |  | Phrase | 2026-03-10 | 2026-03-26 | 6 | 1.83 | -1 | 
-llego temprano | I arrive early |  | Phrase | 2026-03-10 | 2026-03-26 | 13 | 1.69 | -1 | 
-salgo tarde del trabajo | I leave work late |  | Phrase | 2026-03-10 | 2026-04-01 | 11 | 1.18 | 0 | 
-me quedo en casa hoy | I stay home today | 🏠 | Phrase | 2026-03-10 | 2026-04-01 | 10 | 1.40 | 0 | 
-¿puedo ver el menú? | can I see the menu? | 📋 | Phrase | 2026-03-14 | 2026-03-31 | 9 | 1.22 | 0 | 
-¿qué recomienda? | what do you recommend? | ⭐ | Phrase | 2026-03-14 | 2026-03-20 | 11 | 0.45 | -1 | 
-quiero pedir | I want to order | 🍽️ | Phrase | 2026-03-14 | 2026-03-28 | 10 | 1.00 | -1 | 
-para mí | for me | 🙋 | Phrase | 2026-03-14 | 2026-03-26 | 4 | 1.50 | -1 | 
-sin sal | without salt | 🧂 | Phrase | 2026-03-14 | 2026-03-19 | 4 | 2.50 | -1 | 
-sin azúcar | without sugar | 🚫🍬 | Phrase | 2026-03-14 | 2026-03-17 | 4 | 2.25 | -1 | 
-con hielo | with ice | 🧊 | Phrase | 2026-03-14 | 2026-03-28 | 8 | 1.50 | -1 | 
-para llevar | to take away / takeaway | 🥡 | Phrase | 2026-03-14 | 2026-03-28 | 7 | 1.71 | -1 | 
-¿está incluido el servicio? | is service included? |  | Phrase | 2026-03-14 | 2026-03-19 | 10 | 0.00 | 0 | 
-¿puedo pagar con tarjeta? | can I pay with card? | 💳 | Phrase | 2026-03-14 | 2026-03-26 | 5 | 1.60 | -1 | 
-volveré | I will return |  | Phrase | 2026-03-10 | 2026-03-28 | 12 | 1.67 | 0 | 
-tengo sueño | I am sleepy | 😴 | Phrase | 2026-03-13 | 2026-03-28 | 6 | 1.17 | -1 | 
-vamos por este sendero | let's go along this trail |  | Phrase | 2026-03-13 | 2026-03-30 | 13 | 0.69 | 0 | 
-creo que viene lluvia | I think rain is coming | 🌧️ | Phrase | 2026-03-13 | 2026-03-27 | 14 | 0.50 | 0 | 
-podemos regresar al coche | we can return to the car |  | Phrase | 2026-03-13 | 2026-04-01 | 9 | 0.67 | 0 | 
-disfruto mucho este lugar | I enjoy this place a lot | 😊 | Phrase | 2026-03-13 | 2026-04-01 | 12 | 0.92 | 0 | 
-a la parrilla | grilled | 🔥 | Phrase | 2026-03-13 | 2026-03-28 | 8 | 0.13 | 0 | 
-a la plancha | grilled on a flat top | 🍳 | Phrase | 2026-03-13 | 2026-03-28 | 8 | 0.25 | 0 | 
-al parecer | apparently / it seems |  | Phrase | 2026-03-16 | 2026-03-28 | 10 | 0.20 | 0 | 
-nunca lo he usado | I have never used it |  | Phrase | 2026-03-16 | 2026-03-30 | 9 | 0.89 | 0 | 
-al menos | at least |  | Phrase | 2026-03-17 | 2026-03-28 | 6 | 1.67 | -1 | 
-en realidad | actually / in reality |  | Phrase | 2026-03-17 | 2026-03-26 | 5 | 2.20 | -1 | 
-de hecho | in fact |  | Phrase | 2026-03-17 | 2026-03-30 | 15 | 0.93 | 0 | 
-porque de hecho | because in fact |  | Phrase | 2026-03-17 | 2026-03-28 | 9 | 0.44 | 0 | 
-ya que | since / because |  | Phrase | 2026-03-17 | 2026-04-01 | 10 | 0.80 | 0 | 
-por lo tanto | therefore |  | Phrase | 2026-03-17 | 2026-04-01 | 13 | -0.08 | 0 | 
-Vamos a hablar de… | We’re going to talk about… |  | Phrase | 2026-03-30 | 2026-03-31 | 2 | 2.00 | 0 | 
-No me di cuenta | I didn’t realize |  | Phrase | 2026-03-30 | 2026-03-31 | 0 | 0.00 | 1 | 
-Se me olvidó | I forgot |  | Phrase | 2026-03-30 | 2026-04-01 | 1 | -1.00 | 1 | 
-A ver qué pasa | Let’s see what happens |  | Phrase | 2026-03-30 | 2026-03-31 | 2 | 1.00 | 0 | 
-es como que… | it’s like… |  | Phrase | 2026-03-30 | 2026-03-31 | 0 | 0.00 | 1 | 
-Yo creo que… | I think that… |  | Phrase | 2026-03-30 | 2026-04-01 | 2 | 2.00 | 0 | 
-y no lo es | and it’s not |  | Phrase | 2026-03-30 | 2026-04-01 | 1 | 0.00 | 0 | 
-Lo ponemos a prueba | We put it to the test |  | Phrase | 2026-03-30 | 2026-03-31 | 1 | 0.00 | 0 | 
-Y que se disfrute | Enjoy it / Hope you enjoy it |  | Phrase | 2026-03-30 | 2026-04-01 | 1 | 0.00 | 0 | 
-¿Y cuál sería lo mejor? | And what would be the best? |  | Phrase | 2026-03-30 | 2026-03-31 | 1 | 1.00 | 0 | 
-A veces pasa que… | Sometimes it happens that… |  | Phrase | 2026-03-30 | 2026-03-31 | 0 | 0.00 | 1 | 
-creo que hay que… | I think one has to / we should… |  | Phrase | 2026-03-30 | 2026-04-01 | 1 | 0.00 | 0 | 
-Pero también he notado que… | But I’ve also noticed that… |  | Phrase | 2026-03-30 | 2026-03-31 | 0 | 0.00 | 1 | 
-Incluso a veces… | Even sometimes… |  | Phrase | 2026-03-30 | 2026-03-31 | 2 | 0.50 | 0 | 
-y esto me recuerda mucho a… | and this reminds me a lot of… |  | Phrase | 2026-03-30 | 2026-03-31 | 0 | 0.00 | 1 | 
+# >>> Conversational
+aunque | although |  | Conversational | 2026-03-12 | 2026-04-01 | 16 | 1.56 | 0 | 
+mientras | while |  | Conversational | 2026-03-12 | 2026-03-26 | 11 | 1.73 | -1 | 
+sin embargo | however |  | Conversational | 2026-03-12 | 2026-04-01 | 15 | 0.07 | 0 | 
+además | besides |  | Conversational | 2026-03-12 | 2026-03-28 | 17 | 0.59 | 0 | 
+todavía | still / yet |  | Conversational | 2026-03-12 | 2026-04-01 | 15 | 0.53 | 0 | 
+ya | already |  | Conversational | 2026-03-12 | 2026-03-26 | 7 | 1.86 | -1 | 
+casi | almost |  | Conversational | 2026-03-12 | 2026-03-26 | 7 | 1.86 | -1 | 
+quizás | maybe |  | Conversational | 2026-03-12 | 2026-03-13 | 7 | 1.57 | -1 | 
+así | like this / thus |  | Conversational | 2026-03-17 | 2026-04-01 | 15 | 1.00 | 0 | 
+bastante | quite |  | Conversational | 2026-03-10 | 2026-04-01 | 11 | 1.00 | 0 | 
+entonces | then |  | Conversational | 2026-03-10 | 2026-03-27 | 9 | 1.67 | -1 | 
+tengo hambre | I am hungry |  | Conversational | 2026-03-10 | 2026-03-13 | 3 | 2.00 | -1 | 
+tengo sed | I am thirsty |  | Conversational | 2026-03-10 | 2026-03-16 | 6 | 2.00 | -1 | 
+tengo frío | I am cold |  | Conversational | 2026-03-10 | 2026-03-15 | 9 | 1.78 | -1 | 
+tengo calor | I am hot |  | Conversational | 2026-03-10 | 2026-03-15 | 4 | 1.75 | -1 | 
+me gusta | I like |  | Conversational | 2026-03-10 | 2026-03-16 | 4 | 2.50 | -1 | 
+no me gusta | I don't like |  | Conversational | 2026-03-10 | 2026-03-15 | 6 | 2.33 | -1 | 
+me gusta el café | I like coffee | ☕ | Conversational | 2026-03-10 | 2026-03-27 | 11 | 1.91 | -1 | 
+me gusta viajar | I like traveling |  | Conversational | 2026-03-10 | 2026-03-15 | 5 | 2.20 | -1 | 
+quiero aprender español | I want to learn Spanish |  | Conversational | 2026-03-10 | 2026-03-16 | 9 | 1.56 | -1 | 
+necesito practicar | I need to practice |  | Conversational | 2026-03-10 | 2026-03-15 | 5 | 2.40 | -1 | 
+voy al restaurante | I go to the restaurant |  | Conversational | 2026-03-10 | 2026-03-15 | 3 | 2.67 | -1 | 
+estoy en el hotel | I am in the hotel |  | Conversational | 2026-03-10 | 2026-03-15 | 3 | 2.00 | -1 | 
+vamos a comer | let's eat |  | Conversational | 2026-03-10 | 2026-03-15 | 3 | 2.67 | -1 | 
+vamos a viajar | let's travel |  | Conversational | 2026-03-10 | 2026-03-16 | 3 | 2.67 | -1 | 
+al mismo tiempo | at the same time |  | Conversational | 2026-03-17 | 2026-03-26 | 2 | 2.50 | -1 | 
+por ejemplo | for example |  | Conversational | 2026-03-17 | 2026-03-26 | 5 | 2.20 | -1 | 
+es decir | that is to say |  | Conversational | 2026-03-17 | 2026-03-28 | 12 | 0.83 | 0 | 
+en general | in general |  | Conversational | 2026-03-17 | 2026-03-19 | 1 | 3.00 | -1 | 
+cuando era niño | when I was a child |  | Conversational | 2026-03-19 | 2026-03-27 | 4 | 2.25 | -1 | 
+por cierto | by the way |  | Conversational | 2026-03-20 | 2026-03-28 | 9 | 1.56 | 0 | 
+es que | it's just that / the thing is |  | Conversational | 2026-03-20 | 2026-03-28 | 8 | 1.25 | 0 | 
+lo que pasa es que | what happens is / the thing is |  | Conversational | 2026-03-20 | 2026-03-28 | 10 | 1.80 | 0 | 
+a propósito | by the way / speaking of that |  | Conversational | 2026-03-20 | 2026-03-28 | 13 | 0.46 | 0 | 
+a ver (qué/si)... | let's see (what/if)... |  | Conversational | 2026-03-20 | 2026-03-26 | 2 | 2.50 | -1 | 
+con razón... | no wonder... |  | Conversational | 2026-03-20 | 2026-04-01 | 11 | 0.00 | 0 | 
+por eso... | that's why / for that reason |  | Conversational | 2026-03-20 | 2026-03-26 | 4 | 2.25 | -1 | 
+en fin... | anyway / in the end |  | Conversational | 2026-03-20 | 2026-04-01 | 9 | 1.44 | 0 | 
+total que | so anyway / long story short |  | Conversational | 2026-03-20 | 2026-03-27 | 10 | 0.60 | 0 | 
+resulta (que) | it turns out (that) |  | Conversational | 2026-03-20 | 2026-03-28 | 5 | 1.80 | -1 | 
+fíjate (que) | look / you see |  | Conversational | 2026-03-20 | 2026-03-28 | 11 | 0.73 | 0 | 
+menos mal (que) | it's a good thing (that) |  | Conversational | 2026-03-20 | 2026-03-27 | 11 | 1.45 | 0 | 
+la verdad es (que) | the truth is (that) |  | Conversational | 2026-03-20 | 2026-03-26 | 3 | 2.33 | -1 | 
+lo bueno es (que) | the good thing is (that) |  | Conversational | 2026-03-20 | 2026-03-26 | 3 | 2.00 | -1 | 
+lo malo es (que) | the bad thing is (that) |  | Conversational | 2026-03-20 | 2026-03-26 | 3 | 2.00 | -1 | 
+lo único es (que) | the only thing is (that) |  | Conversational | 2026-03-20 | 2026-03-26 | 3 | 1.67 | -1 | 
+lo difícil es (que) | the hard thing is (that) |  | Conversational | 2026-03-20 | 2026-03-26 | 2 | 2.50 | -1 | 
+lo peor es (que) | the worst thing is (that) |  | Conversational | 2026-03-20 | 2026-03-26 | 4 | 2.25 | -1 | 
+lo mejor es (que) | the best thing is (that) |  | Conversational | 2026-03-20 | 2026-03-26 | 5 | 2.20 | -1 | 
+lo raro es (que) / lo extraño es (que) | the strange thing is (that) |  | Conversational | 2026-03-20 | 2026-03-26 | 1 | 3.00 | -1 | 
+lo chistoso es (que) | the funny thing is (that) |  | Conversational | 2026-03-20 | 2026-03-26 | 4 | 1.25 | -1 | 
+lo increíble es (que) | the incredible thing is (that) |  | Conversational | 2026-03-20 | 2026-03-26 | 3 | 2.33 | -1 | 
+lo (más) absurdo es (que) | the absurd thing is (that) |  | Conversational | 2026-03-20 | 2026-03-26 | 3 | 1.67 | -1 | 
+pues… | well… / so… |  | Conversational | 2026-03-20 | 2026-03-28 | 7 | 2.00 | -1 | 
+¡claro (que sí)!, o ¿cómo no? | of course (it is) |  | Conversational | 2026-03-20 | 2026-03-28 | 9 | 2.00 | 0 | 
+está bien | okay / alright |  | Conversational | 2026-03-20 | 2026-03-26 | 6 | 1.67 | -1 | 
+Conste | Just so you know / I'll hold you to that |  | Conversational | 2026-03-20 | 2026-04-01 | 7 | 1.71 | 0 | 
+(buen) provecho | enjoy your meal |  | Conversational | 2026-03-20 | 2026-03-28 | 5 | 1.80 | -1 | 
+de acuerdo, o hecho | agreed / it's a deal |  | Conversational | 2026-03-20 | 2026-03-28 | 9 | 1.44 | 0 | 
+¿verdad? | right? / isn't that true? |  | Conversational | 2026-03-20 | 2026-03-26 | 2 | 2.50 | -1 | 
+no me importa | I don't care / it doesn't matter to me |  | Conversational | 2026-03-20 | 2026-03-28 | 7 | 2.14 | -1 | 
+¿y qué?, o ¿y eso qué? | so what? |  | Conversational | 2026-03-20 | 2026-03-28 | 6 | 2.00 | 0 | 
+¿y a mí qué? | what's it to me? |  | Conversational | 2026-03-20 | 2026-03-28 | 9 | 1.89 | -1 | 
+¿y? | so? |  | Conversational | 2026-03-20 | 2026-03-26 | 2 | 2.50 | -1 | 
+o sea | I mean / in other words |  | Conversational | 2026-03-20 | 2026-03-28 | 16 | 0.56 | 0 | 
+ni hablar | no way / forget it / oh well |  | Conversational | 2026-03-20 | 2026-03-28 | 11 | 1.45 | 0 | 
+cuando sea | whenever |  | Conversational | 2026-03-20 | 2026-03-30 | 9 | 1.56 | -1 | 
+como sea | however / anyway |  | Conversational | 2026-03-20 | 2026-04-01 | 8 | 0.00 | 0 | 
+donde sea | wherever |  | Conversational | 2026-03-20 | 2026-03-26 | 2 | 2.50 | -1 | 
+quien sea | whoever |  | Conversational | 2026-03-20 | 2026-03-26 | 2 | 2.50 | -1 | 
+¿qué pasa? | what's happening? |  | Conversational | 2026-03-10 | 2026-03-14 | 7 | 1.00 | -1 | 
+¿qué estás haciendo? | what are you doing? |  | Conversational | 2026-03-10 | 2026-03-28 | 10 | 1.50 | -1 | 
+¿qué quieres decir? | what do you mean? |  | Conversational | 2026-03-10 | 2026-03-26 | 10 | 1.80 | -1 | 
+no hay problema | no problem |  | Conversational | 2026-03-10 | 2026-03-28 | 14 | 1.43 | -1 | 
+no importa | it doesn't matter |  | Conversational | 2026-03-10 | 2026-03-28 | 14 | 1.64 | 0 | 
+claro que sí | of course (it is) |  | Conversational | 2026-03-10 | 2026-03-13 | 4 | 2.25 | -1 | 
+claro que no | of course not |  | Conversational | 2026-03-10 | 2026-03-14 | 9 | 1.89 | -1 | 
+por supuesto | of course |  | Conversational | 2026-03-10 | 2026-03-15 | 7 | 1.86 | -1 | 
+tal vez | maybe |  | Conversational | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
+puede ser | maybe / could be |  | Conversational | 2026-03-10 | 2026-04-01 | 15 | 1.20 | 0 | 
+ya veo | I see (ahhh) |  | Conversational | 2026-03-10 | 2026-03-28 | 16 | 0.50 | 0 | 
+ya entiendo | now I understand |  | Conversational | 2026-03-10 | 2026-03-28 | 22 | 0.23 | 0 | 
+tienes razón | you are right |  | Conversational | 2026-03-10 | 2026-03-15 | 5 | 2.00 | -1 | 
+no estoy seguro | I'm not sure |  | Conversational | 2026-03-10 | 2026-03-26 | 12 | 1.08 | 0 | 
+no lo sé | I don't know |  | Conversational | 2026-03-10 | 2026-03-28 | 11 | 1.27 | 0 | 
+lo sé | I know (that) |  | Conversational | 2026-03-10 | 2026-03-16 | 5 | 2.20 | -1 | 
+creo que sí | I think so |  | Conversational | 2026-03-10 | 2026-03-28 | 7 | 2.00 | -1 | 
+creo que no | I don't think so |  | Conversational | 2026-03-10 | 2026-03-14 | 8 | 1.50 | -1 | 
+depende | it depends |  | Conversational | 2026-03-10 | 2026-03-16 | 8 | 1.50 | -1 | 
+qué bueno | that's good / what good |  | Conversational | 2026-03-10 | 2026-03-28 | 12 | 0.50 | 0 | 
+qué lástima | what a shame |  | Conversational | 2026-03-10 | 2026-03-13 | 7 | 1.86 | -1 | 
+qué suerte | how lucky | 🍀 | Conversational | 2026-03-10 | 2026-03-17 | 7 | 1.29 | -1 | 
+buen trabajo | good job | 👍 | Conversational | 2026-03-10 | 2026-03-28 | 8 | 1.63 | 0 | 
+bien hecho | well done | 👌 | Conversational | 2026-03-10 | 2026-03-27 | 14 | 1.50 | 0 | 
+más o menos así | more or less like that |  | Conversational | 2026-03-10 | 2026-03-28 | 9 | 1.11 | 0 | 
+tengo mucho trabajo hoy | I have a lot of work today |  | Conversational | 2026-03-10 | 2026-03-16 | 10 | 1.60 | -1 | 
+no tengo tiempo ahora | I don't have time now |  | Conversational | 2026-03-10 | 2026-03-15 | 6 | 1.17 | -1 | 
+quiero aprender más español | I want to learn more Spanish |  | Conversational | 2026-03-10 | 2026-03-16 | 5 | 2.00 | -1 | 
+estoy muy cansado hoy | I am very tired today |  | Conversational | 2026-03-10 | 2026-03-27 | 10 | 1.10 | -1 | 
+necesito descansar | I need to rest | 😴 | Conversational | 2026-03-10 | 2026-03-31 | 20 | 0.15 | 0 | 
+vamos a comer algo | let's eat something |  | Conversational | 2026-03-10 | 2026-03-15 | 5 | 1.80 | -1 | 
+voy a salir ahora | I'm going out now |  | Conversational | 2026-03-10 | 2026-04-01 | 4 | 1.25 | -1 | 
+vuelvo en una hora | I'll come back in an hour |  | Conversational | 2026-03-10 | 2026-04-01 | 9 | 0.78 | 0 | 
+estoy en casa | I am at home | 🏠 | Conversational | 2026-03-10 | 2026-03-28 | 9 | 1.33 | -1 | 
+estoy en el trabajo | I am at work |  | Conversational | 2026-03-10 | 2026-03-28 | 10 | 1.40 | -1 | 
+estoy con amigos | I am with friends |  | Conversational | 2026-03-10 | 2026-03-19 | 3 | 2.67 | -1 | 
+hace mucho frío | it's very cold | ❄️ | Conversational | 2026-03-10 | 2026-04-01 | 3 | 2.33 | 0 | 
+hace mucho calor | it's very hot | 🔥 | Conversational | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
+hoy hace buen tiempo | the weather is nice today | 🌤️ | Conversational | 2026-03-10 | 2026-03-16 | 4 | 1.00 | -1 | 
+mañana trabajo | tomorrow I work |  | Conversational | 2026-03-10 | 2026-03-27 | 22 | 0.09 | -1 | 
+ayer salí con amigos | yesterday I went out with friends |  | Conversational | 2026-03-10 | 2026-03-26 | 10 | 1.20 | 0 | 
+me gusta esta ciudad | I like this city |  | Conversational | 2026-03-10 | 2026-03-15 | 4 | 2.00 | -1 | 
+no me gusta este restaurante | I don't like this restaurant |  | Conversational | 2026-03-10 | 2026-03-18 | 14 | 1.29 | -1 | 
+este lugar es bonito | this place is beautiful |  | Conversational | 2026-03-10 | 2026-04-01 | 3 | 1.67 | -1 | 
+la comida está muy buena | the food is very good |  | Conversational | 2026-03-10 | 2026-03-26 | 14 | 1.14 | -1 | 
+¿qué quieres hacer? | what do you want to do? |  | Conversational | 2026-03-10 | 2026-03-19 | 9 | 1.89 | -1 | 
+¿qué piensas? | what do you think? |  | Conversational | 2026-03-10 | 2026-03-26 | 10 | 1.60 | -1 | 
+¿te gusta? | do you like it? |  | Conversational | 2026-03-10 | 2026-03-15 | 6 | 2.33 | -1 | 
+me parece bien | that seems good to me |  | Conversational | 2026-03-10 | 2026-03-28 | 14 | 1.64 | -1 | 
+me parece interesante | that seems interesting |  | Conversational | 2026-03-10 | 2026-03-28 | 15 | 1.53 | -1 | 
+eso es verdad | that's true |  | Conversational | 2026-03-10 | 2026-03-28 | 9 | 1.89 | -1 | 
+no estoy de acuerdo | I don't agree |  | Conversational | 2026-03-10 | 2026-03-28 | 10 | 1.90 | -1 | 
+estoy de acuerdo | I agree |  | Conversational | 2026-03-10 | 2026-03-16 | 3 | 2.67 | -1 | 
+no estoy seguro de eso | I'm not sure about that |  | Conversational | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
+eso depende | that depends |  | Conversational | 2026-03-10 | 2026-03-28 | 10 | 1.70 | 0 | 
+todo está bien | everything is fine |  | Conversational | 2026-03-10 | 2026-03-16 | 4 | 2.50 | -1 | 
+todo está listo | everything is ready |  | Conversational | 2026-03-10 | 2026-03-17 | 3 | 2.67 | -1 | 
+vamos a ver | let's see |  | Conversational | 2026-03-10 | 2026-04-01 | 5 | 2.00 | 0 | 
+vamos poco a poco | let's go little by little |  | Conversational | 2026-03-10 | 2026-03-16 | 5 | 1.60 | -1 | 
+un momento | one moment |  | Conversational | 2026-03-10 | 2026-03-16 | 6 | 1.67 | -1 | 
+espera un segundo | wait a second |  | Conversational | 2026-03-10 | 2026-03-31 | 13 | 1.23 | 0 | 
+dame un minuto | give me a minute |  | Conversational | 2026-03-10 | 2026-03-17 | 6 | 0.83 | -1 | 
+no tengo idea | I have no idea |  | Conversational | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
+es una buena idea | it's a good idea |  | Conversational | 2026-03-10 | 2026-03-28 | 14 | 1.07 | 0 | 
+es mala idea | it's a bad idea |  | Conversational | 2026-03-10 | 2026-04-01 | 10 | 1.10 | 0 | 
+no pasa nada | nothing happens / it's fine |  | Conversational | 2026-03-10 | 2026-03-30 | 13 | 0.92 | 0 | 
+qué interesante | how interesting |  | Conversational | 2026-03-10 | 2026-03-15 | 7 | 1.57 | -1 | 
+qué raro | how strange |  | Conversational | 2026-03-10 | 2026-03-27 | 10 | 1.50 | -1 | 
+qué divertido | how fun |  | Conversational | 2026-03-10 | 2026-03-16 | 4 | 2.25 | -1 | 
+qué problema | what a problem |  | Conversational | 2026-03-10 | 2026-03-17 | 3 | 2.67 | -1 | 
+trabajo desde casa | I work from home | 🏠 | Conversational | 2026-03-10 | 2026-03-28 | 11 | 1.18 | -1 | 
+trabajo en una oficina | I work in an office |  | Conversational | 2026-03-10 | 2026-03-26 | 8 | 2.00 | -1 | 
+viajo mucho por trabajo | I travel a lot for work |  | Conversational | 2026-03-10 | 2026-03-15 | 3 | 1.67 | -1 | 
+aprendo algo nuevo cada día | I learn something new every day |  | Conversational | 2026-03-10 | 2026-03-28 | 12 | 1.75 | -1 | 
+leo noticias en español | I read news in Spanish |  | Conversational | 2026-03-10 | 2026-03-13 | 6 | 1.00 | -1 | 
+escucho podcasts en español | I listen to podcasts in Spanish |  | Conversational | 2026-03-10 | 2026-04-01 | 11 | 0.82 | -1 | 
+quiero vivir en España | I want to live in Spain |  | Conversational | 2026-03-10 | 2026-04-01 | 3 | 2.33 | 0 | 
+me gusta aprender idiomas | I like learning languages |  | Conversational | 2026-03-10 | 2026-03-14 | 10 | 1.40 | -1 | 
+hablo español todos los días | I speak Spanish every day |  | Conversational | 2026-03-10 | 2026-03-16 | 7 | 1.71 | -1 | 
+practico con amigos | I practice with friends |  | Conversational | 2026-03-10 | 2026-03-26 | 5 | 2.20 | -1 | 
+necesito más práctica | I need more practice |  | Conversational | 2026-03-10 | 2026-03-26 | 10 | 1.00 | -1 | 
+entiendo un poco | I understand a little |  | Conversational | 2026-03-10 | 2026-03-19 | 4 | 2.25 | -1 | 
+no entiendo todo | I don't understand everything |  | Conversational | 2026-03-10 | 2026-03-27 | 9 | 1.89 | -1 | 
+puedo intentar otra vez | I can try again |  | Conversational | 2026-03-10 | 2026-04-01 | 13 | 1.77 | 0 | 
+vamos al mercado | let's go to the market |  | Conversational | 2026-03-10 | 2026-03-16 | 5 | 1.60 | -1 | 
+vamos a caminar | let's go for a walk |  | Conversational | 2026-03-10 | 2026-03-17 | 6 | 1.83 | -1 | 
+vamos a tomar un café | let's get a coffee | ☕ | Conversational | 2026-03-10 | 2026-03-15 | 3 | 1.67 | -1 | 
+voy al supermercado | I go to the supermarket |  | Conversational | 2026-03-10 | 2026-03-15 | 2 | 3.00 | -1 | 
+compro comida | I buy food |  | Conversational | 2026-03-10 | 2026-03-15 | 4 | 1.25 | -1 | 
+preparo la cena | I prepare dinner |  | Conversational | 2026-03-10 | 2026-03-16 | 4 | 2.50 | -1 | 
+abro la puerta | I open the door | 🚪 | Conversational | 2026-03-10 | 2026-03-16 | 4 | 2.50 | -1 | 
+cierro la ventana | I close the window |  | Conversational | 2026-03-10 | 2026-03-26 | 6 | 1.83 | -1 | 
+llego temprano | I arrive early |  | Conversational | 2026-03-10 | 2026-03-26 | 13 | 1.69 | -1 | 
+salgo tarde del trabajo | I leave work late |  | Conversational | 2026-03-10 | 2026-04-01 | 11 | 1.18 | 0 | 
+me quedo en casa hoy | I stay home today | 🏠 | Conversational | 2026-03-10 | 2026-04-01 | 10 | 1.40 | 0 | 
+¿puedo ver el menú? | can I see the menu? | 📋 | Conversational | 2026-03-14 | 2026-03-31 | 9 | 1.22 | 0 | 
+¿qué recomienda? | what do you recommend? | ⭐ | Conversational | 2026-03-14 | 2026-03-20 | 11 | 0.45 | -1 | 
+quiero pedir | I want to order | 🍽️ | Conversational | 2026-03-14 | 2026-03-28 | 10 | 1.00 | -1 | 
+para mí | for me | 🙋 | Conversational | 2026-03-14 | 2026-03-26 | 4 | 1.50 | -1 | 
+sin sal | without salt | 🧂 | Conversational | 2026-03-14 | 2026-03-19 | 4 | 2.50 | -1 | 
+sin azúcar | without sugar | 🚫🍬 | Conversational | 2026-03-14 | 2026-03-17 | 4 | 2.25 | -1 | 
+con hielo | with ice | 🧊 | Conversational | 2026-03-14 | 2026-03-28 | 8 | 1.50 | -1 | 
+para llevar | to take away / takeaway | 🥡 | Conversational | 2026-03-14 | 2026-03-28 | 7 | 1.71 | -1 | 
+¿está incluido el servicio? | is service included? |  | Conversational | 2026-03-14 | 2026-03-19 | 10 | 0.00 | 0 | 
+¿puedo pagar con tarjeta? | can I pay with card? | 💳 | Conversational | 2026-03-14 | 2026-03-26 | 5 | 1.60 | -1 | 
+volveré | I will return |  | Conversational | 2026-03-10 | 2026-03-28 | 12 | 1.67 | 0 | 
+tengo sueño | I am sleepy | 😴 | Conversational | 2026-03-13 | 2026-03-28 | 6 | 1.17 | -1 | 
+vamos por este sendero | let's go along this trail |  | Conversational | 2026-03-13 | 2026-03-30 | 13 | 0.69 | 0 | 
+creo que viene lluvia | I think rain is coming | 🌧️ | Conversational | 2026-03-13 | 2026-03-27 | 14 | 0.50 | 0 | 
+podemos regresar al coche | we can return to the car |  | Conversational | 2026-03-13 | 2026-04-01 | 9 | 0.67 | 0 | 
+disfruto mucho este lugar | I enjoy this place a lot | 😊 | Conversational | 2026-03-13 | 2026-04-01 | 12 | 0.92 | 0 | 
+a la parrilla | grilled | 🔥 | Conversational | 2026-03-13 | 2026-03-28 | 8 | 0.13 | 0 | 
+a la plancha | grilled on a flat top | 🍳 | Conversational | 2026-03-13 | 2026-03-28 | 8 | 0.25 | 0 | 
+al parecer | apparently / it seems |  | Conversational | 2026-03-16 | 2026-03-28 | 10 | 0.20 | 0 | 
+nunca lo he usado | I have never used it |  | Conversational | 2026-03-16 | 2026-03-30 | 9 | 0.89 | 0 | 
+al menos | at least |  | Conversational | 2026-03-17 | 2026-03-28 | 6 | 1.67 | -1 | 
+en realidad | actually / in reality |  | Conversational | 2026-03-17 | 2026-03-26 | 5 | 2.20 | -1 | 
+de hecho | in fact |  | Conversational | 2026-03-17 | 2026-03-30 | 15 | 0.93 | 0 | 
+porque de hecho | because in fact |  | Conversational | 2026-03-17 | 2026-03-28 | 9 | 0.44 | 0 | 
+ya que | since / because |  | Conversational | 2026-03-17 | 2026-04-01 | 10 | 0.80 | 0 | 
+por lo tanto | therefore |  | Conversational | 2026-03-17 | 2026-04-01 | 13 | -0.08 | 0 | 
+Vamos a hablar de… | We’re going to talk about… |  | Conversational | 2026-03-30 | 2026-03-31 | 2 | 2.00 | 0 | 
+No me di cuenta | I didn’t realize |  | Conversational | 2026-03-30 | 2026-03-31 | 0 | 0.00 | 1 | 
+Se me olvidó | I forgot |  | Conversational | 2026-03-30 | 2026-04-01 | 1 | -1.00 | 1 | 
+A ver qué pasa | Let’s see what happens |  | Conversational | 2026-03-30 | 2026-03-31 | 2 | 1.00 | 0 | 
+es como que… | it’s like… |  | Conversational | 2026-03-30 | 2026-03-31 | 0 | 0.00 | 1 | 
+Yo creo que… | I think that… |  | Conversational | 2026-03-30 | 2026-04-01 | 2 | 2.00 | 0 | 
+y no lo es | and it’s not |  | Conversational | 2026-03-30 | 2026-04-01 | 1 | 0.00 | 0 | 
+Lo ponemos a prueba | We put it to the test |  | Conversational | 2026-03-30 | 2026-03-31 | 1 | 0.00 | 0 | 
+Y que se disfrute | Enjoy it / Hope you enjoy it |  | Conversational | 2026-03-30 | 2026-04-01 | 1 | 0.00 | 0 | 
+¿Y cuál sería lo mejor? | And what would be the best? |  | Conversational | 2026-03-30 | 2026-03-31 | 1 | 1.00 | 0 | 
+A veces pasa que… | Sometimes it happens that… |  | Conversational | 2026-03-30 | 2026-03-31 | 0 | 0.00 | 1 | 
+creo que hay que… | I think one has to / we should… |  | Conversational | 2026-03-30 | 2026-04-01 | 1 | 0.00 | 0 | 
+Pero también he notado que… | But I’ve also noticed that… |  | Conversational | 2026-03-30 | 2026-03-31 | 0 | 0.00 | 1 | 
+Incluso a veces… | Even sometimes… |  | Conversational | 2026-03-30 | 2026-03-31 | 2 | 0.50 | 0 | 
+y esto me recuerda mucho a… | and this reminds me a lot of… |  | Conversational | 2026-03-30 | 2026-03-31 | 0 | 0.00 | 1 | 

@@ -1,38 +1,42 @@
+/* ---------- Base ---------- */
+
 body {
-    padding-top: 60px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding-top: 56px;
     margin: 0;
-    background: #eef2f5;
-    color: #1f2933;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #97bfbd;
+    color: #283231;
     text-align: center;
 }
 
+/* ---------- Typography ---------- */
+
 a {
-    color: #334155;
+    color: #3f3562;
     text-decoration: none;
+    font-weight: 500;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-.menu-divider {
-    margin: 16px auto;
-    width: 80%;
-    border: none;
-    border-top: 1px solid #d7dde4;
+/* ---------- Utilities ---------- */
+
+.hidden {
+    display: none !important;
 }
 
-.mode-buttons button {
-    font-size: 18px;
-    padding: 12px 20px;
-    font-weight: 600;
+.mt-small {
+    margin-top: 10px;
 }
 
-#categoryFilters label {
-    display: block;
-    margin: 6px 0;
-    font-size: 15px;
+.mt-medium {
+    margin-top: 18px;
+}
+
+.row {
+    margin-top: 16px;
 }
 
 /* ---------- Top Bar ---------- */
@@ -40,195 +44,281 @@ a:hover {
 #topBar {
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
-    background: white;
+    height: 56px;
+    background: #283231;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 45px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-    z-index: 1000;
 }
 
 #hamburger {
     position: absolute;
-    left: 15px;
-    font-size: 22px;
-    cursor: pointer;
+    left: 16px;
+    font-size: 24px;
+    color: #bbe7ba;
 }
 
-#topTitle {
+#topTitle a {
+    color: #bbe7ba;
     font-weight: 600;
-    font-size: 16px;
 }
 
-/* Dropdown menu */
+/* ---------- Dropdown ---------- */
 
 #dropdownMenu {
     position: fixed;
-    top: 50px;
-    left: 10px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    top: 60px;
+    left: 12px;
+    background: #283231;
+    border-radius: 10px;
     overflow: hidden;
-    z-index: 1000;
 }
 
-/* Flat menu item */
 .menu-item {
-    padding: 12px 16px;
-    font-size: 15px;
-    cursor: pointer;
-    text-align: left;
+    padding: 14px 18px;
+    color: #bbe7ba;
 }
 
-/* Hover effect (flat, subtle) */
 .menu-item:hover {
-    background: #f1f5f9;
+    background: #3f3562;
 }
 
-/* ---------- Buttons ---------- */
+/* ---------- Game Menu ---------- */
+
+.menu-container {
+    padding: 10px;
+}
+
+.language-block {
+    margin: 20px auto;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.language-title {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #283231;
+}
+
+.game-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 6px;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.game-name {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: right;
+    margin-left: 12px;
+}
+
+.game-actions {
+    font-size: 14px;
+}
+
+/* ---------- Divider ---------- */
+
+.menu-divider {
+    margin: 18px auto;
+    width: 80%;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+/* ---------- Buttons (mobile-first) ---------- */
 
 button {
-    padding: 12px 16px;
+    padding: 14px 18px;
     margin: 6px;
     font-size: 16px;
     border-radius: 10px;
     border: none;
-    background: white;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    background: #283231;
+    color: #bbe7ba;
     cursor: pointer;
-    transition: all .15s ease;
 }
 
-button:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-button:active {
-    transform: translateY(0px);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
-}
-
+/* Primary action buttons */
 .difficulty button {
-    width: 60px;
-    font-size: 20px;
-}
-
-/* ---------- Card ---------- */
-
-.card {
-    margin: 20px auto;
-    background: white;
-    border-radius: 16px;
-    width: 95%;
-    max-width: 520px;
-    font-size: 24px;
-    cursor: pointer;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
-    overflow: hidden;
-}
-
-/* Proper header and footer */
-
-.card-header {
-    font-size: 15px;
-    color: #6b7280;
-    background: #f6f8fb;
-    padding: 8px 16px;
-    text-align: left;
-    border-bottom: 1px solid #e5eaf0;
-}
-
-.card-footer {
-    font-size: 15px;
-    color: #6b7280;
-    background: #f6f8fb;
-    padding: 8px 16px;
-    text-align: right;
-    border-top: 1px solid #e5eaf0;
-}
-
-.card-footer span {
-    float: left;
-    font-size: 16px;
-}
-
-/* Card content */
-
-.card-top,
-.card-bottom {
-    padding: 15px 15px;
-    min-height: 100px;
-}
-
-/* Divider */
-
-.card-divider {
-    text-align: center;
-    margin: 6px 0;
+    width: 64px;
+    height: 48px;
     font-size: 18px;
-    color: #d1d7de;
 }
 
-.card-divider #cardEmoji {
-    font-size: 26px;
-    margin: 0 6px;
-}
+/* ---------- Study Area Layout ---------- */
 
-/* ---------- Inputs ---------- */
-
-textarea {
-    width: 95%;
-    height: 350px;
-    background: white;
-    color: #1f2933;
-    font-size: 14px;
-    border-radius: 10px;
-    border: 1px solid #d7dde4;
+#studyArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 10px;
 }
 
-input[type="text"] {
-    background: white;
-    color: #1f2933;
-    border: 1px solid #d7dde4;
-    padding: 8px;
-    font-size: 16px;
+/* ---------- Card (MAIN FOCUS) ---------- */
+
+.card {
+    width: 100%;
+    max-width: 640px;
+    min-height: 60vh;
+    background: #ffffff;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* Header (secondary importance) */
+
+.card-header {
+    font-size: 13px;
+    color: #5d5440;
+    padding: 10px 14px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Footer (edit link secondary) */
+
+.card-footer {
+    font-size: 13px;
+    padding: 10px 14px;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    text-align: right;
+}
+
+/* Core content (PRIMARY) */
+
+.card-top,
+.card-bottom {
+    flex: 1 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 16px;
+    font-size: 28px;
+    font-weight: 600;
+    min-height: 120px;
+}
+
+/* Ensure the divider stays centered vertically in the card */
+.card-divider {
+    text-align: center;
+    font-size: 22px;
+    color: #9e9173;
+    flex-shrink: 0;
+}
+
+#cardEmoji {
+    font-size: 36px;
+    margin: 0 10px;
+}
+
+/* ---------- Comment (HIGH IMPORTANCE NOW) ---------- */
+
+#cardComment {
+    margin-top: 0;
+    /* Removed margin to blend with card */
+    padding: 14px;
+    max-width: 640px;
+    width: 100%;
+    font-size: 15px;
+    color: #283231;
+    background: #ffffff;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+}
+
+/* ---------- Info ---------- */
+
+#cardInfo {
+    font-size: 12px;
+    color: #3f3562;
+}
+
+/* ---------- Bottom Controls (thumb-friendly) ---------- */
+
+.difficulty,
+#nextButtons {
+    position: fixed;
+    bottom: 70px;
+    display: flex;
+    gap: 10px;
+}
+
+/* Exit button pinned bottom */
+
+#exitButton {
+    position: fixed;
+    bottom: 10px;
+    width: calc(100% - 20px);
+    max-width: 640px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #283231;
+    color: #bbe7ba;
+}
+
+/* ---------- Forms ---------- */
+
+textarea {
+    width: 95%;
+    height: 320px;
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+}
+
+.input-wide {
+    width: 100%;
+    max-width: 320px;
+    padding: 10px;
     border-radius: 8px;
+    border: none;
 }
 
-/* ---------- Layout ---------- */
-
-.row {
-    margin-top: 14px;
+.form-container {
+    text-align: left;
+    display: inline-block;
+    margin: 20px auto;
 }
 
-/* ---------- Statistics ---------- */
+/* ---------- Misc ---------- */
 
-#statsContent {
-    line-height: 1.0;
+.category-filters {
+    text-align: left;
+    display: inline-block;
 }
 
-/* ---------- Mobile ---------- */
+.stats-box {
+    text-align: left;
+    display: inline-block;
+    margin: 20px auto;
+}
+
+/* ---------- Mobile tweaks ---------- */
 
 @media (max-width: 600px) {
 
-    .card {
-        margin: 15px auto;
-        font-size: 20px;
-    }
-
     .card-top,
     .card-bottom {
-        padding: 18px 14px;
+        font-size: 24px;
+        padding: 20px 12px;
     }
 
-    button {
-        font-size: 15px;
+    #cardEmoji {
+        font-size: 32px;
     }
 
+    .difficulty button {
+        width: 60px;
+        height: 44px;
+    }
 }

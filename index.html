@@ -10,80 +10,76 @@
 <body>
 
     <div id="topBar">
-        <div id="hamburger" onclick="toggleMenu()">&#9776;</div>
-        <div id="topTitle">
-            <a href="index.html">DotLingo</a> :: Flashcards
+        <div id="hamburger">&#9776;</div>
+        <div id="topTitle"><a href="index.html">DotLingo</a> :: Flashcards</div>
+    </div>
+
+    <div id="dropdownMenu" class="hidden">
+        <div id="foreignSoundToggle" class="menu-item" onclick="toggleSound('foreign')"></div>
+        <div id="nativeSoundToggle" class="menu-item" onclick="toggleSound('native')"></div>
+    </div>
+
+    <!-- GAME MENU -->
+    <div id="gameMenu" class="menu-container">
+
+        <div class="language-block">
+            <div class="language-title">Spanish</div>
+
+            <div class="game-row">
+                <div class="game-name">Vocabulary</div>
+                <div class="game-actions">
+                    <a href="#" onclick="selectGame('Vocabulary', 'Spanish')">Learn</a>
+                    ::
+                    <a href="#" onclick="editGameDataset('Vocabulary','Spanish')">Edit</a>
+                    ::
+                    <a href="#" onclick="statistics('Vocabulary','Spanish')">Statistics</a>
+                </div>
+            </div>
+
+            <div class="game-row">
+                <div class="game-name">Verbs</div>
+                <div class="game-actions">
+                    <a href="#" onclick="selectGame('Verbs', 'Spanish')">Learn</a>
+                    ::
+                    <a href="#" onclick="editGameDataset('Verbs','Spanish')">Edit</a>
+                    ::
+                    <a href="#" onclick="statistics('Verbs','Spanish')">Statistics</a>
+                </div>
+            </div>
         </div>
-    </div>
 
-    <div id="dropdownMenu" style="display:none;">
-        <div id="soundToggleItem" class="menu-item" onclick="toggleSoundMenuItem()">
+        <div class="language-block">
+            <div class="language-title">French</div>
+
+            <div class="game-row">
+                <div class="game-name">Vocabulary</div>
+                <div class="game-actions">
+                    <a href="#" onclick="selectGame('Vocabulary','French')">Learn</a>
+                    ::
+                    <a href="#" onclick="editGameDataset('Vocabulary','French')">Edit</a>
+                    ::
+                    <a href="#" onclick="statistics('Vocabulary','French')">Statistics</a>
+                </div>
+            </div>
+
+            <div class="game-row">
+                <div class="game-name">Verbs</div>
+                <div class="game-actions">
+                    <a href="#" onclick="selectGame('Verbs','French')">Learn</a>
+                    ::
+                    <a href="#" onclick="editGameDataset('Verbs','French')">Edit</a>
+                    ::
+                    <a href="#" onclick="statistics('Verbs','French')">Statistics</a>
+                </div>
+            </div>
         </div>
-    </div>
-
-    <div id="gameMenu">
-
-        <table style="margin: 20px auto; border-collapse: collapse;">
-
-            <tr>
-                <td colspan="4" style="padding: 10px; font-weight: bold; text-align: center;">Spanish</td>
-            </tr>
-            <tr>
-                <td style="padding: 10px; font-weight: bold; text-align: right;">Vocabulary</td>
-                <td style="padding: 10px; font-weight: bold; text-align: right;">--</td>
-                <td style="padding: 10px;">
-                    <a href="#" onclick="selectGame('Vocabulary', 'Spanish')" style="margin-right: 15px;">Learn</a>
-                    ::
-                    <a href="#" onclick="editGameDataset('Vocabulary','Spanish')" style="margin: 0 15px;">Edit</a>
-                    ::
-                    <a href="#" onclick="statistics('Vocabulary','Spanish');" style="margin-left: 15px;">Statistics</a>
-                </td>
-            </tr>
-            <tr>
-                <td style="padding: 10px; font-weight: bold; text-align: right;">Verbs</td>
-                <td style="padding: 10px; font-weight: bold; text-align: right;">--</td>
-                <td style="padding: 10px;">
-                    <a href="#" onclick="selectGame('Verbs', 'Spanish')" style="margin-right: 15px;">Learn</a>
-                    ::
-                    <a href="#" onclick="editGameDataset('Verbs','Spanish')" style="margin: 0 15px;">Edit</a>
-                    ::
-                    <a href="#" onclick="statistics('Verbs','Spanish');" style="margin-left: 15px;">Statistics</a>
-                </td>
-            </tr>
-
-            <tr>
-                <td colspan="4" style="padding: 10px; font-weight: bold; text-align: center;">French</td>
-            </tr>
-            <tr>
-                <td style="padding: 10px; font-weight: bold; text-align: right;">Vocabulary</td>
-                <td style="padding: 10px; font-weight: bold; text-align: right;">--</td>
-                <td style="padding: 10px;">
-                    <a href="#" onclick="selectGame('Vocabulary','French')" style="margin-right: 15px;">Learn</a>
-                    ::
-                    <a href="#" onclick="editGameDataset('Vocabulary','French')" style="margin: 0 15px;">Edit</a>
-                    ::
-                    <a href="#" onclick="statistics('Vocabulary','French');" style="margin-left: 15px;">Statistics</a>
-                </td>
-            </tr>
-            <tr>
-                <td style="padding: 10px; font-weight: bold; text-align: right;">Verbs</td>
-                <td style="padding: 10px; font-weight: bold; text-align: right;">--</td>
-                <td style="padding: 10px;">
-                    <a href="#" onclick="selectGame('Verbs','French')" style="margin-right: 15px;">Learn</a>
-                    ::
-                    <a href="#" onclick="editGameDataset('Verbs','French')" style="margin: 0 15px;">Edit</a>
-                    ::
-                    <a href="#" onclick="statistics('Verbs','French');" style="margin-left: 15px;">Statistics</a>
-                </td>
-            </tr>
-        </table>
 
     </div>
 
-    <div id="configurationMenu" style="display:none">
+    <!-- CONFIG -->
+    <div id="configurationMenu" class="hidden">
         <h3 id="languageTitle"></h3>
 
-        <!-- Mode Selection -->
         <div class="row">
             <label><input type="radio" name="direction" value="recognition"
                     onclick="selectGameDirection('recognition')">Recognition</label>
@@ -95,64 +91,53 @@
 
         <hr class="menu-divider">
 
-        <!-- Category Selection -->
-        <div id="categoryFilters" class="row" style="text-align:left; display:inline-block;">
-            <!-- dynamically filled -->
-        </div>
+        <div id="categoryFilters" class="row category-filters"></div>
 
         <hr class="menu-divider">
 
-        <!-- Start Game -->
-        <div class="row mode-buttons">
-            <div class="row">
-                <a href="#" onclick="startGame('normal'); return false;"
-                    title="Study all cards, excluding those marked as 'too easy'.">Normal</a>
-                ::
-                <a href="#" onclick="startGame('new'); return false;"
-                    title="Study only cards seen less than three times or added recently, excluding those marked as 'too easy'.">New</a>
-                ::
-                <a href="#" onclick="startGame('hard'); return false;"
-                    title="Study only cards explicitly marked as 'hard'.">Hard</a>
-                ::
-                <a href="#" onclick="startGame('review'); return false;"
-                    title="Review cards that were marked as 'too easy', but haven't been seen in a while.">Review</a>
-            </div>
+        <div class="row">
+            <a href="#" onclick="startGame('normal'); return false;">Normal</a> ::
+            <a href="#" onclick="startGame('new'); return false;">New</a> ::
+            <a href="#" onclick="startGame('hard'); return false;">Hard</a> ::
+            <a href="#" onclick="startGame('review'); return false;">Review</a>
         </div>
 
         <br><br>
         <button onclick="backToMenu()">Back</button>
     </div>
 
-    <div id="studyArea" style="display:none">
+    <!-- STUDY -->
+    <div id="studyArea" class="hidden">
 
         <div id="card" class="card" onclick="finishRound()">
             <div id="cardHeader" class="card-header"></div>
             <div id="cardTop" class="card-top">Press Here</div>
             <div id="cardDivider" class="card-divider">--------- <span id="cardEmoji"></span> ---------</div>
             <div id="cardBottom" class="card-bottom"></div>
+            <div id="cardComment" class="muted-text mt-medium"></div>
             <div id="cardFooter" class="card-footer"><a href="#" onclick="showCardEdit();">edit</a></div>
         </div>
 
-        <div class="difficulty" id="difficultyButtons" style="display:none">
-            <button onclick="cycleRound(0, -1)" title="Move card into 'too easy' set.">&larr;</button>
-            <button onclick="cycleRound(1, 0)" title="Got it!">1</button>
-            <button onclick="cycleRound(2, 0)" title="Made a small error.">2</button>
-            <button onclick="cycleRound(3, 0)" title="Missed it.">3</button>
-            <button onclick="cycleRound(4, 1)" title="Move card into 'hard' set.">&rarr;</button>
+        <div class="difficulty hidden" id="difficultyButtons">
+            <button onclick="cycleRound(0, -1)">&larr;</button>
+            <button onclick="cycleRound(1, 0)">1</button>
+            <button onclick="cycleRound(2, 0)">2</button>
+            <button onclick="cycleRound(3, 0)">3</button>
+            <button onclick="cycleRound(4, 1)">&rarr;</button>
         </div>
 
-        <div class="difficulty" id="nextButtons" style="display:none">
-            <button onclick="cycleRound()" title="Move to next card.">&gt;&gt;</button>
+        <div class="difficulty hidden" id="nextButtons">
+            <button onclick="cycleRound()">&gt;&gt;</button>
         </div>
 
-        <button id="exitButton" onclick="endGame()" style="margin-top:8px;">Exit</button>
-        <div id="cardComment" style="color:#888; font-size:12px; margin-top:16px;"></div>
-        <div id="cardInfo" style="color:#888; font-size:12px; margin-top:16px;"></div>
+        <button id="exitButton" class="mt-small" onclick="endGame()">Exit</button>
+
+        <div id="cardInfo" class="muted-text mt-medium"></div>
 
     </div>
 
-    <div id="editArea" style="display:none">
-
+    <!-- EDIT DATA -->
+    <div id="editArea" class="hidden">
         <h3 id="editTitle"></h3>
 
         <textarea id="editBox"></textarea>
@@ -161,27 +146,28 @@
         <button onclick="selectAllText()">Select All</button>
         <button onclick="saveGameDataset()">Save</button>
         <button onclick="backToMenu()">Cancel</button>
-
     </div>
 
-    <div id="statsArea" style="display:none">
+    <!-- STATS -->
+    <div id="statsArea" class="hidden">
         <h3 id="statsTitle"></h3>
 
-        <div id="statsContent" style="text-align: left; display: inline-block; margin: 20px auto;"></div>
+        <div id="statsContent" class="stats-box"></div>
         <br />
         <button onclick="backToMenu()">Back</button>
     </div>
 
-    <div id="editCardArea" style="display:none">
+    <!-- EDIT CARD -->
+    <div id="editCardArea" class="hidden">
 
         <h3>Edit Card</h3>
 
-        <div style="text-align: left; display: inline-block; margin: 20px auto;">
-            <label>Front: <input type="text" id="editFront" style="width:300px;"></label><br><br>
-            <label>Back: <input type="text" id="editBack" style="width:300px;"></label><br><br>
-            <label>Emoji: <input type="text" id="editEmoji" style="width:300px;"></label><br><br>
-            <label>Category: <input type="text" id="editCategory" style="width:300px;"></label><br><br>
-            <label>Comment: <input type="text" id="editComment" style="width:300px;"></label><br><br>
+        <div class="form-container">
+            <label>Front: <input type="text" id="editFront" class="input-wide"></label><br><br>
+            <label>Back: <input type="text" id="editBack" class="input-wide"></label><br><br>
+            <label>Emoji: <input type="text" id="editEmoji" class="input-wide"></label><br><br>
+            <label>Category: <input type="text" id="editCategory" class="input-wide"></label><br><br>
+            <label>Comment: <input type="text" id="editComment" class="input-wide"></label><br><br>
         </div>
 
         <br>
@@ -190,7 +176,6 @@
 
     </div>
 
-    <!-- Load application javascript -->
     <script type="module" src="assets/scripts/app.js"></script>
 
 </body>
