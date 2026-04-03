@@ -135,7 +135,7 @@ a:hover {
 /* ---------- Buttons (mobile-first) ---------- */
 
 button {
-    padding: 14px 18px;
+    padding: 10px 18px;
     margin: 6px;
     font-size: 16px;
     border-radius: 10px;
@@ -166,12 +166,13 @@ button {
 .card {
     width: 100%;
     max-width: 640px;
-    min-height: 60vh;
+    min-height: calc(60vh + 35px);
     background: #ffffff;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .card-header {
@@ -191,11 +192,11 @@ button {
 
 .card-top,
 .card-bottom {
-    flex: 1;
+    flex: 1.2 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px;
+    padding: 30px 16px;
     font-size: 28px;
     font-weight: 600;
 }
@@ -213,15 +214,16 @@ button {
 }
 
 #cardComment {
-    flex: 3;
+    flex: 2.2 0 0;
     padding: 14px;
     font-size: 15px;
     color: #283231;
-    background: #ffffff;
+    background: #fafafa;
     border-top: 1px solid rgba(0, 0, 0, 0.05);
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     overflow-y: auto;
     text-align: left;
+    max-height: 250px;
 }
 
 #cardInfo {

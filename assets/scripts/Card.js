@@ -56,9 +56,7 @@ export class Card {
     isNormal() { return this.level === 0; }
     isNew() { return this.level >= 0 && (this.seen < 3 || this.added >= Date.now() - 5 * 24 * 60 * 60 * 1000); }
 
-    priority() {
-        return (this.penalty + 0.1) / (1 + this.seen * 0.2);
-    }
+    priority() { return (this.penalty + 0.1) / (1 + this.seen * 0.2); ß }
 
     summary() {
         let added = parseDate(this.added)

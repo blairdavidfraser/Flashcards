@@ -182,10 +182,7 @@ function configureGame() {
     categories.forEach(cat => {
         const id = "cat_" + cat.replace(/\s+/g, "_");
         const label = document.createElement("label");
-        label.innerHTML = `
-            <input type="checkbox" id="${id}" checked>
-            ${cat} (${counts[cat]})
-        `;
+        label.innerHTML = `<p><input type="checkbox" id="${id}" checked>${cat} (${counts[cat]})</p>`;
 
         const checkbox = label.querySelector("input");
         checkbox.addEventListener("change", () => {
