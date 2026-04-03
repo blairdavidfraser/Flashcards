@@ -17,6 +17,7 @@
     <div id="dropdownMenu" class="hidden">
         <div id="foreignSoundToggle" class="menu-item" onclick="toggleSound('foreign')"></div>
         <div id="nativeSoundToggle" class="menu-item" onclick="toggleSound('native')"></div>
+        <div id="editCardMenuItem" class="menu-item hidden" onclick="showCardEdit()">Edit Card</div>
     </div>
 
     <!-- GAME MENU -->
@@ -115,7 +116,9 @@
             <div id="cardDivider" class="card-divider">--------- <span id="cardEmoji"></span> ---------</div>
             <div id="cardBottom" class="card-bottom"></div>
             <div id="cardComment" class="muted-text mt-medium"></div>
-            <div id="cardFooter" class="card-footer"><a href="#" onclick="showCardEdit();">edit</a></div>
+            <div id="cardFooter" class="card-footer">
+                <div id="cardInfo" class="muted-text"></div>
+            </div>
         </div>
 
         <div class="difficulty hidden" id="difficultyButtons">
@@ -131,8 +134,6 @@
         </div>
 
         <button id="exitButton" class="mt-small" onclick="endGame()">Exit</button>
-
-        <div id="cardInfo" class="muted-text mt-medium"></div>
 
     </div>
 

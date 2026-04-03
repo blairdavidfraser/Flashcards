@@ -174,43 +174,35 @@ button {
     overflow: hidden;
 }
 
-/* Header (secondary importance) */
-
 .card-header {
-    font-size: 13px;
+    font-weight: 600;
+    font-size: 15px;
     color: #5d5440;
     padding: 10px 14px;
     text-align: left;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-/* Footer (edit link secondary) */
-
 .card-footer {
-    font-size: 13px;
-    padding: 10px 14px;
+    padding: 8px 14px;
+    background: #f9f9f9;
     border-top: 1px solid rgba(0, 0, 0, 0.08);
-    text-align: right;
 }
-
-/* Core content (PRIMARY) */
 
 .card-top,
 .card-bottom {
-    flex: 1 0 0;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 24px 16px;
+    padding: 16px;
     font-size: 28px;
     font-weight: 600;
-    min-height: 120px;
 }
 
-/* Ensure the divider stays centered vertically in the card */
 .card-divider {
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
     color: #9e9173;
     flex-shrink: 0;
 }
@@ -220,50 +212,47 @@ button {
     margin: 0 10px;
 }
 
-/* ---------- Comment (HIGH IMPORTANCE NOW) ---------- */
-
 #cardComment {
-    margin-top: 0;
-    /* Removed margin to blend with card */
+    flex: 3;
     padding: 14px;
-    max-width: 640px;
-    width: 100%;
     font-size: 15px;
     color: #283231;
     background: #ffffff;
     border-top: 1px solid rgba(0, 0, 0, 0.05);
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-    box-sizing: border-box;
+    overflow-y: auto;
+    text-align: left;
 }
 
-/* ---------- Info ---------- */
-
 #cardInfo {
-    font-size: 12px;
-    color: #3f3562;
+    font-size: 11px;
+    color: #5d5440;
+    text-align: right;
 }
 
 /* ---------- Bottom Controls (thumb-friendly) ---------- */
 
 .difficulty,
-#nextButtons {
-    position: fixed;
-    bottom: 70px;
-    display: flex;
-    gap: 10px;
-}
-
-/* Exit button pinned bottom */
-
+#nextButtons,
 #exitButton {
     position: fixed;
     bottom: 10px;
-    width: calc(100% - 20px);
-    max-width: 640px;
     left: 50%;
     transform: translateX(-50%);
-    background: #283231;
-    color: #bbe7ba;
+    width: calc(100% - 20px);
+    max-width: 640px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    z-index: 10;
+}
+
+
+.difficulty button,
+#nextButtons button {
+    flex: 1;
+    max-width: 120px;
 }
 
 /* ---------- Forms ---------- */
@@ -309,7 +298,7 @@ textarea {
 
     .card-top,
     .card-bottom {
-        font-size: 24px;
+        font-size: 18px;
         padding: 20px 12px;
     }
 

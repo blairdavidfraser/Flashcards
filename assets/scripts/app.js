@@ -47,7 +47,6 @@ function finishRound() {
         document.getElementById("nextButtons").classList.add("hidden")
     }
 
-
     document.getElementById("exitButton").classList.add("hidden")
     document.getElementById("cardComment").innerText = gameplay.state.card ? gameplay.state.card.comment : '';
     document.getElementById("cardInfo").innerText = gameplay.state.card ? gameplay.state.card.summary() : '';
@@ -96,7 +95,7 @@ const hamburger = document.getElementById("hamburger");
 hamburger.addEventListener("click", (e) => {
     e.stopPropagation();
     // Refresh labels every time we open to ensure they match current state
-    refreshSoundMenu();
+    refreshMenu();
     menu.classList.toggle("hidden");
 });
 
@@ -114,7 +113,7 @@ menu.addEventListener("click", (e) => {
 /**
  * Updates the text and emojis in the dropdown menu based on current state
  */
-function refreshSoundMenu() {
+function refreshMenu() {
     const foreignItem = document.getElementById("foreignSoundToggle");
     const nativeItem = document.getElementById("nativeSoundToggle");
 
@@ -128,6 +127,13 @@ function refreshSoundMenu() {
         nativeItem.innerHTML = gameplay.sound.native
             ? "&#128266; Native Sound"
             : "&#128263; Native Sound";
+    }
+
+    const editItem = document.getElementById("editCardMenuItem");
+    if (gameplay.state && gameplay.state.card) {
+        editItem.classList.remove("hidden");
+    } else {
+        editItem.classList.add("hidden");
     }
 }
 
@@ -212,6 +218,7 @@ function backToMenu() {
 // Card edit form
 //=============================================================================
 function showCardEdit() {
+    menu.classList.add("hidden"); // Close menu
     document.getElementById("studyArea").classList.add("hidden")
     document.getElementById("editCardArea").classList.remove("hidden");
     document.getElementById("editFront").value = gameplay.state.card.front
@@ -393,4 +400,4 @@ window.selectAllText = selectAllText
 window.statistics = statistics
 
 // Initial render of menu items
-refreshSoundMenu();
+refreshMenu();
