@@ -24,6 +24,7 @@ function startGame(rank) {
 }
 
 function startRound() {
+    clearTimeout(autopilotTimer);
     gameplay.draw();
     document.getElementById("cardHeader").innerText = gameplay.state.card.category || "";
     document.getElementById("cardTop").innerHTML = renderCardContent(gameplay.state.questionText);
@@ -33,9 +34,13 @@ function startRound() {
     document.getElementById("nextButtons").classList.add("hidden")
     document.getElementById("exitButton").classList.remove("hidden");
     document.getElementById("cardInfo").innerText = gameplay.state.card ? gameplay.state.card.summary() : '';
+    if (autopilot) {
+        autopilotTimer = setTimeout(finishRound, 6000);
+    }
 }
 
 function finishRound() {
+    clearTimeout(autopilotTimer); // Clear if triggered by user click
     gameplay.reveal()
     document.getElementById("cardBottom").innerHTML = renderCardContent(gameplay.state.answerText);
     document.getElementById("cardEmoji").innerHTML = gameplay.state.answerEmoji;
@@ -50,6 +55,9 @@ function finishRound() {
     document.getElementById("exitButton").classList.add("hidden")
     document.getElementById("cardComment").innerText = gameplay.state.card ? gameplay.state.card.comment : '';
     document.getElementById("cardInfo").innerText = gameplay.state.card ? gameplay.state.card.summary() : '';
+    if (autopilot) {
+        autopilotTimer = setTimeout(() => cycleRound(), 4000);
+    }
 }
 
 function renderCardContent(text) {
@@ -79,6 +87,7 @@ function cycleRound(difficulty = null, level = null) {
 }
 
 function endGame() {
+    clearTimeout(autopilotTimer);
     gameplay.end();
     backToMenu()
 }
@@ -114,6 +123,13 @@ menu.addEventListener("click", (e) => {
  * Updates the text and emojis in the dropdown menu based on current state
  */
 function refreshMenu() {
+    const autoItem = document.getElementById("autopilotToggle");
+    if (autoItem) {
+        autoItem.innerHTML = autopilot
+            ? "✅ Autopilot"
+            : "❌ Autopilot";
+    }
+
     const foreignItem = document.getElementById("foreignSoundToggle");
     const nativeItem = document.getElementById("nativeSoundToggle");
 
@@ -149,6 +165,28 @@ function toggleSound(type) {
         // Close menu after selection
         menu.classList.add("hidden");
     }
+}
+
+let autopilot = false;
+let autopilotTimer = null;
+
+function toggleAutopilot() {
+    autopilot = !autopilot;
+    clearTimeout(autopilotTimer); // Stop any active timers
+
+    // If we are currently in a game and just turned it on, start the flow
+    if (autopilot && !document.getElementById("studyArea").classList.contains("hidden")) {
+        // If buttons are hidden, we are on the 'Question' side
+        if (document.getElementById("nextButtons").classList.contains("hidden") &&
+            document.getElementById("difficultyButtons").classList.contains("hidden")) {
+            autopilotTimer = setTimeout(finishRound, 6000);
+        } else {
+            // We are on the 'Answer' side
+            autopilotTimer = setTimeout(() => cycleRound(), 4000);
+        }
+    }
+
+    refreshMenu();
 }
 
 function selectGame(name, language) {
@@ -384,6 +422,7 @@ window.startRound = startRound
 window.finishRound = finishRound
 window.cycleRound = cycleRound
 window.endGame = endGame
+window.toggleAutopilot = toggleAutopilot;
 window.toggleSound = toggleSound // Updated global exposure
 window.selectGame = selectGame
 window.configureGame = configureGame
