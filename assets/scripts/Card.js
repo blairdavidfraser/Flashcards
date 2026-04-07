@@ -16,7 +16,7 @@ export class Card {
         this.lastSeen = data.lastSeen || null;
         this.seen = data.seen || 0;
         this.totalFailure = data.totalFailure || (data.penalty * (data.seen || 0));
-        this.penalty = this.seen > 0 ? this.totalFailure / this.seen : 0;
+        this.penalty = this.seen == 0 ? 0 : this.totalFailure / this.seen;
         this.level = data.level || 0;
         this.comment = data.comment?.trim() || "";
     }
@@ -62,7 +62,7 @@ export class Card {
         let added = parseDate(this.added)
         let last = this.lastSeen ? new Date(this.lastSeen) : null
         let seen = this.seen || 0
-        return `level ${this.level} (${this.penalty.toFixed(2)}), added ${formatDate(added)}, ` +
-            `last seen ${last ? formatDate(last) : 'never'}, seen ${seen}`
+        return `level ${this.level} (${this.penalty.toFixed(2)} @ ${seen}x), +${formatDate(added)}, ` +
+            `last ${last ? formatDate(last) : 'never'}`
     }
 }

@@ -33,6 +33,8 @@ function startRound() {
     document.getElementById("difficultyButtons").classList.add("hidden")
     document.getElementById("nextButtons").classList.add("hidden")
     document.getElementById("exitButton").classList.remove("hidden");
+
+    document.getElementById("cardComment").innerText = '&nbsp;';
     document.getElementById("cardInfo").innerText = gameplay.state.card ? gameplay.state.card.summary() : '';
     if (autopilot) {
         autopilotTimer = setTimeout(finishRound, 6000);
