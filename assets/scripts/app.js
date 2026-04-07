@@ -333,16 +333,16 @@ function saveGameDataset() {
 
         let parts = line.split("|");
         let card = new Card({
-            front: parts.trim(),
-            back: parts.trim(),
-            emoji: parts.trim() || "",
-            category: parts.trim() || "",
-            added: parseDate(parts.trim()),
-            lastSeen: parseDate(parts.trim()),
-            seen: parseInt(parts) || 0,
-            penalty: parseFloat(parts) || 0,
-            level: parseInt(parts) || 0,
-            comment: parts?.trim() || ""
+            front: parts[0].trim(),
+            back: parts[1].trim(),
+            emoji: parts[2].trim() || "",
+            category: parts[3].trim() || "",
+            added: parseDate(parts[4].trim()),
+            lastSeen: parseDate(parts[5].trim()),
+            seen: parseInt(parts[6]) || 0,
+            penalty: parseFloat(parts[7]) || 0,
+            level: parseInt(parts[8]) || 0,
+            comment: parts[9]?.trim() || ""
         });
 
         if (card.validate()) {
