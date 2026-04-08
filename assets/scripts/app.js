@@ -34,7 +34,7 @@ function startRound() {
     document.getElementById("nextButtons").classList.add("hidden")
     document.getElementById("exitButton").classList.remove("hidden");
 
-    document.getElementById("cardComment").innerText = '&nbsp;';
+    document.getElementById("cardComment").innerHTML = "&nbsp;";
     document.getElementById("cardInfo").innerText = gameplay.state.card ? gameplay.state.card.summary() : '';
     if (autopilot) {
         autopilotTimer = setTimeout(finishRound, 6000);
