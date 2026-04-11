@@ -15,13 +15,9 @@ export class Card {
         this.added = data.added || Date.now();
         this.lastSeen = data.lastSeen || null;
         this.seen = data.seen || 0;
-        this.totalFailure = data.totalFailure || 0;
         this.level = data.level || 0;
         this.comment = data.comment?.trim() || "";
-
-        // If a card has never been seen, then penalty is null, which
-        // will be handled for in the priority calculation.
-        this.penalty = this.seen == 0 ? null : this.totalFailure / this.seen;
+        this.penalty = data.penalty || null;
     }
 
     validate() {
@@ -40,9 +36,15 @@ export class Card {
         this.seen++;
         this.lastSeen = Date.now();
         this.level = Math.max(Math.min(level, 1), -1);
-        const failure = difficulty - 1;
-        this.totalFailure = (this.totalFailure || 0) + failure;
-        this.penalty = this.seen > 0 ? this.totalFailure / this.seen : 0;
+
+        // Difficulty is converted to zero-based measure and blended 
+        // with existing penalty using exponential moving average.
+        const alpha = 0.3; // Weight of the new result
+        if (this.penalty == null) {
+            this.penalty = (difficulty - 1);
+        } else {
+            this.penalty = (1 - alpha) * this.penalty + alpha * (difficulty - 1);
+        }
     }
 
     matches(level) {
