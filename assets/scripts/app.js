@@ -307,7 +307,7 @@ function editGameDataset(name, language) {
                 formatDate(item.added),
                 formatDate(item.lastSeen),
                 item.seen,
-                item.penalty.toFixed(4),
+                item.penalty?.toFixed(4) || "",
                 item.level,
                 item.comment || ""
             ].join(" | "));
@@ -373,7 +373,7 @@ function statistics(name, language) {
     const html = renderStatistics(stats, language);
     document.getElementById("gameMenu").classList.add("hidden")
     document.getElementById("statsArea").classList.remove("hidden");
-    document.getElementById("statsTitle").innerText = `${language} Statistics`;
+    document.getElementById("statsTitle").innerText = `${language} ${name} Statistics`;
     document.getElementById("statsContent").innerHTML = html;
 }
 

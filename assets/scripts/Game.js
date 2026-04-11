@@ -6,6 +6,11 @@ import { Card } from "./Card.js"
 import { Persistence } from "./Persistence.js"
 
 export class Game {
+    dataset = [];
+    deck = [new Card({ front: "Select a deck to begin.", back: "Select a deck to begin." })];
+    #enabled = null;
+    #recent = [];
+
     constructor(name = null, language = null) {
         this.name = name;
         this.language = language;
@@ -17,7 +22,8 @@ export class Game {
                 foreign: true,
                 native: false
             },
-            categories: new Set()
+            categories: new Set(),
+            rececency: 5 // number of recent cards to exclude from selection
         };
 
         this.state = {
@@ -33,9 +39,6 @@ export class Game {
             answerSpeach: null,
             answerComment: null
         }
-
-        this.dataset = [];
-        this.deck = [];
     }
 
     load() {
@@ -80,31 +83,52 @@ export class Game {
         Persistence.saveDatasetTo(this.name, this.language, this.dataset);
     }
 
-    #pickCard() {
-        let enabled = this.#filterByCategory(this.deck, this.configuration.categories);
+
+
+    #initialize() {
+        this.#enabled = this.#filterByCategory(this.deck, this.configuration.categories);
         switch (this.rank) {
 
             case 'review':
                 // Review just picks the 100 rank === -1 cards not seen in longest time
-                enabled = this.#filterByRank(enabled, this.rank, 100);
+                this.#enabled = this.#filterByRank(this.#enabled, this.rank, 100);
                 break;
 
             case 'normal':
                 // Normal picks non-easy cards, but limits the number of hard cards to max 20.
-                let hard = this.#filterByRank(enabled, 'hard', 20);
-                let normal = this.#filterByRank(enabled, 'normal');
-                enabled = hard.concat(normal);
+                let hard = this.#filterByRank(this.#enabled, 'hard', 20);
+                let normal = this.#filterByRank(this.#enabled, 'normal');
+                this.#enabled = hard.concat(normal);
                 break;
 
             default:
                 // For default, just pick by rank.
-                enabled = this.#filterByRank(enabled, this.rank);
+                this.#enabled = this.#filterByRank(this.#enabled, this.rank);
                 break;
         }
-        enabled = this.#filterByRank(enabled, this.rank, this.rank === 'review' ? 100 : null);
-        console.log(`Game.#pickCard: ${enabled.length} cards match category and rank filters.`);
-        return this.#weightedRandom(enabled);
+        console.log(`Game.#initialize: ${this.#enabled.length} cards match category and rank filters.`);
+    }
 
+    #pickCard() {
+        if (this.#enabled == null)
+            this.#initialize();
+        const card = this.#weightedRandom(this.#filterRecent(this.#enabled, this.#recent));
+        if (card) {
+            this.#recent.push(card);
+            if (this.#recent.length > this.configuration.rececency) {
+                this.#recent.shift();
+            }
+        }
+
+        return card;
+    }
+
+    #filterRecent(cards, recent) {
+        const exclude = new Set(recent);
+        const filtered = cards.filter(c => !exclude.has(c));
+
+        // Fallback: if everything is filtered out, allow all
+        return filtered.length > 0 ? filtered : cards;
     }
 
     #filterByCategory(cards, categories, n = null) {

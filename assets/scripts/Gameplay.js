@@ -10,7 +10,6 @@ export class Gameplay {
     constructor(logger = null) {
         this.logger = logger;
         this.game = new Game();
-        this.game.deck = [new Card({ front: "Select a deck to begin.", back: "Select a deck to begin." })];
         this.game.rank = "normal"
         this.game.direction = "shuffle"
     }

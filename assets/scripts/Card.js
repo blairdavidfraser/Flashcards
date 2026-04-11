@@ -15,16 +15,25 @@ export class Card {
         this.added = data.added || Date.now();
         this.lastSeen = data.lastSeen || null;
         this.seen = data.seen || 0;
-        this.totalFailure = data.totalFailure || (data.penalty * (data.seen || 0));
-        this.penalty = this.seen == 0 ? 0 : this.totalFailure / this.seen;
+        this.totalFailure = data.totalFailure || 0;
         this.level = data.level || 0;
         this.comment = data.comment?.trim() || "";
+
+        // If a card has never been seen, then penalty is null, which
+        // will be handled for in the priority calculation.
+        this.penalty = this.seen == 0 ? null : this.totalFailure / this.seen;
     }
 
     validate() {
         const okFront = this.front?.trim()?.length > 0;
         const okBack = this.back?.trim()?.length > 0;
         return okFront && okBack;
+    }
+
+    priority() {
+        // Use a default penalty of 1 for new cards.
+        const penalty = this.penalty == null ? 1 : this.penalty;
+        return penalty / (1 + this.seen * 0.2);
     }
 
     rate(difficulty, level) {
@@ -56,13 +65,11 @@ export class Card {
     isNormal() { return this.level === 0; }
     isNew() { return this.level >= 0 && (this.seen < 3 || this.added >= Date.now() - 5 * 24 * 60 * 60 * 1000); }
 
-    priority() { return (this.penalty + 0.1) / (1 + this.seen * 0.2); ß }
-
     summary() {
         let added = parseDate(this.added)
         let last = this.lastSeen ? new Date(this.lastSeen) : null
         let seen = this.seen || 0
-        return `level ${this.level} (${this.penalty.toFixed(2)} @ ${seen}x), +${formatDate(added)}, ` +
+        return `level ${this.level} (${this.penalty?.toFixed(2) || "null"} @ ${seen}x), +${formatDate(added)}, ` +
             `last ${last ? formatDate(last) : 'never'}`
     }
 }
