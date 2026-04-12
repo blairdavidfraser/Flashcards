@@ -95,8 +95,8 @@ export class Game {
                 break;
 
             case 'normal':
-                // Normal picks non-easy cards, but limits the number of hard cards to max 20.
-                let hard = this.#filterByRank(this.#enabled, 'hard', 20);
+                // Normal picks non-easy cards, but limits the number of hard cards to max 10.
+                let hard = this.#filterByRank(this.#enabled, 'hard', 10);
                 let normal = this.#filterByRank(this.#enabled, 'normal');
                 this.#enabled = hard.concat(normal);
                 break;

@@ -31,9 +31,10 @@
 #
 # penalty :: integer
 #   - Represents a score, that gets higher when the user ranks the card hard.
-#   - Increases as the card is shown repeatedly.
-#   - Increases faster if the card is ranked hard on each presentation.
-#   - When generating new cards, use 0 for penalty.
+#   - Increases as the card is shown repeatedly and ranked hard.
+#   - Increases faster if the card is ranked harder on each presentation.
+#   - An empty penalty means the card has not been seen and should correpond with seen=0.
+#   - When generating new cards, leave the penalty column empty.
 #
 # level :: integer of (-1, 0, 1)
 #   - Another representation of how hard a card is judged to me.
@@ -403,3 +404,19 @@ Hemos estado pensando en cambiar de hotel | We have been thinking about changing
 Han estado esperando el autobús por mucho tiempo | They have been waiting for the bus for a long time |  | Present Perfect Continuous | 2026-03-28 | 2026-03-29 | 2 | 1.0000 | 0 | 
 He estado buscando este lugar | I’ve been looking for this place |  | Present Perfect Continuous | 2026-03-28 | 2026-03-29 | 0 | | 1 | 
 
+# >>> Present Subjunctive
+[yo hable, ns. hablemos; tú hables, vs. habléis; él hable, ellos hablen] | Present subjunctive forms of 'hablar' |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | -1 |
+[yo coma, ns. comamos; tú comas, vs. comáis; él coma, ellos coman] | Present subjunctive forms of 'comer' |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | -1 |
+[yo viva, ns. vivamos; tú vivas, vs. viváis; él viva, ellos vivan] | Present subjunctive forms of 'vivir' |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | -1 |
+[yo sea, ns. seamos; tú seas, vs. seáis; él sea, ellos sean] | Present subjunctive forms of 'ser' |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | -1 |
+[yo esté, ns. estemos; tú estés, vs. estéis; él esté, ellos estén] | Present subjunctive forms of 'estar' |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | -1 |
+[yo vaya, ns. vayamos; tú vayas, vs. vayáis; él vaya, vellos ayan] | Present subjunctive forms of 'ir' |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | -1 |
+[yo sepa, ns. sepamos; tú sepas, vs. sepáis; él sepa, ellos sepan] | Present subjunctive forms of 'saber' |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | -1 |
+[yo haya, ns. hayamos; tú hayas, vs. hayáis; él haya, ellos hayan] | Present subjunctive forms of 'haber' |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | -1 |
+[yo dé, ns. demos; tú des, vs. deis; él dé, ellos den] | Present subjunctive forms of 'dar' |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | -1 |
+Es mejor que lo hagas ahora | It’s better that you do it now |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Creo que es mejor que lo hagas ahora | I think it’s better that you do it now |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Lo hago para que funcione mejor | I do it so that it works better |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Hazlo antes de que sea tarde | Do it before it’s too late |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Tengo miedo de que no funcione | I’m afraid it won’t work |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+¿Qué tal si lo hacemos mañana? | What if we do it tomorrow? |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | 1 |
