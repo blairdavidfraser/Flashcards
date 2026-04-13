@@ -208,10 +208,12 @@ function configureGame() {
 
     // Build category counts
     const counts = {};
-    gameplay.game.deck.forEach(card => {
-        const cat = card.category || "Uncategorized";
-        counts[cat] = (counts[cat] || 0) + 1;
-    });
+    gameplay.game.dataset
+        .filter(item => item instanceof Card)
+        .forEach(card => {
+            const cat = card.category || "Uncategorized";
+            counts[cat] = (counts[cat] || 0) + 1;
+        });
 
     const categories = Object.keys(counts).sort();
 

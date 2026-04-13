@@ -34,7 +34,7 @@ export class Gameplay {
     initialize(rank) {
         this.rank = rank;
         this.game.load();
-        this.logger?.log(`Gameplay.initialize: language='${this.language}', name='${this.name}', rank='${this.rank}', direction='${this.direction}, '${this.game.deck.length}' cards loaded.`)
+        this.logger?.log(`Gameplay.initialize: language='${this.language}', name='${this.name}', rank='${this.rank}', direction='${this.direction}`)
     }
 
     draw() {

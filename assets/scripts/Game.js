@@ -7,7 +7,7 @@ import { Persistence } from "./Persistence.js"
 
 export class Game {
     dataset = [];
-    deck = [new Card({ front: "Select a deck to begin.", back: "Select a deck to begin." })];
+    #deck = [new Card({ front: "Select a deck to begin.", back: "Select a deck to begin." })];
     #enabled = null;
     #recent = [];
 
@@ -43,11 +43,11 @@ export class Game {
 
     load() {
         this.dataset = Persistence.loadDatasetFrom(this.name, this.language);
-        this.deck = this.dataset.filter(item => item instanceof Card);
+        this.#deck = this.dataset.filter(item => item instanceof Card);
     }
 
     draw() {
-        this.state.card = this.#pickCard() || new Card({ front: `Please add some cards to start playing (count=${this.deck.length}).` });
+        this.state.card = this.#pickCard() || new Card({ front: `Please add some cards to start playing (count=${this.#deck.length}).` });
 
         this.state.direction = this.direction === "shuffle"
             ? Math.random() < 0.5 ? 'recognition' : 'recall'
@@ -86,7 +86,7 @@ export class Game {
 
 
     #initialize() {
-        this.#enabled = this.#filterByCategory(this.deck, this.configuration.categories);
+        this.#enabled = this.#filterByCategory(this.#deck, this.configuration.categories);
         switch (this.rank) {
 
             case 'review':

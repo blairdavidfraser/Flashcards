@@ -23,31 +23,31 @@ describe('Card', function () {
                 comment: '  Test comment  '
             };
             const c = new Card(data);
-            assert.equal(c.type, 'Card');
-            assert.equal(c.front, 'Front text');
-            assert.equal(c.back, 'Back text');
-            assert.equal(c.emoji, '😀');
-            assert.equal(c.category, 'test category');
-            assert.equal(c.added, 123456789);
-            assert.equal(c.lastSeen, 987654321);
-            assert.equal(c.seen, 5);
-            assert.equal(c.totalFailure, 10);
-            assert.equal(c.penalty, 2);
-            assert.equal(c.level, 1);
+            assert.equal(c.type, 'Card', "Type should be 'Card'");
+            assert.equal(c.front, 'Front text', "Front should be trimmed");
+            assert.equal(c.back, 'Back text', "Back should be trimmed");
+            assert.equal(c.emoji, '😀', "Emoji should be trimmed");
+            assert.equal(c.category, 'test category', "Category should be trimmed");
+            assert.equal(c.added, 123456789, "Added should be set");
+            assert.equal(c.lastSeen, 987654321, "LastSeen should be set");
+            assert.equal(c.seen, 5, "Seen should be set");
+            assert.equal(c.totalFailure, 10, "TotalFailure should be set");
+            assert.equal(c.penalty, 2, "Penalty should be set");
+            assert.equal(c.level, 1, "Level should be set");
         });
 
         it('should set defaults for optional properties', function () {
             const data = { front: 'a', back: 'b' };
             const c = new Card(data);
-            assert.equal(c.emoji, '');
-            assert.equal(c.category, 'uncategorized');
-            assert.isAtLeast(c.added, Date.now() - 1000);
-            assert.isNull(c.lastSeen);
-            assert.equal(c.seen, 0);
-            assert.equal(c.totalFailure, 0);
-            assert.equal(c.penalty, 0);
-            assert.equal(c.level, 0);
-            assert.equal(c.comment, '');
+            assert.equal(c.emoji, '', "Default emoji should be empty string");
+            assert.equal(c.category, 'uncategorized', "Default category should be 'uncategorized'");
+            assert.isAtLeast(c.added, Date.now() - 1000, "Added should be set to current time");
+            assert.isNull(c.lastSeen, "LastSeen should be null");
+            assert.equal(c.seen, 0, "Seen should be set to 0");
+            assert.equal(c.totalFailure, 0, "TotalFailure should be set to 0");
+            assert.equal(c.penalty, 0, "Penalty should be set to 0");
+            assert.equal(c.level, 0, "Level should be set to 0");
+            assert.equal(c.comment, '', "Comment should be set to empty string");
         });
 
         it('should trim optional fields', function () {
