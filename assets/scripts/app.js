@@ -1,8 +1,8 @@
-import { parseDate, formatDate } from "./Utilities.js"
 import { Card } from "./Card.js"
-import { Comment } from "./Comment.js"
 import { Persistence } from "./Persistence.js"
 import { Gameplay } from "./Gameplay.js"
+import { calculateStatistics, renderStatistics } from "./Statistics.js"
+import { Dataset } from "./Dataset.js"
 
 //=============================================================================
 // Globals
@@ -294,67 +294,14 @@ let persistence = null;
 
 function editGameDataset(name, language) {
     persistence = new Persistence(name, language);
-    let items = persistence.loadDataset();
-
-    let lines = [];
-    items.forEach(item => {
-        if (item.type === "Comment") {
-            lines.push(item.value);
-        } else {
-            lines.push([
-                item.front,
-                item.back,
-                item.emoji || "",
-                item.category || "",
-                formatDate(item.added),
-                formatDate(item.lastSeen),
-                item.seen,
-                item.penalty?.toFixed(4) || "",
-                item.level,
-                item.comment || ""
-            ].join(" | "));
-        }
-    });
-
     document.getElementById("gameMenu").classList.add("hidden")
     document.getElementById("editArea").classList.remove("hidden");
     document.getElementById("editTitle").innerText = `Edit ${language} / ${name}`;
-    document.getElementById("editBox").value = lines.join("\n");
+    document.getElementById("editBox").value = Dataset.serialize(persistence.loadDataset());
 }
 
 function saveGameDataset() {
-    let text = document.getElementById("editBox").value;
-    let lines = text.split("\n");
-    let cards = [];
-
-    for (let line of lines) {
-        let trimmed = line.trim();
-
-        if (trimmed.startsWith("#") || !trimmed) {
-            cards.push(new Comment(trimmed));
-            continue;
-        }
-
-        let parts = line.split("|");
-        let card = new Card({
-            front: parts[0].trim(),
-            back: parts[1].trim(),
-            emoji: parts[2].trim() || "",
-            category: parts[3].trim() || "",
-            added: parseDate(parts[4].trim()),
-            lastSeen: parseDate(parts[5].trim()),
-            seen: parseInt(parts[6]) || 0,
-            penalty: parts[7]?.trim() ? parseFloat(parts[7]) : null,
-            level: parseInt(parts[8]) || 0,
-            comment: parts[9]?.trim() || ""
-        });
-
-        if (card.validate()) {
-            cards.push(card);
-        }
-    }
-
-    persistence.saveDataset(cards);
+    persistence.saveDataset(Dataset.parse(document.getElementById("editBox").value));
     persistence = null;
     backToMenu();
 }
@@ -372,47 +319,13 @@ function statistics(name, language) {
     const dataset = Persistence.loadDatasetFrom(name, language);
     const cards = dataset.filter(item => item instanceof Card);
     const stats = calculateStatistics(cards);
-    const html = renderStatistics(stats, language);
+    const html = renderStatistics(stats);
     document.getElementById("gameMenu").classList.add("hidden")
     document.getElementById("statsArea").classList.remove("hidden");
     document.getElementById("statsTitle").innerText = `${language} ${name} Statistics`;
     document.getElementById("statsContent").innerHTML = html;
 }
 
-function renderStatistics(stats) {
-    let html = `
-        <p><strong>Total Cards:</strong> ${stats.total}</p>
-        <p><strong>Never Seen:</strong> ${stats.unseen}</p>
-        <p><strong>Today:</strong> ${stats.today}</p>
-        <hr/>`;
-
-    Object.keys(stats.levels)
-        .sort((a, b) => parseInt(a) - parseInt(b))
-        .forEach(level => {
-            html += `<p><strong>Level ${level}:</strong> ${stats.levels[level]}</p>`;
-        });
-
-    html += '<hr/>';
-
-    Object.keys(stats.categories)
-        .sort()
-        .forEach(cat => {
-            html += `<p><strong>${cat}:</strong> ${stats.categories[cat]}</p>`;
-        });
-
-    return html;
-}
-
-function calculateStatistics(cards, now = new Date()) {
-    const today = new Date(now).toISOString().slice(0, 10);
-    return {
-        total: cards.length,
-        today: cards.filter(c => c.seen > 0 && c.lastSeen && new Date(c.lastSeen).toISOString().slice(0, 10) === today).length,
-        unseen: cards.filter(c => c.seen === 0).length,
-        levels: cards.reduce((a, c) => (a[c.level] = (a[c.level] || 0) + 1, a), {}),
-        categories: cards.reduce((a, c) => (a[c.category] = (a[c.category] || 0) + 1, a), {})
-    };
-}
 
 //=============================================================================
 // Utility functions 
