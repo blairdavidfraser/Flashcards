@@ -2,13 +2,20 @@
 // Game.js
 //
 //=============================================================================
-import { Persistence } from "./Persistence.js"
+import { Card } from "./Card.js"
 
 export class Game {
-    dataset = [];
+    #dataset = [];
     #deck = [new Card({ front: "Select a deck to begin.", back: "Select a deck to begin." })];
     #enabled = null;
     #recent = [];
+
+    get dataset() { return this.#dataset; }
+    set dataset(items) {
+        this.#dataset = items;
+        this.#deck = items.filter(item => item instanceof Card);
+        this.#enabled = null;
+    }
 
     constructor(name = null, language = null) {
         this.name = name;
@@ -38,12 +45,6 @@ export class Game {
             answerSpeach: null,
             answerComment: null
         }
-    }
-
-    load() {
-        this.dataset = Persistence.loadDatasetFrom(this.name, this.language);
-        this.#deck = this.dataset.filter(item => item instanceof Card);
-        this.#enabled = null;
     }
 
     draw() {

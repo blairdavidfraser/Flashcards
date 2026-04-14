@@ -38,7 +38,7 @@ export class Gameplay {
 
 
     load() {
-        this.game.load();
+        this.game.dataset = Persistence.loadDatasetFrom(this.name, this.language);
         const counts = {};
         this.cards.forEach(card => {
             const cat = card.category || "Uncategorized";
