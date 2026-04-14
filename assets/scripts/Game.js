@@ -2,7 +2,6 @@
 // Game.js
 //
 //=============================================================================
-import { Card } from "./Card.js"
 import { Persistence } from "./Persistence.js"
 
 export class Game {
@@ -81,7 +80,6 @@ export class Game {
     rate(difficulty, level) {
         if (!this.state.card) return;
         this.state.card.rate(difficulty, level);
-        Persistence.saveDatasetTo(this.name, this.language, this.dataset);
     }
 
 

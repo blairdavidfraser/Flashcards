@@ -23,9 +23,21 @@ function startGame(rank) {
     startRound()
 }
 
+function speakText(text, lang) {
+    if (!text) return;
+    const utterance = new SpeechSynthesisUtterance(text);
+    if (lang === 'Spanish')     utterance.lang = 'es-ES';
+    else if (lang === 'French') utterance.lang = 'fr-FR';
+    else if (lang === 'English') utterance.lang = 'en-CA';
+    utterance.rate = 0.9;
+    utterance.pitch = 1;
+    window.speechSynthesis.speak(utterance);
+}
+
 function startRound() {
     clearTimeout(autopilotTimer);
     gameplay.draw();
+    speakText(gameplay.state.questionSpeach, gameplay.state.questionLanguage);
     document.getElementById("cardHeader").innerText = gameplay.state.card.category || "";
     document.getElementById("cardTop").innerHTML = renderCardContent(gameplay.state.questionText);
     document.getElementById("cardEmoji").innerHTML = gameplay.state.questionEmoji;
@@ -43,7 +55,8 @@ function startRound() {
 
 function finishRound() {
     clearTimeout(autopilotTimer); // Clear if triggered by user click
-    gameplay.reveal()
+    gameplay.reveal();
+    speakText(gameplay.state.answerSpeach, gameplay.state.answerLanguage);
     document.getElementById("cardBottom").innerHTML = renderCardContent(gameplay.state.answerText);
     document.getElementById("cardEmoji").innerHTML = gameplay.state.answerEmoji;
     if (gameplay.state.direction === "recognition") {

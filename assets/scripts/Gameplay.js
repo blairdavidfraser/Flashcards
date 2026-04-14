@@ -40,16 +40,15 @@ export class Gameplay {
     draw() {
         this.game.draw();
         this.logger?.log(`Gameplay.draw: question='${this.state.questionSpeach}', answer='${this.state.answerSpeach}'.`)
-        this.#speakText(this.state.questionSpeach, this.state.questionLanguage);
     }
 
     reveal() {
         this.logger?.log(`Gameplay.reveal (${this.state.direction}) answer='${this.state.answerText}', speach='${this.state.answerSpeach}'`)
-        this.#speakText(this.state.answerSpeach, this.state.answerLanguage);
     }
 
     rate(difficulty, level) {
         this.game.rate(difficulty, level);
+        Persistence.saveDatasetTo(this.name, this.language, this.game.dataset);
     }
 
     end() {
@@ -57,28 +56,5 @@ export class Gameplay {
         Persistence.saveDatasetTo(this.name, this.language, this.game.dataset)
     }
 
-
-    #speakText(text, lang) {
-        if (!this.sound || !text) return
-
-        // Create speech synthesis 
-        const utterance = new SpeechSynthesisUtterance(text)
-
-        // Set language based on current language
-        if (lang === 'Spanish') {
-            utterance.lang = 'es-ES' // Spanish (Spain) - you can adjust to 'es-MX' for Mexican Spanish, etc.
-        } else if (lang === 'French') {
-            utterance.lang = 'fr-FR' // French (France)
-        } else if (lang === 'English') {
-            utterance.lang = 'en-CA' // English (Canada)
-        }
-
-        // Optional: adjust speech properties
-        utterance.rate = 0.9 // Slightly slower for learning
-        utterance.pitch = 1
-
-        // Speak the text
-        window.speechSynthesis.speak(utterance)
-    }
 
 }
