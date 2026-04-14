@@ -311,7 +311,7 @@ function selectAllText() {
 // Language Statistics screen
 //=============================================================================
 function statistics(name, language) {
-    const dataset = Persistence.loadDatasetFrom(name, language);
+    const dataset = new Persistence(name, language).loadDataset();
     const cards = dataset.filter(item => item instanceof Card);
     const stats = calculateStatistics(cards);
     const html = renderStatistics(stats);

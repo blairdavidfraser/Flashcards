@@ -7,6 +7,7 @@ import { Game } from "./Game.js"
 import { Persistence } from "./Persistence.js"
 
 export class Gameplay {
+
     constructor(logger = null) {
         this.logger = logger;
         this.game = new Game();
@@ -38,7 +39,7 @@ export class Gameplay {
 
 
     load() {
-        this.game.dataset = Persistence.loadDatasetFrom(this.name, this.language);
+        this.game.dataset = new Persistence(this.name, this.language).loadDataset();
         const counts = {};
         this.cards.forEach(card => {
             const cat = card.category || "Uncategorized";
@@ -55,7 +56,7 @@ export class Gameplay {
     }
 
     save() {
-        Persistence.saveDatasetTo(this.name, this.language, this.game.dataset);
+        new Persistence(this.name, this.language).saveDataset(this.game.dataset);
     }
 
     draw() {

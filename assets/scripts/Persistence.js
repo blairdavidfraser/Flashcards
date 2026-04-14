@@ -13,8 +13,18 @@ export class Persistence {
         this.language = language;
     }
 
-    loadDataset() { return Persistence.loadDatasetFrom(this.name, this.language) }
-    saveDataset(items) { Persistence.saveDatasetTo(this.name, this.language, items) }
+    loadDataset() {
+        const filename = this.#filename();
+        const items = Persistence.deserialize(localStorage.getItem(filename));
+        console.log(`Persistence.loadDataset: loaded '${items.length}' items from '${filename}'.`);
+        return items;
+    }
+
+    saveDataset(items) {
+        const filename = this.#filename();
+        localStorage.setItem(filename, Persistence.serialize(items));
+        console.log(`Persistence.saveDataset: saved '${items.length}' items to '${filename}'.`);
+    }
 
     static serialize(items) {
         return JSON.stringify(items);
@@ -28,20 +38,7 @@ export class Persistence {
         });
     }
 
-    static loadDatasetFrom(name, language) {
-        const filename = Persistence.#filename(name, language);
-        const items = Persistence.deserialize(localStorage.getItem(filename));
-        console.log(`Persistence.loadDatasetFrom: loaded '${items.length}' items from '${filename}'.`);
-        return items;
-    }
-
-    static saveDatasetTo(name, language, items) {
-        const filename = Persistence.#filename(name, language);
-        localStorage.setItem(filename, Persistence.serialize(items));
-        console.log(`Persistence.saveDatasetTo: saved '${items.length}' items to '${filename}'.`);
-    }
-
-    static #filename(prefix, suffix) { return `${prefix}_${suffix}` }
+    #filename() { return `${this.name}_${this.language}` }
 
 }
 
