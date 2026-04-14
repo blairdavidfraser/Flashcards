@@ -7,5 +7,6 @@ export function parseDate(d) {
 
 export function formatDate(epoch) {
     if (!epoch) return ""
-    return new Date(epoch).toISOString().slice(0, 10)
+    const d = new Date(epoch)
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
 }

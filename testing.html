@@ -20,16 +20,6 @@
 
 
     <script type="module">
-        // Import the classes needed for testing
-        //import { Card } from './assets/scripts/Card.js';
-        //import { Comment } from './assets/scripts/Comment.js';
-        //import { Game } from './assets/scripts/Game.js';
-        //import { Persistence } from './assets/scripts/Persistence.js';
-
-        // Attach them to window so the existing test files can see them
-        // (Or update the test files to use imports - see step 4)
-        //window.Game = Game;
-        //window.Persistence = Persistence;
 
         // Dynamically import your test suites
         await import('./assets/scripts/CardTests.js');
@@ -37,6 +27,8 @@
         await import('./assets/scripts/GameTests.js');
         await import('./assets/scripts/StatisticsTests.js');
         await import('./assets/scripts/DatasetTests.js');
+        await import('./assets/scripts/PersistenceTests.js');
+        await import('./assets/scripts/UtilitiesTests.js');
 
 
         mocha.run();
