@@ -1,3 +1,5 @@
+import { calculateStatistics, renderStatistics } from './Statistics.js';
+
 describe('calculateStatistics', function () {
 
     it('should count total cards', function () {
@@ -55,6 +57,22 @@ describe('calculateStatistics', function () {
         assert.deepEqual(stats.levels, {});
         assert.deepEqual(stats.categories, {});
     });
+
+    it('should not count a card as today if lastSeen is null', function () {
+        const cards = [{ seen: 1, lastSeen: null }];
+        const stats = calculateStatistics(cards, new Date(2026, 6, 1));
+        assert.equal(stats.today, 0);
+    });
+
+    it('should include negative levels in the level distribution', function () {
+        const cards = [
+            { level: -1 },
+            { level: -1 },
+            { level: 0 }
+        ];
+        const stats = calculateStatistics(cards);
+        assert.deepEqual(stats.levels, { '-1': 2, 0: 1 });
+    });
 });
 
 describe('renderStatistics', function () {
@@ -104,6 +122,25 @@ describe('renderStatistics', function () {
             html.indexOf('banana')
         ];
         assert.isTrue(order[0] < order[1]);
+    });
+
+    it('should render level counts correctly', function () {
+        const stats = { total: 3, unseen: 0, today: 0, levels: { 0: 2, 1: 1 }, categories: {} };
+        const html = renderStatistics(stats);
+        assert.include(html, 'Level 0:</strong> 2');
+        assert.include(html, 'Level 1:</strong> 1');
+    });
+
+    it('should render category counts correctly', function () {
+        const stats = { total: 3, unseen: 0, today: 0, levels: {}, categories: { greetings: 3 } };
+        const html = renderStatistics(stats);
+        assert.include(html, 'greetings:</strong> 3');
+    });
+
+    it('should render negative levels correctly', function () {
+        const stats = { total: 2, unseen: 0, today: 0, levels: { '-1': 2 }, categories: {} };
+        const html = renderStatistics(stats);
+        assert.include(html, 'Level -1:</strong> 2');
     });
 
 });
