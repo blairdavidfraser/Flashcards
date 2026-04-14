@@ -14,5 +14,21 @@ describe('Comment', function () {
             assert.equal(c.type, 'Comment');
             assert.equal(c.value, 'Test comment');
         });
+
+        it('should store an empty string as-is', function () {
+            const c = new Comment('');
+            assert.equal(c.value, '');
+        });
+
+        it('should trim a whitespace-only string to empty', function () {
+            const c = new Comment('   ');
+            assert.equal(c.value, '');
+        });
+
+        it('should preserve a hash comment line unchanged', function () {
+            const c = new Comment('# Section header');
+            assert.equal(c.type, 'Comment');
+            assert.equal(c.value, '# Section header');
+        });
     });
 });
