@@ -67,9 +67,9 @@ export class Card {
     isNew() { return this.level >= 0 && (this.seen < 3 || this.added >= Date.now() - 5 * 24 * 60 * 60 * 1000); }
 
     summary() {
-        let added = parseDate(this.added)
-        let last = this.lastSeen ? new Date(this.lastSeen) : null
-        let seen = this.seen || 0
+        const added = parseDate(this.added);
+        const last = this.lastSeen ? new Date(this.lastSeen) : null;
+        const seen = this.seen || 0;
         return `level ${this.level} (${this.penalty?.toFixed(2) || "null"} @ ${seen}x), +${formatDate(added)}, ` +
             `last ${last ? formatDate(last) : 'never'}`
     }

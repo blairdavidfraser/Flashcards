@@ -12,7 +12,6 @@ export class Gameplay {
         this.logger = logger;
         this.game = new Game(null, null, logger);
         this.game.rank = "normal";
-        this.game.direction = "shuffle";
     }
 
     get name() { return this.game.name; }

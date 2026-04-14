@@ -182,49 +182,49 @@ describe('Game', function () {
     // =========================================================================
     describe('draw() — sound', function () {
 
-        it('sets questionSpeach to foreign text when sound.foreign is on (recognition)', function () {
+        it('sets questionSpeech to foreign text when sound.foreign is on (recognition)', function () {
             const g = freshGame();
             g.dataset = [makeCard()];
             g.direction = 'recognition';
             g.configuration.sound.foreign = true;
             g.draw();
-            assert.equal(g.state.questionSpeach, 'hola');
+            assert.equal(g.state.questionSpeech, 'hola');
         });
 
-        it('sets questionSpeach to null when sound.foreign is off (recognition)', function () {
+        it('sets questionSpeech to null when sound.foreign is off (recognition)', function () {
             const g = freshGame();
             g.dataset = [makeCard()];
             g.direction = 'recognition';
             g.configuration.sound.foreign = false;
             g.draw();
-            assert.isNull(g.state.questionSpeach);
+            assert.isNull(g.state.questionSpeech);
         });
 
-        it('sets answerSpeach to native text when sound.native is on (recognition)', function () {
+        it('sets answerSpeech to native text when sound.native is on (recognition)', function () {
             const g = freshGame();
             g.dataset = [makeCard()];
             g.direction = 'recognition';
             g.configuration.sound.native = true;
             g.draw();
-            assert.equal(g.state.answerSpeach, 'hello');
+            assert.equal(g.state.answerSpeech, 'hello');
         });
 
-        it('sets answerSpeach to foreign text when sound.foreign is on (recall)', function () {
+        it('sets answerSpeech to foreign text when sound.foreign is on (recall)', function () {
             const g = freshGame();
             g.dataset = [makeCard()];
             g.direction = 'recall';
             g.configuration.sound.foreign = true;
             g.draw();
-            assert.equal(g.state.answerSpeach, 'hola');
+            assert.equal(g.state.answerSpeech, 'hola');
         });
 
-        it('sets questionSpeach to null when sound.native is off (recall)', function () {
+        it('sets questionSpeech to null when sound.native is off (recall)', function () {
             const g = freshGame();
             g.dataset = [makeCard()];
             g.direction = 'recall';
             g.configuration.sound.native = false;
             g.draw();
-            assert.isNull(g.state.questionSpeach);
+            assert.isNull(g.state.questionSpeech);
         });
 
     });
@@ -342,7 +342,7 @@ describe('Game', function () {
 
         it('does not draw the same card twice in a row when alternatives exist', function () {
             const g = freshGame();
-            g.configuration.rececency = 1;
+            g.configuration.recency = 1;
             g.dataset = [
                 makeCard({ front: 'card-a', back: 'a' }),
                 makeCard({ front: 'card-b', back: 'b' })
