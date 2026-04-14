@@ -31,7 +31,6 @@ describe('Card', function () {
             assert.equal(c.added, 123456789, "Added should be set");
             assert.equal(c.lastSeen, 987654321, "LastSeen should be set");
             assert.equal(c.seen, 5, "Seen should be set");
-            assert.equal(c.totalFailure, 10, "TotalFailure should be set");
             assert.equal(c.penalty, 2, "Penalty should be set");
             assert.equal(c.level, 1, "Level should be set");
         });
@@ -44,8 +43,7 @@ describe('Card', function () {
             assert.isAtLeast(c.added, Date.now() - 1000, "Added should be set to current time");
             assert.isNull(c.lastSeen, "LastSeen should be null");
             assert.equal(c.seen, 0, "Seen should be set to 0");
-            assert.equal(c.totalFailure, 0, "TotalFailure should be set to 0");
-            assert.equal(c.penalty, 0, "Penalty should be set to 0");
+            assert.isNull(c.penalty, "Penalty should be null by default");
             assert.equal(c.level, 0, "Level should be set to 0");
             assert.equal(c.comment, '', "Comment should be set to empty string");
         });
@@ -75,7 +73,6 @@ describe('Card', function () {
             });
 
             assert.equal(c.seen, 5);
-            assert.equal(c.totalFailure, 20);
             assert.equal(c.penalty, 4);
             assert.equal(c.level, 3);
             assert.equal(c.added, 123);
@@ -134,12 +131,50 @@ describe('Card', function () {
             assert.equal(c.level, -1);
         });
 
-        it('should adjust penalty based on difficulty', function () {
-            const c = new Card({ front: 'a', back: 'b', penalty: 0 });
-            c.rate(3, 0); // failure = 3-1=2, totalFailure=2, penalty=2/1=2
-            assert.equal(c.totalFailure, 2);
+        it('should set penalty to difficulty-1 on first rating', function () {
+            const c = new Card({ front: 'a', back: 'b' });
+            c.rate(3, 0); // first rating: penalty = 3-1 = 2
             assert.equal(c.penalty, 2);
         });
+
+        it('should set penalty to 0 when first rating is easiest', function () {
+            const c = new Card({ front: 'a', back: 'b' });
+            c.rate(1, 0); // difficulty - 1 = 0
+            assert.equal(c.penalty, 0);
+        });
+
+        it('should blend penalty via EMA on subsequent ratings', function () {
+            const c = new Card({ front: 'a', back: 'b' });
+            c.rate(3, 0); // first: penalty = 2
+            c.rate(1, 0); // second: (0.7 * 2) + (0.3 * 0) = 1.4
+            assert.approximately(c.penalty, 1.4, 0.001);
+        });
+    });
+
+    describe('priority()', function () {
+
+        it('should return 1 for a new unseen card (null penalty)', function () {
+            const c = new Card({ front: 'a', back: 'b' });
+            assert.equal(c.priority(), 1); // penalty defaults to 1, seen = 0
+        });
+
+        it('should decrease as seen count increases', function () {
+            const c1 = new Card({ front: 'a', back: 'b', seen: 0, penalty: 2 });
+            const c2 = new Card({ front: 'a', back: 'b', seen: 4, penalty: 2 });
+            assert.isAbove(c1.priority(), c2.priority());
+        });
+
+        it('should scale with penalty', function () {
+            const easy = new Card({ front: 'a', back: 'b', seen: 0, penalty: 1 });
+            const hard = new Card({ front: 'a', back: 'b', seen: 0, penalty: 3 });
+            assert.isAbove(hard.priority(), easy.priority());
+        });
+
+        it('should use penalty=1 default when penalty is null', function () {
+            const c = new Card({ front: 'a', back: 'b', seen: 4 }); // priority = 1/(1+0.8) ≈ 0.556
+            assert.approximately(c.priority(), 1 / 1.8, 0.001);
+        });
+
     });
 
     describe('matches()', function () {
@@ -185,6 +220,32 @@ describe('Card', function () {
         it('should return false if rank is invalid', function () {
             const c = new Card({ front: 'a', back: 'b', level: 0 });
             assert.isFalse(c.matches('unknown'));
+        });
+
+    });
+
+    describe('summary()', function () {
+
+        it('should return a string', function () {
+            const c = new Card({ front: 'a', back: 'b' });
+            assert.isString(c.summary());
+        });
+
+        it('should include "never" for an unseen card', function () {
+            const c = new Card({ front: 'a', back: 'b' });
+            assert.include(c.summary(), 'never');
+        });
+
+        it('should include the level', function () {
+            const c = new Card({ front: 'a', back: 'b', level: 1 });
+            assert.include(c.summary(), 'level 1');
+        });
+
+        it('should include a date after being rated', function () {
+            const c = new Card({ front: 'a', back: 'b' });
+            c.rate(2, 0);
+            const today = new Date().toISOString().slice(0, 10);
+            assert.include(c.summary(), today);
         });
 
     });
