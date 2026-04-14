@@ -2,7 +2,7 @@
 // UtilitiesTests.js
 //
 //=============================================================================
-import { parseDate, formatDate } from './Utilities.js';
+import { parseDate, formatDate } from '../scripts/Utilities.js';
 
 describe('Utilities', function () {
 

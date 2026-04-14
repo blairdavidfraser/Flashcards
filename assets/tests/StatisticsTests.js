@@ -1,4 +1,4 @@
-import { calculateStatistics, renderStatistics } from './Statistics.js';
+import { calculateStatistics, renderStatistics } from '../scripts/Statistics.js';
 
 describe('calculateStatistics', function () {
 

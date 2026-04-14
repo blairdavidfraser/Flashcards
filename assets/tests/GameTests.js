@@ -2,8 +2,8 @@
 // GameTests.js
 //
 //=============================================================================
-import { Card } from "./Card.js"
-import { Game } from "./Game.js"
+import { Card } from "../scripts/Card.js"
+import { Game } from "../scripts/Game.js"
 
 describe('Game', function () {
 

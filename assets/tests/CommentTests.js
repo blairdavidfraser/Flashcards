@@ -2,7 +2,7 @@
 // CommentTests.js
 //
 //=============================================================================
-import { Comment } from './Comment.js';
+import { Comment } from '../scripts/Comment.js';
 
 describe('Comment', function () {
 

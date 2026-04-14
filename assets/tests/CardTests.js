@@ -2,7 +2,7 @@
 // CardTests.js
 //
 //=============================================================================
-import { Card } from './Card.js';
+import { Card } from '../scripts/Card.js';
 
 describe('Card', function () {
 

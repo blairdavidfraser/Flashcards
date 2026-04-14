@@ -2,7 +2,7 @@
 // DatasetTests.js
 //
 //=============================================================================
-import { Dataset } from './Dataset.js';
+import { Dataset } from '../scripts/Dataset.js';
 import { Card } from './Card.js';
 import { Comment } from './Comment.js';
 import { parseDate } from './Utilities.js';

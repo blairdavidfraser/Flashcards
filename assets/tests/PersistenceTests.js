@@ -2,9 +2,9 @@
 // PersistenceTests.js
 //
 //=============================================================================
-import { Persistence } from './Persistence.js';
-import { Card } from './Card.js';
-import { Comment } from './Comment.js';
+import { Persistence } from '../scripts/Persistence.js';
+import { Card } from '../scripts/Card.js';
+import { Comment } from '../scripts/Comment.js';
 
 describe('Persistence', function () {
 
