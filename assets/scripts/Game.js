@@ -44,6 +44,7 @@ export class Game {
     load() {
         this.dataset = Persistence.loadDatasetFrom(this.name, this.language);
         this.#deck = this.dataset.filter(item => item instanceof Card);
+        this.#enabled = null;
     }
 
     draw() {

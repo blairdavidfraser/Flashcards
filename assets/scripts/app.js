@@ -8,7 +8,7 @@ import { Gameplay } from "./Gameplay.js"
 // Globals
 //=============================================================================
 export const gameplay = new Gameplay(console);
-gameplay.direction = "Recognition";
+gameplay.direction = "recall";
 
 
 //=============================================================================
@@ -344,7 +344,7 @@ function saveGameDataset() {
             added: parseDate(parts[4].trim()),
             lastSeen: parseDate(parts[5].trim()),
             seen: parseInt(parts[6]) || 0,
-            penalty: parseFloat(parts[7]) || 0,
+            penalty: parts[7]?.trim() ? parseFloat(parts[7]) : null,
             level: parseInt(parts[8]) || 0,
             comment: parts[9]?.trim() || ""
         });

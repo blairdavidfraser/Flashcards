@@ -6,6 +6,7 @@
 import { parseDate, formatDate } from "./Utilities.js"
 
 export class Card {
+
     constructor(data) {
         this.type = "Card";
         this.front = data.front?.trim() || "";
