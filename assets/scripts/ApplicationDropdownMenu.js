@@ -5,24 +5,27 @@
 
 export class ApplicationDropdownMenu {
 
+    #menu = null;
+    #getAutopilot = null;
+
     constructor(gameplay, { getAutopilot } = {}) {
         this.gameplay = gameplay;
-        this._getAutopilot = getAutopilot;
+        this.#getAutopilot = getAutopilot;
 
-        this._menu = document.getElementById("dropdownMenu");
+        this.#menu = document.getElementById("dropdownMenu");
         const hamburger = document.getElementById("hamburger");
 
         hamburger.addEventListener("click", (e) => {
             e.stopPropagation();
             this.refresh();
-            this._menu.classList.toggle("hidden");
+            this.#menu.classList.toggle("hidden");
         });
 
         document.addEventListener("click", () => {
-            this._menu.classList.add("hidden");
+            this.#menu.classList.add("hidden");
         });
 
-        this._menu.addEventListener("click", (e) => {
+        this.#menu.addEventListener("click", (e) => {
             e.stopPropagation();
         });
     }
@@ -30,7 +33,7 @@ export class ApplicationDropdownMenu {
     refresh() {
         const autoItem = document.getElementById("autopilotToggle");
         if (autoItem) {
-            autoItem.innerHTML = this._getAutopilot?.()
+            autoItem.innerHTML = this.#getAutopilot?.()
                 ? "✅ Autopilot"
                 : "❌ Autopilot";
         }
@@ -62,7 +65,7 @@ export class ApplicationDropdownMenu {
     toggleSound(type) {
         if (this.gameplay.sound.hasOwnProperty(type)) {
             this.gameplay.sound[type] = !this.gameplay.sound[type];
-            this._menu.classList.add("hidden");
+            this.#menu.classList.add("hidden");
         }
     }
 

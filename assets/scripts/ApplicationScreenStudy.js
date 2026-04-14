@@ -5,15 +5,16 @@
 
 export class ApplicationScreenStudy {
 
-    _autopilot = false;
-    _autopilotTimer = null;
+    #autopilot = false;
+    #autopilotTimer = null;
+    #backToMenu = null;
 
     constructor(gameplay, { backToMenu } = {}) {
         this.gameplay = gameplay;
-        this._backToMenu = backToMenu;
+        this.#backToMenu = backToMenu;
     }
 
-    get autopilot() { return this._autopilot; }
+    get autopilot() { return this.#autopilot; }
 
     startGame(rank) {
         this.gameplay.initialize(rank);
@@ -23,11 +24,11 @@ export class ApplicationScreenStudy {
     }
 
     startRound() {
-        clearTimeout(this._autopilotTimer);
+        clearTimeout(this.#autopilotTimer);
         this.gameplay.draw();
-        this._speakText(this.gameplay.state.questionSpeach, this.gameplay.state.questionLanguage);
+        this.#speakText(this.gameplay.state.questionSpeech, this.gameplay.state.questionLanguage);
         document.getElementById("cardHeader").innerText = this.gameplay.state.card.category || "";
-        document.getElementById("cardTop").innerHTML = this._renderCardContent(this.gameplay.state.questionText);
+        document.getElementById("cardTop").innerHTML = this.#renderCardContent(this.gameplay.state.questionText);
         document.getElementById("cardEmoji").innerHTML = this.gameplay.state.questionEmoji;
         document.getElementById("cardBottom").innerHTML = "&nbsp;";
         document.getElementById("difficultyButtons").classList.add("hidden");
@@ -35,16 +36,16 @@ export class ApplicationScreenStudy {
         document.getElementById("exitButton").classList.remove("hidden");
         document.getElementById("cardComment").innerHTML = "&nbsp;";
         document.getElementById("cardInfo").innerText = this.gameplay.state.card ? this.gameplay.state.card.summary() : '';
-        if (this._autopilot) {
-            this._autopilotTimer = setTimeout(() => this.finishRound(), 6000);
+        if (this.#autopilot) {
+            this.#autopilotTimer = setTimeout(() => this.finishRound(), 6000);
         }
     }
 
     finishRound() {
-        clearTimeout(this._autopilotTimer);
+        clearTimeout(this.#autopilotTimer);
         this.gameplay.reveal();
-        this._speakText(this.gameplay.state.answerSpeach, this.gameplay.state.answerLanguage);
-        document.getElementById("cardBottom").innerHTML = this._renderCardContent(this.gameplay.state.answerText);
+        this.#speakText(this.gameplay.state.answerSpeech, this.gameplay.state.answerLanguage);
+        document.getElementById("cardBottom").innerHTML = this.#renderCardContent(this.gameplay.state.answerText);
         document.getElementById("cardEmoji").innerHTML = this.gameplay.state.answerEmoji;
         if (this.gameplay.state.direction === "recognition") {
             document.getElementById("difficultyButtons").classList.add("hidden");
@@ -56,8 +57,8 @@ export class ApplicationScreenStudy {
         document.getElementById("exitButton").classList.add("hidden");
         document.getElementById("cardComment").innerText = this.gameplay.state.card ? this.gameplay.state.card.comment : '';
         document.getElementById("cardInfo").innerText = this.gameplay.state.card ? this.gameplay.state.card.summary() : '';
-        if (this._autopilot) {
-            this._autopilotTimer = setTimeout(() => this.cycleRound(), 4000);
+        if (this.#autopilot) {
+            this.#autopilotTimer = setTimeout(() => this.cycleRound(), 4000);
         }
     }
 
@@ -69,25 +70,25 @@ export class ApplicationScreenStudy {
     }
 
     endGame() {
-        clearTimeout(this._autopilotTimer);
+        clearTimeout(this.#autopilotTimer);
         this.gameplay.end();
-        this._backToMenu();
+        this.#backToMenu();
     }
 
     toggleAutopilot() {
-        this._autopilot = !this._autopilot;
-        clearTimeout(this._autopilotTimer);
-        if (this._autopilot && !document.getElementById("studyArea").classList.contains("hidden")) {
+        this.#autopilot = !this.#autopilot;
+        clearTimeout(this.#autopilotTimer);
+        if (this.#autopilot && !document.getElementById("studyArea").classList.contains("hidden")) {
             if (document.getElementById("nextButtons").classList.contains("hidden") &&
                 document.getElementById("difficultyButtons").classList.contains("hidden")) {
-                this._autopilotTimer = setTimeout(() => this.finishRound(), 6000);
+                this.#autopilotTimer = setTimeout(() => this.finishRound(), 6000);
             } else {
-                this._autopilotTimer = setTimeout(() => this.cycleRound(), 4000);
+                this.#autopilotTimer = setTimeout(() => this.cycleRound(), 4000);
             }
         }
     }
 
-    _speakText(text, lang) {
+    #speakText(text, lang) {
         if (!text) return;
         const utterance = new SpeechSynthesisUtterance(text);
         if (lang === 'Spanish') utterance.lang = 'es-ES';
@@ -98,7 +99,7 @@ export class ApplicationScreenStudy {
         window.speechSynthesis.speak(utterance);
     }
 
-    _renderCardContent(text) {
+    #renderCardContent(text) {
         text = text.trim();
         if (text.startsWith("[") && text.endsWith("]")) {
             const inner = text.slice(1, -1).trim();

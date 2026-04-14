@@ -11,8 +11,8 @@ export class Gameplay {
     constructor(logger = null) {
         this.logger = logger;
         this.game = new Game(null, null, logger);
-        this.game.rank = "normal"
-        this.game.direction = "shuffle"
+        this.game.rank = "normal";
+        this.game.direction = "shuffle";
     }
 
     get name() { return this.game.name; }
@@ -52,7 +52,7 @@ export class Gameplay {
 
     initialize(rank) {
         this.rank = rank;
-        this.logger?.log(`Gameplay.initialize: language='${this.language}', name='${this.name}', rank='${this.rank}', direction='${this.direction}`)
+        this.logger?.log(`Gameplay.initialize: language='${this.language}', name='${this.name}', rank='${this.rank}', direction='${this.direction}'.`);
     }
 
     save() {
@@ -61,11 +61,11 @@ export class Gameplay {
 
     draw() {
         this.game.draw();
-        this.logger?.log(`Gameplay.draw: question='${this.state.questionSpeach}', answer='${this.state.answerSpeach}'.`)
+        this.logger?.log(`Gameplay.draw: question='${this.state.questionSpeech}', answer='${this.state.answerSpeech}'.`);
     }
 
     reveal() {
-        this.logger?.log(`Gameplay.reveal (${this.state.direction}) answer='${this.state.answerText}', speach='${this.state.answerSpeach}'`)
+        this.logger?.log(`Gameplay.reveal (${this.state.direction}) answer='${this.state.answerText}', speech='${this.state.answerSpeech}'.`);
     }
 
     rate(difficulty, level) {
@@ -74,7 +74,7 @@ export class Gameplay {
     }
 
     end() {
-        this.logger?.log(`Gameplay.end`)
+        this.logger?.log(`Gameplay.end`);
         this.save();
     }
 

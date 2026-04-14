@@ -30,7 +30,7 @@ export class Game {
                 native: false
             },
             categories: new Set(),
-            rececency: 5 // number of recent cards to exclude from selection
+            recency: 5 // number of recent cards to exclude from selection
         };
 
         this.state = {
@@ -39,13 +39,13 @@ export class Game {
             questionLanguage: null,
             questionText: null,
             questionEmoji: null,
-            questionSpeach: null,
+            questionSpeech: null,
             answerLanguage: null,
             answerText: null,
             answerEmoji: null,
-            answerSpeach: null,
+            answerSpeech: null,
             answerComment: null
-        }
+        };
     }
 
     draw() {
@@ -59,22 +59,22 @@ export class Game {
             this.state.questionLanguage = this.language; // Question is foreign
             this.state.questionText = this.state.card?.front; // Foreign shown at question time.
             this.state.questionEmoji = ''; // Emoji would be clue to meaning.
-            this.state.questionSpeach = this.configuration.sound.foreign ? this.state.card.front : null;
+            this.state.questionSpeech = this.configuration.sound.foreign ? this.state.card.front : null;
             this.state.answerLanguage = 'English'; // Answer is English
             this.state.answerText = this.state.card.back; // Native shown at reveal time.
             this.state.answerEmoji = this.state.card.emoji || ''; // Reveal emoji if any.
-            this.state.answerSpeach = this.configuration.sound.native ? this.state.card.back : null;
+            this.state.answerSpeech = this.configuration.sound.native ? this.state.card.back : null;
             this.state.answerComment = this.state.card.comment || ''; // Show comment if any.
         }
         else { // recall
             this.state.questionLanguage = 'English';
             this.state.questionText = this.state.card.back; // Native shown at question time.
             this.state.questionEmoji = this.state.card.emoji || ''; // Show emoji if any.
-            this.state.questionSpeach = this.configuration.sound.native ? this.state.card.back : null;
+            this.state.questionSpeech = this.configuration.sound.native ? this.state.card.back : null;
             this.state.answerLanguage = this.language; // Answer is foreign
             this.state.answerText = this.state.card.front; // Reveal shown at reveal time.
             this.state.answerEmoji = this.state.card.emoji || ''; // Emoji still shows.
-            this.state.answerSpeach = this.configuration.sound.foreign ? this.state.card.front : null;
+            this.state.answerSpeech = this.configuration.sound.foreign ? this.state.card.front : null;
             this.state.answerComment = this.state.card.comment || ''; // Show comment if any.
         }
     }
@@ -95,12 +95,13 @@ export class Game {
                 this.#enabled = this.#filterByRank(this.#enabled, this.rank, 100);
                 break;
 
-            case 'normal':
+            case 'normal': {
                 // Normal picks non-easy cards, but limits the number of hard cards to max 10.
-                let hard = this.#filterByRank(this.#enabled, 'hard', 10);
-                let normal = this.#filterByRank(this.#enabled, 'normal');
+                const hard = this.#filterByRank(this.#enabled, 'hard', 10);
+                const normal = this.#filterByRank(this.#enabled, 'normal');
                 this.#enabled = hard.concat(normal);
                 break;
+            }
 
             default:
                 // For default, just pick by rank.
@@ -116,7 +117,7 @@ export class Game {
         const card = this.#weightedRandom(this.#filterRecent(this.#enabled, this.#recent));
         if (card) {
             this.#recent.push(card);
-            if (this.#recent.length > this.configuration.rececency) {
+            if (this.#recent.length > this.configuration.recency) {
                 this.#recent.shift();
             }
         }

@@ -5,14 +5,17 @@
 
 export class ApplicationScreenCardEdit {
 
+    #startRound = null;
+    #menu = null;
+
     constructor(gameplay, { startRound, menu } = {}) {
         this.gameplay = gameplay;
-        this._startRound = startRound;
-        this._menu = menu;
+        this.#startRound = startRound;
+        this.#menu = menu;
     }
 
     show() {
-        this._menu.classList.add("hidden");
+        this.#menu.classList.add("hidden");
         document.getElementById("studyArea").classList.add("hidden");
         document.getElementById("editCardArea").classList.remove("hidden");
         document.getElementById("editFront").value = this.gameplay.state.card.front;
@@ -31,7 +34,7 @@ export class ApplicationScreenCardEdit {
         this.gameplay.save();
         document.getElementById("editCardArea").classList.add("hidden");
         document.getElementById("studyArea").classList.remove("hidden");
-        this._startRound();
+        this.#startRound();
     }
 
     cancel() {
