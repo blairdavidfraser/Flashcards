@@ -10,7 +10,7 @@ export class Gameplay {
 
     constructor(logger = null) {
         this.logger = logger;
-        this.game = new Game();
+        this.game = new Game(null, null, logger);
         this.game.rank = "normal"
         this.game.direction = "shuffle"
     }
@@ -39,7 +39,7 @@ export class Gameplay {
 
 
     load() {
-        this.game.dataset = new Persistence(this.name, this.language).loadDataset();
+        this.game.dataset = new Persistence(this.name, this.language, this.logger).loadDataset();
         const counts = {};
         this.cards.forEach(card => {
             const cat = card.category || "Uncategorized";
@@ -56,7 +56,7 @@ export class Gameplay {
     }
 
     save() {
-        new Persistence(this.name, this.language).saveDataset(this.game.dataset);
+        new Persistence(this.name, this.language, this.logger).saveDataset(this.game.dataset);
     }
 
     draw() {

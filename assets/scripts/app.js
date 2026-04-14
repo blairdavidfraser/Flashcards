@@ -1,8 +1,6 @@
-import { Card } from "./Card.js"
-import { Persistence } from "./Persistence.js"
 import { Gameplay } from "./Gameplay.js"
-import { Statistics } from "./Statistics.js"
-import { Dataset } from "./Dataset.js"
+import { ApplicationScreenStatistics } from "./ApplicationScreenStatistics.js"
+import { ApplicationScreenDatasetEdit } from "./ApplicationScreenDatasetEdit.js"
 
 //=============================================================================
 // Globals
@@ -282,44 +280,7 @@ function cancelEdit() {
 }
 
 
-//=============================================================================
-// Game Dataset load and save
-//=============================================================================
-let persistence = null;
 
-function editGameDataset(name, language) {
-    persistence = new Persistence(name, language);
-    document.getElementById("gameMenu").classList.add("hidden")
-    document.getElementById("editArea").classList.remove("hidden");
-    document.getElementById("editTitle").innerText = `Edit ${language} / ${name}`;
-    document.getElementById("editBox").value = Dataset.serialize(persistence.loadDataset());
-}
-
-function saveGameDataset() {
-    persistence.saveDataset(Dataset.parse(document.getElementById("editBox").value));
-    persistence = null;
-    backToMenu();
-}
-
-function selectAllText() {
-    document.getElementById("editBox").select()
-}
-
-
-
-//=============================================================================
-// Language Statistics screen
-//=============================================================================
-function statistics(name, language) {
-    const dataset = new Persistence(name, language).loadDataset();
-    const cards = dataset.filter(item => item instanceof Card);
-    const stats = Statistics.calculate(cards);
-    const html = Statistics.render(stats);
-    document.getElementById("gameMenu").classList.add("hidden")
-    document.getElementById("statsArea").classList.remove("hidden");
-    document.getElementById("statsTitle").innerText = `${language} ${name} Statistics`;
-    document.getElementById("statsContent").innerHTML = html;
-}
 
 
 //=============================================================================
@@ -342,10 +303,13 @@ window.backToMenu = backToMenu
 window.showCardEdit = showCardEdit
 window.saveCardEdit = saveCardEdit
 window.cancelEdit = cancelEdit
-window.editGameDataset = editGameDataset
-window.saveGameDataset = saveGameDataset
-window.selectAllText = selectAllText
-window.statistics = statistics
+const screenStatistics = new ApplicationScreenStatistics(console);
+window.statistics = (name, language) => screenStatistics.show(name, language);
+
+const screenDatasetEdit = new ApplicationScreenDatasetEdit(console, { backToMenu });
+window.editGameDataset = (name, language) => screenDatasetEdit.show(name, language);
+window.saveGameDataset = () => screenDatasetEdit.save();
+window.selectAllText = () => screenDatasetEdit.selectAll();
 
 // Initial render of menu items
 refreshMenu();

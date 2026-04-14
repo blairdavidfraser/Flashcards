@@ -17,9 +17,10 @@ export class Game {
         this.#enabled = null;
     }
 
-    constructor(name = null, language = null) {
+    constructor(name = null, language = null, logger = null) {
         this.name = name;
         this.language = language;
+        this.logger = logger;
         this.direction = 'recall';
         this.rank = 'normal'; // normal, new, hard, review
 
@@ -106,7 +107,7 @@ export class Game {
                 this.#enabled = this.#filterByRank(this.#enabled, this.rank);
                 break;
         }
-        console.log(`Game.#initialize: ${this.#enabled.length} cards match category and rank filters.`);
+        this.logger?.log(`Game.#initialize: ${this.#enabled.length} cards match category and rank filters.`);
     }
 
     #pickCard() {

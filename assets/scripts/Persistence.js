@@ -8,22 +8,23 @@ import { Comment } from "./Comment.js"
 //=============================================================================
 export class Persistence {
 
-    constructor(name, language) {
+    constructor(name, language, logger = null) {
         this.name = name;
         this.language = language;
+        this.logger = logger;
     }
 
     loadDataset() {
         const filename = this.#filename();
         const items = Persistence.deserialize(localStorage.getItem(filename));
-        console.log(`Persistence.loadDataset: loaded '${items.length}' items from '${filename}'.`);
+        this.logger?.log(`Persistence.loadDataset: loaded '${items.length}' items from '${filename}'.`);
         return items;
     }
 
     saveDataset(items) {
         const filename = this.#filename();
         localStorage.setItem(filename, Persistence.serialize(items));
-        console.log(`Persistence.saveDataset: saved '${items.length}' items to '${filename}'.`);
+        this.logger?.log(`Persistence.saveDataset: saved '${items.length}' items to '${filename}'.`);
     }
 
     static serialize(items) {
