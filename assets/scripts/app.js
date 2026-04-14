@@ -1,7 +1,7 @@
 import { Card } from "./Card.js"
 import { Persistence } from "./Persistence.js"
 import { Gameplay } from "./Gameplay.js"
-import { calculateStatistics, renderStatistics } from "./Statistics.js"
+import { Statistics } from "./Statistics.js"
 import { Dataset } from "./Dataset.js"
 
 //=============================================================================
@@ -313,8 +313,8 @@ function selectAllText() {
 function statistics(name, language) {
     const dataset = new Persistence(name, language).loadDataset();
     const cards = dataset.filter(item => item instanceof Card);
-    const stats = calculateStatistics(cards);
-    const html = renderStatistics(stats);
+    const stats = Statistics.calculate(cards);
+    const html = Statistics.render(stats);
     document.getElementById("gameMenu").classList.add("hidden")
     document.getElementById("statsArea").classList.remove("hidden");
     document.getElementById("statsTitle").innerText = `${language} ${name} Statistics`;

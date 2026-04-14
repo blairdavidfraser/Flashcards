@@ -3,9 +3,9 @@
 //
 //=============================================================================
 import { Dataset } from '../scripts/Dataset.js';
-import { Card } from './Card.js';
-import { Comment } from './Comment.js';
-import { parseDate } from './Utilities.js';
+import { Card } from '../scripts/Card.js';
+import { Comment } from '../scripts/Comment.js';
+import { parseDate } from '../scripts/Utilities.js';
 
 describe('Dataset', function () {
 
