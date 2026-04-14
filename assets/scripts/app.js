@@ -1,6 +1,7 @@
 import { Gameplay } from "./Gameplay.js"
 import { ApplicationScreenStatistics } from "./ApplicationScreenStatistics.js"
 import { ApplicationScreenDatasetEdit } from "./ApplicationScreenDatasetEdit.js"
+import { ApplicationScreenCardEdit } from "./ApplicationScreenCardEdit.js"
 
 //=============================================================================
 // Globals
@@ -246,38 +247,6 @@ function backToMenu() {
 }
 
 
-//=============================================================================
-// Card edit form
-//=============================================================================
-function showCardEdit() {
-    menu.classList.add("hidden"); // Close menu
-    document.getElementById("studyArea").classList.add("hidden")
-    document.getElementById("editCardArea").classList.remove("hidden");
-    document.getElementById("editFront").value = gameplay.state.card.front
-    document.getElementById("editBack").value = gameplay.state.card.back
-    document.getElementById("editEmoji").value = gameplay.state.card.emoji || ""
-    document.getElementById("editCategory").value = gameplay.state.card.category || ""
-    document.getElementById("editComment").value = gameplay.state.card.comment || ""
-}
-
-function saveCardEdit() {
-    gameplay.state.card.front = document.getElementById("editFront").value.trim()
-    gameplay.state.card.back = document.getElementById("editBack").value.trim()
-    gameplay.state.card.emoji = document.getElementById("editEmoji").value.trim()
-    gameplay.state.card.category = document.getElementById("editCategory").value.trim()
-    gameplay.state.card.comment = document.getElementById("editComment").value.trim()
-
-    gameplay.save();
-
-    document.getElementById("editCardArea").classList.add("hidden")
-    document.getElementById("studyArea").classList.remove("hidden");
-    startRound()
-}
-
-function cancelEdit() {
-    document.getElementById("editCardArea").classList.add("hidden")
-    document.getElementById("studyArea").classList.remove("hidden");
-}
 
 
 
@@ -300,9 +269,10 @@ window.toggleSound = toggleSound // Updated global exposure
 window.selectGame = selectGame
 window.configureGame = configureGame
 window.backToMenu = backToMenu
-window.showCardEdit = showCardEdit
-window.saveCardEdit = saveCardEdit
-window.cancelEdit = cancelEdit
+const screenCardEdit = new ApplicationScreenCardEdit(gameplay, { startRound, menu });
+window.showCardEdit = () => screenCardEdit.show();
+window.saveCardEdit = () => screenCardEdit.save();
+window.cancelEdit = () => screenCardEdit.cancel();
 const screenStatistics = new ApplicationScreenStatistics(console);
 window.statistics = (name, language) => screenStatistics.show(name, language);
 
