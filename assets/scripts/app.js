@@ -1,4 +1,5 @@
 import { Gameplay } from "./Gameplay.js"
+import { ApplicationScreenStudy } from "./ApplicationScreenStudy.js"
 import { ApplicationScreenStatistics } from "./ApplicationScreenStatistics.js"
 import { ApplicationScreenDatasetEdit } from "./ApplicationScreenDatasetEdit.js"
 import { ApplicationScreenCardEdit } from "./ApplicationScreenCardEdit.js"
@@ -10,101 +11,6 @@ export const gameplay = new Gameplay(console);
 gameplay.direction = "recall";
 
 
-//=============================================================================
-// UI Gameplay
-//=============================================================================
-
-function startGame(rank) {
-    gameplay.initialize(rank);
-
-    document.getElementById("configurationMenu").classList.add("hidden")
-    document.getElementById("studyArea").classList.remove("hidden");
-    startRound()
-}
-
-function speakText(text, lang) {
-    if (!text) return;
-    const utterance = new SpeechSynthesisUtterance(text);
-    if (lang === 'Spanish') utterance.lang = 'es-ES';
-    else if (lang === 'French') utterance.lang = 'fr-FR';
-    else if (lang === 'English') utterance.lang = 'en-CA';
-    utterance.rate = 0.9;
-    utterance.pitch = 1;
-    window.speechSynthesis.speak(utterance);
-}
-
-function startRound() {
-    clearTimeout(autopilotTimer);
-    gameplay.draw();
-    speakText(gameplay.state.questionSpeach, gameplay.state.questionLanguage);
-    document.getElementById("cardHeader").innerText = gameplay.state.card.category || "";
-    document.getElementById("cardTop").innerHTML = renderCardContent(gameplay.state.questionText);
-    document.getElementById("cardEmoji").innerHTML = gameplay.state.questionEmoji;
-    document.getElementById("cardBottom").innerHTML = "&nbsp;";
-    document.getElementById("difficultyButtons").classList.add("hidden")
-    document.getElementById("nextButtons").classList.add("hidden")
-    document.getElementById("exitButton").classList.remove("hidden");
-
-    document.getElementById("cardComment").innerHTML = "&nbsp;";
-    document.getElementById("cardInfo").innerText = gameplay.state.card ? gameplay.state.card.summary() : '';
-    if (autopilot) {
-        autopilotTimer = setTimeout(finishRound, 6000);
-    }
-}
-
-function finishRound() {
-    clearTimeout(autopilotTimer); // Clear if triggered by user click
-    gameplay.reveal();
-    speakText(gameplay.state.answerSpeach, gameplay.state.answerLanguage);
-    document.getElementById("cardBottom").innerHTML = renderCardContent(gameplay.state.answerText);
-    document.getElementById("cardEmoji").innerHTML = gameplay.state.answerEmoji;
-    if (gameplay.state.direction === "recognition") {
-        document.getElementById("difficultyButtons").classList.add("hidden")
-        document.getElementById("nextButtons").classList.remove("hidden");
-    } else {
-        document.getElementById("difficultyButtons").classList.remove("hidden");
-        document.getElementById("nextButtons").classList.add("hidden")
-    }
-
-    document.getElementById("exitButton").classList.add("hidden")
-    document.getElementById("cardComment").innerText = gameplay.state.card ? gameplay.state.card.comment : '';
-    document.getElementById("cardInfo").innerText = gameplay.state.card ? gameplay.state.card.summary() : '';
-    if (autopilot) {
-        autopilotTimer = setTimeout(() => cycleRound(), 4000);
-    }
-}
-
-function renderCardContent(text) {
-    text = text.trim();
-    if (text.startsWith("[") && text.endsWith("]")) {
-        const inner = text.slice(1, -1).trim();
-        const rows = inner.split(";").map(row => row.trim());
-
-        let html = "<table style='width:100%; border-collapse: collapse;'>";
-        rows.forEach(row => {
-            const cells = row.split(",").map(cell => cell.trim());
-            html += "<tr>";
-            cells.forEach(cell => { html += `<td style=" border: 1px solid #ddd; padding: 2px; text-align: center; ">${cell}</td>`; });
-            html += "</tr>";
-        });
-        html += "</table>";
-        return html;
-    }
-    return text;
-}
-
-function cycleRound(difficulty = null, level = null) {
-    if (difficulty !== null) {
-        gameplay.rate(difficulty, level ?? gameplay.state.card.level);
-    }
-    startRound();
-}
-
-function endGame() {
-    clearTimeout(autopilotTimer);
-    gameplay.end();
-    backToMenu()
-}
 
 
 
@@ -139,7 +45,7 @@ menu.addEventListener("click", (e) => {
 function refreshMenu() {
     const autoItem = document.getElementById("autopilotToggle");
     if (autoItem) {
-        autoItem.innerHTML = autopilot
+        autoItem.innerHTML = screenStudy.autopilot
             ? "✅ Autopilot"
             : "❌ Autopilot";
     }
@@ -181,27 +87,6 @@ function toggleSound(type) {
     }
 }
 
-let autopilot = false;
-let autopilotTimer = null;
-
-function toggleAutopilot() {
-    autopilot = !autopilot;
-    clearTimeout(autopilotTimer); // Stop any active timers
-
-    // If we are currently in a game and just turned it on, start the flow
-    if (autopilot && !document.getElementById("studyArea").classList.contains("hidden")) {
-        // If buttons are hidden, we are on the 'Question' side
-        if (document.getElementById("nextButtons").classList.contains("hidden") &&
-            document.getElementById("difficultyButtons").classList.contains("hidden")) {
-            autopilotTimer = setTimeout(finishRound, 6000);
-        } else {
-            // We are on the 'Answer' side
-            autopilotTimer = setTimeout(() => cycleRound(), 4000);
-        }
-    }
-
-    refreshMenu();
-}
 
 function selectGame(name, language) {
     gameplay.name = name;
@@ -259,17 +144,18 @@ function backToMenu() {
 window.selectGameRank = v => gameplay.rank = v
 window.selectGameDirection = v => gameplay.direction = v
 
-window.startGame = startGame
-window.startRound = startRound
-window.finishRound = finishRound
-window.cycleRound = cycleRound
-window.endGame = endGame
-window.toggleAutopilot = toggleAutopilot;
-window.toggleSound = toggleSound // Updated global exposure
-window.selectGame = selectGame
-window.configureGame = configureGame
-window.backToMenu = backToMenu
-const screenCardEdit = new ApplicationScreenCardEdit(gameplay, { startRound, menu });
+const screenStudy = new ApplicationScreenStudy(gameplay, { backToMenu });
+window.startGame = (rank) => screenStudy.startGame(rank);
+window.startRound = () => screenStudy.startRound();
+window.finishRound = () => screenStudy.finishRound();
+window.cycleRound = (difficulty, level) => screenStudy.cycleRound(difficulty, level);
+window.endGame = () => screenStudy.endGame();
+window.toggleAutopilot = () => { screenStudy.toggleAutopilot(); refreshMenu(); };
+window.toggleSound = toggleSound;
+window.selectGame = selectGame;
+window.configureGame = configureGame;
+window.backToMenu = backToMenu;
+const screenCardEdit = new ApplicationScreenCardEdit(gameplay, { startRound: () => screenStudy.startRound(), menu });
 window.showCardEdit = () => screenCardEdit.show();
 window.saveCardEdit = () => screenCardEdit.save();
 window.cancelEdit = () => screenCardEdit.cancel();
