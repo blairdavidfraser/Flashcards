@@ -36,13 +36,21 @@ export class Gameplay {
 
     get state() { return this.game.state; }
 
+
     load() {
         this.game.load();
+        const counts = {};
+        this.cards.forEach(card => {
+            const cat = card.category || "Uncategorized";
+            counts[cat] = (counts[cat] || 0) + 1;
+        });
+        const categories = Object.keys(counts).sort();
+        this.categories = new Set(categories);
+        return { counts, categories };
     }
 
     initialize(rank) {
         this.rank = rank;
-        this.game.load();
         this.logger?.log(`Gameplay.initialize: language='${this.language}', name='${this.name}', rank='${this.rank}', direction='${this.direction}`)
     }
 

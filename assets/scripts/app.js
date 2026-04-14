@@ -26,7 +26,7 @@ function startGame(rank) {
 function speakText(text, lang) {
     if (!text) return;
     const utterance = new SpeechSynthesisUtterance(text);
-    if (lang === 'Spanish')     utterance.lang = 'es-ES';
+    if (lang === 'Spanish') utterance.lang = 'es-ES';
     else if (lang === 'French') utterance.lang = 'fr-FR';
     else if (lang === 'English') utterance.lang = 'en-CA';
     utterance.rate = 0.9;
@@ -216,21 +216,8 @@ function selectGame(name, language) {
 }
 
 function configureGame() {
-    gameplay.load();
+    const { counts, categories } = gameplay.load();
     const container = document.getElementById("categoryFilters");
-
-    // Build category counts
-    const counts = {};
-    gameplay.cards.forEach(card => {
-        const cat = card.category || "Uncategorized";
-        counts[cat] = (counts[cat] || 0) + 1;
-    });
-
-    const categories = Object.keys(counts).sort();
-
-    // default: all selected
-    gameplay.categories = new Set(categories);
-
     container.innerHTML = "";
     categories.forEach(cat => {
         const id = "cat_" + cat.replace(/\s+/g, "_");
@@ -239,11 +226,8 @@ function configureGame() {
 
         const checkbox = label.querySelector("input");
         checkbox.addEventListener("change", () => {
-            if (checkbox.checked) {
-                gameplay.categories.add(cat);
-            } else {
-                gameplay.categories.delete(cat);
-            }
+            if (checkbox.checked) gameplay.categories.add(cat);
+            else gameplay.categories.delete(cat);
         });
 
         container.appendChild(label);
