@@ -205,7 +205,7 @@ function toggleAutopilot() {
 }
 
 function selectGame(name, language) {
-    gameplay.game.name = name;
+    gameplay.name = name;
     gameplay.language = language;
 
     document.getElementById("gameMenu").classList.add("hidden")
@@ -216,22 +216,20 @@ function selectGame(name, language) {
 }
 
 function configureGame() {
-    gameplay.game.load();
+    gameplay.load();
     const container = document.getElementById("categoryFilters");
 
     // Build category counts
     const counts = {};
-    gameplay.game.dataset
-        .filter(item => item instanceof Card)
-        .forEach(card => {
-            const cat = card.category || "Uncategorized";
-            counts[cat] = (counts[cat] || 0) + 1;
-        });
+    gameplay.cards.forEach(card => {
+        const cat = card.category || "Uncategorized";
+        counts[cat] = (counts[cat] || 0) + 1;
+    });
 
     const categories = Object.keys(counts).sort();
 
     // default: all selected
-    gameplay.game.configuration.categories = new Set(categories);
+    gameplay.categories = new Set(categories);
 
     container.innerHTML = "";
     categories.forEach(cat => {
@@ -242,9 +240,9 @@ function configureGame() {
         const checkbox = label.querySelector("input");
         checkbox.addEventListener("change", () => {
             if (checkbox.checked) {
-                gameplay.game.configuration.categories.add(cat);
+                gameplay.categories.add(cat);
             } else {
-                gameplay.game.configuration.categories.delete(cat);
+                gameplay.categories.delete(cat);
             }
         });
 
@@ -287,7 +285,7 @@ function saveCardEdit() {
     gameplay.state.card.category = document.getElementById("editCategory").value.trim()
     gameplay.state.card.comment = document.getElementById("editComment").value.trim()
 
-    Persistence.saveDatasetTo(gameplay.game.name, gameplay.language, gameplay.game.dataset)
+    gameplay.save();
 
     document.getElementById("editCardArea").classList.add("hidden")
     document.getElementById("studyArea").classList.remove("hidden");

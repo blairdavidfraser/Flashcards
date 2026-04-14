@@ -29,12 +29,25 @@ export class Gameplay {
     get sound() { return this.game.configuration.sound; }
     set sound(v) { this.game.configuration.sound = v; }
 
+    get categories() { return this.game.configuration.categories; }
+    set categories(v) { this.game.configuration.categories = v; }
+
+    get cards() { return this.game.dataset.filter(item => item instanceof Card); }
+
     get state() { return this.game.state; }
+
+    load() {
+        this.game.load();
+    }
 
     initialize(rank) {
         this.rank = rank;
         this.game.load();
         this.logger?.log(`Gameplay.initialize: language='${this.language}', name='${this.name}', rank='${this.rank}', direction='${this.direction}`)
+    }
+
+    save() {
+        Persistence.saveDatasetTo(this.name, this.language, this.game.dataset);
     }
 
     draw() {
@@ -48,12 +61,12 @@ export class Gameplay {
 
     rate(difficulty, level) {
         this.game.rate(difficulty, level);
-        Persistence.saveDatasetTo(this.name, this.language, this.game.dataset);
+        this.save();
     }
 
     end() {
         this.logger?.log(`Gameplay.end`)
-        Persistence.saveDatasetTo(this.name, this.language, this.game.dataset)
+        this.save();
     }
 
 
