@@ -745,7 +745,6 @@ felicitar | to congratulate |  | Verb | 2026-04-09 | 2026-04-11 | 0 |  | 1 |
 firmar | to sign |  | Verb | 2026-04-09 | 2026-04-11 | 0 |  | 1 | 
 funcionar | to function / work |  | Verb | 2026-03-19 | 2026-03-25 | 4 | 2.2500 | -1 | 
 ganar | to win / earn |  | Verb | 2026-03-09 | 2026-03-14 | 3 | 1.6700 | -1 | 
-ganar | to win / earn |  | Verb | 2026-04-09 | 2026-04-11 | 0 |  | 1 | 
 gastar | to spend (money) |  | Verb | 2026-04-09 | 2026-04-11 | 0 |  | 1 | 
 girar | to turn / to rotate |  | Verb | 2026-04-05 | 2026-04-14 | 3 | 1.4000 | 0 | 
 grabar | to record |  | Verb | 2026-04-09 | 2026-04-14 | 2 | 1.4000 | 0 | 
@@ -756,11 +755,9 @@ intentar | to try (to do something) |  | Verb | 2026-03-09 | 2026-03-31 | 6 | 2.
 interrumpir | to interrupt |  | Verb | 2026-04-09 | 2026-04-11 | 0 |  | 1 | 
 invitar | to invite |  | Verb | 2026-04-09 | 2026-04-11 | 0 |  | 1 | 
 leer | to read |  | Verb | 2026-03-09 | 2026-03-31 | 7 | 1.4300 | -1 | 
-leer | to read |  | Verb | 2026-04-09 | 2026-04-11 | 0 |  | 1 | 
 levantarse | to get up |  | Verb | 2026-03-27 | 2026-04-08 | 9 | 0.2222 | 0 | 
 limpiar | to clean |  | Verb | 2026-03-27 | 2026-03-29 | 2 | 2.5000 | -1 | 
 llamar | to call |  | Verb | 2026-04-09 | 2026-04-11 | 0 |  | 1 | 
-llegar | to arrive |  | Verb | 2026-03-09 | 2026-03-11 | 4 | 2.0000 | -1 | 
 llegar | to arrive |  | Verb | 2026-04-09 | 2026-04-14 | 3 | 1.4000 | 0 | 
 llenar | to fill |  | Verb | 2026-03-27 | 2026-03-31 | 3 | 2.3300 | -1 | 
 llevar | to carry / take |  | Verb | 2026-04-09 | 2026-04-14 | 5 | 1.1060 | 0 | 

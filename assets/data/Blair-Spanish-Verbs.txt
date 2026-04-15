@@ -78,7 +78,7 @@
 [yo voy, ns. vamos; tú vas, vs. vais; él va, ellos van] | Present forms of  'ir' |  | Present | 2026-03-24 | 2026-03-28 | 2 | 2.5000 | -1 | 
 [yo tengo, ns. tenemos; tú tienes, vs. tenéis; él tiene, ellos tienen] | Present forms of  'tener' |  | Present | 2026-03-24 | 2026-03-28 | 3 | 2.3300 | -1 | 
 [yo digo, ns. decimos; tú dices, vs. decís; él dice, ellos dicen] | Present forms of 'decir' |  | Present | 2026-03-24 | 2026-03-24 | 1 | 1.0000 | 0 | 
-[yo puedo, ns. podemos; tú puedes, vs. podéis; él puede, ellos dicen] | Present forms of 'decir' |  | Present | 2026-03-24 | 2026-03-24 | 1 | 1.0000 | 0 | 
+[yo puedo, ns. podemos; tú puedes, vs. podéis; él puede, ellos dicen] | Present forms of 'poder' |  | Present | 2026-03-24 | 2026-03-24 | 1 | 1.0000 | 0 | 
 [yo veo, ns. vemos; tú ves, vs. veis; él ve, ellos ven] | Present forms of 'ver' |  | Present | 2026-03-24 | 2026-04-06 | 3 | 1.0000 | 0 | 
 [yo doy, ns. damos; tú das, vs. dais; él da, ellos dan] | Present forms of 'dar' |  | Present | 2026-03-24 | 2026-03-24 | 0 |  | 1 | 
 [yo hablo, ns. hablamos; tú hablas, vs. habláis; él habla, ellos hablan] | Present forms of hablar |  | Present | 2026-03-24 | 2026-03-25 | 1 | 3.0000 | -1 | 
