@@ -148,6 +148,23 @@
         <button onclick="selectAllText()">Select All</button>
         <button onclick="saveGameDataset()">Save</button>
         <button onclick="backToMenu()">Cancel</button>
+        <button id="saveToGithubButton" onclick="saveToGitHub()">Save to GitHub</button>
+
+        <div id="githubConfigSection" class="hidden">
+            <br>
+            <div class="form-container">
+                <label>Personal access token:<br>
+                    <input type="password" id="githubToken" class="input-wide" placeholder="ghp_..."></label><br><br>
+                <label>Repository (owner/repo):<br>
+                    <input type="text" id="githubRepo" class="input-wide" placeholder="username/flashcards"></label><br><br>
+                <label>Filename prefix (optional):<br>
+                    <input type="text" id="githubPrefix" class="input-wide" placeholder="e.g. Blair"></label>
+            </div>
+            <br>
+            <button onclick="saveGithubConfig()">Save Config</button>
+            <button onclick="cancelGithubConfig()">Cancel</button>
+        </div>
+
     </div>
 
     <!-- STATS -->
