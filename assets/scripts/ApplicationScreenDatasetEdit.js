@@ -76,6 +76,8 @@ export class ApplicationScreenDatasetEdit {
         const content = document.getElementById("editBox").value;
         const path    = GitHubService.filePath(this.#language, this.#name, prefix);
         const message = `Update ${this.#language} ${this.#name}`;
+
+        this.#persistence.saveDataset(Dataset.parse(content));
         const button  = document.getElementById("saveToGithubButton");
 
         button.disabled = true;
