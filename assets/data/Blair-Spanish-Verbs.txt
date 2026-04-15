@@ -78,7 +78,7 @@
 [yo voy, ns. vamos; tú vas, vs. vais; él va, ellos van] | Present forms of  'ir' |  | Present | 2026-03-25 | 2026-03-29 | 2 | 2.5000 | -1 | 
 [yo tengo, ns. tenemos; tú tienes, vs. tenéis; él tiene, ellos tienen] | Present forms of  'tener' |  | Present | 2026-03-25 | 2026-03-29 | 3 | 2.3300 | -1 | 
 [yo digo, ns. decimos; tú dices, vs. decís; él dice, ellos dicen] | Present forms of 'decir' |  | Present | 2026-03-25 | 2026-03-25 | 1 | 1.0000 | 0 | 
-[yo puedo, ns. podemos; tú puedes, vs. podéis; él puede, ellos dicen] | Present forms of 'decir' |  | Present | 2026-03-25 | 2026-03-25 | 1 | 1.0000 | 0 | 
+[yo puedo, ns. podemos; tú puedes, vs. podéis; él puede, ellos pueden] | Present forms of 'poder' |  | Present | 2026-03-25 | 2026-03-25 | 1 | 1.0000 | 0 | 
 [yo veo, ns. vemos; tú ves, vs. veis; él ve, ellos ven] | Present forms of 'ver' |  | Present | 2026-03-25 | 2026-04-07 | 3 | 1.0000 | 0 | 
 [yo doy, ns. damos; tú das, vs. dais; él da, ellos dan] | Present forms of 'dar' |  | Present | 2026-03-25 | 2026-03-25 | 0 | | 1 | 
 [yo hablo, ns. hablamos; tú hablas, vs. habláis; él habla, ellos hablan] | Present forms of hablar |  | Present | 2026-03-25 | 2026-03-26 | 1 | 3.0000 | -1 | 
@@ -221,7 +221,6 @@ Voy a ver una película después, pero estoy escribiendo un correo ahora | I am 
 [yo hablé, ns. hablamos; tú hablaste, vs. hablasteis; él habló, ellos hablaron] | Preterit forms of hablar |  | Preterit | 2026-03-25 | 2026-03-25 | 0 | | 1 | 
 [yo comí, ns. comimos; tú comiste, vs. comisteis; él comió, ellos comieron] | Preterit forms of comer |  | Preterit | 2026-03-25 | 2026-03-25 | 0 | | 1 | 
 [yo viví, ns. vivimos; tú viviste, vs. vivisteis; él vivió, ellos vivieron] | Preterit forms of vivir |  | Preterit | 2026-03-25 | 2026-03-25 | 0 | | 1 | 
-[yo hablé, ns. hablamos; tú hablaste, vs. hablasteis; él habló, ellos hablaron] | Preterit forms of hablar |  | Preterit | 2026-03-25 | 2026-03-25 | 0 | | 1 | 
 [yo puse, ns. pusimos; tú pusiste, vs. pusisteis; él puso, ellos pusieron] | Preterit forms of 'poner' |  | Preterit | 2026-03-28 | 1970-01-01 | 0 | 0 | 1 |
 [yo vi, ns. vimos; tú viste, vs. visteis; él vio, ellos vieron] | Preterit forms of 'ver' |  | Preterit | 2026-03-28 | 1970-01-01 | 0 | 0 | 1 |
 Comí en ese restaurante ayer | I ate at that restaurant yesterday |  | Preterit | 2026-03-21 | 2026-03-22 | 0 | 0.0000 | 0 | 
@@ -412,6 +411,7 @@ He estado buscando este lugar | I’ve been looking for this place |  | Present 
 [yo esté, ns. estemos; tú estés, vs. estéis; él esté, ellos estén] | Present subjunctive forms of 'estar' |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | -1 |
 [yo vaya, ns. vayamos; tú vayas, vs. vayáis; él vaya, vellos ayan] | Present subjunctive forms of 'ir' |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | -1 |
 [yo sepa, ns. sepamos; tú sepas, vs. sepáis; él sepa, ellos sepan] | Present subjunctive forms of 'saber' |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | -1 |
+[yo haga, ns. hagamos; tú hagas, vs. hagáis; él haga, ellos hagan] | Present subjunctive forms of 'hacer' |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | -1 |
 [yo haya, ns. hayamos; tú hayas, vs. hayáis; él haya, ellos hayan] | Present subjunctive forms of 'haber' |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | -1 |
 [yo dé, ns. demos; tú des, vs. deis; él dé, ellos den] | Present subjunctive forms of 'dar' |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | -1 |
 Es mejor que lo hagas ahora | It’s better that you do it now |  | Present Subjunctive | 2026-04-11 | 1970-01-01 | 0 | | 1 |
