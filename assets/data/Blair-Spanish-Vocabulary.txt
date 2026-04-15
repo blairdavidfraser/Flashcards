@@ -91,1106 +91,1106 @@
 #
 
 # >>> Basics
-hola | hello |  | Conversational | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-buenos días | good morning |  | Conversational | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-buenas tardes | good afternoon |  | Conversational | 2026-03-07 | 2026-03-29 | 4 | 2.5000 | -1 | 
-buenas noches | good evening / good night |  | Conversational | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-adiós | goodbye |  | Conversational | 2026-03-07 | 2026-03-12 | 2 | 1.5000 | -1 | 
-hasta luego | see you later |  | Conversational | 2026-03-07 | 2026-03-10 | 2 | 2.5000 | -1 | 
-hasta mañana | see you tomorrow |  | Conversational | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-nos vemos | see you |  | Conversational | 2026-03-07 | 2026-03-13 | 4 | 1.0000 | -1 | 
-por favor | please |  | Conversational | 2026-03-07 | 2026-03-29 | 4 | 2.2500 | -1 | 
-gracias | thank you |  | Conversational | 2026-03-07 | 2026-03-29 | 4 | 2.7500 | -1 | 
-muchas gracias | thank you very much |  | Conversational | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-de nada | you're welcome |  | Conversational | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-perdón | excuse me / sorry (minor) |  | Conversational | 2026-03-07 | 2026-03-12 | 6 | 2.1700 | -1 | 
-lo siento | I'm sorry (strong sorry) |  | Conversational | 2026-03-07 | 2026-03-29 | 3 | 3.0000 | -1 | 
-con permiso | excuse me (passing by) |  | Conversational | 2026-03-07 | 2026-03-29 | 7 | 2.1400 | -1 | 
-¿cómo estás? | how are you? |  | Conversational | 2026-03-07 | 2026-03-29 | 3 | 3.0000 | -1 | 
-¿cómo está usted? | how are you (formal)? |  | Conversational | 2026-03-07 | 2026-03-29 | 3 | 3.0000 | -1 | 
-estoy bien | I am well |  | Conversational | 2026-03-07 | 2026-03-29 | 3 | 3.0000 | -1 | 
-más o menos | so-so |  | Conversational | 2026-03-07 | 2026-03-12 | 3 | 1.6700 | -1 | 
-muy bien | very well |  | Conversational | 2026-03-07 | 2026-03-16 | 9 | 1.4400 | -1 | 
-¿qué tal? | how's it going? |  | Conversational | 2026-03-07 | 2026-03-13 | 4 | 2.5000 | -1 | 
-mucho gusto | nice to meet you |  | Conversational | 2026-03-07 | 2026-03-29 | 5 | 2.6000 | -1 | 
-encantado, o encantada | pleased to meet you / I'm enchanted |  | Conversational | 2026-03-07 | 2026-03-29 | 5 | 2.8000 | -1 | 
-¿de dónde eres? | where are you from? |  | Conversational | 2026-03-07 | 2026-03-12 | 5 | 2.4000 | -1 | 
-soy de Canadá | I am from Canada |  | Conversational | 2026-03-07 | 2026-03-23 | 5 | 2.2000 | -1 | 
-¿dónde está el baño? | where is the bathroom? |  | Conversational | 2026-03-07 | 2026-03-29 | 6 | 1.5000 | -1 | 
-¿cuánto cuesta? | how much does it cost? |  | Conversational | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-la cuenta, por favor | the bill please |  | Conversational | 2026-03-07 | 2026-03-29 | 3 | 3.0000 | -1 | 
-¿habla inglés? | do you speak English? |  | Conversational | 2026-03-07 | 2026-03-12 | 3 | 1.0000 | -1 | 
-no entiendo | I don't understand |  | Conversational | 2026-03-07 | 2026-03-16 | 4 | 2.5000 | -1 | 
-¿puede repetir? | can you repeat? |  | Conversational | 2026-03-07 | 2026-03-25 | 10 | 1.8000 | -1 | 
-¿puede hablar más despacio? | can you speak more slowly? |  | Conversational | 2026-03-07 | 2026-03-25 | 11 | 1.6400 | -1 | 
-hablo un poco de español | I speak a little Spanish |  | Conversational | 2026-03-07 | 2026-04-03 | 6 | 1.8333 | -1 | 
-¿qué significa? | what does it mean? |  | Conversational | 2026-03-07 | 2026-04-06 | 16 | 0.7538 | 0 | 
-¿cómo se dice...? | how do you say...? |  | Conversational | 2026-03-07 | 2026-03-29 | 3 | 3.0000 | -1 | 
-¿qué hora es? | what time is it? |  | Conversational | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-¿dónde está el hotel? | where is the hotel? |  | Conversational | 2026-03-07 | 2026-03-12 | 5 | 2.0000 | -1 | 
-¿dónde está el restaurante? | where is the restaurant? |  | Conversational | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-necesito ayuda | I need help |  | Conversational | 2026-03-07 | 2026-03-14 | 8 | 2.2500 | -1 | 
-estoy perdido | I am lost |  | Conversational | 2026-03-07 | 2026-03-29 | 5 | 1.6000 | -1 | 
-¿qué? | what? |  | Conversational | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-¿quién? | who? |  | Conversational | 2026-03-07 | 2026-03-16 | 3 | 2.6700 | -1 | 
-¿quiénes? | who? (plural) |  | Conversational | 2026-03-07 | 2026-03-29 | 7 | 2.4300 | -1 | 
-¿dónde? | where? |  | Conversational | 2026-03-07 | 2026-03-12 | 3 | 1.6700 | -1 | 
-¿cuándo? | when? |  | Conversational | 2026-03-07 | 2026-03-29 | 5 | 2.6000 | -1 | 
-¿por qué? | why? |  | Conversational | 2026-03-07 | 2026-03-29 | 5 | 2.6000 | -1 | 
-¿cómo? | how? |  | Conversational | 2026-03-07 | 2026-03-29 | 7 | 2.0000 | -1 | 
-¿cuánto? | how much? |  | Conversational | 2026-03-07 | 2026-03-29 | 3 | 3.0000 | -1 | 
-¿cuántos? | how many? |  | Conversational | 2026-03-07 | 2026-03-29 | 4 | 2.7500 | -1 | 
-¿cuál? | which? |  | Conversational | 2026-03-07 | 2026-03-13 | 4 | 2.5000 | -1 | 
-¿cuáles? | which? (plural) |  | Conversational | 2026-03-07 | 2026-03-13 | 9 | 2.0000 | -1 | 
-cero | zero |  | Conversational | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-uno | one |  | Conversational | 2026-03-07 | 2026-03-29 | 4 | 2.7500 | -1 | 
-dos | two |  | Conversational | 2026-03-07 | 2026-03-12 | 2 | 1.5000 | -1 | 
-tres | three |  | Conversational | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-cuatro | four |  | Conversational | 2026-03-07 | 2026-03-29 | 4 | 2.2500 | -1 | 
-cinco | five |  | Conversational | 2026-03-07 | 2026-03-29 | 4 | 2.2500 | -1 | 
-seis | six |  | Conversational | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-siete | seven |  | Conversational | 2026-03-07 | 2026-03-12 | 4 | 2.5000 | -1 | 
-ocho | eight |  | Conversational | 2026-03-07 | 2026-03-29 | 3 | 3.0000 | -1 | 
-nueve | nine |  | Conversational | 2026-03-07 | 2026-03-29 | 4 | 2.7500 | -1 | 
-diez | ten |  | Conversational | 2026-03-07 | 2026-03-12 | 3 | 2.0000 | -1 | 
-once | eleven |  | Conversational | 2026-03-07 | 2026-03-29 | 3 | 2.0000 | -1 | 
-doce | twelve |  | Conversational | 2026-03-07 | 2026-03-13 | 3 | 2.6700 | -1 | 
-trece | thirteen |  | Conversational | 2026-03-07 | 2026-03-12 | 3 | 2.0000 | -1 | 
-catorce | fourteen |  | Conversational | 2026-03-07 | 2026-03-13 | 4 | 2.5000 | -1 | 
-quince | fifteen |  | Conversational | 2026-03-07 | 2026-03-29 | 4 | 2.5000 | -1 | 
-veinte | twenty |  | Conversational | 2026-03-07 | 2026-03-29 | 3 | 3.0000 | -1 | 
-treinta | thirty |  | Conversational | 2026-03-07 | 2026-03-29 | 4 | 2.2500 | -1 | 
-cuarenta | forty |  | Conversational | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-cincuenta | fifty |  | Conversational | 2026-03-07 | 2026-03-13 | 5 | 1.8000 | -1 | 
-cien | one hundred |  | Conversational | 2026-03-07 | 2026-03-29 | 3 | 3.0000 | -1 | 
-lunes | Monday |  | Conversational | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-martes | Tuesday |  | Conversational | 2026-03-07 | 2026-03-12 | 5 | 2.2000 | -1 | 
-miércoles | Wednesday |  | Conversational | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-jueves | Thursday |  | Conversational | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-viernes | Friday |  | Conversational | 2026-03-07 | 2026-03-15 | 4 | 2.5000 | -1 | 
-sábado | Saturday |  | Conversational | 2026-03-07 | 2026-03-13 | 3 | 2.6700 | -1 | 
-domingo | Sunday |  | Conversational | 2026-03-07 | 2026-03-29 | 4 | 3.0000 | -1 | 
-enero | January |  | Conversational | 2026-03-07 | 2026-03-13 | 4 | 2.0000 | -1 | 
-febrero | February |  | Conversational | 2026-03-07 | 2026-03-23 | 8 | 1.8800 | -1 | 
-marzo | March |  | Conversational | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-abril | April |  | Conversational | 2026-03-07 | 2026-03-29 | 3 | 3.0000 | -1 | 
-mayo | May |  | Conversational | 2026-03-07 | 2026-03-12 | 5 | 2.2000 | -1 | 
-junio | June |  | Conversational | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-julio | July |  | Conversational | 2026-03-07 | 2026-03-29 | 4 | 2.7500 | -1 | 
-agosto | August |  | Conversational | 2026-03-07 | 2026-03-29 | 4 | 2.2500 | -1 | 
-septiembre | September |  | Conversational | 2026-03-07 | 2026-03-25 | 7 | 2.2900 | -1 | 
-octubre | October |  | Conversational | 2026-03-07 | 2026-03-14 | 10 | 1.9000 | -1 | 
-noviembre | November |  | Conversational | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-diciembre | December |  | Conversational | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
+hola | hello |  | Conversational | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+buenos días | good morning |  | Conversational | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+buenas tardes | good afternoon |  | Conversational | 2026-03-06 | 2026-03-28 | 4 | 2.5000 | -1 | 
+buenas noches | good evening / good night |  | Conversational | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+adiós | goodbye |  | Conversational | 2026-03-06 | 2026-03-11 | 2 | 1.5000 | -1 | 
+hasta luego | see you later |  | Conversational | 2026-03-06 | 2026-03-09 | 2 | 2.5000 | -1 | 
+hasta mañana | see you tomorrow |  | Conversational | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+nos vemos | see you |  | Conversational | 2026-03-06 | 2026-03-12 | 4 | 1.0000 | -1 | 
+por favor | please |  | Conversational | 2026-03-06 | 2026-03-28 | 4 | 2.2500 | -1 | 
+gracias | thank you |  | Conversational | 2026-03-06 | 2026-03-28 | 4 | 2.7500 | -1 | 
+muchas gracias | thank you very much |  | Conversational | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+de nada | you're welcome |  | Conversational | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+perdón | excuse me / sorry (minor) |  | Conversational | 2026-03-06 | 2026-03-11 | 6 | 2.1700 | -1 | 
+lo siento | I'm sorry (strong sorry) |  | Conversational | 2026-03-06 | 2026-03-28 | 3 | 3.0000 | -1 | 
+con permiso | excuse me (passing by) |  | Conversational | 2026-03-06 | 2026-03-28 | 7 | 2.1400 | -1 | 
+¿cómo estás? | how are you? |  | Conversational | 2026-03-06 | 2026-03-28 | 3 | 3.0000 | -1 | 
+¿cómo está usted? | how are you (formal)? |  | Conversational | 2026-03-06 | 2026-03-28 | 3 | 3.0000 | -1 | 
+estoy bien | I am well |  | Conversational | 2026-03-06 | 2026-03-28 | 3 | 3.0000 | -1 | 
+más o menos | so-so |  | Conversational | 2026-03-06 | 2026-03-11 | 3 | 1.6700 | -1 | 
+muy bien | very well |  | Conversational | 2026-03-06 | 2026-03-15 | 9 | 1.4400 | -1 | 
+¿qué tal? | how's it going? |  | Conversational | 2026-03-06 | 2026-03-12 | 4 | 2.5000 | -1 | 
+mucho gusto | nice to meet you |  | Conversational | 2026-03-06 | 2026-03-28 | 5 | 2.6000 | -1 | 
+encantado, o encantada | pleased to meet you / I'm enchanted |  | Conversational | 2026-03-06 | 2026-03-28 | 5 | 2.8000 | -1 | 
+¿de dónde eres? | where are you from? |  | Conversational | 2026-03-06 | 2026-03-11 | 5 | 2.4000 | -1 | 
+soy de Canadá | I am from Canada |  | Conversational | 2026-03-06 | 2026-03-22 | 5 | 2.2000 | -1 | 
+¿dónde está el baño? | where is the bathroom? |  | Conversational | 2026-03-06 | 2026-03-28 | 6 | 1.5000 | -1 | 
+¿cuánto cuesta? | how much does it cost? |  | Conversational | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+la cuenta, por favor | the bill please |  | Conversational | 2026-03-06 | 2026-03-28 | 3 | 3.0000 | -1 | 
+¿habla inglés? | do you speak English? |  | Conversational | 2026-03-06 | 2026-03-11 | 3 | 1.0000 | -1 | 
+no entiendo | I don't understand |  | Conversational | 2026-03-06 | 2026-03-15 | 4 | 2.5000 | -1 | 
+¿puede repetir? | can you repeat? |  | Conversational | 2026-03-06 | 2026-03-24 | 10 | 1.8000 | -1 | 
+¿puede hablar más despacio? | can you speak more slowly? |  | Conversational | 2026-03-06 | 2026-03-24 | 11 | 1.6400 | -1 | 
+hablo un poco de español | I speak a little Spanish |  | Conversational | 2026-03-06 | 2026-04-02 | 6 | 1.8333 | -1 | 
+¿qué significa? | what does it mean? |  | Conversational | 2026-03-06 | 2026-04-05 | 16 | 0.7538 | 0 | 
+¿cómo se dice...? | how do you say...? |  | Conversational | 2026-03-06 | 2026-03-28 | 3 | 3.0000 | -1 | 
+¿qué hora es? | what time is it? |  | Conversational | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+¿dónde está el hotel? | where is the hotel? |  | Conversational | 2026-03-06 | 2026-03-11 | 5 | 2.0000 | -1 | 
+¿dónde está el restaurante? | where is the restaurant? |  | Conversational | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+necesito ayuda | I need help |  | Conversational | 2026-03-06 | 2026-03-13 | 8 | 2.2500 | -1 | 
+estoy perdido | I am lost |  | Conversational | 2026-03-06 | 2026-03-28 | 5 | 1.6000 | -1 | 
+¿qué? | what? |  | Conversational | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+¿quién? | who? |  | Conversational | 2026-03-06 | 2026-03-15 | 3 | 2.6700 | -1 | 
+¿quiénes? | who? (plural) |  | Conversational | 2026-03-06 | 2026-03-28 | 7 | 2.4300 | -1 | 
+¿dónde? | where? |  | Conversational | 2026-03-06 | 2026-03-11 | 3 | 1.6700 | -1 | 
+¿cuándo? | when? |  | Conversational | 2026-03-06 | 2026-03-28 | 5 | 2.6000 | -1 | 
+¿por qué? | why? |  | Conversational | 2026-03-06 | 2026-03-28 | 5 | 2.6000 | -1 | 
+¿cómo? | how? |  | Conversational | 2026-03-06 | 2026-03-28 | 7 | 2.0000 | -1 | 
+¿cuánto? | how much? |  | Conversational | 2026-03-06 | 2026-03-28 | 3 | 3.0000 | -1 | 
+¿cuántos? | how many? |  | Conversational | 2026-03-06 | 2026-03-28 | 4 | 2.7500 | -1 | 
+¿cuál? | which? |  | Conversational | 2026-03-06 | 2026-03-12 | 4 | 2.5000 | -1 | 
+¿cuáles? | which? (plural) |  | Conversational | 2026-03-06 | 2026-03-12 | 9 | 2.0000 | -1 | 
+cero | zero |  | Conversational | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+uno | one |  | Conversational | 2026-03-06 | 2026-03-28 | 4 | 2.7500 | -1 | 
+dos | two |  | Conversational | 2026-03-06 | 2026-03-11 | 2 | 1.5000 | -1 | 
+tres | three |  | Conversational | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+cuatro | four |  | Conversational | 2026-03-06 | 2026-03-28 | 4 | 2.2500 | -1 | 
+cinco | five |  | Conversational | 2026-03-06 | 2026-03-28 | 4 | 2.2500 | -1 | 
+seis | six |  | Conversational | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+siete | seven |  | Conversational | 2026-03-06 | 2026-03-11 | 4 | 2.5000 | -1 | 
+ocho | eight |  | Conversational | 2026-03-06 | 2026-03-28 | 3 | 3.0000 | -1 | 
+nueve | nine |  | Conversational | 2026-03-06 | 2026-03-28 | 4 | 2.7500 | -1 | 
+diez | ten |  | Conversational | 2026-03-06 | 2026-03-11 | 3 | 2.0000 | -1 | 
+once | eleven |  | Conversational | 2026-03-06 | 2026-03-28 | 3 | 2.0000 | -1 | 
+doce | twelve |  | Conversational | 2026-03-06 | 2026-03-12 | 3 | 2.6700 | -1 | 
+trece | thirteen |  | Conversational | 2026-03-06 | 2026-03-11 | 3 | 2.0000 | -1 | 
+catorce | fourteen |  | Conversational | 2026-03-06 | 2026-03-12 | 4 | 2.5000 | -1 | 
+quince | fifteen |  | Conversational | 2026-03-06 | 2026-03-28 | 4 | 2.5000 | -1 | 
+veinte | twenty |  | Conversational | 2026-03-06 | 2026-03-28 | 3 | 3.0000 | -1 | 
+treinta | thirty |  | Conversational | 2026-03-06 | 2026-03-28 | 4 | 2.2500 | -1 | 
+cuarenta | forty |  | Conversational | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+cincuenta | fifty |  | Conversational | 2026-03-06 | 2026-03-12 | 5 | 1.8000 | -1 | 
+cien | one hundred |  | Conversational | 2026-03-06 | 2026-03-28 | 3 | 3.0000 | -1 | 
+lunes | Monday |  | Conversational | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+martes | Tuesday |  | Conversational | 2026-03-06 | 2026-03-11 | 5 | 2.2000 | -1 | 
+miércoles | Wednesday |  | Conversational | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+jueves | Thursday |  | Conversational | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+viernes | Friday |  | Conversational | 2026-03-06 | 2026-03-14 | 4 | 2.5000 | -1 | 
+sábado | Saturday |  | Conversational | 2026-03-06 | 2026-03-12 | 3 | 2.6700 | -1 | 
+domingo | Sunday |  | Conversational | 2026-03-06 | 2026-03-28 | 4 | 3.0000 | -1 | 
+enero | January |  | Conversational | 2026-03-06 | 2026-03-12 | 4 | 2.0000 | -1 | 
+febrero | February |  | Conversational | 2026-03-06 | 2026-03-22 | 8 | 1.8800 | -1 | 
+marzo | March |  | Conversational | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+abril | April |  | Conversational | 2026-03-06 | 2026-03-28 | 3 | 3.0000 | -1 | 
+mayo | May |  | Conversational | 2026-03-06 | 2026-03-11 | 5 | 2.2000 | -1 | 
+junio | June |  | Conversational | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+julio | July |  | Conversational | 2026-03-06 | 2026-03-28 | 4 | 2.7500 | -1 | 
+agosto | August |  | Conversational | 2026-03-06 | 2026-03-28 | 4 | 2.2500 | -1 | 
+septiembre | September |  | Conversational | 2026-03-06 | 2026-03-24 | 7 | 2.2900 | -1 | 
+octubre | October |  | Conversational | 2026-03-06 | 2026-03-13 | 10 | 1.9000 | -1 | 
+noviembre | November |  | Conversational | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+diciembre | December |  | Conversational | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
 
 # >>> Nouns
-el abuelo | grandfather |  | Noun | 2026-03-07 | 2026-04-04 | 6 | 1.1683 | -1 | 
-el aceite de oliva | olive oil | 🫒 | Noun | 2026-03-10 | 2026-03-19 | 8 | 1.6300 | -1 | 
-el aeropuerto | airport |  | Noun | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-el agua | water | 💧 | Noun | 2026-03-07 | 2026-03-12 | 2 | 1.5000 | -1 | 
-el ajo | garlic | 🧄 | Noun | 2026-03-10 | 2026-04-06 | 18 | 1.1111 | -1 | 
-el almuerzo | lunch | 🍽️ | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-el amigo | friend | 🧔🏻 | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-el año | year |  | Noun | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-el apartamento | apartment |  | Noun | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-el árbol | tree | 🌳 | Noun | 2026-03-25 | 2026-03-29 | 6 | 2.1700 | -1 | 
-el armario | wardrobe |  | Noun | 2026-03-25 | 2026-03-29 | 4 | -0.2500 | 1 | 
-el arroyo | stream |  | Noun | 2026-03-25 | 2026-04-10 | 6 | 0.7000 | 0 | 
-el arroz | rice | 🍚 | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-el ascensor | elevator | 🛗 | Noun | 2026-03-09 | 2026-03-29 | 12 | 1.4200 | -1 | 
-el ático | attic |  | Noun | 2026-03-25 | 2026-03-28 | 7 | 1.5700 | -1 | 
-el autobús | bus | 🚌 | Noun | 2026-03-07 | 2026-03-16 | 3 | 1.6700 | -1 | 
-el azúcar | sugar | 🍬 | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-el balcón | balcony |  | Noun | 2026-03-25 | 2026-03-28 | 3 | 2.3300 | -1 | 
-el banco | bench |  | Noun | 2026-03-09 | 2026-03-19 | 7 | 0.5700 | -1 | 
-el banco | bench |  | Noun | 2026-03-25 | 2026-04-03 | 5 | 0.6000 | -1 | 
-el baño | bathroom | 🚿 | Noun | 2026-03-25 | 2026-03-28 | 3 | 2.3300 | -1 | 
-el barrio | neighborhood |  | Noun | 2026-03-09 | 2026-03-13 | 4 | 1.7500 | -1 | 
-el barro | mud |  | Noun | 2026-03-25 | 2026-04-04 | 5 | 0.4000 | 0 | 
-el boleto, o el billete en España | ticket | 🎟️ | Noun | 2026-03-07 | 2026-04-06 | 17 | 1.3529 | 0 | 
-el bosque | forest | 🌲 | Noun | 2026-03-25 | 2026-04-09 | 7 | 0.4000 | -1 | 
-el brazo | arm | 💪 | Noun | 2026-03-20 | 2026-03-29 | 4 | 2.2500 | -1 | 
-el brazo | arms | 💪 | Noun | 2026-03-20 | 2026-03-27 | 1 | 3.0000 | -1 | 
-el buzón | mailbox | 📬 | Noun | 2026-03-09 | 2026-04-09 | 12 | 0.5753 | 0 | 
-el café | coffee | ☕ | Noun | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-el calabacín | zucchini |  | Noun | 2026-03-11 | 2026-04-04 | 18 | 0.3378 | 0 | 
-el calcetine | sock | 🧦 | Noun | 2026-03-13 | 2026-04-10 | 13 | 0.5810 | 0 | 
-el caldo | broth | 🍲 | Noun | 2026-03-12 | 2026-04-05 | 14 | 0.5686 | 0 | 
-el cambio | change |  | Noun | 2026-03-14 | 2026-03-24 | 4 | 1.0000 | -1 | 
-el cambio | change |  | Noun | 2026-03-25 | 2026-03-28 | 3 | 2.3300 | -1 | 
-el carrito | cart | 🛒 | Noun | 2026-03-09 | 2026-04-04 | 9 | 0.4489 | 0 | 
-el champiñón | mushroom | 🍄 | Noun | 2026-03-11 | 2026-03-25 | 9 | 1.5600 | -1 | 
-el cliente | client |  | Noun | 2026-03-25 | 2026-04-06 | 7 | 0.7143 | -1 | 
-el coche | car | 🚗 | Noun | 2026-03-25 | 2026-03-27 | 2 | 2.5000 | -1 | 
-el codo | elbow |  | Noun | 2026-03-20 | 2026-04-09 | 6 | 1.0000 | 0 | 
-el colchón | mattress |  | Noun | 2026-03-25 | 2026-03-29 | 9 | -0.5600 | 1 | 
-el comedor | dining room | 🍽️ | Noun | 2026-03-25 | 2026-04-06 | 7 | 0.7143 | 0 | 
-el comportamiento | behavior |  | Noun | 2026-03-17 | 2026-04-04 | 14 | 0.7857 | 0 | 
-el consejo | advice |  | Noun | 2026-03-09 | 2026-04-04 | 13 | 1.4615 | -1 | 
-el cordón | shoelace |  | Noun | 2026-03-13 | 2026-04-03 | 14 | 0.2879 | 0 | 
-el cruce | intersection |  | Noun | 2026-03-25 | 2026-04-05 | 8 | 0.6250 | 0 | 
-el cuchillo | knife | 🔪 | Noun | 2026-03-13 | 2026-03-25 | 14 | 0.5700 | 0 | 
-el desayuno | breakfast | 🍳 | Noun | 2026-03-07 | 2026-03-23 | 7 | 2.1400 | -1 | 
-el día | day | 📅 | Noun | 2026-03-07 | 2026-03-10 | 3 | 1.3300 | -1 | 
-el dinero | money | 💰 | Noun | 2026-03-07 | 2026-03-13 | 2 | 3.0000 | -1 | 
-el dormitorio | bedroom | 🛏️ | Noun | 2026-03-25 | 2026-03-28 | 4 | 1.7500 | -1 | 
-el edificio | building | 🏢 | Noun | 2026-03-09 | 2026-03-23 | 11 | 1.8200 | -1 | 
-el ejemplo | example |  | Noun | 2026-03-07 | 2026-03-23 | 6 | 1.6700 | -1 | 
-el equipo | team |  | Noun | 2026-03-25 | 2026-04-04 | 6 | 0.8317 | 0 | 
-el error | error |  | Noun | 2026-03-25 | 2026-03-27 | 2 | 1.5000 | -1 | 
-el escaparate | shop window |  | Noun | 2026-03-09 | 2026-03-23 | 9 | 0.2200 | 0 | 
-el escritorio | desk |  | Noun | 2026-03-13 | 2026-03-24 | 3 | 2.3300 | -1 | 
-el espejo | mirror |  | Noun | 2026-03-25 | 2026-04-04 | 10 | 0.8980 | 0 | 
-el estudio | study (room) |  | Noun | 2026-03-25 | 2026-03-29 | 5 | 1.8000 | -1 | 
-el éxito | success |  | Noun | 2026-03-17 | 2026-03-24 | 7 | 2.1400 | -1 | 
-el fracaso | failure |  | Noun | 2026-03-17 | 2026-04-06 | 12 | 0.4958 | 0 | 
-el fregadero | sink |  | Noun | 2026-03-25 | 2026-04-09 | 12 | 0.6376 | 0 | 
-el garaje | garage | 🚗 | Noun | 2026-03-25 | 2026-03-29 | 3 | 1.6700 | -1 | 
-el grifo | faucet |  | Noun | 2026-03-25 | 2026-03-29 | 1 | -1.0000 | 1 | 
-el grupo | group |  | Noun | 2026-03-25 | 2026-03-27 | 2 | 2.5000 | -1 | 
-el helado | ice cream | 🍨 | Noun | 2026-03-11 | 2026-03-13 | 3 | 1.6700 | -1 | 
-el hermano | brother |  | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-el hijo | son |  | Noun | 2026-03-07 | 2026-03-12 | 4 | 2.5000 | -1 | 
-el hombre | man | 🧔🏻 | Noun | 2026-03-07 | 2026-03-16 | 4 | 2.2500 | -1 | 
-el hongo | fungus (mushroom) | 🍄 | Noun | 2026-03-25 | 2026-04-12 | 14 | 0.3267 | 0 | 
-el hospital | hospital |  | Noun | 2026-03-25 | 2026-03-26 | 1 | 3.0000 | -1 | 
-el hotel | hotel |  | Noun | 2026-03-07 | 2026-03-13 | 3 | 2.6700 | -1 | 
-el huevo | egg | 🥚 | Noun | 2026-03-07 | 2026-03-25 | 12 | 1.7500 | -1 | 
-el inodoro | toilet | 🚽 | Noun | 2026-03-25 | 2026-03-25 | 0 |  | 1 | 
-el insecto | insect |  | Noun | 2026-03-25 | 2026-03-27 | 1 | 3.0000 | -1 | 
-el internet | internet |  | Noun | 2026-03-07 | 2026-03-13 | 3 | 2.6700 | -1 | 
-el jefe | boss |  | Noun | 2026-03-25 | 2026-03-27 | 1 | 3.0000 | -1 | 
-el lago | lake |  | Noun | 2026-03-25 | 2026-03-27 | 2 | 2.0000 | -1 | 
-el letrero | sign |  | Noun | 2026-03-09 | 2026-04-06 | 14 | 0.8585 | 0 | 
-el libro | book | 📚 | Noun | 2026-03-07 | 2026-03-12 | 4 | 2.2500 | -1 | 
-el limón | lemon | 🍋 | Noun | 2026-03-10 | 2026-03-16 | 3 | 2.6700 | -1 | 
-el lugar | place |  | Noun | 2026-03-20 | 2026-04-03 | 3 | 0.3333 | -1 | 
-el mapa | map | 🗺️ | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-el mejillón | mussel | 🦪 | Noun | 2026-03-12 | 2026-03-24 | 24 | 0.0400 | 0 | 
-el mercado | market | 🏪 | Noun | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-el minuto | minute |  | Noun | 2026-03-07 | 2026-03-12 | 4 | 2.5000 | -1 | 
-el monitor | monitor | 🖥️ | Noun | 2026-03-13 | 2026-03-15 | 2 | 2.5000 | -1 | 
-el mueble | piece of furniture |  | Noun | 2026-03-25 | 2026-04-09 | 9 | 0.7875 | 0 | 
-el mundo | world | 🌍 | Noun | 2026-03-07 | 2026-03-13 | 3 | 2.6700 | -1 | 
-el mundo | world | 🌍 | Noun | 2026-03-25 | 2026-03-27 | 1 | 3.0000 | -1 | 
-el nido | nest |  | Noun | 2026-03-25 | 2026-04-09 | 3 |  | 0 | 
-el niño / la niña | child |  | Noun | 2026-03-25 | 2026-03-27 | 1 | 3.0000 | -1 | 
-el nivel | level |  | Noun | 2026-03-25 | 2026-04-01 | 3 | 0.3333 | -1 | 
-el ojo | eye | 👀 | Noun | 2026-03-20 | 2026-04-12 | 4 | 2.0000 | 0 | 
-el padre | father |  | Noun | 2026-03-07 | 2026-03-29 | 4 | 2.7500 | -1 | 
-el país | country |  | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-el pájaro | bird | 🐦 | Noun | 2026-03-25 | 2026-04-10 | 9 | 0.5242 | 0 | 
-el pan | bread | 🍞 | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-el parque | park |  | Noun | 2026-03-25 | 2026-03-26 | 1 | 3.0000 | -1 | 
-el parte | part |  | Noun | 2026-03-20 | 2026-03-27 | 2 | 2.5000 | -1 | 
-el pasaporte | passport | 🪪 | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-el pasillo | hallway |  | Noun | 2026-03-09 | 2026-04-04 | 16 | 0.1906 | -1 | 
-el pasillo | hallway |  | Noun | 2026-03-25 | 2026-04-04 | 8 | 0.7500 | 0 | 
-el patio | patio / yard |  | Noun | 2026-03-25 | 2026-03-27 | 3 | 1.6700 | -1 | 
-el peatón | pedestrian |  | Noun | 2026-03-25 | 2026-04-04 | 5 | 0.4000 | 0 | 
-el pecho | chest |  | Noun | 2026-03-20 | 2026-03-29 | 3 | 1.6700 | -1 | 
-el pelo | hair | 💇 | Noun | 2026-03-20 | 2026-03-29 | 4 | 2.2500 | -1 | 
-el pepino | cucumber | 🥒 | Noun | 2026-03-11 | 2026-03-29 | 12 | 1.5800 | -1 | 
-el perchero | coat rack |  | Noun | 2026-03-25 | 2026-04-04 | 8 | 0.3750 | 0 | 
-el pescado | fish | 🐟 | Noun | 2026-03-07 | 2026-03-12 | 5 | 2.4000 | -1 | 
-el pie | foot | 🦶 | Noun | 2026-03-20 | 2026-04-12 | 7 | 0.0500 | -1 | 
-el pimiento | bell pepper | 🫑 | Noun | 2026-03-12 | 2026-03-27 | 10 | 1.7000 | -1 | 
-el plan | plan |  | Noun | 2026-03-25 | 2026-03-27 | 3 | 2.0000 | -1 | 
-el policía | police officer |  | Noun | 2026-03-25 | 2026-03-27 | 3 | 2.3300 | -1 | 
-el pollo | chicken | 🐓 | Noun | 2026-03-07 | 2026-03-10 | 3 | 2.3300 | -1 | 
-el poste | pole |  | Noun | 2026-03-09 | 2026-03-13 | 5 | 2.4000 | -1 | 
-el postre | dessert | 🍰 | Noun | 2026-03-10 | 2026-03-13 | 1 | 3.0000 | -1 | 
-el primo, o la prima | cousin |  | Noun | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-el problema | problem |  | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-el puente | bridge | 🌉 | Noun | 2026-03-09 | 2026-03-25 | 12 | 1.9200 | -1 | 
-el queso | cheese | 🧀 | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-el ratón | computer mouse | 🖱️ | Noun | 2026-03-13 | 2026-03-15 | 5 | 1.4000 | -1 | 
-el recibidor | entryway |  | Noun | 2026-03-25 | 2026-04-12 | 3 |  | 0 | 
-el reloj | watch | ⌚ | Noun | 2026-03-07 | 2026-03-29 | 8 | 1.7500 | -1 | 
-el restaurante | restaurant |  | Noun | 2026-03-07 | 2026-03-29 | 3 | 2.6700 | -1 | 
-el resultado | result |  | Noun | 2026-03-14 | 2026-04-06 | 9 | 0.7778 | 0 | 
-el río | river |  | Noun | 2026-03-25 | 2026-03-27 | 2 | 2.5000 | -1 | 
-el romero | rosemary | 🌿 | Noun | 2026-03-11 | 2026-04-04 | 17 | 0.9376 | -1 | 
-el ruido | noise |  | Noun | 2026-03-25 | 2026-04-03 | 8 | 1.1250 | 0 | 
-el segundo | second |  | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-el semáforo | traffic light | 🚦 | Noun | 2026-03-09 | 2026-03-23 | 7 | 1.1400 | -1 | 
-el sendero | path |  | Noun | 2026-03-25 | 2026-04-04 | 7 | 0.5714 | -1 | 
-el sendero | trail / path |  | Noun | 2026-03-10 | 2026-04-04 | 12 | 0.7517 | 0 | 
-el servicio | service |  | Noun | 2026-03-25 | 2026-04-04 | 7 | 1.1429 | -1 | 
-el sillón | armchair |  | Noun | 2026-03-25 | 2026-04-12 | 6 | 0.4200 | 0 | 
-el sofá | sofa | 🛋️ | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-el sofá | sofa | 🛋️ | Noun | 2026-03-25 | 2026-04-03 | 7 | 1.1429 | -1 | 
-el sonido | sound |  | Noun | 2026-03-25 | 2026-03-29 | 2 |  | 0 | 
-el sótano | basement |  | Noun | 2026-03-13 | 2026-03-25 | 13 |  | 0 | 
-el sótano | basement |  | Noun | 2026-03-25 | 2026-04-09 | 8 | 0.6990 | 0 | 
-el suelo | floor / ground |  | Noun | 2026-03-09 | 2026-04-12 | 15 | 1.3980 | 0 | 
-el suéter | sweater |  | Noun | 2026-03-13 | 2026-03-23 | 4 | 1.5000 | -1 | 
-el taburete | stool |  | Noun | 2026-03-25 | 2026-03-29 | 10 | -0.5000 | 1 | 
-el taxi | taxi | 🚕 | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-el té | tea | 🍵 | Noun | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-el techo | ceiling / roof |  | Noun | 2026-03-09 | 2026-03-09 | 1 | 1.0000 | -1 | 
-el teléfono | phone | 📱 | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-el tenedor | fork | 🍴 | Noun | 2026-03-13 | 2026-03-19 | 6 | 2.1700 | -1 | 
-el tiempo | time/weather | 🕓 | Noun | 2026-03-07 | 2026-03-12 | 4 | 2.5000 | -1 | 
-el tío | uncle |  | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-el tipo | type / kind |  | Noun | 2026-03-25 | 2026-04-03 | 6 | 1.1667 | -1 | 
-el tocador | vanity |  | Noun | 2026-03-25 | 2026-04-09 | 11 | 0.4200 | 0 | 
-el tomate | tomato | 🍅 | Noun | 2026-03-10 | 2026-03-16 | 4 | 2.5000 | -1 | 
-el trabajo | work/job |  | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-el tráfico | traffic |  | Noun | 2026-03-25 | 2026-03-28 | 1 | 3.0000 | -1 | 
-el trasero | butt |  | Noun | 2026-03-20 | 2026-04-10 | 7 | 0.3910 | 0 | 
-el trastero | storage room |  | Noun | 2026-03-25 | 2026-03-29 | 10 | -0.1000 | 0 | 
-el tren | train | 🚆 | Noun | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-el tronco | trunk |  | Noun | 2026-03-25 | 2026-04-04 | 5 | 0.4000 | 0 | 
-el uniforme | uniform | 👨‍✈️ | Noun | 2026-03-09 | 2026-03-24 | 8 | 1.6300 | -1 | 
-el vaso | drinking glass | 🥛 | Noun | 2026-03-13 | 2026-03-25 | 4 | 2.0000 | -1 | 
-el vestidor | walk-in closet |  | Noun | 2026-03-25 | 2026-04-06 | 5 | 0.4000 | 0 | 
-el viento | wind |  | Noun | 2026-03-25 | 2026-04-06 | 6 | 0.3317 | 0 | 
-el vino | wine | 🍷 | Noun | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-el zapato | shoe | 👟 | Noun | 2026-03-09 | 2026-03-29 | 8 | 2.2500 | -1 | 
-fresco, o fresca | fresh | 🥬 | Adjective | 2026-03-11 | 2026-03-23 | 3 | 2.3300 | -1 | 
-la abuela | grandmother |  | Noun | 2026-03-07 | 2026-03-09 | 3 | 2.3300 | -1 | 
-la aceituna | olive | 🫒 | Noun | 2026-03-11 | 2026-03-23 | 7 | 1.5700 | -1 | 
-la acera | sidewalk |  | Noun | 2026-03-09 | 2026-04-06 | 17 | 0.8823 | 0 | 
-la albahaca | basil | 🌿 | Noun | 2026-03-11 | 2026-03-25 | 28 |  | 0 | 
-la alcaparra | caper |  | Noun | 2026-03-12 | 2026-03-25 | 17 | 0.5300 | -1 | 
-la alfombra | rug |  | Noun | 2026-03-25 | 2026-04-06 | 8 | 1.1250 | 0 | 
-la almeja | clam | 🦪 | Noun | 2026-03-12 | 2026-03-25 | 37 | -0.1400 | 0 | 
-la almohada | pillow |  | Noun | 2026-03-25 | 2026-03-29 | 7 | -0.1400 | 0 | 
-la amiga | female friend | 👩🏻 | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-la avenida | avenue | 🛣️ | Noun | 2026-03-09 | 2026-03-10 | 3 | 1.6700 | -1 | 
-la bañera | bathtub | 🛁 | Noun | 2026-03-25 | 2026-04-12 | 10 | 1.1430 | 0 | 
-la berenjena | eggplant | 🍆 | Noun | 2026-03-12 | 2026-03-25 | 43 | -0.0700 | 0 | 
-la bicicleta | bicycle | 🚲 | Noun | 2026-03-25 | 2026-03-28 | 1 | 3.0000 | -1 | 
-la boca | mouth | 👄 | Noun | 2026-03-20 | 2026-03-29 | 3 | 2.3300 | -1 | 
-la bota | boot | 👢 | Noun | 2026-03-13 | 2026-03-23 | 4 | 1.5000 | -1 | 
-la bufanda | scarf | 🧣 | Noun | 2026-03-13 | 2026-04-06 | 17 | 0.6447 | 0 | 
-la cabeza | head | 🧠 | Noun | 2026-03-20 | 2026-04-10 | 1 |  | 0 | 
-la caja | box | 📦 | Noun | 2026-03-09 | 2026-03-28 | 9 | 1.0000 | -1 | 
-la calle | street |  | Noun | 2026-03-07 | 2026-03-12 | 4 | 2.5000 | -1 | 
-la cama | bed | 🛏️ | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-la camisa | shirt | 👕 | Noun | 2026-03-09 | 2026-03-16 | 5 | 2.0000 | -1 | 
-la canela | cinnamon |  | Noun | 2026-03-11 | 2026-04-09 | 16 | 0.4690 | 0 | 
-la cara | face | 🙂 | Noun | 2026-03-20 | 2026-03-28 | 2 | 2.5000 | -1 | 
-la carne | meat | 🥩 | Noun | 2026-03-07 | 2026-04-04 | 13 | 0.9200 | -1 | 
-la casa | house | 🏠 | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-la cascada | waterfall |  | Noun | 2026-03-25 | 2026-04-04 | 10 | 1.0990 | 0 | 
-la cebolla | onion | 🧅 | Noun | 2026-03-10 | 2026-04-04 | 15 | 0.9306 | 0 | 
-la celebración | celebration |  | Noun | 2026-04-08 | 2026-04-09 | 0 |  | 1 | 
-la cena | dinner | 🥘 | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-la cerveza | beer | 🍺 | Noun | 2026-03-07 | 2026-03-12 | 4 | 2.7500 | -1 | 
-la chaqueta | jacket | 🧥 | Noun | 2026-03-09 | 2026-03-29 | 4 | 3.0000 | -1 | 
-la ciudad | city | 🏙️ | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-la cocina | kitchen |  | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-la cocina | kitchen | 🍳 | Noun | 2026-03-25 | 2026-04-06 | 9 | 0.5556 | -1 | 
-la colina | hill |  | Noun | 2026-03-25 | 2026-03-28 | 4 | -0.2500 | 0 | 
-la combinación | combination |  | Noun | 2026-04-08 | 2026-04-12 | 2 |  | 0 | 
-la cómoda | dresser |  | Noun | 2026-03-25 | 2026-03-27 | 1 |  | 0 | 
-la computadora | computer | 💻 | Noun | 2026-03-07 | 2026-03-29 | 6 | 1.5000 | -1 | 
-la confrontación | confrontation |  | Noun | 2026-04-08 | 2026-04-12 | 4 |  | 0 | 
-la conversación | conversation |  | Noun | 2026-03-25 | 2026-03-27 | 1 | 3.0000 | -1 | 
-la corteza | crust |  | Noun | 2026-03-12 | 2026-03-25 | 23 | 0.1700 | -1 | 
-la cosa | thing |  | Noun | 2026-03-20 | 2026-04-09 | 1 | -1.0000 | -1 | 
-la cuchara | spoon | 🥄 | Noun | 2026-03-13 | 2026-04-09 | 11 | 0.4928 | 0 | 
-la cuna | crib |  | Noun | 2026-03-25 | 2026-04-10 | 4 | 1.0000 | 0 | 
-la decisión | decision |  | Noun | 2026-03-17 | 2026-03-23 | 2 | 2.5000 | -1 | 
-la despensa | pantry |  | Noun | 2026-03-25 | 2026-04-10 | 4 | 1.0000 | 0 | 
-la diferencia | difference |  | Noun | 2026-03-14 | 2026-03-23 | 7 | 2.1400 | -1 | 
-la ducha | shower | 🚿 | Noun | 2026-03-25 | 2026-04-06 | 10 | 1.0000 | -1 | 
-la elección | choice |  | Noun | 2026-03-17 | 2026-03-24 | 4 | 2.2500 | -1 | 
-la empresa | company |  | Noun | 2026-03-25 | 2026-04-03 | 4 | 0.5000 | 0 | 
-la encimera | countertop |  | Noun | 2026-03-25 | 2026-03-29 | 5 |  | 0 | 
-la ensalada | salad | 🥗 | Noun | 2026-03-07 | 2026-03-12 | 4 | 1.7500 | -1 | 
-la escalera | staircase |  | Noun | 2026-03-09 | 2026-03-16 | 8 | 1.6300 | -1 | 
-la escuela | school |  | Noun | 2026-03-25 | 2026-03-27 | 3 | 2.3300 | -1 | 
-la espalda | back |  | Noun | 2026-03-20 | 2026-04-10 | 7 | 0.2333 | 0 | 
-la esquina | corner |  | Noun | 2026-03-09 | 2026-03-23 | 8 | 1.7500 | -1 | 
-la estación | station |  | Noun | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-la estantería | shelf / bookcase |  | Noun | 2026-03-25 | 2026-03-29 | 3 |  | 0 | 
-la experiencia | experience |  | Noun | 2026-03-14 | 2026-03-15 | 2 | 2.5000 | -1 | 
-la familia | family |  | Noun | 2026-03-07 | 2026-03-12 | 4 | 2.5000 | -1 | 
-la farmacia | pharmacy |  | Noun | 2026-03-25 | 2026-03-27 | 3 | 2.3300 | -1 | 
-la farola | streetlight |  | Noun | 2026-03-09 | 2026-04-04 | 9 | 0.8889 | 0 | 
-la flor | flower | 🌸 | Noun | 2026-03-25 | 2026-04-03 | 5 | 0.8020 | -1 | 
-la forma | way (manner) |  | Noun | 2026-03-20 | 2026-04-12 | 4 | 2.0000 | 0 | 
-la frase | sentence |  | Noun | 2026-03-07 | 2026-03-25 | 10 | 1.2000 | -1 | 
-la fresa | strawberry | 🍓 | Noun | 2026-03-10 | 2026-04-09 | 12 | 0.4430 | 0 | 
-la fruta | fruit | 🥝🫐🍎 | Noun | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-la fuente | fountain |  | Noun | 2026-03-25 | 2026-04-10 | 1 | 2.0000 | 0 | 
-la gente | people | 🧔🏻👩🏻👩 | Noun | 2026-03-07 | 2026-03-23 | 4 | 2.0000 | -1 | 
-la gorra | cap | 🧢 | Noun | 2026-03-09 | 2026-04-04 | 16 | 0.9350 | -1 | 
-la guarnición | side dish | 🍽️ | Noun | 2026-03-12 | 2026-04-06 | 10 | 0.7980 | 0 | 
-la habitación | room |  | Noun | 2026-03-07 | 2026-03-12 | 3 | 2.3300 | -1 | 
-la hamaca | hammock |  | Noun | 2026-03-25 | 2026-04-10 | 8 | 1.0000 | 0 | 
-la hermana | sister |  | Noun | 2026-03-07 | 2026-03-12 | 3 | 2.0000 | -1 | 
-la hija | daughter |  | Noun | 2026-03-07 | 2026-03-29 | 3 | 3.0000 | -1 | 
-la historia | story |  | Noun | 2026-03-07 | 2026-03-12 | 3 | 2.0000 | -1 | 
-la historia | story/history |  | Noun | 2026-03-25 | 2026-03-27 | 2 | 2.5000 | -1 | 
-la hoja | leaf | 🍃 | Noun | 2026-03-25 | 2026-04-04 | 7 | 0.4286 | 0 | 
-la hora | hour |  | Noun | 2026-03-07 | 2026-03-09 | 1 | 3.0000 | -1 | 
-la huella | footprint / track |  | Noun | 2026-03-25 | 2026-03-29 | 4 |  | 0 | 
-la idea | idea |  | Noun | 2026-03-07 | 2026-03-16 | 2 | 3.0000 | -1 | 
-la información | information |  | Noun | 2026-03-25 | 2026-03-27 | 2 | 2.5000 | -1 | 
-la investigación | investigation |  | Noun | 2026-04-08 | 2026-04-12 | 2 | -1.0000 | -1 | 
-la justificación | justification |  | Noun | 2026-04-08 | 2026-04-09 | 2 |  | 0 | 
-la lámpara | lamp | 💡 | Noun | 2026-03-25 | 2026-03-29 | 4 | 1.7500 | -1 | 
-la lavandería | laundry room |  | Noun | 2026-03-25 | 2026-04-04 | 6 | 0.3333 | 0 | 
-la leche | milk | 🥛 | Noun | 2026-03-07 | 2026-03-12 | 4 | 2.5000 | -1 | 
-la lechuga | lettuce | 🥬 | Noun | 2026-03-13 | 2026-03-19 | 7 | 1.4300 | -1 | 
-la litera | bunk bed |  | Noun | 2026-03-25 | 2026-04-10 | 7 | 1.2160 | 0 | 
-la lluvia | rain | 🌧️ | Noun | 2026-03-10 | 2026-03-16 | 10 | 1.7000 | -1 | 
-la luz | light | 💡 | Noun | 2026-03-25 | 2026-03-27 | 1 | 3.0000 | -1 | 
-la madre | mother |  | Noun | 2026-03-07 | 2026-03-12 | 2 | 1.5000 | -1 | 
-la maleta | suitcase | 🧳 | Noun | 2026-03-07 | 2026-03-12 | 9 | 1.6700 | -1 | 
-la mañana | morning |  | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-la mano | hand | ✋ | Noun | 2026-03-20 | 2026-04-04 | 8 | 0.2500 | -1 | 
-la manta | blanket |  | Noun | 2026-03-25 | 2026-04-09 | 9 | 0.3500 | 0 | 
-la mantequilla | butter | 🧈 | Noun | 2026-03-10 | 2026-03-16 | 3 | 2.6700 | -1 | 
-la manzana | apple | 🍎 | Noun | 2026-03-07 | 2026-03-12 | 4 | 2.5000 | -1 | 
-la mariposa | butterfly | 🦋 | Noun | 2026-03-25 | 2026-04-06 | 7 | 1.4286 | 0 | 
-la masa | dough | 🥖 | Noun | 2026-03-12 | 2026-03-25 | 6 | 1.6700 | -1 | 
-la mentira | lie |  | Noun | 2026-03-25 | 2026-04-04 | 9 | 1.1111 | 0 | 
-la mesa | table | 🍽️ | Noun | 2026-03-07 | 2026-03-16 | 3 | 2.0000 | -1 | 
-la mesita | small table / nightstand |  | Noun | 2026-03-25 | 2026-04-12 | 7 | 0.4655 | 0 | 
-la mochila | backpack | 🎒 | Noun | 2026-03-09 | 2026-04-05 | 14 | 0.3529 | 0 | 
-la montaña | mountain |  | Noun | 2026-03-25 | 2026-03-27 | 2 | 2.5000 | -1 | 
-la montaña | mountain | ⛰️ | Noun | 2026-03-10 | 2026-03-16 | 2 | 3.0000 | -1 | 
-la moto | motorcycle |  | Noun | 2026-03-25 | 2026-04-01 | 3 | 0.6667 | -1 | 
-la mujer | woman | 👩🏻 | Noun | 2026-03-07 | 2026-03-13 | 2 | 3.0000 | -1 | 
-la multitud | crowd |  | Noun | 2026-03-25 | 2026-03-25 | 0 |  | 1 | 
-la música | music | 🎵 | Noun | 2026-03-25 | 2026-03-29 | 1 | 3.0000 | -1 | 
-la naranja | orange | 🍊 | Noun | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-la nariz | nose | 👃 | Noun | 2026-03-20 | 2026-04-04 | 5 | 0.8020 | -1 | 
-la noche | night | 🌙 | Noun | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-la nuez | walnut | 🌰 | Noun | 2026-03-12 | 2026-04-09 | 16 | 0.6552 | 0 | 
-la oficina (en casa) | home office |  | Noun | 2026-03-25 | 2026-03-28 | 2 | 2.5000 | -1 | 
-la oficina | office |  | Noun | 2026-03-25 | 2026-03-27 | 1 | 3.0000 | -1 | 
-la oportunidad | opportunity |  | Noun | 2026-03-25 | 2026-03-27 | 3 | 2.3300 | -1 | 
-la oreja | ear | 👂 | Noun | 2026-03-20 | 2026-04-05 | 10 | 0.8000 | 0 | 
-la página | page | 📄 | Noun | 2026-03-07 | 2026-03-17 | 7 | 2.0000 | -1 | 
-la palabra | word |  | Noun | 2026-03-07 | 2026-03-12 | 4 | 1.7500 | -1 | 
-la palabra | word |  | Noun | 2026-03-25 | 2026-03-27 | 1 | 3.0000 | -1 | 
-la papa | potato | 🥔 | Noun | 2026-03-10 | 2026-03-15 | 4 | 1.7500 | -1 | 
-la papelera | trash can | 🗑️ | Noun | 2026-03-09 | 2026-04-04 | 12 | 0.8342 | 0 | 
-la pared | wall |  | Noun | 2026-03-09 | 2026-03-29 | 5 | 2.0000 | -1 | 
-la parrilla | grill | 🔥 | Noun | 2026-03-12 | 2026-04-04 | 18 | 0.6139 | 0 | 
-la parrillada | mixed grill | 🔥 | Noun | 2026-03-12 | 2026-03-27 | 25 | -0.0800 | 0 | 
-la pasta | pasta | 🍝 | Noun | 2026-03-10 | 2026-03-14 | 3 | 2.3300 | -1 | 
-la persona | person |  | Noun | 2026-03-25 | 2026-03-29 | 2 | 2.0000 | -1 | 
-la persona | person | 👤 | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-la piedra | rock |  | Noun | 2026-03-25 | 2026-04-09 | 4 |  | 0 | 
-la pierna | leg | 🦵 | Noun | 2026-03-20 | 2026-04-03 | 5 | 0.6000 | -1 | 
-la plaza | square (town square) |  | Noun | 2026-03-25 | 2026-04-01 | 1 |  | 0 | 
-la pregunta | question |  | Noun | 2026-03-07 | 2026-03-29 | 3 | 2.6700 | -1 | 
-la pregunta | question |  | Noun | 2026-03-25 | 2026-03-28 | 1 | 3.0000 | -1 | 
-la prima | cousin (female) |  | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-la puerta | door | 🚪 | Noun | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-la raíz | root |  | Noun | 2026-03-25 | 2026-04-09 | 8 | 0.6000 | 0 | 
-la rama | branch |  | Noun | 2026-03-25 | 2026-04-10 | 8 | 0.5000 | 0 | 
-la razón | reason |  | Noun | 2026-03-14 | 2026-03-25 | 8 | 1.8800 | -1 | 
-la receta | recipe | 📜 | Noun | 2026-03-12 | 2026-03-19 | 7 | 2.1400 | -1 | 
-la reja | metal gate / bars |  | Noun | 2026-03-09 | 2026-04-12 | 16 | 0.3486 | 0 | 
-la remolacha | beet |  | Noun | 2026-03-12 | 2026-03-25 | 11 | 0.0900 | 0 | 
-la repisa | wall shelf |  | Noun | 2026-03-25 | 2026-03-29 | 5 | -0.2000 | 0 | 
-la reserva | reservation |  | Noun | 2026-03-07 | 2026-03-12 | 4 | 2.0000 | -1 | 
-la respuesta | answer |  | Noun | 2026-03-07 | 2026-03-23 | 5 | 1.8000 | -1 | 
-la reunión | meeting |  | Noun | 2026-03-25 | 2026-04-06 | 11 | 1.2727 | 0 | 
-la rodilla | knee |  | Noun | 2026-03-20 | 2026-04-04 | 4 | 0.5000 | 0 | 
-la sal | salt | 🧂 | Noun | 2026-03-07 | 2026-03-16 | 3 | 2.6700 | -1 | 
-la sala | living room | 🛋️ | Noun | 2026-03-25 | 2026-03-29 | 8 | 2.1300 | -1 | 
-la salsa | sauce | 🫗 | Noun | 2026-03-10 | 2026-03-11 | 3 | 2.3300 | -1 | 
-la sartén | frying pan | 🍳 | Noun | 2026-03-12 | 2026-03-24 | 28 | -0.0400 | 0 | 
-la semana | week |  | Noun | 2026-03-07 | 2026-03-12 | 5 | 2.4000 | -1 | 
-la señal | sign / signal |  | Noun | 2026-03-09 | 2026-04-06 | 15 | 1.3373 | -1 | 
-la silla | chair | 🪑 | Noun | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-la simplificación | simplification |  | Noun | 2026-04-08 | 2026-04-10 | 2 |  | 0 | 
-la solución | solution |  | Noun | 2026-03-07 | 2026-03-12 | 3 | 2.3300 | -1 | 
-la solución | solution |  | Noun | 2026-03-25 | 2026-03-27 | 1 | 3.0000 | -1 | 
-la sombra | shadow |  | Noun | 2026-03-25 | 2026-03-28 | 3 | 1.0000 | -1 | 
-la sonrisa | smile | 😁 | Noun | 2026-03-07 | 2026-04-04 | 12 | 1.3334 | -1 | 
-la sopa | soup | 🍲 | Noun | 2026-03-10 | 2026-03-10 | 2 | 2.5000 | -1 | 
-la tarde | afternoon |  | Noun | 2026-03-07 | 2026-03-12 | 4 | 2.2500 | -1 | 
-la tarta | pie / tart | 🥧 | Noun | 2026-03-11 | 2026-03-12 | 4 | 2.0000 | -1 | 
-la taza | mug | ☕ | Noun | 2026-03-13 | 2026-03-25 | 7 | 1.8600 | -1 | 
-la televisión | television | 📺 | Noun | 2026-03-07 | 2026-03-09 | 2 | 2.5000 | -1 | 
-la terraza | terrace |  | Noun | 2026-03-25 | 2026-03-27 | 2 | 2.5000 | -1 | 
-la tía | aunt |  | Noun | 2026-03-07 | 2026-03-29 | 4 | 2.7500 | -1 | 
-la tienda | store | 🛍️ | Noun | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-la tienda de ropa | clothing store |  | Noun | 2026-03-25 | 2026-03-27 | 4 | 2.2500 | -1 | 
-la tierra | soil |  | Noun | 2026-03-25 | 2026-03-29 | 6 | 1.8300 | -1 | 
-la torre | tower |  | Noun | 2026-03-25 | 2026-04-09 | 7 | 0.9333 | 0 | 
-la universidad | university |  | Noun | 2026-03-25 | 2026-03-27 | 1 | 3.0000 | -1 | 
-la vainilla | vanilla |  | Noun | 2026-03-11 | 2026-03-23 | 4 | 1.7500 | -1 | 
-la ventana | window |  | Noun | 2026-03-07 | 2026-03-13 | 3 | 2.6700 | -1 | 
-la verdad | truth |  | Noun | 2026-03-25 | 2026-03-28 | 2 | 2.5000 | -1 | 
-la verificación | verification |  | Noun | 2026-04-08 | 2026-04-12 | 2 | -1.0000 | -1 | 
-la vez | time (occasion) |  | Noun | 2026-03-20 | 2026-03-28 | 1 | 3.0000 | -1 | 
-la vida | life |  | Noun | 2026-03-07 | 2026-03-09 | 2 | 2.5000 | -1 | 
-la vida | life |  | Noun | 2026-03-25 | 2026-03-27 | 1 | 3.0000 | -1 | 
-la vinagreta | vinaigrette dressing |  | Noun | 2026-03-12 | 2026-03-18 | 8 | 1.3800 | -1 | 
-la vitrina | display cabinet |  | Noun | 2026-03-25 | 2026-04-12 | 7 | -0.0655 | -1 | 
-la vitrina | display case |  | Noun | 2026-03-09 | 2026-03-25 | 19 | 0.0500 | 0 | 
-la voz | voice |  | Noun | 2026-03-25 | 2026-03-28 | 5 | 1.6000 | -1 | 
-la zanahoria | carrot | 🥕 | Noun | 2026-03-11 | 2026-03-25 | 10 | 1.6000 | -1 | 
-las cortinas | curtains |  | Noun | 2026-03-25 | 2026-04-09 | 5 | 0.3500 | 0 | 
-las gafas de sol | sunglasses | 🕶️ | Noun | 2026-03-13 | 2026-04-04 | 10 | 0.3040 | 0 | 
-las hierbas | herbs | 🌿 | Noun | 2026-03-10 | 2026-03-23 | 7 | 1.2900 | -1 | 
-las manoplas | mittens | 🧤 | Noun | 2026-03-13 | 2026-04-04 | 12 | 0.5042 | 0 | 
-las verduras | vegetables | 🥕 | Noun | 2026-03-10 | 2026-03-25 | 9 | 1.2200 | -1 | 
-los auriculares | headphones | 🎧 | Noun | 2026-03-13 | 2026-03-27 | 11 | 0.2700 | 0 | 
-los guantes | gloves |  | Noun | 2026-03-13 | 2026-03-29 | 12 | 0.4200 | 0 | 
-los mariscos | seafood | 🦐 | Noun | 2026-03-10 | 2026-03-25 | 14 | 1.6400 | -1 | 
-los pantalones | pants | 👖 | Noun | 2026-03-13 | 2026-03-14 | 3 | 2.3300 | -1 | 
+el abuelo | grandfather |  | Noun | 2026-03-06 | 2026-04-03 | 6 | 1.1683 | -1 | 
+el aceite de oliva | olive oil | 🫒 | Noun | 2026-03-09 | 2026-03-18 | 8 | 1.6300 | -1 | 
+el aeropuerto | airport |  | Noun | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+el agua | water | 💧 | Noun | 2026-03-06 | 2026-03-11 | 2 | 1.5000 | -1 | 
+el ajo | garlic | 🧄 | Noun | 2026-03-09 | 2026-04-05 | 18 | 1.1111 | -1 | 
+el almuerzo | lunch | 🍽️ | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+el amigo | friend | 🧔🏻 | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+el año | year |  | Noun | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+el apartamento | apartment |  | Noun | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+el árbol | tree | 🌳 | Noun | 2026-03-24 | 2026-03-28 | 6 | 2.1700 | -1 | 
+el armario | wardrobe |  | Noun | 2026-03-24 | 2026-03-28 | 4 | -0.2500 | 1 | 
+el arroyo | stream |  | Noun | 2026-03-24 | 2026-04-09 | 6 | 0.7000 | 0 | 
+el arroz | rice | 🍚 | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+el ascensor | elevator | 🛗 | Noun | 2026-03-08 | 2026-03-28 | 12 | 1.4200 | -1 | 
+el ático | attic |  | Noun | 2026-03-24 | 2026-03-27 | 7 | 1.5700 | -1 | 
+el autobús | bus | 🚌 | Noun | 2026-03-06 | 2026-03-15 | 3 | 1.6700 | -1 | 
+el azúcar | sugar | 🍬 | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+el balcón | balcony |  | Noun | 2026-03-24 | 2026-03-27 | 3 | 2.3300 | -1 | 
+el banco | bench |  | Noun | 2026-03-08 | 2026-03-18 | 7 | 0.5700 | -1 | 
+el banco | bench |  | Noun | 2026-03-24 | 2026-04-02 | 5 | 0.6000 | -1 | 
+el baño | bathroom | 🚿 | Noun | 2026-03-24 | 2026-03-27 | 3 | 2.3300 | -1 | 
+el barrio | neighborhood |  | Noun | 2026-03-08 | 2026-03-12 | 4 | 1.7500 | -1 | 
+el barro | mud |  | Noun | 2026-03-24 | 2026-04-03 | 5 | 0.4000 | 0 | 
+el boleto, o el billete en España | ticket | 🎟️ | Noun | 2026-03-06 | 2026-04-05 | 17 | 1.3529 | 0 | 
+el bosque | forest | 🌲 | Noun | 2026-03-24 | 2026-04-08 | 7 | 0.4000 | -1 | 
+el brazo | arm | 💪 | Noun | 2026-03-19 | 2026-03-28 | 4 | 2.2500 | -1 | 
+el brazo | arms | 💪 | Noun | 2026-03-19 | 2026-03-26 | 1 | 3.0000 | -1 | 
+el buzón | mailbox | 📬 | Noun | 2026-03-08 | 2026-04-08 | 12 | 0.5753 | 0 | 
+el café | coffee | ☕ | Noun | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+el calabacín | zucchini |  | Noun | 2026-03-10 | 2026-04-03 | 18 | 0.3378 | 0 | 
+el calcetine | sock | 🧦 | Noun | 2026-03-12 | 2026-04-09 | 13 | 0.5810 | 0 | 
+el caldo | broth | 🍲 | Noun | 2026-03-11 | 2026-04-04 | 14 | 0.5686 | 0 | 
+el cambio | change |  | Noun | 2026-03-13 | 2026-03-23 | 4 | 1.0000 | -1 | 
+el cambio | change |  | Noun | 2026-03-24 | 2026-03-27 | 3 | 2.3300 | -1 | 
+el carrito | cart | 🛒 | Noun | 2026-03-08 | 2026-04-03 | 9 | 0.4489 | 0 | 
+el champiñón | mushroom | 🍄 | Noun | 2026-03-10 | 2026-03-24 | 9 | 1.5600 | -1 | 
+el cliente | client |  | Noun | 2026-03-24 | 2026-04-05 | 7 | 0.7143 | -1 | 
+el coche | car | 🚗 | Noun | 2026-03-24 | 2026-03-26 | 2 | 2.5000 | -1 | 
+el codo | elbow |  | Noun | 2026-03-19 | 2026-04-08 | 6 | 1.0000 | 0 | 
+el colchón | mattress |  | Noun | 2026-03-24 | 2026-03-28 | 9 | -0.5600 | 1 | 
+el comedor | dining room | 🍽️ | Noun | 2026-03-24 | 2026-04-05 | 7 | 0.7143 | 0 | 
+el comportamiento | behavior |  | Noun | 2026-03-16 | 2026-04-03 | 14 | 0.7857 | 0 | 
+el consejo | advice |  | Noun | 2026-03-08 | 2026-04-03 | 13 | 1.4615 | -1 | 
+el cordón | shoelace |  | Noun | 2026-03-12 | 2026-04-02 | 14 | 0.2879 | 0 | 
+el cruce | intersection |  | Noun | 2026-03-24 | 2026-04-04 | 8 | 0.6250 | 0 | 
+el cuchillo | knife | 🔪 | Noun | 2026-03-12 | 2026-03-24 | 14 | 0.5700 | 0 | 
+el desayuno | breakfast | 🍳 | Noun | 2026-03-06 | 2026-03-22 | 7 | 2.1400 | -1 | 
+el día | day | 📅 | Noun | 2026-03-06 | 2026-03-09 | 3 | 1.3300 | -1 | 
+el dinero | money | 💰 | Noun | 2026-03-06 | 2026-03-12 | 2 | 3.0000 | -1 | 
+el dormitorio | bedroom | 🛏️ | Noun | 2026-03-24 | 2026-03-27 | 4 | 1.7500 | -1 | 
+el edificio | building | 🏢 | Noun | 2026-03-08 | 2026-03-22 | 11 | 1.8200 | -1 | 
+el ejemplo | example |  | Noun | 2026-03-06 | 2026-03-22 | 6 | 1.6700 | -1 | 
+el equipo | team |  | Noun | 2026-03-24 | 2026-04-03 | 6 | 0.8317 | 0 | 
+el error | error |  | Noun | 2026-03-24 | 2026-03-26 | 2 | 1.5000 | -1 | 
+el escaparate | shop window |  | Noun | 2026-03-08 | 2026-03-22 | 9 | 0.2200 | 0 | 
+el escritorio | desk |  | Noun | 2026-03-12 | 2026-03-23 | 3 | 2.3300 | -1 | 
+el espejo | mirror |  | Noun | 2026-03-24 | 2026-04-03 | 10 | 0.8980 | 0 | 
+el estudio | study (room) |  | Noun | 2026-03-24 | 2026-03-28 | 5 | 1.8000 | -1 | 
+el éxito | success |  | Noun | 2026-03-16 | 2026-03-23 | 7 | 2.1400 | -1 | 
+el fracaso | failure |  | Noun | 2026-03-16 | 2026-04-05 | 12 | 0.4958 | 0 | 
+el fregadero | sink |  | Noun | 2026-03-24 | 2026-04-08 | 12 | 0.6376 | 0 | 
+el garaje | garage | 🚗 | Noun | 2026-03-24 | 2026-03-28 | 3 | 1.6700 | -1 | 
+el grifo | faucet |  | Noun | 2026-03-24 | 2026-03-28 | 1 | -1.0000 | 1 | 
+el grupo | group |  | Noun | 2026-03-24 | 2026-03-26 | 2 | 2.5000 | -1 | 
+el helado | ice cream | 🍨 | Noun | 2026-03-10 | 2026-03-12 | 3 | 1.6700 | -1 | 
+el hermano | brother |  | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+el hijo | son |  | Noun | 2026-03-06 | 2026-03-11 | 4 | 2.5000 | -1 | 
+el hombre | man | 🧔🏻 | Noun | 2026-03-06 | 2026-03-15 | 4 | 2.2500 | -1 | 
+el hongo | fungus (mushroom) | 🍄 | Noun | 2026-03-24 | 2026-04-11 | 14 | 0.3267 | 0 | 
+el hospital | hospital |  | Noun | 2026-03-24 | 2026-03-25 | 1 | 3.0000 | -1 | 
+el hotel | hotel |  | Noun | 2026-03-06 | 2026-03-12 | 3 | 2.6700 | -1 | 
+el huevo | egg | 🥚 | Noun | 2026-03-06 | 2026-03-24 | 12 | 1.7500 | -1 | 
+el inodoro | toilet | 🚽 | Noun | 2026-03-24 | 2026-03-24 | 0 |  | 1 | 
+el insecto | insect |  | Noun | 2026-03-24 | 2026-03-26 | 1 | 3.0000 | -1 | 
+el internet | internet |  | Noun | 2026-03-06 | 2026-03-12 | 3 | 2.6700 | -1 | 
+el jefe | boss |  | Noun | 2026-03-24 | 2026-03-26 | 1 | 3.0000 | -1 | 
+el lago | lake |  | Noun | 2026-03-24 | 2026-03-26 | 2 | 2.0000 | -1 | 
+el letrero | sign |  | Noun | 2026-03-08 | 2026-04-05 | 14 | 0.8585 | 0 | 
+el libro | book | 📚 | Noun | 2026-03-06 | 2026-03-11 | 4 | 2.2500 | -1 | 
+el limón | lemon | 🍋 | Noun | 2026-03-09 | 2026-03-15 | 3 | 2.6700 | -1 | 
+el lugar | place |  | Noun | 2026-03-19 | 2026-04-02 | 3 | 0.3333 | -1 | 
+el mapa | map | 🗺️ | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+el mejillón | mussel | 🦪 | Noun | 2026-03-11 | 2026-03-23 | 24 | 0.0400 | 0 | 
+el mercado | market | 🏪 | Noun | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+el minuto | minute |  | Noun | 2026-03-06 | 2026-03-11 | 4 | 2.5000 | -1 | 
+el monitor | monitor | 🖥️ | Noun | 2026-03-12 | 2026-03-14 | 2 | 2.5000 | -1 | 
+el mueble | piece of furniture |  | Noun | 2026-03-24 | 2026-04-08 | 9 | 0.7875 | 0 | 
+el mundo | world | 🌍 | Noun | 2026-03-06 | 2026-03-12 | 3 | 2.6700 | -1 | 
+el mundo | world | 🌍 | Noun | 2026-03-24 | 2026-03-26 | 1 | 3.0000 | -1 | 
+el nido | nest |  | Noun | 2026-03-24 | 2026-04-08 | 3 |  | 0 | 
+el niño / la niña | child |  | Noun | 2026-03-24 | 2026-03-26 | 1 | 3.0000 | -1 | 
+el nivel | level |  | Noun | 2026-03-24 | 2026-03-31 | 3 | 0.3333 | -1 | 
+el ojo | eye | 👀 | Noun | 2026-03-19 | 2026-04-11 | 4 | 2.0000 | 0 | 
+el padre | father |  | Noun | 2026-03-06 | 2026-03-28 | 4 | 2.7500 | -1 | 
+el país | country |  | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+el pájaro | bird | 🐦 | Noun | 2026-03-24 | 2026-04-09 | 9 | 0.5242 | 0 | 
+el pan | bread | 🍞 | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+el parque | park |  | Noun | 2026-03-24 | 2026-03-25 | 1 | 3.0000 | -1 | 
+el parte | part |  | Noun | 2026-03-19 | 2026-03-26 | 2 | 2.5000 | -1 | 
+el pasaporte | passport | 🪪 | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+el pasillo | hallway |  | Noun | 2026-03-08 | 2026-04-03 | 16 | 0.1906 | -1 | 
+el pasillo | hallway |  | Noun | 2026-03-24 | 2026-04-03 | 8 | 0.7500 | 0 | 
+el patio | patio / yard |  | Noun | 2026-03-24 | 2026-03-26 | 3 | 1.6700 | -1 | 
+el peatón | pedestrian |  | Noun | 2026-03-24 | 2026-04-03 | 5 | 0.4000 | 0 | 
+el pecho | chest |  | Noun | 2026-03-19 | 2026-03-28 | 3 | 1.6700 | -1 | 
+el pelo | hair | 💇 | Noun | 2026-03-19 | 2026-03-28 | 4 | 2.2500 | -1 | 
+el pepino | cucumber | 🥒 | Noun | 2026-03-10 | 2026-03-28 | 12 | 1.5800 | -1 | 
+el perchero | coat rack |  | Noun | 2026-03-24 | 2026-04-03 | 8 | 0.3750 | 0 | 
+el pescado | fish | 🐟 | Noun | 2026-03-06 | 2026-03-11 | 5 | 2.4000 | -1 | 
+el pie | foot | 🦶 | Noun | 2026-03-19 | 2026-04-11 | 7 | 0.0500 | -1 | 
+el pimiento | bell pepper | 🫑 | Noun | 2026-03-11 | 2026-03-26 | 10 | 1.7000 | -1 | 
+el plan | plan |  | Noun | 2026-03-24 | 2026-03-26 | 3 | 2.0000 | -1 | 
+el policía | police officer |  | Noun | 2026-03-24 | 2026-03-26 | 3 | 2.3300 | -1 | 
+el pollo | chicken | 🐓 | Noun | 2026-03-06 | 2026-03-09 | 3 | 2.3300 | -1 | 
+el poste | pole |  | Noun | 2026-03-08 | 2026-03-12 | 5 | 2.4000 | -1 | 
+el postre | dessert | 🍰 | Noun | 2026-03-09 | 2026-03-12 | 1 | 3.0000 | -1 | 
+el primo, o la prima | cousin |  | Noun | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+el problema | problem |  | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+el puente | bridge | 🌉 | Noun | 2026-03-08 | 2026-03-24 | 12 | 1.9200 | -1 | 
+el queso | cheese | 🧀 | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+el ratón | computer mouse | 🖱️ | Noun | 2026-03-12 | 2026-03-14 | 5 | 1.4000 | -1 | 
+el recibidor | entryway |  | Noun | 2026-03-24 | 2026-04-11 | 3 |  | 0 | 
+el reloj | watch | ⌚ | Noun | 2026-03-06 | 2026-03-28 | 8 | 1.7500 | -1 | 
+el restaurante | restaurant |  | Noun | 2026-03-06 | 2026-03-28 | 3 | 2.6700 | -1 | 
+el resultado | result |  | Noun | 2026-03-13 | 2026-04-05 | 9 | 0.7778 | 0 | 
+el río | river |  | Noun | 2026-03-24 | 2026-03-26 | 2 | 2.5000 | -1 | 
+el romero | rosemary | 🌿 | Noun | 2026-03-10 | 2026-04-03 | 17 | 0.9376 | -1 | 
+el ruido | noise |  | Noun | 2026-03-24 | 2026-04-02 | 8 | 1.1250 | 0 | 
+el segundo | second |  | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+el semáforo | traffic light | 🚦 | Noun | 2026-03-08 | 2026-03-22 | 7 | 1.1400 | -1 | 
+el sendero | path |  | Noun | 2026-03-24 | 2026-04-03 | 7 | 0.5714 | -1 | 
+el sendero | trail / path |  | Noun | 2026-03-09 | 2026-04-03 | 12 | 0.7517 | 0 | 
+el servicio | service |  | Noun | 2026-03-24 | 2026-04-03 | 7 | 1.1429 | -1 | 
+el sillón | armchair |  | Noun | 2026-03-24 | 2026-04-11 | 6 | 0.4200 | 0 | 
+el sofá | sofa | 🛋️ | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+el sofá | sofa | 🛋️ | Noun | 2026-03-24 | 2026-04-02 | 7 | 1.1429 | -1 | 
+el sonido | sound |  | Noun | 2026-03-24 | 2026-03-28 | 2 |  | 0 | 
+el sótano | basement |  | Noun | 2026-03-12 | 2026-03-24 | 13 |  | 0 | 
+el sótano | basement |  | Noun | 2026-03-24 | 2026-04-08 | 8 | 0.6990 | 0 | 
+el suelo | floor / ground |  | Noun | 2026-03-08 | 2026-04-11 | 15 | 1.3980 | 0 | 
+el suéter | sweater |  | Noun | 2026-03-12 | 2026-03-22 | 4 | 1.5000 | -1 | 
+el taburete | stool |  | Noun | 2026-03-24 | 2026-03-28 | 10 | -0.5000 | 1 | 
+el taxi | taxi | 🚕 | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+el té | tea | 🍵 | Noun | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+el techo | ceiling / roof |  | Noun | 2026-03-08 | 2026-03-08 | 1 | 1.0000 | -1 | 
+el teléfono | phone | 📱 | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+el tenedor | fork | 🍴 | Noun | 2026-03-12 | 2026-03-18 | 6 | 2.1700 | -1 | 
+el tiempo | time/weather | 🕓 | Noun | 2026-03-06 | 2026-03-11 | 4 | 2.5000 | -1 | 
+el tío | uncle |  | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+el tipo | type / kind |  | Noun | 2026-03-24 | 2026-04-02 | 6 | 1.1667 | -1 | 
+el tocador | vanity |  | Noun | 2026-03-24 | 2026-04-08 | 11 | 0.4200 | 0 | 
+el tomate | tomato | 🍅 | Noun | 2026-03-09 | 2026-03-15 | 4 | 2.5000 | -1 | 
+el trabajo | work/job |  | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+el tráfico | traffic |  | Noun | 2026-03-24 | 2026-03-27 | 1 | 3.0000 | -1 | 
+el trasero | butt |  | Noun | 2026-03-19 | 2026-04-09 | 7 | 0.3910 | 0 | 
+el trastero | storage room |  | Noun | 2026-03-24 | 2026-03-28 | 10 | -0.1000 | 0 | 
+el tren | train | 🚆 | Noun | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+el tronco | trunk |  | Noun | 2026-03-24 | 2026-04-03 | 5 | 0.4000 | 0 | 
+el uniforme | uniform | 👨‍✈️ | Noun | 2026-03-08 | 2026-03-23 | 8 | 1.6300 | -1 | 
+el vaso | drinking glass | 🥛 | Noun | 2026-03-12 | 2026-03-24 | 4 | 2.0000 | -1 | 
+el vestidor | walk-in closet |  | Noun | 2026-03-24 | 2026-04-05 | 5 | 0.4000 | 0 | 
+el viento | wind |  | Noun | 2026-03-24 | 2026-04-05 | 6 | 0.3317 | 0 | 
+el vino | wine | 🍷 | Noun | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+el zapato | shoe | 👟 | Noun | 2026-03-08 | 2026-03-28 | 8 | 2.2500 | -1 | 
+fresco, o fresca | fresh | 🥬 | Adjective | 2026-03-10 | 2026-03-22 | 3 | 2.3300 | -1 | 
+la abuela | grandmother |  | Noun | 2026-03-06 | 2026-03-08 | 3 | 2.3300 | -1 | 
+la aceituna | olive | 🫒 | Noun | 2026-03-10 | 2026-03-22 | 7 | 1.5700 | -1 | 
+la acera | sidewalk |  | Noun | 2026-03-08 | 2026-04-05 | 17 | 0.8823 | 0 | 
+la albahaca | basil | 🌿 | Noun | 2026-03-10 | 2026-03-24 | 28 |  | 0 | 
+la alcaparra | caper |  | Noun | 2026-03-11 | 2026-03-24 | 17 | 0.5300 | -1 | 
+la alfombra | rug |  | Noun | 2026-03-24 | 2026-04-05 | 8 | 1.1250 | 0 | 
+la almeja | clam | 🦪 | Noun | 2026-03-11 | 2026-03-24 | 37 | -0.1400 | 0 | 
+la almohada | pillow |  | Noun | 2026-03-24 | 2026-03-28 | 7 | -0.1400 | 0 | 
+la amiga | female friend | 👩🏻 | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+la avenida | avenue | 🛣️ | Noun | 2026-03-08 | 2026-03-09 | 3 | 1.6700 | -1 | 
+la bañera | bathtub | 🛁 | Noun | 2026-03-24 | 2026-04-11 | 10 | 1.1430 | 0 | 
+la berenjena | eggplant | 🍆 | Noun | 2026-03-11 | 2026-03-24 | 43 | -0.0700 | 0 | 
+la bicicleta | bicycle | 🚲 | Noun | 2026-03-24 | 2026-03-27 | 1 | 3.0000 | -1 | 
+la boca | mouth | 👄 | Noun | 2026-03-19 | 2026-03-28 | 3 | 2.3300 | -1 | 
+la bota | boot | 👢 | Noun | 2026-03-12 | 2026-03-22 | 4 | 1.5000 | -1 | 
+la bufanda | scarf | 🧣 | Noun | 2026-03-12 | 2026-04-05 | 17 | 0.6447 | 0 | 
+la cabeza | head | 🧠 | Noun | 2026-03-19 | 2026-04-09 | 1 |  | 0 | 
+la caja | box | 📦 | Noun | 2026-03-08 | 2026-03-27 | 9 | 1.0000 | -1 | 
+la calle | street |  | Noun | 2026-03-06 | 2026-03-11 | 4 | 2.5000 | -1 | 
+la cama | bed | 🛏️ | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+la camisa | shirt | 👕 | Noun | 2026-03-08 | 2026-03-15 | 5 | 2.0000 | -1 | 
+la canela | cinnamon |  | Noun | 2026-03-10 | 2026-04-08 | 16 | 0.4690 | 0 | 
+la cara | face | 🙂 | Noun | 2026-03-19 | 2026-03-27 | 2 | 2.5000 | -1 | 
+la carne | meat | 🥩 | Noun | 2026-03-06 | 2026-04-03 | 13 | 0.9200 | -1 | 
+la casa | house | 🏠 | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+la cascada | waterfall |  | Noun | 2026-03-24 | 2026-04-03 | 10 | 1.0990 | 0 | 
+la cebolla | onion | 🧅 | Noun | 2026-03-09 | 2026-04-03 | 15 | 0.9306 | 0 | 
+la celebración | celebration |  | Noun | 2026-04-07 | 2026-04-08 | 0 |  | 1 | 
+la cena | dinner | 🥘 | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+la cerveza | beer | 🍺 | Noun | 2026-03-06 | 2026-03-11 | 4 | 2.7500 | -1 | 
+la chaqueta | jacket | 🧥 | Noun | 2026-03-08 | 2026-03-28 | 4 | 3.0000 | -1 | 
+la ciudad | city | 🏙️ | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+la cocina | kitchen |  | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+la cocina | kitchen | 🍳 | Noun | 2026-03-24 | 2026-04-05 | 9 | 0.5556 | -1 | 
+la colina | hill |  | Noun | 2026-03-24 | 2026-03-27 | 4 | -0.2500 | 0 | 
+la combinación | combination |  | Noun | 2026-04-07 | 2026-04-11 | 2 |  | 0 | 
+la cómoda | dresser |  | Noun | 2026-03-24 | 2026-03-26 | 1 |  | 0 | 
+la computadora | computer | 💻 | Noun | 2026-03-06 | 2026-03-28 | 6 | 1.5000 | -1 | 
+la confrontación | confrontation |  | Noun | 2026-04-07 | 2026-04-11 | 4 |  | 0 | 
+la conversación | conversation |  | Noun | 2026-03-24 | 2026-03-26 | 1 | 3.0000 | -1 | 
+la corteza | crust |  | Noun | 2026-03-11 | 2026-03-24 | 23 | 0.1700 | -1 | 
+la cosa | thing |  | Noun | 2026-03-19 | 2026-04-08 | 1 | -1.0000 | -1 | 
+la cuchara | spoon | 🥄 | Noun | 2026-03-12 | 2026-04-08 | 11 | 0.4928 | 0 | 
+la cuna | crib |  | Noun | 2026-03-24 | 2026-04-09 | 4 | 1.0000 | 0 | 
+la decisión | decision |  | Noun | 2026-03-16 | 2026-03-22 | 2 | 2.5000 | -1 | 
+la despensa | pantry |  | Noun | 2026-03-24 | 2026-04-09 | 4 | 1.0000 | 0 | 
+la diferencia | difference |  | Noun | 2026-03-13 | 2026-03-22 | 7 | 2.1400 | -1 | 
+la ducha | shower | 🚿 | Noun | 2026-03-24 | 2026-04-05 | 10 | 1.0000 | -1 | 
+la elección | choice |  | Noun | 2026-03-16 | 2026-03-23 | 4 | 2.2500 | -1 | 
+la empresa | company |  | Noun | 2026-03-24 | 2026-04-02 | 4 | 0.5000 | 0 | 
+la encimera | countertop |  | Noun | 2026-03-24 | 2026-03-28 | 5 |  | 0 | 
+la ensalada | salad | 🥗 | Noun | 2026-03-06 | 2026-03-11 | 4 | 1.7500 | -1 | 
+la escalera | staircase |  | Noun | 2026-03-08 | 2026-03-15 | 8 | 1.6300 | -1 | 
+la escuela | school |  | Noun | 2026-03-24 | 2026-03-26 | 3 | 2.3300 | -1 | 
+la espalda | back |  | Noun | 2026-03-19 | 2026-04-09 | 7 | 0.2333 | 0 | 
+la esquina | corner |  | Noun | 2026-03-08 | 2026-03-22 | 8 | 1.7500 | -1 | 
+la estación | station |  | Noun | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+la estantería | shelf / bookcase |  | Noun | 2026-03-24 | 2026-03-28 | 3 |  | 0 | 
+la experiencia | experience |  | Noun | 2026-03-13 | 2026-03-14 | 2 | 2.5000 | -1 | 
+la familia | family |  | Noun | 2026-03-06 | 2026-03-11 | 4 | 2.5000 | -1 | 
+la farmacia | pharmacy |  | Noun | 2026-03-24 | 2026-03-26 | 3 | 2.3300 | -1 | 
+la farola | streetlight |  | Noun | 2026-03-08 | 2026-04-03 | 9 | 0.8889 | 0 | 
+la flor | flower | 🌸 | Noun | 2026-03-24 | 2026-04-02 | 5 | 0.8020 | -1 | 
+la forma | way (manner) |  | Noun | 2026-03-19 | 2026-04-11 | 4 | 2.0000 | 0 | 
+la frase | sentence |  | Noun | 2026-03-06 | 2026-03-24 | 10 | 1.2000 | -1 | 
+la fresa | strawberry | 🍓 | Noun | 2026-03-09 | 2026-04-08 | 12 | 0.4430 | 0 | 
+la fruta | fruit | 🥝🫐🍎 | Noun | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+la fuente | fountain |  | Noun | 2026-03-24 | 2026-04-09 | 1 | 2.0000 | 0 | 
+la gente | people | 🧔🏻👩🏻👩 | Noun | 2026-03-06 | 2026-03-22 | 4 | 2.0000 | -1 | 
+la gorra | cap | 🧢 | Noun | 2026-03-08 | 2026-04-03 | 16 | 0.9350 | -1 | 
+la guarnición | side dish | 🍽️ | Noun | 2026-03-11 | 2026-04-05 | 10 | 0.7980 | 0 | 
+la habitación | room |  | Noun | 2026-03-06 | 2026-03-11 | 3 | 2.3300 | -1 | 
+la hamaca | hammock |  | Noun | 2026-03-24 | 2026-04-09 | 8 | 1.0000 | 0 | 
+la hermana | sister |  | Noun | 2026-03-06 | 2026-03-11 | 3 | 2.0000 | -1 | 
+la hija | daughter |  | Noun | 2026-03-06 | 2026-03-28 | 3 | 3.0000 | -1 | 
+la historia | story |  | Noun | 2026-03-06 | 2026-03-11 | 3 | 2.0000 | -1 | 
+la historia | story/history |  | Noun | 2026-03-24 | 2026-03-26 | 2 | 2.5000 | -1 | 
+la hoja | leaf | 🍃 | Noun | 2026-03-24 | 2026-04-03 | 7 | 0.4286 | 0 | 
+la hora | hour |  | Noun | 2026-03-06 | 2026-03-08 | 1 | 3.0000 | -1 | 
+la huella | footprint / track |  | Noun | 2026-03-24 | 2026-03-28 | 4 |  | 0 | 
+la idea | idea |  | Noun | 2026-03-06 | 2026-03-15 | 2 | 3.0000 | -1 | 
+la información | information |  | Noun | 2026-03-24 | 2026-03-26 | 2 | 2.5000 | -1 | 
+la investigación | investigation |  | Noun | 2026-04-07 | 2026-04-11 | 2 | -1.0000 | -1 | 
+la justificación | justification |  | Noun | 2026-04-07 | 2026-04-08 | 2 |  | 0 | 
+la lámpara | lamp | 💡 | Noun | 2026-03-24 | 2026-03-28 | 4 | 1.7500 | -1 | 
+la lavandería | laundry room |  | Noun | 2026-03-24 | 2026-04-03 | 6 | 0.3333 | 0 | 
+la leche | milk | 🥛 | Noun | 2026-03-06 | 2026-03-11 | 4 | 2.5000 | -1 | 
+la lechuga | lettuce | 🥬 | Noun | 2026-03-12 | 2026-03-18 | 7 | 1.4300 | -1 | 
+la litera | bunk bed |  | Noun | 2026-03-24 | 2026-04-09 | 7 | 1.2160 | 0 | 
+la lluvia | rain | 🌧️ | Noun | 2026-03-09 | 2026-03-15 | 10 | 1.7000 | -1 | 
+la luz | light | 💡 | Noun | 2026-03-24 | 2026-03-26 | 1 | 3.0000 | -1 | 
+la madre | mother |  | Noun | 2026-03-06 | 2026-03-11 | 2 | 1.5000 | -1 | 
+la maleta | suitcase | 🧳 | Noun | 2026-03-06 | 2026-03-11 | 9 | 1.6700 | -1 | 
+la mañana | morning |  | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+la mano | hand | ✋ | Noun | 2026-03-19 | 2026-04-03 | 8 | 0.2500 | -1 | 
+la manta | blanket |  | Noun | 2026-03-24 | 2026-04-08 | 9 | 0.3500 | 0 | 
+la mantequilla | butter | 🧈 | Noun | 2026-03-09 | 2026-03-15 | 3 | 2.6700 | -1 | 
+la manzana | apple | 🍎 | Noun | 2026-03-06 | 2026-03-11 | 4 | 2.5000 | -1 | 
+la mariposa | butterfly | 🦋 | Noun | 2026-03-24 | 2026-04-05 | 7 | 1.4286 | 0 | 
+la masa | dough | 🥖 | Noun | 2026-03-11 | 2026-03-24 | 6 | 1.6700 | -1 | 
+la mentira | lie |  | Noun | 2026-03-24 | 2026-04-03 | 9 | 1.1111 | 0 | 
+la mesa | table | 🍽️ | Noun | 2026-03-06 | 2026-03-15 | 3 | 2.0000 | -1 | 
+la mesita | small table / nightstand |  | Noun | 2026-03-24 | 2026-04-11 | 7 | 0.4655 | 0 | 
+la mochila | backpack | 🎒 | Noun | 2026-03-08 | 2026-04-04 | 14 | 0.3529 | 0 | 
+la montaña | mountain |  | Noun | 2026-03-24 | 2026-03-26 | 2 | 2.5000 | -1 | 
+la montaña | mountain | ⛰️ | Noun | 2026-03-09 | 2026-03-15 | 2 | 3.0000 | -1 | 
+la moto | motorcycle |  | Noun | 2026-03-24 | 2026-03-31 | 3 | 0.6667 | -1 | 
+la mujer | woman | 👩🏻 | Noun | 2026-03-06 | 2026-03-12 | 2 | 3.0000 | -1 | 
+la multitud | crowd |  | Noun | 2026-03-24 | 2026-03-24 | 0 |  | 1 | 
+la música | music | 🎵 | Noun | 2026-03-24 | 2026-03-28 | 1 | 3.0000 | -1 | 
+la naranja | orange | 🍊 | Noun | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+la nariz | nose | 👃 | Noun | 2026-03-19 | 2026-04-03 | 5 | 0.8020 | -1 | 
+la noche | night | 🌙 | Noun | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+la nuez | walnut | 🌰 | Noun | 2026-03-11 | 2026-04-08 | 16 | 0.6552 | 0 | 
+la oficina (en casa) | home office |  | Noun | 2026-03-24 | 2026-03-27 | 2 | 2.5000 | -1 | 
+la oficina | office |  | Noun | 2026-03-24 | 2026-03-26 | 1 | 3.0000 | -1 | 
+la oportunidad | opportunity |  | Noun | 2026-03-24 | 2026-03-26 | 3 | 2.3300 | -1 | 
+la oreja | ear | 👂 | Noun | 2026-03-19 | 2026-04-04 | 10 | 0.8000 | 0 | 
+la página | page | 📄 | Noun | 2026-03-06 | 2026-03-16 | 7 | 2.0000 | -1 | 
+la palabra | word |  | Noun | 2026-03-06 | 2026-03-11 | 4 | 1.7500 | -1 | 
+la palabra | word |  | Noun | 2026-03-24 | 2026-03-26 | 1 | 3.0000 | -1 | 
+la papa | potato | 🥔 | Noun | 2026-03-09 | 2026-03-14 | 4 | 1.7500 | -1 | 
+la papelera | trash can | 🗑️ | Noun | 2026-03-08 | 2026-04-03 | 12 | 0.8342 | 0 | 
+la pared | wall |  | Noun | 2026-03-08 | 2026-03-28 | 5 | 2.0000 | -1 | 
+la parrilla | grill | 🔥 | Noun | 2026-03-11 | 2026-04-03 | 18 | 0.6139 | 0 | 
+la parrillada | mixed grill | 🔥 | Noun | 2026-03-11 | 2026-03-26 | 25 | -0.0800 | 0 | 
+la pasta | pasta | 🍝 | Noun | 2026-03-09 | 2026-03-13 | 3 | 2.3300 | -1 | 
+la persona | person |  | Noun | 2026-03-24 | 2026-03-28 | 2 | 2.0000 | -1 | 
+la persona | person | 👤 | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+la piedra | rock |  | Noun | 2026-03-24 | 2026-04-08 | 4 |  | 0 | 
+la pierna | leg | 🦵 | Noun | 2026-03-19 | 2026-04-02 | 5 | 0.6000 | -1 | 
+la plaza | square (town square) |  | Noun | 2026-03-24 | 2026-03-31 | 1 |  | 0 | 
+la pregunta | question |  | Noun | 2026-03-06 | 2026-03-28 | 3 | 2.6700 | -1 | 
+la pregunta | question |  | Noun | 2026-03-24 | 2026-03-27 | 1 | 3.0000 | -1 | 
+la prima | cousin (female) |  | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+la puerta | door | 🚪 | Noun | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+la raíz | root |  | Noun | 2026-03-24 | 2026-04-08 | 8 | 0.6000 | 0 | 
+la rama | branch |  | Noun | 2026-03-24 | 2026-04-09 | 8 | 0.5000 | 0 | 
+la razón | reason |  | Noun | 2026-03-13 | 2026-03-24 | 8 | 1.8800 | -1 | 
+la receta | recipe | 📜 | Noun | 2026-03-11 | 2026-03-18 | 7 | 2.1400 | -1 | 
+la reja | metal gate / bars |  | Noun | 2026-03-08 | 2026-04-11 | 16 | 0.3486 | 0 | 
+la remolacha | beet |  | Noun | 2026-03-11 | 2026-03-24 | 11 | 0.0900 | 0 | 
+la repisa | wall shelf |  | Noun | 2026-03-24 | 2026-03-28 | 5 | -0.2000 | 0 | 
+la reserva | reservation |  | Noun | 2026-03-06 | 2026-03-11 | 4 | 2.0000 | -1 | 
+la respuesta | answer |  | Noun | 2026-03-06 | 2026-03-22 | 5 | 1.8000 | -1 | 
+la reunión | meeting |  | Noun | 2026-03-24 | 2026-04-05 | 11 | 1.2727 | 0 | 
+la rodilla | knee |  | Noun | 2026-03-19 | 2026-04-03 | 4 | 0.5000 | 0 | 
+la sal | salt | 🧂 | Noun | 2026-03-06 | 2026-03-15 | 3 | 2.6700 | -1 | 
+la sala | living room | 🛋️ | Noun | 2026-03-24 | 2026-03-28 | 8 | 2.1300 | -1 | 
+la salsa | sauce | 🫗 | Noun | 2026-03-09 | 2026-03-10 | 3 | 2.3300 | -1 | 
+la sartén | frying pan | 🍳 | Noun | 2026-03-11 | 2026-03-23 | 28 | -0.0400 | 0 | 
+la semana | week |  | Noun | 2026-03-06 | 2026-03-11 | 5 | 2.4000 | -1 | 
+la señal | sign / signal |  | Noun | 2026-03-08 | 2026-04-05 | 15 | 1.3373 | -1 | 
+la silla | chair | 🪑 | Noun | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+la simplificación | simplification |  | Noun | 2026-04-07 | 2026-04-09 | 2 |  | 0 | 
+la solución | solution |  | Noun | 2026-03-06 | 2026-03-11 | 3 | 2.3300 | -1 | 
+la solución | solution |  | Noun | 2026-03-24 | 2026-03-26 | 1 | 3.0000 | -1 | 
+la sombra | shadow |  | Noun | 2026-03-24 | 2026-03-27 | 3 | 1.0000 | -1 | 
+la sonrisa | smile | 😁 | Noun | 2026-03-06 | 2026-04-03 | 12 | 1.3334 | -1 | 
+la sopa | soup | 🍲 | Noun | 2026-03-09 | 2026-03-09 | 2 | 2.5000 | -1 | 
+la tarde | afternoon |  | Noun | 2026-03-06 | 2026-03-11 | 4 | 2.2500 | -1 | 
+la tarta | pie / tart | 🥧 | Noun | 2026-03-10 | 2026-03-11 | 4 | 2.0000 | -1 | 
+la taza | mug | ☕ | Noun | 2026-03-12 | 2026-03-24 | 7 | 1.8600 | -1 | 
+la televisión | television | 📺 | Noun | 2026-03-06 | 2026-03-08 | 2 | 2.5000 | -1 | 
+la terraza | terrace |  | Noun | 2026-03-24 | 2026-03-26 | 2 | 2.5000 | -1 | 
+la tía | aunt |  | Noun | 2026-03-06 | 2026-03-28 | 4 | 2.7500 | -1 | 
+la tienda | store | 🛍️ | Noun | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+la tienda de ropa | clothing store |  | Noun | 2026-03-24 | 2026-03-26 | 4 | 2.2500 | -1 | 
+la tierra | soil |  | Noun | 2026-03-24 | 2026-03-28 | 6 | 1.8300 | -1 | 
+la torre | tower |  | Noun | 2026-03-24 | 2026-04-08 | 7 | 0.9333 | 0 | 
+la universidad | university |  | Noun | 2026-03-24 | 2026-03-26 | 1 | 3.0000 | -1 | 
+la vainilla | vanilla |  | Noun | 2026-03-10 | 2026-03-22 | 4 | 1.7500 | -1 | 
+la ventana | window |  | Noun | 2026-03-06 | 2026-03-12 | 3 | 2.6700 | -1 | 
+la verdad | truth |  | Noun | 2026-03-24 | 2026-03-27 | 2 | 2.5000 | -1 | 
+la verificación | verification |  | Noun | 2026-04-07 | 2026-04-11 | 2 | -1.0000 | -1 | 
+la vez | time (occasion) |  | Noun | 2026-03-19 | 2026-03-27 | 1 | 3.0000 | -1 | 
+la vida | life |  | Noun | 2026-03-06 | 2026-03-08 | 2 | 2.5000 | -1 | 
+la vida | life |  | Noun | 2026-03-24 | 2026-03-26 | 1 | 3.0000 | -1 | 
+la vinagreta | vinaigrette dressing |  | Noun | 2026-03-11 | 2026-03-17 | 8 | 1.3800 | -1 | 
+la vitrina | display cabinet |  | Noun | 2026-03-24 | 2026-04-11 | 7 | -0.0655 | -1 | 
+la vitrina | display case |  | Noun | 2026-03-08 | 2026-03-24 | 19 | 0.0500 | 0 | 
+la voz | voice |  | Noun | 2026-03-24 | 2026-03-27 | 5 | 1.6000 | -1 | 
+la zanahoria | carrot | 🥕 | Noun | 2026-03-10 | 2026-03-24 | 10 | 1.6000 | -1 | 
+las cortinas | curtains |  | Noun | 2026-03-24 | 2026-04-08 | 5 | 0.3500 | 0 | 
+las gafas de sol | sunglasses | 🕶️ | Noun | 2026-03-12 | 2026-04-03 | 10 | 0.3040 | 0 | 
+las hierbas | herbs | 🌿 | Noun | 2026-03-09 | 2026-03-22 | 7 | 1.2900 | -1 | 
+las manoplas | mittens | 🧤 | Noun | 2026-03-12 | 2026-04-03 | 12 | 0.5042 | 0 | 
+las verduras | vegetables | 🥕 | Noun | 2026-03-09 | 2026-03-24 | 9 | 1.2200 | -1 | 
+los auriculares | headphones | 🎧 | Noun | 2026-03-12 | 2026-03-26 | 11 | 0.2700 | 0 | 
+los guantes | gloves |  | Noun | 2026-03-12 | 2026-03-28 | 12 | 0.4200 | 0 | 
+los mariscos | seafood | 🦐 | Noun | 2026-03-09 | 2026-03-24 | 14 | 1.6400 | -1 | 
+los pantalones | pants | 👖 | Noun | 2026-03-12 | 2026-03-13 | 3 | 2.3300 | -1 | 
 
 # >>> Adjective
-abierto | open |  | Adjective | 2026-03-07 | 2026-03-09 | 1 | 3.0000 | -1 | 
-aburrido, o aburrida | boring | 🥱 | Adjective | 2026-03-07 | 2026-03-11 | 9 | 1.4400 | -1 | 
-ahumado, o ahumada | smoked |  | Adjective | 2026-03-12 | 2026-03-25 | 12 | 0.9200 | -1 | 
-amarillo, o amarilla | yellow | 🟡 | Adjective | 2026-03-07 | 2026-03-24 | 12 | 0.7500 | -1 | 
-animado, o animada | lively / busy |  | Adjective | 2026-03-09 | 2026-04-04 | 12 | 1.1700 | -1 | 
-arriesgado, o arriesgada | risky |  | Adjective | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-asado, o asada | roasted / grilled | 🔥 | Adjective | 2026-03-10 | 2026-03-23 | 10 | 1.4000 | -1 | 
-azul | blue | 🔵 | Adjective | 2026-03-07 | 2026-03-29 | 6 | 1.6700 | -1 | 
-barato, o barata | cheap |  | Adjective | 2026-03-07 | 2026-03-13 | 6 | 2.1700 | -1 | 
-blanco, o blanca | white | ⚪ | Adjective | 2026-03-07 | 2026-03-13 | 3 | 2.6700 | -1 | 
-bonito, o bonita | pretty |  | Adjective | 2026-03-07 | 2026-03-13 | 3 | 2.3300 | -1 | 
-bueno, o buena | good |  | Adjective | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-cansado | tired | 🫩 | Adjective | 2026-03-07 | 2026-03-16 | 2 | 3.0000 | -1 | 
-capaz | capable |  | Adjective | 2026-03-14 | 2026-03-24 | 4 | 1.7500 | -1 | 
-caramelizado, o caramelizada | caramelized |  | Adjective | 2026-03-12 | 2026-03-24 | 4 | 2.2500 | -1 | 
-caro, o cara | expensive |  | Adjective | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-cerrado | closed |  | Adjective | 2026-03-07 | 2026-03-12 | 4 | 1.5000 | -1 | 
-claro | clear / of course |  | Adjective | 2026-03-07 | 2026-03-13 | 6 | 2.3300 | -1 | 
-común | common |  | Adjective | 2026-03-17 | 2026-03-23 | 3 | 2.3300 | -1 | 
-cremoso, o cremosa | creamy |  | Adjective | 2026-03-11 | 2026-03-24 | 9 | 0.8900 | -1 | 
-crujiente | crunchy |  | Adjective | 2026-03-11 | 2026-04-04 | 20 | 0.0475 | 0 | 
-débil | weak |  | Adjective | 2026-03-07 | 2026-03-29 | 3 | 2.6700 | -1 | 
-diferente | different |  | Adjective | 2026-03-07 | 2026-03-12 | 4 | 2.5000 | -1 | 
-difícil | difficult |  | Adjective | 2026-03-07 | 2026-03-14 | 2 | 1.5000 | -1 | 
-difícil | difficult |  | Adjective | 2026-03-17 | 2026-03-23 | 2 | 2.5000 | -1 | 
-dulce | sweet | 🍯 | Adjective | 2026-03-10 | 2026-03-15 | 5 | 2.2000 | -1 | 
-emocionado, o emocionada | excited |  | Adjective | 2026-03-09 | 2026-03-13 | 4 | 2.2500 | -1 | 
-enfermo, o enferma | sick | 🤢 | Adjective | 2026-03-07 | 2026-03-13 | 6 | 2.3300 | -1 | 
-especial | special |  | Adjective | 2026-03-17 | 2026-03-23 | 3 | 2.3300 | -1 | 
-estofado, o estofada | stewed / braised | 🍲 | Adjective | 2026-03-10 | 2026-04-05 | 17 | 0.3529 | 0 | 
-extra | extra / spare |  | Adjective | 2026-03-09 | 2026-03-16 | 3 | 3.0000 | -1 | 
-fácil | easy |  | Adjective | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-fácil | easy |  | Adjective | 2026-03-17 | 2026-03-23 | 3 | 2.3300 | -1 | 
-feliz | happy |  | Adjective | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-feo, o fea | ugly |  | Adjective | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-frito, o frita | fried | 🍳 | Adjective | 2026-03-10 | 2026-03-23 | 9 | 1.7800 | -1 | 
-fuerte | strong | 💪 | Adjective | 2026-03-07 | 2026-03-14 | 8 | 2.2500 | -1 | 
-grande | big |  | Adjective | 2026-03-07 | 2026-03-12 | 2 | 1.5000 | -1 | 
-gris | grey | 🔘 | Adjective | 2026-03-07 | 2026-03-10 | 4 | 2.2500 | -1 | 
-horneado, o horneada | baked | 🔥 | Adjective | 2026-03-10 | 2026-04-04 | 13 | 0.6177 | 0 | 
-igual | equal |  | Adjective | 2026-03-07 | 2026-03-16 | 10 | 1.3000 | -1 | 
-importante | important |  | Adjective | 2026-03-07 | 2026-03-12 | 5 | 2.0000 | -1 | 
-interesante | interesting |  | Adjective | 2026-03-07 | 2026-03-12 | 5 | 1.8000 | -1 | 
-lento, o lenta | slow |  | Adjective | 2026-03-07 | 2026-03-29 | 9 | 1.6700 | -1 | 
-libre | free |  | Adjective | 2026-03-07 | 2026-03-09 | 1 | 3.0000 | -1 | 
-limpio, o limpia | clean |  | Adjective | 2026-03-07 | 2026-03-13 | 5 | 2.4000 | -1 | 
-listo, o lista | ready |  | Adjective | 2026-03-07 | 2026-03-29 | 4 | 2.2500 | -1 | 
-lleno, o llena | full |  | Adjective | 2026-03-07 | 2026-03-16 | 7 | 1.8600 | -1 | 
-malo, o mala | bad |  | Adjective | 2026-03-07 | 2026-03-16 | 3 | 2.0000 | -1 | 
-marinado, o marinada | marinated |  | Adjective | 2026-03-12 | 2026-03-16 | 2 | 2.5000 | -1 | 
-mismo, o misma | same |  | Adjective | 2026-03-14 | 2026-03-23 | 7 | 2.0000 | -1 | 
-morado, o morada | purple | 🟣 | Adjective | 2026-03-07 | 2026-03-09 | 7 | 1.4300 | -1 | 
-naranjo, o naranja | orange | 🟠 | Adjective | 2026-03-07 | 2026-03-29 | 7 | 1.5700 | -1 | 
-necesario, o necesaria | necessary |  | Adjective | 2026-03-07 | 2026-03-16 | 4 | 2.2500 | -1 | 
-negro, o negra | black | ⚫ | Adjective | 2026-03-07 | 2026-03-29 | 6 | 1.8300 | -1 | 
-ningún | no / not any (before noun) |  | Adjective | 2026-04-03 | 2026-04-12 | 2 |  | 0 | 
-nublado, o nublada | cloudy | ☁️ | Adjective | 2026-03-10 | 2026-03-25 | 8 | 2.0000 | -1 | 
-nuevo, o nueva | new |  | Adjective | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-ocupado, o ocupada | busy |  | Adjective | 2026-03-07 | 2026-03-24 | 9 | 2.1100 | -1 | 
-pequeño, o pequeña | small |  | Adjective | 2026-03-07 | 2026-03-12 | 2 | 1.5000 | -1 | 
-picado, o picada | chopped | 🔪 | Adjective | 2026-03-12 | 2026-03-25 | 11 | 1.1800 | -1 | 
-picante | spicy | 🌶️ | Adjective | 2026-03-10 | 2026-03-15 | 10 | 1.9000 | -1 | 
-posible | possible |  | Adjective | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-posible | possible |  | Adjective | 2026-03-17 | 2026-03-19 | 1 | 3.0000 | -1 | 
-previsto, o prevista | planned / expected |  | Adjective | 2026-04-03 | 2026-04-10 | 3 | 0.9800 | 0 | 
-probable | probable / likely |  | Adjective | 2026-03-17 | 2026-03-23 | 4 | 2.2500 | -1 | 
-rápido, o rápida | fast |  | Adjective | 2026-03-07 | 2026-03-11 | 7 | 2.1400 | -1 | 
-reducido, o reducida | reduced (sauce) |  | Adjective | 2026-03-12 | 2026-03-25 | 6 | 1.5000 | -1 | 
-relleno, o rellena | stuffed | 🥟 | Adjective | 2026-03-12 | 2026-03-23 | 3 | 2.3300 | -1 | 
-rojo, o roja | red | 🔴 | Adjective | 2026-03-07 | 2026-03-29 | 9 | 1.5600 | -1 | 
-salado, o salada | salty / savory | 🧂 | Adjective | 2026-03-10 | 2026-03-23 | 8 | 1.8800 | -1 | 
-salteado, o salteada | sautéed | 🍳 | Adjective | 2026-03-11 | 2026-03-25 | 10 | 1.5000 | -1 | 
-sano, o sana | healthy | 🌱 | Adjective | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-seguro | sure |  | Adjective | 2026-03-07 | 2026-03-25 | 15 | 1.5300 | -1 | 
-sucio, o sucia | dirty |  | Adjective | 2026-03-07 | 2026-03-23 | 9 | 1.8900 | -1 | 
-suficiente | enough / sufficient |  | Adjective | 2026-03-14 | 2026-03-25 | 7 | 2.1400 | -1 | 
-tierno, o tierna | tender |  | Adjective | 2026-03-10 | 2026-03-27 | 13 | 0.3100 | 0 | 
-triste | sad |  | Adjective | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-vacío, o vacía | empty |  | Adjective | 2026-03-07 | 2026-04-04 | 12 | 1.1633 | -1 | 
-verde | green | 🟢 | Adjective | 2026-03-07 | 2026-03-16 | 4 | 2.0000 | -1 | 
-viejo, o vieja | old |  | Adjective | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
+abierto | open |  | Adjective | 2026-03-06 | 2026-03-08 | 1 | 3.0000 | -1 | 
+aburrido, o aburrida | boring | 🥱 | Adjective | 2026-03-06 | 2026-03-10 | 9 | 1.4400 | -1 | 
+ahumado, o ahumada | smoked |  | Adjective | 2026-03-11 | 2026-03-24 | 12 | 0.9200 | -1 | 
+amarillo, o amarilla | yellow | 🟡 | Adjective | 2026-03-06 | 2026-03-23 | 12 | 0.7500 | -1 | 
+animado, o animada | lively / busy |  | Adjective | 2026-03-08 | 2026-04-03 | 12 | 1.1700 | -1 | 
+arriesgado, o arriesgada | risky |  | Adjective | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+asado, o asada | roasted / grilled | 🔥 | Adjective | 2026-03-09 | 2026-03-22 | 10 | 1.4000 | -1 | 
+azul | blue | 🔵 | Adjective | 2026-03-06 | 2026-03-28 | 6 | 1.6700 | -1 | 
+barato, o barata | cheap |  | Adjective | 2026-03-06 | 2026-03-12 | 6 | 2.1700 | -1 | 
+blanco, o blanca | white | ⚪ | Adjective | 2026-03-06 | 2026-03-12 | 3 | 2.6700 | -1 | 
+bonito, o bonita | pretty |  | Adjective | 2026-03-06 | 2026-03-12 | 3 | 2.3300 | -1 | 
+bueno, o buena | good |  | Adjective | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+cansado | tired | 🫩 | Adjective | 2026-03-06 | 2026-03-15 | 2 | 3.0000 | -1 | 
+capaz | capable |  | Adjective | 2026-03-13 | 2026-03-23 | 4 | 1.7500 | -1 | 
+caramelizado, o caramelizada | caramelized |  | Adjective | 2026-03-11 | 2026-03-23 | 4 | 2.2500 | -1 | 
+caro, o cara | expensive |  | Adjective | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+cerrado | closed |  | Adjective | 2026-03-06 | 2026-03-11 | 4 | 1.5000 | -1 | 
+claro | clear / of course |  | Adjective | 2026-03-06 | 2026-03-12 | 6 | 2.3300 | -1 | 
+común | common |  | Adjective | 2026-03-16 | 2026-03-22 | 3 | 2.3300 | -1 | 
+cremoso, o cremosa | creamy |  | Adjective | 2026-03-10 | 2026-03-23 | 9 | 0.8900 | -1 | 
+crujiente | crunchy |  | Adjective | 2026-03-10 | 2026-04-03 | 20 | 0.0475 | 0 | 
+débil | weak |  | Adjective | 2026-03-06 | 2026-03-28 | 3 | 2.6700 | -1 | 
+diferente | different |  | Adjective | 2026-03-06 | 2026-03-11 | 4 | 2.5000 | -1 | 
+difícil | difficult |  | Adjective | 2026-03-06 | 2026-03-13 | 2 | 1.5000 | -1 | 
+difícil | difficult |  | Adjective | 2026-03-16 | 2026-03-22 | 2 | 2.5000 | -1 | 
+dulce | sweet | 🍯 | Adjective | 2026-03-09 | 2026-03-14 | 5 | 2.2000 | -1 | 
+emocionado, o emocionada | excited |  | Adjective | 2026-03-08 | 2026-03-12 | 4 | 2.2500 | -1 | 
+enfermo, o enferma | sick | 🤢 | Adjective | 2026-03-06 | 2026-03-12 | 6 | 2.3300 | -1 | 
+especial | special |  | Adjective | 2026-03-16 | 2026-03-22 | 3 | 2.3300 | -1 | 
+estofado, o estofada | stewed / braised | 🍲 | Adjective | 2026-03-09 | 2026-04-04 | 17 | 0.3529 | 0 | 
+extra | extra / spare |  | Adjective | 2026-03-08 | 2026-03-15 | 3 | 3.0000 | -1 | 
+fácil | easy |  | Adjective | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+fácil | easy |  | Adjective | 2026-03-16 | 2026-03-22 | 3 | 2.3300 | -1 | 
+feliz | happy |  | Adjective | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+feo, o fea | ugly |  | Adjective | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+frito, o frita | fried | 🍳 | Adjective | 2026-03-09 | 2026-03-22 | 9 | 1.7800 | -1 | 
+fuerte | strong | 💪 | Adjective | 2026-03-06 | 2026-03-13 | 8 | 2.2500 | -1 | 
+grande | big |  | Adjective | 2026-03-06 | 2026-03-11 | 2 | 1.5000 | -1 | 
+gris | grey | 🔘 | Adjective | 2026-03-06 | 2026-03-09 | 4 | 2.2500 | -1 | 
+horneado, o horneada | baked | 🔥 | Adjective | 2026-03-09 | 2026-04-03 | 13 | 0.6177 | 0 | 
+igual | equal |  | Adjective | 2026-03-06 | 2026-03-15 | 10 | 1.3000 | -1 | 
+importante | important |  | Adjective | 2026-03-06 | 2026-03-11 | 5 | 2.0000 | -1 | 
+interesante | interesting |  | Adjective | 2026-03-06 | 2026-03-11 | 5 | 1.8000 | -1 | 
+lento, o lenta | slow |  | Adjective | 2026-03-06 | 2026-03-28 | 9 | 1.6700 | -1 | 
+libre | free |  | Adjective | 2026-03-06 | 2026-03-08 | 1 | 3.0000 | -1 | 
+limpio, o limpia | clean |  | Adjective | 2026-03-06 | 2026-03-12 | 5 | 2.4000 | -1 | 
+listo, o lista | ready |  | Adjective | 2026-03-06 | 2026-03-28 | 4 | 2.2500 | -1 | 
+lleno, o llena | full |  | Adjective | 2026-03-06 | 2026-03-15 | 7 | 1.8600 | -1 | 
+malo, o mala | bad |  | Adjective | 2026-03-06 | 2026-03-15 | 3 | 2.0000 | -1 | 
+marinado, o marinada | marinated |  | Adjective | 2026-03-11 | 2026-03-15 | 2 | 2.5000 | -1 | 
+mismo, o misma | same |  | Adjective | 2026-03-13 | 2026-03-22 | 7 | 2.0000 | -1 | 
+morado, o morada | purple | 🟣 | Adjective | 2026-03-06 | 2026-03-08 | 7 | 1.4300 | -1 | 
+naranjo, o naranja | orange | 🟠 | Adjective | 2026-03-06 | 2026-03-28 | 7 | 1.5700 | -1 | 
+necesario, o necesaria | necessary |  | Adjective | 2026-03-06 | 2026-03-15 | 4 | 2.2500 | -1 | 
+negro, o negra | black | ⚫ | Adjective | 2026-03-06 | 2026-03-28 | 6 | 1.8300 | -1 | 
+ningún | no / not any (before noun) |  | Adjective | 2026-04-02 | 2026-04-11 | 2 |  | 0 | 
+nublado, o nublada | cloudy | ☁️ | Adjective | 2026-03-09 | 2026-03-24 | 8 | 2.0000 | -1 | 
+nuevo, o nueva | new |  | Adjective | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+ocupado, o ocupada | busy |  | Adjective | 2026-03-06 | 2026-03-23 | 9 | 2.1100 | -1 | 
+pequeño, o pequeña | small |  | Adjective | 2026-03-06 | 2026-03-11 | 2 | 1.5000 | -1 | 
+picado, o picada | chopped | 🔪 | Adjective | 2026-03-11 | 2026-03-24 | 11 | 1.1800 | -1 | 
+picante | spicy | 🌶️ | Adjective | 2026-03-09 | 2026-03-14 | 10 | 1.9000 | -1 | 
+posible | possible |  | Adjective | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+posible | possible |  | Adjective | 2026-03-16 | 2026-03-18 | 1 | 3.0000 | -1 | 
+previsto, o prevista | planned / expected |  | Adjective | 2026-04-02 | 2026-04-09 | 3 | 0.9800 | 0 | 
+probable | probable / likely |  | Adjective | 2026-03-16 | 2026-03-22 | 4 | 2.2500 | -1 | 
+rápido, o rápida | fast |  | Adjective | 2026-03-06 | 2026-03-10 | 7 | 2.1400 | -1 | 
+reducido, o reducida | reduced (sauce) |  | Adjective | 2026-03-11 | 2026-03-24 | 6 | 1.5000 | -1 | 
+relleno, o rellena | stuffed | 🥟 | Adjective | 2026-03-11 | 2026-03-22 | 3 | 2.3300 | -1 | 
+rojo, o roja | red | 🔴 | Adjective | 2026-03-06 | 2026-03-28 | 9 | 1.5600 | -1 | 
+salado, o salada | salty / savory | 🧂 | Adjective | 2026-03-09 | 2026-03-22 | 8 | 1.8800 | -1 | 
+salteado, o salteada | sautéed | 🍳 | Adjective | 2026-03-10 | 2026-03-24 | 10 | 1.5000 | -1 | 
+sano, o sana | healthy | 🌱 | Adjective | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+seguro | sure |  | Adjective | 2026-03-06 | 2026-03-24 | 15 | 1.5300 | -1 | 
+sucio, o sucia | dirty |  | Adjective | 2026-03-06 | 2026-03-22 | 9 | 1.8900 | -1 | 
+suficiente | enough / sufficient |  | Adjective | 2026-03-13 | 2026-03-24 | 7 | 2.1400 | -1 | 
+tierno, o tierna | tender |  | Adjective | 2026-03-09 | 2026-03-26 | 13 | 0.3100 | 0 | 
+triste | sad |  | Adjective | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+vacío, o vacía | empty |  | Adjective | 2026-03-06 | 2026-04-03 | 12 | 1.1633 | -1 | 
+verde | green | 🟢 | Adjective | 2026-03-06 | 2026-03-15 | 4 | 2.0000 | -1 | 
+viejo, o vieja | old |  | Adjective | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
 
 # >>> Verbs
-abrir | to open |  | Verb | 2026-03-07 | 2026-03-14 | 3 | 2.6700 | -1 | 
-abrirse | to open (itself) |  | Verb | 2026-03-25 | 2026-04-12 | 10 | 0.7000 | 0 | 
-acabar | to finish / end |  | Verb | 2026-03-25 | 2026-03-29 | 9 | 0.8900 | 0 | 
-aceptar | to accept | ✅ | Verb | 2026-03-12 | 2026-03-23 | 5 | 1.8000 | -1 | 
-acompañar | to accompany | 👥 | Verb | 2026-03-12 | 2026-03-23 | 6 | 1.6700 | -1 | 
-aconsejar | to advise |  | Verb | 2026-04-07 | 2026-04-10 | 2 | 1.7000 | 0 | 
-acordar | to agree / decide |  | Verb | 2026-03-12 | 2026-03-27 | 13 | 0.8500 | 0 | 
-acordarse | to remember (reflexive) |  | Verb | 2026-03-25 | 2026-04-10 | 9 | 0.5600 | 0 | 
-acostarse | to go to bed |  | Verb | 2026-03-25 | 2026-04-09 | 8 | 0.4990 | 0 | 
-adivinar | to guess | 🤔 | Verb | 2026-03-12 | 2026-04-06 | 16 | 0.3088 | 0 | 
-afectar | to affect |  | Verb | 2026-03-12 | 2026-03-23 | 9 | 1.3300 | -1 | 
-agregar | to add | ➕ | Verb | 2026-03-12 | 2026-03-24 | 7 | 1.8600 | -1 | 
-ahorrar | to save (money/time) |  | Verb | 2026-04-07 | 2026-04-12 | 3 | 2.0000 | 0 | 
-alcanzar | to reach |  | Verb | 2026-03-12 | 2026-04-04 | 14 | 0.6443 | 0 | 
-alquilar | to rent |  | Verb | 2026-04-07 | 2026-04-10 | 3 | 0.9100 | 0 | 
-añadir | to add |  | Verb | 2026-04-07 | 2026-04-12 | 2 |  | 0 | 
-anunciar | to announce | 📢 | Verb | 2026-03-12 | 2026-03-25 | 5 | 0.8000 | -1 | 
-apagar | to turn off |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-apoyar | to support |  | Verb | 2026-03-12 | 2026-04-09 | 18 | 0.1260 | 0 | 
-aprender | to learn |  | Verb | 2026-03-07 | 2026-03-12 | 4 | 2.5000 | -1 | 
-arreglar | to fix / repair | 🔧 | Verb | 2026-03-12 | 2026-03-24 | 6 | 1.5000 | -1 | 
-asignar | to assign |  | Verb | 2026-04-03 | 2026-04-09 | 1 | 1.0000 | 0 | 
-atender | to attend / assist | 🧑 | Verb | 2026-03-12 | 2026-04-10 | 17 | 1.2580 | 0 | 
-atravesar | to go through / to cross |  | Verb | 2026-04-03 | 2026-04-12 | 4 | 0.4900 | 0 | 
-aumentar | to increase |  | Verb | 2026-04-07 | 2026-04-12 | 3 | 1.4000 | 0 | 
-avanzar | to advance | ⏩ | Verb | 2026-03-12 | 2026-04-04 | 17 | 0.4706 | 0 | 
-averiguar | to find out |  | Verb | 2026-04-07 | 2026-04-09 | 1 | 2.0000 | 0 | 
-ayudar | to help |  | Verb | 2026-03-25 | 2026-03-27 | 2 | 2.5000 | -1 | 
-bailar | to dance |  | Verb | 2026-04-07 | 2026-04-09 | 1 | -1.0000 | -1 | 
-bajar | to go down / lower | ⬇️ | Verb | 2026-03-12 | 2026-03-28 | 8 | 1.3800 | -1 | 
-bajar | to go down |  | Verb | 2026-03-25 | 2026-04-06 | 8 | 0.7500 | 0 | 
-beber | to drink |  | Verb | 2026-04-07 | 2026-04-12 | 2 |  | 0 | 
-besar | to kiss |  | Verb | 2026-04-07 | 2026-04-09 | 2 | -1.0000 | -1 | 
-borrar | to delete / erase |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-buscar | to look for |  | Verb | 2026-03-07 | 2026-03-29 | 5 | 2.4000 | -1 | 
-caber | to fit |  | Verb | 2026-04-07 | 2026-04-09 | 4 | 0.6860 | 0 | 
-caer | to fall |  | Verb | 2026-03-25 | 2026-04-10 | 5 |  | 0 | 
-caer | to fall |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-calentar | to heat | 🔥 | Verb | 2026-03-12 | 2026-03-29 | 19 | 0.0500 | 0 | 
-callar | to be quiet |  | Verb | 2026-03-25 | 2026-04-06 | 6 | 0.6667 | 0 | 
-cambiar | to change |  | Verb | 2026-03-07 | 2026-03-16 | 6 | 1.6700 | -1 | 
-cambiar | to change |  | Verb | 2026-03-09 | 2026-03-29 | 4 | 2.0000 | -1 | 
-caminar | to walk | 🚶 | Verb | 2026-03-12 | 2026-03-15 | 1 | 3.0000 | -1 | 
-cancelar | to cancel | ❌ | Verb | 2026-03-12 | 2026-03-15 | 3 | 2.3300 | -1 | 
-cantar | to sing |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-celebrar | to celebrate |  | Verb | 2026-04-07 | 2026-04-09 | 1 | -1.0000 | -1 | 
-cenar | to have dinner |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-cerrar | to close |  | Verb | 2026-03-07 | 2026-03-13 | 2 | 3.0000 | -1 | 
-cocinar | to cook |  | Verb | 2026-03-25 | 2026-04-10 | 1 | -1.0000 | -1 | 
-cocinar | to cook |  | Verb | 2026-04-07 | 2026-04-10 | 3 | -1.0000 | -1 | 
-cocinar | to cook | 👨‍🍳 | Verb | 2026-03-12 | 2026-03-14 | 4 | 2.2500 | -1 | 
-colocar | to place / put |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-comprar | to buy |  | Verb | 2026-03-07 | 2026-03-12 | 5 | 2.0000 | -1 | 
-comprar | to buy |  | Verb | 2026-04-07 | 2026-04-09 | 1 | -1.0000 | -1 | 
-comprender | to understand |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-comprobar | to check / verify | ✔️ | Verb | 2026-03-12 | 2026-03-28 | 15 | 0.2700 | 0 | 
-conducir | to drive | 🚗 | Verb | 2026-03-12 | 2026-03-16 | 7 | 1.1400 | -1 | 
-confiar | to trust |  | Verb | 2026-03-12 | 2026-04-10 | 22 | 0.4340 | 0 | 
-congelar | to freeze | ❄️ | Verb | 2026-03-12 | 2026-04-06 | 16 | 0.9975 | 0 | 
-conocer | to know (a person/place) |  | Verb | 2026-03-07 | 2026-03-12 | 8 | 1.5000 | -1 | 
-considerar | to consider |  | Verb | 2026-03-12 | 2026-03-23 | 8 | 1.8800 | -1 | 
-contener | to contain | 📦 | Verb | 2026-03-12 | 2026-03-23 | 7 | 1.8600 | -1 | 
-contestar | to answer / reply |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-continuar | to continue (formal or after a break) | ▶️ | Verb | 2026-03-12 | 2026-04-05 | 14 | 1.2886 | 0 | 
-contribuir | to contribute |  | Verb | 2026-03-12 | 2026-03-25 | 6 | 1.8300 | -1 | 
-controlar | to control |  | Verb | 2026-03-12 | 2026-03-23 | 8 | 1.2500 | -1 | 
-convencer | to convince | 🗣️ | Verb | 2026-03-12 | 2026-03-24 | 10 | 1.0000 | -1 | 
-correr | to run |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-cortar | to cut |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-cortar | to cut | 🔪 | Verb | 2026-03-12 | 2026-03-24 | 8 | 1.2500 | -1 | 
-crear | to create | 🎨 | Verb | 2026-03-12 | 2026-03-15 | 7 | 1.0000 | -1 | 
-creer | to believe |  | Verb | 2026-03-07 | 2026-03-12 | 9 | 0.6700 | -1 | 
-cruzar | to cross |  | Verb | 2026-03-12 | 2026-04-04 | 13 | 0.3877 | 0 | 
-cruzar | to cross |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-cuidar (de) | to take care (of) | ❤️ | Verb | 2026-03-12 | 2026-03-25 | 9 | 2.1100 | -1 | 
-cumplir | to fulfill / accomplish |  | Verb | 2026-03-17 | 2026-04-12 | 15 | 0.4868 | 0 | 
-deber | must / to owe |  | Verb | 2026-03-12 | 2026-03-25 | 9 | 1.7800 | -1 | 
-dejar | to leave / allow |  | Verb | 2026-03-12 | 2026-03-29 | 14 |  | 0 | 
-demostrar | to demonstrate | 📊 | Verb | 2026-03-12 | 2026-03-25 | 2 | 2.5000 | -1 | 
-depender (de) | to depend (on) |  | Verb | 2026-03-17 | 2026-03-25 | 7 | 1.8600 | -1 | 
-desarrollar | to develop |  | Verb | 2026-03-12 | 2026-04-04 | 11 | 0.4545 | 0 | 
-describir | to describe |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-descubrir | to discover | 🔎 | Verb | 2026-03-12 | 2026-04-04 | 10 | 0.8000 | 0 | 
-desear | to wish / desire |  | Verb | 2026-03-12 | 2026-03-25 | 5 | 2.0000 | -1 | 
-desplegar | to deploy / to unfold |  | Verb | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-detener | to stop / detain | ✋ | Verb | 2026-03-12 | 2026-04-05 | 13 | 1.1539 | -1 | 
-devolver | to return (an item) |  | Verb | 2026-03-10 | 2026-04-04 | 11 | 1.4564 | 0 | 
-dibujar | to draw |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-discutir | to discuss / argue | 💬 | Verb | 2026-03-12 | 2026-03-25 | 12 | 1.5000 | -1 | 
-disfrutar | to enjoy |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-disfrutar | to enjoy | 😊 | Verb | 2026-03-10 | 2026-04-03 | 11 | 1.4555 | -1 | 
-dividir | to divide | ➗ | Verb | 2026-03-12 | 2026-03-16 | 7 | 1.8600 | -1 | 
-doblar | to fold / turn |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-ducharse | to shower |  | Verb | 2026-03-25 | 2026-03-27 | 2 | 2.0000 | -1 | 
-echar | to throw / to put (colloquial) |  | Verb | 2026-04-07 | 2026-04-12 | 3 | 0.9800 | 0 | 
-empeorar | to get worse |  | Verb | 2026-03-07 | 2026-03-25 | 8 | 2.2500 | -1 | 
-empezar | to start |  | Verb | 2026-03-07 | 2026-03-24 | 14 | 1.4300 | -1 | 
-empujar | to push |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-encontrar | to find |  | Verb | 2026-03-07 | 2026-03-25 | 13 | 1.6200 | -1 | 
-enseñar | to teach |  | Verb | 2026-03-07 | 2026-03-13 | 6 | 2.3300 | -1 | 
-ensuciar | to dirty |  | Verb | 2026-03-25 | 2026-04-09 | 7 | 0.2345 | 0 | 
-entender | to understand |  | Verb | 2026-03-07 | 2026-03-16 | 7 | 2.1400 | -1 | 
-entrar | to enter |  | Verb | 2026-03-07 | 2026-03-29 | 9 | 1.2200 | -1 | 
-entrar | to enter |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-entregar | to deliver / hand in |  | Verb | 2026-04-07 | 2026-04-09 | 4 | 1.4000 | 0 | 
-escribir | to write |  | Verb | 2026-03-07 | 2026-03-14 | 6 | 1.5000 | -1 | 
-escribir | to write |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-escuchar | to listen |  | Verb | 2026-03-07 | 2026-04-03 | 13 | 0.3846 | -1 | 
-escuchar | to listen |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-esperar | to wait / hope |  | Verb | 2026-04-07 | 2026-04-09 | 2 |  | 0 | 
-esquiar | to ski |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-estacionar | to park |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-estudiar | to study |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-evitar | to avoid |  | Verb | 2026-03-14 | 2026-04-06 | 11 | 0.8182 | 0 | 
-explicar | to explain |  | Verb | 2026-03-07 | 2026-03-12 | 5 | 1.8000 | -1 | 
-felicitar | to congratulate |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-firmar | to sign |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-funcionar | to function / work |  | Verb | 2026-03-17 | 2026-03-23 | 4 | 2.2500 | -1 | 
-ganar | to win / earn |  | Verb | 2026-03-07 | 2026-03-12 | 3 | 1.6700 | -1 | 
-gastar | to spend (money) |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-girar | to turn / to rotate |  | Verb | 2026-04-03 | 2026-04-12 | 3 | 1.4000 | 0 | 
-grabar | to record |  | Verb | 2026-04-07 | 2026-04-12 | 2 | 1.4000 | 0 | 
-gritar | to shout |  | Verb | 2026-03-25 | 2026-04-04 | 11 | 0.6345 | -1 | 
-guisar | to stew / braise |  | Verb | 2026-03-12 | 2026-04-04 | 18 | 0.3378 | 0 | 
-incluir | to include |  | Verb | 2026-03-14 | 2026-03-17 | 4 | 2.2500 | -1 | 
-intentar | to try (to do something) |  | Verb | 2026-03-07 | 2026-03-29 | 6 | 2.1700 | -1 | 
-interrumpir | to interrupt |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-invitar | to invite |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-leer | to read |  | Verb | 2026-03-07 | 2026-03-29 | 7 | 1.4300 | -1 | 
-levantarse | to get up |  | Verb | 2026-03-25 | 2026-04-06 | 9 | 0.2222 | 0 | 
-limpiar | to clean |  | Verb | 2026-03-25 | 2026-03-27 | 2 | 2.5000 | -1 | 
-llamar | to call |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-llegar | to arrive |  | Verb | 2026-04-07 | 2026-04-12 | 3 | 1.4000 | 0 | 
-llenar | to fill |  | Verb | 2026-03-25 | 2026-03-29 | 3 | 2.3300 | -1 | 
-llevar | to carry / take |  | Verb | 2026-04-07 | 2026-04-12 | 5 | 1.1060 | 0 | 
-llorar | to cry |  | Verb | 2026-03-25 | 2026-04-03 | 5 | 0.6000 | -1 | 
-llorar | to cry |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-lograr | to achieve |  | Verb | 2026-03-14 | 2026-04-12 | 17 | 0.8767 | 0 | 
-mandar | to send / to order |  | Verb | 2026-04-07 | 2026-04-11 | 1 |  | 0 | 
-manejar | to drive |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-mantener | to maintain |  | Verb | 2026-03-14 | 2026-03-25 | 3 | 2.3300 | -1 | 
-marcar | to mark / dial |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-mejorar | to improve |  | Verb | 2026-03-07 | 2026-04-10 | 17 | 0.9626 | 0 | 
-meter | to put / insert |  | Verb | 2026-04-07 | 2026-04-11 | 1 | 2.0000 | 0 | 
-mirar | to look |  | Verb | 2026-03-07 | 2026-03-25 | 13 | 1.3100 | -1 | 
-mirar | to look at |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-montar | to set up / to assemble / to get on |  | Verb | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-mostrar | to show |  | Verb | 2026-03-07 | 2026-03-09 | 8 | 2.0000 | -1 | 
-mover | to move (something) |  | Verb | 2026-03-09 | 2026-03-25 | 9 | 1.6700 | -1 | 
-moverse | to move (oneself) |  | Verb | 2026-03-25 | 2026-04-10 | 2 |  | 0 | 
-nadar | to swim |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-necesitar | to need |  | Verb | 2026-03-07 | 2026-03-16 | 8 | 2.1300 | -1 | 
-necesitar | to need |  | Verb | 2026-04-07 | 2026-04-11 | 2 |  | 0 | 
-ocupar | to occupy / take up |  | Verb | 2026-03-17 | 2026-03-23 | 5 | 2.2000 | -1 | 
-ocurrir | to happen / occur |  | Verb | 2026-03-09 | 2026-04-04 | 6 | 0.5000 | 0 | 
-ocurrir | to occur / happen |  | Verb | 2026-04-07 | 2026-04-10 | 2 |  | 0 | 
-oír | to hear |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-olvidar | to forget |  | Verb | 2026-03-07 | 2026-03-13 | 5 | 2.4000 | -1 | 
-olvidar | to forget |  | Verb | 2026-03-14 | 2026-03-23 | 4 | 2.2500 | -1 | 
-pagar | to pay |  | Verb | 2026-03-07 | 2026-03-23 | 7 | 1.8600 | -1 | 
-pagar | to pay |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-parar | to stop |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-pasar | to pass / happen |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-patinar | to skate |  | Verb | 2026-04-07 | 2026-04-09 | 2 |  | 0 | 
-perder | to lose |  | Verb | 2026-03-07 | 2026-03-13 | 4 | 2.5000 | -1 | 
-pertenecer (a) | to belong (to) |  | Verb | 2026-03-17 | 2026-04-10 | 16 | 1.3267 | 0 | 
-pintar | to paint |  | Verb | 2026-04-07 | 2026-04-09 | 2 |  | 0 | 
-poner | to put |  | Verb | 2026-03-20 | 2026-03-27 | 2 | 2.5000 | -1 | 
-ponerse | to put on |  | Verb | 2026-03-25 | 2026-04-05 | 8 | 0.7500 | 0 | 
-practicar | to practice |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-preguntar | to ask |  | Verb | 2026-03-07 | 2026-03-12 | 7 | 2.2900 | -1 | 
-prender | to turn on / light |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-preparar | to prepare |  | Verb | 2026-03-09 | 2026-03-16 | 4 | 2.7500 | -1 | 
-preparar | to prepare |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-presentar | to present |  | Verb | 2026-04-07 | 2026-04-09 | 1 |  | 0 | 
-probar | to try (test) |  | Verb | 2026-03-25 | 2026-03-28 | 3 | 2.3300 | -1 | 
-quedarse | to stay |  | Verb | 2026-03-07 | 2026-03-09 | 9 | 1.2200 | -1 | 
-quitar | to remove / take away |  | Verb | 2026-03-25 | 2026-04-10 | 9 | 0.7000 | 0 | 
-quitar | to remove |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-recibir | to receive |  | Verb | 2026-04-07 | 2026-04-12 | 3 |  | 0 | 
-recordar | to remember |  | Verb | 2026-03-07 | 2026-03-25 | 12 | 1.9200 | -1 | 
-recordar | to remember |  | Verb | 2026-03-14 | 2026-03-16 | 4 | 2.2500 | -1 | 
-regresar | to return (long journey) | 🔙 | Verb | 2026-03-10 | 2026-03-24 | 14 | 1.6400 | -1 | 
-regresar | to return |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-reír | to laugh |  | Verb | 2026-03-25 | 2026-04-03 | 4 | 0.7475 | -1 | 
-repasar | to review |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-responder | to answer |  | Verb | 2026-03-07 | 2026-03-23 | 8 | 2.1300 | -1 | 
-resultar | to turn out |  | Verb | 2026-03-09 | 2026-03-25 | 10 | 1.5000 | -1 | 
-romper | to break |  | Verb | 2026-03-25 | 2026-04-06 | 9 | 1.0000 | 0 | 
-saber | to know (a fact) |  | Verb | 2026-03-07 | 2026-03-23 | 11 | 1.7300 | -1 | 
-sacar | to take out |  | Verb | 2026-04-07 | 2026-04-12 | 4 | 2.0000 | 0 | 
-salir | to leave / to go out |  | Verb | 2026-03-07 | 2026-03-13 | 5 | 2.2000 | -1 | 
-saludar | to greet |  | Verb | 2026-04-07 | 2026-04-10 | 5 | 0.9002 | 0 | 
-seguir | to continue (to carry on) |  | Verb | 2026-03-09 | 2026-04-06 | 14 | 0.4964 | 0 | 
-sentarse | to sit down |  | Verb | 2026-03-25 | 2026-04-04 | 5 | 0.4000 | 0 | 
-servir | to serve |  | Verb | 2026-03-25 | 2026-04-04 | 5 | 1.0000 | -1 | 
-sonreír | to smile |  | Verb | 2026-03-25 | 2026-03-27 | 3 | 2.3300 | -1 | 
-sonreír | to smile | 😁 | Verb | 2026-03-07 | 2026-03-09 | 1 | 3.0000 | -1 | 
-subir | to go up / upload |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-subir | to go up |  | Verb | 2026-03-25 | 2026-04-10 | 11 | 0.3266 | 0 | 
-sufrir | to suffer |  | Verb | 2026-04-07 | 2026-04-12 | 2 |  | 0 | 
-superar | to overcome |  | Verb | 2026-03-17 | 2026-04-06 | 16 | 1.5600 | 0 | 
-tardar | to take (time) |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-terminar | to finish |  | Verb | 2026-03-07 | 2026-03-29 | 9 | 1.8900 | -1 | 
-terminar | to finish |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-tirar | to throw |  | Verb | 2026-04-07 | 2026-04-10 | 5 | 1.6401 | 0 | 
-tocar | to touch / play (instrument) |  | Verb | 2026-03-25 | 2026-04-01 | 3 | 0.3333 | -1 | 
-tocar | to touch / play (instrument) |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-tomar | to take / drink |  | Verb | 2026-04-07 | 2026-04-12 | 3 |  | 0 | 
-toser | to cough |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-trabajar | to work |  | Verb | 2026-03-07 | 2026-03-09 | 1 | 3.0000 | -1 | 
-trabajar | to work |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-traer | to bring |  | Verb | 2026-03-25 | 2026-04-04 | 7 | 0.7143 | -1 | 
-tratar (de) | to try (to) |  | Verb | 2026-03-17 | 2026-03-25 | 9 | 1.8900 | -1 | 
-trotar | to jog |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-usar | to use |  | Verb | 2026-03-07 | 2026-03-12 | 4 | 1.5000 | -1 | 
-usar | to use |  | Verb | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-valer | to be worth |  | Verb | 2026-04-07 | 2026-04-09 | 1 |  | 0 | 
-vender | to sell |  | Verb | 2026-03-07 | 2026-03-13 | 7 | 2.1400 | -1 | 
-vender | to sell |  | Verb | 2026-04-07 | 2026-04-09 | 1 |  | 0 | 
-ver | to see |  | Verb | 2026-03-07 | 2026-03-16 | 4 | 2.2500 | -1 | 
-vestirse | to get dressed |  | Verb | 2026-03-25 | 2026-04-04 | 7 | 0.5714 | 0 | 
-viajar | to travel |  | Verb | 2026-03-07 | 2026-03-11 | 6 | 1.8300 | -1 | 
-viajar | to travel |  | Verb | 2026-04-07 | 2026-04-09 | 1 |  | 0 | 
-vivir | to live |  | Verb | 2026-03-07 | 2026-03-14 | 5 | 1.8000 | -1 | 
-volver | to return / to do again |  | Verb | 2026-03-07 | 2026-04-06 | 12 | 0.8333 | 0 | 
+abrir | to open |  | Verb | 2026-03-06 | 2026-03-13 | 3 | 2.6700 | -1 | 
+abrirse | to open (itself) |  | Verb | 2026-03-24 | 2026-04-11 | 10 | 0.7000 | 0 | 
+acabar | to finish / end |  | Verb | 2026-03-24 | 2026-03-28 | 9 | 0.8900 | 0 | 
+aceptar | to accept | ✅ | Verb | 2026-03-11 | 2026-03-22 | 5 | 1.8000 | -1 | 
+acompañar | to accompany | 👥 | Verb | 2026-03-11 | 2026-03-22 | 6 | 1.6700 | -1 | 
+aconsejar | to advise |  | Verb | 2026-04-06 | 2026-04-09 | 2 | 1.7000 | 0 | 
+acordar | to agree / decide |  | Verb | 2026-03-11 | 2026-03-26 | 13 | 0.8500 | 0 | 
+acordarse | to remember (reflexive) |  | Verb | 2026-03-24 | 2026-04-09 | 9 | 0.5600 | 0 | 
+acostarse | to go to bed |  | Verb | 2026-03-24 | 2026-04-08 | 8 | 0.4990 | 0 | 
+adivinar | to guess | 🤔 | Verb | 2026-03-11 | 2026-04-05 | 16 | 0.3088 | 0 | 
+afectar | to affect |  | Verb | 2026-03-11 | 2026-03-22 | 9 | 1.3300 | -1 | 
+agregar | to add | ➕ | Verb | 2026-03-11 | 2026-03-23 | 7 | 1.8600 | -1 | 
+ahorrar | to save (money/time) |  | Verb | 2026-04-06 | 2026-04-11 | 3 | 2.0000 | 0 | 
+alcanzar | to reach |  | Verb | 2026-03-11 | 2026-04-03 | 14 | 0.6443 | 0 | 
+alquilar | to rent |  | Verb | 2026-04-06 | 2026-04-09 | 3 | 0.9100 | 0 | 
+añadir | to add |  | Verb | 2026-04-06 | 2026-04-11 | 2 |  | 0 | 
+anunciar | to announce | 📢 | Verb | 2026-03-11 | 2026-03-24 | 5 | 0.8000 | -1 | 
+apagar | to turn off |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+apoyar | to support |  | Verb | 2026-03-11 | 2026-04-08 | 18 | 0.1260 | 0 | 
+aprender | to learn |  | Verb | 2026-03-06 | 2026-03-11 | 4 | 2.5000 | -1 | 
+arreglar | to fix / repair | 🔧 | Verb | 2026-03-11 | 2026-03-23 | 6 | 1.5000 | -1 | 
+asignar | to assign |  | Verb | 2026-04-02 | 2026-04-08 | 1 | 1.0000 | 0 | 
+atender | to attend / assist | 🧑 | Verb | 2026-03-11 | 2026-04-09 | 17 | 1.2580 | 0 | 
+atravesar | to go through / to cross |  | Verb | 2026-04-02 | 2026-04-11 | 4 | 0.4900 | 0 | 
+aumentar | to increase |  | Verb | 2026-04-06 | 2026-04-11 | 3 | 1.4000 | 0 | 
+avanzar | to advance | ⏩ | Verb | 2026-03-11 | 2026-04-03 | 17 | 0.4706 | 0 | 
+averiguar | to find out |  | Verb | 2026-04-06 | 2026-04-08 | 1 | 2.0000 | 0 | 
+ayudar | to help |  | Verb | 2026-03-24 | 2026-03-26 | 2 | 2.5000 | -1 | 
+bailar | to dance |  | Verb | 2026-04-06 | 2026-04-08 | 1 | -1.0000 | -1 | 
+bajar | to go down / lower | ⬇️ | Verb | 2026-03-11 | 2026-03-27 | 8 | 1.3800 | -1 | 
+bajar | to go down |  | Verb | 2026-03-24 | 2026-04-05 | 8 | 0.7500 | 0 | 
+beber | to drink |  | Verb | 2026-04-06 | 2026-04-11 | 2 |  | 0 | 
+besar | to kiss |  | Verb | 2026-04-06 | 2026-04-08 | 2 | -1.0000 | -1 | 
+borrar | to delete / erase |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+buscar | to look for |  | Verb | 2026-03-06 | 2026-03-28 | 5 | 2.4000 | -1 | 
+caber | to fit |  | Verb | 2026-04-06 | 2026-04-08 | 4 | 0.6860 | 0 | 
+caer | to fall |  | Verb | 2026-03-24 | 2026-04-09 | 5 |  | 0 | 
+caer | to fall |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+calentar | to heat | 🔥 | Verb | 2026-03-11 | 2026-03-28 | 19 | 0.0500 | 0 | 
+callar | to be quiet |  | Verb | 2026-03-24 | 2026-04-05 | 6 | 0.6667 | 0 | 
+cambiar | to change |  | Verb | 2026-03-06 | 2026-03-15 | 6 | 1.6700 | -1 | 
+cambiar | to change |  | Verb | 2026-03-08 | 2026-03-28 | 4 | 2.0000 | -1 | 
+caminar | to walk | 🚶 | Verb | 2026-03-11 | 2026-03-14 | 1 | 3.0000 | -1 | 
+cancelar | to cancel | ❌ | Verb | 2026-03-11 | 2026-03-14 | 3 | 2.3300 | -1 | 
+cantar | to sing |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+celebrar | to celebrate |  | Verb | 2026-04-06 | 2026-04-08 | 1 | -1.0000 | -1 | 
+cenar | to have dinner |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+cerrar | to close |  | Verb | 2026-03-06 | 2026-03-12 | 2 | 3.0000 | -1 | 
+cocinar | to cook |  | Verb | 2026-03-24 | 2026-04-09 | 1 | -1.0000 | -1 | 
+cocinar | to cook |  | Verb | 2026-04-06 | 2026-04-09 | 3 | -1.0000 | -1 | 
+cocinar | to cook | 👨‍🍳 | Verb | 2026-03-11 | 2026-03-13 | 4 | 2.2500 | -1 | 
+colocar | to place / put |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+comprar | to buy |  | Verb | 2026-03-06 | 2026-03-11 | 5 | 2.0000 | -1 | 
+comprar | to buy |  | Verb | 2026-04-06 | 2026-04-08 | 1 | -1.0000 | -1 | 
+comprender | to understand |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+comprobar | to check / verify | ✔️ | Verb | 2026-03-11 | 2026-03-27 | 15 | 0.2700 | 0 | 
+conducir | to drive | 🚗 | Verb | 2026-03-11 | 2026-03-15 | 7 | 1.1400 | -1 | 
+confiar | to trust |  | Verb | 2026-03-11 | 2026-04-09 | 22 | 0.4340 | 0 | 
+congelar | to freeze | ❄️ | Verb | 2026-03-11 | 2026-04-05 | 16 | 0.9975 | 0 | 
+conocer | to know (a person/place) |  | Verb | 2026-03-06 | 2026-03-11 | 8 | 1.5000 | -1 | 
+considerar | to consider |  | Verb | 2026-03-11 | 2026-03-22 | 8 | 1.8800 | -1 | 
+contener | to contain | 📦 | Verb | 2026-03-11 | 2026-03-22 | 7 | 1.8600 | -1 | 
+contestar | to answer / reply |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+continuar | to continue (formal or after a break) | ▶️ | Verb | 2026-03-11 | 2026-04-04 | 14 | 1.2886 | 0 | 
+contribuir | to contribute |  | Verb | 2026-03-11 | 2026-03-24 | 6 | 1.8300 | -1 | 
+controlar | to control |  | Verb | 2026-03-11 | 2026-03-22 | 8 | 1.2500 | -1 | 
+convencer | to convince | 🗣️ | Verb | 2026-03-11 | 2026-03-23 | 10 | 1.0000 | -1 | 
+correr | to run |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+cortar | to cut |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+cortar | to cut | 🔪 | Verb | 2026-03-11 | 2026-03-23 | 8 | 1.2500 | -1 | 
+crear | to create | 🎨 | Verb | 2026-03-11 | 2026-03-14 | 7 | 1.0000 | -1 | 
+creer | to believe |  | Verb | 2026-03-06 | 2026-03-11 | 9 | 0.6700 | -1 | 
+cruzar | to cross |  | Verb | 2026-03-11 | 2026-04-03 | 13 | 0.3877 | 0 | 
+cruzar | to cross |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+cuidar (de) | to take care (of) | ❤️ | Verb | 2026-03-11 | 2026-03-24 | 9 | 2.1100 | -1 | 
+cumplir | to fulfill / accomplish |  | Verb | 2026-03-16 | 2026-04-11 | 15 | 0.4868 | 0 | 
+deber | must / to owe |  | Verb | 2026-03-11 | 2026-03-24 | 9 | 1.7800 | -1 | 
+dejar | to leave / allow |  | Verb | 2026-03-11 | 2026-03-28 | 14 |  | 0 | 
+demostrar | to demonstrate | 📊 | Verb | 2026-03-11 | 2026-03-24 | 2 | 2.5000 | -1 | 
+depender (de) | to depend (on) |  | Verb | 2026-03-16 | 2026-03-24 | 7 | 1.8600 | -1 | 
+desarrollar | to develop |  | Verb | 2026-03-11 | 2026-04-03 | 11 | 0.4545 | 0 | 
+describir | to describe |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+descubrir | to discover | 🔎 | Verb | 2026-03-11 | 2026-04-03 | 10 | 0.8000 | 0 | 
+desear | to wish / desire |  | Verb | 2026-03-11 | 2026-03-24 | 5 | 2.0000 | -1 | 
+desplegar | to deploy / to unfold |  | Verb | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+detener | to stop / detain | ✋ | Verb | 2026-03-11 | 2026-04-04 | 13 | 1.1539 | -1 | 
+devolver | to return (an item) |  | Verb | 2026-03-09 | 2026-04-03 | 11 | 1.4564 | 0 | 
+dibujar | to draw |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+discutir | to discuss / argue | 💬 | Verb | 2026-03-11 | 2026-03-24 | 12 | 1.5000 | -1 | 
+disfrutar | to enjoy |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+disfrutar | to enjoy | 😊 | Verb | 2026-03-09 | 2026-04-02 | 11 | 1.4555 | -1 | 
+dividir | to divide | ➗ | Verb | 2026-03-11 | 2026-03-15 | 7 | 1.8600 | -1 | 
+doblar | to fold / turn |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+ducharse | to shower |  | Verb | 2026-03-24 | 2026-03-26 | 2 | 2.0000 | -1 | 
+echar | to throw / to put (colloquial) |  | Verb | 2026-04-06 | 2026-04-11 | 3 | 0.9800 | 0 | 
+empeorar | to get worse |  | Verb | 2026-03-06 | 2026-03-24 | 8 | 2.2500 | -1 | 
+empezar | to start |  | Verb | 2026-03-06 | 2026-03-23 | 14 | 1.4300 | -1 | 
+empujar | to push |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+encontrar | to find |  | Verb | 2026-03-06 | 2026-03-24 | 13 | 1.6200 | -1 | 
+enseñar | to teach |  | Verb | 2026-03-06 | 2026-03-12 | 6 | 2.3300 | -1 | 
+ensuciar | to dirty |  | Verb | 2026-03-24 | 2026-04-08 | 7 | 0.2345 | 0 | 
+entender | to understand |  | Verb | 2026-03-06 | 2026-03-15 | 7 | 2.1400 | -1 | 
+entrar | to enter |  | Verb | 2026-03-06 | 2026-03-28 | 9 | 1.2200 | -1 | 
+entrar | to enter |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+entregar | to deliver / hand in |  | Verb | 2026-04-06 | 2026-04-08 | 4 | 1.4000 | 0 | 
+escribir | to write |  | Verb | 2026-03-06 | 2026-03-13 | 6 | 1.5000 | -1 | 
+escribir | to write |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+escuchar | to listen |  | Verb | 2026-03-06 | 2026-04-02 | 13 | 0.3846 | -1 | 
+escuchar | to listen |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+esperar | to wait / hope |  | Verb | 2026-04-06 | 2026-04-08 | 2 |  | 0 | 
+esquiar | to ski |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+estacionar | to park |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+estudiar | to study |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+evitar | to avoid |  | Verb | 2026-03-13 | 2026-04-05 | 11 | 0.8182 | 0 | 
+explicar | to explain |  | Verb | 2026-03-06 | 2026-03-11 | 5 | 1.8000 | -1 | 
+felicitar | to congratulate |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+firmar | to sign |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+funcionar | to function / work |  | Verb | 2026-03-16 | 2026-03-22 | 4 | 2.2500 | -1 | 
+ganar | to win / earn |  | Verb | 2026-03-06 | 2026-03-11 | 3 | 1.6700 | -1 | 
+gastar | to spend (money) |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+girar | to turn / to rotate |  | Verb | 2026-04-02 | 2026-04-11 | 3 | 1.4000 | 0 | 
+grabar | to record |  | Verb | 2026-04-06 | 2026-04-11 | 2 | 1.4000 | 0 | 
+gritar | to shout |  | Verb | 2026-03-24 | 2026-04-03 | 11 | 0.6345 | -1 | 
+guisar | to stew / braise |  | Verb | 2026-03-11 | 2026-04-03 | 18 | 0.3378 | 0 | 
+incluir | to include |  | Verb | 2026-03-13 | 2026-03-16 | 4 | 2.2500 | -1 | 
+intentar | to try (to do something) |  | Verb | 2026-03-06 | 2026-03-28 | 6 | 2.1700 | -1 | 
+interrumpir | to interrupt |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+invitar | to invite |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+leer | to read |  | Verb | 2026-03-06 | 2026-03-28 | 7 | 1.4300 | -1 | 
+levantarse | to get up |  | Verb | 2026-03-24 | 2026-04-05 | 9 | 0.2222 | 0 | 
+limpiar | to clean |  | Verb | 2026-03-24 | 2026-03-26 | 2 | 2.5000 | -1 | 
+llamar | to call |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+llegar | to arrive |  | Verb | 2026-04-06 | 2026-04-11 | 3 | 1.4000 | 0 | 
+llenar | to fill |  | Verb | 2026-03-24 | 2026-03-28 | 3 | 2.3300 | -1 | 
+llevar | to carry / take |  | Verb | 2026-04-06 | 2026-04-11 | 5 | 1.1060 | 0 | 
+llorar | to cry |  | Verb | 2026-03-24 | 2026-04-02 | 5 | 0.6000 | -1 | 
+llorar | to cry |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+lograr | to achieve |  | Verb | 2026-03-13 | 2026-04-11 | 17 | 0.8767 | 0 | 
+mandar | to send / to order |  | Verb | 2026-04-06 | 2026-04-10 | 1 |  | 0 | 
+manejar | to drive |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+mantener | to maintain |  | Verb | 2026-03-13 | 2026-03-24 | 3 | 2.3300 | -1 | 
+marcar | to mark / dial |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+mejorar | to improve |  | Verb | 2026-03-06 | 2026-04-09 | 17 | 0.9626 | 0 | 
+meter | to put / insert |  | Verb | 2026-04-06 | 2026-04-10 | 1 | 2.0000 | 0 | 
+mirar | to look |  | Verb | 2026-03-06 | 2026-03-24 | 13 | 1.3100 | -1 | 
+mirar | to look at |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+montar | to set up / to assemble / to get on |  | Verb | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+mostrar | to show |  | Verb | 2026-03-06 | 2026-03-08 | 8 | 2.0000 | -1 | 
+mover | to move (something) |  | Verb | 2026-03-08 | 2026-03-24 | 9 | 1.6700 | -1 | 
+moverse | to move (oneself) |  | Verb | 2026-03-24 | 2026-04-09 | 2 |  | 0 | 
+nadar | to swim |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+necesitar | to need |  | Verb | 2026-03-06 | 2026-03-15 | 8 | 2.1300 | -1 | 
+necesitar | to need |  | Verb | 2026-04-06 | 2026-04-10 | 2 |  | 0 | 
+ocupar | to occupy / take up |  | Verb | 2026-03-16 | 2026-03-22 | 5 | 2.2000 | -1 | 
+ocurrir | to happen / occur |  | Verb | 2026-03-08 | 2026-04-03 | 6 | 0.5000 | 0 | 
+ocurrir | to occur / happen |  | Verb | 2026-04-06 | 2026-04-09 | 2 |  | 0 | 
+oír | to hear |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+olvidar | to forget |  | Verb | 2026-03-06 | 2026-03-12 | 5 | 2.4000 | -1 | 
+olvidar | to forget |  | Verb | 2026-03-13 | 2026-03-22 | 4 | 2.2500 | -1 | 
+pagar | to pay |  | Verb | 2026-03-06 | 2026-03-22 | 7 | 1.8600 | -1 | 
+pagar | to pay |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+parar | to stop |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+pasar | to pass / happen |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+patinar | to skate |  | Verb | 2026-04-06 | 2026-04-08 | 2 |  | 0 | 
+perder | to lose |  | Verb | 2026-03-06 | 2026-03-12 | 4 | 2.5000 | -1 | 
+pertenecer (a) | to belong (to) |  | Verb | 2026-03-16 | 2026-04-09 | 16 | 1.3267 | 0 | 
+pintar | to paint |  | Verb | 2026-04-06 | 2026-04-08 | 2 |  | 0 | 
+poner | to put |  | Verb | 2026-03-19 | 2026-03-26 | 2 | 2.5000 | -1 | 
+ponerse | to put on |  | Verb | 2026-03-24 | 2026-04-04 | 8 | 0.7500 | 0 | 
+practicar | to practice |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+preguntar | to ask |  | Verb | 2026-03-06 | 2026-03-11 | 7 | 2.2900 | -1 | 
+prender | to turn on / light |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+preparar | to prepare |  | Verb | 2026-03-08 | 2026-03-15 | 4 | 2.7500 | -1 | 
+preparar | to prepare |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+presentar | to present |  | Verb | 2026-04-06 | 2026-04-08 | 1 |  | 0 | 
+probar | to try (test) |  | Verb | 2026-03-24 | 2026-03-27 | 3 | 2.3300 | -1 | 
+quedarse | to stay |  | Verb | 2026-03-06 | 2026-03-08 | 9 | 1.2200 | -1 | 
+quitar | to remove / take away |  | Verb | 2026-03-24 | 2026-04-09 | 9 | 0.7000 | 0 | 
+quitar | to remove |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+recibir | to receive |  | Verb | 2026-04-06 | 2026-04-11 | 3 |  | 0 | 
+recordar | to remember |  | Verb | 2026-03-06 | 2026-03-24 | 12 | 1.9200 | -1 | 
+recordar | to remember |  | Verb | 2026-03-13 | 2026-03-15 | 4 | 2.2500 | -1 | 
+regresar | to return (long journey) | 🔙 | Verb | 2026-03-09 | 2026-03-23 | 14 | 1.6400 | -1 | 
+regresar | to return |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+reír | to laugh |  | Verb | 2026-03-24 | 2026-04-02 | 4 | 0.7475 | -1 | 
+repasar | to review |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+responder | to answer |  | Verb | 2026-03-06 | 2026-03-22 | 8 | 2.1300 | -1 | 
+resultar | to turn out |  | Verb | 2026-03-08 | 2026-03-24 | 10 | 1.5000 | -1 | 
+romper | to break |  | Verb | 2026-03-24 | 2026-04-05 | 9 | 1.0000 | 0 | 
+saber | to know (a fact) |  | Verb | 2026-03-06 | 2026-03-22 | 11 | 1.7300 | -1 | 
+sacar | to take out |  | Verb | 2026-04-06 | 2026-04-11 | 4 | 2.0000 | 0 | 
+salir | to leave / to go out |  | Verb | 2026-03-06 | 2026-03-12 | 5 | 2.2000 | -1 | 
+saludar | to greet |  | Verb | 2026-04-06 | 2026-04-09 | 5 | 0.9002 | 0 | 
+seguir | to continue (to carry on) |  | Verb | 2026-03-08 | 2026-04-05 | 14 | 0.4964 | 0 | 
+sentarse | to sit down |  | Verb | 2026-03-24 | 2026-04-03 | 5 | 0.4000 | 0 | 
+servir | to serve |  | Verb | 2026-03-24 | 2026-04-03 | 5 | 1.0000 | -1 | 
+sonreír | to smile |  | Verb | 2026-03-24 | 2026-03-26 | 3 | 2.3300 | -1 | 
+sonreír | to smile | 😁 | Verb | 2026-03-06 | 2026-03-08 | 1 | 3.0000 | -1 | 
+subir | to go up / upload |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+subir | to go up |  | Verb | 2026-03-24 | 2026-04-09 | 11 | 0.3266 | 0 | 
+sufrir | to suffer |  | Verb | 2026-04-06 | 2026-04-11 | 2 |  | 0 | 
+superar | to overcome |  | Verb | 2026-03-16 | 2026-04-05 | 16 | 1.5600 | 0 | 
+tardar | to take (time) |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+terminar | to finish |  | Verb | 2026-03-06 | 2026-03-28 | 9 | 1.8900 | -1 | 
+terminar | to finish |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+tirar | to throw |  | Verb | 2026-04-06 | 2026-04-09 | 5 | 1.6401 | 0 | 
+tocar | to touch / play (instrument) |  | Verb | 2026-03-24 | 2026-03-31 | 3 | 0.3333 | -1 | 
+tocar | to touch / play (instrument) |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+tomar | to take / drink |  | Verb | 2026-04-06 | 2026-04-11 | 3 |  | 0 | 
+toser | to cough |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+trabajar | to work |  | Verb | 2026-03-06 | 2026-03-08 | 1 | 3.0000 | -1 | 
+trabajar | to work |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+traer | to bring |  | Verb | 2026-03-24 | 2026-04-03 | 7 | 0.7143 | -1 | 
+tratar (de) | to try (to) |  | Verb | 2026-03-16 | 2026-03-24 | 9 | 1.8900 | -1 | 
+trotar | to jog |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+usar | to use |  | Verb | 2026-03-06 | 2026-03-11 | 4 | 1.5000 | -1 | 
+usar | to use |  | Verb | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+valer | to be worth |  | Verb | 2026-04-06 | 2026-04-08 | 1 |  | 0 | 
+vender | to sell |  | Verb | 2026-03-06 | 2026-03-12 | 7 | 2.1400 | -1 | 
+vender | to sell |  | Verb | 2026-04-06 | 2026-04-08 | 1 |  | 0 | 
+ver | to see |  | Verb | 2026-03-06 | 2026-03-15 | 4 | 2.2500 | -1 | 
+vestirse | to get dressed |  | Verb | 2026-03-24 | 2026-04-03 | 7 | 0.5714 | 0 | 
+viajar | to travel |  | Verb | 2026-03-06 | 2026-03-10 | 6 | 1.8300 | -1 | 
+viajar | to travel |  | Verb | 2026-04-06 | 2026-04-08 | 1 |  | 0 | 
+vivir | to live |  | Verb | 2026-03-06 | 2026-03-13 | 5 | 1.8000 | -1 | 
+volver | to return / to do again |  | Verb | 2026-03-06 | 2026-04-05 | 12 | 0.8333 | 0 | 
 
 # >>> Adverbs
-a menudo | often |  | Adverb | 2026-03-16 | 2026-04-04 | 8 | 1.0025 | 0 | 
-actualmente | currently |  | Adverb | 2026-03-17 | 2026-04-12 | 10 | 0.7770 | 0 | 
-anoche | last night |  | Adverb | 2026-03-16 | 2026-03-16 | 1 | 3.0000 | -1 | 
-antes | before |  | Adverb | 2026-03-16 | 2026-03-23 | 2 | 2.5000 | -1 | 
-ayer | yesterday |  | Adverb | 2026-03-16 | 2026-03-19 | 5 | 2.2000 | -1 | 
-casi | almost |  | Adverb | 2026-03-14 | 2026-03-16 | 3 | 2.0000 | -1 | 
-de repente | suddenly |  | Adverb | 2026-03-16 | 2026-04-06 | 11 | 0.6400 | 0 | 
-demasiado, o demasiada | too much / too many |  | Adverb | 2026-03-14 | 2026-03-19 | 2 | 2.5000 | -1 | 
-especialmente | especially |  | Adverb | 2026-03-07 | 2026-03-29 | 4 | 1.7500 | -1 | 
-especialmente | especially |  | Adverb | 2026-03-17 | 2026-03-23 | 2 | 2.5000 | -1 | 
-finalmente | finally |  | Adverb | 2026-03-17 | 2026-03-23 | 2 | 2.5000 | -1 | 
-generalmente | generally |  | Adverb | 2026-03-07 | 2026-03-12 | 5 | 1.6000 | -1 | 
-lentamente | slowly |  | Adverb | 2026-03-07 | 2026-03-14 | 6 | 2.1700 | -1 | 
-normalmente | normally |  | Adverb | 2026-03-07 | 2026-03-25 | 14 | 2.0700 | -1 | 
-principalmente | mainly |  | Adverb | 2026-03-17 | 2026-03-23 | 6 | 1.3300 | -1 | 
-probablemente | probably |  | Adverb | 2026-03-17 | 2026-04-06 | 12 | 0.9175 | -1 | 
-rápidamente | quickly |  | Adverb | 2026-03-07 | 2026-03-13 | 13 | 1.8500 | -1 | 
-realmente | really / actually |  | Adverb | 2026-03-17 | 2026-04-06 | 13 | 0.8462 | 0 | 
-recientemente | recently |  | Adverb | 2026-03-17 | 2026-03-23 | 3 | 2.3300 | -1 | 
-seguramente | surely |  | Adverb | 2026-03-09 | 2026-03-11 | 6 | 1.0000 | -1 | 
-siempre | always |  | Adverb | 2026-03-16 | 2026-03-16 | 1 | 3.0000 | -1 | 
-siempre | always |  | Adverb | 2026-03-20 | 2026-03-27 | 1 | 3.0000 | -1 | 
-simplemente | simply |  | Adverb | 2026-03-17 | 2026-03-23 | 2 | 2.5000 | -1 | 
-solo | only / just |  | Adverb | 2026-03-20 | 2026-04-09 | 3 |  | 0 | 
-también | also / too |  | Adverb | 2026-03-20 | 2026-04-09 | 2 |  | 0 | 
-todavía | still / yet |  | Adverb | 2026-03-20 | 2026-04-12 | 8 | 0.2000 | -1 | 
-una vez | once / one time |  | Adverb | 2026-03-16 | 2026-03-16 | 2 | 2.5000 | -1 | 
+a menudo | often |  | Adverb | 2026-03-15 | 2026-04-03 | 8 | 1.0025 | 0 | 
+actualmente | currently |  | Adverb | 2026-03-16 | 2026-04-11 | 10 | 0.7770 | 0 | 
+anoche | last night |  | Adverb | 2026-03-15 | 2026-03-15 | 1 | 3.0000 | -1 | 
+antes | before |  | Adverb | 2026-03-15 | 2026-03-22 | 2 | 2.5000 | -1 | 
+ayer | yesterday |  | Adverb | 2026-03-15 | 2026-03-18 | 5 | 2.2000 | -1 | 
+casi | almost |  | Adverb | 2026-03-13 | 2026-03-15 | 3 | 2.0000 | -1 | 
+de repente | suddenly |  | Adverb | 2026-03-15 | 2026-04-05 | 11 | 0.6400 | 0 | 
+demasiado, o demasiada | too much / too many |  | Adverb | 2026-03-13 | 2026-03-18 | 2 | 2.5000 | -1 | 
+especialmente | especially |  | Adverb | 2026-03-06 | 2026-03-28 | 4 | 1.7500 | -1 | 
+especialmente | especially |  | Adverb | 2026-03-16 | 2026-03-22 | 2 | 2.5000 | -1 | 
+finalmente | finally |  | Adverb | 2026-03-16 | 2026-03-22 | 2 | 2.5000 | -1 | 
+generalmente | generally |  | Adverb | 2026-03-06 | 2026-03-11 | 5 | 1.6000 | -1 | 
+lentamente | slowly |  | Adverb | 2026-03-06 | 2026-03-13 | 6 | 2.1700 | -1 | 
+normalmente | normally |  | Adverb | 2026-03-06 | 2026-03-24 | 14 | 2.0700 | -1 | 
+principalmente | mainly |  | Adverb | 2026-03-16 | 2026-03-22 | 6 | 1.3300 | -1 | 
+probablemente | probably |  | Adverb | 2026-03-16 | 2026-04-05 | 12 | 0.9175 | -1 | 
+rápidamente | quickly |  | Adverb | 2026-03-06 | 2026-03-12 | 13 | 1.8500 | -1 | 
+realmente | really / actually |  | Adverb | 2026-03-16 | 2026-04-05 | 13 | 0.8462 | 0 | 
+recientemente | recently |  | Adverb | 2026-03-16 | 2026-03-22 | 3 | 2.3300 | -1 | 
+seguramente | surely |  | Adverb | 2026-03-08 | 2026-03-10 | 6 | 1.0000 | -1 | 
+siempre | always |  | Adverb | 2026-03-15 | 2026-03-15 | 1 | 3.0000 | -1 | 
+siempre | always |  | Adverb | 2026-03-19 | 2026-03-26 | 1 | 3.0000 | -1 | 
+simplemente | simply |  | Adverb | 2026-03-16 | 2026-03-22 | 2 | 2.5000 | -1 | 
+solo | only / just |  | Adverb | 2026-03-19 | 2026-04-08 | 3 |  | 0 | 
+también | also / too |  | Adverb | 2026-03-19 | 2026-04-08 | 2 |  | 0 | 
+todavía | still / yet |  | Adverb | 2026-03-19 | 2026-04-11 | 8 | 0.2000 | -1 | 
+una vez | once / one time |  | Adverb | 2026-03-15 | 2026-03-15 | 2 | 2.5000 | -1 | 
 
 # >>> Conversational
-aunque | although |  | Conversational | 2026-03-09 | 2026-04-04 | 19 | 1.2610 | -1 | 
-mientras | while |  | Conversational | 2026-03-09 | 2026-03-23 | 11 | 1.7300 | -1 | 
-sin embargo | however |  | Conversational | 2026-03-09 | 2026-03-29 | 15 | 0.0700 | 0 | 
-además | besides |  | Conversational | 2026-03-09 | 2026-04-12 | 23 | 0.3191 | 0 | 
-todavía | still / yet |  | Conversational | 2026-03-09 | 2026-04-04 | 18 | 0.4417 | 0 | 
-ya | already |  | Conversational | 2026-03-09 | 2026-03-23 | 7 | 1.8600 | -1 | 
-casi | almost |  | Conversational | 2026-03-09 | 2026-03-23 | 7 | 1.8600 | -1 | 
-quizás | maybe |  | Conversational | 2026-03-09 | 2026-03-10 | 7 | 1.5700 | -1 | 
-así | like this / thus |  | Conversational | 2026-03-14 | 2026-04-03 | 16 | 1.0625 | 0 | 
-bastante | quite |  | Conversational | 2026-03-07 | 2026-04-04 | 15 | 0.7334 | 0 | 
-entonces | then |  | Conversational | 2026-03-07 | 2026-03-24 | 9 | 1.6700 | -1 | 
-tengo hambre | I am hungry |  | Conversational | 2026-03-07 | 2026-03-10 | 3 | 2.0000 | -1 | 
-tengo sed | I am thirsty |  | Conversational | 2026-03-07 | 2026-03-13 | 6 | 2.0000 | -1 | 
-tengo frío | I am cold |  | Conversational | 2026-03-07 | 2026-03-12 | 9 | 1.7800 | -1 | 
-tengo calor | I am hot |  | Conversational | 2026-03-07 | 2026-03-12 | 4 | 1.7500 | -1 | 
-me gusta | I like |  | Conversational | 2026-03-07 | 2026-03-13 | 4 | 2.5000 | -1 | 
-no me gusta | I don't like |  | Conversational | 2026-03-07 | 2026-03-12 | 6 | 2.3300 | -1 | 
-me gusta el café | I like coffee | ☕ | Conversational | 2026-03-07 | 2026-03-24 | 11 | 1.9100 | -1 | 
-me gusta viajar | I like traveling |  | Conversational | 2026-03-07 | 2026-03-12 | 5 | 2.2000 | -1 | 
-quiero aprender español | I want to learn Spanish |  | Conversational | 2026-03-07 | 2026-03-13 | 9 | 1.5600 | -1 | 
-necesito practicar | I need to practice |  | Conversational | 2026-03-07 | 2026-03-12 | 5 | 2.4000 | -1 | 
-voy al restaurante | I go to the restaurant |  | Conversational | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-estoy en el hotel | I am in the hotel |  | Conversational | 2026-03-07 | 2026-03-12 | 3 | 2.0000 | -1 | 
-vamos a comer | let's eat |  | Conversational | 2026-03-07 | 2026-03-12 | 3 | 2.6700 | -1 | 
-vamos a viajar | let's travel |  | Conversational | 2026-03-07 | 2026-03-13 | 3 | 2.6700 | -1 | 
-al mismo tiempo | at the same time |  | Conversational | 2026-03-14 | 2026-03-23 | 2 | 2.5000 | -1 | 
-por ejemplo | for example |  | Conversational | 2026-03-14 | 2026-03-23 | 5 | 2.2000 | -1 | 
-es decir | that is to say |  | Conversational | 2026-03-14 | 2026-04-12 | 16 | 0.4886 | 0 | 
-en general | in general |  | Conversational | 2026-03-14 | 2026-03-16 | 1 | 3.0000 | -1 | 
-cuando era niño | when I was a child |  | Conversational | 2026-03-16 | 2026-03-24 | 4 | 2.2500 | -1 | 
-por cierto | by the way |  | Conversational | 2026-03-17 | 2026-04-06 | 17 | 1.0024 | 0 | 
-es que | it's just that / the thing is |  | Conversational | 2026-03-17 | 2026-04-09 | 12 | 0.6364 | 0 | 
-lo que pasa es que | what happens is / the thing is |  | Conversational | 2026-03-17 | 2026-04-09 | 17 | 0.6207 | 0 | 
-a propósito | by the way / speaking of that |  | Conversational | 2026-03-17 | 2026-04-04 | 15 | 0.6653 | 0 | 
-a ver (qué/si)... | let's see (what/if)... |  | Conversational | 2026-03-17 | 2026-03-23 | 2 | 2.5000 | -1 | 
-con razón... | no wonder... |  | Conversational | 2026-03-17 | 2026-03-29 | 11 |  | 0 | 
-por eso... | that's why / for that reason |  | Conversational | 2026-03-17 | 2026-03-23 | 4 | 2.2500 | -1 | 
-en fin... | anyway / in the end |  | Conversational | 2026-03-17 | 2026-04-04 | 12 | 1.2467 | 0 | 
-total que | so anyway / long story short |  | Conversational | 2026-03-17 | 2026-04-12 | 14 | 0.4308 | 0 | 
-resulta (que) | it turns out (that) |  | Conversational | 2026-03-17 | 2026-03-25 | 5 | 1.8000 | -1 | 
-fíjate (que) | look / you see (that) |  | Conversational | 2026-03-17 | 2026-04-04 | 14 | 0.7164 | 0 | 
-menos mal (que) | it's a good thing (that) |  | Conversational | 2026-03-17 | 2026-04-06 | 18 | 1.1084 | 0 | 
-la verdad es (que) | the truth is (that) |  | Conversational | 2026-03-17 | 2026-03-23 | 3 | 2.3300 | -1 | 
-lo bueno es (que) | the good thing is (that) |  | Conversational | 2026-03-17 | 2026-03-23 | 3 | 2.0000 | -1 | 
-lo malo es (que) | the bad thing is (that) |  | Conversational | 2026-03-17 | 2026-03-23 | 3 | 2.0000 | -1 | 
-lo único es (que) | the only thing is (that) |  | Conversational | 2026-03-17 | 2026-03-23 | 3 | 1.6700 | -1 | 
-lo difícil es (que) | the hard thing is (that) |  | Conversational | 2026-03-17 | 2026-03-23 | 2 | 2.5000 | -1 | 
-lo peor es (que) | the worst thing is (that) |  | Conversational | 2026-03-17 | 2026-03-23 | 4 | 2.2500 | -1 | 
-lo mejor es (que) | the best thing is (that) |  | Conversational | 2026-03-17 | 2026-03-23 | 5 | 2.2000 | -1 | 
-lo raro es (que) / lo extraño es (que) | the strange thing is (that) |  | Conversational | 2026-03-17 | 2026-03-23 | 1 | 3.0000 | -1 | 
-lo chistoso es (que) | the funny thing is (that) |  | Conversational | 2026-03-17 | 2026-03-23 | 4 | 1.2500 | -1 | 
-lo increíble es (que) | the incredible thing is (that) |  | Conversational | 2026-03-17 | 2026-03-23 | 3 | 2.3300 | -1 | 
-lo (más) absurdo es (que) | the absurd thing is (that) |  | Conversational | 2026-03-17 | 2026-03-23 | 3 | 1.6700 | -1 | 
-pues… | well… / so… |  | Conversational | 2026-03-17 | 2026-03-25 | 7 | 2.0000 | -1 | 
-¡claro!, ¡claro que sí!, o ¿cómo no? | of course (it is) |  | Conversational | 2026-03-17 | 2026-04-04 | 14 | 1.2143 | -1 | 
-está bien | okay / alright |  | Conversational | 2026-03-17 | 2026-03-23 | 6 | 1.6700 | -1 | 
-Conste | Just so you know / I'll hold you to that |  | Conversational | 2026-03-17 | 2026-04-10 | 15 | 0.5985 | 0 | 
-(buen) provecho | enjoy your meal |  | Conversational | 2026-03-17 | 2026-03-25 | 5 | 1.8000 | -1 | 
-de acuerdo, o hecho | agreed / it's a deal |  | Conversational | 2026-03-17 | 2026-04-06 | 17 | 0.9388 | 0 | 
-¿verdad? | right? / isn't that true? |  | Conversational | 2026-03-17 | 2026-03-23 | 2 | 2.5000 | -1 | 
-no me importa | I don't care / it doesn't matter to me |  | Conversational | 2026-03-17 | 2026-03-25 | 7 | 2.1400 | -1 | 
-¿y qué?, o ¿y eso qué? | so what? |  | Conversational | 2026-03-17 | 2026-04-04 | 12 | 1.0000 | 0 | 
-¿y a mí qué? | what's it to me? |  | Conversational | 2026-03-17 | 2026-03-25 | 9 | 1.8900 | -1 | 
-¿y? | so? |  | Conversational | 2026-03-17 | 2026-03-23 | 2 | 2.5000 | -1 | 
-o sea | I mean / in other words |  | Conversational | 2026-03-17 | 2026-04-12 | 20 | 1.0038 | 0 | 
-ni hablar | no way / forget it / oh well |  | Conversational | 2026-03-17 | 2026-04-10 | 17 | 0.3908 | 0 | 
-cuando sea | whenever |  | Conversational | 2026-03-17 | 2026-03-27 | 9 | 1.5600 | -1 | 
-como sea | however / anyway |  | Conversational | 2026-03-17 | 2026-04-03 | 9 | 0.2222 | 0 | 
-donde sea | wherever |  | Conversational | 2026-03-17 | 2026-03-23 | 2 | 2.5000 | -1 | 
-quien sea | whoever |  | Conversational | 2026-03-17 | 2026-03-23 | 2 | 2.5000 | -1 | 
-¿qué pasa? | what's happening? |  | Conversational | 2026-03-07 | 2026-03-11 | 7 | 1.0000 | -1 | 
-¿qué estás haciendo? | what are you doing? |  | Conversational | 2026-03-07 | 2026-03-25 | 10 | 1.5000 | -1 | 
-¿qué quieres decir? | what do you mean? |  | Conversational | 2026-03-07 | 2026-03-23 | 10 | 1.8000 | -1 | 
-no hay problema | no problem |  | Conversational | 2026-03-07 | 2026-03-25 | 14 | 1.4300 | -1 | 
-no importa | it doesn't matter |  | Conversational | 2026-03-07 | 2026-04-04 | 18 | 1.4422 | 0 | 
-claro que sí | of course (it is) |  | Conversational | 2026-03-07 | 2026-03-10 | 4 | 2.2500 | -1 | 
-claro que no | of course not |  | Conversational | 2026-03-07 | 2026-03-11 | 9 | 1.8900 | -1 | 
-por supuesto | of course |  | Conversational | 2026-03-07 | 2026-03-12 | 7 | 1.8600 | -1 | 
-tal vez | maybe |  | Conversational | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-puede ser | maybe / could be |  | Conversational | 2026-03-07 | 2026-04-06 | 21 | 0.9048 | 0 | 
-ya veo | I see (ahhh) |  | Conversational | 2026-03-07 | 2026-04-12 | 19 | 0.9889 | 0 | 
-ya entiendo | now I understand |  | Conversational | 2026-03-07 | 2026-03-25 | 22 | 0.2300 | 0 | 
-tienes razón | you are right |  | Conversational | 2026-03-07 | 2026-03-12 | 5 | 2.0000 | -1 | 
-no estoy seguro | I'm not sure |  | Conversational | 2026-03-07 | 2026-04-06 | 17 | 0.8211 | -1 | 
-no lo sé | I don't know |  | Conversational | 2026-03-07 | 2026-04-04 | 16 | 0.8106 | -1 | 
-lo sé | I know (that) |  | Conversational | 2026-03-07 | 2026-03-13 | 5 | 2.2000 | -1 | 
-creo que sí | I think so |  | Conversational | 2026-03-07 | 2026-03-25 | 7 | 2.0000 | -1 | 
-creo que no | I don't think so |  | Conversational | 2026-03-07 | 2026-03-11 | 8 | 1.5000 | -1 | 
-depende | it depends |  | Conversational | 2026-03-07 | 2026-03-13 | 8 | 1.5000 | -1 | 
-qué bueno | that's good / what good |  | Conversational | 2026-03-07 | 2026-04-09 | 15 | 0.2999 | 0 | 
-qué lástima | what a shame |  | Conversational | 2026-03-07 | 2026-03-10 | 7 | 1.8600 | -1 | 
-qué suerte | how lucky | 🍀 | Conversational | 2026-03-07 | 2026-03-14 | 7 | 1.2900 | -1 | 
-buen trabajo | good job | 👍 | Conversational | 2026-03-07 | 2026-04-06 | 18 | 0.8356 | -1 | 
-bien hecho | well done | 👌 | Conversational | 2026-03-07 | 2026-04-03 | 18 | 1.1111 | -1 | 
-más o menos así | more or less like that |  | Conversational | 2026-03-07 | 2026-04-12 | 16 | 0.5947 | 0 | 
-tengo mucho trabajo hoy | I have a lot of work today |  | Conversational | 2026-03-07 | 2026-03-13 | 10 | 1.6000 | -1 | 
-no tengo tiempo ahora | I don't have time now |  | Conversational | 2026-03-07 | 2026-03-12 | 6 | 1.1700 | -1 | 
-quiero aprender más español | I want to learn more Spanish |  | Conversational | 2026-03-07 | 2026-03-13 | 5 | 2.0000 | -1 | 
-estoy muy cansado hoy | I am very tired today |  | Conversational | 2026-03-07 | 2026-03-24 | 10 | 1.1000 | -1 | 
-necesito descansar | I need to rest | 😴 | Conversational | 2026-03-07 | 2026-04-05 | 24 | 0.1251 | 0 | 
-vamos a comer algo | let's eat something |  | Conversational | 2026-03-07 | 2026-03-12 | 5 | 1.8000 | -1 | 
-voy a salir ahora | I'm going out now |  | Conversational | 2026-03-07 | 2026-03-29 | 4 | 1.2500 | -1 | 
-vuelvo en una hora | I'll come back in an hour |  | Conversational | 2026-03-07 | 2026-04-12 | 15 | 1.0154 | 0 | 
-estoy en casa | I am at home | 🏠 | Conversational | 2026-03-07 | 2026-03-25 | 9 | 1.3300 | -1 | 
-estoy en el trabajo | I am at work |  | Conversational | 2026-03-07 | 2026-03-25 | 10 | 1.4000 | -1 | 
-estoy con amigos | I am with friends |  | Conversational | 2026-03-07 | 2026-03-16 | 3 | 2.6700 | -1 | 
-hace mucho frío | it's very cold | ❄️ | Conversational | 2026-03-07 | 2026-04-04 | 8 | 0.7487 | -1 | 
-hace mucho calor | it's very hot | 🔥 | Conversational | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-hoy hace buen tiempo | the weather is nice today | 🌤️ | Conversational | 2026-03-07 | 2026-03-13 | 4 | 1.0000 | -1 | 
-mañana trabajo | tomorrow I work |  | Conversational | 2026-03-07 | 2026-03-24 | 22 | 0.0900 | -1 | 
-ayer salí con amigos | yesterday I went out with friends |  | Conversational | 2026-03-07 | 2026-04-06 | 15 | 0.9333 | 0 | 
-me gusta esta ciudad | I like this city |  | Conversational | 2026-03-07 | 2026-03-12 | 4 | 2.0000 | -1 | 
-no me gusta este restaurante | I don't like this restaurant |  | Conversational | 2026-03-07 | 2026-03-15 | 14 | 1.2900 | -1 | 
-este lugar es bonito | this place is beautiful |  | Conversational | 2026-03-07 | 2026-03-29 | 3 | 1.6700 | -1 | 
-la comida está muy buena | the food is very good |  | Conversational | 2026-03-07 | 2026-03-23 | 14 | 1.1400 | -1 | 
-¿qué quieres hacer? | what do you want to do? |  | Conversational | 2026-03-07 | 2026-03-16 | 9 | 1.8900 | -1 | 
-¿qué piensas? | what do you think? |  | Conversational | 2026-03-07 | 2026-03-23 | 10 | 1.6000 | -1 | 
-¿te gusta? | do you like it? |  | Conversational | 2026-03-07 | 2026-03-12 | 6 | 2.3300 | -1 | 
-me parece bien | that seems good to me |  | Conversational | 2026-03-07 | 2026-03-25 | 14 | 1.6400 | -1 | 
-me parece interesante | that seems interesting |  | Conversational | 2026-03-07 | 2026-03-25 | 15 | 1.5300 | -1 | 
-eso es verdad | that's true |  | Conversational | 2026-03-07 | 2026-03-25 | 9 | 1.8900 | -1 | 
-no estoy de acuerdo | I don't agree |  | Conversational | 2026-03-07 | 2026-03-25 | 10 | 1.9000 | -1 | 
-estoy de acuerdo | I agree |  | Conversational | 2026-03-07 | 2026-03-13 | 3 | 2.6700 | -1 | 
-no estoy seguro de eso | I'm not sure about that |  | Conversational | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-eso depende | that depends |  | Conversational | 2026-03-07 | 2026-04-03 | 15 | 1.1333 | -1 | 
-todo está bien | everything is fine |  | Conversational | 2026-03-07 | 2026-03-13 | 4 | 2.5000 | -1 | 
-todo está listo | everything is ready |  | Conversational | 2026-03-07 | 2026-03-14 | 3 | 2.6700 | -1 | 
-vamos a ver | let's see |  | Conversational | 2026-03-07 | 2026-04-09 | 12 | 0.4000 | -1 | 
-vamos poco a poco | let's go little by little |  | Conversational | 2026-03-07 | 2026-03-13 | 5 | 1.6000 | -1 | 
-un momento | one moment |  | Conversational | 2026-03-07 | 2026-03-13 | 6 | 1.6700 | -1 | 
-espera un segundo | wait a second |  | Conversational | 2026-03-07 | 2026-04-09 | 18 | 0.6583 | 0 | 
-dame un minuto | give me a minute |  | Conversational | 2026-03-07 | 2026-03-14 | 6 | 0.8300 | -1 | 
-no tengo idea | I have no idea |  | Conversational | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-es una buena idea | it's a good idea |  | Conversational | 2026-03-07 | 2026-04-06 | 21 | 0.8563 | 0 | 
-es mala idea | it's a bad idea |  | Conversational | 2026-03-07 | 2026-04-04 | 14 | 1.0000 | 0 | 
-no pasa nada | nothing happens / it's fine |  | Conversational | 2026-03-07 | 2026-04-09 | 16 | 0.6515 | 0 | 
-qué interesante | how interesting |  | Conversational | 2026-03-07 | 2026-03-12 | 7 | 1.5700 | -1 | 
-qué raro | how strange |  | Conversational | 2026-03-07 | 2026-03-24 | 10 | 1.5000 | -1 | 
-qué divertido | how fun |  | Conversational | 2026-03-07 | 2026-03-13 | 4 | 2.2500 | -1 | 
-qué problema | what a problem |  | Conversational | 2026-03-07 | 2026-03-14 | 3 | 2.6700 | -1 | 
-trabajo desde casa | I work from home | 🏠 | Conversational | 2026-03-07 | 2026-03-25 | 11 | 1.1800 | -1 | 
-trabajo en una oficina | I work in an office |  | Conversational | 2026-03-07 | 2026-03-23 | 8 | 2.0000 | -1 | 
-viajo mucho por trabajo | I travel a lot for work |  | Conversational | 2026-03-07 | 2026-03-12 | 3 | 1.6700 | -1 | 
-aprendo algo nuevo cada día | I learn something new every day |  | Conversational | 2026-03-07 | 2026-03-25 | 12 | 1.7500 | -1 | 
-leo noticias en español | I read news in Spanish |  | Conversational | 2026-03-07 | 2026-03-10 | 6 | 1.0000 | -1 | 
-escucho podcasts en español | I listen to podcasts in Spanish |  | Conversational | 2026-03-07 | 2026-03-29 | 11 | 0.8200 | -1 | 
-quiero vivir en España | I want to live in Spain |  | Conversational | 2026-03-07 | 2026-04-03 | 4 | 1.4975 | -1 | 
-me gusta aprender idiomas | I like learning languages |  | Conversational | 2026-03-07 | 2026-03-11 | 10 | 1.4000 | -1 | 
-hablo español todos los días | I speak Spanish every day |  | Conversational | 2026-03-07 | 2026-03-13 | 7 | 1.7100 | -1 | 
-practico con amigos | I practice with friends |  | Conversational | 2026-03-07 | 2026-03-23 | 5 | 2.2000 | -1 | 
-necesito más práctica | I need more practice |  | Conversational | 2026-03-07 | 2026-03-23 | 10 | 1.0000 | -1 | 
-entiendo un poco | I understand a little |  | Conversational | 2026-03-07 | 2026-03-16 | 4 | 2.2500 | -1 | 
-no entiendo todo | I don't understand everything |  | Conversational | 2026-03-07 | 2026-03-24 | 9 | 1.8900 | -1 | 
-puedo intentar otra vez | I can try again |  | Conversational | 2026-03-07 | 2026-04-10 | 20 | 0.9214 | 0 | 
-vamos al mercado | let's go to the market |  | Conversational | 2026-03-07 | 2026-03-13 | 5 | 1.6000 | -1 | 
-vamos a caminar | let's go for a walk |  | Conversational | 2026-03-07 | 2026-03-14 | 6 | 1.8300 | -1 | 
-vamos a tomar un café | let's get a coffee | ☕ | Conversational | 2026-03-07 | 2026-03-12 | 3 | 1.6700 | -1 | 
-voy al supermercado | I go to the supermarket |  | Conversational | 2026-03-07 | 2026-03-12 | 2 | 3.0000 | -1 | 
-compro comida | I buy food |  | Conversational | 2026-03-07 | 2026-03-12 | 4 | 1.2500 | -1 | 
-preparo la cena | I prepare dinner |  | Conversational | 2026-03-07 | 2026-03-13 | 4 | 2.5000 | -1 | 
-abro la puerta | I open the door | 🚪 | Conversational | 2026-03-07 | 2026-03-13 | 4 | 2.5000 | -1 | 
-cierro la ventana | I close the window |  | Conversational | 2026-03-07 | 2026-03-23 | 6 | 1.8300 | -1 | 
-llego temprano | I arrive early |  | Conversational | 2026-03-07 | 2026-03-23 | 13 | 1.6900 | -1 | 
-salgo tarde del trabajo | I leave work late |  | Conversational | 2026-03-07 | 2026-04-09 | 16 | 0.8391 | 0 | 
-me quedo en casa hoy | I stay home today | 🏠 | Conversational | 2026-03-07 | 2026-04-04 | 15 | 0.9333 | -1 | 
-¿puedo ver el menú? | can I see the menu? | 📋 | Conversational | 2026-03-11 | 2026-04-03 | 10 | 0.9980 | -1 | 
-¿qué recomienda? | what do you recommend? | ⭐ | Conversational | 2026-03-11 | 2026-03-17 | 11 | 0.4500 | -1 | 
-quiero pedir | I want to order | 🍽️ | Conversational | 2026-03-11 | 2026-03-25 | 10 | 1.0000 | -1 | 
-para mí | for me | 🙋 | Conversational | 2026-03-11 | 2026-03-23 | 4 | 1.5000 | -1 | 
-sin sal | without salt | 🧂 | Conversational | 2026-03-11 | 2026-03-16 | 4 | 2.5000 | -1 | 
-sin azúcar | without sugar | 🚫🍬 | Conversational | 2026-03-11 | 2026-03-14 | 4 | 2.2500 | -1 | 
-con hielo | with ice | 🧊 | Conversational | 2026-03-11 | 2026-03-25 | 8 | 1.5000 | -1 | 
-para llevar | to take away / takeaway | 🥡 | Conversational | 2026-03-11 | 2026-03-25 | 7 | 1.7100 | -1 | 
-¿Está incluido el servicio? | Is service included? |  | Conversational | 2026-03-11 | 2026-03-16 | 10 |  | 0 | 
-¿puedo pagar con tarjeta? | can I pay with card? | 💳 | Conversational | 2026-03-11 | 2026-03-23 | 5 | 1.6000 | -1 | 
-volveré | I will return |  | Conversational | 2026-03-07 | 2026-04-06 | 17 | 1.1788 | 0 | 
-tengo sueño | I am sleepy | 😴 | Conversational | 2026-03-10 | 2026-03-25 | 6 | 1.1700 | -1 | 
-vamos por este sendero | let's go along this trail |  | Conversational | 2026-03-10 | 2026-04-03 | 16 | 0.5606 | 0 | 
-creo que viene lluvia | I think rain is coming | 🌧️ | Conversational | 2026-03-10 | 2026-04-10 | 17 | 0.3062 | 0 | 
-podemos regresar al coche | we can return to the car |  | Conversational | 2026-03-10 | 2026-04-04 | 11 | 0.4573 | -1 | 
-disfruto mucho este lugar | I enjoy this place a lot | 😊 | Conversational | 2026-03-10 | 2026-04-06 | 17 | 0.6494 | 0 | 
-a la parrilla | grilled | 🔥 | Conversational | 2026-03-10 | 2026-04-06 | 11 | 0.4582 | 0 | 
-a la plancha | grilled on a flat top | 🍳 | Conversational | 2026-03-10 | 2026-04-06 | 12 | 0.6666 | 0 | 
-al parecer | apparently / it seems |  | Conversational | 2026-03-13 | 2026-04-06 | 14 | 0.4285 | 0 | 
-nunca lo he usado | I have never used it |  | Conversational | 2026-03-13 | 2026-04-12 | 18 | 0.2759 | 0 | 
-al menos | at least |  | Conversational | 2026-03-14 | 2026-03-25 | 6 | 1.6700 | -1 | 
-en realidad | actually / in reality |  | Conversational | 2026-03-14 | 2026-03-23 | 5 | 2.2000 | -1 | 
-de hecho | in fact |  | Conversational | 2026-03-14 | 2026-04-04 | 20 | 0.6475 | -1 | 
-porque de hecho | because in fact |  | Conversational | 2026-03-14 | 2026-04-09 | 12 | 0.2520 | 0 | 
-ya que | since / because |  | Conversational | 2026-03-14 | 2026-04-06 | 15 | 0.8666 | 0 | 
-Por lo tanto... | Therefore... |  | Conversational | 2026-03-14 | 2026-03-29 | 13 | -0.0800 | 0 | 
-Vamos a hablar de… | We’re going to talk about… |  | Conversational | 2026-03-27 | 2026-04-06 | 8 | 0.6250 | 0 | 
-No me di cuenta… | I didn’t realize… |  | Conversational | 2026-03-27 | 2026-03-28 | 0 |  | 1 | 
-Se me olvidó | I forgot |  | Conversational | 2026-03-27 | 2026-03-29 | 1 | -1.0000 | 1 | 
-A ver qué pasa | Let’s see what happens |  | Conversational | 2026-03-27 | 2026-04-09 | 13 | 0.9555 | 0 | 
-Es como que… | It’s like… |  | Conversational | 2026-03-27 | 2026-04-06 | 9 | 0.5556 | 0 | 
-Yo creo que… | I think that… |  | Conversational | 2026-03-27 | 2026-04-04 | 7 | 0.4286 | -1 | 
-Y no lo es | And it’s not |  | Conversational | 2026-03-27 | 2026-04-06 | 8 | 0.2500 | 0 | 
-Lo ponemos a prueba | We put it to the test |  | Conversational | 2026-03-27 | 2026-04-06 | 10 | 0.5000 | 0 | 
-Y que se disfrute | Enjoy it / Hope you enjoy it |  | Conversational | 2026-03-27 | 2026-04-09 | 3 | 2.0000 | 0 | 
-¿Y cuál sería lo mejor? | And what would be the best? |  | Conversational | 2026-03-27 | 2026-04-09 | 11 | 1.1600 | 0 | 
-A veces pasa que… | Sometimes it happens that… |  | Conversational | 2026-03-27 | 2026-04-11 | 2 | 1.0000 | 0 | 
-creo que hay que… | I think one has to / we should… |  | Conversational | 2026-03-27 | 2026-04-05 | 9 | 0.6667 | 0 | 
-Pero también he notado que… | But I’ve also noticed that… |  | Conversational | 2026-03-27 | 2026-04-10 | 1 |  | 0 | 
-Incluso a veces… | Even sometimes… |  | Conversational | 2026-03-27 | 2026-04-06 | 9 | 0.6667 | 0 | 
-Y esto me recuerda mucho a… | And this reminds me a lot of… |  | Conversational | 2026-03-27 | 2026-04-12 | 16 | 1.6267 | 0 | 
-Me explico: por ejemplo… | let me explain: for example… |  | Conversational | 2026-03-25 | 2026-04-09 | 5 | 0.3500 | 0 | 
-O también, pues… | Or also, well… |  | Conversational | 2026-03-25 | 2026-04-09 | 3 | -1.0000 | -1 | 
-...que, a veces, suena muy bien | ...which sometimes sounds really good |  | Conversational | 2026-03-25 | 2026-04-09 | 3 | 0.9800 | 0 | 
-!Ah, sí, porque, bueno, pequeño secreto… | Oh yeah, because, well, little secret… |  | Conversational | 2026-03-25 | 2026-04-09 | 4 | 0.7000 | 0 | 
-Me tocó observar | I ended up observing / I had to observe |  | Conversational | 2026-03-25 | 2026-04-06 | 7 | 0.7143 | 0 | 
-Un poco como… | Kind of like… |  | Conversational | 2026-03-25 | 2026-04-10 | 2 |  | 0 | 
-igual | maybe / perhaps |  | Conversational | 2026-03-25 | 2026-04-09 | 2 |  | 0 | 
-Igual nos vemos | Perhaps we’ll see each other |  | Conversational | 2026-03-25 | 2026-04-09 | 4 | 1.0000 | 0 | 
-Igual no te gusta, pero… | Perhaps you won’t like it, but… |  | Conversational | 2026-03-25 | 2026-04-09 | 1 |  | 0 | 
-Yo igual | Me too / Same here |  | Conversational | 2026-03-25 | 2026-04-10 | 2 |  | 0 | 
-A mí me llamó mucho la atención… | I found it really interesting that… |  | Conversational | 2026-03-25 | 2026-04-10 | 7 | 0.9333 | 0 | 
-a lo mejor… | maybe / perhaps |  | Conversational | 2026-03-25 | 2026-04-10 | 2 |  | 0 | 
-Se me ocurre… | It occurs to me… |  | Conversational | 2026-03-25 | 2026-04-09 | 4 | 0.2333 | 0 | 
-Me viene a la mente… | It comes to mind… |  | Conversational | 2026-03-25 | 2026-04-06 | 3 | 0.6667 | 0 | 
-Hace poco… | Recently… |  | Conversational | 2026-04-03 | 2026-04-12 | 4 | 1.0290 | 0 | 
-Desde entonces… | Since then… |  | Conversational | 2026-04-03 | 2026-04-05 | 0 |  | 1 | 
-Para mí… | For me / In my case… |  | Conversational | 2026-04-03 | 2026-04-11 | 1 |  | 0 | 
-Yo suelo… | I tend to / I usually… |  | Conversational | 2026-04-03 | 2026-04-05 | 0 |  | 1 | 
-Lo que pasó fue que… | What happened was that… |  | Conversational | 2026-04-03 | 2026-04-10 | 3 | 1.5800 | 0 | 
-Lo que más me gusta es… | What I like most is… |  | Conversational | 2026-04-03 | 2026-04-12 | 5 | 0.8960 | 0 | 
-Lo que menos me gusta es… | What I like least is… |  | Conversational | 2026-04-03 | 2026-04-05 | 0 |  | 1 | 
-Me parece que… | It seems to me that… |  | Conversational | 2026-04-03 | 2026-04-05 | 0 |  | 1 | 
-Diría que… | I would say that… |  | Conversational | 2026-04-03 | 2026-04-11 | 2 | 2.7000 | 0 | 
-Es curioso que… | It’s interesting/curious that… |  | Conversational | 2026-04-03 | 2026-04-09 | 1 |  | 0 | 
-Cada vez que… | Every time that… |  | Conversational | 2026-04-03 | 2026-04-10 | 2 |  | 0 | 
-Sin darme cuenta… | Without realizing it… |  | Conversational | 2026-04-03 | 2026-04-05 | 0 |  | 1 | 
-Al final… | In the end… |  | Conversational | 2026-04-03 | 2026-04-05 | 0 |  | 1 | 
-Y entonces… | And then… |  | Conversational | 2026-04-03 | 2026-04-09 | 3 | 1.4000 | 0 | 
-Tengo pensado… | I’m planning to… / I have thoughts to… |  | Conversational | 2026-04-03 | 2026-04-05 | 0 |  | 1 | 
-Así que… | So / therefore… |  | Conversational | 2026-04-03 | 2026-04-10 | 4 | 2.0000 | 0 | 
-En otras palabras… | In other words… |  | Conversational | 2026-04-03 | 2026-04-05 | 0 |  | 1 | 
-Sobre todo… | Above all… / especially… |  | Conversational | 2026-04-03 | 2026-04-05 | 0 |  | 1 | 
-No puedo quejarme | I can’t complain |  | Conversational | 2026-03-25 | 2026-04-10 | 5 | 0.8330 | 0 | 
-¿Aún vale la pena? | Is it still worth it? |  | Conversational | 2026-03-25 | 2026-04-09 | 3 | 1.4900 | 0 | 
-Ya está | That’s it / It’s done |  | Conversational | 2026-03-25 | 2026-04-05 | 0 |  | 1 | 
-No sé cuál sea la razón | I don’t know what the reason is |  | Conversational | 2026-03-25 | 2026-04-05 | 0 |  | 1 | 
-Yo no he ido | I haven’t gone |  | Conversational | 2026-03-25 | 2026-04-10 | 3 | 1.1900 | 0 | 
-He escuchado que… | I’ve heard that… |  | Conversational | 2026-03-25 | 2026-04-12 | 3 | 1.5800 | 0 | 
-A mí me ha tocado conocer… | I’ve had the chance to meet… |  | Conversational | 2026-03-25 | 2026-04-05 | 0 |  | 1 | 
-Esto me hace pensar en otro aspecto | This makes me think of another aspect |  | Conversational | 2026-03-25 | 2026-04-05 | 0 |  | 1 | 
-Está por llegar... | It’s about to arrive / It’s about to happen... |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Todavía no he empezado... | I still haven’t started... |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Frente a... | in front of... / facing... |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-No oigo nada | I can’t hear anything |  | Conversational | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-¿Oyes eso? | Do you hear that? |  | Conversational | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-Oigo mejor desde aquí | I hear better from here |  | Conversational | 2026-04-07 | 2026-04-10 | 3 | 0.7000 | 0 | 
-No quepo aquí | I don’t fit here |  | Conversational | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-¿Cabe todo en el coche? | Does everything fit in the car? |  | Conversational | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-No cabemos todos | We don’t all fit |  | Conversational | 2026-04-07 | 2026-04-09 | 0 |  | 1 | 
-Creo que la comida ya está hecha | I think the food is already done |  | Conversational | 2026-04-08 | 2026-04-12 | 4 | 0.6860 | 0 | 
-Dormí como un tronco | I slept like a log |  | Conversational | 2026-04-08 | 2026-04-10 | 2 |  | 0 | 
-¿Sabes qué...? | You know what...? |  | Conversational | 2026-04-08 | 2026-04-09 | 0 |  | 1 | 
-¿Qué tal si...? | What if...? |  | Conversational | 2026-04-08 | 2026-04-09 | 2 | 1.4000 | 0 | 
-A diferencia de... | Unlike... |  | Conversational | 2026-04-08 | 2026-04-09 | 0 |  | 1 | 
-De acuerdo con... | According to... |  | Conversational | 2026-04-08 | 2026-04-09 | 0 |  | 1 | 
-A punto de... | About to... |  | Conversational | 2026-04-08 | 2026-04-09 | 0 |  | 1 | 
-Por mi cuenta | On my own |  | Conversational | 2026-04-08 | 2026-04-09 | 0 |  | 1 | 
-A espaldas de... | Behind someone’s back |  | Conversational | 2026-04-08 | 2026-04-09 | 4 | 0.6860 | 0 | 
-En mi opinión... | In my opinion... |  | Conversational | 2026-04-08 | 2026-04-09 | 0 |  | 1 | 
-Dependiendo de... | Depending on... |  | Conversational | 2026-04-08 | 2026-04-09 | 0 |  | 1 | 
-¿Tienes una llave inglesa? | Do you have a wrench? |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-¿Me pasas el destornillador? | Can you pass me the screwdriver? |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Este tornillo está flojo | This screw is loose |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Hay que apretarlo | We need to tighten it |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Esto no está bien ajustado | This isn’t properly adjusted |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Se movió un poco | It shifted a bit |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Creo que hay que cambiar esto | I think we need to replace this |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-El asiento no corre bien | The seat isn’t sliding well |  | Conversational | 2026-04-03 | 2026-04-11 | 1 |  | 0 | 
-Los rieles están sucios | The sliders are dirty |  | Conversational | 2026-04-03 | 2026-04-11 | 1 | 1.0000 | 0 | 
-La zapata está mal ajustada | The footplate is poorly set |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Estuvo duro | That was hard |  | Conversational | 2026-04-03 | 2026-04-10 | 1 | 2.0000 | 0 | 
-Estuvo pesado | That was tough |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Me costó mucho | That was really hard for me |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Me quedé sin aire | I ran out of breath |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Me quemaban las piernas | My legs were burning |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Ya estaba muerto | I was exhausted |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Eso sí estuvo intenso | That was intense |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-El agua estaba perfecta | The water was perfect |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-El agua estaba muy movida | The water was choppy |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Había muchas olas | There were a lot of waves |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Está perfecto para remar | It’s perfect for rowing |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Hace mucho viento | It’s very windy |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Hay viento en contra | Headwind |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Hay viento a favor | Tailwind |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-¿Qué hacemos de calentamiento? | What are we doing for warmup? |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-¿Cuántas repeticiones? | How many reps? |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-¿Con cuánto peso? | How much weight? |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Mantén la espalda recta | Keep your back straight |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Controla el movimiento | Control the movement |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Mantén el ritmo | Keep the rhythm |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-No te apresures | Don’t rush |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Relájate un poco | Relax a bit |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-¿Con quién voy a remar este fin de semana? | Who am I going to row with this weekend? |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-¿Quién va en el bote? | Who’s in the boat? |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-¿Quién está en el equipo de carrera? | Who’s in the race crew? |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-¿A qué hora es la práctica? | What time is practice? |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-¿Dónde es la regata? | Where is the regatta? |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-¿Ya está decidido el lineup? | Is the lineup decided yet? |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-¿Qué tal estuvo? | How was it? |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-No estuvo tan mal | It wasn’t that bad |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Sí estuvo difícil | Yeah, it was tough |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-Mañana va a estar duro | Tomorrow’s going to be tough |  | Conversational | 2026-04-03 | 2026-04-09 | 0 |  | 1 | 
-crear una tarjeta | to create a card |  | Verb | 2026-04-12 |  | 0 |  | 0 | 
-he estado cansado/a | I've been tired |  | Conversational | 2026-04-13 |  | 0 |  | 1 | 
+aunque | although |  | Conversational | 2026-03-08 | 2026-04-03 | 19 | 1.2610 | -1 | 
+mientras | while |  | Conversational | 2026-03-08 | 2026-03-22 | 11 | 1.7300 | -1 | 
+sin embargo | however |  | Conversational | 2026-03-08 | 2026-03-28 | 15 | 0.0700 | 0 | 
+además | besides |  | Conversational | 2026-03-08 | 2026-04-11 | 23 | 0.3191 | 0 | 
+todavía | still / yet |  | Conversational | 2026-03-08 | 2026-04-03 | 18 | 0.4417 | 0 | 
+ya | already |  | Conversational | 2026-03-08 | 2026-03-22 | 7 | 1.8600 | -1 | 
+casi | almost |  | Conversational | 2026-03-08 | 2026-03-22 | 7 | 1.8600 | -1 | 
+quizás | maybe |  | Conversational | 2026-03-08 | 2026-03-09 | 7 | 1.5700 | -1 | 
+así | like this / thus |  | Conversational | 2026-03-13 | 2026-04-02 | 16 | 1.0625 | 0 | 
+bastante | quite |  | Conversational | 2026-03-06 | 2026-04-03 | 15 | 0.7334 | 0 | 
+entonces | then |  | Conversational | 2026-03-06 | 2026-03-23 | 9 | 1.6700 | -1 | 
+tengo hambre | I am hungry |  | Conversational | 2026-03-06 | 2026-03-09 | 3 | 2.0000 | -1 | 
+tengo sed | I am thirsty |  | Conversational | 2026-03-06 | 2026-03-12 | 6 | 2.0000 | -1 | 
+tengo frío | I am cold |  | Conversational | 2026-03-06 | 2026-03-11 | 9 | 1.7800 | -1 | 
+tengo calor | I am hot |  | Conversational | 2026-03-06 | 2026-03-11 | 4 | 1.7500 | -1 | 
+me gusta | I like |  | Conversational | 2026-03-06 | 2026-03-12 | 4 | 2.5000 | -1 | 
+no me gusta | I don't like |  | Conversational | 2026-03-06 | 2026-03-11 | 6 | 2.3300 | -1 | 
+me gusta el café | I like coffee | ☕ | Conversational | 2026-03-06 | 2026-03-23 | 11 | 1.9100 | -1 | 
+me gusta viajar | I like traveling |  | Conversational | 2026-03-06 | 2026-03-11 | 5 | 2.2000 | -1 | 
+quiero aprender español | I want to learn Spanish |  | Conversational | 2026-03-06 | 2026-03-12 | 9 | 1.5600 | -1 | 
+necesito practicar | I need to practice |  | Conversational | 2026-03-06 | 2026-03-11 | 5 | 2.4000 | -1 | 
+voy al restaurante | I go to the restaurant |  | Conversational | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+estoy en el hotel | I am in the hotel |  | Conversational | 2026-03-06 | 2026-03-11 | 3 | 2.0000 | -1 | 
+vamos a comer | let's eat |  | Conversational | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
+vamos a viajar | let's travel |  | Conversational | 2026-03-06 | 2026-03-12 | 3 | 2.6700 | -1 | 
+al mismo tiempo | at the same time |  | Conversational | 2026-03-13 | 2026-03-22 | 2 | 2.5000 | -1 | 
+por ejemplo | for example |  | Conversational | 2026-03-13 | 2026-03-22 | 5 | 2.2000 | -1 | 
+es decir | that is to say |  | Conversational | 2026-03-13 | 2026-04-11 | 16 | 0.4886 | 0 | 
+en general | in general |  | Conversational | 2026-03-13 | 2026-03-15 | 1 | 3.0000 | -1 | 
+cuando era niño | when I was a child |  | Conversational | 2026-03-15 | 2026-03-23 | 4 | 2.2500 | -1 | 
+por cierto | by the way |  | Conversational | 2026-03-16 | 2026-04-05 | 17 | 1.0024 | 0 | 
+es que | it's just that / the thing is |  | Conversational | 2026-03-16 | 2026-04-08 | 12 | 0.6364 | 0 | 
+lo que pasa es que | what happens is / the thing is |  | Conversational | 2026-03-16 | 2026-04-08 | 17 | 0.6207 | 0 | 
+a propósito | by the way / speaking of that |  | Conversational | 2026-03-16 | 2026-04-03 | 15 | 0.6653 | 0 | 
+a ver (qué/si)... | let's see (what/if)... |  | Conversational | 2026-03-16 | 2026-03-22 | 2 | 2.5000 | -1 | 
+con razón... | no wonder... |  | Conversational | 2026-03-16 | 2026-03-28 | 11 |  | 0 | 
+por eso... | that's why / for that reason |  | Conversational | 2026-03-16 | 2026-03-22 | 4 | 2.2500 | -1 | 
+en fin... | anyway / in the end |  | Conversational | 2026-03-16 | 2026-04-03 | 12 | 1.2467 | 0 | 
+total que | so anyway / long story short |  | Conversational | 2026-03-16 | 2026-04-11 | 14 | 0.4308 | 0 | 
+resulta (que) | it turns out (that) |  | Conversational | 2026-03-16 | 2026-03-24 | 5 | 1.8000 | -1 | 
+fíjate (que) | look / you see (that) |  | Conversational | 2026-03-16 | 2026-04-03 | 14 | 0.7164 | 0 | 
+menos mal (que) | it's a good thing (that) |  | Conversational | 2026-03-16 | 2026-04-05 | 18 | 1.1084 | 0 | 
+la verdad es (que) | the truth is (that) |  | Conversational | 2026-03-16 | 2026-03-22 | 3 | 2.3300 | -1 | 
+lo bueno es (que) | the good thing is (that) |  | Conversational | 2026-03-16 | 2026-03-22 | 3 | 2.0000 | -1 | 
+lo malo es (que) | the bad thing is (that) |  | Conversational | 2026-03-16 | 2026-03-22 | 3 | 2.0000 | -1 | 
+lo único es (que) | the only thing is (that) |  | Conversational | 2026-03-16 | 2026-03-22 | 3 | 1.6700 | -1 | 
+lo difícil es (que) | the hard thing is (that) |  | Conversational | 2026-03-16 | 2026-03-22 | 2 | 2.5000 | -1 | 
+lo peor es (que) | the worst thing is (that) |  | Conversational | 2026-03-16 | 2026-03-22 | 4 | 2.2500 | -1 | 
+lo mejor es (que) | the best thing is (that) |  | Conversational | 2026-03-16 | 2026-03-22 | 5 | 2.2000 | -1 | 
+lo raro es (que) / lo extraño es (que) | the strange thing is (that) |  | Conversational | 2026-03-16 | 2026-03-22 | 1 | 3.0000 | -1 | 
+lo chistoso es (que) | the funny thing is (that) |  | Conversational | 2026-03-16 | 2026-03-22 | 4 | 1.2500 | -1 | 
+lo increíble es (que) | the incredible thing is (that) |  | Conversational | 2026-03-16 | 2026-03-22 | 3 | 2.3300 | -1 | 
+lo (más) absurdo es (que) | the absurd thing is (that) |  | Conversational | 2026-03-16 | 2026-03-22 | 3 | 1.6700 | -1 | 
+pues… | well… / so… |  | Conversational | 2026-03-16 | 2026-03-24 | 7 | 2.0000 | -1 | 
+¡claro!, ¡claro que sí!, o ¿cómo no? | of course (it is) |  | Conversational | 2026-03-16 | 2026-04-03 | 14 | 1.2143 | -1 | 
+está bien | okay / alright |  | Conversational | 2026-03-16 | 2026-03-22 | 6 | 1.6700 | -1 | 
+Conste | Just so you know / I'll hold you to that |  | Conversational | 2026-03-16 | 2026-04-09 | 15 | 0.5985 | 0 | 
+(buen) provecho | enjoy your meal |  | Conversational | 2026-03-16 | 2026-03-24 | 5 | 1.8000 | -1 | 
+de acuerdo, o hecho | agreed / it's a deal |  | Conversational | 2026-03-16 | 2026-04-05 | 17 | 0.9388 | 0 | 
+¿verdad? | right? / isn't that true? |  | Conversational | 2026-03-16 | 2026-03-22 | 2 | 2.5000 | -1 | 
+no me importa | I don't care / it doesn't matter to me |  | Conversational | 2026-03-16 | 2026-03-24 | 7 | 2.1400 | -1 | 
+¿y qué?, o ¿y eso qué? | so what? |  | Conversational | 2026-03-16 | 2026-04-03 | 12 | 1.0000 | 0 | 
+¿y a mí qué? | what's it to me? |  | Conversational | 2026-03-16 | 2026-03-24 | 9 | 1.8900 | -1 | 
+¿y? | so? |  | Conversational | 2026-03-16 | 2026-03-22 | 2 | 2.5000 | -1 | 
+o sea | I mean / in other words |  | Conversational | 2026-03-16 | 2026-04-11 | 20 | 1.0038 | 0 | 
+ni hablar | no way / forget it / oh well |  | Conversational | 2026-03-16 | 2026-04-09 | 17 | 0.3908 | 0 | 
+cuando sea | whenever |  | Conversational | 2026-03-16 | 2026-03-26 | 9 | 1.5600 | -1 | 
+como sea | however / anyway |  | Conversational | 2026-03-16 | 2026-04-02 | 9 | 0.2222 | 0 | 
+donde sea | wherever |  | Conversational | 2026-03-16 | 2026-03-22 | 2 | 2.5000 | -1 | 
+quien sea | whoever |  | Conversational | 2026-03-16 | 2026-03-22 | 2 | 2.5000 | -1 | 
+¿qué pasa? | what's happening? |  | Conversational | 2026-03-06 | 2026-03-10 | 7 | 1.0000 | -1 | 
+¿qué estás haciendo? | what are you doing? |  | Conversational | 2026-03-06 | 2026-03-24 | 10 | 1.5000 | -1 | 
+¿qué quieres decir? | what do you mean? |  | Conversational | 2026-03-06 | 2026-03-22 | 10 | 1.8000 | -1 | 
+no hay problema | no problem |  | Conversational | 2026-03-06 | 2026-03-24 | 14 | 1.4300 | -1 | 
+no importa | it doesn't matter |  | Conversational | 2026-03-06 | 2026-04-03 | 18 | 1.4422 | 0 | 
+claro que sí | of course (it is) |  | Conversational | 2026-03-06 | 2026-03-09 | 4 | 2.2500 | -1 | 
+claro que no | of course not |  | Conversational | 2026-03-06 | 2026-03-10 | 9 | 1.8900 | -1 | 
+por supuesto | of course |  | Conversational | 2026-03-06 | 2026-03-11 | 7 | 1.8600 | -1 | 
+tal vez | maybe |  | Conversational | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+puede ser | maybe / could be |  | Conversational | 2026-03-06 | 2026-04-05 | 21 | 0.9048 | 0 | 
+ya veo | I see (ahhh) |  | Conversational | 2026-03-06 | 2026-04-11 | 19 | 0.9889 | 0 | 
+ya entiendo | now I understand |  | Conversational | 2026-03-06 | 2026-03-24 | 22 | 0.2300 | 0 | 
+tienes razón | you are right |  | Conversational | 2026-03-06 | 2026-03-11 | 5 | 2.0000 | -1 | 
+no estoy seguro | I'm not sure |  | Conversational | 2026-03-06 | 2026-04-05 | 17 | 0.8211 | -1 | 
+no lo sé | I don't know |  | Conversational | 2026-03-06 | 2026-04-03 | 16 | 0.8106 | -1 | 
+lo sé | I know (that) |  | Conversational | 2026-03-06 | 2026-03-12 | 5 | 2.2000 | -1 | 
+creo que sí | I think so |  | Conversational | 2026-03-06 | 2026-03-24 | 7 | 2.0000 | -1 | 
+creo que no | I don't think so |  | Conversational | 2026-03-06 | 2026-03-10 | 8 | 1.5000 | -1 | 
+depende | it depends |  | Conversational | 2026-03-06 | 2026-03-12 | 8 | 1.5000 | -1 | 
+qué bueno | that's good / what good |  | Conversational | 2026-03-06 | 2026-04-08 | 15 | 0.2999 | 0 | 
+qué lástima | what a shame |  | Conversational | 2026-03-06 | 2026-03-09 | 7 | 1.8600 | -1 | 
+qué suerte | how lucky | 🍀 | Conversational | 2026-03-06 | 2026-03-13 | 7 | 1.2900 | -1 | 
+buen trabajo | good job | 👍 | Conversational | 2026-03-06 | 2026-04-05 | 18 | 0.8356 | -1 | 
+bien hecho | well done | 👌 | Conversational | 2026-03-06 | 2026-04-02 | 18 | 1.1111 | -1 | 
+más o menos así | more or less like that |  | Conversational | 2026-03-06 | 2026-04-11 | 16 | 0.5947 | 0 | 
+tengo mucho trabajo hoy | I have a lot of work today |  | Conversational | 2026-03-06 | 2026-03-12 | 10 | 1.6000 | -1 | 
+no tengo tiempo ahora | I don't have time now |  | Conversational | 2026-03-06 | 2026-03-11 | 6 | 1.1700 | -1 | 
+quiero aprender más español | I want to learn more Spanish |  | Conversational | 2026-03-06 | 2026-03-12 | 5 | 2.0000 | -1 | 
+estoy muy cansado hoy | I am very tired today |  | Conversational | 2026-03-06 | 2026-03-23 | 10 | 1.1000 | -1 | 
+necesito descansar | I need to rest | 😴 | Conversational | 2026-03-06 | 2026-04-04 | 24 | 0.1251 | 0 | 
+vamos a comer algo | let's eat something |  | Conversational | 2026-03-06 | 2026-03-11 | 5 | 1.8000 | -1 | 
+voy a salir ahora | I'm going out now |  | Conversational | 2026-03-06 | 2026-03-28 | 4 | 1.2500 | -1 | 
+vuelvo en una hora | I'll come back in an hour |  | Conversational | 2026-03-06 | 2026-04-11 | 15 | 1.0154 | 0 | 
+estoy en casa | I am at home | 🏠 | Conversational | 2026-03-06 | 2026-03-24 | 9 | 1.3300 | -1 | 
+estoy en el trabajo | I am at work |  | Conversational | 2026-03-06 | 2026-03-24 | 10 | 1.4000 | -1 | 
+estoy con amigos | I am with friends |  | Conversational | 2026-03-06 | 2026-03-15 | 3 | 2.6700 | -1 | 
+hace mucho frío | it's very cold | ❄️ | Conversational | 2026-03-06 | 2026-04-03 | 8 | 0.7487 | -1 | 
+hace mucho calor | it's very hot | 🔥 | Conversational | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+hoy hace buen tiempo | the weather is nice today | 🌤️ | Conversational | 2026-03-06 | 2026-03-12 | 4 | 1.0000 | -1 | 
+mañana trabajo | tomorrow I work |  | Conversational | 2026-03-06 | 2026-03-23 | 22 | 0.0900 | -1 | 
+ayer salí con amigos | yesterday I went out with friends |  | Conversational | 2026-03-06 | 2026-04-05 | 15 | 0.9333 | 0 | 
+me gusta esta ciudad | I like this city |  | Conversational | 2026-03-06 | 2026-03-11 | 4 | 2.0000 | -1 | 
+no me gusta este restaurante | I don't like this restaurant |  | Conversational | 2026-03-06 | 2026-03-14 | 14 | 1.2900 | -1 | 
+este lugar es bonito | this place is beautiful |  | Conversational | 2026-03-06 | 2026-03-28 | 3 | 1.6700 | -1 | 
+la comida está muy buena | the food is very good |  | Conversational | 2026-03-06 | 2026-03-22 | 14 | 1.1400 | -1 | 
+¿qué quieres hacer? | what do you want to do? |  | Conversational | 2026-03-06 | 2026-03-15 | 9 | 1.8900 | -1 | 
+¿qué piensas? | what do you think? |  | Conversational | 2026-03-06 | 2026-03-22 | 10 | 1.6000 | -1 | 
+¿te gusta? | do you like it? |  | Conversational | 2026-03-06 | 2026-03-11 | 6 | 2.3300 | -1 | 
+me parece bien | that seems good to me |  | Conversational | 2026-03-06 | 2026-03-24 | 14 | 1.6400 | -1 | 
+me parece interesante | that seems interesting |  | Conversational | 2026-03-06 | 2026-03-24 | 15 | 1.5300 | -1 | 
+eso es verdad | that's true |  | Conversational | 2026-03-06 | 2026-03-24 | 9 | 1.8900 | -1 | 
+no estoy de acuerdo | I don't agree |  | Conversational | 2026-03-06 | 2026-03-24 | 10 | 1.9000 | -1 | 
+estoy de acuerdo | I agree |  | Conversational | 2026-03-06 | 2026-03-12 | 3 | 2.6700 | -1 | 
+no estoy seguro de eso | I'm not sure about that |  | Conversational | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+eso depende | that depends |  | Conversational | 2026-03-06 | 2026-04-02 | 15 | 1.1333 | -1 | 
+todo está bien | everything is fine |  | Conversational | 2026-03-06 | 2026-03-12 | 4 | 2.5000 | -1 | 
+todo está listo | everything is ready |  | Conversational | 2026-03-06 | 2026-03-13 | 3 | 2.6700 | -1 | 
+vamos a ver | let's see |  | Conversational | 2026-03-06 | 2026-04-08 | 12 | 0.4000 | -1 | 
+vamos poco a poco | let's go little by little |  | Conversational | 2026-03-06 | 2026-03-12 | 5 | 1.6000 | -1 | 
+un momento | one moment |  | Conversational | 2026-03-06 | 2026-03-12 | 6 | 1.6700 | -1 | 
+espera un segundo | wait a second |  | Conversational | 2026-03-06 | 2026-04-08 | 18 | 0.6583 | 0 | 
+dame un minuto | give me a minute |  | Conversational | 2026-03-06 | 2026-03-13 | 6 | 0.8300 | -1 | 
+no tengo idea | I have no idea |  | Conversational | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+es una buena idea | it's a good idea |  | Conversational | 2026-03-06 | 2026-04-05 | 21 | 0.8563 | 0 | 
+es mala idea | it's a bad idea |  | Conversational | 2026-03-06 | 2026-04-03 | 14 | 1.0000 | 0 | 
+no pasa nada | nothing happens / it's fine |  | Conversational | 2026-03-06 | 2026-04-08 | 16 | 0.6515 | 0 | 
+qué interesante | how interesting |  | Conversational | 2026-03-06 | 2026-03-11 | 7 | 1.5700 | -1 | 
+qué raro | how strange |  | Conversational | 2026-03-06 | 2026-03-23 | 10 | 1.5000 | -1 | 
+qué divertido | how fun |  | Conversational | 2026-03-06 | 2026-03-12 | 4 | 2.2500 | -1 | 
+qué problema | what a problem |  | Conversational | 2026-03-06 | 2026-03-13 | 3 | 2.6700 | -1 | 
+trabajo desde casa | I work from home | 🏠 | Conversational | 2026-03-06 | 2026-03-24 | 11 | 1.1800 | -1 | 
+trabajo en una oficina | I work in an office |  | Conversational | 2026-03-06 | 2026-03-22 | 8 | 2.0000 | -1 | 
+viajo mucho por trabajo | I travel a lot for work |  | Conversational | 2026-03-06 | 2026-03-11 | 3 | 1.6700 | -1 | 
+aprendo algo nuevo cada día | I learn something new every day |  | Conversational | 2026-03-06 | 2026-03-24 | 12 | 1.7500 | -1 | 
+leo noticias en español | I read news in Spanish |  | Conversational | 2026-03-06 | 2026-03-09 | 6 | 1.0000 | -1 | 
+escucho podcasts en español | I listen to podcasts in Spanish |  | Conversational | 2026-03-06 | 2026-03-28 | 11 | 0.8200 | -1 | 
+quiero vivir en España | I want to live in Spain |  | Conversational | 2026-03-06 | 2026-04-02 | 4 | 1.4975 | -1 | 
+me gusta aprender idiomas | I like learning languages |  | Conversational | 2026-03-06 | 2026-03-10 | 10 | 1.4000 | -1 | 
+hablo español todos los días | I speak Spanish every day |  | Conversational | 2026-03-06 | 2026-03-12 | 7 | 1.7100 | -1 | 
+practico con amigos | I practice with friends |  | Conversational | 2026-03-06 | 2026-03-22 | 5 | 2.2000 | -1 | 
+necesito más práctica | I need more practice |  | Conversational | 2026-03-06 | 2026-03-22 | 10 | 1.0000 | -1 | 
+entiendo un poco | I understand a little |  | Conversational | 2026-03-06 | 2026-03-15 | 4 | 2.2500 | -1 | 
+no entiendo todo | I don't understand everything |  | Conversational | 2026-03-06 | 2026-03-23 | 9 | 1.8900 | -1 | 
+puedo intentar otra vez | I can try again |  | Conversational | 2026-03-06 | 2026-04-09 | 20 | 0.9214 | 0 | 
+vamos al mercado | let's go to the market |  | Conversational | 2026-03-06 | 2026-03-12 | 5 | 1.6000 | -1 | 
+vamos a caminar | let's go for a walk |  | Conversational | 2026-03-06 | 2026-03-13 | 6 | 1.8300 | -1 | 
+vamos a tomar un café | let's get a coffee | ☕ | Conversational | 2026-03-06 | 2026-03-11 | 3 | 1.6700 | -1 | 
+voy al supermercado | I go to the supermarket |  | Conversational | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+compro comida | I buy food |  | Conversational | 2026-03-06 | 2026-03-11 | 4 | 1.2500 | -1 | 
+preparo la cena | I prepare dinner |  | Conversational | 2026-03-06 | 2026-03-12 | 4 | 2.5000 | -1 | 
+abro la puerta | I open the door | 🚪 | Conversational | 2026-03-06 | 2026-03-12 | 4 | 2.5000 | -1 | 
+cierro la ventana | I close the window |  | Conversational | 2026-03-06 | 2026-03-22 | 6 | 1.8300 | -1 | 
+llego temprano | I arrive early |  | Conversational | 2026-03-06 | 2026-03-22 | 13 | 1.6900 | -1 | 
+salgo tarde del trabajo | I leave work late |  | Conversational | 2026-03-06 | 2026-04-08 | 16 | 0.8391 | 0 | 
+me quedo en casa hoy | I stay home today | 🏠 | Conversational | 2026-03-06 | 2026-04-03 | 15 | 0.9333 | -1 | 
+¿puedo ver el menú? | can I see the menu? | 📋 | Conversational | 2026-03-10 | 2026-04-02 | 10 | 0.9980 | -1 | 
+¿qué recomienda? | what do you recommend? | ⭐ | Conversational | 2026-03-10 | 2026-03-16 | 11 | 0.4500 | -1 | 
+quiero pedir | I want to order | 🍽️ | Conversational | 2026-03-10 | 2026-03-24 | 10 | 1.0000 | -1 | 
+para mí | for me | 🙋 | Conversational | 2026-03-10 | 2026-03-22 | 4 | 1.5000 | -1 | 
+sin sal | without salt | 🧂 | Conversational | 2026-03-10 | 2026-03-15 | 4 | 2.5000 | -1 | 
+sin azúcar | without sugar | 🚫🍬 | Conversational | 2026-03-10 | 2026-03-13 | 4 | 2.2500 | -1 | 
+con hielo | with ice | 🧊 | Conversational | 2026-03-10 | 2026-03-24 | 8 | 1.5000 | -1 | 
+para llevar | to take away / takeaway | 🥡 | Conversational | 2026-03-10 | 2026-03-24 | 7 | 1.7100 | -1 | 
+¿Está incluido el servicio? | Is service included? |  | Conversational | 2026-03-10 | 2026-03-15 | 10 |  | 0 | 
+¿puedo pagar con tarjeta? | can I pay with card? | 💳 | Conversational | 2026-03-10 | 2026-03-22 | 5 | 1.6000 | -1 | 
+volveré | I will return |  | Conversational | 2026-03-06 | 2026-04-05 | 17 | 1.1788 | 0 | 
+tengo sueño | I am sleepy | 😴 | Conversational | 2026-03-09 | 2026-03-24 | 6 | 1.1700 | -1 | 
+vamos por este sendero | let's go along this trail |  | Conversational | 2026-03-09 | 2026-04-02 | 16 | 0.5606 | 0 | 
+creo que viene lluvia | I think rain is coming | 🌧️ | Conversational | 2026-03-09 | 2026-04-09 | 17 | 0.3062 | 0 | 
+podemos regresar al coche | we can return to the car |  | Conversational | 2026-03-09 | 2026-04-03 | 11 | 0.4573 | -1 | 
+disfruto mucho este lugar | I enjoy this place a lot | 😊 | Conversational | 2026-03-09 | 2026-04-05 | 17 | 0.6494 | 0 | 
+a la parrilla | grilled | 🔥 | Conversational | 2026-03-09 | 2026-04-05 | 11 | 0.4582 | 0 | 
+a la plancha | grilled on a flat top | 🍳 | Conversational | 2026-03-09 | 2026-04-05 | 12 | 0.6666 | 0 | 
+al parecer | apparently / it seems |  | Conversational | 2026-03-12 | 2026-04-05 | 14 | 0.4285 | 0 | 
+nunca lo he usado | I have never used it |  | Conversational | 2026-03-12 | 2026-04-11 | 18 | 0.2759 | 0 | 
+al menos | at least |  | Conversational | 2026-03-13 | 2026-03-24 | 6 | 1.6700 | -1 | 
+en realidad | actually / in reality |  | Conversational | 2026-03-13 | 2026-03-22 | 5 | 2.2000 | -1 | 
+de hecho | in fact |  | Conversational | 2026-03-13 | 2026-04-03 | 20 | 0.6475 | -1 | 
+porque de hecho | because in fact |  | Conversational | 2026-03-13 | 2026-04-08 | 12 | 0.2520 | 0 | 
+ya que | since / because |  | Conversational | 2026-03-13 | 2026-04-05 | 15 | 0.8666 | 0 | 
+Por lo tanto... | Therefore... |  | Conversational | 2026-03-13 | 2026-03-28 | 13 | -0.0800 | 0 | 
+Vamos a hablar de… | We’re going to talk about… |  | Conversational | 2026-03-26 | 2026-04-05 | 8 | 0.6250 | 0 | 
+No me di cuenta… | I didn’t realize… |  | Conversational | 2026-03-26 | 2026-03-27 | 0 |  | 1 | 
+Se me olvidó | I forgot |  | Conversational | 2026-03-26 | 2026-03-28 | 1 | -1.0000 | 1 | 
+A ver qué pasa | Let’s see what happens |  | Conversational | 2026-03-26 | 2026-04-08 | 13 | 0.9555 | 0 | 
+Es como que… | It’s like… |  | Conversational | 2026-03-26 | 2026-04-05 | 9 | 0.5556 | 0 | 
+Yo creo que… | I think that… |  | Conversational | 2026-03-26 | 2026-04-03 | 7 | 0.4286 | -1 | 
+Y no lo es | And it’s not |  | Conversational | 2026-03-26 | 2026-04-05 | 8 | 0.2500 | 0 | 
+Lo ponemos a prueba | We put it to the test |  | Conversational | 2026-03-26 | 2026-04-05 | 10 | 0.5000 | 0 | 
+Y que se disfrute | Enjoy it / Hope you enjoy it |  | Conversational | 2026-03-26 | 2026-04-08 | 3 | 2.0000 | 0 | 
+¿Y cuál sería lo mejor? | And what would be the best? |  | Conversational | 2026-03-26 | 2026-04-08 | 11 | 1.1600 | 0 | 
+A veces pasa que… | Sometimes it happens that… |  | Conversational | 2026-03-26 | 2026-04-10 | 2 | 1.0000 | 0 | 
+creo que hay que… | I think one has to / we should… |  | Conversational | 2026-03-26 | 2026-04-04 | 9 | 0.6667 | 0 | 
+Pero también he notado que… | But I’ve also noticed that… |  | Conversational | 2026-03-26 | 2026-04-09 | 1 |  | 0 | 
+Incluso a veces… | Even sometimes… |  | Conversational | 2026-03-26 | 2026-04-05 | 9 | 0.6667 | 0 | 
+Y esto me recuerda mucho a… | And this reminds me a lot of… |  | Conversational | 2026-03-26 | 2026-04-11 | 16 | 1.6267 | 0 | 
+Me explico: por ejemplo… | let me explain: for example… |  | Conversational | 2026-03-24 | 2026-04-08 | 5 | 0.3500 | 0 | 
+O también, pues… | Or also, well… |  | Conversational | 2026-03-24 | 2026-04-08 | 3 | -1.0000 | -1 | 
+...que, a veces, suena muy bien | ...which sometimes sounds really good |  | Conversational | 2026-03-24 | 2026-04-08 | 3 | 0.9800 | 0 | 
+!Ah, sí, porque, bueno, pequeño secreto… | Oh yeah, because, well, little secret… |  | Conversational | 2026-03-24 | 2026-04-08 | 4 | 0.7000 | 0 | 
+Me tocó observar | I ended up observing / I had to observe |  | Conversational | 2026-03-24 | 2026-04-05 | 7 | 0.7143 | 0 | 
+Un poco como… | Kind of like… |  | Conversational | 2026-03-24 | 2026-04-09 | 2 |  | 0 | 
+igual | maybe / perhaps |  | Conversational | 2026-03-24 | 2026-04-08 | 2 |  | 0 | 
+Igual nos vemos | Perhaps we’ll see each other |  | Conversational | 2026-03-24 | 2026-04-08 | 4 | 1.0000 | 0 | 
+Igual no te gusta, pero… | Perhaps you won’t like it, but… |  | Conversational | 2026-03-24 | 2026-04-08 | 1 |  | 0 | 
+Yo igual | Me too / Same here |  | Conversational | 2026-03-24 | 2026-04-09 | 2 |  | 0 | 
+A mí me llamó mucho la atención… | I found it really interesting that… |  | Conversational | 2026-03-24 | 2026-04-09 | 7 | 0.9333 | 0 | 
+a lo mejor… | maybe / perhaps |  | Conversational | 2026-03-24 | 2026-04-09 | 2 |  | 0 | 
+Se me ocurre… | It occurs to me… |  | Conversational | 2026-03-24 | 2026-04-08 | 4 | 0.2333 | 0 | 
+Me viene a la mente… | It comes to mind… |  | Conversational | 2026-03-24 | 2026-04-05 | 3 | 0.6667 | 0 | 
+Hace poco… | Recently… |  | Conversational | 2026-04-02 | 2026-04-11 | 4 | 1.0290 | 0 | 
+Desde entonces… | Since then… |  | Conversational | 2026-04-02 | 2026-04-04 | 0 |  | 1 | 
+Para mí… | For me / In my case… |  | Conversational | 2026-04-02 | 2026-04-10 | 1 |  | 0 | 
+Yo suelo… | I tend to / I usually… |  | Conversational | 2026-04-02 | 2026-04-04 | 0 |  | 1 | 
+Lo que pasó fue que… | What happened was that… |  | Conversational | 2026-04-02 | 2026-04-09 | 3 | 1.5800 | 0 | 
+Lo que más me gusta es… | What I like most is… |  | Conversational | 2026-04-02 | 2026-04-11 | 5 | 0.8960 | 0 | 
+Lo que menos me gusta es… | What I like least is… |  | Conversational | 2026-04-02 | 2026-04-04 | 0 |  | 1 | 
+Me parece que… | It seems to me that… |  | Conversational | 2026-04-02 | 2026-04-04 | 0 |  | 1 | 
+Diría que… | I would say that… |  | Conversational | 2026-04-02 | 2026-04-10 | 2 | 2.7000 | 0 | 
+Es curioso que… | It’s interesting/curious that… |  | Conversational | 2026-04-02 | 2026-04-08 | 1 |  | 0 | 
+Cada vez que… | Every time that… |  | Conversational | 2026-04-02 | 2026-04-09 | 2 |  | 0 | 
+Sin darme cuenta… | Without realizing it… |  | Conversational | 2026-04-02 | 2026-04-04 | 0 |  | 1 | 
+Al final… | In the end… |  | Conversational | 2026-04-02 | 2026-04-04 | 0 |  | 1 | 
+Y entonces… | And then… |  | Conversational | 2026-04-02 | 2026-04-08 | 3 | 1.4000 | 0 | 
+Tengo pensado… | I’m planning to… / I have thoughts to… |  | Conversational | 2026-04-02 | 2026-04-04 | 0 |  | 1 | 
+Así que… | So / therefore… |  | Conversational | 2026-04-02 | 2026-04-09 | 4 | 2.0000 | 0 | 
+En otras palabras… | In other words… |  | Conversational | 2026-04-02 | 2026-04-04 | 0 |  | 1 | 
+Sobre todo… | Above all… / especially… |  | Conversational | 2026-04-02 | 2026-04-04 | 0 |  | 1 | 
+No puedo quejarme | I can’t complain |  | Conversational | 2026-03-24 | 2026-04-09 | 5 | 0.8330 | 0 | 
+¿Aún vale la pena? | Is it still worth it? |  | Conversational | 2026-03-24 | 2026-04-08 | 3 | 1.4900 | 0 | 
+Ya está | That’s it / It’s done |  | Conversational | 2026-03-24 | 2026-04-04 | 0 |  | 1 | 
+No sé cuál sea la razón | I don’t know what the reason is |  | Conversational | 2026-03-24 | 2026-04-04 | 0 |  | 1 | 
+Yo no he ido | I haven’t gone |  | Conversational | 2026-03-24 | 2026-04-09 | 3 | 1.1900 | 0 | 
+He escuchado que… | I’ve heard that… |  | Conversational | 2026-03-24 | 2026-04-11 | 3 | 1.5800 | 0 | 
+A mí me ha tocado conocer… | I’ve had the chance to meet… |  | Conversational | 2026-03-24 | 2026-04-04 | 0 |  | 1 | 
+Esto me hace pensar en otro aspecto | This makes me think of another aspect |  | Conversational | 2026-03-24 | 2026-04-04 | 0 |  | 1 | 
+Está por llegar... | It’s about to arrive / It’s about to happen... |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Todavía no he empezado... | I still haven’t started... |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Frente a... | in front of... / facing... |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+No oigo nada | I can’t hear anything |  | Conversational | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+¿Oyes eso? | Do you hear that? |  | Conversational | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+Oigo mejor desde aquí | I hear better from here |  | Conversational | 2026-04-06 | 2026-04-09 | 3 | 0.7000 | 0 | 
+No quepo aquí | I don’t fit here |  | Conversational | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+¿Cabe todo en el coche? | Does everything fit in the car? |  | Conversational | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+No cabemos todos | We don’t all fit |  | Conversational | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
+Creo que la comida ya está hecha | I think the food is already done |  | Conversational | 2026-04-07 | 2026-04-11 | 4 | 0.6860 | 0 | 
+Dormí como un tronco | I slept like a log |  | Conversational | 2026-04-07 | 2026-04-09 | 2 |  | 0 | 
+¿Sabes qué...? | You know what...? |  | Conversational | 2026-04-07 | 2026-04-08 | 0 |  | 1 | 
+¿Qué tal si...? | What if...? |  | Conversational | 2026-04-07 | 2026-04-08 | 2 | 1.4000 | 0 | 
+A diferencia de... | Unlike... |  | Conversational | 2026-04-07 | 2026-04-08 | 0 |  | 1 | 
+De acuerdo con... | According to... |  | Conversational | 2026-04-07 | 2026-04-08 | 0 |  | 1 | 
+A punto de... | About to... |  | Conversational | 2026-04-07 | 2026-04-08 | 0 |  | 1 | 
+Por mi cuenta | On my own |  | Conversational | 2026-04-07 | 2026-04-08 | 0 |  | 1 | 
+A espaldas de... | Behind someone’s back |  | Conversational | 2026-04-07 | 2026-04-08 | 4 | 0.6860 | 0 | 
+En mi opinión... | In my opinion... |  | Conversational | 2026-04-07 | 2026-04-08 | 0 |  | 1 | 
+Dependiendo de... | Depending on... |  | Conversational | 2026-04-07 | 2026-04-08 | 0 |  | 1 | 
+¿Tienes una llave inglesa? | Do you have a wrench? |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+¿Me pasas el destornillador? | Can you pass me the screwdriver? |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Este tornillo está flojo | This screw is loose |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Hay que apretarlo | We need to tighten it |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Esto no está bien ajustado | This isn’t properly adjusted |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Se movió un poco | It shifted a bit |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Creo que hay que cambiar esto | I think we need to replace this |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+El asiento no corre bien | The seat isn’t sliding well |  | Conversational | 2026-04-02 | 2026-04-10 | 1 |  | 0 | 
+Los rieles están sucios | The sliders are dirty |  | Conversational | 2026-04-02 | 2026-04-10 | 1 | 1.0000 | 0 | 
+La zapata está mal ajustada | The footplate is poorly set |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Estuvo duro | That was hard |  | Conversational | 2026-04-02 | 2026-04-09 | 1 | 2.0000 | 0 | 
+Estuvo pesado | That was tough |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Me costó mucho | That was really hard for me |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Me quedé sin aire | I ran out of breath |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Me quemaban las piernas | My legs were burning |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Ya estaba muerto | I was exhausted |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Eso sí estuvo intenso | That was intense |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+El agua estaba perfecta | The water was perfect |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+El agua estaba muy movida | The water was choppy |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Había muchas olas | There were a lot of waves |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Está perfecto para remar | It’s perfect for rowing |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Hace mucho viento | It’s very windy |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Hay viento en contra | Headwind |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Hay viento a favor | Tailwind |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+¿Qué hacemos de calentamiento? | What are we doing for warmup? |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+¿Cuántas repeticiones? | How many reps? |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+¿Con cuánto peso? | How much weight? |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Mantén la espalda recta | Keep your back straight |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Controla el movimiento | Control the movement |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Mantén el ritmo | Keep the rhythm |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+No te apresures | Don’t rush |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Relájate un poco | Relax a bit |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+¿Con quién voy a remar este fin de semana? | Who am I going to row with this weekend? |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+¿Quién va en el bote? | Who’s in the boat? |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+¿Quién está en el equipo de carrera? | Who’s in the race crew? |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+¿A qué hora es la práctica? | What time is practice? |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+¿Dónde es la regata? | Where is the regatta? |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+¿Ya está decidido el lineup? | Is the lineup decided yet? |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+¿Qué tal estuvo? | How was it? |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+No estuvo tan mal | It wasn’t that bad |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Sí estuvo difícil | Yeah, it was tough |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Mañana va a estar duro | Tomorrow’s going to be tough |  | Conversational | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
+Crear una tarjeta | Create a card (formal command) |  | Conversational | 2026-04-11 | 2026-04-15 | 0 |  | 0 | 
+He estado cansado | I've been tired |  | Conversational | 2026-04-12 | 2026-04-15 | 0 |  | 1 | 
 
