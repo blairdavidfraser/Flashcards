@@ -82,9 +82,8 @@ window.startRound = () => screenStudy.startRound();
 window.finishRound = () => screenStudy.finishRound();
 window.cycleRound = (difficulty, level) => screenStudy.cycleRound(difficulty, level);
 window.endGame = () => screenStudy.endGame();
-window.toggleAutopilot = () => { screenStudy.toggleAutopilot(); dropdownMenu.refresh(); };
 
-const dropdownMenu = new ApplicationDropdownMenu(gameplay, { getAutopilot: () => screenStudy.autopilot });
+const dropdownMenu = new ApplicationDropdownMenu(gameplay);
 window.toggleSound = (type) => dropdownMenu.toggleSound(type);
 
 window.selectGame = selectGame;

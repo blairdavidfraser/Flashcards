@@ -6,11 +6,9 @@
 export class ApplicationDropdownMenu {
 
     #menu = null;
-    #getAutopilot = null;
 
-    constructor(gameplay, { getAutopilot } = {}) {
+    constructor(gameplay) {
         this.gameplay = gameplay;
-        this.#getAutopilot = getAutopilot;
 
         this.#menu = document.getElementById("dropdownMenu");
         const hamburger = document.getElementById("hamburger");
@@ -31,13 +29,6 @@ export class ApplicationDropdownMenu {
     }
 
     refresh() {
-        const autoItem = document.getElementById("autopilotToggle");
-        if (autoItem) {
-            autoItem.innerHTML = this.#getAutopilot?.()
-                ? "✅ Autopilot"
-                : "❌ Autopilot";
-        }
-
         const foreignItem = document.getElementById("foreignSoundToggle");
         if (foreignItem) {
             foreignItem.innerHTML = this.gameplay.sound.foreign
