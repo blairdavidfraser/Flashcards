@@ -8,8 +8,8 @@ import { Game } from "../scripts/Game.js"
 describe('Game', function () {
 
     let originalRandom;
-    before(function () { originalRandom = Math.random; });
-    after(function () { Math.random = originalRandom; });
+    beforeAll(function () { originalRandom = Math.random; });
+    afterAll(function () { Math.random = originalRandom; });
 
     function makeCard(overrides = {}) {
         return new Card({

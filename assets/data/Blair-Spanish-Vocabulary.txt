@@ -771,7 +771,6 @@ llegar | to arrive |  | Verb | false | 2026-04-06 | 2026-04-11 | 3 | 1.4000 | 0 
 llenar | to fill |  | Verb | false | 2026-03-24 | 2026-03-28 | 3 | 2.3300 | -1 | 
 llevar | to carry / take |  | Verb | false | 2026-04-06 | 2026-04-11 | 5 | 1.1060 | 0 | 
 llorar | to cry |  | Verb | false | 2026-03-24 | 2026-04-02 | 5 | 0.6000 | -1 | 
-llorar | to cry |  | Verb | false | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
 lograr | to achieve |  | Verb | false | 2026-03-13 | 2026-04-11 | 17 | 0.8767 | 0 | 
 mandar | to send / to order |  | Verb | false | 2026-04-06 | 2026-04-10 | 1 |  | 0 | 
 manejar | to drive |  | Verb | false | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
