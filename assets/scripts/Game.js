@@ -30,7 +30,8 @@ export class Game {
                 native: false
             },
             categories: new Set(),
-            recency: 5 // number of recent cards to exclude from selection
+            recency: 5, // number of recent cards to exclude from selection
+            onlyFavourites: false
         };
 
         this.state = {
@@ -90,6 +91,9 @@ export class Game {
         const now = Date.now();
         this.#enabled = this.#deck.filter(c => c.added <= now);
         this.#enabled = this.#filterByCategory(this.#enabled, this.configuration.categories);
+        if (this.configuration.onlyFavourites) {
+            this.#enabled = this.#enabled.filter(c => c.favourite === true);
+        }
         switch (this.rank) {
 
             case 'review':

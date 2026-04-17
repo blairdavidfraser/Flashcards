@@ -97,6 +97,10 @@
             <label><input type="radio" name="timeout" value="6" onclick="selectGameTimeout(6)">6s</label>
         </div>
 
+        <div class="row">
+            <label><input type="checkbox" id="onlyFavourites" onchange="selectOnlyFavourites(this.checked)">Only favourites</label>
+        </div>
+
         <hr class="menu-divider">
 
         <div id="categoryFilters" class="row category-filters"></div>
@@ -118,7 +122,15 @@
     <div id="studyArea" class="hidden">
 
         <div id="card" class="card" onclick="finishRound()">
-            <div id="cardHeader" class="card-header"></div>
+            <div id="cardHeader" class="card-header">
+                <table class="card-header-table">
+                    <tr>
+                        <td id="cardHeaderLeft" class="card-header-corner" onclick="toggleFavourite(event)"></td>
+                        <td id="cardCategory" class="card-header-center"></td>
+                        <td id="cardHeaderRight" class="card-header-corner"></td>
+                    </tr>
+                </table>
+            </div>
             <div id="cardTop" class="card-top">Press Here</div>
             <div id="cardDivider" class="card-divider">--------- <span id="cardEmoji"></span> ---------</div>
             <div id="cardBottom" class="card-bottom"></div>

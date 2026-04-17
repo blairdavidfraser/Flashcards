@@ -1,4 +1,4 @@
-# front | back | emoji | category | added | lastSeen | seen | penalty | level | comment
+# front | back | emoji | category | favourite | added | lastSeen | seen | penalty | level | comment
 #
 # The above header line is the schema of this file. Use it when creating new cards, along
 # with the detailed description of each field which follows.
@@ -91,65 +91,65 @@
 #
 
 # >>> Basics
-Bonjour | Hello / Good morning |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Bonsoir | Good evening |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Salut | Hi / Bye (informal) |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Au revoir | Goodbye |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-À bientôt | See you soon |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-À plus tard | See you later |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Merci | Thank you |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Merci beaucoup | Thank you very much |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-De rien | You're welcome |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-S'il vous plaît | Please (formal) |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-S'il te plaît | Please (informal) |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Excusez-moi | Excuse me (formal) |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Pardon | Sorry / excuse me |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Désolé | Sorry |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Comment ça va ? | How are you? |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Ça va bien | I’m doing well |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Comme ci, comme ça | So-so |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Ça ne va pas | Not good |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Qui ? | Who? |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Quoi ? | What? |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Où ? | Where? |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Quand ? | When? |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Pourquoi ? | Why? |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Comment ? | How? |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Combien ? | How much / many? |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Je ne comprends pas | I don’t understand |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Pouvez-vous répéter ? | Can you repeat? |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Parlez-vous anglais ? | Do you speak English? |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Je parle un peu français | I speak a little French |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Où sont les toilettes ? | Where is the bathroom? |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Où est… ? | Where is…? |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-C’est loin ? | Is it far? |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-À gauche | To the left |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-À droite | To the right |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Tout droit | Straight ahead |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Je voudrais… | I would like… |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Je prends… | I’ll take… |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-L’addition, s’il vous plaît | The bill, please |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-C’est combien ? | How much is it? |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Je peux payer par carte ? | Can I pay by card? |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Un | One |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Deux | Two |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Trois | Three |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Quatre | Four |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Cinq | Five |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Six | Six |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Sept | Seven |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Huit | Eight |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Neuf | Nine |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Dix | Ten |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Janvier | January |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Février | February |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Mars | March |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Avril | April |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Mai | May |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Juin | June |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Juillet | July |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Août | August |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Septembre | September |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Octobre | October |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Novembre | November |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Décembre | December |  | Conversational | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Bonjour | Hello / Good morning |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Bonsoir | Good evening |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Salut | Hi / Bye (informal) |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Au revoir | Goodbye |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+À bientôt | See you soon |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+À plus tard | See you later |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Merci | Thank you |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Merci beaucoup | Thank you very much |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+De rien | You're welcome |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+S'il vous plaît | Please (formal) |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+S'il te plaît | Please (informal) |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Excusez-moi | Excuse me (formal) |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Pardon | Sorry / excuse me |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Désolé | Sorry |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Comment ça va ? | How are you? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Ça va bien | I’m doing well |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Comme ci, comme ça | So-so |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Ça ne va pas | Not good |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Qui ? | Who? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Quoi ? | What? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Où ? | Where? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Quand ? | When? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Pourquoi ? | Why? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Comment ? | How? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Combien ? | How much / many? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Je ne comprends pas | I don’t understand |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Pouvez-vous répéter ? | Can you repeat? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Parlez-vous anglais ? | Do you speak English? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Je parle un peu français | I speak a little French |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Où sont les toilettes ? | Where is the bathroom? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Où est… ? | Where is…? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+C’est loin ? | Is it far? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+À gauche | To the left |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+À droite | To the right |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Tout droit | Straight ahead |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Je voudrais… | I would like… |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Je prends… | I’ll take… |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+L’addition, s’il vous plaît | The bill, please |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+C’est combien ? | How much is it? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Je peux payer par carte ? | Can I pay by card? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Un | One |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Deux | Two |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Trois | Three |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Quatre | Four |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Cinq | Five |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Six | Six |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Sept | Seven |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Huit | Eight |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Neuf | Nine |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Dix | Ten |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Janvier | January |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Février | February |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Mars | March |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Avril | April |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Mai | May |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Juin | June |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Juillet | July |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Août | August |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Septembre | September |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Octobre | October |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Novembre | November |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Décembre | December |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |

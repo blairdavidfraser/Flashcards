@@ -33,6 +33,9 @@ export class Gameplay {
     get categories() { return this.game.configuration.categories; }
     set categories(v) { this.game.configuration.categories = v; }
 
+    get onlyFavourites() { return this.game.configuration.onlyFavourites; }
+    set onlyFavourites(v) { this.game.configuration.onlyFavourites = v; }
+
     get cards() { return this.game.dataset.filter(item => item instanceof Card); }
 
     get state() { return this.game.state; }

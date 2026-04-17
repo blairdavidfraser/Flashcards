@@ -24,7 +24,8 @@ export class ApplicationScreenStudy {
         clearTimeout(this.#timer);
         this.gameplay.draw();
         this.#speakText(this.gameplay.state.questionSpeech, this.gameplay.state.questionLanguage);
-        document.getElementById("cardHeader").innerText = this.gameplay.state.card.category || "";
+        this.#updateStar();
+        document.getElementById("cardCategory").innerText = this.gameplay.state.card.category || "";
         document.getElementById("cardTop").innerHTML = this.#renderCardContent(this.gameplay.state.questionText);
         document.getElementById("cardEmoji").innerHTML = this.gameplay.state.questionEmoji;
         document.getElementById("cardBottom").innerHTML = "&nbsp;";
@@ -70,6 +71,21 @@ export class ApplicationScreenStudy {
         clearTimeout(this.#timer);
         this.gameplay.end();
         this.#backToMenu();
+    }
+
+    #updateStar() {
+        const card = this.gameplay.state.card;
+        const el = document.getElementById("cardHeaderLeft");
+        if (el) el.innerHTML = card?.favourite ? "⭐" : "☆";
+    }
+
+    toggleFavourite(event) {
+        event?.stopPropagation();
+        const card = this.gameplay.state.card;
+        if (!card) return;
+        card.favourite = !card.favourite;
+        this.gameplay.save();
+        this.#updateStar();
     }
 
     #speakText(text, lang) {

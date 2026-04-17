@@ -17,6 +17,7 @@ export class Dataset {
                 item.back,
                 item.emoji || "",
                 item.category || "",
+                item.favourite || false,
                 formatDate(item.added),
                 formatDate(item.lastSeen),
                 item.seen,
@@ -35,18 +36,19 @@ export class Dataset {
                 items.push(new Comment(trimmed));
                 continue;
             }
-            const parts = line.split("|");
+            const parts = line.split("|").map(p => p.trim());
             const card = new Card({
-                front:    parts[0].trim(),
-                back:     parts[1].trim(),
-                emoji:    parts[2].trim() || "",
-                category: parts[3].trim() || "",
-                added:    parseDate(parts[4].trim()),
-                lastSeen: parseDate(parts[5].trim()),
-                seen:     parseInt(parts[6]) || 0,
-                penalty:  parts[7]?.trim() ? parseFloat(parts[7]) : null,
-                level:    parseInt(parts[8]) || 0,
-                comment:  parts[9]?.trim() || ""
+                front: parts[0]?.trim(),
+                back: parts[1]?.trim(),
+                emoji: parts[2]?.trim() || "",
+                category: parts[3]?.trim() || "",
+                favourite: parts[4]?.trim() === "true" ? true : false,
+                added: parseDate(parts[5]),
+                lastSeen: parseDate(parts[6]),
+                seen: parseInt(parts[7]) || 0,
+                penalty: parts[8] ? parseFloat(parts[8]) : null,
+                level: parseInt(parts[9]) || 0,
+                comment: parts[10]?.trim() || ""
             });
             if (card.validate()) items.push(card);
         }

@@ -76,6 +76,7 @@ function backToMenu() {
 window.selectGameRank = v => gameplay.rank = v
 window.selectGameDirection = v => gameplay.direction = v
 window.selectGameTimeout = v => gameplay.timeout = parseInt(v)
+window.selectOnlyFavourites = v => gameplay.onlyFavourites = v
 
 const screenStudy = new ApplicationScreenStudy(gameplay, { backToMenu });
 window.startGame = (rank) => screenStudy.startGame(rank);
@@ -83,6 +84,7 @@ window.startRound = () => screenStudy.startRound();
 window.finishRound = () => screenStudy.finishRound();
 window.cycleRound = (difficulty, level) => screenStudy.cycleRound(difficulty, level);
 window.endGame = () => screenStudy.endGame();
+window.toggleFavourite = (event) => screenStudy.toggleFavourite(event);
 
 const dropdownMenu = new ApplicationDropdownMenu(gameplay);
 window.toggleSound = (type) => dropdownMenu.toggleSound(type);

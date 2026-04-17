@@ -13,6 +13,7 @@ export class Card {
         this.back = data.back?.trim() || "";
         this.emoji = data.emoji?.trim() || "";
         this.category = data.category?.trim() || "uncategorized";
+        this.favourite = data.favourite || false;
         this.added = data.added || Date.now();
         this.lastSeen = data.lastSeen || null;
         this.seen = data.seen || 0;

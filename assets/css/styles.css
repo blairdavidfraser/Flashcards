@@ -176,19 +176,51 @@ button {
 }
 
 .card-header {
-    font-weight: 600;
-    font-size: 15px;
-    color: #5d5440;
-    padding: 10px 14px;
-    text-align: left;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
+.card-header-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.card-header-corner {
+    width: 50px;
+    padding: 10px 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#cardHeaderLeft {
+    cursor: pointer;
+}
+
+.card-header-center {
+    padding: 10px 8px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #5d5440;
+    text-align: left;
+    vertical-align: middle;
+}
+
 .card-footer {
+    position: relative;
     padding: 8px 14px;
     background: #f9f9f9;
     border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
+
+#editCardLink {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 11px;
+    color: #9e9173;
+}
+
 
 .card-top,
 .card-bottom {
@@ -230,6 +262,7 @@ button {
     font-size: 11px;
     color: #5d5440;
     text-align: right;
+    padding-left: 30px;
 }
 
 /* ---------- Bottom Controls (thumb-friendly) ---------- */
