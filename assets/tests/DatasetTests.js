@@ -26,13 +26,14 @@ describe('Dataset', function () {
         });
 
         it('should parse a pipe-separated line as a Card with correct fields', function () {
-            const items = Dataset.parse('hola | hello | 👋 | greetings | 2026-01-01 | 2026-04-01 | 5 | 1.5000 | 1 | a note');
+            const items = Dataset.parse('hola | hello | 👋 | greetings | false | 2026-01-01 | 2026-04-01 | 5 | 1.5000 | 1 | a note');
             assert.equal(items.length, 1);
             const card = items[0];
             assert.equal(card.front, 'hola');
             assert.equal(card.back, 'hello');
             assert.equal(card.emoji, '👋');
             assert.equal(card.category, 'greetings');
+            assert.equal(card.favourite, false);
             assert.equal(card.seen, 5);
             assert.approximately(card.penalty, 1.5, 0.0001);
             assert.equal(card.level, 1);
@@ -79,22 +80,22 @@ describe('Dataset', function () {
                 seen: 3, penalty: 1.5, level: 0, comment: 'a note'
             });
             const parts = Dataset.serialize([card]).split(' | ');
-            assert.equal(parts[0], 'hola');
-            assert.equal(parts[1], 'hello');
-            assert.equal(parts[2], '👋');
-            assert.equal(parts[3], 'greetings');
-            assert.equal(parts[4], '2026-01-01');
-            assert.equal(parts[5], '2026-04-01');
-            assert.equal(parts[6], '3');
-            assert.equal(parts[7], '1.5000');
-            assert.equal(parts[8], '0');
-            assert.equal(parts[9], 'a note');
+            assert.equal(parts[0], 'hola');        // front
+            assert.equal(parts[1], 'hello');       // back
+            assert.equal(parts[2], '👋');          // emoji
+            assert.equal(parts[3], 'greetings');   // category
+            assert.equal(parts[4], 'false');       // favourite
+            // parts[5] = added, parts[6] = lastSeen (date formatting is timezone-sensitive)
+            assert.equal(parts[7], '3');           // seen
+            assert.equal(parts[8], '1.5000');      // penalty
+            assert.equal(parts[9], '0');           // level
+            assert.equal(parts[10], 'a note');     // comment
         });
 
         it('should serialize a null penalty as an empty field', function () {
             const card = new Card({ front: 'hola', back: 'hello' });
             const parts = Dataset.serialize([card]).split(' | ');
-            assert.equal(parts[7], '');
+            assert.equal(parts[8], ''); // penalty is at index 8 (favourite shifts fields by 1)
         });
 
         it('should join multiple items with newlines', function () {

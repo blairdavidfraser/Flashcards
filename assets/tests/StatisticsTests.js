@@ -58,7 +58,7 @@ describe('Statistics.calculate', function () {
             { added: nowMs + 1000 }  // future — excluded
         ];
         const stats = Statistics.calculate(cards, now);
-        assert.equal(stats.total, 2);
+        assert.equal(stats.current, 2);
     });
 
     it('should handle empty input', function () {
@@ -91,13 +91,15 @@ describe('Statistics.render', function () {
 
     it('should render basic stats', function () {
         const stats = {
-            total: 10,
+            total: 12,
+            current: 10,
             unseen: 3,
             today: 5,
             levels: {},
             categories: {}
         };
         const html = Statistics.render(stats);
+        assert.include(html, 'Total Cards:</strong> 12');
         assert.include(html, 'Current Cards:</strong> 10');
         assert.include(html, 'Never Seen:</strong> 3');
         assert.include(html, 'Today:</strong> 5');
