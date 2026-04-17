@@ -15,7 +15,6 @@
     </div>
 
     <div id="dropdownMenu" class="hidden">
-        <div id="autopilotToggle" class="menu-item" onclick="toggleAutopilot()"></div>
         <div id="foreignSoundToggle" class="menu-item" onclick="toggleSound('foreign')"></div>
         <div id="nativeSoundToggle" class="menu-item" onclick="toggleSound('native')"></div>
         <div id="editCardMenuItem" class="menu-item hidden" onclick="showCardEdit()">Edit Card</div>
@@ -89,6 +88,13 @@
                     checked>Recall</label>
             <label><input type="radio" name="direction" value="shuffle"
                     onclick="selectGameDirection('shuffle')">Shuffle</label>
+        </div>
+
+        <div class="row">
+            <label><input type="radio" name="timeout" value="0" onclick="selectGameTimeout(0)" checked>No timer</label>
+            <label><input type="radio" name="timeout" value="2" onclick="selectGameTimeout(2)">2s</label>
+            <label><input type="radio" name="timeout" value="4" onclick="selectGameTimeout(4)">4s</label>
+            <label><input type="radio" name="timeout" value="6" onclick="selectGameTimeout(6)">6s</label>
         </div>
 
         <hr class="menu-divider">

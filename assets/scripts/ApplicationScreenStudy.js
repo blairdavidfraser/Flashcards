@@ -6,6 +6,7 @@
 export class ApplicationScreenStudy {
 
     #backToMenu = null;
+    #timer = null;
 
     constructor(gameplay, { backToMenu } = {}) {
         this.gameplay = gameplay;
@@ -20,6 +21,7 @@ export class ApplicationScreenStudy {
     }
 
     startRound() {
+        clearTimeout(this.#timer);
         this.gameplay.draw();
         this.#speakText(this.gameplay.state.questionSpeech, this.gameplay.state.questionLanguage);
         document.getElementById("cardHeader").innerText = this.gameplay.state.card.category || "";
@@ -31,9 +33,13 @@ export class ApplicationScreenStudy {
         document.getElementById("exitButton").classList.remove("hidden");
         document.getElementById("cardComment").innerHTML = "&nbsp;";
         document.getElementById("cardInfo").innerText = this.gameplay.state.card ? this.gameplay.state.card.summary() : '';
+        if (this.gameplay.timeout > 0) {
+            this.#timer = setTimeout(() => this.finishRound(), this.gameplay.timeout * 1000);
+        }
     }
 
     finishRound() {
+        clearTimeout(this.#timer);
         this.gameplay.reveal();
         this.#speakText(this.gameplay.state.answerSpeech, this.gameplay.state.answerLanguage);
         document.getElementById("cardBottom").innerHTML = this.#renderCardContent(this.gameplay.state.answerText);
@@ -48,6 +54,9 @@ export class ApplicationScreenStudy {
         document.getElementById("exitButton").classList.add("hidden");
         document.getElementById("cardComment").innerText = this.gameplay.state.card ? this.gameplay.state.card.comment : '';
         document.getElementById("cardInfo").innerText = this.gameplay.state.card ? this.gameplay.state.card.summary() : '';
+        if (this.gameplay.timeout > 0) {
+            this.#timer = setTimeout(() => this.cycleRound(), this.gameplay.timeout * 1000);
+        }
     }
 
     cycleRound(difficulty = null, level = null) {
@@ -58,6 +67,7 @@ export class ApplicationScreenStudy {
     }
 
     endGame() {
+        clearTimeout(this.#timer);
         this.gameplay.end();
         this.#backToMenu();
     }

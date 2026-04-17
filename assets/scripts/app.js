@@ -75,6 +75,7 @@ function backToMenu() {
 
 window.selectGameRank = v => gameplay.rank = v
 window.selectGameDirection = v => gameplay.direction = v
+window.selectGameTimeout = v => gameplay.timeout = parseInt(v)
 
 const screenStudy = new ApplicationScreenStudy(gameplay, { backToMenu });
 window.startGame = (rank) => screenStudy.startGame(rank);

@@ -12,6 +12,7 @@ export class Gameplay {
         this.logger = logger;
         this.game = new Game(null, null, logger);
         this.game.rank = "normal";
+        this.timeout = 0; // seconds between auto-flip and auto-advance; 0 = off
     }
 
     get name() { return this.game.name; }
