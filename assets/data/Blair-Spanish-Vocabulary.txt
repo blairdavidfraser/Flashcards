@@ -220,6 +220,7 @@ el cambio | change |  | Noun | false | 2026-03-13 | 2026-03-23 | 4 | 1.0000 | -1
 el cambio | change |  | Noun | false | 2026-03-24 | 2026-03-27 | 3 | 2.3300 | -1 | 
 el carrito | cart | 🛒 | Noun | false | 2026-03-08 | 2026-04-03 | 9 | 0.4489 | 0 | 
 el champiñón | mushroom | 🍄 | Noun | false | 2026-03-10 | 2026-03-24 | 9 | 1.5600 | -1 | 
+el clavo | nail | 📌 | Noun | false | 2026-04-17 | 1970-01-01 | 0 | | 1 |
 el cliente | client |  | Noun | false | 2026-03-24 | 2026-04-05 | 7 | 0.7143 | -1 | 
 el coche | car | 🚗 | Noun | false | 2026-03-24 | 2026-03-26 | 2 | 2.5000 | -1 | 
 el codo | elbow |  | Noun | false | 2026-03-19 | 2026-04-08 | 6 | 1.0000 | 0 | 
@@ -231,6 +232,7 @@ el cordón | shoelace |  | Noun | false | 2026-03-12 | 2026-04-02 | 14 | 0.2879 
 el cruce | intersection |  | Noun | false | 2026-03-24 | 2026-04-04 | 8 | 0.6250 | 0 | 
 el cuchillo | knife | 🔪 | Noun | false | 2026-03-12 | 2026-03-24 | 14 | 0.5700 | 0 | 
 el desayuno | breakfast | 🍳 | Noun | false | 2026-03-06 | 2026-03-22 | 7 | 2.1400 | -1 | 
+el destornillador | screwdriver | 🪛 | Noun | false | 2026-04-17 | 1970-01-01 | 0 | | 1 |
 el día | day | 📅 | Noun | false | 2026-03-06 | 2026-03-09 | 3 | 1.3300 | -1 | 
 el dinero | money | 💰 | Noun | false | 2026-03-06 | 2026-03-12 | 2 | 3.0000 | -1 | 
 el dormitorio | bedroom | 🛏️ | Noun | false | 2026-03-24 | 2026-03-27 | 4 | 1.7500 | -1 | 
@@ -266,6 +268,7 @@ el libro | book | 📚 | Noun | false | 2026-03-06 | 2026-03-11 | 4 | 2.2500 | -
 el limón | lemon | 🍋 | Noun | false | 2026-03-09 | 2026-03-15 | 3 | 2.6700 | -1 | 
 el lugar | place |  | Noun | false | 2026-03-19 | 2026-04-02 | 3 | 0.3333 | -1 | 
 el mapa | map | 🗺️ | Noun | false | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
+el martillo | hammer | 🔨 | Noun | false | 2026-04-17 | 1970-01-01 | 0 | | 1 |
 el mejillón | mussel | 🦪 | Noun | false | 2026-03-11 | 2026-03-23 | 24 | 0.0400 | 0 | 
 el mercado | market | 🏪 | Noun | false | 2026-03-06 | 2026-03-11 | 3 | 2.6700 | -1 | 
 el minuto | minute |  | Noun | false | 2026-03-06 | 2026-03-11 | 4 | 2.5000 | -1 | 
@@ -292,6 +295,7 @@ el pecho | chest |  | Noun | false | 2026-03-19 | 2026-03-28 | 3 | 1.6700 | -1 |
 el pelo | hair | 💇 | Noun | false | 2026-03-19 | 2026-03-28 | 4 | 2.2500 | -1 | 
 el pepino | cucumber | 🥒 | Noun | false | 2026-03-10 | 2026-03-28 | 12 | 1.5800 | -1 | 
 el perchero | coat rack |  | Noun | false | 2026-03-24 | 2026-04-03 | 8 | 0.3750 | 0 | 
+el perno | bolt (threaded, used with a nut) | 🔩 | Noun | false | 2026-04-17 | 1970-01-01 | 0 | | 1 | el perno = bolt; el tornillo = screw. Perno is larger, used with a nut (tuerca).
 el pescado | fish | 🐟 | Noun | false | 2026-03-06 | 2026-03-11 | 5 | 2.4000 | -1 | 
 el pie | foot | 🦶 | Noun | false | 2026-03-19 | 2026-04-11 | 7 | 0.0500 | -1 | 
 el pimiento | bell pepper | 🫑 | Noun | false | 2026-03-11 | 2026-03-26 | 10 | 1.7000 | -1 | 
@@ -336,6 +340,7 @@ el tío | uncle |  | Noun | false | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 |
 el tipo | type / kind |  | Noun | false | 2026-03-24 | 2026-04-02 | 6 | 1.1667 | -1 | 
 el tocador | vanity |  | Noun | false | 2026-03-24 | 2026-04-08 | 11 | 0.4200 | 0 | 
 el tomate | tomato | 🍅 | Noun | false | 2026-03-09 | 2026-03-15 | 4 | 2.5000 | -1 | 
+el tornillo | screw | 🔩 | Noun | false | 2026-04-17 | 1970-01-01 | 0 | | 1 | el tornillo = screw; el perno = bolt (larger, with nut)
 el trabajo | work/job |  | Noun | false | 2026-03-06 | 2026-03-11 | 2 | 3.0000 | -1 | 
 el tráfico | traffic |  | Noun | false | 2026-03-24 | 2026-03-27 | 1 | 3.0000 | -1 | 
 el trasero | butt |  | Noun | false | 2026-03-19 | 2026-04-09 | 7 | 0.3910 | 0 | 
@@ -438,6 +443,7 @@ la lavandería | laundry room |  | Noun | false | 2026-03-24 | 2026-04-03 | 6 | 
 la leche | milk | 🥛 | Noun | false | 2026-03-06 | 2026-03-11 | 4 | 2.5000 | -1 | 
 la lechuga | lettuce | 🥬 | Noun | false | 2026-03-12 | 2026-03-18 | 7 | 1.4300 | -1 | 
 la litera | bunk bed |  | Noun | false | 2026-03-24 | 2026-04-09 | 7 | 1.2160 | 0 | 
+la llave inglesa | wrench | 🔧 | Noun | false | 2026-04-17 | 1970-01-01 | 0 | | 1 |
 la lluvia | rain | 🌧️ | Noun | false | 2026-03-09 | 2026-03-15 | 10 | 1.7000 | -1 | 
 la luz | light | 💡 | Noun | false | 2026-03-24 | 2026-03-26 | 1 | 3.0000 | -1 | 
 la madre | mother |  | Noun | false | 2026-03-06 | 2026-03-11 | 2 | 1.5000 | -1 | 
@@ -637,8 +643,10 @@ acordarse | to remember (reflexive) |  | Verb | false | 2026-03-24 | 2026-04-09 
 acostarse | to go to bed |  | Verb | false | 2026-03-24 | 2026-04-08 | 8 | 0.4990 | 0 | 
 adivinar | to guess | 🤔 | Verb | false | 2026-03-11 | 2026-04-05 | 16 | 0.3088 | 0 | 
 afectar | to affect |  | Verb | false | 2026-03-11 | 2026-03-22 | 9 | 1.3300 | -1 | 
+aflojar | to loosen |  | Verb | false | 2026-04-17 | 1970-01-01 | 0 | | 1 |
 agregar | to aggregate | ➕ | Verb | false | 2026-03-11 | 2026-03-23 | 7 | 1.8600 | -1 | 
 ahorrar | to save (money/time) |  | Verb | false | 2026-04-06 | 2026-04-11 | 3 | 2.0000 | 0 | 
+ajustar | to adjust |  | Verb | false | 2026-04-17 | 1970-01-01 | 0 | | 1 |
 alcanzar | to reach |  | Verb | false | 2026-03-11 | 2026-04-03 | 14 | 0.6443 | 0 | 
 alquilar | to rent |  | Verb | false | 2026-04-06 | 2026-04-09 | 3 | 0.9100 | 0 | 
 añadir | to add |  | Verb | false | 2026-04-06 | 2026-04-11 | 2 |  | 0 | 
@@ -646,6 +654,7 @@ anunciar | to announce | 📢 | Verb | false | 2026-03-11 | 2026-03-24 | 5 | 0.8
 apagar | to turn off |  | Verb | false | 2026-04-06 | 2026-04-08 | 0 |  | 1 | 
 apoyar | to support |  | Verb | false | 2026-03-11 | 2026-04-08 | 18 | 0.1260 | 0 | 
 aprender | to learn |  | Verb | false | 2026-03-06 | 2026-03-11 | 4 | 2.5000 | -1 | 
+apretar | to tighten |  | Verb | false | 2026-04-17 | 1970-01-01 | 0 | | 1 | Also means to press/squeeze in other contexts. e.g. apretar un botón = press a button.
 arreglar | to fix / repair | 🔧 | Verb | false | 2026-03-11 | 2026-03-23 | 6 | 1.5000 | -1 | 
 asignar | to assign |  | Verb | false | 2026-04-02 | 2026-04-08 | 1 | 1.0000 | 0 | 
 atender | to attend / assist | 🧑 | Verb | false | 2026-03-11 | 2026-04-09 | 17 | 1.2580 | 0 | 
@@ -1193,4 +1202,5 @@ Sí estuvo difícil | Yeah, it was tough |  | Conversational | false | 2026-04-0
 Mañana va a estar duro | Tomorrow’s going to be tough |  | Conversational | false | 2026-04-02 | 2026-04-08 | 0 |  | 1 | 
 Crear una tarjeta | Create a card (formal command) |  | Conversational | false | 2026-04-11 | 2026-04-15 | 0 |  | 0 | 
 He estado cansado | I've been tired |  | Conversational | false | 2026-04-12 | 2026-04-15 | 0 |  | 1 | 
-
+¿Dónde pusiste…? | Where did you put…? |  | Conversational | false | 2026-04-17 | 1970-01-01 | 0 | | 1 | Preterit of poner.
+¿Dónde pusiste… que estaba…? | Where did you put the… that was…? |  | Conversational | false | 2026-04-17 | 1970-01-01 | 0 | | 1 | e.g. ¿Dónde pusiste la llave inglesa que estaba en la mesa?
