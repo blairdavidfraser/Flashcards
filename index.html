@@ -17,7 +17,6 @@
     <div id="dropdownMenu" class="hidden">
         <div id="foreignSoundToggle" class="menu-item" onclick="toggleSound('foreign')"></div>
         <div id="nativeSoundToggle" class="menu-item" onclick="toggleSound('native')"></div>
-        <div id="editCardMenuItem" class="menu-item hidden" onclick="showCardEdit()">Edit Card</div>
     </div>
 
     <!-- GAME MENU -->
@@ -127,7 +126,7 @@
                     <tr>
                         <td id="cardHeaderLeft" class="card-header-corner" onclick="toggleFavourite(event)"></td>
                         <td id="cardCategory" class="card-header-center"></td>
-                        <td id="cardHeaderRight" class="card-header-corner"></td>
+                        <td id="cardHeaderRight" class="card-header-corner" onclick="event.stopPropagation(); showCardEdit()">&#x270F;&#xFE0E;</td>
                     </tr>
                 </table>
             </div>

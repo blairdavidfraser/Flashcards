@@ -192,7 +192,8 @@ button {
     vertical-align: middle;
 }
 
-#cardHeaderLeft {
+#cardHeaderLeft,
+#cardHeaderRight {
     cursor: pointer;
 }
 
@@ -210,15 +211,6 @@ button {
     padding: 8px 14px;
     background: #f9f9f9;
     border-top: 1px solid rgba(0, 0, 0, 0.08);
-}
-
-#editCardLink {
-    position: absolute;
-    left: 14px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 11px;
-    color: #9e9173;
 }
 
 
