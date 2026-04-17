@@ -49,6 +49,18 @@ describe('Statistics.calculate', function () {
         assert.deepEqual(stats.categories, { a: 2, b: 1 });
     });
 
+    it('should exclude cards with a future added date', function () {
+        const now = new Date(2026, 6, 1);
+        const nowMs = now.getTime();
+        const cards = [
+            { added: nowMs - 1000 }, // past — included
+            { added: nowMs },         // exactly now — included
+            { added: nowMs + 1000 }  // future — excluded
+        ];
+        const stats = Statistics.calculate(cards, now);
+        assert.equal(stats.total, 2);
+    });
+
     it('should handle empty input', function () {
         const stats = Statistics.calculate([]);
         assert.equal(stats.total, 0);
@@ -86,7 +98,7 @@ describe('Statistics.render', function () {
             categories: {}
         };
         const html = Statistics.render(stats);
-        assert.include(html, 'Total Cards:</strong> 10');
+        assert.include(html, 'Current Cards:</strong> 10');
         assert.include(html, 'Never Seen:</strong> 3');
         assert.include(html, 'Today:</strong> 5');
     });

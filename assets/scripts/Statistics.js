@@ -7,19 +7,23 @@ import { formatDate } from './Utilities.js';
 export class Statistics {
 
     static calculate(cards, now = new Date()) {
+        const nowMs = now.getTime();
         const today = formatDate(now);
+        const current = cards.filter(c => !c.added || c.added <= nowMs);
         return {
             total: cards.length,
-            today: cards.filter(c => c.seen > 0 && c.lastSeen && formatDate(c.lastSeen) === today).length,
-            unseen: cards.filter(c => c.seen === 0).length,
-            levels: cards.reduce((a, c) => (a[c.level] = (a[c.level] || 0) + 1, a), {}),
-            categories: cards.reduce((a, c) => (a[c.category] = (a[c.category] || 0) + 1, a), {})
+            current: current.length,
+            today: current.filter(c => c.seen > 0 && c.lastSeen && formatDate(c.lastSeen) === today).length,
+            unseen: current.filter(c => c.seen === 0).length,
+            levels: current.reduce((a, c) => (a[c.level] = (a[c.level] || 0) + 1, a), {}),
+            categories: current.reduce((a, c) => (a[c.category] = (a[c.category] || 0) + 1, a), {})
         };
     }
 
     static render(stats) {
         let html = `
         <p><strong>Total Cards:</strong> ${stats.total}</p>
+        <p><strong>Current Cards:</strong> ${stats.current}</p>
         <p><strong>Never Seen:</strong> ${stats.unseen}</p>
         <p><strong>Today:</strong> ${stats.today}</p>
         <hr/>`;

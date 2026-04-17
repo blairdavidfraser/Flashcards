@@ -87,7 +87,9 @@ export class Game {
 
 
     #initialize() {
-        this.#enabled = this.#filterByCategory(this.#deck, this.configuration.categories);
+        const now = Date.now();
+        this.#enabled = this.#deck.filter(c => c.added <= now);
+        this.#enabled = this.#filterByCategory(this.#enabled, this.configuration.categories);
         switch (this.rank) {
 
             case 'review':
