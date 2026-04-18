@@ -32,6 +32,11 @@ function selectGame(name, language) {
 }
 
 function configureGame() {
+    const dirEl = document.querySelector(`input[name="direction"][value="${gameplay.direction}"]`);
+    if (dirEl) dirEl.checked = true;
+    const timeoutEl = document.querySelector(`input[name="timeout"][value="${gameplay.timeout}"]`);
+    if (timeoutEl) timeoutEl.checked = true;
+
     const { counts, categories } = gameplay.load();
     const container = document.getElementById("categoryFilters");
     container.innerHTML = "";
