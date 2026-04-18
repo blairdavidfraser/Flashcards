@@ -23,6 +23,7 @@ export class ApplicationScreenStudy {
     startRound() {
         clearTimeout(this.#timer);
         this.gameplay.draw();
+        window.speechSynthesis.cancel();
         this.#speakText(this.gameplay.state.questionSpeech, this.gameplay.state.questionLanguage);
         this.#updateStar();
         document.getElementById("cardCategory").innerText = this.gameplay.state.card.category || "";
@@ -89,7 +90,6 @@ export class ApplicationScreenStudy {
     }
 
     #speakText(text, lang) {
-        window.speechSynthesis.cancel();
         if (!text) return;
         const utterance = new SpeechSynthesisUtterance(text);
         const bcp47 = { Spanish: 'es', French: 'fr', English: 'en' }[lang];
