@@ -89,11 +89,15 @@ export class ApplicationScreenStudy {
     }
 
     #speakText(text, lang) {
+        window.speechSynthesis.cancel();
         if (!text) return;
         const utterance = new SpeechSynthesisUtterance(text);
-        if (lang === 'Spanish') utterance.lang = 'es-ES';
-        else if (lang === 'French') utterance.lang = 'fr-FR';
-        else if (lang === 'English') utterance.lang = 'en-CA';
+        const bcp47 = { Spanish: 'es', French: 'fr', English: 'en' }[lang];
+        if (bcp47) {
+            const voices = window.speechSynthesis.getVoices().filter(v => v.lang.startsWith(bcp47));
+            if (voices.length) utterance.voice = voices[Math.floor(Math.random() * voices.length)];
+            else utterance.lang = { Spanish: 'es-ES', French: 'fr-FR', English: 'en-CA' }[lang];
+        }
         utterance.rate = 0.9;
         utterance.pitch = 1;
         window.speechSynthesis.speak(utterance);
