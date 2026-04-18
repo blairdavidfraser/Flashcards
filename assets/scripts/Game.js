@@ -109,6 +109,10 @@ export class Game {
                 break;
             }
 
+            case 'all':
+                // All uses the full deck with no rank filter.
+                break;
+
             default:
                 // For default, just pick by rank.
                 this.#enabled = this.#filterByRank(this.#enabled, this.rank);
