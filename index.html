@@ -93,11 +93,12 @@
             <label><input type="radio" name="timeout" value="0" onclick="selectGameTimeout(0)" checked>No timer</label>
             <label><input type="radio" name="timeout" value="2" onclick="selectGameTimeout(2)">2s</label>
             <label><input type="radio" name="timeout" value="4" onclick="selectGameTimeout(4)">4s</label>
-            <label><input type="radio" name="timeout" value="6" onclick="selectGameTimeout(6)">6s</label>
+            <label><input type="radio" name="timeout" value="6" onclick="selectGameTimeout(8)">8s</label>
         </div>
 
         <div class="row">
-            <label><input type="checkbox" id="onlyFavourites" onchange="selectOnlyFavourites(this.checked)">Only favourites</label>
+            <label><input type="checkbox" id="onlyFavourites" onchange="selectOnlyFavourites(this.checked)">Only
+                favourites</label>
         </div>
 
         <hr class="menu-divider">
@@ -127,7 +128,8 @@
                     <tr>
                         <td id="cardHeaderLeft" class="card-header-corner" onclick="toggleFavourite(event)"></td>
                         <td id="cardCategory" class="card-header-center"></td>
-                        <td id="cardHeaderRight" class="card-header-corner" onclick="event.stopPropagation(); showCardEdit()">&#x270F;&#xFE0E;</td>
+                        <td id="cardHeaderRight" class="card-header-corner"
+                            onclick="event.stopPropagation(); showCardEdit()">&#x270F;&#xFE0E;</td>
                     </tr>
                 </table>
             </div>
@@ -174,7 +176,8 @@
                 <label>Personal access token:<br>
                     <input type="password" id="githubToken" class="input-wide" placeholder="ghp_..."></label><br><br>
                 <label>Repository (owner/repo):<br>
-                    <input type="text" id="githubRepo" class="input-wide" placeholder="username/flashcards"></label><br><br>
+                    <input type="text" id="githubRepo" class="input-wide"
+                        placeholder="username/flashcards"></label><br><br>
                 <label>Filename prefix (optional):<br>
                     <input type="text" id="githubPrefix" class="input-wide" placeholder="e.g. Blair"></label>
             </div>

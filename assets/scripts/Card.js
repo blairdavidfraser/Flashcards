@@ -57,6 +57,8 @@ export class Card {
                 return this.isReview();
             case 'normal':
                 return this.isNormal();
+            case 'all':
+                return true;
             default:
                 return false;
         }

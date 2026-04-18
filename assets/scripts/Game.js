@@ -85,15 +85,15 @@ export class Game {
         this.state.card.rate(difficulty, level);
     }
 
-
-
     #initialize() {
         const now = Date.now();
+
+        // Filter out future cards, then apply category and favourite filters to get the enabled set.
         this.#enabled = this.#deck.filter(c => c.added <= now);
         this.#enabled = this.#filterByCategory(this.#enabled, this.configuration.categories);
-        if (this.configuration.onlyFavourites) {
-            this.#enabled = this.#enabled.filter(c => c.favourite === true);
-        }
+        this.#enabled = this.#enabled.filter(c => !this.configuration.onlyFavourites || c.favourite === true);
+
+        // Further filter the enabled set by rank, which may limit the number of cards for review and normal ranks.
         switch (this.rank) {
 
             case 'review':
@@ -118,6 +118,7 @@ export class Game {
                 this.#enabled = this.#filterByRank(this.#enabled, this.rank);
                 break;
         }
+
         this.logger?.log(`Game.#initialize: ${this.#enabled.length} cards match category and rank filters.`);
     }
 
