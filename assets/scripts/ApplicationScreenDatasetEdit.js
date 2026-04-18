@@ -32,6 +32,7 @@ export class ApplicationScreenDatasetEdit {
     save() {
         this.#persistence.saveDataset(Dataset.parse(document.getElementById("editBox").value));
         this.#persistence = null;
+        document.getElementById("editBox").value = "";
         this.#backToMenu();
     }
 

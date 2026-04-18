@@ -12,13 +12,9 @@ export const gameplay = new Gameplay(console);
 gameplay.direction = "recall";
 
 
-
-
-
 //=============================================================================
 // Menu and Game Configuration
 //=============================================================================
-
 
 function selectGame(name, language) {
     gameplay.name = name;
@@ -62,6 +58,8 @@ function backToMenu() {
 
     let edit = document.getElementById("editArea")
     if (edit) edit.classList.add("hidden")
+    const editBox = document.getElementById("editBox");
+    if (editBox) editBox.value = "";
     let reset = document.getElementById("resetArea")
     if (reset) reset.classList.add("hidden")
     document.getElementById("statsArea").classList.add("hidden")
