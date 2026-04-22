@@ -66,7 +66,11 @@ function updateRankCounts() {
 
 function backToMenu() {
     document.getElementById("gameMenu").classList.remove("hidden");
-    document.getElementById("configurationMenu").classList.add("hidden")
+    document.getElementById("configurationMenu").classList.add("hidden");
+    const logContent = document.getElementById("dailyLogContent");
+    const logToggle = document.getElementById("dailyLogToggle");
+    if (logContent) logContent.classList.add("hidden");
+    if (logToggle) logToggle.textContent = "▸";
     document.getElementById("studyArea").classList.add("hidden")
 
     let edit = document.getElementById("editArea")
