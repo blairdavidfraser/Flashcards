@@ -155,6 +155,22 @@ export class Game {
             .slice(0, n || cards.length);
     }
 
+    rankCounts() {
+        const now = Date.now();
+        let base = this.#deck.filter(c => c.added <= now);
+        base = this.#filterByCategory(base, this.configuration.categories);
+        base = base.filter(c => !this.configuration.onlyFavourites || c.favourite === true);
+        const hard = this.#filterByRank(base, 'hard', 10);
+        const normal = this.#filterByRank(base, 'normal');
+        return {
+            normal: hard.concat(normal).length,
+            new:    this.#filterByRank(base, 'new').length,
+            hard:   this.#filterByRank(base, 'hard').length,
+            review: this.#filterByRank(base, 'review', 100).length,
+            all:    base.length,
+        };
+    }
+
     #weightedRandom(cards) {
         let weights = cards.map(c => c.priority());
         let total = weights.reduce((a, b) => a + b, 0);

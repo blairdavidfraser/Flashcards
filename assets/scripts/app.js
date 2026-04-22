@@ -46,10 +46,22 @@ function configureGame() {
         checkbox.addEventListener("change", () => {
             if (checkbox.checked) gameplay.categories.add(cat);
             else gameplay.categories.delete(cat);
+            updateRankCounts();
         });
 
         container.appendChild(label);
     });
+
+    updateRankCounts();
+}
+
+function updateRankCounts() {
+    const c = gameplay.rankCounts();
+    document.getElementById("rankNormal").textContent = `Normal (${c.normal})`;
+    document.getElementById("rankNew").textContent    = `New (${c.new})`;
+    document.getElementById("rankHard").textContent   = `Hard (${c.hard})`;
+    document.getElementById("rankReview").textContent = `Review (${c.review})`;
+    document.getElementById("rankAll").textContent    = `All (${c.all})`;
 }
 
 function backToMenu() {
@@ -80,7 +92,7 @@ function backToMenu() {
 window.selectGameRank = v => gameplay.rank = v
 window.selectGameDirection = v => gameplay.direction = v
 window.selectGameTimeout = v => gameplay.timeout = parseInt(v)
-window.selectOnlyFavourites = v => gameplay.onlyFavourites = v
+window.selectOnlyFavourites = v => { gameplay.onlyFavourites = v; updateRankCounts(); }
 
 const screenStudy = new ApplicationScreenStudy(gameplay, { backToMenu });
 window.startGame = (rank) => screenStudy.startGame(rank);

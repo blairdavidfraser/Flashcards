@@ -83,6 +83,8 @@ export class Gameplay {
         }
     }
 
+    rankCounts() { return this.game.rankCounts(); }
+
     end() {
         this.logger?.log(`Gameplay.end`);
         this.save();
