@@ -32,14 +32,21 @@ export class ApplicationScreenCardEdit {
         this.gameplay.state.card.category = document.getElementById("editCategory").value.trim();
         this.gameplay.state.card.comment = document.getElementById("editComment").value.trim();
         this.gameplay.save();
+        this.#clearFields();
         document.getElementById("editCardArea").classList.add("hidden");
         document.getElementById("studyArea").classList.remove("hidden");
         this.#startRound();
     }
 
     cancel() {
+        this.#clearFields();
         document.getElementById("editCardArea").classList.add("hidden");
         document.getElementById("studyArea").classList.remove("hidden");
+    }
+
+    #clearFields() {
+        ["editFront", "editBack", "editEmoji", "editCategory", "editComment"]
+            .forEach(id => { document.getElementById(id).value = ""; });
     }
 
 }

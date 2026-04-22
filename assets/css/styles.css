@@ -263,7 +263,7 @@ button {
 #nextButtons,
 #exitButton {
     position: fixed;
-    bottom: 32px;
+    bottom: 76px;
     left: 50%;
     transform: translateX(-50%);
     width: calc(100% - 20px);

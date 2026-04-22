@@ -450,6 +450,7 @@ no lo entendí bien | I didn’t understand it well |  | Preterit | false | 2026
 me pareció caro | it seemed expensive to me |  | Preterit | false | 2026-03-22 | 2026-03-23 | 0 |  | 1 | 
 me gustó bastante | I liked it quite a bit |  | Preterit | false | 2026-03-22 | 2026-03-23 | 0 |  | 1 | 
 no me convenció | it didn’t convince me |  | Preterit | false | 2026-03-22 | 2026-03-23 | 0 |  | 1 | 
+Después de cena, Ana se fue | After dinner, Ana left |  | Preterit | false | 2026-04-20 | 2026-04-20 | 0 |  | 1 | 
 
 # >>> Imperfect Past Tense
 Comía pan con café cada mañana | I used to eat bread with coffee every morning |  | Imperfect | false | 2026-03-15 | 2026-04-01 | 4 | 1.0000 | 0 | 
