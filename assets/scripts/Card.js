@@ -19,7 +19,7 @@ export class Card {
         this.seen = data.seen || 0;
         this.level = data.level || 0;
         this.comment = data.comment?.trim() || "";
-        this.penalty = data.penalty || null;
+        this.penalty = data.penalty ?? null;
     }
 
     validate() {
