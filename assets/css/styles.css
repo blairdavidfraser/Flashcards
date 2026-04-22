@@ -322,6 +322,53 @@ button {
 
 /* ---------- Forms ---------- */
 
+#editSearch {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 8px;
+    width: 50%;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#editSearchInput {
+    flex: 1;
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 13px;
+}
+
+.search-nav-group {
+    display: flex;
+    align-items: stretch;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.search-nav-group button {
+    background: transparent;
+    border: none;
+    color: #999;
+    padding: 0 10px;
+    font-size: 13px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.search-nav-group button:active {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.search-nav-divider {
+    width: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    align-self: stretch;
+}
+
 textarea {
     width: 95%;
     height: 320px;

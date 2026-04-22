@@ -175,6 +175,15 @@
     <div id="editArea" class="hidden">
         <h3 id="editTitle"></h3>
 
+        <div id="editSearch">
+            <input type="search" id="editSearchInput" placeholder="Search…" onkeydown="if(event.key==='Enter')searchDataset(1)">
+            <div class="search-nav-group">
+                <button onclick="searchDataset(-1)">&lt;</button>
+                <div class="search-nav-divider"></div>
+                <button onclick="searchDataset(1)">&gt;</button>
+            </div>
+        </div>
+
         <textarea id="editBox"></textarea>
 
         <br>

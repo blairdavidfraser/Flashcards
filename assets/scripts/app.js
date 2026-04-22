@@ -125,6 +125,7 @@ const screenDatasetEdit = new ApplicationScreenDatasetEdit(console, { backToMenu
 window.editGameDataset = (name, language) => screenDatasetEdit.show(name, language);
 window.saveGameDataset = () => screenDatasetEdit.save();
 window.selectAllText = () => screenDatasetEdit.selectAll();
+window.searchDataset = (dir) => screenDatasetEdit.search(dir);
 window.saveToGitHub = () => screenDatasetEdit.saveToGitHub();
 window.saveGithubConfig = () => screenDatasetEdit.saveGithubConfig();
 window.cancelGithubConfig = () => screenDatasetEdit.cancelGithubConfig();
