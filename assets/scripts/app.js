@@ -4,6 +4,7 @@ import { ApplicationScreenStatistics } from "./ApplicationScreenStatistics.js"
 import { ApplicationScreenDatasetEdit } from "./ApplicationScreenDatasetEdit.js"
 import { ApplicationScreenCardEdit } from "./ApplicationScreenCardEdit.js"
 import { ApplicationDropdownMenu } from "./ApplicationDropdownMenu.js"
+import { ApplicationScreenDailyLog } from "./ApplicationScreenDailyLog.js"
 
 //=============================================================================
 // Globals
@@ -111,6 +112,15 @@ window.selectAllText = () => screenDatasetEdit.selectAll();
 window.saveToGitHub = () => screenDatasetEdit.saveToGitHub();
 window.saveGithubConfig = () => screenDatasetEdit.saveGithubConfig();
 window.cancelGithubConfig = () => screenDatasetEdit.cancelGithubConfig();
+
+const screenDailyLog = new ApplicationScreenDailyLog();
+window.toggleDailyLog = () => {
+    const content = document.getElementById("dailyLogContent");
+    const toggle = document.getElementById("dailyLogToggle");
+    const isHidden = content.classList.toggle("hidden");
+    toggle.textContent = isHidden ? "▸" : "▾";
+    if (!isHidden) screenDailyLog.show();
+};
 
 // Initial render of menu items
 dropdownMenu.refresh();

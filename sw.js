@@ -5,6 +5,8 @@ const PRECACHE = [
     './manifest.json',
     './assets/css/styles.css',
     './assets/scripts/app.js',
+    './assets/scripts/ApplicationScreenDailyLog.js',
+    './assets/scripts/DailyLog.js',
     './assets/scripts/ApplicationDropdownMenu.js',
     './assets/scripts/ApplicationScreenCardEdit.js',
     './assets/scripts/ApplicationScreenDatasetEdit.js',

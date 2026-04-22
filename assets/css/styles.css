@@ -124,6 +124,44 @@ a:hover {
     font-size: 14px;
 }
 
+/* ---------- Daily Log ---------- */
+
+.log-toggle {
+    cursor: pointer;
+    user-select: none;
+}
+
+.log-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.log-table th,
+.log-table td {
+    padding: 4px 6px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.log-table th {
+    font-weight: 600;
+    color: #555;
+}
+
+.log-table td:first-child {
+    text-align: left;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.log-subheader {
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    color: #888 !important;
+}
+
 /* ---------- Divider ---------- */
 
 .menu-divider {

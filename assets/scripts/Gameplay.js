@@ -5,6 +5,7 @@
 import { Card } from "./Card.js"
 import { Game } from "./Game.js"
 import { Persistence } from "./Persistence.js"
+import { DailyLog } from "./DailyLog.js"
 
 export class Gameplay {
 
@@ -69,11 +70,17 @@ export class Gameplay {
 
     reveal() {
         this.logger?.log(`Gameplay.reveal (${this.state.direction}) answer='${this.state.answerText}', speech='${this.state.answerSpeech}'.`);
+        if (this.state.direction === 'recognition') {
+            DailyLog.record(this.name, this.language, 'recognition');
+        }
     }
 
     rate(difficulty, level) {
         this.game.rate(difficulty, level);
         this.save();
+        if (this.state.direction === 'recall' || this.state.direction === 'shuffle') {
+            DailyLog.record(this.name, this.language, 'recall');
+        }
     }
 
     end() {
