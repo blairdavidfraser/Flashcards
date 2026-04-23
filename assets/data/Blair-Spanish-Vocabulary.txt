@@ -40,7 +40,7 @@
 #   - Represents a score, that gets higher when the user ranks the card hard.
 #   - Increases as the card is shown repeatedly and ranked hard.
 #   - Increases faster if the card is ranked hard on each presentation.
-#   - An empty penalty means the card has not been seen and should correpond with seen=0.
+#   - An empty penalty means the card has not been seen and should correspond with seen=0.
 #   - When generating new cards, leave the penalty column empty.
 #
 # level :: integer of (-1, 0, 1)
