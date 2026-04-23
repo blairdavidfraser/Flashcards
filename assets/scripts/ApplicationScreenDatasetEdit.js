@@ -49,11 +49,27 @@ export class ApplicationScreenDatasetEdit {
         }
         if (pos === -1) return;
         this.#searchPos = direction >= 0 ? pos + q.length : pos;
-        ta.focus();
-        ta.setSelectionRange(pos, pos + query.length);
-        const lineHeight = parseInt(getComputedStyle(ta).lineHeight) || 20;
-        const line = ta.value.slice(0, pos).split('\n').length - 1;
-        ta.scrollTop = line * lineHeight - ta.clientHeight / 2;
+        const start = pos;
+        const len = query.length;
+        setTimeout(() => {
+            ta.focus();
+            ta.setSelectionRange(start, start + len);
+            const cs = getComputedStyle(ta);
+            const clone = document.createElement('textarea');
+            clone.style.cssText = [
+                'position:fixed', 'top:-9999px', 'left:0', 'overflow:hidden',
+                `width:${ta.clientWidth}px`, 'height:auto',
+                `font-size:${cs.fontSize}`, `font-family:${cs.fontFamily}`,
+                `line-height:${cs.lineHeight}`, `padding:${cs.padding}`,
+                `border:${cs.border}`, `box-sizing:${cs.boxSizing}`,
+                `white-space:${cs.whiteSpace}`, `word-wrap:${cs.wordWrap}`
+            ].join(';');
+            clone.value = ta.value.slice(0, start);
+            document.body.appendChild(clone);
+            const offsetPx = clone.scrollHeight;
+            document.body.removeChild(clone);
+            ta.scrollTop = Math.max(0, offsetPx - ta.clientHeight / 2);
+        }, 0);
     }
 
     save() {

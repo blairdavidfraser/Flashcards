@@ -176,7 +176,7 @@
         <h3 id="editTitle"></h3>
 
         <div id="editSearch">
-            <input type="search" id="editSearchInput" placeholder="Search…" onkeydown="if(event.key==='Enter')searchDataset(1)">
+            <input type="search" id="editSearchInput" placeholder="Search…" onkeydown="if(event.key==='Enter'){event.preventDefault();searchDataset(1);}">
             <div class="search-nav-group">
                 <button onclick="searchDataset(-1)">&lt;</button>
                 <div class="search-nav-divider"></div>
