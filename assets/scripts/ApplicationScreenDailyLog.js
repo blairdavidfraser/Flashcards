@@ -19,6 +19,10 @@ function formatDuration(seconds) {
     return [h, m, s].map(n => String(n).padStart(2, '0')).join(':');
 }
 
+function formatHours(seconds) {
+    return (seconds / 3600).toFixed(1) + ' h';
+}
+
 export class ApplicationScreenDailyLog {
 
     constructor() {
@@ -74,7 +78,7 @@ export class ApplicationScreenDailyLog {
         const totalRecall = Object.entries(totals).filter(([k]) => k.endsWith('|recall')).reduce((s, [, v]) => s + v, 0);
         const totalOther = Object.values(otherByDate).reduce((s, v) => s + v, 0);
         const gameSum = (totalRecog || totalRecall) ? `${totalRecog} / ${totalRecall}` : '–';
-        const otherSum = totalOther ? formatDuration(totalOther) : '–';
+        const otherSum = totalOther ? formatHours(totalOther) : '–';
 
         html += '<table class="log-table"><thead>';
         html += '<tr><th>Date</th><th>Recognition / Recall</th><th>Other</th></tr>';

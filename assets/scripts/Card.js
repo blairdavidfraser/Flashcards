@@ -39,7 +39,11 @@ export class Card {
         this.lastSeen = Date.now();
         this.level = Math.max(Math.min(level, 1), -1);
 
-        // Difficulty is converted to zero-based measure and blended 
+        if (difficulty === 4) {
+            this.added = Date.now() + 5 * 24 * 60 * 60 * 1000;
+        }
+
+        // Difficulty is converted to zero-based measure and blended
         // with existing penalty using exponential moving average.
         const alpha = 0.3; // Weight of the new result
         this.penalty = this.penalty == null
