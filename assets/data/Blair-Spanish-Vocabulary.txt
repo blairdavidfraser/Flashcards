@@ -1253,3 +1253,4 @@ Crear una tarjeta | Create a card (formal command) |  | Conversational | false |
 He estado cansado | I've been tired |  | Conversational | true | 2026-04-06 | 2026-04-23 | 5 | 0.6430 | 0 | 
 ¿Dónde pusiste…? | Where did you put…? |  | Conversational | false | 2026-04-11 | 2026-04-22 | 6 | 0.0000 | 0 | Preterit of poner.
 ¿Dónde pusiste… que estaba…? | Where did you put the… that was…? |  | Conversational | true | 2026-04-11 | 2026-04-22 | 7 | 0.2353 | 0 | e.g. ¿Dónde pusiste la llave inglesa que estaba en la mesa?
+No tiene ni pies ni cabeza. | It makes no sense. / It has no rhyme or reason. |  | Conversational | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | Lit. "It has neither feet nor head." Used when something is illogical or incoherent.

@@ -1,0 +1,107 @@
+# front | back | emoji | category | favourite | added | lastSeen | seen | penalty | level | comment
+#
+# The above header line is the schema of this file. Use it when creating new cards, along
+# with the detailed description of each field which follows.
+#
+# front :: string, non-empty
+#   - Gives the French text (sentence or conjugation table).
+#   - Capitalize and punctuate correctly.
+#
+# back :: string, non-empty
+#   - Gives the English translation.
+#   - Capitalize and punctuate correctly.
+#
+# emoji :: string, or empty.
+#   - Only use for single-word cards with a strong visual match.
+#   - Never use for sentences or phrases.
+#
+# category :: string, non-empty, use verb tense names (e.g. Present, Passé Composé, Imparfait, ...).
+#   - Capitalize the first character of each word.
+#
+# favourite :: true or false.
+#   - When generating new cards, use false.
+#
+# added :: date in YYYY-MM-DD form.
+#   - When generating new cards, use the current local date.
+#
+# lastSeen :: date in YYYY-MM-DD form.
+#   - When generating new cards, use 1970-01-01.
+#
+# seen :: integer (count).
+#   - When generating new cards, use 0.
+#
+# penalty :: integer or empty.
+#   - When generating new cards, leave empty.
+#
+# level :: integer of (-1, 0, 1).
+#   - When generating new cards, use 1.
+#
+# comment :: string.
+#   - Useful learning tips, usage notes, false cognates, register notes.
+#   - When generating new cards, leave blank unless a note adds real value.
+#
+# Convention :: for a full conjugation card
+#   - Back: "Present forms of '<verb>'"
+#   - Front table format: [je <form>, ns. <form>; tu <form>, vs. <form>; il·elle <form>, ils·elles <form>]
+#   - Brackets denote table start/end. Comma separates cells. Semicolon separates rows.
+#
+# Convention :: for sentence cards
+#   - Sentences should be immediately usable in real tourist situations.
+#   - Prefer natural spoken French over textbook French.
+#   - Mix statements and questions across cards.
+#
+# *** If you notice a bug or error in these translations, always call them out ***
+#
+
+# >>> Present Tense
+
+Je suis touriste. | I'm a tourist. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Je suis canadien. | I'm Canadian. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Nous sommes deux. | There are two of us. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+J'ai une réservation. | I have a reservation. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+J'ai faim. | I'm hungry. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | avoir faim = to be hungry; literally "to have hunger"
+J'ai soif. | I'm thirsty. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | avoir soif = to be thirsty; literally "to have thirst"
+Je vais à la gare. | I'm going to the train station. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Je vais à pied. | I'm going on foot. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Je prends le menu à vingt euros. | I'll have the set menu at twenty euros. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | prendre = to take/have; used naturally for ordering
+Je prends le métro. | I'm taking the metro. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Je mange ici ce soir. | I'm eating here tonight. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Je bois de l'eau, s'il vous plaît. | I'll have water, please. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Je parle un peu français. | I speak a little French. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Je ne comprends pas. | I don't understand. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Je cherche l'hôtel Lumière. | I'm looking for the Hôtel Lumière. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Je cherche un restaurant pas trop cher. | I'm looking for a restaurant that's not too expensive. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Je veux une chambre pour deux nuits. | I want a room for two nights. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Je dois partir tôt demain matin. | I have to leave early tomorrow morning. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+J'arrive demain soir. | I'm arriving tomorrow evening. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Je reste trois nuits. | I'm staying three nights. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Je réserve une table pour ce soir. | I'm booking a table for tonight. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Je paie par carte. | I'm paying by card. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Je ne sais pas. | I don't know. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Je connais bien ce quartier. | I know this neighbourhood well. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Il fait beau aujourd'hui. | The weather is nice today. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | faire + weather: il fait beau/chaud/froid/mauvais
+Il fait chaud ici. | It's hot in here. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Le train part à quelle heure ? | What time does the train leave? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Le bus arrive dans dix minutes. | The bus arrives in ten minutes. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+On peut marcher jusqu'à la plage ? | Can we walk to the beach? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | on peut = we can / one can; very common in spoken French
+Ça coûte combien ? | How much does it cost? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Est-ce que vous avez une table pour deux ? | Do you have a table for two? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Est-ce que vous avez une chambre de libre ? | Do you have a room available? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Vous parlez anglais ? | Do you speak English? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | Rising intonation question — natural in spoken French
+Est-ce que vous acceptez les cartes ? | Do you accept cards? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Le musée est ouvert aujourd'hui ? | Is the museum open today? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Où est la station de métro la plus proche ? | Where is the nearest metro station? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Où est-ce qu'on prend le bus ? | Where do we catch the bus? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Est-ce qu'il y a un distributeur près d'ici ? | Is there an ATM nearby? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | distributeur = ATM in France; also called DAB
+Vous pouvez m'appeler un taxi ? | Can you call me a taxi? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Vous pouvez répéter plus lentement ? | Can you repeat more slowly? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Qu'est-ce que vous recommandez ? | What do you recommend? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+C'est compris dans le prix ? | Is it included in the price? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Vous avez du wifi ? | Do you have wifi? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Le petit-déjeuner est inclus ? | Is breakfast included? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Est-ce que je peux voir la chambre ? | Can I see the room? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Il faut réserver à l'avance ? | Do you need to book in advance? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | il faut = it is necessary / you need to; impersonal, very common
+Qu'est-ce qu'il y a à faire ici ? | What is there to do here? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Le service est compris ? | Is service included? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Vous avez un menu en anglais ? | Do you have a menu in English? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+Ça prend combien de temps ? | How long does it take? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |

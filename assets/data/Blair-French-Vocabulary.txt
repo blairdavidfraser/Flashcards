@@ -153,3 +153,51 @@ Septembre | September |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 
 Octobre | October |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
 Novembre | November |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
 Décembre | December |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+
+# Verbs
+être | to be |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+avoir | to have |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+aller | to go |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+faire | to do / to make |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+vouloir | to want |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+pouvoir | to be able to / can |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+devoir | to have to / must |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+savoir | to know (a fact or skill) |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | savoir = to know facts/how to do things; connaître = to know people/places
+connaître | to know (a person or place) |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | connaître = to know people/places; savoir = to know facts/skills
+venir | to come |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+prendre | to take / to have (food or drink) |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+manger | to eat |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+boire | to drink |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+parler | to speak |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+comprendre | to understand |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+chercher | to look for |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+arriver | to arrive |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+partir | to leave / to depart |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+rester | to stay |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+réserver | to reserve / to book |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+payer | to pay |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+demander | to ask |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+
+# >>> Verb Tense Congugations
+[je suis, ns. sommes; tu es, vs. êtes; il·elle est, ils·elles sont] | Present forms of 'être' (to be) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+[j'ai, ns. avons; tu as, vs. avez; il·elle a, ils·elles ont] | Present forms of 'avoir' (to have) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+[je vais, ns. allons; tu vas, vs. allez; il·elle va, ils·elles vont] | Present forms of 'aller' (to go) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+[je fais, ns. faisons; tu fais, vs. faites; il·elle fait, ils·elles font] | Present forms of 'faire' (to do / make) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+[je veux, ns. voulons; tu veux, vs. voulez; il·elle veut, ils·elles veulent] | Present forms of 'vouloir' (to want) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+[je peux, ns. pouvons; tu peux, vs. pouvez; il·elle peut, ils·elles peuvent] | Present forms of 'pouvoir' (to be able to / can) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+[je sais, ns. savons; tu sais, vs. savez; il·elle sait, ils·elles savent] | Present forms of 'savoir' (to know a fact / how to do something) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | savoir = to know facts/skills; connaître = to know people/places
+[je connais, ns. connaissons; tu connais, vs. connaissez; il·elle connaît, ils·elles connaissent] | Present forms of 'connaître' (to know a person or place) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | connaître = to know people/places; savoir = to know facts/skills
+[je viens, ns. venons; tu viens, vs. venez; il·elle vient, ils·elles viennent] | Present forms of 'venir' (to come) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+[je prends, ns. prenons; tu prends, vs. prenez; il·elle prend, ils·elles prennent] | Present forms of 'prendre' (to take / to have food or drink) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | prendre is used for ordering food/drink: Je prends le menu.
+[je mange, ns. mangeons; tu manges, vs. mangez; il·elle mange, ils·elles mangent] | Present forms of 'manger' (to eat) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+[je bois, ns. buvons; tu bois, vs. buvez; il·elle boit, ils·elles boivent] | Present forms of 'boire' (to drink) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+[je parle, ns. parlons; tu parles, vs. parlez; il·elle parle, ils·elles parlent] | Present forms of 'parler' (to speak) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | Regular -er verb. Serves as the model for all regular -er verbs.
+[je comprends, ns. comprenons; tu comprends, vs. comprenez; il·elle comprend, ils·elles comprennent] | Present forms of 'comprendre' (to understand) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | Conjugates like prendre.
+[je cherche, ns. cherchons; tu cherches, vs. cherchez; il·elle cherche, ils·elles cherchent] | Present forms of 'chercher' (to look for) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+[je dois, ns. devons; tu dois, vs. devez; il·elle doit, ils·elles doivent] | Present forms of 'devoir' (must / to have to) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+[j'arrive, ns. arrivons; tu arrives, vs. arrivez; il·elle arrive, ils·elles arrivent] | Present forms of 'arriver' (to arrive) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+[je pars, ns. partons; tu pars, vs. partez; il·elle part, ils·elles partent] | Present forms of 'partir' (to leave / depart) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+[je reste, ns. restons; tu restes, vs. restez; il·elle reste, ils·elles restent] | Present forms of 'rester' (to stay) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+[je réserve, ns. réservons; tu réserves, vs. réservez; il·elle réserve, ils·elles réservent] | Present forms of 'réserver' (to reserve / book) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+[je paie, ns. payons; tu paies, vs. payez; il·elle paie, ils·elles paient] | Present forms of 'payer' (to pay) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+[je demande, ns. demandons; tu demandes, vs. demandez; il·elle demande, ils·elles demandent] | Present forms of 'demander' (to ask) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
