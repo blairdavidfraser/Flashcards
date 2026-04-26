@@ -131,6 +131,25 @@ a:hover {
     user-select: none;
 }
 
+.log-lang-tabs {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.log-lang-tab {
+    cursor: pointer;
+    color: #666;
+    padding-bottom: 1px;
+}
+
+.log-lang-active {
+    font-weight: 600;
+    text-decoration: underline;
+    color: #222;
+}
+
 .log-table {
     width: 100%;
     border-collapse: collapse;
@@ -160,6 +179,112 @@ a:hover {
     font-weight: 400 !important;
     font-size: 11px !important;
     color: #888 !important;
+}
+
+.log-other-link {
+    font-size: 12px;
+    color: #555;
+    text-decoration: none;
+}
+
+.log-other-link:hover {
+    text-decoration: underline;
+}
+
+.log-other-add {
+    color: #aaa;
+}
+
+/* --- Other-activities modal --- */
+
+.log-modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.log-modal {
+    background: #fff;
+    border-radius: 10px;
+    padding: 16px 20px 20px;
+    min-width: 340px;
+    max-width: 92vw;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+}
+
+.log-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+}
+
+.log-modal-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #888;
+    padding: 0 2px;
+    line-height: 1;
+}
+
+.log-modal-table {
+    margin-top: 0;
+}
+
+.log-duration-input {
+    width: 76px;
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 2px 4px;
+}
+
+.log-activity-input {
+    width: 180px;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 2px 4px;
+}
+
+.log-remove-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #bbb;
+    font-size: 12px;
+    padding: 0 4px;
+}
+
+.log-remove-btn:hover {
+    color: #e55;
+}
+
+.log-modal-add {
+    margin-top: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 4px 10px;
+    color: #555;
+}
+
+.log-modal-add:hover {
+    background: #f5f5f5;
 }
 
 /* ---------- Divider ---------- */

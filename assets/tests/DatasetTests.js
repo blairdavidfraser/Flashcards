@@ -41,22 +41,22 @@ describe('Dataset', function () {
         });
 
         it('should set penalty to null when the penalty field is empty', function () {
-            const items = Dataset.parse('hola | hello |  | greetings | 2026-01-01 |  | 0 |  | 0 | ');
+            const items = Dataset.parse('hola | hello |  | greetings | false | 2026-01-01 |  | 0 |  | 0 | ');
             assert.isNull(items[0].penalty);
         });
 
         it('should exclude a card with an empty front', function () {
-            const items = Dataset.parse(' | hello |  | greetings | 2026-01-01 |  | 0 |  | 0 | ');
+            const items = Dataset.parse(' | hello |  | greetings | false | 2026-01-01 |  | 0 |  | 0 | ');
             assert.equal(items.length, 0);
         });
 
         it('should exclude a card with an empty back', function () {
-            const items = Dataset.parse('hola |  |  | greetings | 2026-01-01 |  | 0 |  | 0 | ');
+            const items = Dataset.parse('hola |  |  | greetings | false | 2026-01-01 |  | 0 |  | 0 | ');
             assert.equal(items.length, 0);
         });
 
         it('should parse mixed lines preserving order', function () {
-            const text = '# header\nhola | hello |  | test | 2026-01-01 |  | 0 |  | 0 | \n# footer';
+            const text = '# header\nhola | hello |  | test | false | 2026-01-01 |  | 0 |  | 0 | \n# footer';
             const items = Dataset.parse(text);
             assert.equal(items.length, 3);
             assert.equal(items[0].type, 'Comment');
@@ -102,6 +102,105 @@ describe('Dataset', function () {
             const items = [new Comment('# header'), new Card({ front: 'hola', back: 'hello' })];
             const lines = Dataset.serialize(items).split('\n');
             assert.equal(lines.length, 2);
+        });
+
+    });
+
+    describe('validate()', function () {
+
+        const VALID = 'hola | hello |  | greetings | false | 2026-01-01 |  | 0 |  | 0 | ';
+
+        it('returns null for a valid line', function () {
+            assert.isNull(Dataset.validate(VALID));
+        });
+
+        it('returns null for comment lines and blank lines', function () {
+            assert.isNull(Dataset.validate('# comment\n\n# another'));
+        });
+
+        it('returns null for mixed valid and comment lines', function () {
+            assert.isNull(Dataset.validate(`# header\n${VALID}`));
+        });
+
+        it('reports error for wrong column count', function () {
+            const err = Dataset.validate('hola | hello | only | three');
+            assert.isNotNull(err);
+            assert.include(err.message, 'columns');
+        });
+
+        it('reports correct lineNum for the bad line', function () {
+            const err = Dataset.validate(`${VALID}\nhola | hello | only | three`);
+            assert.equal(err.lineNum, 2);
+        });
+
+        it('reports error for empty front', function () {
+            const err = Dataset.validate(' | hello |  | greetings | false | 2026-01-01 |  | 0 |  | 0 | ');
+            assert.isNotNull(err);
+            assert.include(err.message, 'Front');
+        });
+
+        it('reports error for empty back', function () {
+            const err = Dataset.validate('hola |  |  | greetings | false | 2026-01-01 |  | 0 |  | 0 | ');
+            assert.isNotNull(err);
+            assert.include(err.message, 'Back');
+        });
+
+        it('reports error for invalid favourite value', function () {
+            const err = Dataset.validate('hola | hello |  | greetings | yes | 2026-01-01 |  | 0 |  | 0 | ');
+            assert.isNotNull(err);
+            assert.include(err.message, 'Favourite');
+        });
+
+        it('accepts "true" and "false" as favourite values', function () {
+            assert.isNull(Dataset.validate('hola | hello |  | greetings | true | 2026-01-01 |  | 0 |  | 0 | '));
+            assert.isNull(Dataset.validate(VALID));
+        });
+
+        it('reports error for invalid added date', function () {
+            const err = Dataset.validate('hola | hello |  | greetings | false | not-a-date |  | 0 |  | 0 | ');
+            assert.isNotNull(err);
+            assert.include(err.message, 'Added');
+        });
+
+        it('reports error for invalid last seen date', function () {
+            const err = Dataset.validate('hola | hello |  | greetings | false | 2026-01-01 | bad-date | 0 |  | 0 | ');
+            assert.isNotNull(err);
+            assert.include(err.message, 'Last seen');
+        });
+
+        it('reports error for negative seen count', function () {
+            const err = Dataset.validate('hola | hello |  | greetings | false | 2026-01-01 |  | -1 |  | 0 | ');
+            assert.isNotNull(err);
+            assert.include(err.message, 'Seen');
+        });
+
+        it('reports error for non-numeric seen count', function () {
+            const err = Dataset.validate('hola | hello |  | greetings | false | 2026-01-01 |  | abc |  | 0 | ');
+            assert.isNotNull(err);
+            assert.include(err.message, 'Seen');
+        });
+
+        it('reports error for non-numeric penalty', function () {
+            const err = Dataset.validate('hola | hello |  | greetings | false | 2026-01-01 |  | 0 | abc | 0 | ');
+            assert.isNotNull(err);
+            assert.include(err.message, 'Penalty');
+        });
+
+        it('accepts empty penalty', function () {
+            assert.isNull(Dataset.validate(VALID));
+        });
+
+        it('reports error for invalid level', function () {
+            const err = Dataset.validate('hola | hello |  | greetings | false | 2026-01-01 |  | 0 |  | 5 | ');
+            assert.isNotNull(err);
+            assert.include(err.message, 'Level');
+        });
+
+        it('accepts level values -1, 0, 1', function () {
+            const base = (level) => `hola | hello |  | greetings | false | 2026-01-01 |  | 0 |  | ${level} | `;
+            assert.isNull(Dataset.validate(base('-1')));
+            assert.isNull(Dataset.validate(base('0')));
+            assert.isNull(Dataset.validate(base('1')));
         });
 
     });

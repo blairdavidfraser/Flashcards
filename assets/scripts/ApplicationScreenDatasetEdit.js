@@ -32,6 +32,35 @@ export class ApplicationScreenDatasetEdit {
         document.getElementById("editSearchInput").value = "";
     }
 
+    #scrollTaToChar(ta, charPos) {
+        const cs = getComputedStyle(ta);
+        const clone = document.createElement('textarea');
+        clone.style.cssText = [
+            'position:fixed', 'top:-9999px', 'left:0', 'overflow:hidden',
+            `width:${ta.clientWidth}px`, 'height:auto',
+            `font-size:${cs.fontSize}`, `font-family:${cs.fontFamily}`,
+            `line-height:${cs.lineHeight}`, `padding:${cs.padding}`,
+            `border:${cs.border}`, `box-sizing:${cs.boxSizing}`,
+            `white-space:${cs.whiteSpace}`, `overflow-wrap:${cs.overflowWrap}`
+        ].join(';');
+        clone.value = ta.value.slice(0, charPos);
+        document.body.appendChild(clone);
+        const offsetPx = clone.scrollHeight;
+        document.body.removeChild(clone);
+        ta.scrollTop = Math.max(0, offsetPx - ta.clientHeight / 2);
+    }
+
+    #showValidationError({ lineNum, message, data }) {
+        const ta = document.getElementById("editBox");
+        const lines = ta.value.split('\n');
+        const charPos = lines.slice(0, lineNum - 1).reduce((acc, l) => acc + l.length + 1, 0);
+        const lineLen = lines[lineNum - 1]?.length || 0;
+        ta.focus();
+        ta.setSelectionRange(charPos, charPos + lineLen);
+        this.#scrollTaToChar(ta, charPos);
+        setTimeout(() => alert(`Validation error on line ${lineNum}:\n${message}\n\n${data}`), 50);
+    }
+
     search(direction = 1) {
         const query = document.getElementById("editSearchInput").value;
         if (!query) return;
@@ -62,7 +91,7 @@ export class ApplicationScreenDatasetEdit {
                 `font-size:${cs.fontSize}`, `font-family:${cs.fontFamily}`,
                 `line-height:${cs.lineHeight}`, `padding:${cs.padding}`,
                 `border:${cs.border}`, `box-sizing:${cs.boxSizing}`,
-                `white-space:${cs.whiteSpace}`, `word-wrap:${cs.wordWrap}`
+                `white-space:${cs.whiteSpace}`, `overflow-wrap:${cs.overflowWrap}`
             ].join(';');
             clone.value = ta.value.slice(0, start);
             document.body.appendChild(clone);
@@ -73,7 +102,10 @@ export class ApplicationScreenDatasetEdit {
     }
 
     save() {
-        this.#persistence.saveDataset(Dataset.parse(document.getElementById("editBox").value));
+        const text = document.getElementById("editBox").value;
+        const error = Dataset.validate(text);
+        if (error) { this.#showValidationError(error); return; }
+        this.#persistence.saveDataset(Dataset.parse(text));
         this.#persistence = null;
         document.getElementById("editBox").value = "";
         this.#backToMenu();
@@ -84,6 +116,9 @@ export class ApplicationScreenDatasetEdit {
     }
 
     async saveToGitHub() {
+        const text = document.getElementById("editBox").value;
+        const error = Dataset.validate(text);
+        if (error) { this.#showValidationError(error); return; }
         if (!GitHubService.isConfigured()) {
             this.#showGithubConfig();
             return;

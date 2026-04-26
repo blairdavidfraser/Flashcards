@@ -28,6 +28,36 @@ export class Dataset {
         }).join("\n");
     }
 
+    static validate(text) {
+        const lines = text.split('\n');
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i];
+            const trimmed = line.trim();
+            if (!trimmed || trimmed.startsWith('#')) continue;
+            const parts = line.split('|').map(p => p.trim());
+            const lineNum = i + 1;
+            if (parts.length !== 11)
+                return { lineNum, message: `Expected 11 columns, found ${parts.length}`, data: line };
+            if (!parts[0])
+                return { lineNum, message: 'Front (column 1) is empty', data: line };
+            if (!parts[1])
+                return { lineNum, message: 'Back (column 2) is empty', data: line };
+            if (parts[4] && parts[4] !== 'true' && parts[4] !== 'false')
+                return { lineNum, message: `Favourite (column 5) must be "true", "false", or empty — got "${parts[4]}"`, data: line };
+            if (parts[5] && isNaN(new Date(parts[5]).getTime()))
+                return { lineNum, message: `Added date (column 6) is invalid: "${parts[5]}"`, data: line };
+            if (parts[6] && isNaN(new Date(parts[6]).getTime()))
+                return { lineNum, message: `Last seen (column 7) is invalid: "${parts[6]}"`, data: line };
+            if (parts[7] !== '' && (isNaN(parseInt(parts[7])) || parseInt(parts[7]) < 0))
+                return { lineNum, message: `Seen count (column 8) must be a non-negative integer — got "${parts[7]}"`, data: line };
+            if (parts[8] !== '' && isNaN(parseFloat(parts[8])))
+                return { lineNum, message: `Penalty (column 9) must be a number or empty — got "${parts[8]}"`, data: line };
+            if (parts[9] !== '' && !['−1', '-1', '0', '1'].includes(parts[9]))
+                return { lineNum, message: `Level (column 10) must be -1, 0, or 1 — got "${parts[9]}"`, data: line };
+        }
+        return null;
+    }
+
     static parse(text) {
         const items = [];
         for (const line of text.split("\n")) {

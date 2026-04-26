@@ -338,6 +338,85 @@ describe('Game', function () {
     });
 
     // =========================================================================
+    describe('rankCounts()', function () {
+
+        it('counts all cards regardless of rank', function () {
+            const g = freshGame();
+            g.dataset = [makeCard({ level: 0 }), makeCard({ level: 1 }), makeCard({ level: -1 })];
+            assert.equal(g.rankCounts().all, 3);
+        });
+
+        it('counts normal cards (level 0, excludes review)', function () {
+            const g = freshGame();
+            g.dataset = [makeCard({ level: 0 }), makeCard({ level: -1 })];
+            const c = g.rankCounts();
+            assert.equal(c.normal, 1);
+        });
+
+        it('counts new cards (seen < 3 and recently added)', function () {
+            const g = freshGame();
+            g.dataset = [makeCard({ seen: 0 }), makeCard({ seen: 0 })];
+            assert.equal(g.rankCounts().new, 2);
+        });
+
+        it('counts hard cards (level 1)', function () {
+            const g = freshGame();
+            g.dataset = [makeCard({ level: 1 }), makeCard({ level: 1 }), makeCard({ level: 0 })];
+            assert.equal(g.rankCounts().hard, 2);
+        });
+
+        it('counts review cards (level -1)', function () {
+            const g = freshGame();
+            g.dataset = [makeCard({ level: -1 }), makeCard({ level: 0 })];
+            assert.equal(g.rankCounts().review, 1);
+        });
+
+        it('caps hard cards in normal count at 10', function () {
+            const g = freshGame();
+            g.dataset = Array.from({ length: 15 }, () => makeCard({ level: 1 }));
+            assert.equal(g.rankCounts().normal, 10);
+        });
+
+        it('caps review count at 100', function () {
+            const g = freshGame();
+            g.dataset = Array.from({ length: 120 }, (_, i) =>
+                makeCard({ front: `f${i}`, back: `b${i}`, level: -1 })
+            );
+            assert.equal(g.rankCounts().review, 100);
+        });
+
+        it('respects category filter', function () {
+            const g = freshGame();
+            g.dataset = [
+                makeCard({ front: 'a', back: 'a', category: 'A' }),
+                makeCard({ front: 'b', back: 'b', category: 'B' })
+            ];
+            g.configuration.categories = new Set(['A']);
+            assert.equal(g.rankCounts().all, 1);
+        });
+
+        it('respects onlyFavourites filter', function () {
+            const g = freshGame();
+            g.dataset = [
+                makeCard({ front: 'a', back: 'a', favourite: true }),
+                makeCard({ front: 'b', back: 'b', favourite: false })
+            ];
+            g.configuration.onlyFavourites = true;
+            assert.equal(g.rankCounts().all, 1);
+        });
+
+        it('excludes future cards (added > now)', function () {
+            const g = freshGame();
+            g.dataset = [
+                makeCard({ front: 'a', back: 'a', added: Date.now() - 1000 }),
+                makeCard({ front: 'b', back: 'b', added: Date.now() + 999999 })
+            ];
+            assert.equal(g.rankCounts().all, 1);
+        });
+
+    });
+
+    // =========================================================================
     describe('recent exclusion', function () {
 
         it('does not draw the same card twice in a row when alternatives exist', function () {
