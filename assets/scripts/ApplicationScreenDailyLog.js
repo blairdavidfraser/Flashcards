@@ -3,6 +3,7 @@
 //
 //=============================================================================
 import { DailyLog } from "./DailyLog.js"
+import { GitHubService } from "./GitHubService.js"
 
 const LANGUAGES = ['Spanish', 'French'];
 
@@ -37,12 +38,13 @@ export class ApplicationScreenDailyLog {
         const container = document.getElementById("dailyLogContent");
         if (!container) return;
 
-        // Language tabs
+        // Language tabs + push button
         let html = '<div class="log-lang-tabs">';
         LANGUAGES.forEach(lang => {
             const active = lang === this._language ? ' log-lang-active' : '';
             html += `<span class="log-lang-tab${active}" data-lang="${lang}">${lang}</span>`;
         });
+        html += '<span class="log-push-btn" id="logPushBtn">⬆ GitHub</span>';
         html += '</div>';
 
         const entries = DailyLog.recent(365).filter(e => e.language === this._language);
@@ -102,6 +104,7 @@ export class ApplicationScreenDailyLog {
         container.innerHTML = html;
         this._bindTabs(container);
         this._bindOtherLinks(container);
+        container.querySelector('#logPushBtn').addEventListener('click', () => this._pushToGitHub());
     }
 
     _bindTabs(container) {
@@ -192,6 +195,71 @@ export class ApplicationScreenDailyLog {
         });
 
         const close = () => { modal.remove(); this._render(); };
+        modal.querySelector('.log-modal-close').addEventListener('click', close);
+        modal.addEventListener('click', e => { if (e.target === modal) close(); });
+    }
+
+    _pushToGitHub() {
+        if (!GitHubService.isConfigured()) {
+            this._showGitHubConfigModal();
+            return;
+        }
+        this._doPush();
+    }
+
+    async _doPush() {
+        const btn = document.getElementById('logPushBtn');
+        btn.textContent = 'Pushing…';
+        try {
+            const { token, repo } = GitHubService.getConfig();
+            const content = JSON.stringify(DailyLog.export(), null, 2);
+            await GitHubService.pushFile(token, repo, 'assets/data/Blair-DailyLog.json', content, 'Update Blair-DailyLog.json');
+            btn.textContent = '✓ Pushed';
+            setTimeout(() => { btn.textContent = '⬆ GitHub'; }, 2500);
+        } catch (e) {
+            btn.textContent = '✗ Failed';
+            alert(`GitHub push failed: ${e.message}`);
+            setTimeout(() => { btn.textContent = '⬆ GitHub'; }, 2500);
+        }
+    }
+
+    _showGitHubConfigModal() {
+        document.getElementById('log-github-modal')?.remove();
+
+        const { repo, prefix } = GitHubService.getConfig();
+        const modal = document.createElement('div');
+        modal.id = 'log-github-modal';
+        modal.className = 'log-modal-overlay';
+        modal.innerHTML = `
+            <div class="log-modal">
+                <div class="log-modal-header">
+                    <span>GitHub Configuration</span>
+                    <button class="log-modal-close">✕</button>
+                </div>
+                <div class="log-modal-body" style="display:flex;flex-direction:column;gap:10px;font-size:13px">
+                    <label>Personal access token:<br>
+                        <input type="password" id="logGithubToken" class="log-config-input" placeholder="ghp_…"></label>
+                    <label>Repository (owner/repo):<br>
+                        <input type="text" id="logGithubRepo" class="log-config-input" placeholder="username/flashcards" value="${repo}"></label>
+                    <label>Filename prefix (optional):<br>
+                        <input type="text" id="logGithubPrefix" class="log-config-input" placeholder="e.g. Blair" value="${prefix}"></label>
+                    <button class="log-modal-add" id="logGithubSaveBtn" style="align-self:flex-start">Save &amp; Push</button>
+                </div>
+            </div>
+        `;
+        document.body.appendChild(modal);
+
+        modal.querySelector('#logGithubSaveBtn').addEventListener('click', () => {
+            const token  = modal.querySelector('#logGithubToken').value.trim();
+            const repo   = modal.querySelector('#logGithubRepo').value.trim();
+            const prefix = modal.querySelector('#logGithubPrefix').value.trim();
+            if (!token || !repo) return;
+            GitHubService.saveConfig(token, repo, prefix);
+            modal.remove();
+            this._doPush();
+        });
+
+        const close = () => modal.remove();
         modal.querySelector('.log-modal-close').addEventListener('click', close);
         modal.addEventListener('click', e => { if (e.target === modal) close(); });
     }

@@ -144,6 +144,27 @@ a:hover {
     padding-bottom: 1px;
 }
 
+.log-push-btn {
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 12px;
+    color: #888;
+}
+
+.log-push-btn:hover {
+    color: #333;
+}
+
+.log-config-input {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 4px 6px;
+    margin-top: 2px;
+}
+
 .log-lang-active {
     font-weight: 600;
     text-decoration: underline;

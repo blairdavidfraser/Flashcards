@@ -90,4 +90,9 @@ export const DailyLog = {
             .sort((a, b) => b.date.localeCompare(a.date));
     },
 
+    // Returns a full snapshot of all stored data for export.
+    export() {
+        return { game: load(), other: loadOther() };
+    },
+
 };
