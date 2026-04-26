@@ -1,1 +1,121 @@
-
+{
+  "game": [
+    {
+      "date": "2026-04-22",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 264
+    },
+    {
+      "date": "2026-04-23",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 11
+    },
+    {
+      "date": "2026-04-23",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 122
+    },
+    {
+      "date": "2026-04-24",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 111
+    },
+    {
+      "date": "2026-04-25",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 231
+    },
+    {
+      "date": "2026-04-26",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 2
+    },
+    {
+      "date": "2026-04-26",
+      "name": "Vocabulary",
+      "language": "French",
+      "direction": "recall",
+      "count": 2
+    },
+    {
+      "date": "2026-04-26",
+      "name": "Vocabulary",
+      "language": "French",
+      "direction": "recognition",
+      "count": 28
+    },
+    {
+      "date": "2026-04-26",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recognition",
+      "count": 14
+    }
+  ],
+  "other": [
+    {
+      "date": "2026-04-26",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:40:00",
+          "activity": "https://m.youtube.com/watch?v=ghTNVZI7YT4&pp=0gcJCdQKAYcqIYzv&ra=m"
+        },
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=5iwrpgZu_kM&ra=m"
+        },
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=P5oergPAcXs&ra=m"
+        },
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=MQlzyirTedI&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
+          "activity": "https://m.youtube.com/watch?v=4jWV0LyPqs4&pp=0gcJCU8Co7VqN5tD&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=1iQh6IJwO9U&pp=0gcJCdMKAYcqIYzv&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-26",
+      "language": "French",
+      "items": [
+        {
+          "duration": "00:08:00",
+          "activity": "https://m.youtube.com/watch?v=c2SUQVjklVA&pp=ygUbY29tcHJlaGVuc2libGUgaW5wdXQgZnJlbmNo&ra=m"
+        }
+      ]
+    }
+  ]
+}
