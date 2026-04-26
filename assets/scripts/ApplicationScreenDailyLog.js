@@ -44,17 +44,17 @@ export class ApplicationScreenDailyLog {
         const entries = DailyLog.recent(365).filter(e => e.language === this._language);
         const otherList = DailyLog.recentOther(this._language, 365);
 
+        const last7 = Array.from({ length: 7 }, (_, i) => {
+            const d = new Date();
+            d.setDate(d.getDate() - i);
+            return d.toISOString().slice(0, 10);
+        });
+
         const allDates = [...new Set([
+            ...last7,
             ...entries.map(e => e.date),
             ...otherList.map(e => e.date),
         ])].sort((a, b) => b.localeCompare(a));
-
-        if (allDates.length === 0) {
-            html += "<p style='color:#555;font-size:14px;padding:8px 0'>No activity yet.</p>";
-            container.innerHTML = html;
-            this._bindTabs(container);
-            return;
-        }
 
         // Aggregate game counts by date + direction
         const totals = {};
