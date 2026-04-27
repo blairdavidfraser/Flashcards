@@ -62,6 +62,20 @@
       "language": "Spanish",
       "direction": "recognition",
       "count": 14
+    },
+    {
+      "date": "2026-04-27",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 178
+    },
+    {
+      "date": "2026-04-27",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recognition",
+      "count": 24
     }
   ],
   "other": [
@@ -84,6 +98,10 @@
         {
           "duration": "00:20:00",
           "activity": "https://m.youtube.com/watch?v=MQlzyirTedI&ra=m"
+        },
+        {
+          "duration": "00:15:00",
+          "activity": "Historias de Puerto Rico"
         }
       ]
     },
@@ -114,6 +132,20 @@
         {
           "duration": "00:08:00",
           "activity": "https://m.youtube.com/watch?v=c2SUQVjklVA&pp=ygUbY29tcHJlaGVuc2libGUgaW5wdXQgZnJlbmNo&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
+          "activity": "https://m.youtube.com/watch?v=wTwLf_WcSP8&ra=m"
+        },
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=nVAP0GYxAs4&ra=m"
         }
       ]
     }
