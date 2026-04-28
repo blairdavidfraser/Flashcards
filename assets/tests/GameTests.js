@@ -335,6 +335,18 @@ describe('Game', function () {
             }
         });
 
+        it('re-initializes enabled list when rank changes after a draw', function () {
+            const g = freshGame();
+            g.dataset = [makeCard({ front: 'normal', back: 'normal', level: 0 })];
+            g.rank = 'normal';
+            g.draw();
+            assert.equal(g.state.card.front, 'normal');
+
+            g.rank = 'hard'; // no hard cards — should fall back
+            g.draw();
+            assert.include(g.state.card.front, 'Please');
+        });
+
     });
 
     // =========================================================================

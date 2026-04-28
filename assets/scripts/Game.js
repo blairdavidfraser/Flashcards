@@ -9,6 +9,7 @@ export class Game {
     #deck = [new Card({ front: "Select a deck to begin.", back: "Select a deck to begin." })];
     #enabled = null;
     #recent = [];
+    #rank = 'normal';
 
     get dataset() { return this.#dataset; }
     set dataset(items) {
@@ -17,12 +18,14 @@ export class Game {
         this.#enabled = null;
     }
 
+    get rank() { return this.#rank; }
+    set rank(v) { this.#rank = v; this.#enabled = null; }
+
     constructor(name = null, language = null, logger = null) {
         this.name = name;
         this.language = language;
         this.logger = logger;
         this.direction = 'recall';
-        this.rank = 'normal'; // normal, new, hard, review
 
         this.configuration = {
             sound: {
