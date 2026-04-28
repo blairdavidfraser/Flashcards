@@ -68,7 +68,7 @@
       "name": "Vocabulary",
       "language": "Spanish",
       "direction": "recall",
-      "count": 178
+      "count": 219
     },
     {
       "date": "2026-04-27",
@@ -76,6 +76,27 @@
       "language": "Spanish",
       "direction": "recognition",
       "count": 24
+    },
+    {
+      "date": "2026-04-28",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recognition",
+      "count": 12
+    },
+    {
+      "date": "2026-04-28",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 28
+    },
+    {
+      "date": "2026-04-28",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 18
     }
   ],
   "other": [
@@ -146,6 +167,32 @@
         {
           "duration": "00:20:00",
           "activity": "https://m.youtube.com/watch?v=nVAP0GYxAs4&ra=m"
+        },
+        {
+          "duration": "00:17:00",
+          "activity": "https://m.youtube.com/watch?v=QAVrAh3fFxo&ra=m"
+        },
+        {
+          "duration": "00:15:00",
+          "activity": "Una capítulo de Historias de Puerto Rico"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
+          "activity": "https://m.youtube.com/watch?v=6FQol_krzvg&ra=m"
+        },
+        {
+          "duration": "00:15:00",
+          "activity": "https://m.youtube.com/watch?v=zIR2eBtkhN0&ra=m"
+        },
+        {
+          "duration": "00:30:00",
+          "activity": "https://m.youtube.com/watch?v=LaDNZypaswk&ra=m"
         }
       ]
     }
