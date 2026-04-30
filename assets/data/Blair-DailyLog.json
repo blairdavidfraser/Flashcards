@@ -97,6 +97,20 @@
       "language": "Spanish",
       "direction": "recall",
       "count": 18
+    },
+    {
+      "date": "2026-04-29",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 14
+    },
+    {
+      "date": "2026-04-29",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 27
     }
   ],
   "other": [
@@ -193,6 +207,44 @@
         {
           "duration": "00:30:00",
           "activity": "https://m.youtube.com/watch?v=LaDNZypaswk&ra=m"
+        },
+        {
+          "duration": "00:10:00",
+          "activity": "Conversation with Claude: rowing"
+        },
+        {
+          "duration": "00:30:00",
+          "activity": "https://m.youtube.com/watch?v=2T1oHKUZS1w&pp=QAFIAdIHCQlQAqO1ajebQw%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:00:00",
+          "activity": "Capítulo de Historias de Puerto Rico "
+        }
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=Kq_HG9j9hTE&pp=0gcJCU8Co7VqN5tD&ra=m"
+        },
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=ADwva_cuhvQ&ra=m"
+        },
+        {
+          "duration": "00:35:00",
+          "activity": "https://m.youtube.com/watch?v=VKf-acJo1wM&pp=QAFIAdIHCQlQAqO1ajebQw%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:15:00",
+          "activity": "Una capítulo de Historias de Puerto Rico "
+        },
+        {
+          "duration": "00:07:00",
+          "activity": "https://m.youtube.com/watch?v=roixz0gd4Ug&pp=0gcJCd8KAYcqIYzv&ra=m"
         }
       ]
     }
