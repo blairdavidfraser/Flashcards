@@ -389,12 +389,12 @@ describe('Game', function () {
             assert.equal(g.rankCounts().normal, 10);
         });
 
-        it('caps review count at 100', function () {
+        it('returns the true review count uncapped', function () {
             const g = freshGame();
             g.dataset = Array.from({ length: 120 }, (_, i) =>
                 makeCard({ front: `f${i}`, back: `b${i}`, level: -1 })
             );
-            assert.equal(g.rankCounts().review, 100);
+            assert.equal(g.rankCounts().review, 120);
         });
 
         it('respects category filter', function () {

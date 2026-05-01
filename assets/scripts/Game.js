@@ -169,7 +169,7 @@ export class Game {
             normal: hard.concat(normal).length,
             new:    this.#filterByRank(base, 'new').length,
             hard:   this.#filterByRank(base, 'hard').length,
-            review: this.#filterByRank(base, 'review', 100).length,
+            review: this.#filterByRank(base, 'review').length,
             all:    base.length,
         };
     }
