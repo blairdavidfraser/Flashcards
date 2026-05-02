@@ -111,6 +111,20 @@
       "language": "Spanish",
       "direction": "recall",
       "count": 27
+    },
+    {
+      "date": "2026-04-30",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 81
+    },
+    {
+      "date": "2026-05-01",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 132
     }
   ],
   "other": [
@@ -245,6 +259,42 @@
         {
           "duration": "00:07:00",
           "activity": "https://m.youtube.com/watch?v=roixz0gd4Ug&pp=0gcJCd8KAYcqIYzv&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-30",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:25:00",
+          "activity": "https://m.youtube.com/watch?v=f6_AeXpBRbQ&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-01",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
+          "activity": "https://m.youtube.com/watch?v=imbFYo4Tl3o&ra=m"
+        },
+        {
+          "duration": "00:34:00",
+          "activity": "https://m.youtube.com/watch?v=8RwHz2H1ov4&pp=QAFIAQ%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:15:00",
+          "activity": "https://m.youtube.com/watch?v=APzZ2qBAbxU&ra=m"
+        },
+        {
+          "duration": "00:40:00",
+          "activity": "https://m.youtube.com/watch?v=XEah6w6uKcc&ra=m"
+        },
+        {
+          "duration": "00:35:00",
+          "activity": "https://m.youtube.com/watch?v=Zb8yLOASZtI&ra=m"
         }
       ]
     }
