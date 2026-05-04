@@ -1,4 +1,4 @@
-const CACHE = 'dotlingo-v7';
+const CACHE = 'dotlingo-v8';
 
 const PRECACHE = [
     './',
