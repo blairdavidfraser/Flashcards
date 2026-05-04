@@ -21,6 +21,11 @@ export class Game {
     get rank() { return this.#rank; }
     set rank(v) { this.#rank = v; this.#enabled = null; }
 
+    removeEnabled(card) {
+        if (this.#enabled) this.#enabled = this.#enabled.filter(c => c !== card);
+        this.#recent = this.#recent.filter(c => c !== card);
+    }
+
     constructor(name = null, language = null, logger = null) {
         this.name = name;
         this.language = language;

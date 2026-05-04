@@ -80,6 +80,7 @@ export class Gameplay {
         if (!card) return;
         card.level = 2;
         card.penalty = null;
+        this.game.removeEnabled(card);
         this.save();
     }
 
