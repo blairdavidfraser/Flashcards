@@ -335,6 +335,19 @@ describe('Game', function () {
             }
         });
 
+        it('never draws Cold cards in any game mode', function () {
+            const g = freshGame();
+            g.dataset = [
+                makeCard({ front: 'normal', back: 'normal', level: 0 }),
+                makeCard({ front: 'cold',   back: 'cold',   level: 2 })
+            ];
+            g.rank = 'all';
+            for (let i = 0; i < 10; i++) {
+                g.draw();
+                assert.notEqual(g.state.card.front, 'cold');
+            }
+        });
+
         it('re-initializes enabled list when rank changes after a draw', function () {
             const g = freshGame();
             g.dataset = [makeCard({ front: 'normal', back: 'normal', level: 0 })];
@@ -352,10 +365,12 @@ describe('Game', function () {
     // =========================================================================
     describe('rankCounts()', function () {
 
-        it('counts all cards regardless of rank', function () {
+        it('counts all non-Cold cards in all', function () {
             const g = freshGame();
-            g.dataset = [makeCard({ level: 0 }), makeCard({ level: 1 }), makeCard({ level: -1 })];
-            assert.equal(g.rankCounts().all, 3);
+            g.dataset = [makeCard({ level: 0 }), makeCard({ level: 1 }), makeCard({ level: -1 }), makeCard({ level: 2 })];
+            const c = g.rankCounts();
+            assert.equal(c.all, 3);
+            assert.equal(c.cold, 1);
         });
 
         it('counts normal cards (level 0, excludes review)', function () {

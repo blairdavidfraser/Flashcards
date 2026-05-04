@@ -4,6 +4,7 @@
 // A class representing a single flashcard, with front and back content.
 //=============================================================================
 import { parseDate, formatDate } from "./Utilities.js"
+import { CardRank } from "./CardRank.js"
 
 export class Card {
 
@@ -51,33 +52,43 @@ export class Card {
             : (1 - alpha) * this.penalty + alpha * (difficulty - 1); // Weighted average
     }
 
-    matches(level) {
-        switch (level) {
-            case 'new':
-                return this.isNew();
-            case 'hard':
-                return this.isHard();
-            case 'review':
-                return this.isReview();
-            case 'normal':
-                return this.isNormal();
-            case 'all':
-                return true;
-            default:
-                return false;
+    rankName() {
+        switch (this.level) {
+            case  1: return CardRank.Hard;
+            case -1: return CardRank.Easy;
+            case  2: return CardRank.Cold;
+            default: return CardRank.Core;
         }
     }
 
-    isHard() { return this.level >= 1; }
-    isReview() { return this.level <= -1; }
-    isNormal() { return this.level === 0; }
-    isNew() { return this.level >= 0 && (this.seen < 3 || this.added >= Date.now() - 5 * 24 * 60 * 60 * 1000); }
+    matches(rank) {
+        switch (rank) {
+            case 'new':           return this.isNew();
+            case 'hard':
+            case CardRank.Hard:   return this.isHard();
+            case 'normal':
+            case CardRank.Core:   return this.isCore();
+            case 'review':
+            case 'easy':
+            case CardRank.Easy:   return this.isEasy();
+            case 'cold':
+            case CardRank.Cold:   return this.isCold();
+            case 'all':           return !this.isCold();
+            default:              return false;
+        }
+    }
+
+    isHard()   { return this.level === 1; }
+    isCore()   { return this.level === 0; }
+    isEasy()   { return this.level === -1; }
+    isCold()   { return this.level === 2; }
+    isNew()    { return !this.isCold() && this.level >= 0 && (this.seen < 3 || this.added >= Date.now() - 5 * 24 * 60 * 60 * 1000); }
 
     summary() {
         const added = parseDate(this.added);
         const last = this.lastSeen ? new Date(this.lastSeen) : null;
         const seen = this.seen || 0;
-        return `level ${this.level} (${this.penalty?.toFixed(2) || "null"} @ ${seen}x), +${formatDate(added)}, ` +
+        return `${this.rankName()} (${this.penalty?.toFixed(2) || "null"} @ ${seen}x), +${formatDate(added)}, ` +
             `last ${last ? formatDate(last) : 'never'}`
     }
 }

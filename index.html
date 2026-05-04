@@ -126,7 +126,8 @@
             <a href="#" onclick="startGame('hard'); return false;" id="rankHard">Hard</a>
             <br>
             <a href="#" onclick="startGame('review'); return false;" id="rankReview">Review</a> ::
-            <a href="#" onclick="startGame('all'); return false;" id="rankAll">All</a>
+            <a href="#" onclick="startGame('all'); return false;" id="rankAll">All</a> ::
+            <span id="rankCold">Cold (0)</span>
         </div>
 
         <br><br>
@@ -136,14 +137,13 @@
     <!-- STUDY -->
     <div id="studyArea" class="hidden">
 
-        <div id="card" class="card" onclick="finishRound()">
+        <div id="card" class="card" onclick="cardClick()">
             <div id="cardHeader" class="card-header">
                 <table class="card-header-table">
                     <tr>
                         <td id="cardHeaderLeft" class="card-header-corner" onclick="toggleFavourite(event)"></td>
                         <td id="cardCategory" class="card-header-center"></td>
-                        <td id="cardHeaderRight" class="card-header-corner"
-                            onclick="event.stopPropagation(); showCardEdit()">&#x270F;&#xFE0E;</td>
+                        <td class="card-header-corner"></td>
                     </tr>
                 </table>
             </div>
@@ -155,6 +155,9 @@
                 <div id="cardInfo" class="muted-text"></div>
             </div>
         </div>
+
+        <div id="swipeEditPanel" class="swipe-action-panel swipe-edit hidden" onclick="swipeEdit()">Edit</div>
+        <div id="swipeColdPanel" class="swipe-action-panel swipe-cold hidden" onclick="swipeCold()">🧊</div>
 
         <div class="difficulty hidden" id="difficultyButtons">
             <button onclick="cycleRound(0, -1)">&larr;</button>

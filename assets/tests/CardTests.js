@@ -207,7 +207,7 @@ describe('Card', function () {
             assert.isFalse(c.matches('new'));
         });
 
-        it('should match rank is hard when level >= 1', function () {
+        it('should match rank is hard when level === 1', function () {
             const c = new Card({ front: 'a', back: 'b', level: 1 });
             assert.isTrue(c.matches('hard'));
         });
@@ -215,6 +215,21 @@ describe('Card', function () {
         it('should match rank is review when level === -1', function () {
             const c = new Card({ front: 'a', back: 'b', level: -1 });
             assert.isTrue(c.matches('review'));
+        });
+
+        it('should match rank is cold when level === 2', function () {
+            const c = new Card({ front: 'a', back: 'b', level: 2 });
+            assert.isTrue(c.matches('cold'));
+        });
+
+        it('should not match all when cold', function () {
+            const c = new Card({ front: 'a', back: 'b', level: 2 });
+            assert.isFalse(c.matches('all'));
+        });
+
+        it('should not match new when cold', function () {
+            const c = new Card({ front: 'a', back: 'b', level: 2, seen: 0 });
+            assert.isFalse(c.matches('new'));
         });
 
         it('should return false if rank is invalid', function () {
@@ -236,9 +251,9 @@ describe('Card', function () {
             assert.include(c.summary(), 'never');
         });
 
-        it('should include the level', function () {
+        it('should include the rank name', function () {
             const c = new Card({ front: 'a', back: 'b', level: 1 });
-            assert.include(c.summary(), 'level 1');
+            assert.include(c.summary(), 'hard');
         });
 
         it('should include a date after being rated', function () {

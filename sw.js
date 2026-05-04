@@ -1,4 +1,4 @@
-const CACHE = 'dotlingo-v4';
+const CACHE = 'dotlingo-v5';
 
 const PRECACHE = [
     './',
@@ -13,6 +13,7 @@ const PRECACHE = [
     './assets/scripts/ApplicationScreenStatistics.js',
     './assets/scripts/ApplicationScreenStudy.js',
     './assets/scripts/Card.js',
+    './assets/scripts/CardRank.js',
     './assets/scripts/Comment.js',
     './assets/scripts/Dataset.js',
     './assets/scripts/Game.js',

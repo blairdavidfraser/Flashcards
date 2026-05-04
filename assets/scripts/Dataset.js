@@ -7,6 +7,9 @@ import { Card } from "./Card.js"
 import { Comment } from "./Comment.js"
 import { parseDate, formatDate } from "./Utilities.js"
 
+const RANK_TO_LEVEL = Object.freeze({ Hard: 1, Core: 0, Easy: -1, Cold: 2 });
+const LEVEL_TO_RANK = Object.freeze({ 1: 'Hard', 0: 'Core', '-1': 'Easy', 2: 'Cold' });
+
 export class Dataset {
 
     static serialize(items) {
@@ -22,7 +25,7 @@ export class Dataset {
                 formatDate(item.lastSeen),
                 item.seen,
                 item.penalty?.toFixed(4) || "",
-                item.level,
+                LEVEL_TO_RANK[item.level] ?? item.level,
                 item.comment || ""
             ].join(" | ");
         }).join("\n");
@@ -52,8 +55,8 @@ export class Dataset {
                 return { lineNum, message: `Seen count (column 8) must be a non-negative integer — got "${parts[7]}"`, data: line };
             if (parts[8] !== '' && isNaN(parseFloat(parts[8])))
                 return { lineNum, message: `Penalty (column 9) must be a number or empty — got "${parts[8]}"`, data: line };
-            if (parts[9] !== '' && !['−1', '-1', '0', '1'].includes(parts[9]))
-                return { lineNum, message: `Level (column 10) must be -1, 0, or 1 — got "${parts[9]}"`, data: line };
+            if (parts[9] !== '' && !(parts[9] in RANK_TO_LEVEL))
+                return { lineNum, message: `Level (column 10) must be Hard, Core, Easy, or Cold — got "${parts[9]}"`, data: line };
         }
         return null;
     }
@@ -77,7 +80,7 @@ export class Dataset {
                 lastSeen: parseDate(parts[6]),
                 seen: parseInt(parts[7]) || 0,
                 penalty: parts[8] ? parseFloat(parts[8]) : null,
-                level: parseInt(parts[9]) || 0,
+                level: RANK_TO_LEVEL[parts[9]] ?? 0,
                 comment: parts[10]?.trim() || ""
             });
             if (card.validate()) items.push(card);

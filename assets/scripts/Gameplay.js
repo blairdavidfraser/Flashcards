@@ -75,6 +75,14 @@ export class Gameplay {
         }
     }
 
+    markCold() {
+        const card = this.game.state.card;
+        if (!card) return;
+        card.level = 2;
+        card.penalty = null;
+        this.save();
+    }
+
     rate(difficulty, level) {
         this.game.rate(difficulty, level);
         this.save();

@@ -110,16 +110,17 @@ describe('Statistics.render', function () {
             total: 0,
             unseen: 0,
             today: 0,
-            levels: { 10: 1, 2: 1, 1: 1 },
+            levels: { '-1': 1, '0': 1, '1': 1, '2': 1 },
             categories: {}
         };
         const html = Statistics.render(stats);
         const order = [
-            html.indexOf('Level 1'),
-            html.indexOf('Level 2'),
-            html.indexOf('Level 10')
+            html.indexOf('Easy'),
+            html.indexOf('Core'),
+            html.indexOf('Hard'),
+            html.indexOf('Cold')
         ];
-        assert.isTrue(order[0] < order[1] && order[1] < order[2]);
+        assert.isTrue(order[0] < order[1] && order[1] < order[2] && order[2] < order[3]);
     });
 
     it('should render categories alphabetically', function () {
@@ -141,8 +142,8 @@ describe('Statistics.render', function () {
     it('should render level counts correctly', function () {
         const stats = { total: 3, unseen: 0, today: 0, levels: { 0: 2, 1: 1 }, categories: {} };
         const html = Statistics.render(stats);
-        assert.include(html, 'Level 0:</strong> 2');
-        assert.include(html, 'Level 1:</strong> 1');
+        assert.include(html, 'Core:</strong> 2');
+        assert.include(html, 'Hard:</strong> 1');
     });
 
     it('should render category counts correctly', function () {
@@ -154,7 +155,7 @@ describe('Statistics.render', function () {
     it('should render negative levels correctly', function () {
         const stats = { total: 2, unseen: 0, today: 0, levels: { '-1': 2 }, categories: {} };
         const html = Statistics.render(stats);
-        assert.include(html, 'Level -1:</strong> 2');
+        assert.include(html, 'Easy:</strong> 2');
     });
 
 });

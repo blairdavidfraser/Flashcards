@@ -62,6 +62,7 @@ function updateRankCounts() {
     document.getElementById("rankHard").textContent   = `Hard (${c.hard})`;
     document.getElementById("rankReview").textContent = `Review (${c.review})`;
     document.getElementById("rankAll").textContent    = `All (${c.all})`;
+    document.getElementById("rankCold").textContent   = `Cold (${c.cold})`;
 }
 
 function backToMenu() {
@@ -101,10 +102,13 @@ window.selectOnlyFavourites = v => { gameplay.onlyFavourites = v; updateRankCoun
 const screenStudy = new ApplicationScreenStudy(gameplay, { backToMenu });
 window.startGame = (rank) => screenStudy.startGame(rank);
 window.startRound = () => screenStudy.startRound();
+window.cardClick = () => screenStudy.finishRound();
 window.finishRound = () => screenStudy.finishRound();
 window.cycleRound = (difficulty, level) => screenStudy.cycleRound(difficulty, level);
 window.endGame = () => screenStudy.endGame();
 window.toggleFavourite = (event) => screenStudy.toggleFavourite(event);
+window.swipeEdit = () => screenCardEdit.show();
+window.swipeCold = () => { gameplay.markCold(); screenStudy.startRound(); };
 
 const dropdownMenu = new ApplicationDropdownMenu(gameplay);
 window.toggleSound = (type) => dropdownMenu.toggleSound(type);

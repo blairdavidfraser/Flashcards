@@ -91,8 +91,8 @@ export class Game {
     #initialize() {
         const now = Date.now();
 
-        // Filter out future cards, then apply category and favourite filters to get the enabled set.
-        this.#enabled = this.#deck.filter(c => c.added <= now);
+        // Filter out future and Cold cards, then apply category and favourite filters.
+        this.#enabled = this.#deck.filter(c => c.added <= now && !c.isCold());
         this.#enabled = this.#filterByCategory(this.#enabled, this.configuration.categories);
         this.#enabled = this.#enabled.filter(c => !this.configuration.onlyFavourites || c.favourite === true);
 
@@ -163,6 +163,8 @@ export class Game {
         let base = this.#deck.filter(c => c.added <= now);
         base = this.#filterByCategory(base, this.configuration.categories);
         base = base.filter(c => !this.configuration.onlyFavourites || c.favourite === true);
+        const cold = base.filter(c => c.isCold()).length;
+        base = base.filter(c => !c.isCold());
         const hard = this.#filterByRank(base, 'hard', 10);
         const normal = this.#filterByRank(base, 'normal');
         return {
@@ -171,6 +173,7 @@ export class Game {
             hard:   this.#filterByRank(base, 'hard').length,
             review: this.#filterByRank(base, 'review').length,
             all:    base.length,
+            cold,
         };
     }
 

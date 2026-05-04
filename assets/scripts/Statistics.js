@@ -28,10 +28,12 @@ export class Statistics {
         <p><strong>Today:</strong> ${stats.today}</p>
         <hr/>`;
 
+        const rankLabel = { '1': 'Hard', '0': 'Core', '-1': 'Easy', '2': 'Cold' };
         Object.keys(stats.levels)
             .sort((a, b) => parseInt(a) - parseInt(b))
             .forEach(level => {
-                html += `<p><strong>Level ${level}:</strong> ${stats.levels[level]}</p>`;
+                const label = rankLabel[level] ?? `Level ${level}`;
+                html += `<p><strong>${label}:</strong> ${stats.levels[level]}</p>`;
             });
 
         html += '<hr/>';

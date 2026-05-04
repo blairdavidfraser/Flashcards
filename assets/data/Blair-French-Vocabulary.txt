@@ -91,113 +91,113 @@
 #
 
 # >>> Basics
-Bonjour | Hello / Good morning |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Bonsoir | Good evening |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Salut | Hi / Bye (informal) |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Au revoir | Goodbye |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-À bientôt | See you soon |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-À plus tard | See you later |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Merci | Thank you |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Merci beaucoup | Thank you very much |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-De rien | You're welcome |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-S'il vous plaît | Please (formal) |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-S'il te plaît | Please (informal) |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Excusez-moi | Excuse me (formal) |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Pardon | Sorry / excuse me |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Désolé | Sorry |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Comment ça va ? | How are you? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Ça va bien | I’m doing well |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Comme ci, comme ça | So-so |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Ça ne va pas | Not good |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Qui ? | Who? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Quoi ? | What? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Où ? | Where? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Quand ? | When? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Pourquoi ? | Why? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Comment ? | How? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Combien ? | How much / many? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Je ne comprends pas | I don’t understand |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Pouvez-vous répéter ? | Can you repeat? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Parlez-vous anglais ? | Do you speak English? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Je parle un peu français | I speak a little French |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Où sont les toilettes ? | Where is the bathroom? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Où est… ? | Where is…? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-C’est loin ? | Is it far? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-À gauche | To the left |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-À droite | To the right |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Tout droit | Straight ahead |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Je voudrais… | I would like… |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Je prends… | I’ll take… |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-L’addition, s’il vous plaît | The bill, please |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-C’est combien ? | How much is it? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Je peux payer par carte ? | Can I pay by card? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Un | One |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Deux | Two |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Trois | Three |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Quatre | Four |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Cinq | Five |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Six | Six |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Sept | Seven |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Huit | Eight |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Neuf | Nine |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Dix | Ten |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Janvier | January |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Février | February |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Mars | March |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Avril | April |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Mai | May |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Juin | June |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Juillet | July |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Août | August |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Septembre | September |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Octobre | October |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Novembre | November |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
-Décembre | December |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | 1 |
+Bonjour | Hello / Good morning |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Bonsoir | Good evening |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Salut | Hi / Bye (informal) |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Au revoir | Goodbye |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+À bientôt | See you soon |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+À plus tard | See you later |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Merci | Thank you |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Merci beaucoup | Thank you very much |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+De rien | You're welcome |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+S'il vous plaît | Please (formal) |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+S'il te plaît | Please (informal) |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Excusez-moi | Excuse me (formal) |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Pardon | Sorry / excuse me |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Désolé | Sorry |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Comment ça va ? | How are you? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Ça va bien | I’m doing well |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Comme ci, comme ça | So-so |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Ça ne va pas | Not good |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Qui ? | Who? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Quoi ? | What? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Où ? | Where? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Quand ? | When? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Pourquoi ? | Why? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Comment ? | How? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Combien ? | How much / many? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Je ne comprends pas | I don’t understand |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Pouvez-vous répéter ? | Can you repeat? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Parlez-vous anglais ? | Do you speak English? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Je parle un peu français | I speak a little French |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Où sont les toilettes ? | Where is the bathroom? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Où est… ? | Where is…? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+C’est loin ? | Is it far? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+À gauche | To the left |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+À droite | To the right |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Tout droit | Straight ahead |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Je voudrais… | I would like… |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Je prends… | I’ll take… |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+L’addition, s’il vous plaît | The bill, please |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+C’est combien ? | How much is it? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Je peux payer par carte ? | Can I pay by card? |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Un | One |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Deux | Two |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Trois | Three |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Quatre | Four |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Cinq | Five |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Six | Six |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Sept | Seven |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Huit | Eight |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Neuf | Nine |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Dix | Ten |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Janvier | January |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Février | February |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Mars | March |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Avril | April |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Mai | May |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Juin | June |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Juillet | July |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Août | August |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Septembre | September |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Octobre | October |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Novembre | November |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
+Décembre | December |  | Conversational | false | 2026-04-11 | 1970-01-01 | 0 | | Hard |
 
 # Verbs
-être | to be |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-avoir | to have |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-aller | to go |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-faire | to do / to make |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-vouloir | to want |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-pouvoir | to be able to / can |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-devoir | to have to / must |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-savoir | to know (a fact or skill) |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | savoir = to know facts/how to do things; connaître = to know people/places
-connaître | to know (a person or place) |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | connaître = to know people/places; savoir = to know facts/skills
-venir | to come |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-prendre | to take / to have (food or drink) |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-manger | to eat |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-boire | to drink |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-parler | to speak |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-comprendre | to understand |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-chercher | to look for |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-arriver | to arrive |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-partir | to leave / to depart |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-rester | to stay |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-réserver | to reserve / to book |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-payer | to pay |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-demander | to ask |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+être | to be |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+avoir | to have |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+aller | to go |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+faire | to do / to make |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+vouloir | to want |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+pouvoir | to be able to / can |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+devoir | to have to / must |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+savoir | to know (a fact or skill) |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard | savoir = to know facts/how to do things; connaître = to know people/places
+connaître | to know (a person or place) |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard | connaître = to know people/places; savoir = to know facts/skills
+venir | to come |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+prendre | to take / to have (food or drink) |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+manger | to eat |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+boire | to drink |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+parler | to speak |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+comprendre | to understand |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+chercher | to look for |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+arriver | to arrive |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+partir | to leave / to depart |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+rester | to stay |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+réserver | to reserve / to book |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+payer | to pay |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+demander | to ask |  | Verb | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
 
 # >>> Verb Tense Congugations
-[je suis, ns. sommes; tu es, vs. êtes; il·elle est, ils·elles sont] | Present forms of 'être' (to be) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-[j'ai, ns. avons; tu as, vs. avez; il·elle a, ils·elles ont] | Present forms of 'avoir' (to have) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-[je vais, ns. allons; tu vas, vs. allez; il·elle va, ils·elles vont] | Present forms of 'aller' (to go) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-[je fais, ns. faisons; tu fais, vs. faites; il·elle fait, ils·elles font] | Present forms of 'faire' (to do / make) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-[je veux, ns. voulons; tu veux, vs. voulez; il·elle veut, ils·elles veulent] | Present forms of 'vouloir' (to want) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-[je peux, ns. pouvons; tu peux, vs. pouvez; il·elle peut, ils·elles peuvent] | Present forms of 'pouvoir' (to be able to / can) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-[je sais, ns. savons; tu sais, vs. savez; il·elle sait, ils·elles savent] | Present forms of 'savoir' (to know a fact / how to do something) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | savoir = to know facts/skills; connaître = to know people/places
-[je connais, ns. connaissons; tu connais, vs. connaissez; il·elle connaît, ils·elles connaissent] | Present forms of 'connaître' (to know a person or place) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | connaître = to know people/places; savoir = to know facts/skills
-[je viens, ns. venons; tu viens, vs. venez; il·elle vient, ils·elles viennent] | Present forms of 'venir' (to come) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-[je prends, ns. prenons; tu prends, vs. prenez; il·elle prend, ils·elles prennent] | Present forms of 'prendre' (to take / to have food or drink) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | prendre is used for ordering food/drink: Je prends le menu.
-[je mange, ns. mangeons; tu manges, vs. mangez; il·elle mange, ils·elles mangent] | Present forms of 'manger' (to eat) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-[je bois, ns. buvons; tu bois, vs. buvez; il·elle boit, ils·elles boivent] | Present forms of 'boire' (to drink) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-[je parle, ns. parlons; tu parles, vs. parlez; il·elle parle, ils·elles parlent] | Present forms of 'parler' (to speak) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | Regular -er verb. Serves as the model for all regular -er verbs.
-[je comprends, ns. comprenons; tu comprends, vs. comprenez; il·elle comprend, ils·elles comprennent] | Present forms of 'comprendre' (to understand) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 | Conjugates like prendre.
-[je cherche, ns. cherchons; tu cherches, vs. cherchez; il·elle cherche, ils·elles cherchent] | Present forms of 'chercher' (to look for) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-[je dois, ns. devons; tu dois, vs. devez; il·elle doit, ils·elles doivent] | Present forms of 'devoir' (must / to have to) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-[j'arrive, ns. arrivons; tu arrives, vs. arrivez; il·elle arrive, ils·elles arrivent] | Present forms of 'arriver' (to arrive) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-[je pars, ns. partons; tu pars, vs. partez; il·elle part, ils·elles partent] | Present forms of 'partir' (to leave / depart) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-[je reste, ns. restons; tu restes, vs. restez; il·elle reste, ils·elles restent] | Present forms of 'rester' (to stay) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-[je réserve, ns. réservons; tu réserves, vs. réservez; il·elle réserve, ils·elles réservent] | Present forms of 'réserver' (to reserve / book) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-[je paie, ns. payons; tu paies, vs. payez; il·elle paie, ils·elles paient] | Present forms of 'payer' (to pay) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
-[je demande, ns. demandons; tu demandes, vs. demandez; il·elle demande, ils·elles demandent] | Present forms of 'demander' (to ask) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | 1 |
+[je suis, ns. sommes; tu es, vs. êtes; il·elle est, ils·elles sont] | Present forms of 'être' (to be) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+[j'ai, ns. avons; tu as, vs. avez; il·elle a, ils·elles ont] | Present forms of 'avoir' (to have) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+[je vais, ns. allons; tu vas, vs. allez; il·elle va, ils·elles vont] | Present forms of 'aller' (to go) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+[je fais, ns. faisons; tu fais, vs. faites; il·elle fait, ils·elles font] | Present forms of 'faire' (to do / make) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+[je veux, ns. voulons; tu veux, vs. voulez; il·elle veut, ils·elles veulent] | Present forms of 'vouloir' (to want) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+[je peux, ns. pouvons; tu peux, vs. pouvez; il·elle peut, ils·elles peuvent] | Present forms of 'pouvoir' (to be able to / can) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+[je sais, ns. savons; tu sais, vs. savez; il·elle sait, ils·elles savent] | Present forms of 'savoir' (to know a fact / how to do something) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard | savoir = to know facts/skills; connaître = to know people/places
+[je connais, ns. connaissons; tu connais, vs. connaissez; il·elle connaît, ils·elles connaissent] | Present forms of 'connaître' (to know a person or place) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard | connaître = to know people/places; savoir = to know facts/skills
+[je viens, ns. venons; tu viens, vs. venez; il·elle vient, ils·elles viennent] | Present forms of 'venir' (to come) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+[je prends, ns. prenons; tu prends, vs. prenez; il·elle prend, ils·elles prennent] | Present forms of 'prendre' (to take / to have food or drink) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard | prendre is used for ordering food/drink: Je prends le menu.
+[je mange, ns. mangeons; tu manges, vs. mangez; il·elle mange, ils·elles mangent] | Present forms of 'manger' (to eat) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+[je bois, ns. buvons; tu bois, vs. buvez; il·elle boit, ils·elles boivent] | Present forms of 'boire' (to drink) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+[je parle, ns. parlons; tu parles, vs. parlez; il·elle parle, ils·elles parlent] | Present forms of 'parler' (to speak) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard | Regular -er verb. Serves as the model for all regular -er verbs.
+[je comprends, ns. comprenons; tu comprends, vs. comprenez; il·elle comprend, ils·elles comprennent] | Present forms of 'comprendre' (to understand) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard | Conjugates like prendre.
+[je cherche, ns. cherchons; tu cherches, vs. cherchez; il·elle cherche, ils·elles cherchent] | Present forms of 'chercher' (to look for) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+[je dois, ns. devons; tu dois, vs. devez; il·elle doit, ils·elles doivent] | Present forms of 'devoir' (must / to have to) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+[j'arrive, ns. arrivons; tu arrives, vs. arrivez; il·elle arrive, ils·elles arrivent] | Present forms of 'arriver' (to arrive) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+[je pars, ns. partons; tu pars, vs. partez; il·elle part, ils·elles partent] | Present forms of 'partir' (to leave / depart) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+[je reste, ns. restons; tu restes, vs. restez; il·elle reste, ils·elles restent] | Present forms of 'rester' (to stay) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+[je réserve, ns. réservons; tu réserves, vs. réservez; il·elle réserve, ils·elles réservent] | Present forms of 'réserver' (to reserve / book) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+[je paie, ns. payons; tu paies, vs. payez; il·elle paie, ils·elles paient] | Present forms of 'payer' (to pay) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+[je demande, ns. demandons; tu demandes, vs. demandez; il·elle demande, ils·elles demandent] | Present forms of 'demander' (to ask) |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |

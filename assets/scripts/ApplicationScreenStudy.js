@@ -7,6 +7,7 @@ export class ApplicationScreenStudy {
 
     #backToMenu = null;
     #timer = null;
+    #swipeHandled = false;
 
     constructor(gameplay, { backToMenu } = {}) {
         this.gameplay = gameplay;
@@ -17,6 +18,7 @@ export class ApplicationScreenStudy {
         this.gameplay.initialize(rank);
         document.getElementById("configurationMenu").classList.add("hidden");
         document.getElementById("studyArea").classList.remove("hidden");
+        this.#initSwipe();
         this.startRound();
     }
 
@@ -26,6 +28,7 @@ export class ApplicationScreenStudy {
         window.speechSynthesis.cancel();
         this.#speakText(this.gameplay.state.questionSpeech, this.gameplay.state.questionLanguage);
         this.#updateStar();
+        this.#hideSwipePanels();
         document.getElementById("cardCategory").innerText = this.gameplay.state.card.category || "";
         document.getElementById("cardTop").innerHTML = this.#renderCardContent(this.gameplay.state.questionText);
         document.getElementById("cardEmoji").innerHTML = this.gameplay.state.questionEmoji;
@@ -41,6 +44,7 @@ export class ApplicationScreenStudy {
     }
 
     finishRound() {
+        if (this.#swipeHandled) { this.#swipeHandled = false; return; }
         clearTimeout(this.#timer);
         this.gameplay.reveal();
         this.#speakText(this.gameplay.state.answerSpeech, this.gameplay.state.answerLanguage);
@@ -87,6 +91,44 @@ export class ApplicationScreenStudy {
         card.favourite = !card.favourite;
         this.gameplay.save();
         this.#updateStar();
+    }
+
+    #initSwipe() {
+        const card = document.getElementById('card');
+        if (card._swipeInit) return;
+        card._swipeInit = true;
+
+        let startX = 0, startY = 0;
+
+        card.addEventListener('touchstart', e => {
+            startX = e.touches[0].clientX;
+            startY = e.touches[0].clientY;
+        }, { passive: true });
+
+        card.addEventListener('touchend', e => {
+            const dx = e.changedTouches[0].clientX - startX;
+            const dy = e.changedTouches[0].clientY - startY;
+            if (Math.abs(dx) >= 50 && Math.abs(dx) > Math.abs(dy)) {
+                this.#swipeHandled = true;
+                if (dx > 0) this.#showSwipeEdit();
+                else this.#showSwipeCold();
+            }
+        }, { passive: true });
+    }
+
+    #showSwipeEdit() {
+        document.getElementById('swipeEditPanel').classList.remove('hidden');
+        document.getElementById('swipeColdPanel').classList.add('hidden');
+    }
+
+    #showSwipeCold() {
+        document.getElementById('swipeColdPanel').classList.remove('hidden');
+        document.getElementById('swipeEditPanel').classList.add('hidden');
+    }
+
+    #hideSwipePanels() {
+        document.getElementById('swipeEditPanel')?.classList.add('hidden');
+        document.getElementById('swipeColdPanel')?.classList.add('hidden');
     }
 
     #speakText(text, lang) {
