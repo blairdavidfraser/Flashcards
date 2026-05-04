@@ -106,7 +106,7 @@ export class ApplicationScreenStudy {
         const THRESHOLD = 60;   // px to trigger snap
         const SNAP = 110;       // px to snap to (matches panel width)
 
-        let startX = 0, startY = 0;
+        let startX = 0, startY = 0, startOffset = 0;
         let isHorizontal = null;
 
         const snapTo = (x) => {
@@ -116,6 +116,8 @@ export class ApplicationScreenStudy {
         };
 
         card.addEventListener('touchstart', e => {
+            const m = card.style.transform.match(/translateX\((-?[\d.]+)px\)/);
+            startOffset = m ? parseFloat(m[1]) : 0;
             startX = e.touches[0].clientX;
             startY = e.touches[0].clientY;
             isHorizontal = null;
@@ -130,12 +132,14 @@ export class ApplicationScreenStudy {
             }
             if (!isHorizontal) return;
             e.preventDefault();
-            card.style.transform = `translateX(${Math.max(-SNAP, Math.min(SNAP, dx))}px)`;
+            card.style.transform = `translateX(${Math.max(-SNAP, Math.min(SNAP, startOffset + dx))}px)`;
         }, { passive: false });
 
         card.addEventListener('touchend', e => {
+            if (!isHorizontal) return;
             const dx = e.changedTouches[0].clientX - startX;
-            snapTo(isHorizontal && Math.abs(dx) >= THRESHOLD ? (dx > 0 ? SNAP : -SNAP) : 0);
+            const total = startOffset + dx;
+            snapTo(Math.abs(total) >= THRESHOLD ? (total > 0 ? SNAP : -SNAP) : 0);
         }, { passive: true });
     }
 
