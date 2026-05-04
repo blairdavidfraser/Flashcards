@@ -146,6 +146,13 @@
       "language": "Spanish",
       "direction": "recognition",
       "count": 67
+    },
+    {
+      "date": "2026-05-04",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 160
     }
   ],
   "other": [
@@ -352,6 +359,20 @@
         {
           "duration": "00:15:00",
           "activity": "Conversación con Claude"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:28:00",
+          "activity": "https://m.youtube.com/watch?v=V3APIGYfkdI&ra=m"
+        },
+        {
+          "duration": "00:28:00",
+          "activity": "https://m.youtube.com/watch?v=_ZRIKz5t9uE&ra=m"
         }
       ]
     }
