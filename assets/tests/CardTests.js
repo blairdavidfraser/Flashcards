@@ -253,7 +253,7 @@ describe('Card', function () {
 
         it('should include the rank name', function () {
             const c = new Card({ front: 'a', back: 'b', level: 1 });
-            assert.include(c.summary(), 'hard');
+            assert.include(c.summary(), 'Hard');
         });
 
         it('should include a date after being rated', function () {

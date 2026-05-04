@@ -28,7 +28,7 @@ export class ApplicationScreenStudy {
         window.speechSynthesis.cancel();
         this.#speakText(this.gameplay.state.questionSpeech, this.gameplay.state.questionLanguage);
         this.#updateStar();
-        this.#hideSwipePanels();
+        this.#resetSwipe();
         document.getElementById("cardCategory").innerText = this.gameplay.state.card.category || "";
         document.getElementById("cardTop").innerHTML = this.#renderCardContent(this.gameplay.state.questionText);
         document.getElementById("cardEmoji").innerHTML = this.gameplay.state.questionEmoji;
@@ -44,7 +44,12 @@ export class ApplicationScreenStudy {
     }
 
     finishRound() {
-        if (this.#swipeHandled) { this.#swipeHandled = false; return; }
+        // Tap while card is swiped → snap back instead of flipping.
+        if (this.#swipeHandled) {
+            this.#swipeHandled = false;
+            this.#resetSwipe();
+            return;
+        }
         clearTimeout(this.#timer);
         this.gameplay.reveal();
         this.#speakText(this.gameplay.state.answerSpeech, this.gameplay.state.answerLanguage);
@@ -98,37 +103,48 @@ export class ApplicationScreenStudy {
         if (card._swipeInit) return;
         card._swipeInit = true;
 
+        const THRESHOLD = 60;   // px to trigger snap
+        const SNAP = 110;       // px to snap to (matches panel width)
+
         let startX = 0, startY = 0;
+        let isHorizontal = null;
+
+        const snapTo = (x) => {
+            card.style.transition = 'transform 0.2s ease';
+            card.style.transform = `translateX(${x}px)`;
+            this.#swipeHandled = (x !== 0);
+        };
 
         card.addEventListener('touchstart', e => {
             startX = e.touches[0].clientX;
             startY = e.touches[0].clientY;
+            isHorizontal = null;
+            card.style.transition = 'none';
         }, { passive: true });
+
+        card.addEventListener('touchmove', e => {
+            const dx = e.touches[0].clientX - startX;
+            const dy = e.touches[0].clientY - startY;
+            if (isHorizontal === null && (Math.abs(dx) > 5 || Math.abs(dy) > 5)) {
+                isHorizontal = Math.abs(dx) > Math.abs(dy);
+            }
+            if (!isHorizontal) return;
+            e.preventDefault();
+            card.style.transform = `translateX(${Math.max(-SNAP, Math.min(SNAP, dx))}px)`;
+        }, { passive: false });
 
         card.addEventListener('touchend', e => {
             const dx = e.changedTouches[0].clientX - startX;
-            const dy = e.changedTouches[0].clientY - startY;
-            if (Math.abs(dx) >= 50 && Math.abs(dx) > Math.abs(dy)) {
-                this.#swipeHandled = true;
-                if (dx > 0) this.#showSwipeEdit();
-                else this.#showSwipeCold();
-            }
+            snapTo(isHorizontal && Math.abs(dx) >= THRESHOLD ? (dx > 0 ? SNAP : -SNAP) : 0);
         }, { passive: true });
     }
 
-    #showSwipeEdit() {
-        document.getElementById('swipeEditPanel').classList.remove('hidden');
-        document.getElementById('swipeColdPanel').classList.add('hidden');
-    }
-
-    #showSwipeCold() {
-        document.getElementById('swipeColdPanel').classList.remove('hidden');
-        document.getElementById('swipeEditPanel').classList.add('hidden');
-    }
-
-    #hideSwipePanels() {
-        document.getElementById('swipeEditPanel')?.classList.add('hidden');
-        document.getElementById('swipeColdPanel')?.classList.add('hidden');
+    #resetSwipe() {
+        const card = document.getElementById('card');
+        if (!card) return;
+        card.style.transition = 'transform 0.2s ease';
+        card.style.transform = 'translateX(0)';
+        this.#swipeHandled = false;
     }
 
     #speakText(text, lang) {
