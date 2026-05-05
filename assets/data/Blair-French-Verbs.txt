@@ -4,51 +4,88 @@
 # with the detailed description of each field which follows.
 #
 # front :: string, non-empty
-#   - Gives the French text (sentence or conjugation table).
-#   - Capitalize and punctuate correctly.
+#   - Gives the foreign translation of the text.
+#   - When generating new cards, if using a sentence, then capitalize and punctuate correctly.
 #
 # back :: string, non-empty
-#   - Gives the English translation.
-#   - Capitalize and punctuate correctly.
+#   - Gives the native translation of the text (English).
+#   - When generating new cards, if using a sentence, then capitalize and punctuate correctly.
 #
 # emoji :: string, or empty.
-#   - Only use for single-word cards with a strong visual match.
-#   - Never use for sentences or phrases.
+#   - When available, represents a visual cue to aid in memorization.
+#   - When generating new cards, only use emoji when for single word translation cards when there is a strong match.
+#   - When generating new cards, never use an emoji if the card is a sentence or Conversational.
 #
-# category :: string, non-empty, use verb tense names (e.g. Present, Passé Composé, Imparfait, ...).
-#   - Capitalize the first character of each word.
+# category :: string, non-empty, of values: Noun, Verb, Adjective, Adverb, Conversational, Conversational
+#   - When generating new cards, only choose from the above stated categories.
+#   - Capitalize the first character.
+#   - If clearly a noun, verb, adjective or adverb then use those categories.
+#   - If it is a sentence or part of a sentence, then use Conversational.
+#   - If it is a word but fits none of the above cleanly, then use Conversational.
+#   - If in doubt, use Conversational.
 #
-# favourite :: true or false.
-#   - When generating new cards, use false.
+# added :: date in YYYY-MM-DD form, or empty.
+#   - Gives the date on which the card was added to the user's deck.
+#   - When generating new cards, use the current local date for added.
 #
-# added :: date in YYYY-MM-DD form.
-#   - When generating new cards, use the current local date.
+# lastSeen :: date in YYYY-MM-DD form, or empty.
+#   - Gives the last date this card was seen by user.
+#   - When generating new cards, use 1970-01-01 for lastSeen.
 #
-# lastSeen :: date in YYYY-MM-DD form.
-#   - When generating new cards, use 1970-01-01.
+# seen :: integer (count) or empty.
+#   - Gives the number of times this card has been seen by user.
+#   - When generating new cards, use 0 for seen.
 #
-# seen :: integer (count).
-#   - When generating new cards, use 0.
+# penalty :: integer
+#   - Represents a score, that gets higher when the user ranks the card hard.
+#   - Increases as the card is shown repeatedly and ranked hard.
+#   - Increases faster if the card is ranked hard on each presentation.
+#   - An empty penalty means the card has not been seen and should correpond with seen=0.
+#   - When generating new cards, leave the penalty column empty.
 #
-# penalty :: integer or empty.
-#   - When generating new cards, leave empty.
+# level :: string of (Hard, Core, Easy, Cold)
+#   - Hard: the user finds the card very hard; shown in the Hard set and included in Normal.
+#   - Core: normally difficult; shown in Normal and New sets.
+#   - Easy: too easy; shown only when studying the Review set.
+#   - Cold: snoozed indefinitely; not shown in any game mode.
+#   - When generating new cards, populate level as Hard.
 #
-# level :: integer of (-1, 0, 1).
-#   - When generating new cards, use 1.
+# comment :: string
+#   - Useful for learning tips.
+#   - For example, explaining why on a given translation ser is used instead of estar.
+#   - For example, explaining why on a given translation preterit is used instead of imperfect.
+#   - When generating new cards, leave comment blank.
 #
-# comment :: string.
-#   - Useful learning tips, usage notes, false cognates, register notes.
-#   - When generating new cards, leave blank unless a note adds real value.
+# Example new row:
+# bonjour | hello |  | Conversational | 2026-03-21 | 1970-01-01 | 0 | | Hard |
 #
-# Convention :: for a full conjugation card
-#   - Back: "Present forms of '<verb>'"
-#   - Front table format: [je <form>, ns. <form>; tu <form>, vs. <form>; il·elle <form>, ils·elles <form>]
-#   - Brackets denote table start/end. Comma separates cells. Semicolon separates rows.
+# Content :: Vocabulary study
+#   - This file is for building vocabulary through words and short sentences or Conversationals.
+#   - Sentence cards should prefer sentence structure that is natural in Spanish.
+#   - Sentence cards should prefer sentences that are useful and someone may actually use.
+#   - Sentence cards should prefer proper capitalization and punctuate properly.
+#   - Consider the article: Spanish sometimes uses it, sometimes not. Prefer natural, common usage.
+#   - If the English needs some clarification or disambiguation, use a bracketed clarifying word: e.g. "to return (something)"
+#   - If the Spanish translates to two related English words, separate those English words with a '/'.
+#   - If the English translates to two related Spanish words, separate those Spanish words with a '/'.
 #
-# Convention :: for sentence cards
-#   - Sentences should be immediately usable in real tourist situations.
-#   - Prefer natural spoken French over textbook French.
-#   - Mix statements and questions across cards.
+# Convention :: when generating a noun card (category=Noun)
+#   - Prefer the singular, unless the singular is not used.
+#   - Use the article, le or la in front of the Spanish noun.
+#   - Comma separates the cells in a table row.
+#   - Semicolon separates the rows in a table.
+#
+# Convention :: when generating an adjective card (category=Adjective)
+#   - If the adjective has masculine and feminine forms then list both as <masculine>, o <feminine>
+#   - For example: rojo, o roja
+#   - If the adjective has only one form, then just use that alone.
+#
+# Convention :: when generating a verb card (category=Verb)
+#   - A verb card may show a verb infinitive as the Spanish, in which case the English should start with the word 'to'.
+#   - A verb card may show nothing more than a conjugated form, in which case the Spanish article should be bracketed to show it is optionally used.
+#   - For the article of the third person singular, use (él/ella/usted)
+#   - For the article of the third person plural, use (ellos/ellas/ustedes)
+#   - Don't create cards of conjugations for vosotros.
 #
 # *** If you notice a bug or error in these translations, always call them out ***
 #

@@ -43,12 +43,12 @@
 #   - An empty penalty means the card has not been seen and should correpond with seen=0.
 #   - When generating new cards, leave the penalty column empty.
 #
-# level :: integer of (-1, 0, 1)
-#   - Another representation of how hard a card is judged to me.
-#   - A level of -1 means the user finds the card too easy, and only wants it presented when studying the 'review' set.
-#   - A level of 0 means the user finds the card normally difficult, and wants it presented in the 'learning' sets.
-#   - A level of 1 means the user finds the card very hard, and only wants it prested when studying the 'hard' set.
-#   - When generating new cards, populate level as 1.
+# level :: string of (Hard, Core, Easy, Cold)
+#   - Hard: the user finds the card very hard; shown in the Hard set and included in Normal.
+#   - Core: normally difficult; shown in Normal and New sets.
+#   - Easy: too easy; shown only when studying the Review set.
+#   - Cold: snoozed indefinitely; not shown in any game mode.
+#   - When generating new cards, populate level as Hard.
 #
 # comment :: string
 #   - Useful for learning tips.
@@ -57,7 +57,7 @@
 #   - When generating new cards, leave comment blank.
 #
 # Example new row:
-# hola | hello |  | Conversational | 2026-03-21 | 1970-01-01 | 0 | | 1 |
+# bonjour | hello |  | Conversational | 2026-03-21 | 1970-01-01 | 0 | | Hard |
 #
 # Content :: Vocabulary study
 #   - This file is for building vocabulary through words and short sentences or Conversationals.
