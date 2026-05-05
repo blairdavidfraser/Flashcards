@@ -465,8 +465,8 @@ button {
     cursor: pointer;
 }
 
-.swipe-edit { left: 0; background: #D4AA3A; }
-.swipe-cold { right: 0; background: #BCAEA4; font-size: 28px; }
+.swipe-edit { left: 0; background: #C4956A; }
+.swipe-cold { right: 0; background: #6B95AA; font-size: 28px; }
 
 /* ---------- Bottom Controls (thumb-friendly) ---------- */
 
