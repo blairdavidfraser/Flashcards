@@ -152,7 +152,14 @@
       "name": "Vocabulary",
       "language": "Spanish",
       "direction": "recall",
-      "count": 160
+      "count": 201
+    },
+    {
+      "date": "2026-05-05",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 251
     }
   ],
   "other": [
@@ -189,6 +196,10 @@
         {
           "duration": "00:30:00",
           "activity": "https://m.youtube.com/watch?v=4jWV0LyPqs4&pp=0gcJCU8Co7VqN5tD&ra=m"
+        },
+        {
+          "duration": "00:00:00",
+          "activity": ""
         }
       ]
     },
@@ -373,6 +384,20 @@
         {
           "duration": "00:28:00",
           "activity": "https://m.youtube.com/watch?v=_ZRIKz5t9uE&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-05",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:45:00",
+          "activity": "https://m.youtube.com/watch?v=UwG9keQhn7g&ra=m"
+        },
+        {
+          "duration": "00:32:00",
+          "activity": "https://m.youtube.com/watch?v=JF0UYZuWaZE&pp=0gcJCU8Co7VqN5tD&ra=m"
         }
       ]
     }
