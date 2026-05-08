@@ -1254,3 +1254,13 @@ He estado cansado | I've been tired |  | Conversational | true | 2026-04-05 | 20
 ¿Dónde pusiste…? | Where did you put…? |  | Conversational | false | 2026-04-10 | 2026-04-21 | 6 | 0.0000 | Core | Preterit of poner.
 ¿Dónde pusiste… que estaba…? | Where did you put the… that was…? |  | Conversational | true | 2026-04-10 | 2026-04-21 | 7 | 0.2353 | Core | e.g. ¿Dónde pusiste la llave inglesa que estaba en la mesa?
 No tiene ni pies ni cabeza. | It makes no sense. / It has no rhyme or reason. |  | Conversational | false | 2026-04-25 | 2026-04-27 | 1 | 0.0000 | Core | Lit. "It has neither feet nor head." Used when something is illogical or incoherent.
+Al día de hoy | Nowadays |  | Conversational | 2026-05-08 | 1970-01-01 | 0 | | Hard | Used to anchor a statement in the present moment. e.g. Al día de hoy, no he recibido respuesta.
+plantear | to raise / to put forward (an idea or question) |  | Verb | 2026-05-08 | 1970-01-01 | 0 | | Hard | Not "to plant" — that's plantar. Plantear is for raising topics, posing questions, or proposing ideas.
+seguir el hilo | to follow the thread |  | Conversational | 2026-05-08 | 1970-01-01 | 0 | | Hard | e.g. Perdona, es difícil seguir el hilo cuando hablan tan rápido.
+aguantar | to tolerate, to endure |  | Verb | 2026-05-08 | 1970-01-01 | 0 | | Hard | e.g. No aguanto el calor. / ¿Cómo aguantas eso?
+sacar tiempo para... | to find time for... / to make time for... |  | Conversational | 2026-05-08 | 1970-01-01 | 0 | | Hard | e.g. Hay que sacar tiempo para entrenar. More natural than "encontrar tiempo" in spoken Spanish.
+ajetreado, o ajetreada | busy / hectic |  | Adjective | 2026-05-08 | 1970-01-01 | 0 | | Hard | Describes a hectic pace or lifestyle, not just being occupied. e.g. Ha sido una semana muy ajetreada.
+en vez de..., o en lugar de... | instead of... |  | Conversational | 2026-05-08 | 1970-01-01 | 0 | | Hard | Both are interchangeable in all contexts. Both followed by infinitive or noun. e.g. En vez de correr, fui al gimnasio.
+como tarde, o como muy tarde | at the latest |  | Conversational | 2026-05-08 | 1970-01-01 | 0 | | Hard | e.g. Llego como tarde a las nueve. / Como muy tarde, salimos el viernes.
+estoy deseando... | I'm looking forward to... |  | Conversational | 2026-05-08 | 1970-01-01 | 0 | | Hard | Estoy desando verte de nuevo!
+cargar pilas | to recharge one's batteries |  | Verb | 2026-05-08 | 1970-01-01 | 0 | | Hard | e.g. Necesito un descanso para cargar pilas.

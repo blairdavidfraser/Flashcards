@@ -90,7 +90,9 @@ export class Game {
 
     rate(difficulty, level) {
         if (!this.state.card) return;
-        this.state.card.rate(difficulty, level);
+        const card = this.state.card;
+        card.rate(difficulty, level);
+        if (!card.matches(this.#rank)) this.removeEnabled(card);
     }
 
     #initialize() {
