@@ -6,6 +6,12 @@ import { Dataset } from '../scripts/Dataset.js';
 import { Card } from '../scripts/Card.js';
 import { Comment } from '../scripts/Comment.js';
 import { parseDate } from '../scripts/Utilities.js';
+import { readFileSync } from 'fs';
+import { resolve, dirname } from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const readDataFile = (name) => readFileSync(resolve(__dirname, '../data', name), 'utf8');
 
 describe('Dataset', function () {
 
@@ -230,6 +236,24 @@ describe('Dataset', function () {
             const parsed = Dataset.parse(Dataset.serialize([original]))[0];
             assert.equal(parsed.type, 'Comment');
             assert.equal(parsed.value, original.value);
+        });
+
+    });
+
+    describe('data files', function () {
+
+        const files = [
+            'Blair-Spanish-Verbs.txt',
+            'Blair-Spanish-Vocabulary.txt',
+            'Blair-French-Verbs.txt',
+            'Blair-French-Vocabulary.txt',
+        ];
+
+        files.forEach(name => {
+            it(`${name} should have no formatting errors`, function () {
+                const result = Dataset.validate(readDataFile(name));
+                assert.isNull(result, result ? `Line ${result.lineNum}: ${result.message} — "${result.data}"` : '');
+            });
         });
 
     });
