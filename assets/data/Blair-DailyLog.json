@@ -160,6 +160,20 @@
       "language": "Spanish",
       "direction": "recall",
       "count": 251
+    },
+    {
+      "date": "2026-05-06",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 319
+    },
+    {
+      "date": "2026-05-07",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 130
     }
   ],
   "other": [
@@ -398,6 +412,56 @@
         {
           "duration": "00:32:00",
           "activity": "https://m.youtube.com/watch?v=JF0UYZuWaZE&pp=0gcJCU8Co7VqN5tD&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-06",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:15:00",
+          "activity": "Conversación con Claude"
+        },
+        {
+          "duration": "00:30:00",
+          "activity": "https://m.youtube.com/watch?v=-J1Q4o_HJkY&t=1895s&pp=ygUXZHJlYW1pbmcgc3BhbmlzaCBtYWR1cm8%3D&ra=m"
+        },
+        {
+          "duration": "00:45:00",
+          "activity": "https://m.youtube.com/watch?v=B2sY8lyQ3C8&pp=0gcJCU8Co7VqN5tD&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-07",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
+          "activity": "https://m.youtube.com/watch?v=cHe8iDfCgL8&ra=m"
+        },
+        {
+          "duration": "00:35:00",
+          "activity": "https://m.youtube.com/watch?v=xFXUVEnKZlc&ra=m"
+        },
+        {
+          "duration": "00:23:00",
+          "activity": "https://m.youtube.com/watch?v=nC2tR9PzBqM&pp=0gcJCQMLAYcqIYzv&ra=m"
+        },
+        {
+          "duration": "00:15:00",
+          "activity": "https://m.youtube.com/watch?v=tIU9XxYG1go&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:45:00",
+          "activity": "https://m.youtube.com/watch?v=OcGhb4BJsLQ&ra=m"
         }
       ]
     }
