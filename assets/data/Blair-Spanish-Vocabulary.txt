@@ -310,6 +310,7 @@ el puente | bridge | 🌉 | Noun | false | 2026-03-01 | 2026-03-17 | 12 | 1.9200
 el queso | cheese | 🧀 | Noun | false | 2026-02-27 | 2026-03-04 | 2 | 3.0000 | Easy | 
 el ratón | computer mouse | 🖱️ | Noun | false | 2026-03-05 | 2026-03-07 | 5 | 1.4000 | Easy | 
 el recibidor | entryway |  | Noun | false | 2026-03-17 | 2026-04-20 | 4 | 0.0000 | Core | 
+el récord personal | personal best / personal record |  | Noun | false | 2026-05-11 | 1970-01-01 | 0 | | Hard |
 el reloj | watch | ⌚ | Noun | false | 2026-02-27 | 2026-03-21 | 8 | 1.7500 | Easy | 
 el restaurante | restaurant |  | Noun | false | 2026-02-27 | 2026-03-21 | 3 | 2.6700 | Easy | 
 el resultado | result |  | Noun | false | 2026-03-06 | 2026-04-27 | 11 | 0.3811 | Core | 
@@ -412,6 +413,7 @@ la espalda | back |  | Noun | false | 2026-03-12 | 2026-04-02 | 7 | 0.2333 | Cor
 la esquina | corner |  | Noun | false | 2026-03-01 | 2026-03-15 | 8 | 1.7500 | Easy | 
 la estación | station |  | Noun | false | 2026-02-27 | 2026-03-04 | 3 | 2.6700 | Easy | 
 la estantería | shelf / bookcase |  | Noun | false | 2026-03-17 | 2026-04-22 | 7 | 1.4330 | Core | 
+la estacion | season | 🍂 | Noun | false | 2026-05-11 | 1970-01-01 | 0 | | Hard |
 la experiencia | experience |  | Noun | false | 2026-03-06 | 2026-03-07 | 2 | 2.5000 | Easy | 
 la familia | family |  | Noun | false | 2026-02-27 | 2026-03-04 | 4 | 2.5000 | Easy | 
 la farmacia | pharmacy |  | Noun | false | 2026-03-17 | 2026-03-19 | 3 | 2.3300 | Easy | 
@@ -715,6 +717,7 @@ cuidar (de) | to take care (of) | ❤️ | Verb | false | 2026-03-04 | 2026-03-1
 cumplir | to fulfill / accomplish |  | Verb | false | 2026-03-09 | 2026-04-20 | 16 | 0.3408 | Core | 
 deber | must / to owe |  | Verb | false | 2026-03-04 | 2026-03-17 | 9 | 1.7800 | Easy | 
 dejar | to leave / allow |  | Verb | false | 2026-03-04 | 2026-03-21 | 14 |  | Core | 
+dejar de + infinitivo | to stop doing something |  | Verb | false | 2026-05-11 | 1970-01-01 | 0 | | Hard |
 demostrar | to demonstrate | 📊 | Verb | false | 2026-03-04 | 2026-03-17 | 2 | 2.5000 | Easy | 
 depender (de) | to depend (on) |  | Verb | false | 2026-03-09 | 2026-03-17 | 7 | 1.8600 | Easy | 
 desarrollar | to develop |  | Verb | false | 2026-03-04 | 2026-04-20 | 12 | 0.3181 | Core | 
@@ -752,6 +755,7 @@ estacionar | to park |  | Verb | false | 2026-03-30 | 2026-04-21 | 2 | 0.0000 | 
 estudiar | to study |  | Verb | false | 2026-03-30 | 2026-04-22 | 1 | 0.0000 | Core | 
 evitar | to avoid |  | Verb | false | 2026-03-06 | 2026-04-27 | 14 | 0.2806 | Core | 
 explicar | to explain |  | Verb | false | 2026-02-27 | 2026-03-04 | 5 | 1.8000 | Easy | 
+faltar | to be lacking / remaining |  | Verb | false | 2026-05-11 | 1970-01-01 | 0 | | Hard |
 felicitar | to congratulate |  | Verb | false | 2026-03-30 | 2026-04-27 | 6 | 0.1802 | Easy | 
 firmar | to sign |  | Verb | false | 2026-03-30 | 2026-04-27 | 4 | 0.3860 | Easy | 
 funcionar | to function / work |  | Verb | false | 2026-03-09 | 2026-03-15 | 4 | 2.2500 | Easy | 
@@ -786,6 +790,7 @@ montar | to set up / to assemble / to get on |  | Verb | false | 2026-03-26 | 20
 mostrar | to show |  | Verb | false | 2026-02-27 | 2026-03-01 | 8 | 2.0000 | Easy | 
 mover | to move (something) |  | Verb | false | 2026-03-01 | 2026-03-17 | 9 | 1.6700 | Easy | 
 moverse | to move (oneself) |  | Verb | false | 2026-03-17 | 2026-04-22 | 4 | 0.0000 | Core | 
+mudarse | to move (relocate) |  | Verb | false | 2026-05-11 | 1970-01-01 | 0 | | Hard | mudarse = to relocate; mover = to move an object
 nadar | to swim |  | Verb | false | 2026-03-30 | 2026-04-21 | 2 | -1.0000 | Easy | 
 necesitar | to need |  | Verb | false | 2026-02-27 | 2026-03-08 | 8 | 2.1300 | Easy | 
 necesitar | to need |  | Verb | false | 2026-03-30 | 2026-04-14 | 3 | -1.0000 | Easy | 
@@ -803,6 +808,7 @@ patinar | to skate |  | Verb | false | 2026-03-30 | 2026-04-14 | 3 | 1.0000 | Co
 perder | to lose |  | Verb | false | 2026-02-27 | 2026-03-05 | 4 | 2.5000 | Easy | 
 pertenecer (a) | to belong (to) |  | Verb | false | 2026-03-09 | 2026-04-21 | 17 | 0.9287 | Core | 
 pintar | to paint |  | Verb | false | 2026-03-30 | 2026-04-14 | 3 | -1.0000 | Easy | 
+planeo + infinitivo | I plan to (do something) |  | Verb | false | 2026-05-11 | 1970-01-01 | 0 | | Hard |
 plantear | to raise / to put forward (an idea or question) |  | Verb | false | 2026-05-08 | 1970-01-01 | 0 | | Hard | Not "to plant" — that's plantar. Plantear is for raising topics, posing questions, or proposing ideas.
 poner | to put |  | Verb | false | 2026-03-12 | 2026-03-19 | 2 | 2.5000 | Easy | 
 ponerse | to put on |  | Verb | false | 2026-03-17 | 2026-04-27 | 10 | 0.3675 | Core | 
