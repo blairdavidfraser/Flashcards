@@ -74,6 +74,7 @@ a:hover {
     background: #283231;
     border-radius: 10px;
     overflow: hidden;
+    z-index: 100;
 }
 
 .menu-item {
