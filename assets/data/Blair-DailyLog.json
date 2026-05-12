@@ -208,7 +208,14 @@
       "name": "Vocabulary",
       "language": "Spanish",
       "direction": "recall",
-      "count": 35
+      "count": 481
+    },
+    {
+      "date": "2026-05-12",
+      "name": "Topics",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 1
     }
   ],
   "other": [
