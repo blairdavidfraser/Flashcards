@@ -17,13 +17,16 @@ My decks live in a connected GitHub repository. The files are:
 
 - `Blair-Spanish-Vocabulary.txt` — words, phrases, and conversational chunks for Spanish
 - `Blair-Spanish-Verbs.txt` — verb conjugations contextualized in sentences for Spanish
+- `Blair-Spanish-Topics.txt` — full sentences on topics I care about for Spanish
 - `Blair-French-Vocabulary.txt` — words, phrases, and conversational chunks for French
 - `Blair-French-Verbs.txt` — verb conjugations contextualized in sentences for French
+- `Blair-French-Topics.txt` — full sentences on topics I care about for French
 
 Rules for these files:
 
 - Always read the relevant file(s) from GitHub before generating cards — no duplicates or near-duplicates without clear justification
 - Follow the format defined in the comment block at the top of each file exactly — field order, conventions, and rules there override everything else
+- The rules for card creation are slightly different in each deck - follow the rules for a given deck specifically
 - If the GitHub sync is stale or the files are not accessible, say so before generating any cards
 - New card defaults: added = today's date, seen = 1970-01-01, level = 1
 

@@ -1270,3 +1270,4 @@ sacar tiempo para... | to find time for... / to make time for... |  | Conversati
 en vez de..., o en lugar de... | instead of... |  | Conversational | true | 2026-05-06 | 2026-05-11 | 7 | 0.1681 | Core | Both are interchangeable in all contexts. Both followed by infinitive or noun. e.g. En vez de correr, fui al gimnasio.
 como tarde, o como muy tarde | at the latest |  | Conversational | false | 2026-05-06 | 2026-05-11 | 1 | 0.0000 | Core | e.g. Llego como tarde a las nueve. / Como muy tarde, salimos el viernes.
 estoy deseando... | I'm looking forward to... |  | Conversational | false | 2026-05-06 | 2026-05-11 | 6 | 0.3361 | Core | Estoy desando verte de nuevo!
+Qué raro, ¿no? | That’s weird, right? |  | Conversational | true | 2026-03-17 | 2026-05-12 | 5 | 0.4802 | Core | 
