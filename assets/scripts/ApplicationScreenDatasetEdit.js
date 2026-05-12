@@ -111,7 +111,7 @@ export class ApplicationScreenDatasetEdit {
         if (this.#totalSeen(text) < this.#seenBefore) {
             this.#confirmSeenDrop(
                 () => this.#doSave(text),
-                () => { this.#persistence = null; document.getElementById("editBox").value = ""; this.#backToMenu(); }
+                () => { this.#persistence = null; this.#clearEditBox(); this.#backToMenu(); }
             );
             return;
         }
@@ -121,8 +121,15 @@ export class ApplicationScreenDatasetEdit {
     #doSave(text) {
         this.#persistence.saveDataset(Dataset.parse(text));
         this.#persistence = null;
-        document.getElementById("editBox").value = "";
+        this.#clearEditBox();
         this.#backToMenu();
+    }
+
+    #clearEditBox() {
+        const ta = document.getElementById("editBox");
+        ta.value = "";
+        ta.readOnly = true;
+        ta.readOnly = false;
     }
 
     #totalSeen(text) {

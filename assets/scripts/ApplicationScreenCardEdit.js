@@ -46,7 +46,13 @@ export class ApplicationScreenCardEdit {
 
     #clearFields() {
         ["editFront", "editBack", "editEmoji", "editCategory", "editComment"]
-            .forEach(id => { document.getElementById(id).value = ""; });
+            .forEach(id => { ApplicationScreenCardEdit.#resetInput(document.getElementById(id)); });
+    }
+
+    static #resetInput(el) {
+        el.value = "";
+        el.readOnly = true;
+        el.readOnly = false;
     }
 
 }
