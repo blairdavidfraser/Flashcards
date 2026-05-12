@@ -202,6 +202,13 @@
       "language": "Spanish",
       "direction": "recall",
       "count": 10
+    },
+    {
+      "date": "2026-05-12",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 35
     }
   ],
   "other": [
@@ -552,6 +559,14 @@
         {
           "duration": "00:30:00",
           "activity": "https://m.youtube.com/watch?v=7-0OzU5RIkA&ra=m"
+        },
+        {
+          "duration": "00:35:00",
+          "activity": "https://m.youtube.com/watch?v=2H9PuEBwnNo&pp=QAFIAdIHCQmoAp4VBgUm4g%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:15:00",
+          "activity": "Conversación con Claude"
         }
       ]
     }
