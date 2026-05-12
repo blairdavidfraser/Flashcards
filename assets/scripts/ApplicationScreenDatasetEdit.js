@@ -108,8 +108,9 @@ export class ApplicationScreenDatasetEdit {
         const text = document.getElementById("editBox").value;
         const error = Dataset.validate(text);
         if (error) { this.#showValidationError(error); return; }
-        if (this.#totalSeen(text) < this.#seenBefore) {
-            this.#confirmSeenDrop(
+        const drop = this.#seenBefore - this.#totalSeen(text);
+        if (drop > 0) {
+            this.#confirmSeenDrop(drop,
                 () => this.#doSave(text),
                 () => { this.#persistence = null; this.#clearEditBox(); this.#backToMenu(); }
             );
@@ -141,14 +142,14 @@ export class ApplicationScreenDatasetEdit {
         }, 0);
     }
 
-    #confirmSeenDrop(onYes, onNo) {
+    #confirmSeenDrop(drop, onYes, onNo) {
         const overlay = document.createElement('div');
         overlay.className = 'log-modal-overlay';
         overlay.innerHTML = `
             <div class="log-modal">
                 <div class="log-modal-header">Confirm Save</div>
                 <p style="margin:0 0 16px; font-size:14px; color:#444;">
-                    Total seen card count has dropped. Are you sure?
+                    Total seen card count has dropped by ${drop}. Are you sure?
                 </p>
                 <div style="display:flex; justify-content:center; gap:12px;">
                     <button id="seenConfirmYes">Yes</button>
