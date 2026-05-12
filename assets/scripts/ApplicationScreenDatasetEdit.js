@@ -13,6 +13,7 @@ export class ApplicationScreenDatasetEdit {
     #name = null;
     #language = null;
     #searchPos = 0;
+    #seenBefore = 0;
 
     constructor(logger = null, { backToMenu } = {}) {
         this.logger = logger;
@@ -28,8 +29,10 @@ export class ApplicationScreenDatasetEdit {
         document.getElementById("editArea").classList.remove("hidden");
         document.getElementById("githubConfigSection").classList.add("hidden");
         document.getElementById("editTitle").innerText = `Edit ${language} / ${name}`;
-        document.getElementById("editBox").value = Dataset.serialize(this.#persistence.loadDataset());
+        const serialized = Dataset.serialize(this.#persistence.loadDataset());
+        document.getElementById("editBox").value = serialized;
         document.getElementById("editSearchInput").value = "";
+        this.#seenBefore = this.#totalSeen(serialized);
     }
 
     #scrollTaToChar(ta, charPos) {
@@ -105,10 +108,49 @@ export class ApplicationScreenDatasetEdit {
         const text = document.getElementById("editBox").value;
         const error = Dataset.validate(text);
         if (error) { this.#showValidationError(error); return; }
+        if (this.#totalSeen(text) < this.#seenBefore) {
+            this.#confirmSeenDrop(
+                () => this.#doSave(text),
+                () => { this.#persistence = null; document.getElementById("editBox").value = ""; this.#backToMenu(); }
+            );
+            return;
+        }
+        this.#doSave(text);
+    }
+
+    #doSave(text) {
         this.#persistence.saveDataset(Dataset.parse(text));
         this.#persistence = null;
         document.getElementById("editBox").value = "";
         this.#backToMenu();
+    }
+
+    #totalSeen(text) {
+        return text.split('\n').reduce((sum, line) => {
+            const trimmed = line.trim();
+            if (!trimmed || trimmed.startsWith('#')) return sum;
+            const seen = parseInt(line.split('|')[7]);
+            return sum + (isNaN(seen) ? 0 : seen);
+        }, 0);
+    }
+
+    #confirmSeenDrop(onYes, onNo) {
+        const overlay = document.createElement('div');
+        overlay.className = 'log-modal-overlay';
+        overlay.innerHTML = `
+            <div class="log-modal">
+                <div class="log-modal-header">Confirm Save</div>
+                <p style="margin:0 0 16px; font-size:14px; color:#444;">
+                    Total seen card count has dropped. Are you sure?
+                </p>
+                <div style="display:flex; justify-content:center; gap:12px;">
+                    <button id="seenConfirmYes">Yes</button>
+                    <button id="seenConfirmNo">No</button>
+                </div>
+            </div>`;
+        document.body.appendChild(overlay);
+        overlay.querySelector('#seenConfirmYes').onclick = () => { overlay.remove(); onYes(); };
+        overlay.querySelector('#seenConfirmNo').onclick  = () => { overlay.remove(); onNo(); };
     }
 
     selectAll() {
