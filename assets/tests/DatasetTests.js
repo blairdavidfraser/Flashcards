@@ -245,8 +245,10 @@ describe('Dataset', function () {
         const files = [
             'Blair-Spanish-Verbs.txt',
             'Blair-Spanish-Vocabulary.txt',
+            'Blair-Spanish-Topics.txt',
             'Blair-French-Verbs.txt',
             'Blair-French-Vocabulary.txt',
+            'Blair-French-Topics.txt',
         ];
 
         files.forEach(name => {

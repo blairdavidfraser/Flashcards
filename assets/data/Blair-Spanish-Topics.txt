@@ -1,0 +1,57 @@
+# front | back | emoji | category | favourite | added | lastSeen | seen | penalty | level | comment
+#
+# The above header line is the schema of this file. Use it when creating new cards, along
+# with the detailed description of each field which follows.
+#
+# front :: string, non-empty
+#   - Gives the foreign translation of the text.
+#   - When generating new cards, if using a sentence, then capitalize and punctuate correctly.
+#
+# back :: string, non-empty
+#   - Gives the native translation of the text (English).
+#   - When generating new cards, if using a sentence, then capitalize and punctuate correctly.
+#
+# emoji :: string, or empty.
+#   - When available, represents a visual cue to aid in memorization.
+#   - When generating new cards, only use emoji when for single word translation cards when there is a strong match.
+#   - When generating new cards, never use an emoji if the card is a sentence or Conversational.
+#
+# category :: string, non-empty, freeform denoting topic of conversation
+#   - Capitalize the first character.
+#
+# added :: date in YYYY-MM-DD form, or empty.
+#   - Gives the date on which the card was added to the user's deck.
+#   - When generating new cards, use the current local date for added.
+#
+# lastSeen :: date in YYYY-MM-DD form, or empty.
+#   - Gives the last date this card was seen by user.
+#   - When generating new cards, use 1970-01-01 for lastSeen.
+#
+# seen :: integer (count) or empty.
+#   - Gives the number of times this card has been seen by user.
+#   - When generating new cards, use 0 for seen.
+#
+# penalty :: integer
+#   - Represents a score, that gets higher when the user ranks the card hard.
+#   - Increases as the card is shown repeatedly and ranked hard.
+#   - Increases faster if the card is ranked hard on each presentation.
+#   - An empty penalty means the card has not been seen and should correpond with seen=0.
+#   - When generating new cards, leave the penalty column empty.
+#
+# level :: string of (Hard, Core, Easy, Cold)
+#   - Hard: the user finds the card very hard; shown in the Hard set and included in Normal.
+#   - Core: normally difficult; shown in Normal and New sets.
+#   - Easy: too easy; shown only when studying the Review set.
+#   - Cold: snoozed indefinitely; not shown in any game mode.
+#   - When generating new cards, populate level as Hard.
+#
+# comment :: string
+#   - Useful for learning tips.
+#   - For example, explaining why on a given translation ser is used instead of estar.
+#   - For example, explaining why on a given translation preterit is used instead of imperfect.
+#   - When generating new cards, leave comment blank.
+#
+# Example new row:
+# hola | hello |  | Conversational | 2026-05-11 | 1970-01-01 | 0 | | Hard |
+#
+# Content :: Spanish Topics study
