@@ -19,6 +19,10 @@
 # category :: string, non-empty, freeform denoting topic of conversation
 #   - Capitalize the first character.
 #
+# favourite :: true or false.
+#   - Marks the card as a favourite for focused study.
+#   - When generating new cards, use false.
+#
 # added :: date in YYYY-MM-DD form, or empty.
 #   - Gives the date on which the card was added to the user's deck.
 #   - When generating new cards, use the current local date for added.

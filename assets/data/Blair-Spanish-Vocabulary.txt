@@ -24,6 +24,10 @@
 #   - If it is a word but fits none of the above cleanly, then use Conversational.
 #   - If in doubt, use Conversational.
 #
+# favourite :: true or false.
+#   - Marks the card as a favourite for focused study.
+#   - When generating new cards, use false.
+#
 # added :: date in YYYY-MM-DD form, or empty.
 #   - Gives the date on which the card was added to the user's deck.
 #   - When generating new cards, use the current local date for added.
@@ -580,6 +584,7 @@ difícil | difficult |  | Adjective | false | 2026-03-07 | 2026-03-13 | 2 | 2.50
 dulce | sweet | 🍯 | Adjective | false | 2026-02-28 | 2026-03-05 | 5 | 2.2000 | Easy | 
 emocionado, o emocionada | excited |  | Adjective | false | 2026-02-27 | 2026-03-03 | 4 | 2.2500 | Easy | 
 enfermo, o enferma | sick | 🤢 | Adjective | false | 2026-02-25 | 2026-03-03 | 6 | 2.3300 | Easy | 
+engañoso, o engañosa | deceptive / misleading |  | Adjective | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
 especial | special |  | Adjective | false | 2026-03-07 | 2026-03-13 | 3 | 2.3300 | Easy | 
 estofado, o estofada | stewed / braised | 🍲 | Adjective | false | 2026-02-28 | 2026-05-11 | 19 | -0.1271 | Easy | 
 extra | extra / spare |  | Adjective | false | 2026-02-27 | 2026-03-06 | 3 | 3.0000 | Easy | 

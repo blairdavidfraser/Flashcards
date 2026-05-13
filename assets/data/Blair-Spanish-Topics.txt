@@ -19,6 +19,10 @@
 # category :: string, non-empty, freeform denoting topic of conversation
 #   - Capitalize the first character.
 #
+# favourite :: true or false.
+#   - Marks the card as a favourite for focused study.
+#   - When generating new cards, use false.
+#
 # added :: date in YYYY-MM-DD form, or empty.
 #   - Gives the date on which the card was added to the user's deck.
 #   - When generating new cards, use the current local date for added.
@@ -83,3 +87,5 @@ Ojalá llegue a los últimos kilómetros con energía. | Hopefully I'll reach th
 ¿Entrenas con un plan específico o más bien por intuición? | Do you train with a specific plan or more by feel? |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
 ¿Corres solo o con un club? | Do you run alone or with a club? |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
 ¿Te has lesionado alguna vez durante la preparación? | Have you ever gotten injured during training? |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
+Hay que ir a tope desde el principio sin poder guardarse nada. | You have to go all out from the start without being able to hold anything back. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard | ir a tope = to go all out / at full throttle; guardarse algo = to hold something back/in reserve.
+Me lesioné la espalda | I injured my back |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
