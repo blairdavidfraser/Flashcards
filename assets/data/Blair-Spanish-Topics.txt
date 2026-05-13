@@ -19,10 +19,6 @@
 # category :: string, non-empty, freeform denoting topic of conversation
 #   - Capitalize the first character.
 #
-# favourite :: true or false.
-#   - Marks the card as a favourite for focused study.
-#   - When generating new cards, use false.
-#
 # added :: date in YYYY-MM-DD form, or empty.
 #   - Gives the date on which the card was added to the user's deck.
 #   - When generating new cards, use the current local date for added.
@@ -56,36 +52,36 @@
 #   - When generating new cards, leave comment blank.
 #
 # Example new row:
-# hola | hello |  | Conversational | 2026-05-11 | 1970-01-01 | 0 | | Hard |
+# hola | hello |  | Conversational | false | 2026-05-11 | 1970-01-01 | 0 | | Hard |
 #
 # Content :: Spanish Topics study
 
 
 # Running
-Corrí el Sporting Life 10K el fin de semana pasado. | I ran the Sporting Life 10K last weekend. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-Terminé en 44:55, que no está mal dado el entrenamiento que tuve. | I finished in 44:55, which isn't bad given the training I had. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-Nunca me sentí tan bien en los últimos kilómetros. | I never felt so good in the final kilometres. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-Me lesioné en enero y no pude entrenar mucho. | I got injured in January and couldn't train much. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-El recorrido era bastante plano, así que pude mantener un ritmo constante. | The course was pretty flat, so I could keep a steady pace. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-He corrido ese 10K varias veces. | I've run that 10K several times. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-Nunca he corrido un maratón completo. | I've never run a full marathon. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-He mejorado mi récord personal tres veces este año. | I've improved my personal best three times this year. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-Siempre he entrenado con el club, nunca por mi cuenta. | I've always trained with the club, never on my own. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-Entreno cuatro días a la semana, más o menos. | I train about four days a week. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-Prefiero las carreras de 10K — son lo suficientemente largas para ser un desafío. | I prefer 10K races — they're long enough to be a challenge. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-Corro con el club los sábados por la mañana. | I run with the club on Saturday mornings. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-Voy a correr el medio maratón de Quebec en octubre. | I'm going to run the Quebec half marathon in October. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-Planeo intentar un nuevo récord personal en el Black Toe 10K. | I plan to try for a new personal best at the Black Toe 10K. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-Este verano quiero correr al menos dos carreras. | This summer I want to run at least two races. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-Si entreno bien, creo que podría bajar de 42 minutos. | If I train well, I think I could break 42 minutes. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-Me gustaría correr un maratón algún día, pero tendría que prepararme mucho. | I'd like to run a marathon someday, but I'd have to prepare a lot. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-No creo que pueda mejorar mi tiempo en una carrera tan montañosa. | I don't think I'll be able to improve my time on such a hilly course. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-Espero que el tiempo sea bueno el día de la carrera. | I hope the weather is good on race day. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-Ojalá llegue a los últimos kilómetros con energía. | Hopefully I'll reach the final kilometres with energy left. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-¿Cuál es tu récord personal en 10K? | What's your personal best in the 10K? |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-¿Cuántas carreras has corrido este año? | How many races have you run this year? |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-¿Entrenas con un plan específico o más bien por intuición? | Do you train with a specific plan or more by feel? |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-¿Corres solo o con un club? | Do you run alone or with a club? |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-¿Te has lesionado alguna vez durante la preparación? | Have you ever gotten injured during training? |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
-Hay que ir a tope desde el principio sin poder guardarse nada. | You have to go all out from the start without being able to hold anything back. |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard | ir a tope = to go all out / at full throttle; guardarse algo = to hold something back/in reserve.
-Me lesioné la espalda | I injured my back |  | Running | false | 2026-05-12 | 1970-01-01 | 0 | | Hard |
+Corrí el Sporting Life 10K el fin de semana pasado. | I ran the Sporting Life 10K last weekend. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+Terminé en 44:55, que no está mal dado el entrenamiento que tuve. | I finished in 44:55, which isn't bad given the training I had. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+Nunca me sentí tan bien en los últimos kilómetros. | I never felt so good in the final kilometres. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+Me lesioné en enero y no pude entrenar mucho. | I got injured in January and couldn't train much. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+El recorrido era bastante plano, así que pude mantener un ritmo constante. | The course was pretty flat, so I could keep a steady pace. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+He corrido ese 10K varias veces. | I've run that 10K several times. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+Nunca he corrido un maratón completo. | I've never run a full marathon. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+He mejorado mi récord personal tres veces este año. | I've improved my personal best three times this year. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+Siempre he entrenado con el club, nunca por mi cuenta. | I've always trained with the club, never on my own. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+Entreno cuatro días a la semana, más o menos. | I train about four days a week. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+Prefiero las carreras de 10K — son lo suficientemente largas para ser un desafío. | I prefer 10K races — they're long enough to be a challenge. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+Corro con el club los sábados por la mañana. | I run with the club on Saturday mornings. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+Voy a correr el medio maratón de Quebec en octubre. | I'm going to run the Quebec half marathon in October. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+Planeo intentar un nuevo récord personal en el Black Toe 10K. | I plan to try for a new personal best at the Black Toe 10K. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+Este verano quiero correr al menos dos carreras. | This summer I want to run at least two races. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+Si entreno bien, creo que podría bajar de 42 minutos. | If I train well, I think I could break 42 minutes. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+Me gustaría correr un maratón algún día, pero tendría que prepararme mucho. | I'd like to run a marathon someday, but I'd have to prepare a lot. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+No creo que pueda mejorar mi tiempo en una carrera tan montañosa. | I don't think I'll be able to improve my time on such a hilly course. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+Espero que el tiempo sea bueno el día de la carrera. | I hope the weather is good on race day. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+Ojalá llegue a los últimos kilómetros con energía. | Hopefully I'll reach the final kilometres with energy left. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+¿Cuál es tu récord personal en 10K? | What's your personal best in the 10K? |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+¿Cuántas carreras has corrido este año? | How many races have you run this year? |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+¿Entrenas con un plan específico o más bien por intuición? | Do you train with a specific plan or more by feel? |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+¿Corres solo o con un club? | Do you run alone or with a club? |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+¿Te has lesionado alguna vez durante la preparación? | Have you ever gotten injured during training? |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+Hay que ir a tope desde el principio sin poder guardarse nada. | You have to go all out from the start without being able to hold anything back. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | ir a tope = to go all out / at full throttle; guardarse algo = to hold something back/in reserve.
+Me lesioné la espalda | I injured my back |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
