@@ -24,10 +24,6 @@
 #   - If it is a word but fits none of the above cleanly, then use Conversational.
 #   - If in doubt, use Conversational.
 #
-# favourite :: true or false.
-#   - Marks the card as a favourite for focused study.
-#   - When generating new cards, use false.
-#
 # added :: date in YYYY-MM-DD form, or empty.
 #   - Gives the date on which the card was added to the user's deck.
 #   - When generating new cards, use the current local date for added.
@@ -61,7 +57,7 @@
 #   - When generating new cards, leave comment blank.
 #
 # Example new row:
-# bonjour | hello |  | Conversational | 2026-03-21 | 1970-01-01 | 0 | | Hard |
+# bonjour | hello |  | Conversational | false | 2026-03-21 | 1970-01-01 | 0 | | Hard |
 #
 # Content :: Vocabulary study
 #   - This file is for building vocabulary through words and short sentences or Conversationals.
@@ -96,53 +92,53 @@
 
 # >>> Present Tense
 
-Je suis touriste. | I'm a tourist. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Je suis canadien. | I'm Canadian. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Nous sommes deux. | There are two of us. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-J'ai une réservation. | I have a reservation. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-J'ai faim. | I'm hungry. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard | avoir faim = to be hungry; literally "to have hunger"
-J'ai soif. | I'm thirsty. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard | avoir soif = to be thirsty; literally "to have thirst"
-Je vais à la gare. | I'm going to the train station. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Je vais à pied. | I'm going on foot. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Je prends le menu à vingt euros. | I'll have the set menu at twenty euros. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard | prendre = to take/have; used naturally for ordering
-Je prends le métro. | I'm taking the metro. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Je mange ici ce soir. | I'm eating here tonight. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Je bois de l'eau, s'il vous plaît. | I'll have water, please. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Je parle un peu français. | I speak a little French. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Je ne comprends pas. | I don't understand. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Je cherche l'hôtel Lumière. | I'm looking for the Hôtel Lumière. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Je cherche un restaurant pas trop cher. | I'm looking for a restaurant that's not too expensive. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Je veux une chambre pour deux nuits. | I want a room for two nights. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Je dois partir tôt demain matin. | I have to leave early tomorrow morning. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-J'arrive demain soir. | I'm arriving tomorrow evening. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Je reste trois nuits. | I'm staying three nights. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Je réserve une table pour ce soir. | I'm booking a table for tonight. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Je paie par carte. | I'm paying by card. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Je ne sais pas. | I don't know. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Je connais bien ce quartier. | I know this neighbourhood well. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Il fait beau aujourd'hui. | The weather is nice today. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard | faire + weather: il fait beau/chaud/froid/mauvais
-Il fait chaud ici. | It's hot in here. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Le train part à quelle heure ? | What time does the train leave? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Le bus arrive dans dix minutes. | The bus arrives in ten minutes. |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-On peut marcher jusqu'à la plage ? | Can we walk to the beach? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard | on peut = we can / one can; very common in spoken French
-Ça coûte combien ? | How much does it cost? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Est-ce que vous avez une table pour deux ? | Do you have a table for two? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Est-ce que vous avez une chambre de libre ? | Do you have a room available? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Vous parlez anglais ? | Do you speak English? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard | Rising intonation question — natural in spoken French
-Est-ce que vous acceptez les cartes ? | Do you accept cards? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Le musée est ouvert aujourd'hui ? | Is the museum open today? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Où est la station de métro la plus proche ? | Where is the nearest metro station? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Où est-ce qu'on prend le bus ? | Where do we catch the bus? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Est-ce qu'il y a un distributeur près d'ici ? | Is there an ATM nearby? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard | distributeur = ATM in France; also called DAB
-Vous pouvez m'appeler un taxi ? | Can you call me a taxi? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Vous pouvez répéter plus lentement ? | Can you repeat more slowly? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Qu'est-ce que vous recommandez ? | What do you recommend? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-C'est compris dans le prix ? | Is it included in the price? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Vous avez du wifi ? | Do you have wifi? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Le petit-déjeuner est inclus ? | Is breakfast included? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Est-ce que je peux voir la chambre ? | Can I see the room? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Il faut réserver à l'avance ? | Do you need to book in advance? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard | il faut = it is necessary / you need to; impersonal, very common
-Qu'est-ce qu'il y a à faire ici ? | What is there to do here? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Le service est compris ? | Is service included? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Vous avez un menu en anglais ? | Do you have a menu in English? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
-Ça prend combien de temps ? | How long does it take? |  | Present | false | 2026-04-26 | 1970-01-01 | 0 | | Hard |
+Je suis touriste. | I'm a tourist. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Je suis canadien. | I'm Canadian. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Nous sommes deux. | There are two of us. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+J'ai une réservation. | I have a reservation. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+J'ai faim. | I'm hungry. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | avoir faim = to be hungry; literally "to have hunger"
+J'ai soif. | I'm thirsty. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | avoir soif = to be thirsty; literally "to have thirst"
+Je vais à la gare. | I'm going to the train station. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Je vais à pied. | I'm going on foot. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Je prends le menu à vingt euros. | I'll have the set menu at twenty euros. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | prendre = to take/have; used naturally for ordering
+Je prends le métro. | I'm taking the metro. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Je mange ici ce soir. | I'm eating here tonight. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Je bois de l'eau, s'il vous plaît. | I'll have water, please. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Je parle un peu français. | I speak a little French. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Je ne comprends pas. | I don't understand. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Je cherche l'hôtel Lumière. | I'm looking for the Hôtel Lumière. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Je cherche un restaurant pas trop cher. | I'm looking for a restaurant that's not too expensive. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Je veux une chambre pour deux nuits. | I want a room for two nights. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Je dois partir tôt demain matin. | I have to leave early tomorrow morning. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+J'arrive demain soir. | I'm arriving tomorrow evening. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Je reste trois nuits. | I'm staying three nights. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Je réserve une table pour ce soir. | I'm booking a table for tonight. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Je paie par carte. | I'm paying by card. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Je ne sais pas. | I don't know. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Je connais bien ce quartier. | I know this neighbourhood well. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Il fait beau aujourd'hui. | The weather is nice today. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | faire + weather: il fait beau/chaud/froid/mauvais
+Il fait chaud ici. | It's hot in here. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Le train part à quelle heure ? | What time does the train leave? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Le bus arrive dans dix minutes. | The bus arrives in ten minutes. |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+On peut marcher jusqu'à la plage ? | Can we walk to the beach? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | on peut = we can / one can; very common in spoken French
+Ça coûte combien ? | How much does it cost? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Est-ce que vous avez une table pour deux ? | Do you have a table for two? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Est-ce que vous avez une chambre de libre ? | Do you have a room available? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Vous parlez anglais ? | Do you speak English? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | Rising intonation question — natural in spoken French
+Est-ce que vous acceptez les cartes ? | Do you accept cards? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Le musée est ouvert aujourd'hui ? | Is the museum open today? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Où est la station de métro la plus proche ? | Where is the nearest metro station? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Où est-ce qu'on prend le bus ? | Where do we catch the bus? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Est-ce qu'il y a un distributeur près d'ici ? | Is there an ATM nearby? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | distributeur = ATM in France; also called DAB
+Vous pouvez m'appeler un taxi ? | Can you call me a taxi? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Vous pouvez répéter plus lentement ? | Can you repeat more slowly? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Qu'est-ce que vous recommandez ? | What do you recommend? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+C'est compris dans le prix ? | Is it included in the price? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Vous avez du wifi ? | Do you have wifi? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Le petit-déjeuner est inclus ? | Is breakfast included? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Est-ce que je peux voir la chambre ? | Can I see the room? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Il faut réserver à l'avance ? | Do you need to book in advance? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | il faut = it is necessary / you need to; impersonal, very common
+Qu'est-ce qu'il y a à faire ici ? | What is there to do here? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Le service est compris ? | Is service included? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Vous avez un menu en anglais ? | Do you have a menu in English? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
+Ça prend combien de temps ? | How long does it take? |  | Present | false | 2026-04-23 | 2026-05-11 | 0 |  | Hard | 
