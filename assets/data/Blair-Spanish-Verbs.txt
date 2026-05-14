@@ -167,7 +167,6 @@ No es lo mismo | It’s not the same |  | Present | false | 2026-03-14 | 2026-05
 Tiene sentido | It makes sense |  | Present | false | 2026-03-14 | 2026-05-08 | 1 | 0.0000 | Core | 
 No tiene sentido | It doesn’t make sense |  | Present | false | 2026-03-14 | 2026-05-12 | 4 | 0.6860 | Core | 
 ¿A qué hora llegas al trabajo normalmente? | What time do you normally arrive at work? |  | Present | false | 2026-04-03 | 2026-05-12 | 2 | 0.7000 | Core | 
-¿Llevas el almuerzo al trabajo o comes fuera? | Do you bring lunch to work or eat out? |  | Present | false | 2026-04-03 | 2026-05-08 | 1 | 0.0000 | Core | llevar = to carry/bring; not llegar (arrive) or llenar (fill)
 ¿Llenas la botella antes de salir a correr? | Do you fill your bottle before going for a run? |  | Present | false | 2026-04-03 | 2026-05-12 | 3 | 1.1900 | Core | llenar = to fill; not llevar (carry) or llegar (arrive)
 ¿Con quién vives ahora? | Who do you live with now? |  | Present | false | 2026-04-03 | 2026-05-08 | 1 | 0.0000 | Core | 
 ¿Cuántas veces por semana haces ejercicio? | How many times a week do you exercise? |  | Present | false | 2026-04-03 | 2026-05-08 | 1 | 0.0000 | Core | 
@@ -186,6 +185,7 @@ No tiene sentido | It doesn’t make sense |  | Present | false | 2026-03-14 | 2
 ¿Cuántos kilómetros corres por semana? | How many kilometres do you run per week? |  | Present | false | 2026-04-03 | 2026-05-12 | 1 | 0.0000 | Core | 
 ¿Qué haces para mejorar tu nivel de español? | What do you do to improve your Spanish level? |  | Present | false | 2026-04-03 | 2026-05-12 | 1 | 0.0000 | Core | 
 ¿A qué hora te acuestas normalmente? | What time do you normally go to bed? |  | Present | false | 2026-04-03 | 2026-05-12 | 3 | 1.0000 | Core | 
+¿Llevas el almuerzo al trabajo o comes fuera? | Do you bring lunch to work or eat out? |  | Present | false | 2026-04-03 | 2026-05-12 | 3 | 0.7900 | Core | llevar = to carry/bring; not llegar (arrive) or llenar (fill)
 
 # >>> Present Continuous Tense
 Estoy comiendo en el restaurante ahora | I am eating at the restaurant now |  | Present Continuous | false | 2026-03-08 | 2026-03-10 | 0 |  | Hard | 
@@ -258,70 +258,6 @@ Voy a comer contigo, pero estoy trabajando ahora | I am going to eat with you, b
 Vamos a salir esta noche, pero estamos estudiando ahora | We are going to go out tonight, but we are studying now |  | Immediate Future | false | 2026-03-08 | 2026-04-15 | 1 | 0.0000 | Core | 
 Ella va a preparar la cena, pero está hablando por teléfono ahora | She is going to prepare dinner, but she is talking on the phone now |  | Immediate Future | false | 2026-03-08 | 2026-05-08 | 3 | 0.9800 | Core | 
 Voy a ver una película después, pero estoy escribiendo un correo ahora | I am going to watch a movie later, but I am writing an email now |  | Immediate Future | false | 2026-03-08 | 2026-03-17 | 3 | 1.6700 | Core | 
-¿A qué hora llegas al trabajo normalmente? | What time do you normally arrive at work? |  | Present | false | 2026-04-03 | 2026-05-12 | 1 | 0.0000 | Core | 
-¿Llevas el almuerzo al trabajo o comes fuera? | Do you bring lunch to work or eat out? |  | Present | false | 2026-04-03 | 2026-05-12 | 3 | 0.7900 | Core | llevar = to carry/bring; not llegar (arrive) or llenar (fill)
-¿Llenas la botella antes de salir a correr? | Do you fill your bottle before going for a run? |  | Present | false | 2026-04-03 | 2026-05-12 | 1 | 0.0000 | Core | llenar = to fill; not llevar (carry) or llegar (arrive)
-¿Con quién vives ahora? | Who do you live with now? |  | Present | false | 2026-04-03 | 2026-05-12 | 1 | 0.0000 | Core | 
-¿Cuántas veces por semana haces ejercicio? | How many times a week do you exercise? |  | Present | false | 2026-04-03 | 2026-05-12 | 1 | 0.0000 | Core | 
-¿Qué desayunas normalmente? | What do you normally have for breakfast? |  | Present | false | 2026-04-03 | 2026-05-12 | 1 | 0.0000 | Core | 
-¿A qué hora empieza tu día? | What time does your day start? |  | Present | false | 2026-04-03 | 2026-05-12 | 1 | 0.0000 | Core | 
-¿Prefieres correr por la mañana o por la tarde? | Do you prefer to run in the morning or in the afternoon? |  | Present | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-¿Cuánto tiempo tardas en llegar al centro? | How long does it take you to get to the city centre? |  | Present | false | 2026-04-03 | 2026-05-12 | 3 | 0.4900 | Core | llegar = to arrive/get to; context: travel time
-¿Qué llevas siempre en la mochila? | What do you always carry in your backpack? |  | Present | false | 2026-04-03 | 2026-05-12 | 1 | 0.0000 | Core | llevar = to carry; not llegar or llenar
-¿Cuándo llegan tus amigos esta noche? | When do your friends arrive tonight? |  | Present | false | 2026-04-03 | 2026-05-12 | 1 | 0.0000 | Core | llegar = to arrive; context: people coming over
-¿Te gusta cocinar en casa o prefieres comer fuera? | Do you like cooking at home or do you prefer eating out? |  | Present | false | 2026-04-03 | 2026-05-12 | 1 | 0.0000 | Core | 
-¿Qué haces cuando no puedes dormir? | What do you do when you can't sleep? |  | Present | false | 2026-04-03 | 2026-05-12 | 1 | 0.0000 | Core | 
-¿Cuánto tiempo llevas estudiando español? | How long have you been studying Spanish? |  | Present | false | 2026-04-03 | 2026-05-12 | 1 | 2.0000 | Core | 
-¿Trabajas mejor solo o en equipo? | Do you work better alone or as part of a team? |  | Present | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-¿Qué música escuchas cuando entrenas? | What music do you listen to when you train? |  | Present | false | 2026-04-03 | 2026-05-12 | 1 | 0.0000 | Core | 
-¿Llenan los vasos con agua antes de la cena? | Do they fill the glasses with water before dinner? |  | Present | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | llenar = to fill; contrast with llevar/llegar
-¿Cuántos kilómetros corres por semana? | How many kilometres do you run per week? |  | Present | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-¿Qué haces para mejorar tu nivel de español? | What do you do to improve your Spanish level? |  | Present | true | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-¿A qué hora te acuestas normalmente? | What time do you normally go to bed? |  | Present | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-¿Qué estás haciendo ahora mismo? | What are you doing right now? |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-¿Estás escuchando música mientras corres? | Are you listening to music while you run? |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-¿Está lloviendo donde estás? | Is it raining where you are? |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-¿Qué estáis comiendo esta noche? | What are you all eating tonight? |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-¿Estás llevando el equipo al coche ahora? | Are you carrying the gear to the car now? |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | llevando = carrying; context makes meaning clear
-¿A quién estás esperando? | Who are you waiting for? |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-¿Estás llenando la mochila para el viaje? | Are you filling the backpack for the trip? |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | llenando = filling; not llevando or llegando
-¿Están llegando los demás? | Are the others arriving? |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | llegando = arriving; not llevando or llenando
-¿Estás durmiendo bien últimamente? | Are you sleeping well lately? |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-¿Qué estás leyendo estos días? | What are you reading these days? |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-¿Están entrenando para una carrera? | Are they training for a race? |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-¿Por qué estás corriendo tan rápido? | Why are you running so fast? |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-¿Estás llevando demasiadas cosas? | Are you carrying too many things? |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | llevando = carrying; physical load
-¿Están llegando tarde otra vez? | Are they arriving late again? |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | llegando = arriving; not llevando
-¿Estás llenando el formulario ahora? | Are you filling in the form now? |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | llenando = filling (a form); common real-world usage
-¿Estás mejorando tu tiempo en la carrera? | Are you improving your race time? |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-¿Qué estás intentando decir? | What are you trying to say? |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-¿Estás disfrutando del viaje? | Are you enjoying the trip? |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-¿Están preparando la cena ya? | Are they already preparing dinner? |  | Present Continuous | true | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-¿Estás pensando en cambiar de trabajo? | Are you thinking about changing jobs? |  | Present Continuous | true | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-¿Por qué estás llenando dos botellas? | Why are you filling two bottles? |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | llenando = filling; reinforces llenar vs llevar
-Estoy llegando en diez minutos. | I'm arriving in ten minutes. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | llegando = arriving; common in spoken Spanish for near-future
-Está lloviendo bastante fuerte ahora mismo. | It's raining quite hard right now. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-Estoy llevando la bicicleta al parque. | I'm taking my bike to the park. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | llevando = taking/carrying; reinforces llevar
-Estamos esperando a que lleguen todos. | We're waiting for everyone to arrive. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | lleguen = arrive; both llegar and esperar in one sentence
-Está llenando el depósito antes de salir. | He's filling up the tank before leaving. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | llenando = filling; vivid everyday context
-Me estoy poniendo los zapatos ahora mismo. | I'm putting my shoes on right now. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-Están discutiendo sobre el camino. | They're arguing about the route. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-Estoy intentando mejorar cada semana. | I'm trying to improve every week. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-Estamos llevando demasiado equipaje. | We're carrying too much luggage. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | llevando = carrying; context: travel
-Ella está llenando la olla con agua. | She's filling the pot with water. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | llenar + olla: classic kitchen context
-Los demás están llegando al punto de encuentro. | The others are arriving at the meeting point. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | llegando = arriving at a location
-Estoy aprendiendo a cocinar platos nuevos. | I'm learning to cook new dishes. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-Está buscando un restaurante cerca. | He's looking for a nearby restaurant. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-Estamos recorriendo el barrio a pie. | We're exploring the neighbourhood on foot. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-Estoy llevando el almuerzo porque no hay restaurantes cerca. | I'm bringing lunch because there are no restaurants nearby. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | llevando = bringing; clear purposeful context
-Está llenando la mochila con demasiadas cosas. | He's filling the backpack with too many things. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | llenar la mochila; not llevar or llegar
-Estamos llegando al final del camino. | We're reaching the end of the path. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | llegando al final; figurative and literal
-Están viviendo cerca del centro ahora. | They're living near the centre now. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-Estoy disfrutando mucho de este libro. | I'm really enjoying this book. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-Está creciendo el número de corredores en el parque. | The number of runners in the park is growing. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | 
-Estoy llevando la cuenta de mis kilómetros. | I'm keeping track of my kilometres. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | llevar la cuenta = to keep track; fixed expression with llevar
-Están llenando el restaurante rápido esta noche. | The restaurant is filling up fast tonight. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | llenando = filling up; intransitive usage
-Estoy llegando al límite de mi energía. | I'm reaching the limit of my energy. |  | Present Continuous | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | llegar a = to reach a limit; figurative
 ¿Qué vas a hacer este fin de semana? | What are you going to do this weekend? |  | Immediate Future | false | 2026-04-03 | 2026-04-15 | 1 | 0.0000 | Core | 
 ¿Vas a llegar a tiempo? | Are you going to arrive on time? |  | Immediate Future | false | 2026-04-03 | 2026-04-15 | 1 | 0.0000 | Core | llegar = to arrive; urgency context
 ¿Vas a llevar algo de comer? | Are you going to bring something to eat? |  | Immediate Future | false | 2026-04-03 | 2026-04-05 | 0 |  | Hard | llevar = to bring; not llegar or llenar

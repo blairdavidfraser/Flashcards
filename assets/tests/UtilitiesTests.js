@@ -9,37 +9,29 @@ describe('Utilities', function () {
     // =========================================================================
     describe('parseDate()', function () {
 
-        it('returns a number close to Date.now() for null', function () {
-            const before = Date.now();
-            const result = parseDate(null);
-            const after = Date.now();
-            assert.isNumber(result);
-            assert.isAtLeast(result, before);
-            assert.isAtMost(result, after);
+        it('returns null for null', function () {
+            assert.isNull(parseDate(null));
         });
 
-        it('returns a number close to Date.now() for undefined', function () {
-            const before = Date.now();
-            const result = parseDate(undefined);
-            const after = Date.now();
-            assert.isAtLeast(result, before);
-            assert.isAtMost(result, after);
+        it('returns null for undefined', function () {
+            assert.isNull(parseDate(undefined));
         });
 
-        it('returns a number close to Date.now() for 0 (falsy)', function () {
-            const before = Date.now();
-            const result = parseDate(0);
-            const after = Date.now();
-            assert.isAtLeast(result, before);
-            assert.isAtMost(result, after);
+        it('returns null for empty string', function () {
+            assert.isNull(parseDate(''));
         });
 
-        it('parses an ISO date string to a UTC epoch number', function () {
+        it('returns null for 0 (falsy)', function () {
+            assert.isNull(parseDate(0));
+        });
+
+        it('parses an ISO date string as local midnight (stable round-trip)', function () {
             const result = parseDate('2026-01-01');
-            assert.equal(result, new Date('2026-01-01').getTime());
+            assert.equal(result, new Date(2026, 0, 1).getTime()); // local midnight
+            assert.equal(formatDate(result), '2026-01-01');        // round-trips cleanly
         });
 
-        it('round-trips an existing epoch number', function () {
+        it('round-trips an existing epoch number unchanged', function () {
             const epoch = new Date('2025-06-15T12:00:00Z').getTime();
             assert.equal(parseDate(epoch), epoch);
         });

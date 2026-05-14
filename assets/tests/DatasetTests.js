@@ -258,6 +258,31 @@ describe('Dataset', function () {
             });
         });
 
+        files.forEach(name => {
+            it(`${name} should have no duplicate cards`, function () {
+                const lines = readDataFile(name).split('\n');
+                const seen = new Map();
+                const duplicates = [];
+                lines.forEach((line, idx) => {
+                    const trimmed = line.trim();
+                    if (!trimmed || trimmed.startsWith('#')) return;
+                    const parts = trimmed.split('|');
+                    if (parts.length < 2) return;
+                    const front = parts[0].trim();
+                    const back  = parts[1].trim();
+                    if (!front || !back) return;
+                    const key = `${front}\x00${back}`;
+                    const lineNum = idx + 1;
+                    if (seen.has(key)) {
+                        duplicates.push(`Line ${lineNum} is a duplicate of line ${seen.get(key)}: "${front}"`);
+                    } else {
+                        seen.set(key, lineNum);
+                    }
+                });
+                assert.equal(duplicates.length, 0, '\n' + duplicates.join('\n'));
+            });
+        });
+
     });
 
 });
