@@ -223,6 +223,13 @@
       "language": "Spanish",
       "direction": "recall",
       "count": 178
+    },
+    {
+      "date": "2026-05-13",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 102
     }
   ],
   "other": [
@@ -581,6 +588,30 @@
         {
           "duration": "00:15:00",
           "activity": "Conversación con Claude"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:15:00",
+          "activity": "Conversación con Claude"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-13",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:10:00",
+          "activity": "https://m.youtube.com/watch?v=fcYeXCacyrk&list=PLQGxDRfENoxJ_cdraefXK67ozp8LxI_Ar&index=3&pp=iAQB&ra=m"
+        },
+        {
+          "duration": "00:35:00",
+          "activity": "https://m.youtube.com/watch?v=bxFptaeCjrE&ra=m"
         }
       ]
     }
