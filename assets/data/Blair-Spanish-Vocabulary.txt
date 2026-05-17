@@ -1216,3 +1216,5 @@ en vez de..., o en lugar de... | instead of... |  | Conversational | true | 2026
 como tarde, o como muy tarde | at the latest |  | Conversational | false | 2026-05-04 | 2026-05-09 | 1 | 0.0000 | Core | e.g. Llego como tarde a las nueve. / Como muy tarde, salimos el viernes.
 estoy deseando... | I'm looking forward to... |  | Conversational | false | 2026-05-04 | 2026-05-09 | 6 | 0.3361 | Core | Estoy desando verte de nuevo!
 Qué raro, ¿no? | That’s weird, right? |  | Conversational | true | 2026-03-15 | 2026-05-10 | 5 | 0.4802 | Core | 
+Llevar la cuenta | To keep track |  | Conversational | true | 2026-03-15 | 2026-05-10 | 5 | 0.4802 | Core | 
+Ya veremos | We’ll see / no commitment |  | Conversational | true | 2026-03-12 | 2026-05-16 | 5 | 0.9430 | Core | 

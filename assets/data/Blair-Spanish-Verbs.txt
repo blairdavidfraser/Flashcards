@@ -156,7 +156,6 @@ Voy a quedarme unos días | I’m going to stay a few days |  | Immediate Future
 ¿Vale la pena? | Is it worth it? |  | Present | false | 2026-03-12 | 2026-05-07 | 1 | 0.0000 | Core | 
 Por poco no llego | I almost didn’t make it |  | Present | false | 2026-03-12 | 2026-05-07 | 2 | 0.0000 | Core | 
 No puede ser | No way / Can’t be |  | Present | false | 2026-03-12 | 2026-05-07 | 2 | 0.0000 | Core | 
-Ya veremos | We’ll see / no commitment |  | Present | true | 2026-03-12 | 2026-05-16 | 5 | 0.9430 | Core | 
 A ver qué pasa | Let’s see what happens |  | Present | false | 2026-03-12 | 2026-05-07 | 5 | 0.1633 | Core | 
 Hay dos caras de la moneda | There are two sides to the coin |  | Present | false | 2026-03-13 | 2026-05-07 | 1 | 0.0000 | Core | 
 Son las dos caras de la moneda | They are the two sides of the coin |  | Present | true | 2026-03-13 | 2026-05-16 | 6 | 0.7501 | Core | 
