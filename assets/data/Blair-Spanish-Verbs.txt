@@ -62,7 +62,7 @@
 #   - Sentence cards should prioritize a variety of sentence structures with different nouns, verbs, and other words.
 #   - The primary goal of this study is to learn verb conjugations, but the secondary goal is to reinforce vocabulary.
 #   - Choose these additional words from the users known vocabulary or occasionaly new words at a similar level.
-#   - Prefer sentence structure that is natural in Spanish.
+#   - Prefer sentence structure that is natural in Spanish
 #   - Prefer sentences that are useful and someone may actually use.
 #
 # Convention :: for a verb full congugation card
@@ -348,42 +348,42 @@ Fue al trabajo temprano | He went to work early |  | Preterit | false | 2026-03-
 Ana fue a la escuela ayer | Ana went to school yesterday |  | Preterit | false | 2026-03-06 | 2026-05-07 | 2 | 1.7000 | Core | 
 Fuimos al cine juntos | We went to the cinema together |  | Preterit | false | 2026-03-06 | 2026-05-07 | 3 | 0.7900 | Core | 
 Fueron al restaurante | They went to the restaurant |  | Preterit | false | 2026-03-06 | 2026-03-07 | 2 | 0.5000 | Core | 
-ayer fui al restaurante | yesterday I went to the restaurant |  | Preterit | false | 2026-02-27 | 2026-03-12 | 7 | 1.2900 | Easy | 
-ayer comí pescado | yesterday I ate fish |  | Preterit | false | 2026-02-27 | 2026-03-12 | 7 | 1.4300 | Easy | 
-anoche cené con amigos | last night I had dinner with friends |  | Preterit | false | 2026-02-27 | 2026-03-12 | 17 | 0.0600 | Easy | 
-ayer hicimos una reserva | yesterday we made a reservation |  | Preterit | false | 2026-02-27 | 2026-03-12 | 16 | 0.5000 | Easy | 
-ayer tuvimos hambre | yesterday we were hungry |  | Preterit | false | 2026-02-27 | 2026-03-11 | 19 | 0.2600 | Core | 
-ayer vino mi amigo | yesterday my friend came |  | Preterit | false | 2026-02-27 | 2026-03-12 | 20 | 0.2000 | Core | 
-ayer dije la verdad | yesterday I told the truth |  | Preterit | false | 2026-02-27 | 2026-03-30 | 9 | 0.8250 | Core | 
-ayer pude pagar con tarjeta | yesterday I was able to pay with card |  | Preterit | false | 2026-02-27 | 2026-03-12 | 12 | 0.5800 | Easy | 
-eso pensé yo | that’s what I thought |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-pensé que estaba cerrado | I thought it was closed |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-¿me dijiste que era por aquí? | you told me it was this way? |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-me perdí en el camino | I got lost on the way |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-¿ya cerraron? | did they already close? |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-se me olvidó traer dinero | I forgot to bring money |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-no encontré la entrada | I didn’t find the entrance |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+Ayer fui al restaurante | Yesterday I went to the restaurant |  | Preterit | false | 2026-02-27 | 2026-03-12 | 7 | 1.2900 | Easy | 
+Ayer comí pescado | Yesterday I ate fish |  | Preterit | false | 2026-02-27 | 2026-03-12 | 7 | 1.4300 | Easy | 
+Anoche cené con amigos | Last night I had dinner with friends |  | Preterit | false | 2026-02-27 | 2026-03-12 | 17 | 0.0600 | Easy | 
+Ayer hicimos una reserva | Yesterday we made a reservation |  | Preterit | false | 2026-02-27 | 2026-03-12 | 16 | 0.5000 | Easy | 
+Ayer tuvimos hambre | Yesterday we were hungry |  | Preterit | false | 2026-02-27 | 2026-03-11 | 19 | 0.2600 | Core | 
+Ayer vino mi amigo | Yesterday my friend came |  | Preterit | false | 2026-02-27 | 2026-03-12 | 20 | 0.2000 | Core | 
+Ayer dije la verdad | Yesterday I told the truth |  | Preterit | false | 2026-02-27 | 2026-03-30 | 9 | 0.8250 | Core | 
+Ayer pude pagar con tarjeta | Yesterday I was able to pay with card |  | Preterit | false | 2026-02-27 | 2026-03-12 | 12 | 0.5800 | Easy | 
+Eso pensé yo | That’s what I thought |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+Pensé que estaba cerrado | I thought it was closed |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+¿Me dijiste que era por aquí? | You told me it was this way? |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+Me perdí en el camino | I got lost on the way |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+¿Ya cerraron? | Did they already close? |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+Se me olvidó traer dinero | I forgot to bring money |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+No encontré la entrada | I didn’t find the entrance |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
 No me di cuenta | I didn’t realize |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-me dijeron que era fácil de encontrar | they told me it was easy to find |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-lo vi en internet | I saw it online |  | Preterit | false | 2026-03-12 | 2026-03-30 | 2 | 1.0000 | Core | 
-me recomendaron este lugar | they recommended this place to me |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-terminé yendo a otro sitio | I ended up going somewhere else |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-¿te pasó lo mismo? | did the same thing happen to you? |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-no tuve tiempo | I didn’t have time |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-me quedé sin batería | my battery died |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-se me cayó el teléfono | I dropped my phone |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-lo intenté varias veces | I tried several times |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-no me dejaron entrar | they didn’t let me in |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-me dijeron que estaba lleno | they told me it was full |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-ni idea de qué pasó | no idea what happened |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-menos mal que llegué a tiempo | good thing I arrived on time |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-me tocó esperar | I had to wait |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+Me dijeron que era fácil de encontrar | They told me it was easy to find |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+Lo vi en internet | I saw it online |  | Preterit | false | 2026-03-12 | 2026-03-30 | 2 | 1.0000 | Core | 
+Me recomendaron este lugar | They recommended this place to me |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+Terminé yendo a otro sitio | I ended up going somewhere else |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+¿Te pasó lo mismo? | Did the same thing happen to you? |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+No tuve tiempo | I didn’t have time |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+Me quedé sin batería | My battery died |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+Se me cayó el teléfono | I dropped my phone |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+Lo intenté varias veces | I tried several times |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+No me dejaron entrar | They didn’t let me in |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+Me dijeron que estaba lleno | They told me it was full |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+Ni idea de qué pasó | No idea what happened |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+Menos mal que llegué a tiempo | Good thing I arrived on time |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+Me tocó esperar | I had to wait |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
 Estuve esperando como una hora | I was waiting for like an hour |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-al final me fui | in the end I left |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+Al final me fui | In the end I left |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
 No lo entendí bien | I didn’t understand it well |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-me pareció caro | it seemed expensive to me |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-me gustó bastante | I liked it quite a bit |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-No me convenció | it didn’t convince me |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+Me pareció caro | It seemed expensive to me |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+Me gustó bastante | I liked it quite a bit |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+No me convenció | It didn’t convince me |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
 Después de cena, Ana se fue | After dinner, Ana left |  | Preterit | false | 2026-04-10 | 2026-04-10 | 0 |  | Hard | 
 
 # >>> Imperfect Past Tense
@@ -407,7 +407,7 @@ Teníamos más energía antes | We used to have more energy before |  | Imperfec
 Tenían problemas con el jefe | They used to have problems with the boss |  | Imperfect | false | 2026-03-05 | 2026-05-17 | 5 | 0.7900 | Core | 
 Hacía la tarea cada noche | I used to do homework every night |  | Imperfect | false | 2026-03-06 | 2026-05-06 | 4 | 1.3000 | Core | 
 Hacías café cada mañana | You used to make coffee every morning |  | Imperfect | false | 2026-03-06 | 2026-05-07 | 4 | 1.4000 | Core | 
-Hacía ejercicio siempre | He used to exercise always |  | Imperfect | false | 2026-03-06 | 2026-05-17 | 4 | 1.1690 | Core | 
+Hacía ejercicio siempre | He always used to exercise |  | Imperfect | false | 2026-03-06 | 2026-05-17 | 4 | 1.1690 | Core | 
 María hacía la cena a menudo | Maria used to make dinner often |  | Imperfect | false | 2026-03-06 | 2026-05-17 | 8 | 0.9030 | Core | 
 Hacíamos viajes juntos | We used to take trips together |  | Imperfect | false | 2026-03-06 | 2026-05-17 | 7 | 0.8820 | Core | 
 Hacían mucho trabajo antes | They used to do a lot of work before |  | Imperfect | false | 2026-03-06 | 2026-05-17 | 7 | 0.8167 | Core | 
@@ -454,16 +454,13 @@ Querías aprender pero no tenías tiempo | You used to want to learn but didn’
 Luis quería viajar por el mundo entero | Luis used to want to travel the whole world |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 1 | 1.0000 | Core | 
 Queríamos salir aunque estaba lloviendo | We used to want to go out even though it was raining |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 4 | 0.7690 | Core | 
 Ellos querían comprar la casa pero era cara | They used to want to buy the house but it was expensive |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 1 | 0.0000 | Core | 
-cuando era niño comía aquí | when I was a child I used to eat here |  | Imperfect | false | 2026-02-27 | 2026-05-17 | 15 | 0.3381 | Core | 
-antes vivía en Canadá | before, I used to live in Canada |  | Imperfect | false | 2026-02-27 | 2026-03-01 | 11 | -0.1800 | Easy | 
-ya había venido antes | I had come before |  | Imperfect | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-no sabía que había que pagar aquí | I didn’t know you had to pay here |  | Imperfect | false | 2026-03-12 | 2026-05-17 | 3 | 0.9800 | Core | 
-no había probado esto antes | I hadn’t tried this before |  | Imperfect | false | 2026-03-12 | 2026-03-16 | 1 |  | Core | 
-pensaba que abrían más tarde | I thought they opened later |  | Imperfect | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+Cuando era niño comía aquí | When I was a child I used to eat here |  | Imperfect | false | 2026-02-27 | 2026-05-17 | 15 | 0.3381 | Core | 
+Antes vivía en Canadá | Before, I used to live in Canada |  | Imperfect | false | 2026-02-27 | 2026-03-01 | 11 | -0.1800 | Easy | 
+No sabía que había que pagar aquí | I didn’t know you had to pay here |  | Imperfect | false | 2026-03-12 | 2026-05-17 | 3 | 0.9800 | Core | 
+Pensaba que abrían más tarde | I thought they opened later |  | Imperfect | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
 Como no. Tenía que pasar esto. | Of course. This had to happen. |  | Imperfect | false | 2026-03-12 | 2026-05-17 | 4 | 0.2310 | Core | 
-iba a ir ayer, pero no pude | I was going to go yesterday, but I couldn’t |  | Imperfect | true | 2026-03-12 | 2026-05-17 | 3 | 1.2800 | Core | 
+Iba a ir ayer, pero no pude | I was going to go yesterday, but I couldn’t |  | Imperfect | true | 2026-03-12 | 2026-05-17 | 3 | 1.2800 | Core | 
 No funcionaba | It wasn’t working |  | Imperfect | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-ya lo había visto antes | I had already seen it before |  | Imperfect | false | 2026-03-12 | 2026-05-17 | 4 | 0.8330 | Core | 
 
 # >>> Present Perfect Continuous
 He estado esperando aquí por una hora | I have been waiting here for an hour |  | Present Perfect Continuous | false | 2026-03-12 | 2026-03-16 | 1 |  | Core | 
@@ -488,3 +485,8 @@ Tengo miedo de que no funcione | I’m afraid it won’t work |  | Present Subju
 
 # >>> Present Perfect
 ¿Te ha pasado eso antes? | Has that happened to you before? |  | Present Perfect | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+
+# >>> Pluperfect
+Ya lo había visto antes | I had already seen it before |  | Pluperfect | false | 2026-03-12 | 2026-05-17 | 4 | 0.8330 | Core | 
+Ya había venido antes | I had come before |  | Pluperfect | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+No había probado esto antes | I hadn’t tried this before |  | Pluperfect | false | 2026-03-12 | 2026-03-16 | 1 |  | Core | 

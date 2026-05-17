@@ -269,7 +269,7 @@ describe('Dataset', function () {
                     const parts = trimmed.split('|');
                     if (parts.length < 2) return;
                     const front = parts[0].trim();
-                    const back  = parts[1].trim();
+                    const back = parts[1].trim();
                     if (!front || !back) return;
                     const key = `${front}\x00${back}`;
                     const lineNum = idx + 1;
