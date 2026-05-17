@@ -244,6 +244,34 @@
       "language": "Spanish",
       "direction": "recall",
       "count": 17
+    },
+    {
+      "date": "2026-05-15",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 12
+    },
+    {
+      "date": "2026-05-16",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 102
+    },
+    {
+      "date": "2026-05-17",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 101
+    },
+    {
+      "date": "2026-05-17",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 103
     }
   ],
   "other": [
@@ -636,6 +664,64 @@
         {
           "duration": "00:25:00",
           "activity": "https://m.youtube.com/watch?v=2lJbJaHcV7k&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
+          "activity": "https://m.youtube.com/watch?v=5l_Nr7iB_m0&ra=m"
+        },
+        {
+          "duration": "00:48:00",
+          "activity": "https://m.youtube.com/watch?v=ypbPWdIio9o&pp=0gcJCQQLAYcqIYzv&ra=m"
+        },
+        {
+          "duration": "00:15:00",
+          "activity": "https://m.youtube.com/watch?v=ULUlPBcgABY&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-16",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:16:00",
+          "activity": "https://m.youtube.com/watch?v=8A0ddUk4Vrg&pp=ygUWRHJlYW1pbmcgc3BhbmlzaCBzb2Fpbg%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:36:00",
+          "activity": "https://m.youtube.com/watch?v=BUDltloS_UI&ra=m"
+        },
+        {
+          "duration": "00:36:00",
+          "activity": "https://m.youtube.com/watch?v=di_aMMmYcSM&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-17",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:25:00",
+          "activity": "https://m.youtube.com/watch?v=Gh_tOhtLBTc&ra=m"
+        },
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=aW-p0ERqT7o&ra=m"
+        },
+        {
+          "duration": "00:16:00",
+          "activity": "https://m.youtube.com/watch?v=dB-btbvrRLM&ra=m"
+        },
+        {
+          "duration": "00:12:00",
+          "activity": "https://m.youtube.com/watch?v=jvbiARc1dyA&ra=m"
         }
       ]
     }
