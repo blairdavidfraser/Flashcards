@@ -395,6 +395,9 @@ button {
     padding: 8px 14px;
     background: #f9f9f9;
     border-top: 1px solid rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 

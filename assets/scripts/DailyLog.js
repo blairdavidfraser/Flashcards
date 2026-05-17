@@ -35,6 +35,17 @@ export const DailyLog = {
         localStorage.setItem(KEY, JSON.stringify(entries));
     },
 
+    todayCounts(name, language) {
+        const date = today();
+        return load()
+            .filter(e => e.date === date && e.name === name && e.language === language)
+            .reduce((acc, e) => {
+                if (e.direction === 'recognition') acc.recognition += e.count;
+                if (e.direction === 'recall')      acc.recall      += e.count;
+                return acc;
+            }, { recognition: 0, recall: 0 });
+    },
+
     // Returns entries from the last `days` days, newest first.
     recent(days = 14) {
         const cutoff = new Date();

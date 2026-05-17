@@ -2,6 +2,7 @@
 // ApplicationScreenStudy.js
 //
 //=============================================================================
+import { DailyLog } from './DailyLog.js';
 
 export class ApplicationScreenStudy {
 
@@ -28,6 +29,7 @@ export class ApplicationScreenStudy {
         window.speechSynthesis.cancel();
         this.#speakText(this.gameplay.state.questionSpeech, this.gameplay.state.questionLanguage);
         this.#updateStar();
+        this.#updateTodayCount();
         this.#resetSwipe();
         document.getElementById("cardCategory").innerText = this.gameplay.state.card.category || "";
         document.getElementById("cardTop").innerHTML = this.#renderCardContent(this.gameplay.state.questionText);
@@ -52,6 +54,7 @@ export class ApplicationScreenStudy {
         }
         clearTimeout(this.#timer);
         this.gameplay.reveal();
+        this.#updateTodayCount();
         this.#speakText(this.gameplay.state.answerSpeech, this.gameplay.state.answerLanguage);
         document.getElementById("cardBottom").innerHTML = this.#renderCardContent(this.gameplay.state.answerText);
         document.getElementById("cardEmoji").innerHTML = this.gameplay.state.answerEmoji;
@@ -81,6 +84,11 @@ export class ApplicationScreenStudy {
         clearTimeout(this.#timer);
         this.gameplay.end();
         this.#backToMenu();
+    }
+
+    #updateTodayCount() {
+        const { recognition, recall } = DailyLog.todayCounts(this.gameplay.name, this.gameplay.language);
+        document.getElementById("cardTodayCount").innerText = `${recognition} / ${recall}`;
     }
 
     #updateStar() {
