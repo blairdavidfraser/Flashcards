@@ -78,30 +78,30 @@
 # >>> Present Tense
 Como pan con mantequilla cada mañana | I eat bread with butter every morning |  | Present | false | 2026-03-05 | 2026-03-18 | 5 | 1.6000 | Easy | 
 Comes en ese restaurante los viernes | You eat at that restaurant on Fridays |  | Present | false | 2026-03-05 | 2026-05-14 | 8 | 0.3430 | Core | 
-Él come muy rápido durante el almuerzo | He eats very quickly during lunch |  | Present | false | 2026-03-05 | 2026-05-16 | 10 | 0.3972 | Core | 👉 “rápido” aquí funciona como adverbio (aunque es un adjetivo). Esto es muy común en español hablado. Es correcto también decir “rápidamente” pero es menos común y más formal.
+Él come muy rápido durante el almuerzo | He eats very quickly during lunch |  | Present | false | 2026-03-05 | 2026-05-21 | 11 | 0.5780 | Core | 👉 “rápido” aquí funciona como adverbio (aunque es un adjetivo). Esto es muy común en español hablado. Es correcto también decir “rápidamente” pero es menos común y más formal.
 María come ensalada con pollo hoy | María eats salad with chicken today |  | Present | false | 2026-03-05 | 2026-05-07 | 1 | 0.0000 | Core | 
 Comemos juntos en la cocina | We eat together in the kitchen |  | Present | false | 2026-03-05 | 2026-05-07 | 2 | 0.0000 | Core | 
 Ellos comen pizza después del trabajo | They eat pizza after work |  | Present | false | 2026-03-05 | 2026-05-11 | 7 | 0.6615 | Core | 
 Voy al trabajo en metro | I go to work by subway |  | Present | false | 2026-03-05 | 2026-05-16 | 14 | 0.7745 | Core | 
 Vas al gimnasio después del trabajo | You go to the gym after work |  | Present | true | 2026-03-05 | 2026-05-11 | 7 | 0.1002 | Easy | 
-Él va al supermercado por la tarde | He goes to the supermarket in the afternoon |  | Present | false | 2026-03-05 | 2026-05-16 | 10 | 0.5908 | Core | 
-Laura va al parque con su perro | Laura goes to the park with her dog |  | Present | false | 2026-03-05 | 2026-03-10 | 3 | 2.3300 | Easy | 
+Él va al supermercado por la tarde | He goes to the supermarket in the afternoon |  | Present | false | 2026-03-05 | 2026-05-19 | 11 | 1.0136 | Core | 
+Laura va al parque con su perro | Laura goes to the park with her dog |  | Present | false | 2026-03-05 | 2026-05-18 | 4 | 1.3310 | Easy | 
 Vamos al cine los sábados | We go to the movies on Saturdays |  | Present | false | 2026-03-05 | 2026-05-11 | 10 | 0.1802 | Easy | 
 Ellos van a la oficina temprano | They go to the office early |  | Present | false | 2026-03-05 | 2026-05-16 | 11 | -0.0199 | Easy | 
 Tengo mucho trabajo hoy | I have a lot of work today |  | Present | false | 2026-03-05 | 2026-03-10 | 3 | 2.3300 | Easy | 
-Tienes una reunión importante ahora | You have an important meeting now |  | Present | false | 2026-03-05 | 2026-05-11 | 8 | 0.8274 | Core | 
+Tienes una reunión importante ahora | You have an important meeting now |  | Present | false | 2026-03-05 | 2026-05-19 | 9 | 0.5792 | Core | 
 Él tiene un coche nuevo este año | He has a new car this year |  | Present | false | 2026-03-05 | 2026-03-19 | 7 | 1.5714 | Easy | 
 Ana tiene dos perros en su casa | Ana has two dogs in her house |  | Present | false | 2026-03-05 | 2026-03-09 | 3 | 2.3300 | Easy | 
 Tenemos poco tiempo hoy | We have little time today |  | Present | false | 2026-03-05 | 2026-05-16 | 9 | 0.1322 | Easy | 
-Ellos tienen muchas ideas interesantes | They have many interesting ideas |  | Present | false | 2026-03-05 | 2026-05-14 | 9 | 0.5728 | Core | 
-Hago la tarea en la noche | I do the homework at night |  | Present | false | 2026-03-06 | 2026-05-16 | 9 | 0.7000 | Core | 
+Ellos tienen muchas ideas interesantes | They have many interesting ideas |  | Present | false | 2026-03-05 | 2026-05-21 | 12 | 0.1965 | Core | 
+Hago la tarea en la noche | I do the homework at night |  | Present | false | 2026-03-06 | 2026-05-21 | 11 | 0.3430 | Core | 
 Haces café en la mañana | You make coffee in the morning |  | Present | false | 2026-03-06 | 2026-05-07 | 9 | 0.6615 | Core | 
-Él hace ejercicio en el parque | He exercises in the park |  | Present | false | 2026-03-06 | 2026-05-14 | 12 | 0.2639 | Core | 
-María hace la cena para todos | Maria makes dinner for everyone |  | Present | false | 2026-03-06 | 2026-05-07 | 7 | 0.7301 | Core | 
-Hacemos un viaje juntos | We take a trip together |  | Present | false | 2026-03-06 | 2026-05-16 | 12 | 0.5856 | Core | An activity or thing happening uses ‘hacer’.
+Él hace ejercicio en el parque | He exercises in the park |  | Present | false | 2026-03-06 | 2026-05-20 | 13 | 0.1847 | Core | 
+María hace la cena para todos | Maria makes dinner for everyone |  | Present | false | 2026-03-06 | 2026-05-20 | 9 | 0.3577 | Core | 
+Hacemos un viaje juntos | We take a trip together |  | Present | false | 2026-03-06 | 2026-05-21 | 13 | 0.4099 | Core | An activity or thing happening uses ‘hacer’.
 Ellos hacen mucho trabajo hoy | They do a lot of work today |  | Present | false | 2026-03-06 | 2026-05-16 | 12 | 0.1871 | Easy | 
 Estoy en la casa ahora | I am in the house now |  | Present | false | 2026-03-06 | 2026-03-10 | 2 | 2.5000 | Easy | 
-Estás en el trabajo hoy | You are at work today |  | Present | false | 2026-03-06 | 2026-05-16 | 12 | 0.5265 | Core | 
+Estás en el trabajo hoy | You are at work today |  | Present | false | 2026-03-06 | 2026-05-19 | 14 | 0.2580 | Core | 
 Él está en el parque con amigos | He is in the park with friends |  | Present | false | 2026-03-06 | 2026-03-10 | 3 | 2.3300 | Easy | 
 Ana está muy cansada hoy | Ana is very tired today |  | Present | false | 2026-03-06 | 2026-03-10 | 2 | 2.5000 | Easy | 
 Estamos en la oficina | We are in the office |  | Present | false | 2026-03-06 | 2026-03-09 | 3 | 2.3300 | Easy | 
@@ -115,12 +115,12 @@ Ellos son estudiantes aquí | They are students here |  | Present | false | 2026
 Voy al parque hoy | I go to the park today |  | Present | false | 2026-03-06 | 2026-04-08 | 4 | 0.6800 | Easy | 
 Vas a la tienda ahora | You go to the store now |  | Present | false | 2026-03-06 | 2026-03-10 | 2 | 2.5000 | Easy | 
 Él va al trabajo temprano | He goes to work early |  | Present | false | 2026-03-06 | 2026-03-09 | 3 | 2.3300 | Easy | 
-Ana va a la escuela hoy | Ana goes to school today |  | Present | false | 2026-03-06 | 2026-03-07 | 2 | 2.5000 | Easy | 
+Ana va a la escuela hoy | Ana goes to school today |  | Present | false | 2026-03-06 | 2026-05-18 | 3 | 1.4500 | Easy | 
 Vamos al cine juntos | We go to the cinema together |  | Present | false | 2026-03-06 | 2026-03-10 | 6 | 2.1700 | Easy | 
 Ellos van al restaurante hoy | They go to the restaurant today |  | Present | false | 2026-03-06 | 2026-03-09 | 3 | 2.3300 | Easy | 
-Hablo con el gerente sobre el problema hoy | I speak with the manager about the problem today |  | Present | false | 2026-03-09 | 2026-05-11 | 3 | 0.4900 | Core | 
-Hablas con tus amigos cuando tienes tiempo | You talk with your friends when you have time |  | Present | false | 2026-03-09 | 2026-05-14 | 8 | 0.2401 | Core | 
-María habla con el cliente importante | María talks with the important client |  | Present | false | 2026-03-09 | 2026-05-07 | 6 | 0.4573 | Core | 
+Hablo con el gerente sobre el problema hoy | I speak with the manager about the problem today |  | Present | false | 2026-03-09 | 2026-05-19 | 5 | 0.2401 | Core | 
+Hablas con tus amigos cuando tienes tiempo | You talk with your friends when you have time |  | Present | false | 2026-03-09 | 2026-05-21 | 10 | 0.1176 | Core | 
+María habla con el cliente importante | María talks with the important client |  | Present | false | 2026-03-09 | 2026-05-20 | 7 | 0.3201 | Core | 
 Hablamos con el equipo antes de empezar | We talk with the team before starting |  | Present | false | 2026-03-09 | 2026-03-13 | 3 | 2.3300 | Easy | 
 Ellos hablan mucho pero no escuchan | They talk a lot but don’t listen |  | Present | false | 2026-03-09 | 2026-05-11 | 8 | 0.4201 | Core | 
 Vivo en una casa pequeña pero cómoda | I live in a small but comfortable house |  | Present | false | 2026-03-09 | 2026-05-14 | 8 | 0.3437 | Core | 
@@ -128,80 +128,80 @@ Vives cerca del centro con tu familia | You live near downtown with your family 
 Carlos vive en un apartamento moderno | Carlos lives in a modern apartment |  | Present | false | 2026-03-09 | 2026-03-09 | 1 | 3.0000 | Easy | 
 Vivimos en una ciudad muy tranquila | We live in a very calm city |  | Present | false | 2026-03-09 | 2026-05-07 | 1 | 0.0000 | Core | 
 Ellas viven lejos y trabajan desde casa | They live far away and work from home |  | Present | false | 2026-03-09 | 2026-05-07 | 2 | 0.0000 | Core | 
-Escribo un mensaje rápido antes de salir | I write a quick message before leaving |  | Present | false | 2026-03-09 | 2026-05-11 | 7 | 0.5757 | Core | 
+Escribo un mensaje rápido antes de salir | I write a quick message before leaving |  | Present | false | 2026-03-09 | 2026-05-21 | 9 | 0.2821 | Core | 
 Escribes correos largos cuando estás enojado | You write long emails when you’re angry |  | Present | false | 2026-03-09 | 2026-05-07 | 5 | 0.5530 | Core | 
-Ana escribe en su cuaderno todos los días | Ana writes in her notebook every day |  | Present | false | 2026-03-09 | 2026-05-15 | 8 | 0.4201 | Core | 
-Escribimos notas para no olvidar las ideas | We write notes to not forget ideas |  | Present | false | 2026-03-09 | 2026-05-16 | 8 | 0.3503 | Core | 
+Ana escribe en su cuaderno todos los días | Ana writes in her notebook every day |  | Present | false | 2026-03-09 | 2026-05-21 | 9 | 0.2941 | Core | 
+Escribimos notas para no olvidar las ideas | We write notes to not forget ideas |  | Present | false | 2026-03-09 | 2026-05-21 | 9 | 0.5452 | Core | 
 Ellos escriben poco pero hablan mucho | They write little but talk a lot |  | Present | false | 2026-03-09 | 2026-05-11 | 6 | 0.1387 | Easy | 
 Veo la televisión mientras ceno | I watch TV while I eat dinner |  | Present | false | 2026-03-09 | 2026-05-14 | 8 | 0.5659 | Core | 
 Ves ese edificio alto desde tu ventana | You see that tall building from your window |  | Present | false | 2026-03-09 | 2026-05-11 | 5 | 0.3871 | Core | 
 Juan ve a sus amigos los fines de semana | Juan sees his friends on weekends |  | Present | false | 2026-03-09 | 2026-05-16 | 9 | 0.2092 | Core | 
 Vemos una película interesante esta noche | We watch an interesting movie tonight |  | Present | false | 2026-03-09 | 2026-03-09 | 2 | 2.5000 | Easy | 
 Ellos ven las noticias cada mañana | They watch the news every morning |  | Present | false | 2026-03-09 | 2026-05-16 | 10 | 0.3601 | Core | 
-Quiero comprar algo pero no tengo dinero | I want to buy something but I don’t have money |  | Present | false | 2026-03-09 | 2026-05-11 | 8 | 0.2241 | Core | 
-Quieres salir aunque estás cansado | You want to go out even though you’re tired |  | Present | false | 2026-03-09 | 2026-05-16 | 7 | 0.3201 | Core | 
+Quiero comprar algo pero no tengo dinero | I want to buy something but I don’t have money |  | Present | false | 2026-03-09 | 2026-05-18 | 9 | 0.1569 | Core | 
+Quieres salir aunque estás cansado | You want to go out even though you’re tired |  | Present | false | 2026-03-09 | 2026-05-21 | 9 | 0.1568 | Core | 
 Lucía quiere aprender español rápidamente | Lucía wants to learn Spanish quickly |  | Present | false | 2026-03-09 | 2026-05-16 | 6 | 0.1573 | Easy | 
 Queremos viajar este verano si podemos | We want to travel this summer if we can |  | Present | false | 2026-03-09 | 2026-05-14 | 9 | 0.1961 | Core | 
-Ellos quieren cambiar de trabajo pronto | They want to change jobs soon |  | Present | false | 2026-03-09 | 2026-05-16 | 7 | 0.5692 | Core | 
+Ellos quieren cambiar de trabajo pronto | They want to change jobs soon |  | Present | false | 2026-03-09 | 2026-05-19 | 9 | 0.2789 | Core | 
 Estoy emocionado por el fin de semana | I am excited for the weekend |  | Present | false | 2026-02-24 | 2026-03-11 | 10 | 1.6000 | Easy | 
 Necesito preparar mi mochila | I need to prepare my backpack |  | Present | false | 2026-02-24 | 2026-05-16 | 14 | 0.5750 | Core | 
 El clima cambia rápido en la montaña | The weather changes quickly in the mountains |  | Present | false | 2026-02-24 | 2026-03-13 | 15 | 1.5300 | Easy | 
 ¿Tienes un mapa? | Do you have a map? |  | Present | false | 2026-02-24 | 2026-02-25 | 4 | 2.2500 | Easy | 
-Nos encontramos aquí mañana | We meet here tomorrow |  | Present | false | 2026-02-24 | 2026-05-16 | 15 | 0.6002 | Core | 
-No necesito esforzarme mucho | I don't need to make a big effort |  | Present | false | 2026-02-27 | 2026-05-14 | 18 | 0.7063 | Core | 
-Acabo de llegar a la ciudad | I just arrived in the city |  | Present | false | 2026-03-12 | 2026-05-07 | 3 | 1.2800 | Core | 
+Nos encontramos aquí mañana | We meet here tomorrow |  | Present | false | 2026-02-24 | 2026-05-18 | 16 | 0.4201 | Core | 
+No necesito esforzarme mucho | I don't need to make a big effort |  | Present | false | 2026-02-27 | 2026-05-21 | 19 | 0.7944 | Core | 
+Acabo de llegar a la ciudad | I just arrived in the city |  | Present | false | 2026-03-12 | 2026-05-19 | 5 | 1.0472 | Core | 
 ¿Me puedes decir dónde queda esto? | Can you tell me where this place is? |  | Present | false | 2026-03-12 | 2026-05-16 | 8 | 0.3794 | Core | 
 ¿Qué me recomiendas? | What do you recommend? |  | Present | true | 2026-03-12 | 2026-05-11 | 5 | 0.1802 | Easy | 
-Voy a quedarme unos días | I’m going to stay a few days |  | Immediate Future | false | 2026-03-12 | 2026-05-14 | 5 | 0.7802 | Core | 
+Voy a quedarme unos días | I’m going to stay a few days |  | Immediate Future | false | 2026-03-12 | 2026-05-20 | 8 | 0.6876 | Core | 
 ¿Vale la pena? | Is it worth it? |  | Present | false | 2026-03-12 | 2026-05-07 | 1 | 0.0000 | Core | 
 Por poco no llego | I almost didn’t make it |  | Present | false | 2026-03-12 | 2026-05-07 | 2 | 0.0000 | Core | 
 No puede ser | No way / Can’t be |  | Present | false | 2026-03-12 | 2026-05-07 | 2 | 0.0000 | Core | 
 A ver qué pasa | Let’s see what happens |  | Present | false | 2026-03-12 | 2026-05-07 | 5 | 0.1633 | Core | 
 Hay dos caras de la moneda | There are two sides to the coin |  | Present | false | 2026-03-13 | 2026-05-07 | 1 | 0.0000 | Core | 
-Son las dos caras de la moneda | They are the two sides of the coin |  | Present | true | 2026-03-13 | 2026-05-16 | 6 | 0.7501 | Core | 
+Son las dos caras de la moneda | They are the two sides of the coin |  | Present | true | 2026-03-13 | 2026-05-21 | 7 | 0.8251 | Core | 
 Todo depende | It depends |  | Present | false | 2026-03-13 | 2026-05-11 | 3 | 0.1900 | Easy | 
 Depende de la situación | It depends on the situation |  | Present | false | 2026-03-13 | 2026-05-07 | 1 | 0.0000 | Core | 
 Es lo mismo | It’s the same |  | Present | true | 2026-03-13 | 2026-05-14 | 8 | -0.0731 | Easy | 
 No es lo mismo | It’s not the same |  | Present | false | 2026-03-13 | 2026-05-07 | 1 | 0.0000 | Core | 
 Tiene sentido | It makes sense |  | Present | false | 2026-03-13 | 2026-05-07 | 1 | 0.0000 | Core | 
 No tiene sentido | It doesn’t make sense |  | Present | false | 2026-03-13 | 2026-05-16 | 6 | 0.0361 | Easy | 
-¿A qué hora llegas al trabajo normalmente? | What time do you normally arrive at work? |  | Present | false | 2026-04-02 | 2026-05-14 | 3 | 0.4900 | Core | 
-¿Llenas la botella antes de salir a correr? | Do you fill your bottle before going for a run? |  | Present | false | 2026-04-02 | 2026-05-16 | 6 | 0.4082 | Core | llenar = to fill; not llevar (carry) or llegar (arrive)
+¿A qué hora llegas al trabajo normalmente? | What time do you normally arrive at work? |  | Present | false | 2026-04-02 | 2026-05-20 | 5 | 0.2401 | Core | 
+¿Llenas la botella antes de salir a correr? | Do you fill your bottle before going for a run? |  | Present | false | 2026-04-02 | 2026-05-21 | 8 | 0.4100 | Core | llenar = to fill; not llevar (carry) or llegar (arrive)
 ¿Con quién vives ahora? | Who do you live with now? |  | Present | false | 2026-04-02 | 2026-05-07 | 1 | 0.0000 | Core | 
 ¿Cuántas veces por semana haces ejercicio? | How many times a week do you exercise? |  | Present | false | 2026-04-02 | 2026-05-07 | 1 | 0.0000 | Core | 
 ¿Qué desayunas normalmente? | What do you normally have for breakfast? |  | Present | false | 2026-04-02 | 2026-05-14 | 4 | 0.5960 | Easy | 
-¿A qué hora empieza tu día? | What time does your day start? |  | Present | false | 2026-04-02 | 2026-05-16 | 3 | 0.7000 | Core | 
+¿A qué hora empieza tu día? | What time does your day start? |  | Present | false | 2026-04-02 | 2026-05-18 | 4 | 0.4900 | Core | 
 ¿Prefieres correr por la mañana o por la tarde? | Do you prefer to run in the morning or in the afternoon? |  | Present | false | 2026-04-02 | 2026-05-16 | 5 | 0.2401 | Core | 
-¿Cuánto tiempo tardas en llegar al centro? | How long does it take you to get to the city centre? |  | Present | true | 2026-04-02 | 2026-05-14 | 5 | 0.6860 | Core | llegar = to arrive/get to; context: travel time
+¿Cuánto tiempo tardas en llegar al centro? | How long does it take you to get to the city centre? |  | Present | true | 2026-04-02 | 2026-05-21 | 7 | 1.3561 | Core | llegar = to arrive/get to; context: travel time
 ¿Qué llevas siempre en la mochila? | What do you always carry in your backpack? |  | Present | false | 2026-04-02 | 2026-05-14 | 5 | 0.5831 | Core | llevar = to carry; not llegar or llenar
-¿Cuándo llegan tus amigos esta noche? | When do your friends arrive tonight? |  | Present | false | 2026-04-02 | 2026-05-16 | 4 | 0.5530 | Core | llegar = to arrive; context: people coming over
+¿Cuándo llegan tus amigos esta noche? | When do your friends arrive tonight? |  | Present | false | 2026-04-02 | 2026-05-18 | 5 | 0.3871 | Core | llegar = to arrive; context: people coming over
 ¿Te gusta cocinar en casa o prefieres comer fuera? | Do you like cooking at home or do you prefer eating out? |  | Present | false | 2026-04-02 | 2026-05-11 | 1 | 0.0000 | Core | 
 ¿Qué haces cuando no puedes dormir? | What do you do when you can't sleep? |  | Present | false | 2026-04-02 | 2026-05-11 | 1 | 0.0000 | Core | 
-¿Cuánto tiempo llevas estudiando español? | How long have you been studying Spanish? |  | Present | true | 2026-04-02 | 2026-05-16 | 5 | 0.9902 | Core | 
+¿Cuánto tiempo llevas estudiando español? | How long have you been studying Spanish? |  | Present | true | 2026-04-02 | 2026-05-21 | 10 | 0.9804 | Core | 
 ¿Trabajas mejor solo o en equipo? | Do you work better alone or as part of a team? |  | Present | false | 2026-04-02 | 2026-05-11 | 1 | 0.0000 | Core | 
-¿Qué música escuchas cuando entrenas? | What music do you listen to when you train? |  | Present | false | 2026-04-02 | 2026-05-16 | 4 | 1.0430 | Core | 
+¿Qué música escuchas cuando entrenas? | What music do you listen to when you train? |  | Present | false | 2026-04-02 | 2026-05-20 | 7 | 0.5677 | Core | 
 ¿Llenan los vasos con agua antes de la cena? | Do they fill the glasses with water before dinner? |  | Present | false | 2026-04-02 | 2026-05-11 | 1 | 0.0000 | Core | llenar = to fill; contrast with llevar/llegar
 ¿Cuántos kilómetros corres por semana? | How many kilometres do you run per week? |  | Present | false | 2026-04-02 | 2026-05-11 | 1 | 0.0000 | Core | 
 ¿Qué haces para mejorar tu nivel de español? | What do you do to improve your Spanish level? |  | Present | false | 2026-04-02 | 2026-05-11 | 1 | 0.0000 | Core | 
-¿A qué hora te acuestas normalmente? | What time do you normally go to bed? |  | Present | false | 2026-04-02 | 2026-05-16 | 6 | 0.6370 | Core | 
+¿A qué hora te acuestas normalmente? | What time do you normally go to bed? |  | Present | false | 2026-04-02 | 2026-05-20 | 8 | 0.5221 | Core | 
 ¿Llevas el almuerzo al trabajo o comes fuera? | Do you bring lunch to work or eat out? |  | Present | false | 2026-04-02 | 2026-05-16 | 7 | 0.3367 | Core | llevar = to carry/bring; not llegar (arrive) or llenar (fill)
 
 # >>> Present Continuous Tense
 Estoy comiendo en el restaurante ahora | I am eating at the restaurant now |  | Present Continuous | false | 2026-03-07 | 2026-05-14 | 1 | 0.0000 | Core | 
 Estás trabajando en la oficina hoy | You are working in the office today |  | Present Continuous | false | 2026-03-07 | 2026-05-14 | 1 | 0.0000 | Core | 
-Él está preparando la comida | He is preparing the food |  | Present Continuous | false | 2026-03-07 | 2026-05-14 | 3 | 0.3500 | Core | 
+Él está preparando la comida | He is preparing the food |  | Present Continuous | false | 2026-03-07 | 2026-05-19 | 4 | 0.2450 | Core | 
 Ana está estudiando español esta tarde | Ana is studying Spanish this afternoon |  | Present Continuous | false | 2026-03-07 | 2026-05-14 | 1 | 0.0000 | Core | 
-Estamos viendo una película interesante | We are watching an interesting movie |  | Present Continuous | false | 2026-03-07 | 2026-05-14 | 4 | 0.3430 | Core | 
-Ellos están abriendo el restaurante ahora | They are opening the restaurant now |  | Present Continuous | false | 2026-03-07 | 2026-05-16 | 7 | 0.3241 | Core | 
+Estamos viendo una película interesante | We are watching an interesting movie |  | Present Continuous | false | 2026-03-07 | 2026-05-21 | 5 | 0.5401 | Core | 
+Ellos están abriendo el restaurante ahora | They are opening the restaurant now |  | Present Continuous | false | 2026-03-07 | 2026-05-21 | 10 | 0.2582 | Core | 
 Estoy escribiendo un mensaje importante | I am writing an important message |  | Present Continuous | false | 2026-03-07 | 2026-05-16 | 4 | 0.7350 | Core | 
-Estás aprendiendo mucho en este curso | You are learning a lot in this course |  | Present Continuous | false | 2026-03-07 | 2026-05-16 | 3 | 0.7000 | Core | 
-Estamos haciendo ejercicio en el parque | We are doing exercise in the park |  | Present Continuous | false | 2026-03-07 | 2026-05-14 | 5 | 0.5250 | Core | 
+Estás aprendiendo mucho en este curso | You are learning a lot in this course |  | Present Continuous | false | 2026-03-07 | 2026-05-21 | 8 | 0.2617 | Core | 
+Estamos haciendo ejercicio en el parque | We are doing exercise in the park |  | Present Continuous | false | 2026-03-07 | 2026-05-19 | 6 | 0.3675 | Core | 
 Ellas están compartiendo la comida | They are sharing the food |  | Present Continuous | false | 2026-03-07 | 2026-05-14 | 2 | 0.0000 | Core | 
 ¿Qué estás haciendo ahora mismo? | What are you doing right now? |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 4 | 0.5530 | Core | 
-¿Estás escuchando música mientras corres? | Are you listening to music while you run? |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 4 | 1.3430 | Core | 
+¿Estás escuchando música mientras corres? | Are you listening to music while you run? |  | Present Continuous | false | 2026-04-02 | 2026-05-18 | 5 | 0.9401 | Core | 
 ¿Está lloviendo donde estás? | Is it raining where you are? |  | Present Continuous | false | 2026-04-02 | 2026-05-14 | 1 | 0.0000 | Core | 
 ¿Qué estáis comiendo esta noche? | What are you all eating tonight? |  | Present Continuous | true | 2026-04-02 | 2026-05-16 | 5 | -0.0599 | Easy | 
-¿Estás llevando el equipo al coche ahora? | Are you carrying the gear to the car now? |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 4 | 0.3430 | Core | llevando = carrying; context makes meaning clear
+¿Estás llevando el equipo al coche ahora? | Are you carrying the gear to the car now? |  | Present Continuous | false | 2026-04-02 | 2026-05-19 | 5 | 0.2401 | Core | llevando = carrying; context makes meaning clear
 ¿A quién estás esperando? | Who are you waiting for? |  | Present Continuous | false | 2026-04-02 | 2026-05-14 | 1 | 0.0000 | Core | 
 ¿Estás llenando la mochila para el viaje? | Are you filling the backpack for the trip? |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 4 | 0.3430 | Core | llenando = filling; not llevando or llegando
 ¿Están llegando los demás? | Are the others arriving? |  | Present Continuous | false | 2026-04-02 | 2026-05-14 | 1 | 0.0000 | Core | llegando = arriving; not llevando or llenando
@@ -211,63 +211,63 @@ Ellas están compartiendo la comida | They are sharing the food |  | Present Con
 ¿Por qué estás corriendo tan rápido? | Why are you running so fast? |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 1 | 0.0000 | Core | 
 ¿Estás llevando demasiadas cosas? | Are you carrying too many things? |  | Present Continuous | false | 2026-04-02 | 2026-05-14 | 1 | 0.0000 | Core | llevando = carrying; physical load
 ¿Están llegando tarde otra vez? | Are they arriving late again? |  | Present Continuous | false | 2026-04-02 | 2026-05-14 | 1 | 0.0000 | Core | llegando = arriving; not llevando
-¿Estás llenando el formulario ahora? | Are you filling in the form now? |  | Present Continuous | false | 2026-04-02 | 2026-05-15 | 3 | 0.7900 | Core | llenando = filling (a form); common real-world usage
-¿Estás mejorando tu tiempo en la carrera? | Are you improving your race time? |  | Present Continuous | false | 2026-04-02 | 2026-05-14 | 3 | 0.7000 | Core | 
-¿Qué estás intentando decir? | What are you trying to say? |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 3 | 0.7000 | Core | 
+¿Estás llenando el formulario ahora? | Are you filling in the form now? |  | Present Continuous | false | 2026-04-02 | 2026-05-20 | 4 | 0.5530 | Core | llenando = filling (a form); common real-world usage
+¿Estás mejorando tu tiempo en la carrera? | Are you improving your race time? |  | Present Continuous | false | 2026-04-02 | 2026-05-21 | 7 | 0.7810 | Core | 
+¿Qué estás intentando decir? | What are you trying to say? |  | Present Continuous | false | 2026-04-02 | 2026-05-20 | 5 | 0.3430 | Core | 
 ¿Estás disfrutando del viaje? | Are you enjoying the trip? |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 1 | 0.0000 | Core | 
 ¿Están preparando la cena ya? | Are they already preparing dinner? |  | Present Continuous | false | 2026-04-02 | 2026-05-14 | 1 | 0.0000 | Core | 
-¿Estás pensando en cambiar de trabajo? | Are you thinking about changing jobs? |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 4 | 0.3430 | Core | 
+¿Estás pensando en cambiar de trabajo? | Are you thinking about changing jobs? |  | Present Continuous | false | 2026-04-02 | 2026-05-21 | 8 | 0.3323 | Core | 
 ¿Por qué estás llenando dos botellas? | Why are you filling two bottles? |  | Present Continuous | false | 2026-04-02 | 2026-05-14 | 1 | 0.0000 | Core | llenando = filling; reinforces llenar vs llevar
 Estoy llegando en diez minutos. | I'm arriving in ten minutes. |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 1 | 0.0000 | Core | llegando = arriving; common in spoken Spanish for near-future
 Está lloviendo bastante fuerte ahora mismo. | It's raining quite hard right now. |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 1 | 0.0000 | Core | 
-Estoy llevando la bicicleta al parque. | I'm taking my bike to the park. |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 4 | 0.3430 | Core | llevando = taking/carrying; reinforces llevar
-Estamos esperando a que lleguen todos. | We're waiting for everyone to arrive. |  | Present Continuous | true | 2026-04-02 | 2026-05-16 | 5 | 2.0000 | Core | lleguen = arrive; both llegar and esperar in one sentence
-Está llenando el depósito antes de salir. | He's filling up the tank before leaving. |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 3 | 0.7000 | Core | llenando = filling; vivid everyday context
-Me estoy poniendo los zapatos ahora mismo. | I'm putting my shoes on right now. |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 2 | 1.3000 | Core | 
-Están discutiendo sobre el camino. | They're arguing about the route. |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 3 | 0.9800 | Core | 
-Estoy intentando mejorar cada semana. | I'm trying to improve every week. |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 4 | 0.7000 | Core | 
+Estoy llevando la bicicleta al parque. | I'm taking my bike to the park. |  | Present Continuous | false | 2026-04-02 | 2026-05-18 | 5 | 0.2401 | Core | llevando = taking/carrying; reinforces llevar
+Estamos esperando a que lleguen todos. | We're waiting for everyone to arrive. |  | Present Continuous | true | 2026-04-02 | 2026-05-20 | 8 | 2.0000 | Core | lleguen = arrive; both llegar and esperar in one sentence
+Está llenando el depósito antes de salir. | He's filling up the tank before leaving. |  | Present Continuous | false | 2026-04-02 | 2026-05-20 | 5 | 0.5530 | Core | llenando = filling; vivid everyday context
+Me estoy poniendo los zapatos ahora mismo. | I'm putting my shoes on right now. |  | Present Continuous | false | 2026-04-02 | 2026-05-21 | 4 | 0.6370 | Core | 
+Están discutiendo sobre el camino. | They're arguing about the route. |  | Present Continuous | false | 2026-04-02 | 2026-05-21 | 8 | 1.0246 | Core | 
+Estoy intentando mejorar cada semana. | I'm trying to improve every week. |  | Present Continuous | false | 2026-04-02 | 2026-05-19 | 7 | 0.4501 | Core | 
 Estamos llevando demasiado equipaje. | We're carrying too much luggage. |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 1 | 0.0000 | Core | llevando = carrying; context: travel
-Ella está llenando la olla con agua. | She's filling the pot with water. |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 1 | 1.0000 | Core | llenar + olla: classic kitchen context
+Ella está llenando la olla con agua. | She's filling the pot with water. |  | Present Continuous | false | 2026-04-02 | 2026-05-21 | 6 | 0.4900 | Core | llenar + olla: classic kitchen context
 Los demás están llegando al punto de encuentro. | The others are arriving at the meeting point. |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 1 | 0.0000 | Core | llegando = arriving at a location
 Estoy aprendiendo a cocinar platos nuevos. | I'm learning to cook new dishes. |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 1 | 0.0000 | Core | 
-Está buscando un restaurante cerca. | He's looking for a nearby restaurant. |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 1 | 1.0000 | Core | 
-Estamos recorriendo el barrio a pie. | We're exploring the neighbourhood on foot. |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 2 | 2.0000 | Core | 
+Está buscando un restaurante cerca. | He's looking for a nearby restaurant. |  | Present Continuous | false | 2026-04-02 | 2026-05-18 | 3 | 0.7000 | Core | 
+Estamos recorriendo el barrio a pie. | We're exploring the neighbourhood on foot. |  | Present Continuous | false | 2026-04-02 | 2026-05-21 | 5 | 1.2800 | Core | 
 Estoy llevando el almuerzo porque no hay restaurantes cerca. | I'm bringing lunch because there are no restaurants nearby. |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 1 | 0.0000 | Core | llevando = bringing; clear purposeful context
-Está llenando la mochila con demasiadas cosas. | He's filling the backpack with too many things. |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 2 | 0.7000 | Core | llenar la mochila; not llevar or llegar
-Estamos llegando al final del camino. | We're reaching the end of the path. |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 2 | 0.7000 | Core | llegando al final; figurative and literal
+Está llenando la mochila con demasiadas cosas. | He's filling the backpack with too many things. |  | Present Continuous | false | 2026-04-02 | 2026-05-21 | 5 | 0.3871 | Core | llenar la mochila; not llevar or llegar
+Estamos llegando al final del camino. | We're reaching the end of the path. |  | Present Continuous | false | 2026-04-02 | 2026-05-20 | 7 | 1.0525 | Core | llegando al final; figurative and literal
 Están viviendo cerca del centro ahora. | They're living near the centre now. |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 1 | 0.0000 | Core | 
-Estoy disfrutando mucho de este libro. | I'm really enjoying this book. |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 2 | 0.7000 | Core | 
+Estoy disfrutando mucho de este libro. | I'm really enjoying this book. |  | Present Continuous | false | 2026-04-02 | 2026-05-19 | 4 | 0.8530 | Core | 
 Está creciendo el número de corredores en el parque. | The number of runners in the park is growing. |  | Present Continuous | false | 2026-04-02 | 2026-04-04 | 0 |  | Hard | 
-Estoy llevando la cuenta de mis kilómetros. | I'm keeping track of my kilometres. |  | Present Continuous | true | 2026-04-02 | 2026-05-16 | 1 | 2.0000 | Core | llevar la cuenta = to keep track; fixed expression with llevar
+Estoy llevando la cuenta de mis kilómetros. | I'm keeping track of my kilometres. |  | Present Continuous | true | 2026-04-02 | 2026-05-21 | 5 | 0.6272 | Core | llevar la cuenta = to keep track; fixed expression with llevar
 Están llenando el restaurante rápido esta noche. | The restaurant is filling up fast tonight. |  | Present Continuous | false | 2026-04-02 | 2026-04-04 | 0 |  | Hard | llenando = filling up; intransitive usage
 Estoy llegando al límite de mi energía. | I'm reaching the limit of my energy. |  | Present Continuous | false | 2026-04-02 | 2026-05-16 | 1 | 0.0000 | Core | llegar a = to reach a limit; figurative
 
 # >>> Immediate Future Tense
-Voy a comer en el restaurante esta noche | I am going to eat at the restaurant tonight |  | Immediate Future | false | 2026-03-07 | 2026-05-16 | 7 | 0.5301 | Core | 
-Vas a trabajar mañana por la mañana | You are going to work tomorrow morning |  | Immediate Future | false | 2026-03-07 | 2026-05-14 | 4 | 0.4900 | Core | 
+Voy a comer en el restaurante esta noche | I am going to eat at the restaurant tonight |  | Immediate Future | false | 2026-03-07 | 2026-05-20 | 8 | 0.3711 | Core | 
+Vas a trabajar mañana por la mañana | You are going to work tomorrow morning |  | Immediate Future | false | 2026-03-07 | 2026-05-19 | 5 | 0.3430 | Core | 
 Él va a comprar comida en el mercado | He is going to buy food at the market |  | Immediate Future | false | 2026-03-07 | 2026-03-19 | 3 | 1.0000 | Easy | 
 Ana va a preparar la cena para su familia | Ana is going to prepare dinner for her family |  | Immediate Future | false | 2026-03-07 | 2026-04-14 | 1 | 0.0000 | Core | 
 Vamos a viajar a otra ciudad este fin de semana | We are going to travel to another city this weekend |  | Immediate Future | false | 2026-03-07 | 2026-04-14 | 1 | 0.0000 | Core | 
-Ellos van a estudiar español esta noche | They are going to study Spanish tonight |  | Immediate Future | false | 2026-03-07 | 2026-05-14 | 5 | 0.8960 | Core | 
+Ellos van a estudiar español esta noche | They are going to study Spanish tonight |  | Immediate Future | false | 2026-03-07 | 2026-05-18 | 6 | 0.9272 | Core | 
 Voy a ver una película interesante hoy | I am going to watch an interesting movie today |  | Immediate Future | false | 2026-03-07 | 2026-04-14 | 1 | 0.0000 | Core | 
 Vas a escribir un mensaje al cliente | You are going to write a message to the client |  | Immediate Future | false | 2026-03-07 | 2026-04-14 | 1 | 0.0000 | Core | 
 María va a abrir el restaurante temprano | María is going to open the restaurant early |  | Immediate Future | false | 2026-03-07 | 2026-04-14 | 1 | 0.0000 | Core | 
-Vamos a hacer ejercicio en el parque | We are going to exercise in the park |  | Immediate Future | false | 2026-03-07 | 2026-05-16 | 7 | 0.2353 | Core | 
+Vamos a hacer ejercicio en el parque | We are going to exercise in the park |  | Immediate Future | false | 2026-03-07 | 2026-05-18 | 8 | 0.1647 | Core | 
 Voy a comer contigo, pero estoy trabajando ahora | I am going to eat with you, but I am working now |  | Immediate Future | false | 2026-03-07 | 2026-05-14 | 1 | 0.0000 | Core | 
 Vamos a salir esta noche, pero estamos estudiando ahora | We are going to go out tonight, but we are studying now |  | Immediate Future | false | 2026-03-07 | 2026-04-14 | 1 | 0.0000 | Core | 
-Ella va a preparar la cena, pero está hablando por teléfono ahora | She is going to prepare dinner, but she is talking on the phone now |  | Immediate Future | false | 2026-03-07 | 2026-05-16 | 6 | 0.3361 | Core | 
+Ella va a preparar la cena, pero está hablando por teléfono ahora | She is going to prepare dinner, but she is talking on the phone now |  | Immediate Future | false | 2026-03-07 | 2026-05-20 | 7 | 0.2353 | Core | 
 Voy a ver una película después, pero estoy escribiendo un correo ahora | I am going to watch a movie later, but I am writing an email now |  | Immediate Future | false | 2026-03-07 | 2026-05-16 | 6 | 0.5728 | Core | 
 ¿Qué vas a hacer este fin de semana? | What are you going to do this weekend? |  | Immediate Future | false | 2026-04-02 | 2026-04-14 | 1 | 0.0000 | Core | 
 ¿Vas a llegar a tiempo? | Are you going to arrive on time? |  | Immediate Future | false | 2026-04-02 | 2026-04-14 | 1 | 0.0000 | Core | llegar = to arrive; urgency context
 ¿Vas a llevar algo de comer? | Are you going to bring something to eat? |  | Immediate Future | false | 2026-04-02 | 2026-05-16 | 1 | 0.0000 | Core | llevar = to bring; not llegar or llenar
-¿Vas a llenar la botella antes de salir? | Are you going to fill your bottle before leaving? |  | Immediate Future | false | 2026-04-02 | 2026-04-04 | 0 |  | Hard | llenar = to fill; pre-run routine
-¿A qué hora van a llegar los demás? | What time are the others going to arrive? |  | Immediate Future | false | 2026-04-02 | 2026-04-04 | 0 |  | Hard | llegar = arrive; group context
-¿Qué vas a comer después del entrenamiento? | What are you going to eat after training? |  | Immediate Future | false | 2026-04-02 | 2026-04-04 | 0 |  | Hard | 
-¿Vas a correr mañana aunque llueva? | Are you going to run tomorrow even if it rains? |  | Immediate Future | false | 2026-04-02 | 2026-05-16 | 1 | 2.0000 | Core | 
+¿Vas a llenar la botella antes de salir? | Are you going to fill your bottle before leaving? |  | Immediate Future | false | 2026-04-02 | 2026-05-21 | 1 | 0.0000 | Core | llenar = to fill; pre-run routine
+¿A qué hora van a llegar los demás? | What time are the others going to arrive? |  | Immediate Future | false | 2026-04-02 | 2026-05-21 | 1 | 2.0000 | Core | llegar = arrive; group context
+¿Qué vas a comer después del entrenamiento? | What are you going to eat after the training? |  | Immediate Future | false | 2026-04-02 | 2026-04-04 | 0 |  | Hard | 
+¿Vas a correr mañana aunque llueva? | Are you going to run tomorrow even if it rains? |  | Immediate Future | false | 2026-04-02 | 2026-05-18 | 3 | 1.1900 | Core | 
 ¿Cuándo vas a empezar el libro? | When are you going to start the book? |  | Immediate Future | false | 2026-04-02 | 2026-05-16 | 1 | 0.0000 | Core | 
 ¿Qué van a pedir en el restaurante? | What are they going to order at the restaurant? |  | Immediate Future | false | 2026-04-02 | 2026-04-04 | 0 |  | Hard | 
 ¿Vas a llevar la bicicleta o vas a ir a pie? | Are you going to take your bike or go on foot? |  | Immediate Future | false | 2026-04-02 | 2026-04-04 | 0 |  | Hard | llevar la bicicleta = take the bike; not llegar
-¿Vais a llenar el coche antes del viaje? | Are you going to fill up the car before the trip? |  | Immediate Future | false | 2026-04-02 | 2026-04-04 | 0 |  | Hard | llenar = to fill up (tank); classic road trip context
+¿Vais a llenar el coche antes del viaje? | Are you going to fill up the car before the trip? |  | Immediate Future | false | 2026-04-02 | 2026-05-21 | 1 | 0.0000 | Core | llenar = to fill up (tank); classic road trip context
 ¿Vas a quedarte en casa esta noche? | Are you going to stay home tonight? |  | Immediate Future | false | 2026-04-02 | 2026-04-04 | 0 |  | Hard | 
 ¿Cuánto tiempo vas a entrenar hoy? | How long are you going to train today? |  | Immediate Future | false | 2026-04-02 | 2026-04-04 | 0 |  | Hard | 
 ¿Vas a mejorar tu marca personal este año? | Are you going to improve your personal best this year? |  | Immediate Future | false | 2026-04-02 | 2026-04-04 | 0 |  | Hard | 
@@ -306,160 +306,160 @@ Vamos a llegar justo cuando empiece la carrera. | We're going to arrive just as 
 
 # >>> Preterit Past Tense
 Comí en ese restaurante ayer | I ate at that restaurant yesterday |  | Preterit | false | 2026-03-05 | 2026-05-07 | 1 | 0.0000 | Core | 
-Comiste mucha comida anoche | You ate a lot of food last night |  | Preterit | false | 2026-03-05 | 2026-03-22 | 2 | 0.5000 | Core | 
-Juan comió con su familia el domingo | Juan ate with his family on Sunday |  | Preterit | false | 2026-03-05 | 2026-03-16 | 4 | 0.2500 | Core | 
-Comió una ensalada muy grande | She ate a very big salad |  | Preterit | false | 2026-03-05 | 2026-03-06 | 0 |  | Core | 
+Comiste mucha comida anoche | You ate a lot of food last night |  | Preterit | false | 2026-03-05 | 2026-05-18 | 4 | 0.2450 | Core | 
+Juan comió con su familia el domingo | Juan ate with his family on Sunday |  | Preterit | false | 2026-03-05 | 2026-05-20 | 5 | 0.1750 | Core | 
+Comió una ensalada muy grande | She ate a very big salad |  | Preterit | false | 2026-03-05 | 2026-05-18 | 1 | 0.0000 | Core | 
 Comimos tarde después del evento | We ate late after the event |  | Preterit | false | 2026-03-05 | 2026-05-07 | 1 | 0.0000 | Core | 
-Comieron juntos en el centro | They ate together downtown |  | Preterit | false | 2026-03-05 | 2026-05-07 | 2 | 1.0000 | Core | 
-Fui al médico ayer por la mañana | I went to the doctor yesterday morning |  | Preterit | false | 2026-03-05 | 2026-03-06 | 0 |  | Core | 
-Fuiste al concierto el viernes pasado | You went to the concert last Friday |  | Preterit | false | 2026-03-05 | 2026-05-07 | 3 | 1.3000 | Core | 
+Comieron juntos en el centro | They ate together downtown |  | Preterit | false | 2026-03-05 | 2026-05-20 | 7 | 0.6649 | Core | 
+Fui al médico ayer por la mañana | I went to the doctor yesterday morning |  | Preterit | false | 2026-03-05 | 2026-05-18 | 1 | 0.0000 | Core | 
+Fuiste al concierto el viernes pasado | You went to the concert last Friday |  | Preterit | false | 2026-03-05 | 2026-05-20 | 6 | 0.7459 | Core | 
 Fue al trabajo aunque estaba cansado | He went to work even though he was tired |  | Preterit | false | 2026-03-05 | 2026-03-07 | 1 |  | Core | 
-Sofía fue a la tienda después de cenar | Sofía went to the store after dinner |  | Preterit | false | 2026-03-05 | 2026-03-06 | 0 |  | Core | 
-Fuimos al centro el fin de semana | We went downtown on the weekend |  | Preterit | false | 2026-03-05 | 2026-03-07 | 1 | 1.0000 | Core | 
-Fueron a la playa durante el verano | They went to the beach during the summer |  | Preterit | false | 2026-03-05 | 2026-03-07 | 1 |  | Core | 
+Sofía fue a la tienda después de cenar | Sofía went to the store after dinner |  | Preterit | false | 2026-03-05 | 2026-05-21 | 3 | 0.4900 | Core | 
+Fuimos al centro el fin de semana | We went downtown on the weekend |  | Preterit | false | 2026-03-05 | 2026-05-21 | 6 | 0.6280 | Core | 
+Fueron a la playa durante el verano | They went to the beach during the summer |  | Preterit | false | 2026-03-05 | 2026-05-19 | 5 | 0.3430 | Core | 
 Tuve un problema ayer en el trabajo | I had a problem yesterday at work |  | Preterit | false | 2026-03-05 | 2026-05-06 | 1 | 0.0000 | Core | 
-Tuviste una buena idea anoche | You had a good idea last night |  | Preterit | false | 2026-03-05 | 2026-05-07 | 1 | 2.0000 | Core | 
+Tuviste una buena idea anoche | You had a good idea last night |  | Preterit | false | 2026-03-05 | 2026-05-21 | 7 | 0.2857 | Core | 
 Tuvo una reunión larga esta mañana | He had a long meeting this morning |  | Preterit | false | 2026-03-05 | 2026-05-07 | 1 | 0.0000 | Core | 
-Marta tuvo un accidente pequeño ayer | Marta had a small accident yesterday |  | Preterit | false | 2026-03-05 | 2026-03-07 | 1 |  | Core | 
-Tuvimos tiempo para descansar | We had time to rest |  | Preterit | false | 2026-03-05 | 2026-03-07 | 3 | 1.3300 | Core | 
-Tuvieron mucha suerte ese día | They had a lot of luck that day |  | Preterit | false | 2026-03-05 | 2026-05-06 | 2 | 1.0000 | Core | 
-Hice la tarea ayer | I did the homework yesterday |  | Preterit | false | 2026-03-06 | 2026-03-07 | 1 |  | Core | 
+Marta tuvo un accidente pequeño ayer | Marta had a small accident yesterday |  | Preterit | false | 2026-03-05 | 2026-05-18 | 2 | 0.0000 | Core | 
+Tuvimos tiempo para descansar | We had time to rest |  | Preterit | false | 2026-03-05 | 2026-05-21 | 6 | 0.9662 | Core | 
+Tuvieron mucha suerte ese día | They had a lot of luck that day |  | Preterit | false | 2026-03-05 | 2026-05-18 | 4 | 0.4900 | Core | 
+Hice la tarea ayer | I did the homework yesterday |  | Preterit | false | 2026-03-06 | 2026-05-18 | 2 | 0.0000 | Core | 
 Hiciste un pastel anoche | You made a cake last night |  | Preterit | false | 2026-03-06 | 2026-03-23 | 4 | 0.7500 | Core | 
-Hizo ejercicio esta mañana | He exercised this morning |  | Preterit | false | 2026-03-06 | 2026-05-07 | 2 | 1.0000 | Core | 
-Ana hizo la cena ayer | Ana made dinner yesterday |  | Preterit | false | 2026-03-06 | 2026-03-06 | 0 |  | Hard | 
-Hicimos un viaje el año pasado | We took a trip last year |  | Preterit | false | 2026-03-06 | 2026-05-07 | 2 | 1.7000 | Core | 
-Hicieron mucho trabajo ayer | They did a lot of work yesterday |  | Preterit | false | 2026-03-06 | 2026-05-07 | 3 | 2.0000 | Core | 
-Estuve en la casa ayer | I was at home yesterday |  | Preterit | false | 2026-03-06 | 2026-03-06 | 0 |  | Hard | 
-Estuviste en el trabajo ayer | You were at work yesterday |  | Preterit | false | 2026-03-06 | 2026-03-06 | 0 |  | Hard | 
-Estuvo en el parque ayer | He was in the park yesterday |  | Preterit | false | 2026-03-06 | 2026-05-07 | 3 | 1.4000 | Core | 
-María estuvo enferma ayer | Maria was sick yesterday |  | Preterit | false | 2026-03-06 | 2026-03-06 | 0 |  | Hard | 
-Estuvimos en la oficina | We were in the office |  | Preterit | false | 2026-03-06 | 2026-03-30 | 4 | 1.5333 | Core | 
-Estuvieron en casa anoche | They were at home last night |  | Preterit | false | 2026-03-06 | 2026-05-07 | 1 | 2.0000 | Core | 
-Fui profesor el año pasado | I was a teacher last year |  | Preterit | false | 2026-03-06 | 2026-03-30 | 4 | 0.4667 | Core | 
-Fuiste muy amable ayer | You were very kind yesterday |  | Preterit | false | 2026-03-06 | 2026-03-22 | 2 | 1.5000 | Core | 
-Fue mi amigo en la escuela | He was my friend in school |  | Preterit | false | 2026-03-06 | 2026-05-07 | 2 | 2.0000 | Core | 
-Laura fue muy inteligente | Laura was very intelligent |  | Preterit | false | 2026-03-06 | 2026-03-22 | 2 | 1.5000 | Core | 
-Fuimos buenos amigos | We were good friends |  | Preterit | false | 2026-03-06 | 2026-03-06 | 0 |  | Hard | 
-Fueron estudiantes antes | They were students before |  | Preterit | false | 2026-03-06 | 2026-03-07 | 1 |  | Core | 
-Fui al parque ayer | I went to the park yesterday |  | Preterit | false | 2026-03-06 | 2026-03-06 | 0 |  | Hard | 
-Fuiste a la tienda ayer | You went to the store yesterday |  | Preterit | false | 2026-03-06 | 2026-03-07 | 1 |  | Core | 
+Hizo ejercicio esta mañana | He exercised this morning |  | Preterit | false | 2026-03-06 | 2026-05-21 | 5 | 0.6430 | Core | 
+Ana hizo la cena ayer | Ana made dinner yesterday |  | Preterit | false | 2026-03-06 | 2026-05-18 | 1 | 0.0000 | Core | 
+Hicimos un viaje el año pasado | We took a trip last year |  | Preterit | false | 2026-03-06 | 2026-05-20 | 5 | 0.8831 | Core | 
+Hicieron mucho trabajo ayer | They did a lot of work yesterday |  | Preterit | false | 2026-03-06 | 2026-05-21 | 8 | 0.8461 | Core | 
+Estuve en la casa ayer | I was at home yesterday |  | Preterit | false | 2026-03-06 | 2026-05-20 | 2 | 0.7000 | Core | 
+Estuviste en el trabajo ayer | You were at work yesterday |  | Preterit | false | 2026-03-06 | 2026-05-21 | 6 | 0.5971 | Core | 
+Estuvo en el parque ayer | He was in the park yesterday |  | Preterit | false | 2026-03-06 | 2026-05-21 | 5 | 1.2860 | Core | 
+María estuvo enferma ayer | Maria was sick yesterday |  | Preterit | false | 2026-03-06 | 2026-05-18 | 1 | 0.0000 | Core | 
+Estuvimos en la oficina | We were in the office |  | Preterit | false | 2026-03-06 | 2026-05-21 | 7 | 1.6929 | Core | 
+Estuvieron en casa anoche | They were at home last night |  | Preterit | false | 2026-03-06 | 2026-05-21 | 7 | 0.5797 | Core | 
+Fui profesor el año pasado | I was a teacher last year |  | Preterit | false | 2026-03-06 | 2026-05-20 | 6 | 0.2287 | Core | 
+Fuiste muy amable ayer | You were very kind yesterday |  | Preterit | false | 2026-03-06 | 2026-05-20 | 7 | 0.9590 | Core | 
+Fue mi amigo en la escuela | He was my friend in school |  | Preterit | false | 2026-03-06 | 2026-05-21 | 5 | 0.6860 | Core | 
+Laura fue muy inteligente | Laura was very intelligent |  | Preterit | false | 2026-03-06 | 2026-05-20 | 4 | 0.7350 | Core | 
+Fuimos buenos amigos | We were good friends |  | Preterit | false | 2026-03-06 | 2026-05-20 | 4 | 0.6430 | Core | 
+Fueron estudiantes antes | They were students before |  | Preterit | false | 2026-03-06 | 2026-05-18 | 2 | 0.0000 | Core | 
+Fui al parque ayer | I went to the park yesterday |  | Preterit | false | 2026-03-06 | 2026-05-20 | 4 | 0.3430 | Core | 
+Fuiste a la tienda ayer | You went to the store yesterday |  | Preterit | false | 2026-03-06 | 2026-05-18 | 2 | 0.0000 | Core | 
 Fue al trabajo temprano | He went to work early |  | Preterit | false | 2026-03-06 | 2026-05-06 | 1 | 0.0000 | Core | 
-Ana fue a la escuela ayer | Ana went to school yesterday |  | Preterit | false | 2026-03-06 | 2026-05-07 | 2 | 1.7000 | Core | 
+Ana fue a la escuela ayer | Ana went to school yesterday |  | Preterit | false | 2026-03-06 | 2026-05-21 | 6 | 0.4082 | Core | 
 Fuimos al cine juntos | We went to the cinema together |  | Preterit | false | 2026-03-06 | 2026-05-07 | 3 | 0.7900 | Core | 
 Fueron al restaurante | They went to the restaurant |  | Preterit | false | 2026-03-06 | 2026-03-07 | 2 | 0.5000 | Core | 
 Ayer fui al restaurante | Yesterday I went to the restaurant |  | Preterit | false | 2026-02-27 | 2026-03-12 | 7 | 1.2900 | Easy | 
 Ayer comí pescado | Yesterday I ate fish |  | Preterit | false | 2026-02-27 | 2026-03-12 | 7 | 1.4300 | Easy | 
 Anoche cené con amigos | Last night I had dinner with friends |  | Preterit | false | 2026-02-27 | 2026-03-12 | 17 | 0.0600 | Easy | 
 Ayer hicimos una reserva | Yesterday we made a reservation |  | Preterit | false | 2026-02-27 | 2026-03-12 | 16 | 0.5000 | Easy | 
-Ayer tuvimos hambre | Yesterday we were hungry |  | Preterit | false | 2026-02-27 | 2026-03-11 | 19 | 0.2600 | Core | 
+Ayer tuvimos hambre | Yesterday we were hungry |  | Preterit | false | 2026-02-27 | 2026-05-18 | 20 | 0.1820 | Core | 
 Ayer vino mi amigo | Yesterday my friend came |  | Preterit | false | 2026-02-27 | 2026-03-12 | 20 | 0.2000 | Core | 
 Ayer dije la verdad | Yesterday I told the truth |  | Preterit | false | 2026-02-27 | 2026-03-30 | 9 | 0.8250 | Core | 
 Ayer pude pagar con tarjeta | Yesterday I was able to pay with card |  | Preterit | false | 2026-02-27 | 2026-03-12 | 12 | 0.5800 | Easy | 
-Eso pensé yo | That’s what I thought |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-Pensé que estaba cerrado | I thought it was closed |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-¿Me dijiste que era por aquí? | You told me it was this way? |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-Me perdí en el camino | I got lost on the way |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-¿Ya cerraron? | Did they already close? |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-Se me olvidó traer dinero | I forgot to bring money |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-No encontré la entrada | I didn’t find the entrance |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-No me di cuenta | I didn’t realize |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-Me dijeron que era fácil de encontrar | They told me it was easy to find |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-Lo vi en internet | I saw it online |  | Preterit | false | 2026-03-12 | 2026-03-30 | 2 | 1.0000 | Core | 
-Me recomendaron este lugar | They recommended this place to me |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-Terminé yendo a otro sitio | I ended up going somewhere else |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-¿Te pasó lo mismo? | Did the same thing happen to you? |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-No tuve tiempo | I didn’t have time |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-Me quedé sin batería | My battery died |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-Se me cayó el teléfono | I dropped my phone |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-Lo intenté varias veces | I tried several times |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-No me dejaron entrar | They didn’t let me in |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-Me dijeron que estaba lleno | They told me it was full |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+Eso pensé yo | That’s what I thought |  | Preterit | false | 2026-03-12 | 2026-05-21 | 3 | 2.0000 | Core | 
+Pensé que estaba cerrado | I thought it was closed |  | Preterit | false | 2026-03-12 | 2026-05-21 | 6 | 0.6889 | Core | 
+¿Me dijiste que era por aquí? | You told me it was this way? |  | Preterit | false | 2026-03-12 | 2026-05-18 | 1 | 1.0000 | Core | 
+Me perdí en el camino | I got lost on the way |  | Preterit | true | 2026-03-12 | 2026-05-20 | 5 | 1.2401 | Core | 
+¿Ya cerraron? | Did they already close? |  | Preterit | false | 2026-03-12 | 2026-05-21 | 3 | 1.4900 | Core | 
+Se me olvidó traer dinero | I forgot to bring money |  | Preterit | false | 2026-03-12 | 2026-05-21 | 4 | 1.1330 | Core | 
+No encontré la entrada | I didn’t find the entrance |  | Preterit | false | 2026-03-12 | 2026-05-20 | 3 | 1.2800 | Core | 
+No me di cuenta | I didn’t realize |  | Preterit | false | 2026-03-12 | 2026-05-19 | 1 | 0.0000 | Core | 
+Me dijeron que era fácil de encontrar | They told me it was easy to find |  | Preterit | false | 2026-03-12 | 2026-05-21 | 3 | 1.4000 | Core | 
+Lo vi en internet | I saw it online |  | Preterit | false | 2026-03-12 | 2026-05-19 | 3 | 0.7000 | Core | 
+Me recomendaron este lugar | They recommended this place to me |  | Preterit | false | 2026-03-12 | 2026-05-21 | 2 | 1.0000 | Core | 
+Terminé yendo a otro sitio | I ended up going somewhere else |  | Preterit | false | 2026-03-12 | 2026-05-20 | 3 | 2.0000 | Core | 
+¿Te pasó lo mismo? | Did the same thing happen to you? |  | Preterit | true | 2026-03-12 | 2026-05-21 | 4 | 1.7000 | Core | 
+No tuve tiempo | I didn’t have time |  | Preterit | true | 2026-03-12 | 2026-05-20 | 1 | 0.0000 | Core | 
+Me quedé sin batería | My battery died |  | Preterit | false | 2026-03-12 | 2026-05-21 | 1 | 2.0000 | Core | 
+Se me cayó el teléfono | I dropped my phone |  | Preterit | false | 2026-03-12 | 2026-05-21 | 3 | 1.4900 | Core | 
+Lo intenté varias veces | I tried (it) several times |  | Preterit | false | 2026-03-12 | 2026-05-21 | 2 | 0.7000 | Core | 
+No me dejaron entrar | They didn’t let me in |  | Preterit | false | 2026-03-12 | 2026-05-21 | 2 | 2.0000 | Core | 
+Me dijeron que estaba lleno | They told me it was full |  | Preterit | true | 2026-03-12 | 2026-05-21 | 3 | 1.7900 | Core | 
 Ni idea de qué pasó | No idea what happened |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-Menos mal que llegué a tiempo | Good thing I arrived on time |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-Me tocó esperar | I had to wait |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-Estuve esperando como una hora | I was waiting for like an hour |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+Menos mal que llegué a tiempo | Good thing I arrived on time |  | Preterit | false | 2026-03-12 | 2026-05-20 | 1 | 0.0000 | Core | 
+Me tocó esperar | I had to wait |  | Preterit | false | 2026-03-12 | 2026-05-21 | 3 | 1.4000 | Core | 
+Estuve esperando como una hora | I was waiting for like an hour |  | Preterit | false | 2026-03-12 | 2026-05-20 | 1 | 2.0000 | Core | 
 Al final me fui | In the end I left |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-No lo entendí bien | I didn’t understand it well |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-Me pareció caro | It seemed expensive to me |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-Me gustó bastante | I liked it quite a bit |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-No me convenció | It didn’t convince me |  | Preterit | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+No lo entendí bien | I didn’t understand it well |  | Preterit | false | 2026-03-12 | 2026-05-20 | 2 | 1.0000 | Core | 
+Me pareció caro | It seemed expensive to me |  | Preterit | false | 2026-03-12 | 2026-05-21 | 1 | 2.0000 | Core | 
+Me gustó bastante | I liked it quite a bit |  | Preterit | true | 2026-03-12 | 2026-05-21 | 3 | 0.7000 | Core | 
+No me convenció | It didn’t convince me |  | Preterit | false | 2026-03-12 | 2026-05-20 | 1 | 1.0000 | Core | 
 Después de cena, Ana se fue | After dinner, Ana left |  | Preterit | false | 2026-04-10 | 2026-04-10 | 0 |  | Hard | 
 
 # >>> Imperfect Past Tense
-Comía pan con café cada mañana | I used to eat bread with coffee every morning |  | Imperfect | false | 2026-03-05 | 2026-05-17 | 5 | 0.7000 | Core | 
-Comías mucho cuando eras niño | You used to eat a lot when you were a child |  | Imperfect | false | 2026-03-05 | 2026-03-23 | 6 | 1.1667 | Core | 
-Comía en casa todos los días | He used to eat at home every day |  | Imperfect | false | 2026-03-05 | 2026-05-17 | 10 | 1.1690 | Core | 
-Ana comía sola en su apartamento | Ana used to eat alone in her apartment |  | Imperfect | false | 2026-03-05 | 2026-05-17 | 7 | 0.8960 | Core | 
-Comíamos juntos los fines de semana | We used to eat together on weekends |  | Imperfect | false | 2026-03-05 | 2026-05-17 | 5 | 1.1767 | Core | 
+Comía pan con café cada mañana | I used to eat bread with coffee every morning |  | Imperfect | false | 2026-03-05 | 2026-05-18 | 6 | 0.4900 | Core | 
+Comías mucho cuando eras niño | You used to eat a lot when you were a child |  | Imperfect | false | 2026-03-05 | 2026-05-21 | 8 | 0.5717 | Core | 
+Comía en casa todos los días | He used to eat at home every day |  | Imperfect | false | 2026-03-05 | 2026-05-21 | 12 | 0.5728 | Core | 
+Ana comía sola en su apartamento | Ana used to eat alone in her apartment |  | Imperfect | false | 2026-03-05 | 2026-05-21 | 9 | 0.4390 | Core | 
+Comíamos juntos los fines de semana | We used to eat together on weekends |  | Imperfect | false | 2026-03-05 | 2026-05-20 | 8 | 0.4036 | Core | 
 Comían en ese lugar antes | They used to eat at that place before |  | Imperfect | false | 2026-03-05 | 2026-03-10 | 5 | 2.0000 | Easy | 
 Iba al parque cada tarde | I used to go to the park every afternoon |  | Imperfect | false | 2026-03-05 | 2026-05-17 | 7 | 0.7840 | Core | 
-Ibas a esa escuela cuando eras joven | You used to go to that school when you were young |  | Imperfect | false | 2026-03-05 | 2026-05-17 | 2 | 0.7000 | Core | 
-Iba al trabajo en autobús antes | He used to go to work by bus before |  | Imperfect | false | 2026-03-05 | 2026-05-07 | 3 | 1.6500 | Core | 
-Carlos iba al gimnasio todos los días | Carlos used to go to the gym every day |  | Imperfect | false | 2026-03-05 | 2026-05-17 | 5 | 1.1900 | Core | 
-Íbamos a la casa de mi abuela | We used to go to my grandmother’s house |  | Imperfect | false | 2026-03-05 | 2026-05-17 | 6 | 0.9800 | Core | 
-Iban juntos al centro comercial | They used to go together to the mall |  | Imperfect | false | 2026-03-05 | 2026-05-17 | 5 | 0.8633 | Core | 
-Tenía mucho tiempo antes | I used to have a lot of time before |  | Imperfect | false | 2026-03-05 | 2026-05-07 | 3 | 1.2800 | Core | 
-Tenías un coche viejo en ese tiempo | You used to have an old car at that time |  | Imperfect | false | 2026-03-05 | 2026-05-17 | 5 | 0.8167 | Core | 
+Ibas a esa escuela cuando eras joven | You used to go to that school when you were young |  | Imperfect | false | 2026-03-05 | 2026-05-20 | 4 | 0.5530 | Core | 
+Iba al trabajo en autobús antes | He used to go to work by bus before |  | Imperfect | false | 2026-03-05 | 2026-05-18 | 5 | 1.1085 | Core | 
+Carlos iba al gimnasio todos los días | Carlos used to go to the gym every day |  | Imperfect | false | 2026-03-05 | 2026-05-20 | 6 | 1.4330 | Core | 
+Íbamos a la casa de mi abuela | We used to go to my grandmother’s house |  | Imperfect | false | 2026-03-05 | 2026-05-20 | 7 | 0.6860 | Core | 
+Iban juntos al centro comercial | They used to go together to the mall |  | Imperfect | false | 2026-03-05 | 2026-05-19 | 8 | 0.4431 | Core | 
+Tenía mucho tiempo antes | I used to have a lot of time before |  | Imperfect | false | 2026-03-05 | 2026-05-17 | 4 | 0.5960 | Easy | 
+Tenías un coche viejo en ese tiempo | You used to have an old car at that time |  | Imperfect | false | 2026-03-05 | 2026-05-19 | 7 | 0.4002 | Core | 
 Tenía una casa grande en la ciudad | He used to have a big house in the city |  | Imperfect | false | 2026-03-05 | 2026-03-19 | 5 | 1.4000 | Easy | 
-Laura tenía muchos amigos en la escuela | Laura used to have many friends at school |  | Imperfect | false | 2026-03-05 | 2026-05-17 | 7 | 0.5766 | Core | 
-Teníamos más energía antes | We used to have more energy before |  | Imperfect | false | 2026-03-05 | 2026-05-17 | 6 | 0.8400 | Core | 
-Tenían problemas con el jefe | They used to have problems with the boss |  | Imperfect | false | 2026-03-05 | 2026-05-17 | 5 | 0.7900 | Core | 
-Hacía la tarea cada noche | I used to do homework every night |  | Imperfect | false | 2026-03-06 | 2026-05-06 | 4 | 1.3000 | Core | 
-Hacías café cada mañana | You used to make coffee every morning |  | Imperfect | false | 2026-03-06 | 2026-05-07 | 4 | 1.4000 | Core | 
-Hacía ejercicio siempre | He always used to exercise |  | Imperfect | false | 2026-03-06 | 2026-05-17 | 4 | 1.1690 | Core | 
-María hacía la cena a menudo | Maria used to make dinner often |  | Imperfect | false | 2026-03-06 | 2026-05-17 | 8 | 0.9030 | Core | 
-Hacíamos viajes juntos | We used to take trips together |  | Imperfect | false | 2026-03-06 | 2026-05-17 | 7 | 0.8820 | Core | 
-Hacían mucho trabajo antes | They used to do a lot of work before |  | Imperfect | false | 2026-03-06 | 2026-05-17 | 7 | 0.8167 | Core | 
+Laura tenía muchos amigos en la escuela | Laura used to have many friends at school |  | Imperfect | false | 2026-03-05 | 2026-05-21 | 8 | 0.4036 | Core | 
+Teníamos más energía antes | We used to have more energy before |  | Imperfect | false | 2026-03-05 | 2026-05-17 | 7 | 0.5880 | Core | 
+Tenían problemas con el jefe | They used to have problems with the boss |  | Imperfect | false | 2026-03-05 | 2026-05-20 | 7 | 0.6871 | Core | 
+Hacía la tarea cada noche | I used to do homework every night |  | Imperfect | false | 2026-03-06 | 2026-05-20 | 7 | 0.4459 | Core | 
+Hacías café cada mañana | You used to make coffee every morning |  | Imperfect | false | 2026-03-06 | 2026-05-21 | 8 | 0.5461 | Core | 
+Hacía ejercicio siempre | He always used to exercise |  | Imperfect | false | 2026-03-06 | 2026-05-21 | 8 | 0.2807 | Core | 
+María hacía la cena a menudo | Maria used to make dinner often |  | Imperfect | false | 2026-03-06 | 2026-05-18 | 9 | 0.6321 | Core | 
+Hacíamos viajes juntos | We used to take trips together |  | Imperfect | false | 2026-03-06 | 2026-05-21 | 10 | 0.3025 | Core | 
+Hacían mucho trabajo antes | They used to do a lot of work before |  | Imperfect | false | 2026-03-06 | 2026-05-21 | 9 | 0.4002 | Core | 
 Estaba en la casa siempre | I used to be at home always |  | Imperfect | false | 2026-03-06 | 2026-04-08 | 7 | 0.3500 | Core | 
-Estabas en el trabajo mucho | You used to be at work a lot |  | Imperfect | false | 2026-03-06 | 2026-03-07 | 2 |  | Core | 
-Estaba en el parque a menudo | He used to be in the park often |  | Imperfect | false | 2026-03-06 | 2026-04-08 | 4 | 2.0000 | Core | 
-Ana estaba muy cansada antes | Ana used to be very tired before |  | Imperfect | false | 2026-03-06 | 2026-05-17 | 6 | 1.0900 | Core | 
-Estábamos en la oficina | We used to be in the office |  | Imperfect | false | 2026-03-06 | 2026-03-16 | 2 | 0.5000 | Core | 
-Estaban en casa siempre | They used to be at home always |  | Imperfect | false | 2026-03-06 | 2026-05-17 | 5 | 0.5250 | Core | 
+Estabas en el trabajo mucho | You used to be at work a lot |  | Imperfect | false | 2026-03-06 | 2026-05-21 | 4 | 1.3000 | Core | 
+Estaba en el parque a menudo | He used to be in the park often |  | Imperfect | false | 2026-03-06 | 2026-05-21 | 9 | 0.4831 | Core | 
+Ana estaba muy cansada antes | Ana used to be very tired before |  | Imperfect | false | 2026-03-06 | 2026-05-21 | 9 | 0.3739 | Core | 
+Estábamos en la oficina | We used to be in the office |  | Imperfect | false | 2026-03-06 | 2026-05-21 | 5 | 0.6185 | Core | 
+Estaban en casa siempre | They used to be at home always |  | Imperfect | false | 2026-03-06 | 2026-05-19 | 8 | 0.7471 | Core | 
 Era profesor antes | I used to be a teacher |  | Imperfect | false | 2026-03-06 | 2026-03-13 | 6 | 0.8300 | Core | 
-Eras muy amable siempre | You used to be very kind always |  | Imperfect | false | 2026-03-06 | 2026-05-17 | 4 | 1.1550 | Core | 
+Eras muy amable siempre | You used to be very kind always |  | Imperfect | false | 2026-03-06 | 2026-05-21 | 7 | 0.8162 | Core | 
 Era mi amigo cercano | He used to be my close friend |  | Imperfect | false | 2026-03-06 | 2026-05-07 | 1 | 0.0000 | Core | “Friend” is about the person, not the situation; therefore ‘ser’.
-Laura era muy inteligente | Laura used to be very intelligent |  | Imperfect | false | 2026-03-06 | 2026-05-17 | 9 | 0.9114 | Core | 
+Laura era muy inteligente | Laura used to be very intelligent |  | Imperfect | false | 2026-03-06 | 2026-05-17 | 10 | 0.3380 | Easy | 
 Éramos buenos amigos | We used to be good friends |  | Imperfect | false | 2026-03-06 | 2026-03-23 | 5 | 0.7980 | Core | 
-Eran estudiantes antes | They used to be students before |  | Imperfect | false | 2026-03-06 | 2026-05-17 | 7 | 0.4690 | Core | 
-Iba al parque siempre | I used to go to the park always |  | Imperfect | false | 2026-03-06 | 2026-05-17 | 4 | 0.9800 | Core | 
-Ibas a la tienda a menudo | You used to go to the store often |  | Imperfect | false | 2026-03-06 | 2026-03-30 | 7 | 0.9333 | Core | 
-Iba al trabajo temprano | He used to go to work early |  | Imperfect | false | 2026-03-06 | 2026-05-17 | 4 | 0.4900 | Core | 
-Ana iba a la escuela antes | Ana used to go to school before |  | Imperfect | false | 2026-03-06 | 2026-05-17 | 4 | 0.4900 | Core | 
+Eran estudiantes antes | They used to be students before |  | Imperfect | false | 2026-03-06 | 2026-05-21 | 9 | 1.2498 | Core | 
+Iba al parque siempre | I used to go to the park always |  | Imperfect | false | 2026-03-06 | 2026-05-17 | 5 | 0.6860 | Core | 
+Ibas a la tienda a menudo | You used to go to the store often |  | Imperfect | false | 2026-03-06 | 2026-05-20 | 8 | 0.6533 | Core | 
+Iba al trabajo temprano | He used to go to work early |  | Imperfect | false | 2026-03-06 | 2026-05-20 | 5 | 0.3430 | Core | 
+Ana iba a la escuela antes | Ana used to go to school before |  | Imperfect | false | 2026-03-06 | 2026-05-19 | 7 | 0.6721 | Core | 
 Íbamos al cine juntos | We used to go to the cinema together |  | Imperfect | false | 2026-03-06 | 2026-03-13 | 4 | 2.2500 | Easy | 
-Iban al restaurante mucho | They used to go to the restaurant a lot |  | Imperfect | false | 2026-03-06 | 2026-03-23 | 7 | 0.8571 | Core | 
-Hablaba con mi jefe cada lunes por la mañana | I used to talk with my boss every Monday morning |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 6 | 1.0430 | Core | 
-Hablabas con ella cuando eras joven | You used to talk with her when you were young |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 6 | 0.8575 | Core | 
+Iban al restaurante mucho | They used to go to the restaurant a lot |  | Imperfect | false | 2026-03-06 | 2026-05-18 | 8 | 0.6000 | Core | 
+Hablaba con mi jefe cada lunes por la mañana | I used to talk with my boss every Monday morning |  | Imperfect | false | 2026-03-09 | 2026-05-21 | 9 | 0.5047 | Core | 
+Hablabas con ella cuando eras joven | You used to talk with her when you were young |  | Imperfect | false | 2026-03-09 | 2026-05-21 | 8 | 0.4202 | Core | 
 Pedro hablaba mucho pero no decía nada | Pedro used to talk a lot but say nothing |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 3 | 1.0000 | Core | 
-Hablábamos durante horas sin mirar el reloj | We used to talk for hours without checking the time |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 5 | 1.6500 | Core | 
-Ellos hablaban mientras caminaban por el parque | They used to talk while walking in the park |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 4 | 0.7000 | Core | 
-Vivía en el centro cuando trabajaba allí | I used to live downtown when I worked there |  | Imperfect | false | 2026-03-09 | 2026-03-13 | 2 | 1.5000 | Core | 
+Hablábamos durante horas sin mirar el reloj | We used to talk for hours without checking the time |  | Imperfect | false | 2026-03-09 | 2026-05-20 | 7 | 1.1085 | Core | 
+Ellos hablaban mientras caminaban por el parque | They used to talk while walking in the park |  | Imperfect | false | 2026-03-09 | 2026-05-19 | 5 | 0.7900 | Core | 
+Vivía en el centro cuando trabajaba allí | I used to live downtown when I worked there |  | Imperfect | false | 2026-03-09 | 2026-05-21 | 6 | 0.9100 | Core | 
 Vivías con tus padres en esa época | You used to live with your parents at that time |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 1 | 0.0000 | Core | 
-María vivía sola pero tenía muchos amigos | María used to live alone but had many friends |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 5 | 1.0500 | Core | 
-Vivíamos cerca del mar y salíamos mucho | We used to live near the sea and go out a lot |  | Imperfect | false | 2026-03-09 | 2026-03-23 | 3 | 0.6667 | Core | 
-Ellos vivían en una casa antigua y grande | They used to live in an old and big house |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 5 | 0.3430 | Core | 
-Escribía en mi diario todas las noches | I used to write in my diary every night |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 9 | 1.0430 | Core | 
-Escribías cartas largas a tu familia | You used to write long letters to your family |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 6 | 0.8575 | Core | 
-Juan escribía historias cuando tenía tiempo | Juan used to write stories when he had time |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 7 | 1.1667 | Core | 
-Escribíamos ideas nuevas durante la reunión | We used to write new ideas during the meeting |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 6 | 0.8400 | Core | 
-Ellos escribían poco porque preferían hablar | They used to write little because they preferred to talk |  | Imperfect | false | 2026-03-09 | 2026-03-30 | 6 | 1.4200 | Core | 
-Veía a mis abuelos todos los domingos | I used to see my grandparents every Sunday |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 3 | 0.9800 | Core | 
-Veías algo extraño en esa situación | You used to see something strange in that situation |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 5 | 0.4900 | Core | 
-Sofía veía a ese chico en el gimnasio | Sofía used to see that guy at the gym |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 5 | 0.6860 | Core | 
-Veíamos la misma serie cada noche | We used to watch the same show every night |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 3 | 0.7000 | Core | 
-Ellos veían el problema de otra manera | They used to see the problem differently |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 5 | 1.1715 | Core | 
+María vivía sola pero tenía muchos amigos | María used to live alone but had many friends |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 6 | 0.7350 | Core | 
+Vivíamos cerca del mar y salíamos mucho | We used to live near the sea and go out a lot |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 4 | 0.4667 | Core | 
+Ellos vivían en una casa antigua y grande | They used to live in an old and big house |  | Imperfect | false | 2026-03-09 | 2026-05-20 | 6 | 0.5401 | Core | 
+Escribía en mi diario todas las noches | I used to write in my diary every night |  | Imperfect | false | 2026-03-09 | 2026-05-19 | 10 | 0.7301 | Core | 
+Escribías cartas largas a tu familia | You used to write long letters to your family |  | Imperfect | false | 2026-03-09 | 2026-05-21 | 9 | 0.2941 | Core | 
+Juan escribía historias cuando tenía tiempo | Juan used to write stories when he had time |  | Imperfect | false | 2026-03-09 | 2026-05-18 | 9 | 0.5717 | Core | 
+Escribíamos ideas nuevas durante la reunión | We used to write new ideas during the meeting |  | Imperfect | false | 2026-03-09 | 2026-05-20 | 7 | 0.5880 | Core | 
+Ellos escribían poco porque preferían hablar | They used to write little because they preferred to talk |  | Imperfect | false | 2026-03-09 | 2026-05-21 | 8 | 0.6958 | Core | 
+Veía a mis abuelos todos los domingos | I used to see my grandparents every Sunday |  | Imperfect | false | 2026-03-09 | 2026-05-21 | 5 | 0.4802 | Core | 
+Veías algo extraño en esa situación | You used to see something strange in that situation |  | Imperfect | false | 2026-03-09 | 2026-05-21 | 7 | 0.5401 | Core | 
+Sofía veía a ese chico en el gimnasio | Sofía used to see that guy at the gym |  | Imperfect | false | 2026-03-09 | 2026-05-20 | 7 | 0.3361 | Core | 
+Veíamos la misma serie cada noche | We used to watch the same show every night |  | Imperfect | false | 2026-03-09 | 2026-05-20 | 4 | 0.4900 | Core | 
+Ellos veían el problema de otra manera | They used to see the problem differently |  | Imperfect | false | 2026-03-09 | 2026-05-21 | 7 | 0.8740 | Core | 
 Quería cambiar de vida pero tenía miedo | I used to want to change my life but was afraid |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 2 | 1.0000 | Core | 
-Querías aprender pero no tenías tiempo | You used to want to learn but didn’t have time |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 6 | 0.8330 | Core | 
-Luis quería viajar por el mundo entero | Luis used to want to travel the whole world |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 1 | 1.0000 | Core | 
-Queríamos salir aunque estaba lloviendo | We used to want to go out even though it was raining |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 4 | 0.7690 | Core | 
+Querías aprender pero no tenías tiempo | You used to want to learn but didn’t have time |  | Imperfect | false | 2026-03-09 | 2026-05-19 | 8 | 0.4082 | Core | 
+Luis quería viajar por el mundo entero | Luis used to want to travel the whole world |  | Imperfect | false | 2026-03-09 | 2026-05-21 | 6 | 0.8650 | Core | 
+Queríamos salir aunque estaba lloviendo | We used to want to go out even though it was raining |  | Imperfect | false | 2026-03-09 | 2026-05-21 | 6 | 1.1868 | Core | 
 Ellos querían comprar la casa pero era cara | They used to want to buy the house but it was expensive |  | Imperfect | false | 2026-03-09 | 2026-05-17 | 1 | 0.0000 | Core | 
 Cuando era niño comía aquí | When I was a child I used to eat here |  | Imperfect | false | 2026-02-27 | 2026-05-17 | 15 | 0.3381 | Core | 
 Antes vivía en Canadá | Before, I used to live in Canada |  | Imperfect | false | 2026-02-27 | 2026-03-01 | 11 | -0.1800 | Easy | 
-No sabía que había que pagar aquí | I didn’t know you had to pay here |  | Imperfect | false | 2026-03-12 | 2026-05-17 | 3 | 0.9800 | Core | 
-Pensaba que abrían más tarde | I thought they opened later |  | Imperfect | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
-Como no. Tenía que pasar esto. | Of course. This had to happen. |  | Imperfect | false | 2026-03-12 | 2026-05-17 | 4 | 0.2310 | Core | 
-Iba a ir ayer, pero no pude | I was going to go yesterday, but I couldn’t |  | Imperfect | true | 2026-03-12 | 2026-05-17 | 3 | 1.2800 | Core | 
-No funcionaba | It wasn’t working |  | Imperfect | false | 2026-03-12 | 2026-03-13 | 0 |  | Hard | 
+No sabía que había que pagar aquí | I didn’t know you had to pay here |  | Imperfect | false | 2026-03-12 | 2026-05-21 | 6 | 1.0501 | Core | 
+Pensaba que abrían más tarde | I thought they opened later |  | Imperfect | true | 2026-03-12 | 2026-05-17 | 1 | 0.0000 | Core | 
+Como no. Tenía que pasar esto. | Of course. This had to happen. |  | Imperfect | false | 2026-03-12 | 2026-05-21 | 7 | 1.1832 | Core | 
+Iba a ir ayer, pero no pude | I was going to go yesterday, but I couldn’t |  | Imperfect | true | 2026-03-12 | 2026-05-21 | 6 | 0.7390 | Core | 
+No funcionaba | It wasn’t working |  | Imperfect | true | 2026-03-12 | 2026-05-21 | 2 | 1.4000 | Core | 
 
 # >>> Present Perfect Continuous
 He estado esperando aquí por una hora | I have been waiting here for an hour |  | Present Perfect Continuous | false | 2026-03-12 | 2026-03-16 | 1 |  | Core | 
