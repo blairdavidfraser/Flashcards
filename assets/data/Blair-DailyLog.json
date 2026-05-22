@@ -272,6 +272,41 @@
       "language": "Spanish",
       "direction": "recall",
       "count": 103
+    },
+    {
+      "date": "2026-05-18",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 110
+    },
+    {
+      "date": "2026-05-19",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 77
+    },
+    {
+      "date": "2026-05-19",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recognition",
+      "count": 4
+    },
+    {
+      "date": "2026-05-20",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 101
+    },
+    {
+      "date": "2026-05-21",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 102
     }
   ],
   "other": [
@@ -722,6 +757,122 @@
         {
           "duration": "00:12:00",
           "activity": "https://m.youtube.com/watch?v=jvbiARc1dyA&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:17:00",
+          "activity": "https://m.youtube.com/watch?v=pX8szhJJIEc&pp=0gcJCQQLAYcqIYzv&ra=m"
+        },
+        {
+          "duration": "00:08:00",
+          "activity": "https://m.youtube.com/watch?v=frXV5Z-rMZ8&ra=m"
+        },
+        {
+          "duration": "00:28:00",
+          "activity": "https://m.youtube.com/watch?v=YJ8N3Fpc9wE&pp=0gcJCU8Co7VqN5tD&ra=m"
+        },
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=tTHKLPfjzbY&ra=m"
+        },
+        {
+          "duration": "00:00:00",
+          "activity": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:16:00",
+          "activity": "https://m.youtube.com/watch?v=ZJLGF13GhCw&ra=m"
+        },
+        {
+          "duration": "00:23:00",
+          "activity": "https://m.youtube.com/watch?v=sesfHHvNgPw&ra=m"
+        },
+        {
+          "duration": "00:13:00",
+          "activity": "https://m.youtube.com/watch?v=mL-Js7Qp93M&pp=0gcJCQQLAYcqIYzv&ra=m"
+        },
+        {
+          "duration": "00:19:00",
+          "activity": "https://m.youtube.com/watch?v=VdWzlAa5vxY&ra=m"
+        },
+        {
+          "duration": "00:24:00",
+          "activity": "https://m.youtube.com/watch?v=TQo9e2goouc&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-20",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
+          "activity": "https://m.youtube.com/watch?v=kRIaUXXipVU&ra=m"
+        },
+        {
+          "duration": "00:17:00",
+          "activity": "https://m.youtube.com/watch?v=cneeDbhaffo&ra=m"
+        },
+        {
+          "duration": "00:22:00",
+          "activity": "https://m.youtube.com/watch?v=SIe9pBOtWkk&ra=m"
+        },
+        {
+          "duration": "00:16:00",
+          "activity": "https://m.youtube.com/watch?v=1wFfvpxq21Y&ra=m"
+        },
+        {
+          "duration": "00:12:00",
+          "activity": "https://m.youtube.com/watch?v=rFetUluSBZ0&ra=m"
+        },
+        {
+          "duration": "00:14:00",
+          "activity": "https://m.youtube.com/watch?v=kAtFA1vTzos&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-21",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:13:00",
+          "activity": "https://m.youtube.com/watch?v=9GZWcx7_wXA&pp=0gcJCVMCo7VqN5tD&ra=m"
+        },
+        {
+          "duration": "00:48:00",
+          "activity": "https://m.youtube.com/watch?v=M-N0T0xNEKM&pp=0gcJCQQLAYcqIYzv&ra=m"
+        },
+        {
+          "duration": "00:15:00",
+          "activity": "https://m.youtube.com/watch?v=yHCrQIsHeBo&pp=0gcJCVMCo7VqN5tD&ra=m"
+        },
+        {
+          "duration": "00:09:00",
+          "activity": "https://m.youtube.com/watch?v=ZonX65CDRQI&ra=m"
+        },
+        {
+          "duration": "00:12:00",
+          "activity": "https://m.youtube.com/watch?v=uZD0sE0B_tQ&ra=m"
+        },
+        {
+          "duration": "00:18:00",
+          "activity": "https://m.youtube.com/watch?v=QLP2wzCLCmM&ra=m"
+        },
+        {
+          "duration": "00:42:00",
+          "activity": "https://m.youtube.com/watch?v=2SQvvSoOG1k&t=311s&pp=2AG3ApACAQ%3D%3D&ra=m"
         }
       ]
     }
