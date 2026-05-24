@@ -307,6 +307,20 @@
       "language": "Spanish",
       "direction": "recall",
       "count": 102
+    },
+    {
+      "date": "2026-05-22",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 87
+    },
+    {
+      "date": "2026-05-23",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 100
     }
   ],
   "other": [
@@ -873,6 +887,48 @@
         {
           "duration": "00:42:00",
           "activity": "https://m.youtube.com/watch?v=2SQvvSoOG1k&t=311s&pp=2AG3ApACAQ%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-22",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:36:00",
+          "activity": "https://m.youtube.com/watch?v=XQKlNl__R4g&pp=0gcJCVMCo7VqN5tD&ra=m"
+        },
+        {
+          "duration": "00:14:00",
+          "activity": "https://m.youtube.com/watch?v=zmyxX7WGvME&ra=m"
+        },
+        {
+          "duration": "00:07:00",
+          "activity": "https://m.youtube.com/watch?v=hjSVmE4IyG4&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:44:00",
+          "activity": "https://m.youtube.com/watch?v=uajyJOr_Mk8&ra=m"
+        },
+        {
+          "duration": "00:14:00",
+          "activity": "https://m.youtube.com/watch?v=uPtNakONP8Q&pp=0gcJCQYLAYcqIYzv&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-24",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:00:00",
+          "activity": ""
         }
       ]
     }
