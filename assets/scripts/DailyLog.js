@@ -58,6 +58,26 @@ export const DailyLog = {
 
     // --- Other activities (duration + activity label per day/language) ---
 
+    addNote(date, language, text) {
+        const entries = loadOther();
+        let entry = entries.find(e => e.date === date && e.language === language);
+        if (!entry) {
+            entry = { date, language, items: [] };
+            entries.push(entry);
+        }
+        entry.items.push({ type: 'note', text });
+        localStorage.setItem(OTHER_KEY, JSON.stringify(entries));
+    },
+
+    updateNoteItem(date, language, index, text) {
+        const entries = loadOther();
+        const entry = entries.find(e => e.date === date && e.language === language);
+        if (entry && entry.items[index] !== undefined) {
+            entry.items[index] = { type: 'note', text };
+            localStorage.setItem(OTHER_KEY, JSON.stringify(entries));
+        }
+    },
+
     addOther(date, language, duration, activity) {
         const entries = loadOther();
         let entry = entries.find(e => e.date === date && e.language === language);

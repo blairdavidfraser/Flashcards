@@ -7,6 +7,10 @@ import { GitHubService } from "./GitHubService.js"
 
 const LANGUAGES = ['Spanish', 'French'];
 
+function escapeAttr(str) {
+    return (str || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
 function parseDuration(str) {
     const parts = (str || '').split(':').map(Number);
     if (parts.length !== 3 || parts.some(isNaN)) return 0;
@@ -139,10 +143,13 @@ export class ApplicationScreenDailyLog {
                 </div>
                 <div class="log-modal-body">
                     <table class="log-table log-modal-table">
-                        <thead><tr><th>Duration</th><th>Activity</th><th></th></tr></thead>
+                        <thead><tr><th>Duration</th><th>Entry</th><th></th></tr></thead>
                         <tbody id="log-modal-tbody"></tbody>
                     </table>
-                    <button class="log-modal-add" id="log-modal-add-btn">+ Add Entry</button>
+                    <div class="log-modal-btns">
+                        <button class="log-modal-add" id="log-modal-add-btn">+ Add Activity</button>
+                        <button class="log-modal-add" id="log-modal-note-btn">+ Add Note</button>
+                    </div>
                 </div>
             </div>
         `;
@@ -155,11 +162,21 @@ export class ApplicationScreenDailyLog {
             tbody.innerHTML = '';
             items.forEach((item, i) => {
                 const tr = document.createElement('tr');
-                tr.innerHTML = `
-                    <td><input type="text" class="log-duration-input" value="${item.duration}" placeholder="00:00:00" data-index="${i}"></td>
-                    <td><input type="text" class="log-activity-input" value="${item.activity}" placeholder="Activity…" data-index="${i}"></td>
-                    <td><button class="log-remove-btn" data-index="${i}">✕</button></td>
-                `;
+                if (item.type === 'note') {
+                    tr.innerHTML = `
+                        <td colspan="2"><input type="text" class="log-note-input" value="${escapeAttr(item.text)}" placeholder="Note…" data-index="${i}"></td>
+                        <td><button class="log-remove-btn" data-index="${i}">✕</button></td>
+                    `;
+                } else {
+                    const parts = (item.duration || '00:00:00').split(':');
+                    const h = parseInt(parts[0]) || 0;
+                    const m = parseInt(parts[1]) || 0;
+                    tr.innerHTML = `
+                        <td><input type="number" class="log-hours-input" value="${h}" min="0" data-index="${i}"><span class="log-duration-sep">:</span><input type="number" class="log-minutes-input" value="${m}" min="0" max="59" data-index="${i}"></td>
+                        <td><input type="text" class="log-activity-input" value="${escapeAttr(item.activity)}" placeholder="Activity…" data-index="${i}"></td>
+                        <td><button class="log-remove-btn" data-index="${i}">✕</button></td>
+                    `;
+                }
                 tbody.appendChild(tr);
             });
         };
@@ -168,15 +185,26 @@ export class ApplicationScreenDailyLog {
 
         tbody.addEventListener('change', e => {
             const input = e.target;
-            if (!input.dataset.index) return;
+            if (input.dataset.index === undefined) return;
             const index = parseInt(input.dataset.index);
             const items = DailyLog.getOtherItems(date, this._language);
             if (!items[index]) return;
-            const { duration, activity } = items[index];
-            if (input.classList.contains('log-duration-input')) {
-                DailyLog.updateOtherItem(date, this._language, index, input.value, activity);
+            const item = items[index];
+            if (item.type === 'note') {
+                if (input.classList.contains('log-note-input')) {
+                    DailyLog.updateNoteItem(date, this._language, index, input.value);
+                }
             } else {
-                DailyLog.updateOtherItem(date, this._language, index, duration, input.value);
+                const { duration, activity } = item;
+                if (input.classList.contains('log-hours-input') || input.classList.contains('log-minutes-input')) {
+                    const tr = input.closest('tr');
+                    const h = parseInt(tr.querySelector('.log-hours-input').value) || 0;
+                    const m = parseInt(tr.querySelector('.log-minutes-input').value) || 0;
+                    const newDuration = `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:00`;
+                    DailyLog.updateOtherItem(date, this._language, index, newDuration, activity);
+                } else if (input.classList.contains('log-activity-input')) {
+                    DailyLog.updateOtherItem(date, this._language, index, duration, input.value);
+                }
             }
             this._render();
         });
@@ -190,6 +218,12 @@ export class ApplicationScreenDailyLog {
 
         modal.querySelector('#log-modal-add-btn').addEventListener('click', () => {
             DailyLog.addOther(date, this._language, '00:00:00', '');
+            renderRows();
+            this._render();
+        });
+
+        modal.querySelector('#log-modal-note-btn').addEventListener('click', () => {
+            DailyLog.addNote(date, this._language, '');
             renderRows();
             this._render();
         });

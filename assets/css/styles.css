@@ -264,6 +264,21 @@ a:hover {
     margin-top: 0;
 }
 
+.log-hours-input,
+.log-minutes-input {
+    width: 38px;
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 2px 4px;
+}
+
+.log-duration-sep {
+    font-size: 13px;
+    margin: 0 1px;
+}
+
 .log-duration-input {
     width: 76px;
     font-size: 13px;
@@ -294,8 +309,13 @@ a:hover {
     color: #e55;
 }
 
-.log-modal-add {
+.log-modal-btns {
+    display: flex;
+    gap: 8px;
     margin-top: 10px;
+}
+
+.log-modal-add {
     font-size: 13px;
     cursor: pointer;
     background: none;
@@ -307,6 +327,15 @@ a:hover {
 
 .log-modal-add:hover {
     background: #f5f5f5;
+}
+
+.log-note-input {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 2px 6px;
 }
 
 /* ---------- Divider ---------- */
