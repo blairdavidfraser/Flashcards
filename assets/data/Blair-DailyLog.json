@@ -321,6 +321,27 @@
       "language": "Spanish",
       "direction": "recall",
       "count": 100
+    },
+    {
+      "date": "2026-05-24",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 102
+    },
+    {
+      "date": "2026-05-25",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 203
+    },
+    {
+      "date": "2026-05-25",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 1
     }
   ],
   "other": [
@@ -927,8 +948,56 @@
       "language": "Spanish",
       "items": [
         {
-          "duration": "00:00:00",
-          "activity": ""
+          "duration": "00:42:00",
+          "activity": "https://m.youtube.com/watch?v=rOSRqPnpnjU&pp=0gcJCVMCo7VqN5tD&ra=m"
+        },
+        {
+          "duration": "00:13:00",
+          "activity": "https://m.youtube.com/watch?v=PzAHgCcy8Tc&pp=0gcJCQYLAYcqIYzv&ra=m"
+        },
+        {
+          "duration": "00:39:00",
+          "activity": "https://m.youtube.com/watch?v=kH5nsn3KbtI&ra=m"
+        },
+        {
+          "duration": "00:30:00",
+          "activity": "Dreaming Spanish Podcast"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-25",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:42:00",
+          "activity": "https://m.youtube.com/watch?v=loixW6JwlX8&pp=ygUdZHJlYW1pbmcgc3BhbmlzaCBpbnRlcm1lZGlhdGU%3D&ra=m"
+        },
+        {
+          "duration": "00:14:00",
+          "activity": "https://m.youtube.com/watch?v=7j693AMgFHM&pp=ygUdZHJlYW1pbmcgc3BhbmlzaCBpbnRlcm1lZGlhdGXSBwkJBAsBhyohjO8%3D&ra=m"
+        },
+        {
+          "duration": "00:30:00",
+          "activity": "Conversación con Claude sobre Oaxaca"
+        },
+        {
+          "duration": "00:25:00",
+          "activity": "https://m.youtube.com/watch?v=fpq2SW8a8XA&pp=0gcJCVMCo7VqN5tD&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-26",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:13:00",
+          "activity": "https://m.youtube.com/watch?v=ev1vx1YUAyA&ra=m"
+        },
+        {
+          "duration": "00:15:00",
+          "activity": "https://m.youtube.com/watch?v=DQg8uZRSgJ0&ra=m"
         }
       ]
     }
