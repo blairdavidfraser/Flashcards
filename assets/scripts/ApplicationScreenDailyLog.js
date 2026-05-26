@@ -171,8 +171,10 @@ export class ApplicationScreenDailyLog {
                     const parts = (item.duration || '00:00:00').split(':');
                     const h = parseInt(parts[0]) || 0;
                     const m = parseInt(parts[1]) || 0;
+                    const hVal = h > 0 ? String(h) : '';
+                    const mVal = m > 0 ? String(m) : '';
                     tr.innerHTML = `
-                        <td><input type="number" class="log-hours-input" value="${h}" min="0" data-index="${i}"><span class="log-duration-sep">:</span><input type="number" class="log-minutes-input" value="${m}" min="0" max="59" data-index="${i}"></td>
+                        <td><input type="number" class="log-hours-input" value="${hVal}" placeholder="HH" min="0" data-index="${i}"><span class="log-duration-sep">:</span><input type="number" class="log-minutes-input" value="${mVal}" placeholder="MM" min="0" max="59" data-index="${i}"></td>
                         <td><input type="text" class="log-activity-input" value="${escapeAttr(item.activity)}" placeholder="Activity…" data-index="${i}"></td>
                         <td><button class="log-remove-btn" data-index="${i}">✕</button></td>
                     `;
