@@ -19,6 +19,10 @@
 # category :: string, non-empty, freeform denoting topic of conversation
 #   - Capitalize the first character.
 #
+# favourite :: true or false.
+#   - Marks the card as a favourite for focused study.
+#   - When generating new cards, use false.
+#
 # added :: date in YYYY-MM-DD form, or empty.
 #   - Gives the date on which the card was added to the user's deck.
 #   - When generating new cards, use the current local date for added.
@@ -85,3 +89,16 @@ Ojalá llegue a los últimos kilómetros con energía. | Hopefully I'll reach th
 ¿Te has lesionado alguna vez durante la preparación? | Have you ever gotten injured during training? |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
 Hay que ir a tope desde el principio sin poder guardarse nada. | You have to go all out from the start without being able to hold anything back. |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | ir a tope = to go all out / at full throttle; guardarse algo = to hold something back/in reserve.
 Me lesioné la espalda | I injured my back |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
+
+# In a Restaurant
+
+# In a Hotel
+
+# Shopping
+
+# In a Taxi or bus
+
+# Vacation Tour Guides and Activities
+
+# Small Talk on Vacation
+
