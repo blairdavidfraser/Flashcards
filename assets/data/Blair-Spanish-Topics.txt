@@ -91,8 +91,50 @@ Hay que ir a tope desde el principio sin poder guardarse nada. | You have to go 
 Me lesioné la espalda | I injured my back |  | Running | false | 2026-05-10 | 2026-05-12 | 0 |  | Hard | 
 
 # In a Restaurant
+¿Tienen mesa para dos? | Do you have a table for two? |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+Tenemos reservación a nombre de Blair. | We have a reservation under Blair. |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard | reservación is standard in Mexico; reserva is more common in Spain.
+¿Nos puede traer la carta, por favor? | Could you bring us the menu, please? |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Cuáles son los platillos más típicos de aquí? | What are the most typical dishes here? |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard | platillo = dish; common in Mexico, less so in Spain where plato is preferred.
+¿Qué me recomienda? | What do you recommend? |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Cuál es el especial del día? | What is the daily special? |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Lleva picante? | Does it contain chili / is it spicy? |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard | ¿lleva...? = does it contain...? Natural way to ask about ingredients.
+¿Cómo está preparado este platillo? | How is this dish prepared? |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Me puede explicar qué lleva este platillo? | Can you tell me what's in this dish? |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+Quiero probar algo típico de la región. | I want to try something typical of the region. |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Tienen opciones vegetarianas? | Do you have vegetarian options? |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+Para mí, el mole negro con arroz, por favor. | For me, the black mole with rice, please. |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Nos trae más agua, por favor? | Could you bring us more water, please? |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard | ¿nos trae...? = could you bring us...? Polite and natural.
+¿Me puede traer otro tenedor, por favor? | Could you bring me another fork, please? |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Qué tipo de carne lleva? | What type of meat does it contain? |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+Está muy rico. ¿Cómo se llama este platillo? | This is delicious. What is this dish called? |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard | muy rico = very delicious; common in Mexico. buenísimo also works.
+¿La cuenta incluye el servicio? | Does the bill include service? |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Nos trae la cuenta cuando pueda, por favor? | Could you bring us the bill when you get a chance, please? |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard | cuando pueda = when you can; softens the request naturally.
+¿Aceptan tarjeta de crédito? | Do you accept credit cards? |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Podemos pagar por separado? | Can we pay separately? |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+Disculpe, creo que hay un error en la cuenta. | Excuse me, I think there is an error on the bill. |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+No como carne. ¿Hay algo sin carne? | I don't eat meat. Is there anything without meat? |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+Soy alérgico a los mariscos. | I'm allergic to seafood. |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard | alérgico, o alérgica depending on speaker.
+¿Tienen mesa afuera? Prefiero sentarme fuera. | Do you have a table outside? I prefer to sit outside. |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+Estuvo delicioso. Muchas gracias. | It was delicious. Thank you very much. |  | Restaurant | false | 2026-05-26 | 1970-01-01 | 0 | | Hard | estuvo (preterit) = it was; used for a completed experience. Fue also works but estuvo is more natural here.
 
 # In a Hotel
+# front | back | emoji | category | favourite | added | lastSeen | seen | penalty | level | comment
+Tengo una reservación a nombre de Blair. | I have a reservation under Blair. |  | Hotel | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+Quisiera hacer el check-in, por favor. | I'd like to check in, please. |  | Hotel | false | 2026-05-26 | 1970-01-01 | 0 | | Hard | quisiera = I would like; softer and more polite than quiero.
+¿A qué hora es el check-out? | What time is check-out? |  | Hotel | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Es posible hacer un check-out tardío? | Is a late check-out possible? |  | Hotel | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿El desayuno está incluido? | Is breakfast included? |  | Hotel | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Tienen wifi? ¿Cuál es la contraseña? | Do you have wifi? What is the password? |  | Hotel | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Me puede llamar un taxi para mañana a las ocho? | Could you call me a taxi for tomorrow at eight? |  | Hotel | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+Hay un problema con la habitación. | There is a problem with the room. |  | Hotel | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+El aire acondicionado no funciona. | The air conditioning isn't working. |  | Hotel | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Me puede dar más toallas, por favor? | Could you give me more towels, please? |  | Hotel | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Tienen una caja fuerte en la habitación? | Is there a safe in the room? |  | Hotel | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Pueden guardar mi equipaje hasta la tarde? | Can you store my luggage until this afternoon? |  | Hotel | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Dónde puedo cambiar dinero cerca de aquí? | Where can I exchange money near here? |  | Hotel | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Tienen un mapa de la ciudad? | Do you have a map of the city? |  | Hotel | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+Quisiera pagar con tarjeta. | I'd like to pay by card. |  | Hotel | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Me puede dar un recibo, por favor? | Could you give me a receipt, please? |  | Hotel | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
 
 # Shopping
 
@@ -101,4 +143,29 @@ Me lesioné la espalda | I injured my back |  | Running | false | 2026-05-10 | 2
 # Vacation Tour Guides and Activities
 
 # Small Talk on Vacation
+Soy canadiense, de Toronto. | I'm Canadian, from Toronto. |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+Estoy aquí de vacaciones por una semana. | I'm here on vacation for a week. |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+Es la primera vez que vengo a México. | It's my first time coming to Mexico. |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+Ya había visitado México antes, pero nunca esta región. | I had visited Mexico before, but never this region. |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+Estoy aprendiendo español. Todavía me falta mucho. | I'm learning Spanish. I still have a long way to go. |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard | me falta mucho = I have a lot left to go; natural and humble.
+Entiendo bastante bien, pero me cuesta hablar rápido. | I understand fairly well, but speaking fast is hard for me. |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Me puede hablar un poco más despacio, por favor? | Could you speak a little more slowly, please? |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Cómo se dice esto en español? | How do you say this in Spanish? |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+Perdón, no entendí bien. ¿Lo puede repetir? | Sorry, I didn't quite understand. Could you repeat that? |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+Me encanta este lugar. La gente es muy amable. | I love this place. The people are very friendly. |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+La comida aquí es increíble. No me esperaba que fuera tan buena. | The food here is incredible. I didn't expect it to be this good. |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Qué me recomienda visitar por aquí? | What do you recommend visiting around here? |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Vale la pena ir al mercado por la mañana? | Is it worth going to the market in the morning? |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Hay algo que no me deba perder antes de irme? | Is there anything I shouldn't miss before I leave? |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿A qué distancia está el centro desde aquí? | How far is the centre from here? |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+Trabajo en tecnología, en una empresa en Toronto. | I work in technology, at a company in Toronto. |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+También me gusta correr. Salgo a correr casi todos los días. | I also like running. I go running almost every day. |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Hay un buen lugar para correr cerca de aquí? | Is there a good place to run near here? |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+En Toronto hace mucho frío en invierno. Por eso me gusta viajar en esta época. | In Toronto it gets very cold in winter. That's why I like to travel at this time of year. |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Usted es de aquí? ¿Nació en esta ciudad? | Are you from here? Were you born in this city? |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Cómo es el clima aquí en esta época del año? | What is the weather like here at this time of year? |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+Ha sido un viaje increíble. Me voy con muy buenos recuerdos. | It's been an incredible trip. I'm leaving with very good memories. |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+Ojalá pueda volver pronto. | Hopefully I can come back soon. |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard | ojalá = hopefully / I hope; from Arabic inshallah, used constantly in Spanish.
+Muchas gracias por todo. Ha sido un placer. | Thank you very much for everything. It's been a pleasure. |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard |
+¿Me puedo tomar una foto aquí? | Can I take a photo here? |  | Small Talk | false | 2026-05-26 | 1970-01-01 | 0 | | Hard | tomarse una foto = to take a photo of oneself / here; natural in Latin American Spanish.
 
