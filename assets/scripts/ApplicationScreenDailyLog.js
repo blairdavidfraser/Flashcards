@@ -169,10 +169,11 @@ export class ApplicationScreenDailyLog {
                     `;
                 } else {
                     const parts = (item.duration || '00:00:00').split(':');
+                    const isNew = !item.duration;
                     const h = parseInt(parts[0]) || 0;
                     const m = parseInt(parts[1]) || 0;
-                    const hVal = h > 0 ? String(h) : '';
-                    const mVal = m > 0 ? String(m) : '';
+                    const hVal = isNew ? '' : String(h);
+                    const mVal = isNew ? '' : String(m);
                     tr.innerHTML = `
                         <td><input type="number" class="log-hours-input" value="${hVal}" placeholder="HH" min="0" data-index="${i}"><span class="log-duration-sep">:</span><input type="number" class="log-minutes-input" value="${mVal}" placeholder="MM" min="0" max="59" data-index="${i}"></td>
                         <td><input type="text" class="log-activity-input" value="${escapeAttr(item.activity)}" placeholder="Activity…" data-index="${i}"></td>
@@ -219,7 +220,7 @@ export class ApplicationScreenDailyLog {
         });
 
         modal.querySelector('#log-modal-add-btn').addEventListener('click', () => {
-            DailyLog.addOther(date, this._language, '00:00:00', '');
+            DailyLog.addOther(date, this._language, '', '');
             renderRows();
             this._render();
         });
