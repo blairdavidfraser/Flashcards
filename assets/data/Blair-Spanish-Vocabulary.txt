@@ -769,6 +769,7 @@ parar | to stop |  | Verb | false | 2026-03-26 | 2026-05-09 | 5 | 0.6002 | Easy 
 pasar | to pass / happen |  | Verb | false | 2026-03-26 | 2026-04-18 | 1 | 0.0000 | Core | 
 patinar | to skate |  | Verb | false | 2026-03-26 | 2026-05-09 | 4 | 0.4000 | Easy | 
 perder | to lose |  | Verb | false | 2026-02-23 | 2026-03-01 | 4 | 2.5000 | Easy | 
+perderse | to get lost / to miss out on something |  | Verb | false | 2026-05-26 | 1970-01-01 | 0 |  | Hard | Two meanings: perderse en la calle = to get lost; no te lo puedes perder = you can't miss it.
 pertenecer (a) | to belong (to) |  | Verb | false | 2026-03-05 | 2026-05-09 | 18 | 0.3501 | Easy | 
 pintar | to paint |  | Verb | false | 2026-03-26 | 2026-04-10 | 3 | -1.0000 | Easy | 
 planeo + infinitivo | I plan to (do something) |  | Verb | false | 2026-05-07 | 2026-05-09 | 1 | 0.0000 | Core | 
@@ -1218,3 +1219,6 @@ estoy deseando... | I'm looking forward to... |  | Conversational | false | 2026
 Qué raro, ¿no? | That’s weird, right? |  | Conversational | true | 2026-03-15 | 2026-05-17 | 7 | 0.2353 | Core | 
 Llevar la cuenta | To keep track |  | Conversational | true | 2026-03-15 | 2026-05-17 | 6 | 0.3361 | Core | 
 Ya veremos | We’ll see / no commitment |  | Conversational | true | 2026-03-12 | 2026-05-17 | 8 | 0.6804 | Core | 
+No te lo puedes perder. | You can't miss it, |  | Conversational | false | 2026-05-26 | 1970-01-01 | 0 |  | Hard | 
+Va a haber... | There is going to be... |  | Conversational | false | 2026-05-26 | 1970-01-01 | 0 |  | Hard | Immediate future of 'hay'.
+Llegar justo cuando... | To arrive just as... / To show up right when... |  | Conversational | false | 2026-05-26 | 1970-01-01 | 0 |  | Hard | 
