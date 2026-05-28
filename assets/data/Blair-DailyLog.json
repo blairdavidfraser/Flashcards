@@ -342,6 +342,27 @@
       "language": "Spanish",
       "direction": "recall",
       "count": 1
+    },
+    {
+      "date": "2026-05-26",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 208
+    },
+    {
+      "date": "2026-05-27",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 201
+    },
+    {
+      "date": "2026-05-28",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 99
     }
   ],
   "other": [
@@ -998,6 +1019,74 @@
         {
           "duration": "00:15:00",
           "activity": "https://m.youtube.com/watch?v=DQg8uZRSgJ0&ra=m"
+        },
+        {
+          "duration": "00:13:00",
+          "activity": "https://m.youtube.com/watch?v=lK0SL9TMMy0&ra=m"
+        },
+        {
+          "duration": "00:22:00",
+          "activity": "https://m.youtube.com/watch?v=0kS55Qthn-o&list=PLlpPf-YgbU7Gssxi9f72cZktgOb4Vpdoy&index=6&pp=iAQB&ra=m"
+        },
+        {
+          "duration": "00:35:00",
+          "activity": "https://m.youtube.com/watch?v=_MzvNM8IIsw&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:14:00",
+          "activity": "https://m.youtube.com/watch?v=kvJEn1JsB4c&list=PLlpPf-YgbU7Gssxi9f72cZktgOb4Vpdoy&index=7&pp=iAQB&ra=m"
+        },
+        {
+          "duration": "00:06:00",
+          "activity": "https://m.youtube.com/watch?v=IFx8eABfivg&ra=m"
+        },
+        {
+          "duration": "00:14:00",
+          "activity": "https://m.youtube.com/watch?v=RWo2MYVUPzM&list=PLlpPf-YgbU7Gssxi9f72cZktgOb4Vpdoy&index=13&t=5s&pp=iAQB&ra=m"
+        },
+        {
+          "duration": "00:08:00",
+          "activity": "https://m.youtube.com/watch?v=RwHF_EvjkHs&pp=ygUJSW5lc2dhdG9v&ra=m"
+        },
+        {
+          "duration": "00:10:00",
+          "activity": "https://m.youtube.com/watch?v=Lqs4fG5Io6I&pp=ugUEEgJlc9IHCQkNCwGHKiGM7w%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-28",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:05:00",
+          "activity": "https://m.youtube.com/watch?v=yHAVjuVtJ-4&list=PLlpPf-YgbU7EDirU0cmpLnrXEAkvOVZCB&index=1&pp=iAQB&ra=m"
+        },
+        {
+          "duration": "00:15:00",
+          "activity": "https://m.youtube.com/watch?v=C4GVCcRZhJo&ra=m"
+        },
+        {
+          "duration": "00:15:00",
+          "activity": "https://m.youtube.com/watch?v=Q1bGgtzKfgM&ra=m"
+        },
+        {
+          "duration": "00:22:00",
+          "activity": "https://m.youtube.com/watch?v=Y2rDtGTE4kA&ra=m"
+        },
+        {
+          "duration": "00:14:00",
+          "activity": "https://m.youtube.com/watch?v=49ntvrDU_Sw&list=PLlpPf-YgbU7Gssxi9f72cZktgOb4Vpdoy&index=12&pp=iAQB&ra=m"
+        },
+        {
+          "duration": "00:25:00",
+          "activity": "https://m.youtube.com/watch?v=nVAP0GYxAs4&list=PLlpPf-YgbU7Gssxi9f72cZktgOb4Vpdoy&index=15&pp=iAQB&ra=m"
         }
       ]
     }
