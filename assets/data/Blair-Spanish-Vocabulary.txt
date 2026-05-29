@@ -666,6 +666,7 @@ cenar | to have dinner |  | Verb | false | 2026-03-26 | 2026-04-10 | 1 | -1.0000
 cerrar | to close |  | Verb | false | 2026-02-23 | 2026-03-01 | 2 | 3.0000 | Easy | 
 cocinar | to cook | 👨‍🍳 | Verb | false | 2026-02-28 | 2026-03-02 | 4 | 2.2500 | Easy | 
 colocar | to place / put |  | Verb | false | 2026-03-26 | 2026-05-09 | 5 | 0.3860 | Easy | 
+compartir | to share | | Verb | false | 2026-05-29 | 1970-01-01 | 0 | | Hard |
 comprar | to buy |  | Verb | false | 2026-02-23 | 2026-02-28 | 5 | 2.0000 | Easy | 
 comprender | to understand |  | Verb | false | 2026-03-26 | 2026-05-09 | 5 | 0.1802 | Easy | 
 comprobar | to check / verify | ✔️ | Verb | false | 2026-02-28 | 2026-03-16 | 15 | 0.2700 | Core | 
