@@ -46,10 +46,12 @@ export class Card {
 
         // Difficulty is converted to zero-based measure and blended
         // with existing penalty using exponential moving average.
+        // Clamped to 0 so that rating Easy (difficulty=0) decays toward 0, never negative.
         const alpha = 0.3; // Weight of the new result
+        const contribution = Math.max(0, difficulty - 1);
         this.penalty = this.penalty == null
-            ? (difficulty - 1) // Just zero-based difficulty on first rating.
-            : (1 - alpha) * this.penalty + alpha * (difficulty - 1); // Weighted average
+            ? contribution
+            : (1 - alpha) * this.penalty + alpha * contribution;
     }
 
     rankName() {
