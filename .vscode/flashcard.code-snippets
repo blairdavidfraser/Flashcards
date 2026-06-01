@@ -1,6 +1,6 @@
 {
     "New Flashcard Row": {
-        "prefix": "||",
+        "prefix": "blank",
         "body": "$1 | $2 | | $3 | false | $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE | 1970-01-01 | 0 | | Hard |",
         "description": "Insert a new blank flashcard row"
     }

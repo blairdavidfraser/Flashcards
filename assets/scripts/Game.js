@@ -112,9 +112,10 @@ export class Game {
                 break;
 
             case 'normal': {
-                // Normal picks non-easy cards, but limits the number of hard cards to max 10.
-                const hard = this.#filterByRank(this.#enabled, 'hard', 10);
                 const normal = this.#filterByRank(this.#enabled, 'normal');
+                const twos = normal.filter(c => c.penalty === null || c.penalty >= 2.0).length;
+                const hardLimit = Math.max(0, 10 - twos);
+                const hard = this.#filterByRank(this.#enabled, 'hard', hardLimit);
                 this.#enabled = hard.concat(normal);
                 break;
             }
@@ -172,8 +173,9 @@ export class Game {
         base = base.filter(c => !this.configuration.onlyFavourites || c.favourite === true);
         const cold = base.filter(c => c.isCold()).length;
         base = base.filter(c => !c.isCold());
-        const hard = this.#filterByRank(base, 'hard', 10);
         const normal = this.#filterByRank(base, 'normal');
+        const twos = normal.filter(c => c.penalty === null || c.penalty >= 2.0).length;
+        const hard = this.#filterByRank(base, 'hard', Math.max(0, 10 - twos));
         return {
             normal: hard.concat(normal).length,
             new:    this.#filterByRank(base, 'new').length,
