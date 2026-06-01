@@ -362,7 +362,35 @@
       "name": "Verbs",
       "language": "Spanish",
       "direction": "recall",
-      "count": 99
+      "count": 246
+    },
+    {
+      "date": "2026-05-29",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 225
+    },
+    {
+      "date": "2026-05-30",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 298
+    },
+    {
+      "date": "2026-05-31",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 138
+    },
+    {
+      "date": "2026-05-31",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 125
     }
   ],
   "other": [
@@ -1087,6 +1115,68 @@
         {
           "duration": "00:25:00",
           "activity": "https://m.youtube.com/watch?v=nVAP0GYxAs4&list=PLlpPf-YgbU7Gssxi9f72cZktgOb4Vpdoy&index=15&pp=iAQB&ra=m"
+        },
+        {
+          "duration": "00:09:00",
+          "activity": "https://m.youtube.com/watch?v=R3dlOkRtEAE&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-29",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:25:00",
+          "activity": "https://m.youtube.com/watch?v=ScMA7AJwmwA&pp=ugUHEgVlcy1FUw%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-30",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:45:00",
+          "activity": "https://m.youtube.com/watch?v=1BO_Qb-hkyA&list=PLlpPf-YgbU7Gssxi9f72cZktgOb4Vpdoy&index=4&pp=iAQB&ra=m"
+        },
+        {
+          "duration": "00:10:00",
+          "activity": "https://m.youtube.com/watch?v=2Ng5mAXO8AI&ra=m"
+        },
+        {
+          "duration": "00:13:00",
+          "activity": "https://m.youtube.com/watch?v=Y8pSVHVBJf8&pp=ygUdZHJlYW1pbmcgc3BhbmlzaCBpbnRlcm1lZGlhdGU%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-31",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:12:00",
+          "activity": "https://m.youtube.com/watch?v=HoppAdSpwAM&pp=ygUQdW4gbXVuZG8gaW5tZW5zb9IHCQkjCwGHKiGM7w%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:12:00",
+          "activity": "https://m.youtube.com/watch?v=YwKDmUNpOt0&pp=ugUEEgJlcw%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:24:00",
+          "activity": "https://m.youtube.com/watch?v=PCdccX5szj8&ra=m"
+        },
+        {
+          "duration": "00:26:00",
+          "activity": "https://m.youtube.com/watch?v=F6tvbN-O7tQ&ra=m"
+        },
+        {
+          "duration": "00:25:00",
+          "activity": "https://m.youtube.com/watch?v=c9HyGQ-ON68&ra=m"
+        },
+        {
+          "duration": "00:24:00",
+          "activity": "https://m.youtube.com/watch?v=NMv7fQvlqO4&ra=m"
         }
       ]
     }
