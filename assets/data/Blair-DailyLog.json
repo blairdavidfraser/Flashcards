@@ -391,6 +391,83 @@
       "language": "Spanish",
       "direction": "recall",
       "count": 125
+    },
+    {
+      "date": "2026-06-01",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 28
+    },
+    {
+      "date": "2026-06-01",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 521
+    },
+    {
+      "date": "2026-06-02",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 222
+    },
+    {
+      "date": "2026-06-02",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 49
+    },
+    {
+      "date": "2026-06-03",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 290
+    },
+    {
+      "date": "2026-06-04",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 22
+    },
+    {
+      "date": "2026-06-04",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 221
+    },
+    {
+      "date": "2026-06-05",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 227
+    },
+    {
+      "date": "2026-06-06",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 96
+    },
+    {
+      "date": "2026-06-07",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 45
+    },
+    {
+      "date": "2026-06-07",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 12
     }
   ],
   "other": [
@@ -1177,6 +1254,152 @@
         {
           "duration": "00:24:00",
           "activity": "https://m.youtube.com/watch?v=NMv7fQvlqO4&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:12:00",
+          "activity": "https://m.youtube.com/watch?v=nr92bacH81M&pp=0gcJCQ0LAYcqIYzv&ra=m"
+        },
+        {
+          "duration": "00:18:00",
+          "activity": "https://m.youtube.com/watch?v=VT0mN0IBpnY&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:22:00",
+          "activity": "https://m.youtube.com/watch?v=Ei7SAf-hOCg&ra=m"
+        },
+        {
+          "duration": "00:45:00",
+          "activity": "Dos capítulos de Historias de Puerto Rico "
+        },
+        {
+          "duration": "00:08:00",
+          "activity": "https://m.youtube.com/watch?v=Yioq1UCEjQo&pp=ugUEEgJlcw%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-03",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:14:00",
+          "activity": "https://m.youtube.com/watch?v=NuJKdXaWCPM&pp=ygUdZHJlYW1pbmcgc3BhbmlzaCBpbnRlcm1lZGlhdGU%3D&ra=m"
+        },
+        {
+          "duration": "00:22:00",
+          "activity": "https://m.youtube.com/watch?v=ZOtAKHUcGPU&pp=0gcJCSgLAYcqIYzv&ra=m"
+        },
+        {
+          "duration": "00:24:00",
+          "activity": "https://m.youtube.com/watch?v=KC2fwiWkYSE&pp=0gcJCSgLAYcqIYzv&ra=m"
+        },
+        {
+          "duration": "00:20:00",
+          "activity": "Conversación con Claude"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-04",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:10:00",
+          "activity": "https://m.youtube.com/watch?v=TbbIvi8ZXkQ&ra=m"
+        },
+        {
+          "duration": "00:25:00",
+          "activity": "Un capítulo de Historias de Puerto Rico "
+        },
+        {
+          "duration": "00:25:00",
+          "activity": "https://m.youtube.com/watch?v=cVy-lqd8NG8&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-05",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:15:00",
+          "activity": "Conversación con Claude"
+        },
+        {
+          "duration": "00:25:00",
+          "activity": "https://m.youtube.com/watch?v=kGG-g4Mxv10&ra=m"
+        },
+        {
+          "duration": "00:25:00",
+          "activity": "https://m.youtube.com/watch?v=WOMMP5HLvOI&pp=0gcJCTgLAYcqIYzv&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-06",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:06:00",
+          "activity": "https://m.youtube.com/watch?v=iHw8SPvlPnM&ra=m"
+        },
+        {
+          "duration": "00:09:00",
+          "activity": "https://m.youtube.com/watch?v=RtgyuG4FPxQ&pp=ugUEEgJlc9IHCQkoCwGHKiGM7w%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:45:00",
+          "activity": "Tres capítulos de Historias de Puerto Rico "
+        },
+        {
+          "duration": "00:10:00",
+          "activity": "Conversación con Claude"
+        },
+        {
+          "duration": "00:08:00",
+          "activity": "https://m.youtube.com/watch?v=9nj9ykYnNro&ra=m"
+        },
+        {
+          "duration": "00:25:00",
+          "activity": "https://m.youtube.com/watch?v=-mUgLsE-RHo&ra=m"
+        },
+        {
+          "duration": "00:23:00",
+          "activity": "https://m.youtube.com/watch?v=KqJV_jhxZuc&ra=m"
+        },
+        {
+          "duration": "01:00:00",
+          "activity": "Tres más capítulos de Historias de Puerto Rico "
+        },
+        {
+          "duration": "01:30:00",
+          "activity": "Cinco más capítulos de Historias de Puerto Tico"
+        },
+        {
+          "duration": "00:37:00",
+          "activity": "https://m.youtube.com/watch?v=tFjxvVBQ7Wc&pp=ugUEEgJlcw%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:07:00",
+          "activity": "https://m.youtube.com/watch?v=uNvbCDU5Hyc&pp=ugUEEgJlcw%3D%3D&ra=m"
         }
       ]
     }
