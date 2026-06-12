@@ -112,10 +112,11 @@ export class Game {
                 break;
 
             case 'normal': {
+                const threshold = 1.8; // Threshold for struggle cards, which are ranked as normal but have a penalty of 1.8 or higher.
                 const normal = this.#filterByRank(this.#enabled, 'normal');
-                const twos = normal.filter(c => c.penalty === null || c.penalty >= 2.0).length;
-                const hardLimit = Math.max(0, 10 - twos);
-                const hard = this.#filterByRank(this.#enabled, 'hard', hardLimit);
+                const struggle = normal.filter(c => c.penalty === null || c.penalty >= threshold).length;
+                const additional = Math.max(0, 10 - struggle);
+                const hard = this.#filterByRank(this.#enabled, 'hard', additional);
                 this.#enabled = hard.concat(normal);
                 break;
             }
@@ -178,10 +179,10 @@ export class Game {
         const hard = this.#filterByRank(base, 'hard', Math.max(0, 10 - twos));
         return {
             normal: hard.concat(normal).length,
-            new:    this.#filterByRank(base, 'new').length,
-            hard:   this.#filterByRank(base, 'hard').length,
+            new: this.#filterByRank(base, 'new').length,
+            hard: this.#filterByRank(base, 'hard').length,
             review: this.#filterByRank(base, 'review').length,
-            all:    base.length,
+            all: base.length,
             cold,
         };
     }
