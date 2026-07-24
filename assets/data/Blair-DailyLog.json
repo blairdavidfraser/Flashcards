@@ -468,6 +468,279 @@
       "language": "Spanish",
       "direction": "recall",
       "count": 12
+    },
+    {
+      "date": "2026-06-08",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 33
+    },
+    {
+      "date": "2026-06-09",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 37
+    },
+    {
+      "date": "2026-06-10",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 61
+    },
+    {
+      "date": "2026-06-10",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 91
+    },
+    {
+      "date": "2026-06-11",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 27
+    },
+    {
+      "date": "2026-06-12",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 15
+    },
+    {
+      "date": "2026-06-12",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 157
+    },
+    {
+      "date": "2026-06-14",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 3
+    },
+    {
+      "date": "2026-06-15",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 22
+    },
+    {
+      "date": "2026-06-15",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 34
+    },
+    {
+      "date": "2026-06-16",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 13
+    },
+    {
+      "date": "2026-06-16",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 58
+    },
+    {
+      "date": "2026-06-17",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 16
+    },
+    {
+      "date": "2026-06-18",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 18
+    },
+    {
+      "date": "2026-06-18",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 104
+    },
+    {
+      "date": "2026-06-19",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 16
+    },
+    {
+      "date": "2026-06-20",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 5
+    },
+    {
+      "date": "2026-06-21",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 11
+    },
+    {
+      "date": "2026-06-24",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 8
+    },
+    {
+      "date": "2026-06-25",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 14
+    },
+    {
+      "date": "2026-06-27",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 100
+    },
+    {
+      "date": "2026-06-28",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 5
+    },
+    {
+      "date": "2026-06-30",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 5
+    },
+    {
+      "date": "2026-06-30",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 27
+    },
+    {
+      "date": "2026-07-03",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 7
+    },
+    {
+      "date": "2026-07-04",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 8
+    },
+    {
+      "date": "2026-07-05",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 18
+    },
+    {
+      "date": "2026-07-05",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 12
+    },
+    {
+      "date": "2026-07-06",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 22
+    },
+    {
+      "date": "2026-07-14",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 15
+    },
+    {
+      "date": "2026-07-15",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 44
+    },
+    {
+      "date": "2026-07-16",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 18
+    },
+    {
+      "date": "2026-07-17",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 19
+    },
+    {
+      "date": "2026-07-18",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 103
+    },
+    {
+      "date": "2026-07-19",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 91
+    },
+    {
+      "date": "2026-07-20",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 58
+    },
+    {
+      "date": "2026-07-22",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 103
+    },
+    {
+      "date": "2026-07-23",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 139
+    },
+    {
+      "date": "2026-07-24",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 20
     }
   ],
   "other": [
@@ -1400,6 +1673,596 @@
         {
           "duration": "00:07:00",
           "activity": "https://m.youtube.com/watch?v=uNvbCDU5Hyc&pp=ugUEEgJlcw%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-08",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:10:00",
+          "activity": "https://m.youtube.com/watch?v=0TnonEm3Dek&pp=ugUEEgJlcw%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:21:00",
+          "activity": "https://m.youtube.com/watch?v=0IXGVpcrKSE&ra=m"
+        },
+        {
+          "duration": "00:22:00",
+          "activity": "https://m.youtube.com/watch?v=9NcQ-hNKc-E&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-10",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:09:00",
+          "activity": "https://m.youtube.com/watch?v=K7I2iKMXIIo&ra=m"
+        },
+        {
+          "duration": "00:24:00",
+          "activity": "https://m.youtube.com/watch?v=Qzr8W8WqhRc&ra=m"
+        },
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=K7I2iKMXIIo&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-11",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:09:00",
+          "activity": "https://m.youtube.com/watch?v=_FF0KHCS1Lc&pp=ygUdZHJlYW1pbmcgc3BhbmlzaCBpbnRlcm1lZGlhdGU%3D&ra=m"
+        },
+        {
+          "duration": "00:22:00",
+          "activity": "https://m.youtube.com/watch?v=QsaFDzja-oE&t=381s&ra=m"
+        },
+        {
+          "duration": "00:27:00",
+          "activity": "https://m.youtube.com/watch?v=TMyaj5iz03s&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:23:00",
+          "activity": "https://m.youtube.com/watch?v=J8vsqoePgwo&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-13",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:22:00",
+          "activity": "https://m.youtube.com/watch?v=nT76bpP_25I&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=5Hp0uQm_ryQ&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-16",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:11:00",
+          "activity": "https://m.youtube.com/watch?v=Ngd2UmcK3cU&pp=ygUdZHJlYW1pbmcgc3BhbmlzaCBpbnRlcm1lZGlhdGU%3D&ra=m"
+        },
+        {
+          "duration": "00:15:00",
+          "activity": "https://m.youtube.com/watch?v=YmtcziU3M60&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-17",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:06:00",
+          "activity": "https://m.youtube.com/watch?v=9yTYjahUAsE&ra=m"
+        },
+        {
+          "duration": "00:22:00",
+          "activity": "https://m.youtube.com/watch?v=5IgF4Z9J2S8&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:19:00",
+          "activity": "https://m.youtube.com/watch?v=qaXTMcR3c_0&pp=ygUdZHJlYW1pbmcgc3BhbmlzaCBpbnRlcm1lZGlhdGU%3D&ra=m"
+        },
+        {
+          "duration": "00:24:00",
+          "activity": "https://m.youtube.com/watch?v=pYHQfAczO2E&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-21",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:16:00",
+          "activity": "https://m.youtube.com/watch?v=ah3GH6fDq3E&pp=ygUdZHJlYW1pbmcgc3BhbmlzaCBpbnRlcm1lZGlhdGU%3D&ra=m"
+        },
+        {
+          "duration": "00:16:00",
+          "activity": "https://m.youtube.com/watch?v=uFi54MHKW18&ra=m"
+        },
+        {
+          "duration": "00:17:00",
+          "activity": "https://m.youtube.com/watch?v=tq7jqOM5vhM&ra=m"
+        },
+        {
+          "duration": "00:30:00",
+          "activity": "Leyendo “El Príncipe de la Niebla”"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-22",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        },
+        {
+          "duration": "00:30:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        },
+        {
+          "duration": "00:16:00",
+          "activity": "https://m.youtube.com/watch?v=5ttnIQaNt0M&ra=m"
+        },
+        {
+          "duration": "00:12:00",
+          "activity": "https://m.youtube.com/watch?v=iJeXQJLexSM&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-23",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:45:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-24",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        },
+        {
+          "duration": "00:26:00",
+          "activity": "https://m.youtube.com/watch?v=ov2Q5uEuB-w&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-25",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=FkwDADt2yRM&ra=m"
+        },
+        {
+          "duration": "00:13:00",
+          "activity": "https://m.youtube.com/watch?v=XksTjJ2E5TA&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=gcciW31ZKO0&ra=m"
+        },
+        {
+          "duration": "00:10:00",
+          "activity": "https://m.youtube.com/watch?v=b3gaX0-ZMmk&pp=ygUdZHJlYW1pbmcgc3BhbmlzaCBpbnRlcm1lZGlhdGU%3D&ra=m"
+        },
+        {
+          "duration": "00:30:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:25:00",
+          "activity": "https://m.youtube.com/watch?v=gcciW31ZKO0&ra=m"
+        },
+        {
+          "duration": "00:17:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=6a39567509d2527916e041a7"
+        },
+        {
+          "duration": "00:31:00",
+          "activity": "https://m.youtube.com/watch?v=cHe8iDfCgL8&time_continue=1875&source_ve_path=NzY3NTg&embeds_referring_euri=https%3A%2F%2Fapp.dreaming.com%2F&embeds_referring_origin=https%3A%2F%2Fapp.dreaming.com"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-29",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:25:00",
+          "activity": "https://m.youtube.com/watch?v=jMz1mXcxQrE&time_continue=1680&source_ve_path=NzY3NTg&embeds_referring_euri=https%3A%2F%2Fapp.dreaming.com%2F&embeds_referring_origin=https%3A%2F%2Fapp.dreaming.com"
+        },
+        {
+          "duration": "00:10:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=68dcb837e7b66772ed57d340"
+        },
+        {
+          "duration": "00:17:00",
+          "activity": "https://app.dreaming.com/spanish/watch?series=69437418b0b7b6f887702dc8&episode=68e4c047e7b66772ed57d3b0"
+        },
+        {
+          "duration": "00:24:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=667fe92a1f92fed6c81de914"
+        },
+        {
+          "duration": "00:30:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:24:00",
+          "activity": "https://app.dreaming.com/spanish/watch?series=66efb09e2c9b7a493680c688&episode=66759534c71c8668574a975c"
+        },
+        {
+          "duration": "00:14:00",
+          "activity": "https://m.youtube.com/watch?v=Rinvb8uP4Mo&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-01",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:19:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=6619499a9df495846d5700d1"
+        },
+        {
+          "duration": "00:37:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=6a3b8c7709d2527916e041bc"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-02",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:08:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=6a423db809d2527916e041f1"
+        },
+        {
+          "duration": "00:34:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=6a391aae09d2527916e0419e"
+        },
+        {
+          "duration": "00:30:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:20:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=69e9cc75add1079282768f36"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:25:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=6a330a1309d2527916e0417d"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-05",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:31:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=69dcb3f2b0b7b6f88770385d"
+        },
+        {
+          "duration": "00:22:00",
+          "activity": "https://m.youtube.com/watch?v=BJHKFp32CTs&pp=ygUUSW50ZXJtZWRpYXRlIGFwYW5pc2g%3D&ra=m"
+        },
+        {
+          "duration": "00:12:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=698de8bdb0b7b6f8877034c1"
+        },
+        {
+          "duration": "00:30:00",
+          "activity": "https://m.youtube.com/watch?v=Era7YE2tjyk&pp=ugUEEgJlcw%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:10:00",
+          "activity": "https://m.youtube.com/watch?v=oe9ZGRm-GyE&ra=m"
+        },
+        {
+          "duration": "00:45:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-07",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:20:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        },
+        {
+          "duration": "00:10:00",
+          "activity": "https://m.youtube.com/watch?v=4Lj6Kul4FVQ&ra=m"
+        },
+        {
+          "duration": "00:20:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:08:00",
+          "activity": "https://m.youtube.com/watch?v=ZkUs8TFCyq4&pp=ugUEEgJlcw%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-13",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:25:00",
+          "activity": "https://m.youtube.com/watch?v=v8ZV9aW2DXY&pp=ygUdZHJlYW1pbmcgc3BhbmlzaCBpbnRlcm1lZGlhdGU%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:12:00",
+          "activity": "https://m.youtube.com/watch?v=9iJpyvC06HQ&pp=ygUdZHJlYW1pbmcgc3BhbmlzaCBpbnRlcm1lZGlhdGU%3D&ra=m"
+        },
+        {
+          "duration": "00:30:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        },
+        {
+          "duration": "00:13:00",
+          "activity": "https://m.youtube.com/watch?v=mZYkySWI968&pp=ygUdZHJlYW1pbmcgc3BhbmlzaCBpbnRlcm1lZGlhdGU%3D&ra=m"
+        },
+        {
+          "duration": "00:09:00",
+          "activity": "https://m.youtube.com/watch?v=GgdiYy0Oc-c&pp=ugUEEgJlcw%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:36:00",
+          "activity": "https://m.youtube.com/watch?v=7tel4Bqtrrs&pp=ygUUaW50ZXJtZWRpYXRlIHNwYW5pc2jSBwkJUQsBhyohjO8%3D&ra=m"
+        },
+        {
+          "duration": "00:30:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:16:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=69d67692b0b7b6f887703825"
+        },
+        {
+          "duration": "00:35:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=69ce7a6eb0b7b6f8877037ee"
+        },
+        {
+          "duration": "00:28:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=69c288e8b0b7b6f8877036c9"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-17",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:29:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=6a4e6160d10e9bd063ed613c"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-18",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
+          "activity": "Forgot to log"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=69c288e8b0b7b6f8877036c9"
+        },
+        {
+          "duration": "00:22:00",
+          "activity": "https://m.youtube.com/watch?v=hSHKAw_ZHpU&pp=ygUUaW50ZXJtZWRpYXRlIHNwYW5pc2g%3D&ra=m"
+        },
+        {
+          "duration": "00:27:00",
+          "activity": "https://m.youtube.com/watch?v=GAJOV3ypr20&ra=m"
+        },
+        {
+          "duration": "00:30:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        },
+        {
+          "duration": "00:22:00",
+          "activity": "https://m.youtube.com/watch?v=T6yB2KeVJUI&ra=m"
+        },
+        {
+          "duration": "00:30:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:23:00",
+          "activity": "https://m.youtube.com/watch?v=SUCbgr2XFLo&ra=m"
+        },
+        {
+          "duration": "00:30:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        },
+        {
+          "duration": "00:32:00",
+          "activity": "https://m.youtube.com/watch?v=cT13_uxolXU&ra=m"
+        },
+        {
+          "duration": "00:20:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        },
+        {
+          "duration": "00:26:00",
+          "activity": "https://m.youtube.com/watch?v=rV10s1STxIQ&ra=m"
+        },
+        {
+          "duration": "00:20:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
         }
       ]
     }
