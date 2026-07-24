@@ -255,8 +255,12 @@ export class ApplicationScreenDailyLog {
             setTimeout(() => { btn.textContent = '⬆ GitHub'; }, 2500);
         } catch (e) {
             btn.textContent = '✗ Failed';
-            alert(`GitHub push failed: ${e.message}`);
             setTimeout(() => { btn.textContent = '⬆ GitHub'; }, 2500);
+            if (e.status === 401) {
+                this._showGitHubConfigModal();
+            } else {
+                alert(`GitHub push failed: ${e.message}`);
+            }
         }
     }
 

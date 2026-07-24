@@ -50,6 +50,8 @@ export class GitHubService {
         const getResponse = await fetch(url, { headers });
         if (getResponse.ok) {
             sha = (await getResponse.json()).sha;
+        } else if (getResponse.status === 401) {
+            throw Object.assign(new Error('GitHub token is invalid or expired'), { status: 401 });
         } else if (getResponse.status !== 404) {
             throw new Error(`Could not read file from GitHub (${getResponse.status})`);
         }
@@ -67,6 +69,9 @@ export class GitHubService {
         });
 
         if (!putResponse.ok) {
+            if (putResponse.status === 401) {
+                throw Object.assign(new Error('GitHub token is invalid or expired'), { status: 401 });
+            }
             const err = await putResponse.json().catch(() => ({}));
             throw new Error(err.message ?? `GitHub push failed (${putResponse.status})`);
         }
