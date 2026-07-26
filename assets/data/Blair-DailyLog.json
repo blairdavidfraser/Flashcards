@@ -740,7 +740,28 @@
       "name": "Verbs",
       "language": "Spanish",
       "direction": "recall",
-      "count": 20
+      "count": 108
+    },
+    {
+      "date": "2026-07-25",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 62
+    },
+    {
+      "date": "2026-07-26",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 12
+    },
+    {
+      "date": "2026-07-26",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 105
     }
   ],
   "other": [
@@ -2262,6 +2283,36 @@
         },
         {
           "duration": "00:20:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "01:00:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:17:00",
+          "activity": "https://m.youtube.com/watch?v=yT-Bq-ZTCpY&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
           "activity": "Leyendo “El Príncipe de la Niebla“"
         }
       ]
