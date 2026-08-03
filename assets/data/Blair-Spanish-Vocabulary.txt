@@ -235,6 +235,7 @@ el consejo | advice |  | Noun | false | 2026-02-25 | 2026-03-23 | 13 |  | Cold |
 el cordón | shoelace |  | Noun | false | 2026-03-01 | 2026-06-18 | 18 | 0.0691 | Easy | 
 el cruce | intersection |  | Noun | false | 2026-03-13 | 2026-05-09 | 10 | 0.0062 | Easy | 
 el cuchillo | knife | 🔪 | Noun | false | 2026-03-01 | 2026-06-27 | 25 | 0.0607 | Easy | 
+el dato | fact / piece of data | 📋 | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | los datos = data; un dato curioso = an interesting fact.
 el desayuno | breakfast | 🍳 | Noun | false | 2026-02-23 | 2026-03-11 | 7 |  | Cold | 
 el destornillador | screwdriver | 🪛 | Noun | false | 2026-04-06 | 2026-06-05 | 7 | 0.1008 | Easy | 
 el día | day | 📅 | Noun | false | 2026-02-23 | 2026-02-26 | 3 |  | Cold | 
@@ -242,11 +243,13 @@ el dinero | money | 💰 | Noun | false | 2026-02-23 | 2026-03-01 | 2 |  | Cold 
 el dormitorio | bedroom | 🛏️ | Noun | false | 2026-03-13 | 2026-06-06 | 5 | 1.2250 | Easy | 
 el edificio | building | 🏢 | Noun | false | 2026-02-25 | 2026-03-11 | 11 |  | Cold | 
 el ejemplo | example |  | Noun | false | 2026-02-23 | 2026-03-11 | 6 |  | Cold | 
+el entorno | environment / surroundings | 🌍 | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 el equipaje | luggage / baggage | 🧳 | Noun | false | 2026-05-28 | 2026-06-18 | 5 |  | Cold | 
 el equipo | team |  | Noun | false | 2026-03-13 | 2026-05-09 | 8 |  | Cold | 
 el error | error |  | Noun | false | 2026-03-13 | 2026-06-05 | 3 |  | Cold | 
 el escaparate | shop window |  | Noun | false | 2026-02-25 | 2026-06-04 | 39 | 0.1087 | Easy | 
 el escritorio | desk |  | Noun | false | 2026-03-01 | 2026-03-12 | 3 |  | Cold | 
+el esfuerzo | effort | 💦 | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 el espejo | mirror |  | Noun | false | 2026-03-13 | 2026-08-01 | 14 | 0.0686 | Core | 
 el estudio | study (room) |  | Noun | false | 2026-03-13 | 2026-06-06 | 6 | 1.2600 | Easy | 
 el éxito | success |  | Noun | false | 2026-03-05 | 2026-07-31 | 12 | 0.3597 | Core | 
@@ -287,6 +290,8 @@ el nido | nest |  | Noun | false | 2026-03-13 | 2026-06-05 | 6 | 0.0000 | Easy |
 el niño / la niña | child |  | Noun | false | 2026-03-13 | 2026-03-15 | 1 |  | Cold | 
 el nivel | level |  | Noun | false | 2026-03-13 | 2026-03-20 | 3 |  | Cold | 
 el ojo | eye | 👀 | Noun | false | 2026-03-08 | 2026-04-23 | 7 |  | Cold | 
+el olor | smell / scent | 👃 | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+el orgullo | pride | 🦁 | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 el padre | father |  | Noun | false | 2026-02-23 | 2026-03-17 | 4 |  | Cold | 
 el país | country |  | Noun | false | 2026-02-23 | 2026-02-28 | 2 |  | Cold | 
 el pájaro | bird | 🐦 | Noun | false | 2026-03-13 | 2026-06-03 | 19 | 0.1027 | Easy | 
@@ -305,6 +310,7 @@ el perno | bolt (threaded, used with a nut) | 🔩 | Noun | false | 2026-04-06 |
 el pescado | fish | 🐟 | Noun | false | 2026-02-23 | 2026-02-28 | 5 |  | Cold | 
 el pie | foot | 🦶 | Noun | false | 2026-03-08 | 2026-06-12 | 8 | 0.0350 | Easy | 
 el pimiento | bell pepper | 🫑 | Noun | false | 2026-02-28 | 2026-07-30 | 17 | 0.2120 | Core | 
+el placer | pleasure | 😊 | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | ha sido un placer = it's been a pleasure.
 el plan | plan |  | Noun | false | 2026-03-13 | 2026-03-15 | 3 |  | Cold | 
 el policía | police officer |  | Noun | false | 2026-03-13 | 2026-06-06 | 4 | 1.6310 | Easy | 
 el pollo | chicken | 🐓 | Noun | false | 2026-02-23 | 2026-02-26 | 3 |  | Cold | 
@@ -321,15 +327,20 @@ el récord personal | personal best / personal record |  | Noun | false | 2026-0
 el reloj | watch | ⌚ | Noun | false | 2026-02-23 | 2026-03-17 | 8 |  | Cold | 
 el restaurante | restaurant |  | Noun | false | 2026-02-23 | 2026-03-17 | 3 |  | Cold | 
 el resultado | result |  | Noun | false | 2026-03-02 | 2026-06-18 | 18 | 0.0667 | Easy | 
+el retraso | delay | ⏰ | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+el riesgo | risk | ⚠️ | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | correr un riesgo = to take a risk.
 el río | river |  | Noun | false | 2026-03-13 | 2026-03-15 | 2 |  | Cold | 
 el romero | rosemary | 🌿 | Noun | false | 2026-02-27 | 2026-06-06 | 18 | 0.6563 | Easy | 
 el ruido | noise |  | Noun | false | 2026-03-13 | 2026-06-01 | 13 |  | Cold | 
+el sabio | wise man / sage | 🧙 | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+el sabor | flavour / taste | 👅 | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 el salitre | salt air / saltpetre |  | Noun | false | 2026-05-28 | 2026-06-25 | 14 | 0.0999 | Easy | impregnado de olor a salitre = saturated with the smell of salt air.
 el segundo | second |  | Noun | false | 2026-02-23 | 2026-02-28 | 2 |  | Cold | 
 el semáforo | traffic light | 🚦 | Noun | false | 2026-02-25 | 2026-03-11 | 7 |  | Cold | 
 el semblante | expression / face / countenance |  | Noun | false | 2026-05-28 | 2026-06-18 | 22 | 0.0945 | Easy | e.g. el semblante enrojecido = a flushed face/expression.
 el sendero | trail / path |  | Noun | false | 2026-02-26 | 2026-06-12 | 15 | 0.0478 | Easy | 
 el servicio | service |  | Noun | false | 2026-03-13 | 2026-03-23 | 7 |  | Cold | 
+el silencio | silence | 🤫 | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 el sillón | armchair |  | Noun | false | 2026-03-13 | 2026-06-12 | 12 | 0.0690 | Easy | 
 el sofá | sofa | 🛋️ | Noun | false | 2026-03-13 | 2026-03-22 | 7 |  | Cold | 
 el sonido | sound |  | Noun | false | 2026-03-13 | 2026-06-06 | 9 | 0.4172 | Easy | 
@@ -354,11 +365,13 @@ el trabajo | work/job |  | Noun | false | 2026-02-23 | 2026-02-28 | 2 |  | Cold 
 el tráfico | traffic |  | Noun | false | 2026-03-13 | 2026-06-05 | 2 |  | Cold | 
 el trasero | butt |  | Noun | false | 2026-03-08 | 2026-06-07 | 9 | 0.0700 | Easy | 
 el trastero | storage room |  | Noun | false | 2026-03-13 | 2026-07-26 | 22 | 0.0544 | Easy | 
+el trayecto | journey / route / leg of a trip | 🗺️ | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 el tren | train | 🚆 | Noun | false | 2026-02-23 | 2026-02-28 | 3 |  | Cold | 
 el tronco | trunk (of tree) |  | Noun | false | 2026-03-13 | 2026-05-09 | 7 |  | Cold | 
 el umbral | threshold / doorway |  | Noun | false | 2026-05-28 | 2026-06-18 | 11 | 0.1180 | Core | e.g. cruzar el umbral = to cross the threshold. Figurative and literal.
 el uniforme | uniform | 👨‍✈️ | Noun | false | 2026-02-25 | 2026-03-12 | 8 |  | Cold | 
 el vaso | drinking glass | 🥛 | Noun | false | 2026-03-01 | 2026-03-13 | 4 |  | Cold | 
+el vecindario | neighbourhood | 🏘️ | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | synonym of barrio; more formal.
 el vestidor | walk-in closet |  | Noun | false | 2026-03-13 | 2026-06-04 | 16 | 0.1649 | Easy | 
 el viento | wind |  | Noun | false | 2026-03-13 | 2026-05-09 | 8 |  | Cold | 
 el vino | wine | 🍷 | Noun | false | 2026-02-23 | 2026-02-28 | 3 |  | Cold | 
@@ -367,6 +380,7 @@ fresco, o fresca | fresh | 🥬 | Adjective | false | 2026-02-27 | 2026-03-11 | 
 la abuela | grandmother |  | Noun | false | 2026-02-23 | 2026-02-25 | 3 |  | Cold | 
 la aceituna | olive | 🫒 | Noun | false | 2026-02-27 | 2026-07-05 | 9 | 0.7693 | Easy | 
 la acera | sidewalk |  | Noun | false | 2026-02-25 | 2026-06-12 | 20 | 0.0926 | Easy | 
+la advertencia | warning | ⚠️ | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 la albahaca | basil | 🌿 | Noun | false | 2026-02-27 | 2026-06-04 | 38 | 0.0929 | Easy | 
 la alcaparra | caper |  | Noun | false | 2026-02-28 | 2026-06-06 | 18 | 0.3710 | Easy | 
 la alfombra | rug |  | Noun | false | 2026-03-13 | 2026-06-12 | 13 | 0.0490 | Easy | 
@@ -407,10 +421,14 @@ la confrontación | confrontation |  | Noun | false | 2026-03-27 | 2026-04-18 | 
 la conversación | conversation |  | Noun | false | 2026-03-13 | 2026-03-15 | 1 |  | Cold | 
 la corteza | crust |  | Noun | false | 2026-02-28 | 2026-06-06 | 24 | 0.1190 | Easy | 
 la cosa | thing |  | Noun | false | 2026-03-08 | 2026-03-28 | 1 |  | Cold | 
+la costumbre | habit / custom | 🔄 | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | tener la costumbre de = to have the habit of.
 la cuchara | spoon | 🥄 | Noun | false | 2026-03-01 | 2026-06-18 | 15 | 0.1183 | Easy | 
+la culpa | fault / blame | 😬 | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | tener la culpa = to be at fault; es culpa mía = it's my fault.
 la cuna | crib |  | Noun | false | 2026-03-13 | 2026-06-06 | 8 | 0.2359 | Easy | 
 la decisión | decision |  | Noun | false | 2026-03-05 | 2026-03-11 | 2 |  | Cold | 
+la demora | delay (Latin American) | ⏰ | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | More common than retraso in Mexico and Latin America.
 la despensa | pantry |  | Noun | false | 2026-03-13 | 2026-06-07 | 11 | 0.3216 | Easy | 
+la desventaja | disadvantage | ❌ | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 la diferencia | difference |  | Noun | false | 2026-03-02 | 2026-03-11 | 7 |  | Cold | 
 la ducha | shower | 🚿 | Noun | false | 2026-03-13 | 2026-06-06 | 11 | 0.7000 | Easy | 
 la elección | choice |  | Noun | false | 2026-03-05 | 2026-08-01 | 11 | 0.2882 | Core | 
@@ -435,12 +453,14 @@ la frase | sentence |  | Noun | false | 2026-02-23 | 2026-03-13 | 10 |  | Cold |
 la fresa | strawberry | 🍓 | Noun | false | 2026-02-26 | 2026-05-09 | 15 | 0.0619 | Easy | 
 la fruta | fruit | 🥝🫐🍎 | Noun | false | 2026-02-23 | 2026-02-28 | 3 |  | Cold | 
 la fuente | fountain |  | Noun | false | 2026-03-13 | 2026-06-18 | 15 | 0.0627 | Easy | 
+la fuerza | strength / force 💪 | 💪 | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 la gente | people | 🧔🏻👩🏻👩 | Noun | false | 2026-02-23 | 2026-03-11 | 4 |  | Cold | 
 la gorra | cap | 🧢 | Noun | false | 2026-02-25 | 2026-06-06 | 17 | 0.6545 | Easy | 
 la guarnición | side dish | 🍽️ | Noun | false | 2026-02-28 | 2026-04-10 | 11 |  | Cold | 
 la habitación | room |  | Noun | false | 2026-02-23 | 2026-02-28 | 3 |  | Cold | 
 la hamaca | hammock |  | Noun | false | 2026-03-13 | 2026-06-06 | 10 | 0.2800 | Easy | 
 la hermana | sister |  | Noun | false | 2026-02-23 | 2026-02-28 | 3 |  | Cold | 
+la herramienta | tool | 🔧 | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 la hija | daughter |  | Noun | false | 2026-02-23 | 2026-03-17 | 3 |  | Cold | 
 la historia | story |  | Noun | false | 2026-02-23 | 2026-02-28 | 3 |  | Cold | 
 la hoja | leaf | 🍃 | Noun | false | 2026-03-13 | 2026-06-18 | 11 | 0.0490 | Easy | 
@@ -471,6 +491,7 @@ la masa | dough | 🥖 | Noun | false | 2026-02-28 | 2026-06-05 | 7 | 1.1690 | E
 la mentira | lie |  | Noun | false | 2026-03-13 | 2026-06-12 | 15 | 0.0432 | Easy | 
 la mesa | table | 🍽️ | Noun | false | 2026-02-23 | 2026-03-04 | 3 |  | Cold | 
 la mesita | small table / nightstand |  | Noun | false | 2026-03-13 | 2026-06-06 | 9 | 0.0181 | Easy | 
+la meta | goal / finish line | 🏁 | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | la meta = finish line (running); also used figuratively for goals.
 la mochila | backpack | 🎒 | Noun | false | 2026-02-25 | 2026-06-02 | 16 | 0.1729 | Easy | 
 la montaña | mountain |  | Noun | false | 2026-03-13 | 2026-03-15 | 2 |  | Cold | 
 la moto | motorcycle |  | Noun | false | 2026-03-13 | 2026-06-06 | 4 | 0.4667 | Easy | 
@@ -501,8 +522,10 @@ la pierna | leg | 🦵 | Noun | false | 2026-03-08 | 2026-03-22 | 5 |  | Cold |
 la plaza | square (town square) |  | Noun | false | 2026-03-13 | 2026-06-05 | 3 | 0.0000 | Easy | 
 la pregunta | question |  | Noun | false | 2026-02-23 | 2026-03-17 | 3 |  | Cold | 
 la prima | cousin (female) |  | Noun | false | 2026-02-23 | 2026-02-28 | 2 |  | Cold | 
+la propina | tip (gratuity) | 💵 | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | ¿está incluida la propina? = is the tip included?
 la puerta | door | 🚪 | Noun | false | 2026-02-23 | 2026-02-28 | 2 |  | Cold | 
 la pupila | pupil (of the eye) | 👁️ | Noun | false | 2026-05-28 | 2026-06-01 | 1 | 0.0000 | Core | 
+la queja | complaint | 😤 | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | quejarse = to complain.
 la raíz | root |  | Noun | false | 2026-03-13 | 2026-06-07 | 10 | 0.0840 | Easy | 
 la rama | branch |  | Noun | false | 2026-03-13 | 2026-05-09 | 9 | 0.0500 | Easy | 
 la razón | reason |  | Noun | false | 2026-03-02 | 2026-07-05 | 11 | 0.6448 | Easy | 
@@ -523,10 +546,10 @@ la señal | sign / signal |  | Noun | false | 2026-02-25 | 2026-06-06 | 16 | 0.9
 la silla | chair | 🪑 | Noun | false | 2026-02-23 | 2026-07-05 | 6 | 0.9158 | Easy | 
 la simplificación | simplification |  | Noun | false | 2026-03-27 | 2026-04-18 | 3 |  | Cold | 
 la solución | solution |  | Noun | false | 2026-02-23 | 2026-02-28 | 3 |  | Cold | 
-la sombra | shadow / shade | 🌑 | Noun | false | 2026-05-28 | 2026-06-01 | 1 | 0.0000 | Core | 
 la sombra | shadow |  | Noun | false | 2026-03-13 | 2026-06-06 | 4 | 0.7000 | Easy | 
 la sonrisa | smile | 😁 | Noun | false | 2026-02-23 | 2026-03-23 | 12 |  | Cold | 
 la sopa | soup | 🍲 | Noun | false | 2026-02-26 | 2026-02-26 | 2 |  | Cold | 
+la suerte | luck | 🍀 | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | ¡buena suerte! = good luck!; tener suerte = to be lucky.
 la tapa | lid / cover |  | Noun | false | 2026-06-06 | 2026-08-01 | 9 | 0.4282 | Core | Also means tapa (snack) — different context. Here: the cover of the watch.
 la tarde | afternoon |  | Noun | false | 2026-02-23 | 2026-02-28 | 4 |  | Cold | 
 la tarta | pie / tart | 🥧 | Noun | false | 2026-02-27 | 2026-07-31 | 12 | 0.1506 | Core | 
@@ -540,8 +563,10 @@ la tierra | soil |  | Noun | false | 2026-03-13 | 2026-06-06 | 7 | 1.2810 | Easy
 la torre | tower |  | Noun | false | 2026-03-13 | 2026-06-06 | 9 | 0.2473 | Easy | 
 la universidad | university |  | Noun | false | 2026-03-13 | 2026-03-15 | 1 |  | Cold | 
 la vainilla | vanilla |  | Noun | false | 2026-02-27 | 2026-03-11 | 4 |  | Cold | 
+la ventaja | advantage | ✅ | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 la ventana | window |  | Noun | false | 2026-02-23 | 2026-03-01 | 3 |  | Cold | 
 la verdad | truth |  | Noun | false | 2026-03-13 | 2026-03-16 | 2 |  | Cold | 
+la vergüenza | shame / embarrassment | 😳 | Noun | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | ¡qué vergüenza! = how embarrassing!
 la verificación | verification |  | Noun | false | 2026-03-27 | 2026-03-31 | 2 |  | Cold | 
 la vez | time (occasion) |  | Noun | false | 2026-03-08 | 2026-03-16 | 1 |  | Cold | 
 la vida | life |  | Noun | false | 2026-02-23 | 2026-02-25 | 2 |  | Cold | 
@@ -564,13 +589,17 @@ los pantalones | pants | 👖 | Noun | false | 2026-03-01 | 2026-03-02 | 3 |  | 
 abierto | open |  | Adjective | false | 2026-02-23 | 2026-06-05 | 2 | 2.1000 | Easy | 
 aburrido, o aburrida | boring | 🥱 | Adjective | false | 2026-02-23 | 2026-06-05 | 10 | 1.0080 | Easy | 
 acerado, o acerada | sharp / steely / cutting |  | Adjective | false | 2026-06-06 | 2026-08-01 | 15 | 0.5241 | Core | una mirada acerada = a steely/cutting look. Figurative; literal meaning = made of steel.
+adecuado, o adecuada | adequate / appropriate / suitable |  | Adjective | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+agotado, o agotada | exhausted / sold out |  | Adjective | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | estoy agotado = I'm exhausted; está agotado = it's sold out (product).
+agradecido, o agradecida | grateful |  | Adjective | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | te estoy muy agradecido = I'm very grateful to you.
 ahumado, o ahumada | smoked |  | Adjective | false | 2026-02-28 | 2026-06-06 | 13 | 0.6440 | Easy | 
-ajetreado, o ajetreada | hectic |  | Adjective | false | 2026-06-06 | 2026-07-30 | 9 | 0.2929 | Core | 
 ajetreado, o ajetreada | busy / hectic |  | Adjective | false | 2026-05-04 | 2026-08-01 | 10 | 0.1354 | Easy | Describes a hectic pace or lifestyle, not just being occupied. e.g. Ha sido una semana muy ajetreada.
+ajetreado, o ajetreada | hectic |  | Adjective | false | 2026-06-06 | 2026-07-30 | 9 | 0.2929 | Core | 
 amarillo, o amarilla | yellow | 🟡 | Adjective | false | 2026-02-23 | 2026-06-06 | 13 | 0.5250 | Easy | 
 animado, o animada | lively / busy |  | Adjective | false | 2026-02-25 | 2026-03-23 | 12 |  | Cold | 
 arriesgado, o arriesgada | risky |  | Adjective | false | 2026-03-22 | 2026-05-09 | 6 |  | Cold | 
 asado, o asada | roasted / grilled | 🔥 | Adjective | false | 2026-02-26 | 2026-03-11 | 10 |  | Cold | 
+asombrado, o asombrada | astonished / amazed |  | Adjective | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 atigrado, o atigrada | striped / tabby (cat) | 🐯 | Adjective | false | 2026-05-28 | 2026-06-27 | 21 | 0.0802 | Easy | gato atigrado = tabby cat.
 atónito, o atónita | astonished / stunned |  | Adjective | false | 2026-05-28 | 2026-06-25 | 15 | 0.0764 | Easy | 
 azul | blue | 🔵 | Adjective | false | 2026-02-23 | 2026-03-17 | 6 |  | Cold | 
@@ -584,14 +613,17 @@ capaz | capable |  | Adjective | false | 2026-03-02 | 2026-06-05 | 6 | 0.8575 | 
 caramelizado, o caramelizada | caramelized |  | Adjective | false | 2026-02-28 | 2026-03-12 | 4 |  | Cold | 
 caro, o cara | expensive |  | Adjective | false | 2026-02-23 | 2026-02-28 | 3 |  | Cold | 
 cegador, o cegadora | blinding / dazzling |  | Adjective | false | 2026-06-06 | 2026-07-31 | 14 | 0.7422 | Core | e.g. una luz cegadora = a blinding light.
+celoso, o celosa | jealous |  | Adjective | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 cerrado | closed |  | Adjective | false | 2026-02-23 | 2026-02-28 | 4 |  | Cold | 
 claro | clear / of course |  | Adjective | false | 2026-02-23 | 2026-03-01 | 6 |  | Cold | 
 común | common |  | Adjective | false | 2026-03-05 | 2026-06-05 | 4 |  | Cold | 
+cotidiano, o cotidiana | everyday / daily |  | Adjective | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | la vida cotidiana = everyday life.
 cremoso, o cremosa | creamy |  | Adjective | false | 2026-02-27 | 2026-03-12 | 9 |  | Cold | 
 crujiente | crunchy |  | Adjective | false | 2026-02-27 | 2026-06-04 | 24 | 0.1143 | Easy | 
 débil | weak |  | Adjective | false | 2026-02-23 | 2026-06-06 | 4 | 1.8690 | Easy | 
 diferente | different |  | Adjective | false | 2026-02-23 | 2026-02-28 | 4 |  | Cold | 
 difícil | difficult |  | Adjective | false | 2026-02-23 | 2026-03-02 | 2 |  | Cold | 
+dispuesto, o dispuesta | willing / ready |  | Adjective | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | estoy dispuesto a ayudar = I'm willing to help.
 dulce | sweet | 🍯 | Adjective | false | 2026-02-26 | 2026-03-03 | 5 |  | Cold | 
 emocionado, o emocionada | excited |  | Adjective | false | 2026-02-25 | 2026-06-05 | 6 | 1.1025 | Easy | 
 enfermo, o enferma | sick | 🤢 | Adjective | false | 2026-02-23 | 2026-03-01 | 6 |  | Cold | 
@@ -608,12 +640,18 @@ fornido, o fornida | stocky / burly / well-built |  | Adjective | false | 2026-0
 frito, o frita | fried | 🍳 | Adjective | false | 2026-02-26 | 2026-03-11 | 9 |  | Cold | 
 fuerte | strong | 💪 | Adjective | false | 2026-02-23 | 2026-06-05 | 10 | 1.1025 | Easy | 
 grande | big |  | Adjective | false | 2026-02-23 | 2026-02-28 | 2 |  | Cold | 
+gratuito, o gratuita | free (of charge) |  | Adjective | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | la entrada es gratuita = entry is free.
 gris | grey | 🔘 | Adjective | false | 2026-02-23 | 2026-02-26 | 4 |  | Cold | 
 grueso, o gruesa | thick / heavy (of books, walls) |  | Adjective | false | 2026-06-06 | 2026-08-01 | 16 | 0.3305 | Core | e.g. un libro grueso = a thick book. Not gordo, which refers to people.
+habitual | habitual / usual |  | Adjective | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | same form for masculine and feminine.
+harto, o harta | fed up / sick of |  | Adjective | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | estoy harto de esperar = I'm fed up with waiting.
 hechizado, o hechizada | enchanted / spellbound |  | Adjective | false | 2026-06-06 | 2026-08-01 | 14 | 0.4899 | Core | e.g. sonreía hechizada = she smiled, completely enchanted.
 horneado, o horneada | baked | 🔥 | Adjective | false | 2026-02-26 | 2026-05-09 | 14 |  | Cold | 
 igual | equal |  | Adjective | false | 2026-02-23 | 2026-03-04 | 10 |  | Cold | 
 importante | important |  | Adjective | false | 2026-02-23 | 2026-02-28 | 5 |  | Cold | 
+imprescindible | essential / indispensable |  | Adjective | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | same form for masculine and feminine.
+imprevisto, o imprevista | unexpected / unforeseen |  | Adjective | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | un gasto imprevisto = an unexpected expense.
+inesperado, o inesperada | unexpected |  | Adjective | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 interesante | interesting |  | Adjective | false | 2026-02-23 | 2026-02-28 | 5 |  | Cold | 
 labrado, o labrada | engraved / crafted / wrought |  | Adjective | false | 2026-06-06 | 2026-07-31 | 16 | 0.1219 | Core | e.g. un reloj labrado en plata = a watch crafted in silver.
 lento, o lenta | slow |  | Adjective | false | 2026-02-23 | 2026-03-17 | 9 |  | Cold | 
@@ -632,6 +670,7 @@ ningún | no / not any (before noun) |  | Adjective | false | 2026-03-22 | 2026-
 nublado, o nublada | cloudy | ☁️ | Adjective | false | 2026-02-26 | 2026-06-05 | 9 | 1.4000 | Easy | 
 nuevo, o nueva | new |  | Adjective | false | 2026-02-23 | 2026-02-28 | 3 |  | Cold | 
 ocupado, o ocupada | busy |  | Adjective | false | 2026-02-23 | 2026-03-12 | 9 |  | Cold | 
+orgulloso, o orgullosa | proud |  | Adjective | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | estoy orgulloso de ti = I'm proud of you.
 pasmado, o pasmada | dumbstruck / stunned / frozen |  | Adjective | false | 2026-06-06 | 2026-07-31 | 13 | 1.4138 | Core | e.g. No te quedes ahí pasmado = Don't just stand there dumbstruck.
 pequeño, o pequeña | small |  | Adjective | false | 2026-02-23 | 2026-02-28 | 2 |  | Cold | 
 picado, o picada | chopped | 🔪 | Adjective | false | 2026-02-28 | 2026-08-01 | 17 | 0.2829 | Core | 
@@ -652,6 +691,7 @@ suficiente | enough / sufficient |  | Adjective | false | 2026-03-02 | 2026-03-1
 tendido, o tendida | lying down / stretched out |  | Adjective | false | 2026-06-06 | 2026-07-31 | 11 | 1.3142 | Core | e.g. Estaba tendido en la cama = He was lying on the bed.
 tierno, o tierna | tender |  | Adjective | false | 2026-02-26 | 2026-06-03 | 23 | 0.1338 | Easy | 
 triste | sad |  | Adjective | false | 2026-02-23 | 2026-02-28 | 3 |  | Cold | 
+útil | useful |  | Adjective | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | same form for masculine and feminine.
 vacío, o vacía | empty |  | Adjective | false | 2026-02-23 | 2026-03-23 | 12 |  | Cold | 
 verde | green | 🟢 | Adjective | false | 2026-02-23 | 2026-03-04 | 4 |  | Cold | 
 viejo, o vieja | old |  | Adjective | false | 2026-02-23 | 2026-02-28 | 3 |  | Cold | 
@@ -661,31 +701,38 @@ abrir | to open |  | Verb | false | 2026-02-23 | 2026-03-02 | 3 |  | Cold |
 abrirse | to open (itself) |  | Verb | false | 2026-03-13 | 2026-06-12 | 13 | 0.0931 | Easy | 
 acabar | to finish / end |  | Verb | false | 2026-03-13 | 2026-06-18 | 16 | 0.0733 | Easy | 
 aceptar | to accept | ✅ | Verb | false | 2026-02-28 | 2026-06-05 | 7 | 0.8820 | Easy | 
+acercarse a | to approach / to get closer to |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 acompañar | to accompany | 👥 | Verb | false | 2026-02-28 | 2026-03-11 | 6 |  | Cold | 
 aconsejar | to advise |  | Verb | false | 2026-03-26 | 2026-06-12 | 8 | 0.0700 | Easy | 
-acostumbrarse a | to get used to |  | Verb | false | 2026-06-06 | 2026-06-27 | 6 | 0.7512 | Easy | 
 acordar | to agree / decide |  | Verb | false | 2026-02-28 | 2026-07-26 | 16 | 0.4446 | Core | 
 acordarse | to remember (reflexive) |  | Verb | false | 2026-03-13 | 2026-06-18 | 15 | 0.0659 | Easy | 
 acostarse | to go to bed |  | Verb | false | 2026-03-13 | 2026-06-12 | 13 | 0.0797 | Easy | 
+acostumbrarse a | to get used to |  | Verb | false | 2026-06-06 | 2026-06-27 | 6 | 0.7512 | Easy | 
 adivinar | to guess | 🤔 | Verb | false | 2026-02-28 | 2026-06-18 | 18 | 0.0700 | Easy | 
 afectar | to affect |  | Verb | false | 2026-02-28 | 2026-03-11 | 9 |  | Cold | 
 aflojar | to loosen |  | Verb | false | 2026-04-06 | 2026-06-03 | 11 | 0.0628 | Easy | 
+agradecer | to be grateful for / to thank |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | te lo agradezco = I appreciate it / I'm grateful to you.
 agregar | to aggregate | ➕ | Verb | false | 2026-02-28 | 2026-06-05 | 8 | 1.3020 | Easy | 
 ahorrar | to save (money/time) |  | Verb | false | 2026-03-26 | 2026-05-09 | 5 |  | Cold | 
 ajustar | to adjust |  | Verb | false | 2026-04-06 | 2026-06-05 | 4 | 0.0000 | Easy | 
 alcanzar | to reach |  | Verb | false | 2026-02-28 | 2026-06-07 | 16 | 0.1057 | Easy | 
+alejarse de | to move away from / to distance oneself |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 alquilar | to rent |  | Verb | false | 2026-03-26 | 2026-06-12 | 7 | 0.0085 | Easy | 
 añadir | to add |  | Verb | false | 2026-03-26 | 2026-06-05 | 5 | 0.0000 | Easy | 
 anunciar | to announce | 📢 | Verb | false | 2026-02-28 | 2026-03-13 | 5 |  | Cold | 
 apagar | to turn off |  | Verb | false | 2026-03-26 | 2026-08-01 | 14 | 0.2693 | Core | 
 apoyar | to support |  | Verb | false | 2026-02-28 | 2026-06-12 | 21 | 0.1272 | Easy | 
+apoyarse en | to lean on / to rely on |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 aprender | to learn |  | Verb | false | 2026-02-23 | 2026-02-28 | 4 |  | Cold | 
 apretar | to tighten |  | Verb | false | 2026-04-06 | 2026-06-27 | 12 | 0.0741 | Easy | Also means to press/squeeze in other contexts. e.g. apretar un botón = press a button.
+aprovechar | to take advantage of / to make the most of |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | aprovecha el tiempo = make the most of your time; very high frequency.
 arreglar | to fix / repair | 🔧 | Verb | false | 2026-02-28 | 2026-06-05 | 7 | 1.0500 | Easy | 
 arrodillarse | to kneel down |  | Verb | false | 2026-06-06 | 2026-08-01 | 13 | 0.6951 | Core | reflexive; e.g. Se arrodilló frente a su hijo.
 asignar | to assign |  | Verb | false | 2026-03-22 | 2026-08-01 | 9 | 0.0490 | Easy | 
 atender | to attend / assist | 🧑 | Verb | false | 2026-02-28 | 2026-06-07 | 21 | 0.2978 | Easy | 
+atender | to attend to / to serve |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | ¿le están atendiendo? = are you being served?
 atravesar | to go through / to cross |  | Verb | false | 2026-03-22 | 2026-06-07 | 7 | 0.2521 | Easy | 
+atreverse a | to dare to |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | no me atrevo = I don't dare; ¿te atreves? = do you dare?
 aumentar | to increase |  | Verb | false | 2026-03-26 | 2026-06-07 | 9 | 0.1996 | Easy | 
 avanzar | to advance | ⏩ | Verb | false | 2026-02-28 | 2026-06-04 | 28 | 0.1475 | Easy | 
 averiguar | to find out |  | Verb | false | 2026-03-26 | 2026-06-27 | 14 | 0.0900 | Easy | 
@@ -718,8 +765,10 @@ comprobar | to check / verify | ✔️ | Verb | false | 2026-02-28 | 2026-06-18 
 concentrarse | to concentrate |  | Verb | false | 2026-05-31 | 2026-06-27 | 9 | 0.1081 | Easy | 
 conducir | to drive | 🚗 | Verb | false | 2026-02-28 | 2026-03-04 | 7 |  | Cold | 
 confiar | to trust |  | Verb | false | 2026-02-28 | 2026-08-01 | 26 | 0.0490 | Easy | 
+confiar en | to trust / to rely on |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | confío en ti = I trust you.
 congelar | to freeze | ❄️ | Verb | false | 2026-02-28 | 2026-06-12 | 18 | 0.2788 | Easy | 
 conocer | to know (a person/place) |  | Verb | false | 2026-02-23 | 2026-02-28 | 8 |  | Cold | 
+conseguir | to manage to / to obtain |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | conseguí reservar mesa = I managed to book a table. Conjugates like seguir.
 considerar | to consider |  | Verb | false | 2026-02-28 | 2026-03-11 | 8 |  | Cold | 
 contener | to contain | 📦 | Verb | false | 2026-02-28 | 2026-06-05 | 8 | 1.3020 | Easy | 
 contestar | to answer / reply |  | Verb | false | 2026-03-26 | 2026-06-05 | 4 | 0.0000 | Easy | 
@@ -732,15 +781,15 @@ cortar | to cut | 🔪 | Verb | false | 2026-02-28 | 2026-03-12 | 8 |  | Cold |
 crear | to create | 🎨 | Verb | false | 2026-02-28 | 2026-03-03 | 7 |  | Cold | 
 creer | to believe |  | Verb | false | 2026-02-23 | 2026-02-28 | 9 |  | Cold | 
 cruzar | to cross |  | Verb | false | 2026-02-28 | 2026-06-18 | 17 | 0.0931 | Easy | 
-cuidar (de) | to take care (of) | ❤️ | Verb | false | 2026-02-28 | 2026-06-05 | 10 | 1.4770 | Easy | 
 cuadrar | to add up / to fit / to make sense |  | Verb | false | 2026-05-28 | 2026-06-18 | 11 | 0.1032 | Easy | e.g. Algo no cuadra = Something doesn't add up.
+cuidar (de) | to take care (of) | ❤️ | Verb | false | 2026-02-28 | 2026-06-05 | 10 | 1.4770 | Easy | 
 cumplir | to fulfill / accomplish |  | Verb | false | 2026-03-05 | 2026-06-07 | 20 | 0.0776 | Easy | 
 dar | to give |  | Verb | false | 2026-05-31 | 2026-06-01 | 1 | 0.0000 | Core | 
 darse cuenta de | to realize |  | Verb | false | 2026-05-31 | 2026-06-03 | 10 | 0.1301 | Easy | 
+deambular | to wander / to roam |  | Verb | false | 2026-06-06 | 2026-07-31 | 11 | 0.8702 | Core | e.g. Deambula por la ciudad sin rumbo = He wanders the city aimlessly.
 deber | must / to owe |  | Verb | false | 2026-02-28 | 2026-03-13 | 9 |  | Cold | 
 dejar | to leave / allow |  | Verb | false | 2026-02-28 | 2026-06-30 | 18 | 0.5670 | Core | 
 dejar de + infinitivo | to stop doing something |  | Verb | false | 2026-05-07 | 2026-06-04 | 19 | 0.1366 | Easy | 
-deambular | to wander / to roam |  | Verb | false | 2026-06-06 | 2026-07-31 | 11 | 0.8702 | Core | e.g. Deambula por la ciudad sin rumbo = He wanders the city aimlessly.
 demostrar | to demonstrate | 📊 | Verb | false | 2026-02-28 | 2026-03-13 | 2 |  | Cold | 
 depender (de) | to depend (on) |  | Verb | false | 2026-03-05 | 2026-03-13 | 7 |  | Cold | 
 desarrollar | to develop |  | Verb | false | 2026-02-28 | 2026-06-07 | 14 | 0.0700 | Easy | 
@@ -768,8 +817,10 @@ encontrar | to find |  | Verb | false | 2026-02-23 | 2026-03-13 | 13 |  | Cold |
 enseñar | to teach |  | Verb | false | 2026-02-23 | 2026-03-01 | 6 |  | Cold | 
 ensuciar | to dirty |  | Verb | false | 2026-03-13 | 2026-06-18 | 11 | 0.0490 | Easy | 
 entender | to understand |  | Verb | false | 2026-02-23 | 2026-03-04 | 7 |  | Cold | 
+enterarse de | to find out about / to learn of |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | me enteré de que... = I found out that...
 entrar | to enter |  | Verb | false | 2026-02-23 | 2026-03-17 | 9 |  | Cold | 
 entregar | to deliver / hand in |  | Verb | false | 2026-03-26 | 2026-06-07 | 12 | 0.2227 | Easy | 
+equivocarse | to be wrong / to make a mistake |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | me equivoqué = I was wrong / I made a mistake.
 escribir | to write |  | Verb | false | 2026-02-23 | 2026-03-02 | 6 |  | Cold | 
 escuchar | to listen |  | Verb | false | 2026-02-23 | 2026-06-12 | 15 | 0.1885 | Easy | 
 esperar | to wait / hope |  | Verb | false | 2026-03-26 | 2026-06-12 | 6 | 0.0490 | Easy | 
@@ -777,9 +828,11 @@ esquiar | to ski |  | Verb | false | 2026-03-26 | 2026-06-05 | 2 | 0.0000 | Easy
 estacionar | to park |  | Verb | false | 2026-03-26 | 2026-06-05 | 9 | 0.1073 | Easy | 
 estudiar | to study |  | Verb | false | 2026-03-26 | 2026-06-05 | 2 | 0.0000 | Easy | 
 evitar | to avoid |  | Verb | false | 2026-03-02 | 2026-06-07 | 16 | 0.0700 | Easy | 
+exigir | to demand / to require |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 explicar | to explain |  | Verb | false | 2026-02-23 | 2026-02-28 | 5 |  | Cold | 
 faltar | to be lacking / remaining |  | Verb | false | 2026-05-07 | 2026-07-05 | 11 | 0.0565 | Easy | 
 felicitar | to congratulate |  | Verb | false | 2026-03-26 | 2026-06-12 | 9 | 0.0618 | Easy | 
+fijarse en | to notice / to pay attention to |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | fíjate = notice / look; ¿te fijaste en eso? = did you notice that?
 firmar | to sign |  | Verb | false | 2026-03-26 | 2026-04-23 | 4 |  | Cold | 
 funcionar | to function / work |  | Verb | false | 2026-03-05 | 2026-03-11 | 4 |  | Cold | 
 ganar | to win / earn |  | Verb | false | 2026-02-23 | 2026-02-28 | 3 |  | Cold | 
@@ -824,6 +877,7 @@ oír | to hear |  | Verb | false | 2026-03-26 | 2026-06-12 | 6 | 0.1261 | Easy |
 olvidar | to forget |  | Verb | false | 2026-02-23 | 2026-06-05 | 6 | 1.6800 | Easy | 
 pagar | to pay |  | Verb | false | 2026-02-23 | 2026-03-11 | 7 |  | Cold | 
 parar | to stop |  | Verb | false | 2026-03-26 | 2026-07-26 | 9 | 0.2911 | Core | 
+parecerse a | to look like / to resemble |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | te pareces a tu hermano = you look like your brother.
 pasar | to pass / happen |  | Verb | false | 2026-03-26 | 2026-06-05 | 2 | 0.0000 | Easy | 
 patinar | to skate |  | Verb | false | 2026-03-26 | 2026-06-12 | 6 | 0.1960 | Easy | 
 perder | to lose |  | Verb | false | 2026-02-23 | 2026-06-05 | 5 | 1.7500 | Easy | 
@@ -838,16 +892,21 @@ ponerse | to put on |  | Verb | false | 2026-03-13 | 2026-06-02 | 13 | 0.1260 | 
 practicar | to practice |  | Verb | false | 2026-03-26 | 2026-06-05 | 2 | 0.0000 | Easy | 
 preguntar | to ask |  | Verb | false | 2026-02-23 | 2026-02-28 | 7 |  | Cold | 
 prender | to turn on / light |  | Verb | false | 2026-03-26 | 2026-08-01 | 15 | 0.2267 | Core | 
+preocuparse por | to worry about |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | no te preocupes = don't worry.
 preparar | to prepare |  | Verb | false | 2026-02-25 | 2026-03-04 | 4 |  | Cold | 
 presentar | to present |  | Verb | false | 2026-03-26 | 2026-04-23 | 5 |  | Cold | 
 probar | to try (test) |  | Verb | false | 2026-03-13 | 2026-06-06 | 4 | 1.6310 | Easy | 
 procurar | to try / make an effort to |  | Verb | false | 2026-05-31 | 2026-06-04 | 15 | 0.0799 | Easy | 
 quedarse | to stay |  | Verb | false | 2026-02-23 | 2026-06-05 | 10 | 0.8540 | Easy | 
+quejarse de | to complain about |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 quitar | to remove / take away |  | Verb | false | 2026-03-13 | 2026-08-01 | 26 | 0.5660 | Core | 
+rechazar | to reject / to turn down |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 recibir | to receive |  | Verb | false | 2026-03-26 | 2026-06-12 | 6 | 0.0490 | Easy | 
+reconocer | to recognise |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | no te reconocí = I didn't recognise you.
 recordar | to remember |  | Verb | false | 2026-02-23 | 2026-06-05 | 13 | 1.3440 | Easy | 
 regresar | to return (long journey) | 🔙 | Verb | false | 2026-02-26 | 2026-06-05 | 15 | 1.1480 | Easy | 
 reír | to laugh |  | Verb | false | 2026-03-13 | 2026-03-22 | 4 |  | Cold | 
+rendirse | to give up / to surrender |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | no te rindas = don't give up.
 repasar | to review |  | Verb | false | 2026-03-26 | 2026-08-01 | 9 | 0.5718 | Core | 
 responder | to answer |  | Verb | false | 2026-02-23 | 2026-06-05 | 9 | 1.4910 | Easy | 
 resultar | to turn out |  | Verb | false | 2026-02-25 | 2026-06-06 | 11 | 1.0500 | Easy | 
@@ -859,15 +918,19 @@ sacar tiempo | to find time |  | Verb | false | 2026-05-31 | 2026-06-25 | 7 |  |
 salir | to leave / to go out |  | Verb | false | 2026-02-23 | 2026-03-01 | 5 |  | Cold | 
 saludar | to greet |  | Verb | false | 2026-03-26 | 2026-07-28 | 11 | 0.2038 | Core | 
 seguir | to continue (to carry on) |  | Verb | false | 2026-02-25 | 2026-06-27 | 21 | 0.0913 | Core | 
-sentarse | to sit down |  | Verb | false | 2026-03-13 | 2026-06-12 | 7 | 0.0700 | Easy | 
 señalar | to point at / to indicate |  | Verb | false | 2026-05-28 | 2026-06-25 | 9 | 0.1153 | Easy | e.g. Señaló la puerta = He pointed to the door.
+sentarse | to sit down |  | Verb | false | 2026-03-13 | 2026-06-12 | 7 | 0.0700 | Easy | 
 servir | to serve |  | Verb | false | 2026-03-13 | 2026-03-23 | 5 |  | Cold | 
+soler | to usually do / to tend to |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | suelo levantarme temprano = I usually get up early. Irregular: suelo, sueles, suele, solemos, soléis, suelen.
 sonreír | to smile |  | Verb | false | 2026-03-13 | 2026-03-15 | 3 |  | Cold | 
 sostener | to hold / to sustain |  | Verb | false | 2026-05-28 | 2026-06-27 | 7 | 0.1177 | Easy | e.g. Sostiene el libro en la mano = He holds the book in his hand.
 subir | to go up |  | Verb | false | 2026-03-13 | 2026-06-27 | 15 | 0.0784 | Core | 
 sufrir | to suffer |  | Verb | false | 2026-03-26 | 2026-06-05 | 4 | 0.0000 | Easy | 
 superar | to overcome |  | Verb | false | 2026-03-05 | 2026-06-12 | 23 | 0.0700 | Core | 
+suponer | to suppose / to assume |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | supongo que sí = I suppose so.
+surgir | to arise / to come up |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | surgió un problema = a problem came up.
 tardar | to take (time) |  | Verb | false | 2026-03-26 | 2026-07-30 | 11 | 0.2397 | Core | 
+tardar en | to take time to / to be slow to |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | tardé mucho en decidirme = it took me a long time to decide.
 terminar | to finish |  | Verb | false | 2026-02-23 | 2026-03-17 | 9 |  | Cold | 
 tirar | to throw |  | Verb | false | 2026-03-26 | 2026-06-27 | 12 | 0.5136 | Easy | 
 tocar | to touch / play (instrument) |  | Verb | false | 2026-03-13 | 2026-03-20 | 3 |  | Cold | 
@@ -876,6 +939,7 @@ toser | to cough |  | Verb | false | 2026-03-26 | 2026-07-30 | 9 | 0.1925 | Core
 trabajar | to work |  | Verb | false | 2026-02-23 | 2026-02-25 | 1 |  | Cold | 
 traer | to bring |  | Verb | false | 2026-03-13 | 2026-03-23 | 7 |  | Cold | 
 tratar (de) | to try (to) |  | Verb | false | 2026-03-05 | 2026-03-13 | 9 |  | Cold | 
+tratar de | to try to / to deal with |  | Verb | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | trato de = I try to; also trata de = it's about / it deals with.
 trotar | to jog |  | Verb | false | 2026-03-26 | 2026-04-23 | 6 | 0.0361 | Easy | 
 usar | to use |  | Verb | false | 2026-02-23 | 2026-02-28 | 4 |  | Cold | 
 valer | to be worth |  | Verb | false | 2026-03-26 | 2026-06-04 | 4 | 0.0000 | Easy | 
@@ -885,6 +949,7 @@ vestirse | to get dressed |  | Verb | false | 2026-03-13 | 2026-06-12 | 12 | 0.0
 viajar | to travel |  | Verb | false | 2026-02-23 | 2026-02-27 | 6 |  | Cold | 
 vivir | to live |  | Verb | false | 2026-02-23 | 2026-03-02 | 5 |  | Cold | 
 volver | to return / to do again |  | Verb | false | 2026-02-23 | 2026-06-18 | 18 | 0.0321 | Core | 
+
 
 # >>> Verb Tense Congugations
 [yo soy, ns. somos; tú eres, vs. sois; él es, ellos son] | Present forms of 'ser' |  | Conjugations | false | 2026-03-11 | 2026-03-15 | 2 |  | Cold | 
@@ -1299,4 +1364,24 @@ de súbito | suddenly / all of a sudden |  | Conversational | false | 2026-06-07
 encargarse de | to take charge of / to be responsible for |  | Conversational | false | 2026-05-28 | 2026-06-25 | 10 | 0.0980 | Easy | e.g. Tú te encargas de eso = You take care of that.
 ¿A qué hora partes mañana? | What time do you leave tomorrow? |  | Conversational | false | 2026-05-28 | 2026-06-04 | 9 | 0.1400 | Easy | partir = to depart / set off; more definitive than salir.
 Algo no cuadra en lo que me estás contando. | Something doesn't add up in what you're telling me. |  | Conversational | false | 2026-05-28 | 2026-08-01 | 15 | 0.6204 | Core | cuadrar = to add up / make sense; very useful in conversation.
-
+sin embargo | however / nevertheless |  | Conversational | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | connector; very high frequency in speech and writing.
+a pesar de | despite / in spite of |  | Conversational | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | a pesar de todo = despite everything.
+a partir de ahora | from now on |  | Conversational | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+de todas formas | anyway / in any case |  | Conversational | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | synonym of de todas maneras.
+en cambio | on the other hand / instead |  | Conversational | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+en cuanto a | as for / regarding |  | Conversational | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+siempre y cuando | as long as / provided that |  | Conversational | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | takes subjunctive; synonym of siempre que.
+poco a poco | little by little / gradually |  | Conversational | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+en serio | seriously / really |  | Conversational | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | ¿en serio? = really? / are you serious?
+tener en cuenta | to take into account / to bear in mind |  | Conversational | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | ten en cuenta que... = bear in mind that...
+a tiempo | on time |  | Conversational | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | llegar a tiempo = to arrive on time.
+de vez en cuando | from time to time / occasionally |  | Conversational | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+cuanto antes | as soon as possible |  | Conversational | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | hazlo cuanto antes = do it as soon as possible.
+en absoluto | not at all / absolutely not |  | Conversational | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | ¿te molesta? — en absoluto = not at all.
+desde luego | of course / certainly |  | Conversational | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | stronger and more emphatic than por supuesto.
+a cargo de | in charge of |  | Conversational | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | estar a cargo de = to be in charge of.
+tener ganas de | to feel like / to look forward to |  | Conversational | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | tengo ganas de verte = I'm looking forward to seeing you.
+no vale la pena | it's not worth it |  | Conversational | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | vale la pena = it's worth it.
+meter la pata | to put your foot in it / to make a blunder |  | Conversational | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | metí la pata = I put my foot in it.
+tomar la delantera | to take the lead |  | Conversational | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+no tener ni idea | to have no idea |  | Conversational | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | no tengo ni idea = I have no idea.
