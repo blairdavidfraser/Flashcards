@@ -429,6 +429,31 @@ Me pareció caro | It seemed expensive to me |  | Preterit | true | 2026-03-12 |
 Me gustó bastante | I liked it quite a bit |  | Preterit | true | 2026-03-12 | 2026-05-29 | 10 | 0.1000 | Easy | 
 No me convenció | It didn’t convince me |  | Preterit | false | 2026-03-12 | 2026-05-29 | 8 | 0.1000 | Easy | 
 Después de cena, Ana se fue | After dinner, Ana left |  | Preterit | false | 2026-04-10 | 2026-05-29 | 6 | 0.1000 | Easy | 
+Ayer por la mañana fui al mercado y compré fruta fresca. | Yesterday morning I went to the market and bought fresh fruit. |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+El fin de semana pasado corrí quince kilómetros. | Last weekend I ran fifteen kilometres. |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+¿Pudiste reservar mesa para esta noche? | Were you able to book a table for tonight? |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | poder in preterit = managed to / succeeded in doing.
+Me perdí en el centro histórico pero al final encontré el hotel. | I got lost in the old town but eventually found the hotel. |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+¿Qué hiciste cuando te enteraste de la noticia? | What did you do when you found out the news? |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | enterarse de = to find out about; very high-frequency.
+Llegué tarde porque perdí el autobús. | I arrived late because I missed the bus. |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | perder el autobús = to miss the bus; natural preterit chain.
+Tuvimos que cambiar de hotel porque el nuestro estaba lleno. | We had to change hotels because ours was full. |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | tener que in preterit = had to (completed obligation).
+El camarero nos trajo la cuenta sin que la pidiéramos. | The waiter brought us the bill without us asking for it. |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Se me olvidó el nombre del restaurante que me recomendaste. | I forgot the name of the restaurant you recommended. |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | se me olvidó = I forgot (accidental); very natural structure.
+Conocí a alguien muy interesante en el viaje. | I met someone very interesting on the trip. |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | conocer in preterit = to meet for the first time.
+¿Cuánto tardaste en llegar desde el aeropuerto? | How long did it take you to get from the airport? |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Probé el mole por primera vez y me encantó. | I tried mole for the first time and loved it. |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+El tren salió a tiempo pero llegó con retraso. | The train left on time but arrived late. |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+No pude dormir bien la primera noche. | I wasn't able to sleep well the first night. |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+¿Te gustó la película que viste anoche? | Did you like the film you watched last night? |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Nos perdimos el último autobús y tuvimos que coger un taxi. | We missed the last bus and had to take a taxi. |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Me sorprendió mucho lo barato que era todo. | I was very surprised by how cheap everything was. |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Pedí el plato del día y estuvo delicioso. | I ordered the daily special and it was delicious. |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Empezó a llover justo cuando salimos del restaurante. | It started raining just as we left the restaurant. |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+¿Cuándo fue la última vez que comiste algo así? | When was the last time you ate something like that? |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Decidí quedarme un día más porque me encantó el lugar. | I decided to stay one more day because I loved the place. |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Le pregunté al recepcionista y me explicó cómo llegar. | I asked the receptionist and he explained how to get there. |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Sacé muchas fotos pero ninguna salió bien. | I took lots of photos but none came out well. |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Mientras desayunábamos, llegó un mensaje de mi hermana. | While we were having breakfast, a message arrived from my sister. |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | imperfect + preterit interruption; classic structure.
+Salimos temprano para evitar el tráfico y llegamos justo a tiempo. | We left early to avoid the traffic and arrived just in time. |  | Preterit | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 
 # >>> Imperfect Past Tense
 Comía pan con café cada mañana | I used to eat bread with coffee every morning |  | Imperfect | false | 2026-03-05 | 2026-05-30 | 9 | 0.1000 | Easy | 
@@ -505,6 +530,21 @@ Pensaba que abrían más tarde | I thought they opened later |  | Imperfect | tr
 Como no. Tenía que pasar esto. | Of course. This had to happen. |  | Imperfect | false | 2026-03-12 | 2026-05-30 | 19 | 0.1000 | Easy | 
 Iba a ir ayer, pero no pude | I was going to go yesterday, but I couldn’t |  | Imperfect | true | 2026-03-12 | 2026-05-30 | 13 | 0.1000 | Easy | 
 No funcionaba | It wasn’t working |  | Imperfect | true | 2026-03-12 | 2026-05-30 | 10 | 0.1000 | Easy | 
+Mientras corría, escuché una canción que no había oído nunca. | While I was running, I heard a song I had never heard before. |  | Imperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | imperfect (background) + preterit (interrupting event); classic contrast.
+De niño siempre me perdía en los mercados. | As a child I always used to get lost in markets. |  | Imperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | perderse = to get lost; de niño = as a child.
+Antes no me gustaba el picante, pero ahora me encanta. | Before I didn't like spicy food, but now I love it. |  | Imperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Cada vez que viajaba, aprendía algo nuevo. | Every time I traveled, I learned something new. |  | Imperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | cada vez que + imperfect = habitual past action.
+En aquella época no teníamos tanto dinero. | In those days we didn't have much money. |  | Imperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | en aquella época = in those days; sets imperfect context.
+Cuando vivía en España, salía a correr por el parque cada mañana. | When I lived in Spain, I used to go running in the park every morning. |  | Imperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+El pueblo parecía sacado de un cuento. | The village looked like it was taken from a fairy tale. |  | Imperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | parecer in imperfect = description/appearance in the past.
+No sabía que él también hablaba español. | I didn't know he also spoke Spanish. |  | Imperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | saber in imperfect = ongoing state of not knowing.
+Mientras esperaba, me puse a leer el libro. | While I was waiting, I started reading the book. |  | Imperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | ponerse a + infinitive = to start doing something (spontaneous action).
+Siempre llegaba tarde pero nunca se disculpaba. | He always used to arrive late but never apologized. |  | Imperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Era tarde y el restaurante estaba casi vacío. | It was late and the restaurant was almost empty. |  | Imperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | pure description setting a scene; classic imperfect use.
+No entendía por qué todo el mundo tenía tanta prisa. | I didn't understand why everyone was in such a rush. |  | Imperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+De joven leía mucho pero ahora casi no tengo tiempo. | When I was young I used to read a lot but now I barely have time. |  | Imperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Me sentía cansado pero seguí corriendo. | I was feeling tired but I kept running. |  | Imperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | imperfect (ongoing state) + preterit (deliberate action).
+Solía despertarme temprano, pero últimamente duermo más. | I used to wake up early, but lately I sleep more. |  | Imperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | soler + infinitive = used to do something; very natural alternative to imperfect habit.
 
 # >>> Present Perfect Continuous
 He estado esperando aquí por una hora | I have been waiting here for an hour |  | Present Perfect Continuous | true | 2026-03-12 | 2026-07-23 | 14 | 0.1082 | Easy | 
@@ -526,11 +566,71 @@ Lo hago para que funcione mejor | I do it so that it works better |  | Present S
 Hazlo antes de que sea tarde | Do it before it’s too late |  | Present Subjunctive | true | 2026-03-26 | 2026-07-23 | 18 | 0.0866 | Easy | 
 Tengo miedo de que no funcione | I’m afraid it won’t work |  | Present Subjunctive | false | 2026-03-26 | 2026-07-22 | 18 | 0.1572 | Easy | 
 ¿Qué tal si lo hacemos mañana? | What if we do it tomorrow? |  | Present Subjunctive | true | 2026-03-26 | 2026-07-23 | 20 | 0.1030 | Easy | 
+Espero que tengas un buen viaje. | I hope you have a good trip. |  | Present Subjunctive | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | esperar que + subjunctive; one of the most common subjunctive triggers.
+Ojalá que llegues a tiempo. | I hope you arrive on time. |  | Present Subjunctive | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | ojalá + subjunctive; always triggers subjunctive.
+No creo que sea tan difícil como piensas. | I don't think it's as hard as you think. |  | Present Subjunctive | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | no creer que + subjunctive; negated belief triggers subjunctive.
+Quiero que me digas la verdad. | I want you to tell me the truth. |  | Present Subjunctive | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | querer que + subjunctive; desire with two subjects.
+Es importante que descanses antes de la carrera. | It's important that you rest before the race. |  | Present Subjunctive | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | es importante que + subjunctive; impersonal expression.
+Me alegra que estés aquí. | I'm glad you're here. |  | Present Subjunctive | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | alegrarse de que + subjunctive; emotional reaction.
+Busco un restaurante que tenga mesa afuera. | I'm looking for a restaurant that has a table outside. |  | Present Subjunctive | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | indefinite antecedent + subjunctive; looking for something uncertain.
+Cuando llegues, llámame. | When you arrive, call me. |  | Present Subjunctive | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | cuando + subjunctive in future context; very common in speech.
+Aunque llueva, voy a salir a correr. | Even if it rains, I'm going to go running. |  | Present Subjunctive | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | aunque + subjunctive = even if (uncertain); aunque + indicative = even though (certain).
+No hay nadie que hable español aquí. | There's no one who speaks Spanish here. |  | Present Subjunctive | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | negative antecedent + subjunctive.
+Te lo digo para que lo entiendas bien. | I'm telling you so that you understand clearly. |  | Present Subjunctive | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | para que + subjunctive = so that; always subjunctive.
+Es una lástima que no puedas venir. | It's a shame you can't come. |  | Present Subjunctive | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | es una lástima que + subjunctive; emotional impersonal expression.
+Necesito que alguien me ayude con las maletas. | I need someone to help me with the luggage. |  | Present Subjunctive | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | necesitar que + subjunctive; two-subject need structure.
+Dudo que haya mesa disponible sin reserva. | I doubt there's a table available without a reservation. |  | Present Subjunctive | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | dudar que + subjunctive; doubt always triggers subjunctive.
+Mientras estés aquí, aprovecha para visitar el mercado. | While you're here, take the chance to visit the market. |  | Present Subjunctive | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | mientras + subjunctive in future/hypothetical context.
+¿Conoces a alguien que sepa tocar la guitarra? | Do you know anyone who knows how to play guitar? |  | Present Subjunctive | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | indefinite antecedent in question; uncertain existence.
+Prefiero que me lo expliques tú mismo. | I prefer that you explain it to me yourself. |  | Present Subjunctive | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | preferir que + subjunctive; preference with two subjects.
+Avísame cuando sepas algo. | Let me know when you find out something. |  | Present Subjunctive | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | cuando + subjunctive; future event still uncertain.
+Es posible que haya retraso en el tren. | It's possible there's a delay on the train. |  | Present Subjunctive | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | es posible que + subjunctive; possibility triggers subjunctive.
+Espera hasta que te llamen. | Wait until they call you. |  | Present Subjunctive | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | hasta que + subjunctive in future context.
 
 # >>> Present Perfect
 ¿Te ha pasado eso antes? | Has that happened to you before? |  | Present Perfect | true | 2026-03-12 | 2026-07-24 | 34 | 0.0663 | Easy | 
+¿Cuánto tiempo llevas viviendo en Toronto? | How long have you been living in Toronto? |  | Present Perfect Continuous | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | llevar + gerund = how long have you been doing something; more natural than he estado viviendo in speech.
+He estado pensando mucho en lo que me dijiste. | I've been thinking a lot about what you told me. |  | Present Perfect Continuous | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+¿Has estado durmiendo bien últimamente? | Have you been sleeping well lately? |  | Present Perfect Continuous | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Ha estado lloviendo desde esta mañana. | It has been raining since this morning. |  | Present Perfect Continuous | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Hemos estado practicando español todos los días. | We have been practicing Spanish every day. |  | Present Perfect Continuous | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+He estado corriendo más de lo normal esta semana. | I have been running more than usual this week. |  | Present Perfect Continuous | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+¿Has estado leyendo el libro que te recomendé? | Have you been reading the book I recommended? |  | Present Perfect Continuous | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Han estado construyendo ese edificio desde hace meses. | They have been building that building for months. |  | Present Perfect Continuous | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+He estado aprendiendo a cocinar platos nuevos. | I have been learning to cook new dishes. |  | Present Perfect Continuous | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+¿Cuánto tiempo has estado esperando? | How long have you been waiting? |  | Present Perfect Continuous | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Ha estado trabajando sin parar toda la semana. | He has been working non-stop all week. |  | Present Perfect Continuous | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Hemos estado discutiendo ese tema desde hace tiempo. | We have been discussing that topic for a while. |  | Present Perfect Continuous | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+He estado intentando contactarle pero no contesta. | I have been trying to contact him but he doesn't answer. |  | Present Perfect Continuous | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+¿Has estado siguiendo las noticias últimamente? | Have you been following the news lately? |  | Present Perfect Continuous | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Han estado viviendo en ese apartamento desde enero. | They have been living in that apartment since January. |  | Present Perfect Continuous | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+He estado tratando de mejorar mi pronunciación. | I have been trying to improve my pronunciation. |  | Present Perfect Continuous | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+¿Has estado entrenando para alguna carrera? | Have you been training for a race? |  | Present Perfect Continuous | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Ha estado viajando por América Latina este año. | He has been traveling around Latin America this year. |  | Present Perfect Continuous | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Hemos estado ahorrando para el viaje desde el año pasado. | We have been saving for the trip since last year. |  | Present Perfect Continuous | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+He estado escuchando podcasts en español durante el trayecto. | I have been listening to Spanish podcasts during the commute. |  | Present Perfect Continuous | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
 
 # >>> Pluperfect
 Ya lo había visto antes | I had already seen it before |  | Pluperfect | true | 2026-03-12 | 2026-07-23 | 20 | 0.1133 | Easy | 
 Ya había venido antes | I had come before |  | Pluperfect | true | 2026-03-12 | 2026-07-23 | 25 | 0.0717 | Easy | 
 No había probado esto antes | I hadn’t tried this before |  | Pluperfect | true | 2026-03-12 | 2026-07-23 | 15 | 0.1182 | Easy | 
+Cuando llegué, ya habían cerrado el restaurante. | When I arrived, they had already closed the restaurant. |  | Pluperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | pluperfect establishes what happened before the preterit action.
+No había comido nada antes de la carrera. | I hadn't eaten anything before the race. |  | Pluperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Ella nunca había viajado sola antes de ese verano. | She had never traveled alone before that summer. |  | Pluperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+¿Habías estado en México antes de este viaje? | Had you been to Mexico before this trip? |  | Pluperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Cuando me llamó, ya había salido de casa. | When he called me, I had already left the house. |  | Pluperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Nunca había probado el mole negro hasta ese día. | I had never tried black mole until that day. |  | Pluperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Ya habíamos reservado mesa cuando nos dijeron que estaba cerrado. | We had already booked a table when they told us it was closed. |  | Pluperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+No había dormido bien en días. | I hadn't slept well in days. |  | Pluperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+¿Habías leído el libro antes de ver la película? | Had you read the book before seeing the film? |  | Pluperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Cuando llegamos al andén, el tren ya había partido. | When we reached the platform, the train had already left. |  | Pluperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Jamás había visto algo tan impresionante. | I had never seen anything so impressive. |  | Pluperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | jamás = never; stronger and more emphatic than nunca.
+Habían vivido allí durante años antes de mudarse. | They had lived there for years before moving. |  | Pluperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+No había pensado en esa posibilidad. | I hadn't thought of that possibility. |  | Pluperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Ya le había dicho la verdad antes de que preguntara. | I had already told him the truth before he asked. |  | Pluperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+¿Habías corrido un maratón antes de ese año? | Had you run a marathon before that year? |  | Pluperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Cuando encontré el reloj, ya había olvidado dónde lo había dejado. | When I found the watch, I had already forgotten where I'd left it. |  | Pluperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Nunca había tenido tanto miedo en mi vida. | I had never been so afraid in my life. |  | Pluperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Ya habías empezado cuando te avisé. | You had already started when I warned you. |  | Pluperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+No había entendido bien la pregunta. | I hadn't understood the question properly. |  | Pluperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
+Habían llegado antes de que abriera el museo. | They had arrived before the museum opened. |  | Pluperfect | false | 2026-07-26 | 1970-01-01 | 0 |  | Hard | 
