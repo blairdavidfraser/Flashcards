@@ -761,7 +761,385 @@
       "name": "Vocabulary",
       "language": "Spanish",
       "direction": "recall",
-      "count": 105
+      "count": 214
+    },
+    {
+      "date": "2026-07-28",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 27
+    },
+    {
+      "date": "2026-07-30",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 69
+    },
+    {
+      "date": "2026-07-31",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 32
+    },
+    {
+      "date": "2026-08-01",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 60
+    },
+    {
+      "date": "2026-08-03",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 122
+    },
+    {
+      "date": "2026-08-04",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 155
+    },
+    {
+      "date": "2026-08-05",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 165
+    },
+    {
+      "date": "2026-08-08",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 75
+    },
+    {
+      "date": "2026-08-09",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 113
+    },
+    {
+      "date": "2026-08-10",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 80
+    },
+    {
+      "date": "2026-08-11",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 130
+    },
+    {
+      "date": "2026-08-12",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 43
+    },
+    {
+      "date": "2026-08-14",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 151
+    },
+    {
+      "date": "2026-08-16",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 175
+    },
+    {
+      "date": "2026-08-17",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 135
+    },
+    {
+      "date": "2026-08-18",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 289
+    },
+    {
+      "date": "2026-08-19",
+      "name": "Topics",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 37
+    },
+    {
+      "date": "2026-08-19",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 123
+    },
+    {
+      "date": "2026-08-20",
+      "name": "Topics",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 21
+    },
+    {
+      "date": "2026-08-21",
+      "name": "Topics",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 58
+    },
+    {
+      "date": "2026-08-23",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 47
+    },
+    {
+      "date": "2026-08-23",
+      "name": "Topics",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 33
+    },
+    {
+      "date": "2026-08-24",
+      "name": "Topics",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 23
+    },
+    {
+      "date": "2026-08-24",
+      "name": "Vocabulary",
+      "language": "French",
+      "direction": "recall",
+      "count": 53
+    },
+    {
+      "date": "2026-08-24",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 4
+    },
+    {
+      "date": "2026-08-25",
+      "name": "Vocabulary",
+      "language": "French",
+      "direction": "recall",
+      "count": 50
+    },
+    {
+      "date": "2026-08-25",
+      "name": "Topics",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 22
+    },
+    {
+      "date": "2026-08-25",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 34
+    },
+    {
+      "date": "2026-08-26",
+      "name": "Topics",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 59
+    },
+    {
+      "date": "2026-08-26",
+      "name": "Vocabulary",
+      "language": "French",
+      "direction": "recall",
+      "count": 52
+    },
+    {
+      "date": "2026-08-27",
+      "name": "Vocabulary",
+      "language": "French",
+      "direction": "recall",
+      "count": 37
+    },
+    {
+      "date": "2026-08-28",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 70
+    },
+    {
+      "date": "2026-08-28",
+      "name": "Vocabulary",
+      "language": "French",
+      "direction": "recall",
+      "count": 51
+    },
+    {
+      "date": "2026-08-30",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 35
+    },
+    {
+      "date": "2026-08-30",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 1
+    },
+    {
+      "date": "2026-08-30",
+      "name": "Vocabulary",
+      "language": "French",
+      "direction": "recall",
+      "count": 86
+    },
+    {
+      "date": "2026-08-31",
+      "name": "Topics",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 12
+    },
+    {
+      "date": "2026-09-01",
+      "name": "Topics",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 25
+    },
+    {
+      "date": "2026-09-01",
+      "name": "Vocabulary",
+      "language": "French",
+      "direction": "recall",
+      "count": 76
+    },
+    {
+      "date": "2026-09-02",
+      "name": "Topics",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 68
+    },
+    {
+      "date": "2026-09-02",
+      "name": "Vocabulary",
+      "language": "French",
+      "direction": "recall",
+      "count": 103
+    },
+    {
+      "date": "2026-09-03",
+      "name": "Vocabulary",
+      "language": "French",
+      "direction": "recall",
+      "count": 53
+    },
+    {
+      "date": "2026-09-04",
+      "name": "Vocabulary",
+      "language": "French",
+      "direction": "recall",
+      "count": 55
+    },
+    {
+      "date": "2026-09-04",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 16
+    },
+    {
+      "date": "2026-09-04",
+      "name": "Topics",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 5
+    },
+    {
+      "date": "2026-09-06",
+      "name": "Vocabulary",
+      "language": "French",
+      "direction": "recall",
+      "count": 55
+    },
+    {
+      "date": "2026-09-06",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 65
+    },
+    {
+      "date": "2026-09-07",
+      "name": "Vocabulary",
+      "language": "French",
+      "direction": "recall",
+      "count": 52
+    },
+    {
+      "date": "2026-09-08",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 41
+    },
+    {
+      "date": "2026-09-08",
+      "name": "Vocabulary",
+      "language": "French",
+      "direction": "recall",
+      "count": 53
+    },
+    {
+      "date": "2026-09-09",
+      "name": "Vocabulary",
+      "language": "French",
+      "direction": "recall",
+      "count": 55
+    },
+    {
+      "date": "2026-09-09",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 51
+    },
+    {
+      "date": "2026-09-09",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 1
+    },
+    {
+      "date": "2026-09-11",
+      "name": "Topics",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 5
     }
   ],
   "other": [
@@ -2314,6 +2692,461 @@
         {
           "duration": "00:30:00",
           "activity": "Leyendo “El Príncipe de la Niebla“"
+        },
+        {
+          "duration": "00:18:00",
+          "activity": "https://m.youtube.com/watch?v=vjt8ENgi-UQ&ra=m"
+        },
+        {
+          "duration": "00:16:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=6a575947d10e9bd063ed61e0"
+        },
+        {
+          "duration": "00:17:00",
+          "activity": "https://m.youtube.com/watch?v=QT4aoHF5kfE&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:17:00",
+          "activity": "https://m.youtube.com/watch?v=rnm0NH_tBKE&ra=m"
+        },
+        {
+          "duration": "00:20:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:20:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:45:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:45:00",
+          "activity": "Leyendo “El Príncipe de la Niebla“"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:21:00",
+          "activity": "https://m.youtube.com/watch?v=EbQMWvfAqBE&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-02",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:19:00",
+          "activity": "https://m.youtube.com/watch?v=UkJHiJQ7OaY&pp=ygUWU3BhbmlzaCBsYW5ndWFnZSBjb2FjaA%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:24:00",
+          "activity": "https://m.youtube.com/watch?v=YarTLSCSKoE&ra=m"
+        },
+        {
+          "duration": "00:17:00",
+          "activity": "https://m.youtube.com/watch?v=krIpAHszO0A&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-03",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:21:00",
+          "activity": "https://m.youtube.com/watch?v=Y2ARxPlyiT0&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-06",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:18:00",
+          "activity": "https://m.youtube.com/watch?v=BQCqA6RVrpg&pp=0gcJCb4LAYcqIYzv&ra=m"
+        },
+        {
+          "duration": "00:19:00",
+          "activity": "https://m.youtube.com/watch?v=eor9EcDLO_c&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:18:00",
+          "activity": "https://m.youtube.com/watch?v=vOghVvJxXx8&ra=m"
+        },
+        {
+          "duration": "00:34:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=6a68c6ab14238379a55ecd91"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:15:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=6a6b2e5b14238379a55ece47"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:38:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=6a72b2c55d1a104d5ad46ac9"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:40:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=6a579091d10e9bd063ed61e6"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:19:00",
+          "activity": "https://m.youtube.com/watch?v=UkJHiJQ7OaY&ra=m"
+        },
+        {
+          "duration": "00:15:00",
+          "activity": "https://m.youtube.com/watch?v=W-7hS79TAg0&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:32:00",
+          "activity": "https://m.youtube.com/watch?v=G_jkm5VtIfk&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:19:00",
+          "activity": "https://m.youtube.com/watch?v=Wa8NMNOYIAY&pp=ygUWc3BhbmlzaCBsYW5ndWFnZSBjb2FjaNIHCQn-CwGHKiGM7w%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:16:00",
+          "activity": "https://m.youtube.com/watch?v=qvTG0-KAX_s&pp=0gcJCRMMAYcqIYzv&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "01:00:00",
+          "activity": "Leyendo en un museo en Oaxaca"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:20:00",
+          "activity": "Leyendo"
+        },
+        {
+          "duration": "00:05:00",
+          "activity": "https://m.youtube.com/watch?v=QZQRc0vUGgU&ra=m"
+        },
+        {
+          "duration": "00:15:00",
+          "activity": "Hablando en Oaxaca"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:45:00",
+          "activity": "Viendo una película con subtítulos "
+        },
+        {
+          "duration": "00:23:00",
+          "activity": "https://podcasts.apple.com/ca/podcast/intermediate-spanish-podcast-espa%C3%B1ol-intermedio/id1479285354?i=1000776231550"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:40:00",
+          "activity": "https://podcasts.apple.com/ca/podcast/bbva-aprendemos-juntos/id1331478791?i=1000734238836"
+        },
+        {
+          "duration": "00:40:00",
+          "activity": "https://podcasts.apple.com/ca/podcast/bbva-aprendemos-juntos/id1331478791?i=1000734238836"
+        },
+        {
+          "duration": "00:40:00",
+          "activity": "https://podcasts.apple.com/ca/podcast/bbva-aprendemos-juntos/id1331478791?i=1000734238836"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:29:00",
+          "activity": "https://podcasts.apple.com/ca/podcast/espa%C3%B1olistos-learn-spanish-with-fun-conversations/id1166015603?i=1000785151792"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
+          "activity": "Hablando en Oaxaca"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
+          "activity": "Hablando en Oaxaca"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
+          "activity": "Hablando en Oaxaca"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
+          "activity": "Hablando en Oaxaca"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:45:00",
+          "activity": "Various podcasts"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-31",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=1xwBOi1NyhA&pp=ugUEEgJlc9IHCQmLAqO1ajebQw%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:15:00",
+          "activity": "https://m.youtube.com/watch?v=sztnIsuvYTk&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:13:00",
+          "activity": "https://m.youtube.com/watch?v=SS2zppmFiII&ra=m"
+        },
+        {
+          "duration": "00:26:00",
+          "activity": "https://m.youtube.com/watch?v=zPTreOK52P0&pp=0gcJCYsCo7VqN5tD&ra=m"
+        },
+        {
+          "duration": "00:14:00",
+          "activity": "https://m.youtube.com/watch?v=I5ymM3xI6wM&ra=m"
+        },
+        {
+          "duration": "00:12:00",
+          "activity": "https://m.youtube.com/watch?v=fmK9jzkYp1w&pp=0gcJCQ0LAYcqIYzv&ra=m"
+        },
+        {
+          "duration": "00:31:00",
+          "activity": "https://m.youtube.com/watch?v=4UKB6Wb93tE&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "language": "French",
+      "items": [
+        {
+          "duration": "00:04:00",
+          "activity": "https://app.dreaming.com/french/watch?id=6a7c2cc87cba616393e0d581"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=s00rC1idcqU&pp=ugUEEgJlcw%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:15:00",
+          "activity": "https://m.youtube.com/watch?v=SJ38juweNeI&pp=ugUHEgVlcy1FU9IHCQkbDAGHKiGM7w%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:26:00",
+          "activity": "https://podcasts.apple.com/ca/podcast/bbva-aprendemos-juntos/id1331478791?i=1000775781305"
+        },
+        {
+          "duration": "00:18:00",
+          "activity": "https://app.dreaming.com/spanish/watch?id=6a9a79f15d1a104d5ad46dca"
+        },
+        {
+          "duration": "00:10:00",
+          "activity": "https://m.youtube.com/watch?v=KdXc1cDHgJw&pp=ugUEEgJlcw%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:17:00",
+          "activity": "https://m.youtube.com/watch?v=POw404F1Y7w&pp=ugUEEgJlc9IHCQmLAqO1ajebQw%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "language": "French",
+      "items": []
+    },
+    {
+      "date": "2026-09-07",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=QojLaU9A8Ag&pp=ugUEEgJlcw%3D%3D&ra=m"
+        },
+        {
+          "duration": "01:16:00",
+          "activity": "https://m.youtube.com/watch?v=dpxaIzlRHf8&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:15:00",
+          "activity": "BBC News"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=svDQpTScL3A&pp=ygUWc3BhbmlzaCBsYW5ndWFnZSBjb2FjaA%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:07:00",
+          "activity": "https://m.youtube.com/watch?v=XyZHzgU5WTc&ra=m"
+        },
+        {
+          "duration": "00:10:00",
+          "activity": "https://m.youtube.com/watch?v=sOhRv6qmvYg&ra=m"
         }
       ]
     }
