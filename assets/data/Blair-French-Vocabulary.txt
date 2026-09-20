@@ -179,25 +179,25 @@ payer | to pay |  | Verb | false | 2026-04-22 | 2026-09-16 | 8 | 0.0824 | Easy |
 demander | to ask |  | Verb | false | 2026-04-22 | 2026-09-18 | 15 | 0.0955 | Core | 
 
 # >>> Verb Tense Congugations
-[je suis, ns. sommes; tu es, vs. êtes; il·elle est, ils·elles sont] | Present forms of 'être' (to be) |  | Present | false | 2026-04-22 | 2026-09-16 | 11 | 0.1333 | Core | 
-[j'ai, ns. avons; tu as, vs. avez; il·elle a, ils·elles ont] | Present forms of 'avoir' (to have) |  | Present | false | 2026-04-22 | 2026-09-18 | 16 | 0.2294 | Core | 
-[je vais, ns. allons; tu vas, vs. allez; il·elle va, ils·elles vont] | Present forms of 'aller' (to go) |  | Present | false | 2026-04-22 | 2026-09-18 | 18 | 0.3372 | Core | 
-[je fais, ns. faisons; tu fais, vs. faites; il·elle fait, ils·elles font] | Present forms of 'faire' (to do / make) |  | Present | false | 2026-04-22 | 2026-09-18 | 24 | 0.4834 | Core | 
-[je veux, ns. voulons; tu veux, vs. voulez; il·elle veut, ils·elles veulent] | Present forms of 'vouloir' (to want) |  | Present | false | 2026-04-22 | 2026-09-18 | 20 | 0.2972 | Core | 
-[je peux, ns. pouvons; tu peux, vs. pouvez; il·elle peut, ils·elles peuvent] | Present forms of 'pouvoir' (to be able to / can) |  | Present | false | 2026-04-22 | 2026-09-18 | 17 | 0.1442 | Core | 
-[je sais, ns. savons; tu sais, vs. savez; il·elle sait, ils·elles savent] | Present forms of 'savoir' (to know a fact / how to do something) |  | Present | false | 2026-04-22 | 2026-09-18 | 18 | 0.1459 | Core | savoir = to know facts/skills; connaître = to know people/places
-[je connais, ns. connaissons; tu connais, vs. connaissez; il·elle connaît, ils·elles connaissent] | Present forms of 'connaître' (to know a person or place) |  | Present | false | 2026-04-22 | 2026-09-18 | 19 | 0.2363 | Core | connaître = to know people/places; savoir = to know facts/skills
-[je viens, ns. venons; tu viens, vs. venez; il·elle vient, ils·elles viennent] | Present forms of 'venir' (to come) |  | Present | false | 2026-04-22 | 2026-09-18 | 20 | 0.4087 | Core | 
-[je prends, ns. prenons; tu prends, vs. prenez; il·elle prend, ils·elles prennent] | Present forms of 'prendre' (to take / to have food or drink) |  | Present | false | 2026-04-22 | 2026-09-17 | 16 | 0.1973 | Core | prendre is used for ordering food/drink: Je prends le menu.
-[je mange, ns. mangeons; tu manges, vs. mangez; il·elle mange, ils·elles mangent] | Present forms of 'manger' (to eat) |  | Present | false | 2026-04-22 | 2026-09-15 | 10 | 0.1753 | Core | 
-[je bois, ns. buvons; tu bois, vs. buvez; il·elle boit, ils·elles boivent] | Present forms of 'boire' (to drink) |  | Present | false | 2026-04-22 | 2026-09-18 | 17 | 0.0841 | Core | 
-[je parle, ns. parlons; tu parles, vs. parlez; il·elle parle, ils·elles parlent] | Present forms of 'parler' (to speak) |  | Present | false | 2026-04-22 | 2026-09-15 | 9 | 0.1071 | Easy | Regular -er verb. Serves as the model for all regular -er verbs.
-[je comprends, ns. comprenons; tu comprends, vs. comprenez; il·elle comprend, ils·elles comprennent] | Present forms of 'comprendre' (to understand) |  | Present | false | 2026-04-22 | 2026-09-18 | 18 | 0.1260 | Easy | Conjugates like prendre.
-[je cherche, ns. cherchons; tu cherches, vs. cherchez; il·elle cherche, ils·elles cherchent] | Present forms of 'chercher' (to look for) |  | Present | false | 2026-04-22 | 2026-09-18 | 9 | 0.0824 | Core | 
-[je dois, ns. devons; tu dois, vs. devez; il·elle doit, ils·elles doivent] | Present forms of 'devoir' (must / to have to) |  | Present | false | 2026-04-22 | 2026-09-17 | 13 | 0.1978 | Core | 
-[j'arrive, ns. arrivons; tu arrives, vs. arrivez; il·elle arrive, ils·elles arrivent] | Present forms of 'arriver' (to arrive) |  | Present | false | 2026-04-22 | 2026-09-18 | 10 | 0.0980 | Core | 
-[je pars, ns. partons; tu pars, vs. partez; il·elle part, ils·elles partent] | Present forms of 'partir' (to leave / depart) |  | Present | false | 2026-04-22 | 2026-09-17 | 10 | 0.2610 | Core | 
-[je reste, ns. restons; tu restes, vs. restez; il·elle reste, ils·elles restent] | Present forms of 'rester' (to stay) |  | Present | true | 2026-04-22 | 2026-09-18 | 9 | 0.0576 | Easy | 
-[je réserve, ns. réservons; tu réserves, vs. réservez; il·elle réserve, ils·elles réservent] | Present forms of 'réserver' (to reserve / book) |  | Present | false | 2026-04-22 | 2026-09-18 | 9 | 0.1400 | Core | 
-[je paie, ns. payons; tu paies, vs. payez; il·elle paie, ils·elles paient] | Present forms of 'payer' (to pay) |  | Present | false | 2026-04-22 | 2026-09-17 | 12 | 0.1032 | Core | 
-[je demande, ns. demandons; tu demandes, vs. demandez; il·elle demande, ils·elles demandent] | Present forms of 'demander' (to ask) |  | Present | false | 2026-04-22 | 2026-09-15 | 7 | 0.1176 | Easy | 
+[je suis, nous sommes; tu es, vous êtes; il·elle est, ils·elles sont] | Present forms of 'être' (to be) |  | Present | false | 2026-04-22 | 2026-09-16 | 11 | 0.1333 | Core | 
+[j'ai, nous avons; tu as, vous avez; il·elle a, ils·elles ont] | Present forms of 'avoir' (to have) |  | Present | false | 2026-04-22 | 2026-09-18 | 16 | 0.2294 | Core | 
+[je vais, nous allons; tu vas, vous allez; il·elle va, ils·elles vont] | Present forms of 'aller' (to go) |  | Present | false | 2026-04-22 | 2026-09-18 | 18 | 0.3372 | Core | 
+[je fais, nous faisons; tu fais, vous faites; il·elle fait, ils·elles font] | Present forms of 'faire' (to do / make) |  | Present | false | 2026-04-22 | 2026-09-18 | 24 | 0.4834 | Core | 
+[je veux, nous voulons; tu veux, vous voulez; il·elle veut, ils·elles veulent] | Present forms of 'vouloir' (to want) |  | Present | false | 2026-04-22 | 2026-09-18 | 20 | 0.2972 | Core | 
+[je peux, nous pouvons; tu peux, vous pouvez; il·elle peut, ils·elles peuvent] | Present forms of 'pouvoir' (to be able to / can) |  | Present | false | 2026-04-22 | 2026-09-18 | 17 | 0.1442 | Core | 
+[je sais, nous savons; tu sais, vous savez; il·elle sait, ils·elles savent] | Present forms of 'savoir' (to know a fact / how to do something) |  | Present | false | 2026-04-22 | 2026-09-18 | 18 | 0.1459 | Core | savoir = to know facts/skills; connaître = to know people/places
+[je connais, nous connaissons; tu connais, vous connaissez; il·elle connaît, ils·elles connaissent] | Present forms of 'connaître' (to know a person or place) |  | Present | false | 2026-04-22 | 2026-09-18 | 19 | 0.2363 | Core | connaître = to know people/places; savoir = to know facts/skills
+[je viens, nous venons; tu viens, vous venez; il·elle vient, ils·elles viennent] | Present forms of 'venir' (to come) |  | Present | false | 2026-04-22 | 2026-09-18 | 20 | 0.4087 | Core | 
+[je prends, nous prenons; tu prends, vous prenez; il·elle prend, ils·elles prennent] | Present forms of 'prendre' (to take / to have food or drink) |  | Present | false | 2026-04-22 | 2026-09-17 | 16 | 0.1973 | Core | prendre is used for ordering food/drink: Je prends le menu.
+[je mange, nous mangeons; tu manges, vous mangez; il·elle mange, ils·elles mangent] | Present forms of 'manger' (to eat) |  | Present | false | 2026-04-22 | 2026-09-15 | 10 | 0.1753 | Core | 
+[je bois, nous buvons; tu bois, vous buvez; il·elle boit, ils·elles boivent] | Present forms of 'boire' (to drink) |  | Present | false | 2026-04-22 | 2026-09-18 | 17 | 0.0841 | Core | 
+[je parle, nous parlons; tu parles, vous parlez; il·elle parle, ils·elles parlent] | Present forms of 'parler' (to speak) |  | Present | false | 2026-04-22 | 2026-09-15 | 9 | 0.1071 | Easy | Regular -er verb. Serves as the model for all regular -er verbs.
+[je comprends, nous comprenons; tu comprends, vous comprenez; il·elle comprend, ils·elles comprennent] | Present forms of 'comprendre' (to understand) |  | Present | false | 2026-04-22 | 2026-09-18 | 18 | 0.1260 | Easy | Conjugates like prendre.
+[je cherche, nous cherchons; tu cherches, vous cherchez; il·elle cherche, ils·elles cherchent] | Present forms of 'chercher' (to look for) |  | Present | false | 2026-04-22 | 2026-09-18 | 9 | 0.0824 | Core | 
+[je dois, nous devons; tu dois, vous devez; il·elle doit, ils·elles doivent] | Present forms of 'devoir' (must / to have to) |  | Present | false | 2026-04-22 | 2026-09-17 | 13 | 0.1978 | Core | 
+[j'arrive, nous arrivons; tu arrives, vous arrivez; il·elle arrive, ils·elles arrivent] | Present forms of 'arriver' (to arrive) |  | Present | false | 2026-04-22 | 2026-09-18 | 10 | 0.0980 | Core | 
+[je pars, nous partons; tu pars, vous partez; il·elle part, ils·elles partent] | Present forms of 'partir' (to leave / depart) |  | Present | false | 2026-04-22 | 2026-09-17 | 10 | 0.2610 | Core | 
+[je reste, nous restons; tu restes, vous restez; il·elle reste, ils·elles restent] | Present forms of 'rester' (to stay) |  | Present | true | 2026-04-22 | 2026-09-18 | 9 | 0.0576 | Easy | 
+[je réserve, nous réservons; tu réserves, vous réservez; il·elle réserve, ils·elles réservent] | Present forms of 'réserver' (to reserve / book) |  | Present | false | 2026-04-22 | 2026-09-18 | 9 | 0.1400 | Core | 
+[je paie, nous payons; tu paies, vous payez; il·elle paie, ils·elles paient] | Present forms of 'payer' (to pay) |  | Present | false | 2026-04-22 | 2026-09-17 | 12 | 0.1032 | Core | 
+[je demande, nous demandons; tu demandes, vous demandez; il·elle demande, ils·elles demandent] | Present forms of 'demander' (to ask) |  | Present | false | 2026-04-22 | 2026-09-15 | 7 | 0.1176 | Easy | 
