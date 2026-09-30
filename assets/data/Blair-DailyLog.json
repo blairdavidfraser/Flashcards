@@ -1203,6 +1203,83 @@
       "language": "Spanish",
       "direction": "recall",
       "count": 14
+    },
+    {
+      "date": "2026-09-21",
+      "name": "Vocabulary",
+      "language": "French",
+      "direction": "recall",
+      "count": 51
+    },
+    {
+      "date": "2026-09-22",
+      "name": "Vocabulary",
+      "language": "French",
+      "direction": "recall",
+      "count": 54
+    },
+    {
+      "date": "2026-09-23",
+      "name": "Vocabulary",
+      "language": "French",
+      "direction": "recall",
+      "count": 50
+    },
+    {
+      "date": "2026-09-24",
+      "name": "Vocabulary",
+      "language": "French",
+      "direction": "recall",
+      "count": 50
+    },
+    {
+      "date": "2026-09-25",
+      "name": "Verbs",
+      "language": "French",
+      "direction": "recall",
+      "count": 15
+    },
+    {
+      "date": "2026-09-26",
+      "name": "Verbs",
+      "language": "French",
+      "direction": "recall",
+      "count": 51
+    },
+    {
+      "date": "2026-09-27",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 1
+    },
+    {
+      "date": "2026-09-27",
+      "name": "Verbs",
+      "language": "French",
+      "direction": "recall",
+      "count": 52
+    },
+    {
+      "date": "2026-09-28",
+      "name": "Verbs",
+      "language": "French",
+      "direction": "recall",
+      "count": 53
+    },
+    {
+      "date": "2026-09-29",
+      "name": "Verbs",
+      "language": "French",
+      "direction": "recall",
+      "count": 50
+    },
+    {
+      "date": "2026-09-30",
+      "name": "Verbs",
+      "language": "French",
+      "direction": "recall",
+      "count": 51
     }
   ],
   "other": [
@@ -3334,6 +3411,94 @@
         {
           "duration": "00:22:00",
           "activity": "https://m.youtube.com/watch?v=Pr-ManIN-PA&pp=ugUEEgJlc9IHCQkkDAGHKiGM7w%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:26:00",
+          "activity": "https://podcasts.apple.com/ca/podcast/intermediate-spanish-podcast-espa%C3%B1ol-intermedio/id1479285354?i=1000777996286"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
+          "activity": "https://m.youtube.com/watch?v=2xTMrJX74Ek&ra=m"
+        },
+        {
+          "duration": "00:21:00",
+          "activity": "https://m.youtube.com/watch?v=Y2ARxPlyiT0&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:31:00",
+          "activity": "https://m.youtube.com/watch?v=6WCqj2bt5xg&ra=m"
+        },
+        {
+          "duration": "00:22:00",
+          "activity": "https://m.youtube.com/watch?v=uTePtsqGoJM&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:25:00",
+          "activity": "https://m.youtube.com/watch?v=neIdrauZsTg&ra=m https://m.youtube.com/watch?v=neIdrauZsTg&ra=m"
+        },
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=nShYNpfqby0&ra=m"
+        },
+        {
+          "duration": "00:19:00",
+          "activity": "https://m.youtube.com/watch?v=sGZcouz-SpA&ra=m"
+        },
+        {
+          "duration": "00:16:00",
+          "activity": "https://m.youtube.com/watch?v=10ZAOPrtoOs&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:22:00",
+          "activity": "https://m.youtube.com/watch?v=Dbnun0rPbmk&pp=ygUWc3BhbmlzaCBsYW5ndWFnZSBjb2FjaNIHCQmLAqO1ajebQw%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:27:00",
+          "activity": "https://podcasts.apple.com/ca/podcast/espa%C3%B1olistos-learn-spanish-with-fun-conversations/id1166015603?i=1000790590881"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:17:00",
+          "activity": "https://m.youtube.com/watch?v=tDWMLLNOGQA&pp=ugUHEgVlcy1NWA%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:06:00",
+          "activity": "https://m.youtube.com/watch?v=zE_byQr9V8E&ra=m"
         }
       ]
     }
