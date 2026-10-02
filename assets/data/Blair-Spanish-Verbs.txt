@@ -304,7 +304,7 @@ Voy a ver una película después, pero estoy escribiendo un correo ahora | I am 
 ¿Van a llegar antes de que empiece? | Are they going to arrive before it starts? |  | Immediate Future | false | 2026-04-02 | 2026-09-08 | 16 | 0.0700 | Core | llegar = arrive; time pressure context
 ¿Qué vas a llevar a la carrera? | What are you going to bring to the race? |  | Immediate Future | false | 2026-04-02 | 2026-05-28 | 3 | 0.1000 | Easy | llevar = to bring/carry; race prep
 ¿Vas a llenar el formulario esta tarde? | Are you going to fill in the form this afternoon? |  | Immediate Future | false | 2026-04-02 | 2026-05-27 | 10 | 0.1000 | Easy | llenar el formulario = fill in the form
-¿Cuándo van a volver? | When are they going to come back? |  | Immediate Future | true | 2026-04-02 | 2026-05-27 | 8 | 0.1000 | Easy | 
+¿Cuándo van a volver? | When are they going to come back? |  | Immediate Future | true | 2026-04-02 | 2026-09-27 | 9 | 0.0700 | Easy | 
 ¿Vas a intentar un nuevo récord? | Are you going to try for a new record? |  | Immediate Future | false | 2026-04-02 | 2026-05-27 | 10 | 0.1000 | Easy | 
 ¿Qué vas a hacer cuando llegues a casa? | What are you going to do when you get home? |  | Immediate Future | true | 2026-04-02 | 2026-06-02 | 5 | 0.1029 | Easy | llegues = subjunctive after cuando + future; natural spoken Spanish
 ¿Vas a llevar agua o va a haber fuentes en el camino? | Are you going to bring water or will there be fountains on the route? |  | Immediate Future | false | 2026-04-02 | 2026-05-28 | 13 | 0.1000 | Easy | llevar agua vs. fuentes; llevar in practical context
