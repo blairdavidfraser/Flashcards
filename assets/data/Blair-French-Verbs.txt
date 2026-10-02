@@ -92,53 +92,53 @@
 
 # >>> Present Tense
 
-Je suis touriste. | I'm a tourist. |  | Present | false | 2026-04-22 | 2026-09-29 | 7 | 0.1176 | Core | 
+Je suis touriste. | I'm a tourist. |  | Present | false | 2026-04-22 | 2026-10-02 | 8 | 0.0823 | Easy | 
 Je suis canadien. | I'm Canadian. |  | Present | false | 2026-04-22 | 2026-10-01 | 7 | 0.1176 | Easy | 
 Nous sommes deux. | There are two of us. |  | Present | false | 2026-04-22 | 2026-10-01 | 8 | 0.2367 | Core | 
-J'ai une réservation. | I have a reservation. |  | Present | false | 2026-04-22 | 2026-09-29 | 10 | 0.1827 | Core | 
-J'ai faim. | I'm hungry. |  | Present | false | 2026-04-22 | 2026-10-01 | 9 | 0.1647 | Core | avoir faim = to be hungry; literally "to have hunger"
+J'ai une réservation. | I have a reservation. |  | Present | false | 2026-04-22 | 2026-10-02 | 11 | 0.1279 | Core | 
+J'ai faim. | I'm hungry. |  | Present | false | 2026-04-22 | 2026-10-02 | 10 | 0.1153 | Easy | avoir faim = to be hungry; literally "to have hunger"
 J'ai soif. | I'm thirsty. |  | Present | false | 2026-04-22 | 2026-10-01 | 9 | 0.1400 | Easy | avoir soif = to be thirsty; literally "to have thirst"
-Je vais à la gare. | I'm going to the train station. |  | Present | false | 2026-04-22 | 2026-10-01 | 9 | 0.4093 | Core | 
+Je vais à la gare. | I'm going to the train station. |  | Present | false | 2026-04-22 | 2026-10-02 | 10 | 0.2865 | Core | 
 Je vais à pied. | I'm going on foot. |  | Present | false | 2026-04-22 | 2026-10-01 | 8 | 0.1681 | Core | 
-Je prends le menu à vingt euros. | I'll have the set menu at twenty euros. |  | Present | false | 2026-04-22 | 2026-10-01 | 10 | 0.2594 | Core | prendre = to take/have; used naturally for ordering
-Je prends le métro. | I'm taking the metro. |  | Present | false | 2026-04-22 | 2026-10-01 | 10 | 0.1333 | Core | 
+Je prends le menu à vingt euros. | I'll have the set menu at twenty euros. |  | Present | false | 2026-04-22 | 2026-10-02 | 12 | 0.1271 | Easy | prendre = to take/have; used naturally for ordering
+Je prends le métro. | I'm taking the metro. |  | Present | false | 2026-04-22 | 2026-10-02 | 11 | 0.0933 | Easy | 
 Je mange ici ce soir. | I'm eating here tonight. |  | Present | false | 2026-04-22 | 2026-10-01 | 9 | 0.1153 | Easy | 
-Je bois de l'eau, s'il vous plaît. | I'll have water, please. |  | Present | false | 2026-04-22 | 2026-10-01 | 10 | 0.2000 | Core | 
+Je bois de l'eau, s'il vous plaît. | I'll have water, please. |  | Present | false | 2026-04-22 | 2026-10-02 | 12 | 0.0980 | Easy | 
 Je parle un peu français. | I speak a little French. |  | Present | false | 2026-04-22 | 2026-09-26 | 1 | 0.0000 | Core | 
 Je ne comprends pas. | I don't understand. |  | Present | false | 2026-04-22 | 2026-10-01 | 8 | 0.1328 | Core | 
 Je cherche l'hôtel Lumière. | I'm looking for the Hôtel Lumière. |  | Present | false | 2026-04-22 | 2026-10-01 | 7 | 0.1176 | Easy | 
-Je cherche un restaurant pas trop cher. | I'm looking for a restaurant that's not too expensive. |  | Present | false | 2026-04-22 | 2026-10-01 | 10 | 0.2367 | Core | 
-Je veux une chambre pour deux nuits. | I want a room for two nights. |  | Present | false | 2026-04-22 | 2026-10-01 | 10 | 0.2514 | Core | 
-Je dois partir tôt demain matin. | I have to leave early tomorrow morning. |  | Present | false | 2026-04-22 | 2026-10-01 | 14 | 0.4495 | Core | 
-J'arrive demain soir. | I'm arriving tomorrow evening. |  | Present | false | 2026-04-22 | 2026-10-01 | 8 | 0.2353 | Core | 
-Je reste trois nuits. | I'm staying three nights. |  | Present | false | 2026-04-22 | 2026-09-28 | 5 | 0.3430 | Core | 
-Je réserve une table pour ce soir. | I'm booking a table for tonight. |  | Present | false | 2026-04-22 | 2026-09-30 | 7 | 0.2857 | Core | 
-Je paie par carte. | I'm paying by card. |  | Present | false | 2026-04-22 | 2026-09-29 | 5 | 0.2401 | Core | 
-Je ne sais pas. | I don't know. |  | Present | false | 2026-04-22 | 2026-10-01 | 9 | 0.1605 | Core | 
-Je connais bien ce quartier. | I know this neighbourhood well. |  | Present | false | 2026-04-22 | 2026-10-01 | 12 | 0.5325 | Core | 
-Il fait beau aujourd'hui. | The weather is nice today. |  | Present | false | 2026-04-22 | 2026-10-01 | 11 | 0.3465 | Core | faire + weather: il fait beau/chaud/froid/mauvais
-Il fait chaud ici. | It's hot in here. |  | Present | false | 2026-04-22 | 2026-10-01 | 8 | 0.2000 | Core | 
-Le train part à quelle heure ? | What time does the train leave? |  | Present | false | 2026-04-22 | 2026-10-01 | 8 | 0.4327 | Core | 
-Le bus arrive dans dix minutes. | The bus arrives in ten minutes. |  | Present | false | 2026-04-22 | 2026-10-01 | 8 | 0.3361 | Core | 
-On peut marcher jusqu'à la plage ? | Can we walk to the beach? |  | Present | false | 2026-10-02 | 2026-09-27 | 2 | 2.3000 | Hard | on peut = we can / one can; very common in spoken French
-Ça coûte combien ? | How much does it cost? |  | Present | false | 2026-04-22 | 2026-09-30 | 8 | 0.8831 | Core | 
-Est-ce que vous avez une table pour deux ? | Do you have a table for two? |  | Present | false | 2026-10-03 | 2026-09-28 | 1 | 3.0000 | Hard | 
-Est-ce que vous avez une chambre de libre ? | Do you have a room available? |  | Present | false | 2026-10-03 | 2026-09-28 | 1 | 3.0000 | Hard | 
-Vous parlez anglais ? | Do you speak English? |  | Present | false | 2026-04-22 | 2026-10-01 | 8 | 0.1176 | Core | Rising intonation question — natural in spoken French
-Est-ce que vous acceptez les cartes ? | Do you accept cards? |  | Present | false | 2026-10-03 | 2026-09-28 | 1 | 3.0000 | Hard | 
-Le musée est ouvert aujourd'hui ? | Is the museum open today? |  | Present | false | 2026-04-22 | 2026-10-01 | 8 | 0.7147 | Core | 
-Où est la station de métro la plus proche ? | Where is the nearest metro station? |  | Present | false | 2026-10-04 | 2026-09-29 | 1 | 3.0000 | Hard | 
-Où est-ce qu'on prend le bus ? | Where do we catch the bus? |  | Present | false | 2026-10-04 | 2026-09-29 | 1 | 3.0000 | Hard | 
-Est-ce qu'il y a un distributeur près d'ici ? | Is there an ATM nearby? |  | Present | false | 2026-10-04 | 2026-09-29 | 2 | 2.3000 | Hard | distributeur = ATM in France; also called DAB
-Vous pouvez m'appeler un taxi ? | Can you call me a taxi? |  | Present | false | 2026-10-04 | 2026-09-29 | 1 | 3.0000 | Hard | 
-Vous pouvez répéter plus lentement ? | Can you repeat more slowly? |  | Present | false | 2026-10-04 | 2026-09-29 | 1 | 3.0000 | Hard | 
-Qu'est-ce que vous recommandez ? | What do you recommend? |  | Present | false | 2026-04-22 | 2026-10-01 | 11 | 0.6860 | Core | 
-C'est compris dans le prix ? | Is it included in the price? |  | Present | false | 2026-04-22 | 2026-09-30 | 8 | 0.8330 | Core | 
-Vous avez du wifi ? | Do you have wifi? |  | Present | false | 2026-04-22 | 2026-10-01 | 7 | 0.6902 | Core | 
-Le petit-déjeuner est inclus ? | Is breakfast included? |  | Present | false | 2026-04-22 | 2026-10-01 | 10 | 1.1900 | Core | 
-Est-ce que je peux voir la chambre ? | Can I see the room? |  | Present | false | 2026-10-05 | 2026-09-30 | 1 | 3.0000 | Hard | 
-Il faut réserver à l'avance ? | Do you need to book in advance? |  | Present | false | 2026-10-05 | 2026-09-30 | 1 | 3.0000 | Hard | il faut = it is necessary / you need to; impersonal, very common
-Qu'est-ce qu'il y a à faire ici ? | What is there to do here? |  | Present | false | 2026-10-06 | 2026-10-01 | 1 | 3.0000 | Hard | 
-Le service est compris ? | Is service included? |  | Present | false | 2026-04-22 | 2026-10-01 | 6 | 0.6860 | Core | 
-Vous avez un menu en anglais ? | Do you have a menu in English? |  | Present | false | 2026-04-22 | 2026-10-01 | 4 | 0.3430 | Core | 
-Ça prend combien de temps ? | How long does it take? |  | Present | false | 2026-10-05 | 2026-09-30 | 2 | 2.3000 | Hard | 
+Je cherche un restaurant pas trop cher. | I'm looking for a restaurant that's not too expensive. |  | Present | false | 2026-04-22 | 2026-10-02 | 11 | 0.1657 | Core | 
+Je veux une chambre pour deux nuits. | I want a room for two nights. |  | Present | false | 2026-04-22 | 2026-10-02 | 12 | 0.1232 | Core | 
+Je dois partir tôt demain matin. | I have to leave early tomorrow morning. |  | Present | false | 2026-04-22 | 2026-10-02 | 16 | 0.2203 | Core | 
+J'arrive demain soir. | I'm arriving tomorrow evening. |  | Present | false | 2026-04-22 | 2026-10-02 | 9 | 0.1647 | Core | 
+Je reste trois nuits. | I'm staying three nights. |  | Present | false | 2026-04-22 | 2026-10-02 | 8 | 0.2646 | Core | 
+Je réserve une table pour ce soir. | I'm booking a table for tonight. |  | Present | false | 2026-04-22 | 2026-10-02 | 9 | 0.1400 | Core | 
+Je paie par carte. | I'm paying by card. |  | Present | false | 2026-04-22 | 2026-10-02 | 7 | 0.1176 | Easy | 
+Je ne sais pas. | I don't know. |  | Present | false | 2026-04-22 | 2026-10-02 | 10 | 0.1123 | Easy | 
+Je connais bien ce quartier. | I know this neighbourhood well. |  | Present | false | 2026-04-22 | 2026-10-02 | 14 | 0.2609 | Core | 
+Il fait beau aujourd'hui. | The weather is nice today. |  | Present | false | 2026-04-22 | 2026-10-02 | 12 | 0.2425 | Core | faire + weather: il fait beau/chaud/froid/mauvais
+Il fait chaud ici. | It's hot in here. |  | Present | false | 2026-04-22 | 2026-10-02 | 9 | 0.1400 | Easy | 
+Le train part à quelle heure? | What time does the train leave? |  | Present | false | 2026-04-22 | 2026-10-02 | 10 | 0.2120 | Core | 
+Le bus arrive dans dix minutes. | The bus arrives in ten minutes. |  | Present | false | 2026-04-22 | 2026-10-02 | 10 | 0.1647 | Core | 
+On peut marcher jusqu'à la plage? | Can we walk to the beach? |  | Present | false | 2026-10-07 | 2026-10-02 | 3 | 2.5100 | Hard | on peut = we can / one can; very common in spoken French
+Ça coûte combien? | How much does it cost? |  | Present | false | 2026-04-22 | 2026-10-02 | 10 | 0.4327 | Core | 
+Est-ce que vous avez une table pour deux? | Do you have a table for two? |  | Present | false | 2026-10-03 | 2026-09-28 | 1 | 3.0000 | Hard | 
+Est-ce que vous avez une chambre de libre? | Do you have a room available? |  | Present | false | 2026-10-03 | 2026-09-28 | 1 | 3.0000 | Hard | 
+Vous parlez anglais? | Do you speak English? |  | Present | false | 2026-04-22 | 2026-10-01 | 8 | 0.1176 | Core | Rising intonation question — natural in spoken French
+Est-ce que vous acceptez les cartes? | Do you accept cards? |  | Present | false | 2026-10-03 | 2026-09-28 | 1 | 3.0000 | Hard | 
+Le musée est ouvert aujourd'hui? | Is the museum open today? |  | Present | false | 2026-04-22 | 2026-10-02 | 10 | 0.3502 | Core | 
+Où est la station de métro la plus proche? | Where is the nearest metro station? |  | Present | false | 2026-10-04 | 2026-09-29 | 1 | 3.0000 | Hard | 
+Où est-ce qu'on prend le bus? | Where do we catch the bus? |  | Present | false | 2026-10-04 | 2026-09-29 | 1 | 3.0000 | Hard | 
+Est-ce qu'il y a un distributeur près d'ici? | Is there an ATM nearby? |  | Present | false | 2026-10-04 | 2026-09-29 | 2 | 2.3000 | Hard | distributeur = ATM in France; also called DAB
+Vous pouvez m'appeler un taxi? | Can you call me a taxi? |  | Present | false | 2026-10-04 | 2026-09-29 | 1 | 3.0000 | Hard | 
+Vous pouvez répéter plus lentement? | Can you repeat more slowly? |  | Present | false | 2026-10-04 | 2026-09-29 | 1 | 3.0000 | Hard | 
+Qu'est-ce que vous recommandez? | What do you recommend? |  | Present | false | 2026-04-22 | 2026-10-02 | 15 | 0.2676 | Core | 
+C'est compris dans le prix? | Is it included in the price? |  | Present | false | 2026-04-22 | 2026-10-02 | 11 | 0.6427 | Core | 
+Vous avez du wifi? | Do you have wifi? |  | Present | false | 2026-04-22 | 2026-10-02 | 11 | 0.1657 | Core | 
+Le petit-déjeuner est inclus? | Is breakfast included? |  | Present | false | 2026-04-22 | 2026-10-02 | 13 | 0.4082 | Core | 
+Est-ce que je peux voir la chambre? | Can I see the room? |  | Present | false | 2026-10-05 | 2026-09-30 | 1 | 3.0000 | Hard | 
+Il faut réserver à l'avance? | Do you need to book in advance? |  | Present | false | 2026-10-05 | 2026-09-30 | 1 | 3.0000 | Hard | il faut = it is necessary / you need to; impersonal, very common
+Qu'est-ce qu'il y a à faire ici? | What is there to do here? |  | Present | false | 2026-10-06 | 2026-10-01 | 1 | 3.0000 | Hard | 
+Le service est compris? | Is service included? |  | Present | false | 2026-04-22 | 2026-10-02 | 11 | 0.2902 | Core | 
+Vous avez un menu en anglais? | Do you have a menu in English? |  | Present | false | 2026-04-22 | 2026-10-02 | 6 | 0.1681 | Core | 
+Ça prend combien de temps? | How long does it take? |  | Present | false | 2026-10-05 | 2026-09-30 | 2 | 2.3000 | Hard | 
