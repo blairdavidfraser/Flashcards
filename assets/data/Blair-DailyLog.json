@@ -1280,6 +1280,13 @@
       "language": "French",
       "direction": "recall",
       "count": 51
+    },
+    {
+      "date": "2026-10-01",
+      "name": "Verbs",
+      "language": "French",
+      "direction": "recall",
+      "count": 51
     }
   ],
   "other": [
@@ -3499,6 +3506,26 @@
         {
           "duration": "00:06:00",
           "activity": "https://m.youtube.com/watch?v=zE_byQr9V8E&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:09:00",
+          "activity": "https://m.youtube.com/watch?v=jBbeUc6A8y4&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:11:00",
+          "activity": "https://m.youtube.com/watch?v=3w-1eRsZeC0&pp=ugUEEgJlcw%3D%3D&ra=m"
         }
       ]
     }
