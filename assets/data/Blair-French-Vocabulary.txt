@@ -92,30 +92,30 @@
 
 # >>> Basics
 Bonjour | Hello / Good morning |  | Conversational | false | 2026-04-07 | 2026-09-14 | 11 | 0.1285 | Easy | 
-Bonsoir | Good evening |  | Conversational | false | 2026-04-07 | 2026-09-18 | 13 | 0.1063 | Core | 
+Bonsoir | Good evening |  | Conversational | false | 2026-04-07 | 2026-09-24 | 15 | 0.0521 | Easy | 
 Salut | Hi / Bye (informal) |  | Conversational | false | 2026-04-07 | 2026-09-16 | 12 | 0.0638 | Easy | 
 Au revoir | Goodbye |  | Conversational | false | 2026-04-07 | 2026-09-15 | 10 | 0.0807 | Easy | 
 À bientôt | See you soon |  | Conversational | false | 2026-04-07 | 2026-09-17 | 18 | 0.1157 | Easy | 
-À plus tard | See you later |  | Conversational | false | 2026-04-07 | 2026-09-13 | 11 | 0.1153 | Core | 
+À plus tard | See you later |  | Conversational | false | 2026-04-07 | 2026-09-24 | 14 | 0.0395 | Easy | 
 Merci | Thank you |  | Conversational | false | 2026-04-07 | 2026-09-02 | 9 | 0.1153 | Easy | 
 Merci beaucoup | Thank you very much |  | Conversational | false | 2026-04-07 | 2026-09-18 | 10 | 0.1153 | Easy | 
 De rien | You're welcome |  | Conversational | false | 2026-04-07 | 2026-09-18 | 14 | 0.0914 | Easy | 
-S'il vous plaît | Please (formal) |  | Conversational | false | 2026-04-07 | 2026-09-18 | 14 | 0.1285 | Core | 
+S'il vous plaît | Please (formal) |  | Conversational | false | 2026-04-07 | 2026-09-22 | 15 | 0.0900 | Easy | 
 S'il te plaît | Please (informal) |  | Conversational | false | 2026-04-07 | 2026-09-09 | 9 | 0.1153 | Easy | 
 Excusez-moi | Excuse me (formal) |  | Conversational | false | 2026-04-07 | 2026-08-24 | 1 | 0.0000 | Core | 
-Pardon | Sorry / excuse me |  | Conversational | false | 2026-04-07 | 2026-09-18 | 15 | 0.1021 | Core | 
-Désolé | Sorry |  | Conversational | false | 2026-04-07 | 2026-09-16 | 19 | 0.2116 | Core | 
+Pardon | Sorry / excuse me |  | Conversational | false | 2026-04-07 | 2026-09-21 | 16 | 0.0715 | Easy | 
+Désolé | Sorry |  | Conversational | false | 2026-04-07 | 2026-09-24 | 26 | 0.0527 | Easy | 
 Comment ça va? | How are you? |  | Conversational | false | 2026-04-07 | 2026-08-25 | 1 | 0.0000 | Core | 
 Ça va bien | I’m doing well |  | Conversational | false | 2026-04-07 | 2026-09-06 | 11 | 0.1573 | Easy | 
-Comme ci, comme ça | So-so |  | Conversational | false | 2026-04-07 | 2026-09-18 | 10 | 0.0908 | Core | 
-Ça ne va pas | Not good |  | Conversational | false | 2026-04-07 | 2026-09-17 | 20 | 0.1112 | Core | 
-Qui? | Who? |  | Conversational | false | 2026-04-07 | 2026-09-18 | 14 | 0.2453 | Core | 
-Quoi? | What? |  | Conversational | false | 2026-04-07 | 2026-09-18 | 18 | 0.4054 | Core | 
+Comme ci, comme ça | So-so |  | Conversational | false | 2026-04-07 | 2026-09-23 | 12 | 0.0445 | Easy | 
+Ça ne va pas | Not good |  | Conversational | false | 2026-04-07 | 2026-09-24 | 25 | 0.0187 | Easy | 
+Qui? | Who? |  | Conversational | false | 2026-04-07 | 2026-09-23 | 18 | 0.0589 | Easy | 
+Quoi? | What? |  | Conversational | false | 2026-04-07 | 2026-09-24 | 27 | 0.0337 | Core | 
 Où? | Where? |  | Conversational | false | 2026-04-07 | 2026-08-25 | 1 | 0.0000 | Core | 
-Quand? | When? |  | Conversational | false | 2026-04-07 | 2026-09-18 | 12 | 0.0774 | Core | 
+Quand? | When? |  | Conversational | false | 2026-04-07 | 2026-09-24 | 19 | 0.0417 | Core | 
 Pourquoi? | Why? |  | Conversational | false | 2026-04-07 | 2026-09-16 | 8 | 0.0824 | Easy | 
 Comment? | How? |  | Conversational | false | 2026-04-07 | 2026-09-13 | 7 | 0.1176 | Easy | 
-Combien? | How much / many? |  | Conversational | false | 2026-04-07 | 2026-09-18 | 11 | 0.3011 | Core | 
+Combien? | How much / many? |  | Conversational | false | 2026-04-07 | 2026-09-23 | 16 | 0.0506 | Easy | 
 Je ne comprends pas | I don’t understand |  | Conversational | false | 2026-04-07 | 2026-09-06 | 9 | 0.1400 | Easy | 
 Pouvez-vous répéter? | Can you repeat? |  | Conversational | false | 2026-04-07 | 2026-09-12 | 11 | 0.1032 | Easy | 
 Parlez-vous anglais? | Do you speak English? |  | Conversational | false | 2026-04-07 | 2026-08-26 | 1 | 0.0000 | Core | 
@@ -124,13 +124,13 @@ Où sont les toilettes? | Where is the bathroom? |  | Conversational | false | 2
 Où est…? | Where is…? |  | Conversational | false | 2026-04-07 | 2026-09-13 | 10 | 0.1254 | Easy | 
 C’est loin? | Is it far? |  | Conversational | false | 2026-04-07 | 2026-09-14 | 13 | 0.1186 | Easy | 
 À gauche | To the left |  | Conversational | false | 2026-04-07 | 2026-09-17 | 15 | 0.0477 | Easy | 
-À droite | To the right |  | Conversational | false | 2026-04-07 | 2026-09-18 | 12 | 0.1950 | Core | 
-Tout droit | Straight ahead |  | Conversational | false | 2026-04-07 | 2026-09-18 | 14 | 0.1271 | Core | 
+À droite | To the right |  | Conversational | false | 2026-04-07 | 2026-09-24 | 16 | 0.0468 | Easy | 
+Tout droit | Straight ahead |  | Conversational | false | 2026-04-07 | 2026-09-24 | 16 | 0.0623 | Easy | 
 Je voudrais… | I would like… |  | Conversational | false | 2026-04-07 | 2026-09-17 | 11 | 0.0686 | Easy | 
-Je prends… | I’ll take… |  | Conversational | false | 2026-04-07 | 2026-09-17 | 20 | 0.2129 | Core | 
+Je prends… | I’ll take… |  | Conversational | false | 2026-04-07 | 2026-09-24 | 24 | 0.0511 | Easy | 
 L’addition, s’il vous plaît | The bill, please |  | Conversational | false | 2026-04-07 | 2026-09-16 | 11 | 0.0933 | Easy | 
 C’est combien? | How much is it? |  | Conversational | false | 2026-04-07 | 2026-08-29 | 1 | 0.0000 | Core | 
-Je peux payer par carte? | Can I pay by card? |  | Conversational | false | 2026-04-07 | 2026-09-16 | 12 | 0.0807 | Core | 
+Je peux payer par carte? | Can I pay by card? |  | Conversational | false | 2026-04-07 | 2026-09-24 | 15 | 0.0277 | Core | 
 Un | One |  | Conversational | false | 2026-04-07 | 2026-09-17 | 7 | 0.1176 | Easy | 
 Deux | Two |  | Conversational | false | 2026-04-07 | 2026-09-09 | 8 | 0.1176 | Easy | 
 Trois | Three |  | Conversational | false | 2026-04-07 | 2026-09-09 | 11 | 0.1311 | Easy | 
@@ -142,12 +142,12 @@ Huit | Eight |  | Conversational | false | 2026-04-07 | 2026-09-09 | 7 | 0.1176 
 Neuf | Nine |  | Conversational | false | 2026-04-07 | 2026-09-15 | 9 | 0.1153 | Easy | 
 Dix | Ten |  | Conversational | false | 2026-04-07 | 2026-09-17 | 9 | 0.0824 | Easy | 
 Janvier | January |  | Conversational | false | 2026-04-07 | 2026-09-17 | 7 | 0.1176 | Easy | 
-Février | February |  | Conversational | false | 2026-04-07 | 2026-09-18 | 14 | 0.1886 | Core | 
+Février | February |  | Conversational | false | 2026-04-07 | 2026-09-21 | 15 | 0.1320 | Easy | 
 Mars | March |  | Conversational | false | 2026-04-07 | 2026-09-02 | 6 | 0.1681 | Easy | 
 Avril | April |  | Conversational | false | 2026-04-07 | 2026-09-06 | 8 | 0.1647 | Easy | 
-Mai | May |  | Conversational | false | 2026-04-07 | 2026-09-17 | 8 | 0.0824 | Core | 
+Mai | May |  | Conversational | false | 2026-04-07 | 2026-09-23 | 9 | 0.0577 | Easy | 
 Juin | June |  | Conversational | false | 2026-04-07 | 2026-09-16 | 13 | 0.1347 | Easy | 
-Juillet | July |  | Conversational | false | 2026-04-07 | 2026-09-18 | 12 | 0.1286 | Core | 
+Juillet | July |  | Conversational | false | 2026-04-07 | 2026-09-23 | 14 | 0.0630 | Easy | 
 Août | August |  | Conversational | false | 2026-04-07 | 2026-09-16 | 9 | 0.0576 | Easy | 
 Septembre | September |  | Conversational | false | 2026-04-07 | 2026-09-16 | 7 | 0.1176 | Easy | 
 Octobre | October |  | Conversational | false | 2026-04-07 | 2026-09-17 | 12 | 0.0702 | Easy | 
@@ -159,45 +159,45 @@ Décembre | December |  | Conversational | false | 2026-04-07 | 2026-09-12 | 7 |
 avoir | to have |  | Verb | false | 2026-04-22 | 2026-09-16 | 14 | 0.0911 | Easy | 
 aller | to go |  | Verb | false | 2026-04-22 | 2026-09-17 | 13 | 0.0924 | Easy | 
 faire | to do / to make |  | Verb | false | 2026-04-22 | 2026-09-14 | 10 | 0.1153 | Easy | 
-vouloir | to want |  | Verb | false | 2026-04-22 | 2026-09-18 | 14 | 0.0940 | Core | 
-pouvoir | to be able to / can |  | Verb | false | 2026-04-22 | 2026-09-17 | 16 | 0.1789 | Core | 
+vouloir | to want |  | Verb | false | 2026-04-22 | 2026-09-23 | 17 | 0.0322 | Easy | 
+pouvoir | to be able to / can |  | Verb | false | 2026-04-22 | 2026-09-23 | 19 | 0.0614 | Easy | 
 devoir | to have to / must |  | Verb | false | 2026-04-22 | 2026-09-07 | 11 | 0.4587 | Easy | 
-savoir | to know (a fact or skill) |  | Verb | false | 2026-04-22 | 2026-09-18 | 10 | 0.0807 | Core | savoir = to know facts/how to do things; connaître = to know people/places
-connaître | to know (a person or place) |  | Verb | false | 2026-04-22 | 2026-09-18 | 13 | 0.1160 | Core | connaître = to know people/places; savoir = to know facts/skills
+savoir | to know (a fact or skill) |  | Verb | false | 2026-04-22 | 2026-09-22 | 13 | 0.0277 | Easy | savoir = to know facts/how to do things; connaître = to know people/places
+connaître | to know (a person or place) |  | Verb | false | 2026-04-22 | 2026-09-24 | 17 | 0.0279 | Easy | connaître = to know people/places; savoir = to know facts/skills
 venir | to come |  | Verb | false | 2026-04-22 | 2026-09-16 | 10 | 0.1301 | Easy | 
-prendre | to take / to have (food or drink) |  | Verb | false | 2026-04-22 | 2026-09-18 | 18 | 0.2620 | Core | 
-manger | to eat |  | Verb | false | 2026-04-22 | 2026-09-17 | 12 | 0.1132 | Core | 
+prendre | to take / to have (food or drink) |  | Verb | false | 2026-04-22 | 2026-09-24 | 21 | 0.0899 | Easy | 
+manger | to eat |  | Verb | false | 2026-04-22 | 2026-09-23 | 14 | 0.0555 | Easy | 
 boire | to drink |  | Verb | false | 2026-04-22 | 2026-09-15 | 13 | 0.1358 | Easy | 
 parler | to speak |  | Verb | false | 2026-04-22 | 2026-09-14 | 8 | 0.1544 | Easy | 
 comprendre | to understand |  | Verb | false | 2026-04-22 | 2026-09-15 | 12 | 0.1091 | Easy | 
 chercher | to look for |  | Verb | false | 2026-04-22 | 2026-09-16 | 10 | 0.1153 | Easy | 
 arriver | to arrive |  | Verb | false | 2026-04-22 | 2026-09-16 | 7 | 0.1176 | Easy | 
 partir | to leave / to depart |  | Verb | false | 2026-04-22 | 2026-09-17 | 14 | 0.0918 | Easy | 
-rester | to stay |  | Verb | false | 2026-04-22 | 2026-09-16 | 11 | 0.1363 | Core | 
-réserver | to reserve / to book |  | Verb | false | 2026-04-22 | 2026-09-16 | 8 | 0.1544 | Core | 
+rester | to stay |  | Verb | false | 2026-04-22 | 2026-09-24 | 15 | 0.0327 | Easy | 
+réserver | to reserve / to book |  | Verb | false | 2026-04-22 | 2026-09-22 | 12 | 0.0371 | Easy | 
 payer | to pay |  | Verb | false | 2026-04-22 | 2026-09-16 | 8 | 0.0824 | Easy | 
-demander | to ask |  | Verb | false | 2026-04-22 | 2026-09-18 | 15 | 0.0955 | Core | 
+demander | to ask |  | Verb | false | 2026-04-22 | 2026-09-23 | 17 | 0.0468 | Easy | 
 
 # >>> Verb Tense Congugations
-[je suis, nous sommes; tu es, vous êtes; il·elle est, ils·elles sont] | Present forms of 'être' (to be) |  | Present | false | 2026-04-22 | 2026-09-16 | 11 | 0.1333 | Core | 
-[j'ai, nous avons; tu as, vous avez; il·elle a, ils·elles ont] | Present forms of 'avoir' (to have) |  | Present | false | 2026-04-22 | 2026-09-18 | 16 | 0.2294 | Core | 
-[je vais, nous allons; tu vas, vous allez; il·elle va, ils·elles vont] | Present forms of 'aller' (to go) |  | Present | false | 2026-04-22 | 2026-09-18 | 18 | 0.3372 | Core | 
-[je fais, nous faisons; tu fais, vous faites; il·elle fait, ils·elles font] | Present forms of 'faire' (to do / make) |  | Present | false | 2026-04-22 | 2026-09-18 | 24 | 0.4834 | Core | 
-[je veux, nous voulons; tu veux, vous voulez; il·elle veut, ils·elles veulent] | Present forms of 'vouloir' (to want) |  | Present | false | 2026-04-22 | 2026-09-18 | 20 | 0.2972 | Core | 
-[je peux, nous pouvons; tu peux, vous pouvez; il·elle peut, ils·elles peuvent] | Present forms of 'pouvoir' (to be able to / can) |  | Present | false | 2026-04-22 | 2026-09-18 | 17 | 0.1442 | Core | 
-[je sais, nous savons; tu sais, vous savez; il·elle sait, ils·elles savent] | Present forms of 'savoir' (to know a fact / how to do something) |  | Present | false | 2026-04-22 | 2026-09-18 | 18 | 0.1459 | Core | savoir = to know facts/skills; connaître = to know people/places
-[je connais, nous connaissons; tu connais, vous connaissez; il·elle connaît, ils·elles connaissent] | Present forms of 'connaître' (to know a person or place) |  | Present | false | 2026-04-22 | 2026-09-18 | 19 | 0.2363 | Core | connaître = to know people/places; savoir = to know facts/skills
-[je viens, nous venons; tu viens, vous venez; il·elle vient, ils·elles viennent] | Present forms of 'venir' (to come) |  | Present | false | 2026-04-22 | 2026-09-18 | 20 | 0.4087 | Core | 
-[je prends, nous prenons; tu prends, vous prenez; il·elle prend, ils·elles prennent] | Present forms of 'prendre' (to take / to have food or drink) |  | Present | false | 2026-04-22 | 2026-09-17 | 16 | 0.1973 | Core | prendre is used for ordering food/drink: Je prends le menu.
-[je mange, nous mangeons; tu manges, vous mangez; il·elle mange, ils·elles mangent] | Present forms of 'manger' (to eat) |  | Present | false | 2026-04-22 | 2026-09-15 | 10 | 0.1753 | Core | 
-[je bois, nous buvons; tu bois, vous buvez; il·elle boit, ils·elles boivent] | Present forms of 'boire' (to drink) |  | Present | false | 2026-04-22 | 2026-09-18 | 17 | 0.0841 | Core | 
+[je suis, nous sommes; tu es, vous êtes; il·elle est, ils·elles sont] | Present forms of 'être' (to be) |  | Present | false | 2026-04-22 | 2026-09-24 | 15 | 0.0320 | Core | 
+[j'ai, nous avons; tu as, vous avez; il·elle a, ils·elles ont] | Present forms of 'avoir' (to have) |  | Present | false | 2026-04-22 | 2026-09-24 | 28 | 0.1532 | Core | 
+[je vais, nous allons; tu vas, vous allez; il·elle va, ils·elles vont] | Present forms of 'aller' (to go) |  | Present | false | 2026-04-22 | 2026-09-24 | 31 | 0.1351 | Core | 
+[je fais, nous faisons; tu fais, vous faites; il·elle fait, ils·elles font] | Present forms of 'faire' (to do / make) |  | Present | false | 2026-04-22 | 2026-09-24 | 35 | 0.0533 | Core | 
+[je veux, nous voulons; tu veux, vous voulez; il·elle veut, ils·elles veulent] | Present forms of 'vouloir' (to want) |  | Present | false | 2026-04-22 | 2026-09-24 | 29 | 0.0646 | Core | 
+[je peux, nous pouvons; tu peux, vous pouvez; il·elle peut, ils·elles peuvent] | Present forms of 'pouvoir' (to be able to / can) |  | Present | false | 2026-04-22 | 2026-09-24 | 22 | 0.0242 | Core | 
+[je sais, nous savons; tu sais, vous savez; il·elle sait, ils·elles savent] | Present forms of 'savoir' (to know a fact / how to do something) |  | Present | false | 2026-04-22 | 2026-09-23 | 21 | 0.0500 | Core | savoir = to know facts/skills; connaître = to know people/places
+[je connais, nous connaissons; tu connais, vous connaissez; il·elle connaît, ils·elles connaissent] | Present forms of 'connaître' (to know a person or place) |  | Present | false | 2026-04-22 | 2026-09-24 | 28 | 0.0268 | Easy | connaître = to know people/places; savoir = to know facts/skills
+[je viens, nous venons; tu viens, vous venez; il·elle vient, ils·elles viennent] | Present forms of 'venir' (to come) |  | Present | false | 2026-04-22 | 2026-09-24 | 30 | 0.0409 | Core | 
+[je prends, nous prenons; tu prends, vous prenez; il·elle prend, ils·elles prennent] | Present forms of 'prendre' (to take / to have food or drink) |  | Present | false | 2026-04-22 | 2026-09-24 | 21 | 0.0332 | Easy | prendre is used for ordering food/drink: Je prends le menu.
+[je mange, nous mangeons; tu manges, vous mangez; il·elle mange, ils·elles mangent] | Present forms of 'manger' (to eat) |  | Present | false | 2026-04-22 | 2026-09-24 | 14 | 0.0421 | Easy | 
+[je bois, nous buvons; tu bois, vous buvez; il·elle boit, ils·elles boivent] | Present forms of 'boire' (to drink) |  | Present | false | 2026-04-22 | 2026-09-24 | 22 | 0.0141 | Core | 
 [je parle, nous parlons; tu parles, vous parlez; il·elle parle, ils·elles parlent] | Present forms of 'parler' (to speak) |  | Present | false | 2026-04-22 | 2026-09-15 | 9 | 0.1071 | Easy | Regular -er verb. Serves as the model for all regular -er verbs.
 [je comprends, nous comprenons; tu comprends, vous comprenez; il·elle comprend, ils·elles comprennent] | Present forms of 'comprendre' (to understand) |  | Present | false | 2026-04-22 | 2026-09-18 | 18 | 0.1260 | Easy | Conjugates like prendre.
-[je cherche, nous cherchons; tu cherches, vous cherchez; il·elle cherche, ils·elles cherchent] | Present forms of 'chercher' (to look for) |  | Present | false | 2026-04-22 | 2026-09-18 | 9 | 0.0824 | Core | 
-[je dois, nous devons; tu dois, vous devez; il·elle doit, ils·elles doivent] | Present forms of 'devoir' (must / to have to) |  | Present | false | 2026-04-22 | 2026-09-17 | 13 | 0.1978 | Core | 
-[j'arrive, nous arrivons; tu arrives, vous arrivez; il·elle arrive, ils·elles arrivent] | Present forms of 'arriver' (to arrive) |  | Present | false | 2026-04-22 | 2026-09-18 | 10 | 0.0980 | Core | 
-[je pars, nous partons; tu pars, vous partez; il·elle part, ils·elles partent] | Present forms of 'partir' (to leave / depart) |  | Present | false | 2026-04-22 | 2026-09-17 | 10 | 0.2610 | Core | 
+[je cherche, nous cherchons; tu cherches, vous cherchez; il·elle cherche, ils·elles cherchent] | Present forms of 'chercher' (to look for) |  | Present | false | 2026-04-22 | 2026-09-24 | 12 | 0.0283 | Easy | 
+[je dois, nous devons; tu dois, vous devez; il·elle doit, ils·elles doivent] | Present forms of 'devoir' (must / to have to) |  | Present | false | 2026-04-22 | 2026-09-24 | 18 | 0.0332 | Core | 
+[j'arrive, nous arrivons; tu arrives, vous arrivez; il·elle arrive, ils·elles arrivent] | Present forms of 'arriver' (to arrive) |  | Present | false | 2026-04-22 | 2026-09-24 | 13 | 0.0336 | Easy | 
+[je pars, nous partons; tu pars, vous partez; il·elle part, ils·elles partent] | Present forms of 'partir' (to leave / depart) |  | Present | false | 2026-04-22 | 2026-09-23 | 15 | 0.0439 | Easy | 
 [je reste, nous restons; tu restes, vous restez; il·elle reste, ils·elles restent] | Present forms of 'rester' (to stay) |  | Present | true | 2026-04-22 | 2026-09-18 | 9 | 0.0576 | Easy | 
-[je réserve, nous réservons; tu réserves, vous réservez; il·elle réserve, ils·elles réservent] | Present forms of 'réserver' (to reserve / book) |  | Present | false | 2026-04-22 | 2026-09-18 | 9 | 0.1400 | Core | 
-[je paie, nous payons; tu paies, vous payez; il·elle paie, ils·elles paient] | Present forms of 'payer' (to pay) |  | Present | false | 2026-04-22 | 2026-09-17 | 12 | 0.1032 | Core | 
+[je réserve, nous réservons; tu réserves, vous réservez; il·elle réserve, ils·elles réservent] | Present forms of 'réserver' (to reserve / book) |  | Present | false | 2026-04-22 | 2026-09-24 | 13 | 0.0336 | Core | 
+[je paie, nous payons; tu paies, vous payez; il·elle paie, ils·elles paient] | Present forms of 'payer' (to pay) |  | Present | false | 2026-04-22 | 2026-09-24 | 16 | 0.0248 | Easy | 
 [je demande, nous demandons; tu demandes, vous demandez; il·elle demande, ils·elles demandent] | Present forms of 'demander' (to ask) |  | Present | false | 2026-04-22 | 2026-09-15 | 7 | 0.1176 | Easy | 
