@@ -1287,6 +1287,223 @@
       "language": "French",
       "direction": "recall",
       "count": 51
+    },
+    {
+      "date": "2026-10-02",
+      "name": "Verbs",
+      "language": "French",
+      "direction": "recall",
+      "count": 57
+    },
+    {
+      "date": "2026-10-02",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 75
+    },
+    {
+      "date": "2026-10-03",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 100
+    },
+    {
+      "date": "2026-10-03",
+      "name": "Verbs",
+      "language": "French",
+      "direction": "recall",
+      "count": 51
+    },
+    {
+      "date": "2026-10-04",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 53
+    },
+    {
+      "date": "2026-10-05",
+      "name": "Verbs",
+      "language": "French",
+      "direction": "recall",
+      "count": 51
+    },
+    {
+      "date": "2026-10-05",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 57
+    },
+    {
+      "date": "2026-10-06",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 54
+    },
+    {
+      "date": "2026-10-07",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 87
+    },
+    {
+      "date": "2026-10-08",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 101
+    },
+    {
+      "date": "2026-10-08",
+      "name": "Verbs",
+      "language": "French",
+      "direction": "recall",
+      "count": 1
+    },
+    {
+      "date": "2026-10-09",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 21
+    },
+    {
+      "date": "2026-10-10",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 47
+    },
+    {
+      "date": "2026-10-11",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 102
+    },
+    {
+      "date": "2026-10-12",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 137
+    },
+    {
+      "date": "2026-10-13",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 100
+    },
+    {
+      "date": "2026-10-14",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 128
+    },
+    {
+      "date": "2026-10-15",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 111
+    },
+    {
+      "date": "2026-10-16",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 103
+    },
+    {
+      "date": "2026-10-17",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 101
+    },
+    {
+      "date": "2026-10-18",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 84
+    },
+    {
+      "date": "2026-10-19",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 100
+    },
+    {
+      "date": "2026-10-20",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 135
+    },
+    {
+      "date": "2026-10-21",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 137
+    },
+    {
+      "date": "2026-10-22",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 116
+    },
+    {
+      "date": "2026-10-23",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 77
+    },
+    {
+      "date": "2026-10-24",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 100
+    },
+    {
+      "date": "2026-10-25",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 115
+    },
+    {
+      "date": "2026-10-26",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 113
+    },
+    {
+      "date": "2026-10-27",
+      "name": "Verbs",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 99
+    },
+    {
+      "date": "2026-10-28",
+      "name": "Vocabulary",
+      "language": "Spanish",
+      "direction": "recall",
+      "count": 21
     }
   ],
   "other": [
@@ -3526,6 +3743,362 @@
         {
           "duration": "00:11:00",
           "activity": "https://m.youtube.com/watch?v=3w-1eRsZeC0&pp=ugUEEgJlcw%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:14:00",
+          "activity": "https://m.youtube.com/watch?v=c_MO6RRYzMc&pp=ugUIEgZlcy00MTk%3D&ra=m"
+        },
+        {
+          "duration": "00:10:00",
+          "activity": "https://m.youtube.com/watch?v=EQiLNAx1h8Q&pp=ugUEEgJlcw%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:13:00",
+          "activity": "https://podcasts.apple.com/ca/podcast/rci-espa%C3%B1ol-la-actualidad-canadiense-en-10-minutos/id1635822610?i=1000791566584"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:27:00",
+          "activity": "https://m.youtube.com/watch?v=as4GjStqg8c&pp=ygUdZHJlYW1pbmcgc3BhbmlzaCBpbnRlcm1lZGlhdGU%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:21:00",
+          "activity": "https://m.youtube.com/watch?v=Ewl6ftxsuu8&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:12:00",
+          "activity": "https://m.youtube.com/watch?v=mq0S6q73Fog&pp=ugUEEgJlcw%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:05:00",
+          "activity": "https://m.youtube.com/watch?v=8N7v4_nBF2A&ra=m"
+        },
+        {
+          "duration": "00:25:00",
+          "activity": "https://m.youtube.com/watch?v=yj7Lz8-a6jI&pp=ugUHEgVlcy1FUw%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:24:00",
+          "activity": "https://m.youtube.com/watch?v=KgPsvBRvc4U&pp=0gcJCY8Co7VqN5tD&ra=m"
+        },
+        {
+          "duration": "00:21:00",
+          "activity": "https://m.youtube.com/watch?v=4IvYL7zXQIQ&pp=ugUEEgJlc9IHCQmPAqO1ajebQw%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:16:00",
+          "activity": "https://m.youtube.com/watch?v=WT9WbNAFjxA&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=iRyeQiOTo9w&pp=ugUEEgJlcw%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:30:00",
+          "activity": "Hablando con IA"
+        },
+        {
+          "duration": "00:24:00",
+          "activity": "https://m.youtube.com/watch?v=y6zaHSt_vyc&pp=ugUEEgJlc9IHCQk_DAGHKiGM7w%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:26:00",
+          "activity": "https://m.youtube.com/watch?v=zz0Tl_Vj71g&pp=ugUEEgJlcw%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:21:00",
+          "activity": "https://m.youtube.com/watch?v=b4p6RLol4GM&pp=ygUSUGxhbmV0YSBnZW8gbGx1dmlh&ra=m"
+        },
+        {
+          "duration": "00:19:00",
+          "activity": "https://m.youtube.com/watch?v=mVFhE_JwTdQ&pp=ugUEEgJlcw%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=MH0z1NLX3Vs&pp=ugUEEgJlcw%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:21:00",
+          "activity": "https://m.youtube.com/watch?v=L1A6jDwaCjU&pp=ugUEEgJlcw%3D%3D&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:21:00",
+          "activity": "https://m.youtube.com/watch?v=JCnEBd0-a_c&ra=m"
+        },
+        {
+          "duration": "00:19:00",
+          "activity": "https://m.youtube.com/watch?v=Tw61jGYozn0&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:27:00",
+          "activity": "https://m.youtube.com/watch?v=VPAxacpli4E&pp=ygULcGxhbmV0YSBnZW_SBwkJjwKjtWo3m0M%3D&ra=m"
+        },
+        {
+          "duration": "00:18:00",
+          "activity": "https://m.youtube.com/watch?v=wjEK6MLOCv4&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=0sTdyi9pQi4&pp=ugUEEgJlcw%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:15:00",
+          "activity": "https://m.youtube.com/watch?v=kjrpqgaeWoA&ra=m"
+        },
+        {
+          "duration": "00:16:00",
+          "activity": "https://m.youtube.com/watch?v=SISU6sjk6r0&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:30:00",
+          "activity": "https://m.youtube.com/watch?v=uRnIMDMpUog&ra=m"
+        },
+        {
+          "duration": "00:16:00",
+          "activity": "https://m.youtube.com/watch?v=BY5EVug5Ke0&ra=m"
+        },
+        {
+          "duration": "00:14:00",
+          "activity": "https://m.youtube.com/watch?v=st4hd7C4xdI&ra=m"
+        },
+        {
+          "duration": "00:15:00",
+          "activity": "https://m.youtube.com/watch?v=xSw72FaO4QM&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:17:00",
+          "activity": "https://m.youtube.com/watch?v=G6awsrP-d3g&ra=m"
+        },
+        {
+          "duration": "00:15:00",
+          "activity": "https://m.youtube.com/watch?v=2H7chFMmQsU&ra=m"
+        },
+        {
+          "duration": "00:19:00",
+          "activity": "https://m.youtube.com/watch?v=QtsAGTz3tFA&pp=ygUMaG9sYSBzcGFuaXNo&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:23:00",
+          "activity": "https://m.youtube.com/watch?v=PdQY2RMQ1_k&pp=ugUEEgJlcw%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:06:00",
+          "activity": "https://m.youtube.com/watch?v=wNJ0RT7enm4&ra=m"
+        },
+        {
+          "duration": "00:56:00",
+          "activity": "https://m.youtube.com/watch?v=6W-RtxgYnyY&ra=m"
+        },
+        {
+          "duration": "00:19:00",
+          "activity": "https://podcasts.apple.com/ca/podcast/intermediate-spanish-podcast-espa%C3%B1ol-intermedio/id1479285354?i=1000792719116"
+        },
+        {
+          "duration": "00:45:00",
+          "activity": "Tutor"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:10:00",
+          "activity": "https://m.youtube.com/watch?v=ocaytE-D910&ra=m"
+        },
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=rHYm72BQEMA&pp=ugUEEgJlcw%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:19:00",
+          "activity": "https://m.youtube.com/watch?v=5-UMILEQo0M&ra=m"
+        },
+        {
+          "duration": "00:30:00",
+          "activity": "https://m.youtube.com/watch?v=WI_GlLMtY44&pp=0gcJCTYMAYcqIYzv&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:42:00",
+          "activity": "https://m.youtube.com/watch?v=tBZ_sq3CJSM&t=890s&pp=2AH6BpACAcoFDGhvbGEgc3BhbmlzaA%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:12:00",
+          "activity": "https://m.youtube.com/watch?v=0NRVBx3ODXk&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:14:00",
+          "activity": "https://m.youtube.com/watch?v=SXY4efFED8M&pp=ugUEEgJlc9IHCQksDAGHKiGM7w%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:15:00",
+          "activity": "https://m.youtube.com/watch?v=tji4tFTQdM8&pp=ugUEEgJlcw%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:12:00",
+          "activity": "https://m.youtube.com/watch?v=VoOnWSQs6Q8&pp=ugUHEgVlcy1FUw%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:23:00",
+          "activity": "https://m.youtube.com/watch?v=o3JkYbx7X6o&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:26:00",
+          "activity": "https://m.youtube.com/watch?v=b5Hn7gFgLEE&ra=m"
+        },
+        {
+          "duration": "00:25:00",
+          "activity": "https://m.youtube.com/watch?v=fMOvnK4aU38&ra=m"
+        },
+        {
+          "duration": "00:51:00",
+          "activity": "https://m.youtube.com/watch?v=3BA9q6sRPqY&pp=0gcJCSwMAYcqIYzv&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=j16ILdcScTU&ra=m"
+        },
+        {
+          "duration": "00:20:00",
+          "activity": "https://m.youtube.com/watch?v=uCaomVUs9j4&ra=m"
+        },
+        {
+          "duration": "00:09:00",
+          "activity": "https://m.youtube.com/watch?v=ep6y0WcHov4&pp=ugUEEgJlcw%3D%3D&ra=m"
+        },
+        {
+          "duration": "00:18:00",
+          "activity": "https://m.youtube.com/watch?v=0wS3NYZn8u8&ra=m"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "language": "Spanish",
+      "items": [
+        {
+          "duration": "00:29:00",
+          "activity": "https://podcasts.apple.com/ca/podcast/espa%C3%B1olistos-learn-spanish-with-fun-conversations/id1166015603?i=1000793009199"
         }
       ]
     }
