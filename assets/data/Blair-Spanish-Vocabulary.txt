@@ -278,6 +278,7 @@ el libro | book | 📚 | Noun | false | 2026-02-23 | 2026-02-28 | 4 |  | Cold |
 el limón | lemon | 🍋 | Noun | false | 2026-02-26 | 2026-06-05 | 4 |  | Cold | 
 el lomo | back (of an animal) / spine (of a book) |  | Noun | false | 2026-05-28 | 2026-08-18 | 16 | 0.1165 | Easy | frotó su lomo = rubbed its back. Also: el lomo del libro = the spine of the book.
 el lugar | place |  | Noun | false | 2026-03-08 | 2026-03-22 | 3 |  | Cold | 
+el luto | mourning / bereavement |  | Noun | false | 2026-10-29 | 1970-01-01 | 0 |  | Hard | estar de luto = to be in mourning.
 el mapa | map | 🗺️ | Noun | false | 2026-02-23 | 2026-02-28 | 2 |  | Cold | 
 el martillo | hammer | 🔨 | Noun | false | 2026-04-06 | 2026-08-08 | 18 | 0.1247 | Easy | 
 el mejillón | mussel | 🦪 | Noun | false | 2026-02-28 | 2026-08-19 | 35 | 0.0597 | Easy | 
@@ -321,6 +322,7 @@ el problema | problem |  | Noun | false | 2026-02-23 | 2026-02-28 | 2 |  | Cold 
 el puente | bridge | 🌉 | Noun | false | 2026-02-25 | 2026-10-28 | 18 | 0.3288 | Core | 
 el queso | cheese | 🧀 | Noun | false | 2026-02-23 | 2026-02-28 | 2 |  | Cold | 
 el quinqué | oil lamp / kerosene lamp | 🪔 | Noun | false | 2026-05-28 | 2026-08-01 | 10 | 0.0807 | Easy | 
+el rasgo | trait / feature / characteristic |  | Noun | false | 2026-10-29 | 1970-01-01 | 0 |  | Hard | 
 el ratón | computer mouse | 🖱️ | Noun | false | 2026-03-01 | 2026-08-14 | 11 | 0.1647 | Easy | 
 el recibidor | entryway |  | Noun | false | 2026-03-13 | 2026-08-16 | 16 | 0.1038 | Easy | 
 el récord personal | personal best / personal record |  | Noun | false | 2026-05-07 | 2026-06-05 | 3 | 0.0000 | Easy | 
@@ -398,6 +400,7 @@ la butaca | armchair | 🪑 | Noun | false | 2026-05-28 | 2026-07-30 | 31 | 0.06
 la cabeza | head | 🧠 | Noun | false | 2026-03-08 | 2026-04-10 | 2 |  | Cold | 
 la cadena | chain | 🔗 | Noun | false | 2026-05-28 | 2026-06-18 | 11 | 0.0807 | Easy | 
 la caja | box | 📦 | Noun | false | 2026-02-25 | 2026-08-03 | 14 | 0.1681 | Easy | 
+la calavera | skull / sugar skull | 💀 | Noun | false | 2026-10-29 | 1970-01-01 | 0 |  | Hard | 
 la calle | street |  | Noun | false | 2026-02-23 | 2026-02-28 | 4 |  | Cold | 
 la cama | bed | 🛏️ | Noun | false | 2026-02-23 | 2026-02-28 | 2 |  | Cold | 
 la camisa | shirt | 👕 | Noun | false | 2026-02-25 | 2026-03-04 | 5 |  | Cold | 
@@ -406,6 +409,7 @@ la cara | face | 🙂 | Noun | false | 2026-03-08 | 2026-03-16 | 2 |  | Cold |
 la carne | meat | 🥩 | Noun | false | 2026-02-23 | 2026-09-16 | 17 | 0.2209 | Easy | 
 la casa | house | 🏠 | Noun | false | 2026-02-23 | 2026-02-28 | 2 |  | Cold | 
 la cascada | waterfall |  | Noun | false | 2026-03-13 | 2026-09-06 | 13 | 0.2299 | Easy | 
+la catrina | La Catrina — elegant skeleton figure of Día de los Muertos | 💀 | Noun | false | 2026-10-29 | 1970-01-01 | 0 |  | Hard | 
 la cebolla | onion | 🧅 | Noun | false | 2026-02-26 | 2026-06-27 | 23 | 0.1288 | Easy | 
 la celebración | celebration |  | Noun | false | 2026-03-27 | 2026-04-17 | 2 |  | Cold | 
 la cena | dinner | 🥘 | Noun | false | 2026-02-23 | 2026-02-28 | 2 |  | Cold | 
@@ -563,6 +567,7 @@ la tierra | soil |  | Noun | false | 2026-03-13 | 2026-09-16 | 9 | 0.8377 | Core
 la torre | tower |  | Noun | false | 2026-03-13 | 2026-09-16 | 10 | 0.1731 | Core | 
 la universidad | university |  | Noun | false | 2026-03-13 | 2026-03-15 | 1 |  | Cold | 
 la vainilla | vanilla |  | Noun | false | 2026-02-27 | 2026-03-11 | 4 |  | Cold | 
+la vela | candle | 🕯️ | Noun | false | 2026-10-29 | 1970-01-01 | 0 |  | Hard | Note: en vela (already in deck) = awake all night — different usage.
 la ventaja | advantage | ✅ | Noun | false | 2026-07-26 | 2026-08-18 | 18 | 0.1224 | Easy | 
 la ventana | window |  | Noun | false | 2026-02-23 | 2026-03-01 | 3 |  | Cold | 
 la verdad | truth |  | Noun | false | 2026-03-13 | 2026-03-16 | 2 |  | Cold | 
@@ -581,9 +586,13 @@ las manoplas | mittens | 🧤 | Noun | false | 2026-03-01 | 2026-10-28 | 20 | 0.
 las posesiones | possessions / belongings |  | Noun | false | 2026-05-28 | 2026-06-18 | 10 | 0.1153 | Easy | 
 las verduras | vegetables | 🥕 | Noun | false | 2026-02-26 | 2026-08-10 | 11 | 0.5978 | Easy | 
 los auriculares | headphones | 🎧 | Noun | false | 2026-03-01 | 2026-06-18 | 14 | 0.0926 | Easy | 
+los desperdicios | waste / scraps / discarded leftovers |  | Noun | false | 2026-10-29 | 1970-01-01 | 0 |  | Hard | desperdicios = thrown-out waste; sobras = leftover food you eat.
+los difuntos | the deceased / the departed |  | Noun | false | 2026-10-29 | 1970-01-01 | 0 |  | Hard | el Día de los Difuntos = All Souls' Day (Nov 2).
+los fallecidos | the deceased / those who have passed away |  | Noun | false | 2026-10-29 | 1970-01-01 | 0 |  | Hard | 
 los guantes | gloves |  | Noun | false | 2026-03-01 | 2026-07-31 | 20 | 0.0736 | Easy | 
 los mariscos | seafood | 🦐 | Noun | false | 2026-02-26 | 2026-03-13 | 14 |  | Cold | 
 los pantalones | pants | 👖 | Noun | false | 2026-03-01 | 2026-03-02 | 3 |  | Cold | 
+sinnúmeros | countless things / innumerable |  | Noun | false | 2026-10-29 | 1970-01-01 | 0 |  | Hard | 
 
 # >>> Adjective
 abierto | open |  | Adjective | false | 2026-02-23 | 2026-08-10 | 3 |  | Cold | 
@@ -602,6 +611,7 @@ asado, o asada | roasted / grilled | 🔥 | Adjective | false | 2026-02-26 | 202
 asombrado, o asombrada | astonished / amazed |  | Adjective | false | 2026-07-26 | 2026-08-17 | 17 | 0.1685 | Easy | 
 atigrado, o atigrada | striped / tabby (cat) | 🐯 | Adjective | false | 2026-05-28 | 2026-06-27 | 21 | 0.0802 | Easy | gato atigrado = tabby cat.
 atónito, o atónita | astonished / stunned |  | Adjective | false | 2026-05-28 | 2026-06-25 | 15 | 0.0764 | Easy | 
+ausente | absent / distant (mentally) |  | Adjective | false | 2026-10-29 | 1970-01-01 | 0 |  | Hard | 
 azul | blue | 🔵 | Adjective | false | 2026-02-23 | 2026-03-17 | 6 |  | Cold | 
 barato, o barata | cheap |  | Adjective | false | 2026-02-23 | 2026-06-05 | 7 |  | Cold | 
 blanco, o blanca | white | ⚪ | Adjective | false | 2026-02-23 | 2026-03-01 | 3 |  | Cold | 
@@ -617,6 +627,7 @@ celoso, o celosa | jealous |  | Adjective | false | 2026-07-26 | 2026-08-16 | 8 
 cerrado | closed |  | Adjective | false | 2026-02-23 | 2026-02-28 | 4 |  | Cold | 
 claro | clear / of course |  | Adjective | false | 2026-02-23 | 2026-03-01 | 6 |  | Cold | 
 común | common |  | Adjective | false | 2026-03-05 | 2026-06-05 | 4 |  | Cold | 
+considerado, o considerada | considerate / thoughtful / regarded |  | Adjective | false | 2026-10-29 | 1970-01-01 | 0 |  | Hard | 
 cotidiano, o cotidiana | everyday / daily |  | Adjective | false | 2026-07-26 | 2026-08-17 | 16 | 0.0983 | Easy | la vida cotidiana = everyday life.
 cremoso, o cremosa | creamy |  | Adjective | false | 2026-02-27 | 2026-03-12 | 9 |  | Cold | 
 crujiente | crunchy |  | Adjective | false | 2026-02-27 | 2026-08-19 | 25 | 0.0800 | Easy | 
@@ -681,6 +692,7 @@ probable | probable / likely |  | Adjective | false | 2026-03-05 | 2026-06-05 | 
 rápido, o rápida | fast |  | Adjective | false | 2026-02-23 | 2026-02-27 | 7 |  | Cold | 
 reducido, o reducida | reduced (sauce) |  | Adjective | false | 2026-02-28 | 2026-09-06 | 8 | 0.7350 | Easy | 
 relleno, o rellena | stuffed | 🥟 | Adjective | false | 2026-02-28 | 2026-03-11 | 3 |  | Cold | 
+respetuoso, o respetuosa | respectful |  | Adjective | false | 2026-10-29 | 1970-01-01 | 0 |  | Hard | 
 rojo, o roja | red | 🔴 | Adjective | false | 2026-02-23 | 2026-03-17 | 9 |  | Cold | 
 salado, o salada | salty / savory | 🧂 | Adjective | false | 2026-02-26 | 2026-08-10 | 10 |  | Cold | 
 salteado, o salteada | sautéed | 🍳 | Adjective | false | 2026-02-27 | 2026-08-10 | 14 | 0.3601 | Easy | 
@@ -743,6 +755,7 @@ bajar | to go down |  | Verb | false | 2026-03-13 | 2026-06-18 | 12 | 0.0331 | E
 beber | to drink |  | Verb | false | 2026-03-26 | 2026-06-05 | 5 | 0.0000 | Easy | 
 besar | to kiss |  | Verb | false | 2026-03-26 | 2026-03-28 | 2 |  | Cold | 
 borrar | to delete / erase |  | Verb | false | 2026-03-26 | 2026-06-05 | 2 | 0.0000 | Easy | 
+botar | to throw away / to bounce / to fire (someone) |  | Verb | false | 2026-10-29 | 1970-01-01 | 0 |  | Hard | Latin America: botar = throw away; Spain uses tirar.
 buscar | to look for |  | Verb | false | 2026-02-23 | 2026-09-16 | 9 | 0.5762 | Easy | 
 caber | to fit |  | Verb | false | 2026-03-26 | 2026-06-12 | 7 | 0.0253 | Easy | 
 caer | to fall |  | Verb | false | 2026-03-13 | 2026-06-05 | 7 | 0.0000 | Easy | 
@@ -929,6 +942,7 @@ sufrir | to suffer |  | Verb | false | 2026-03-26 | 2026-06-05 | 4 | 0.0000 | Ea
 superar | to overcome |  | Verb | false | 2026-03-05 | 2026-08-18 | 29 | 0.1307 | Easy | 
 suponer | to suppose / to assume |  | Verb | false | 2026-07-26 | 2026-08-14 | 6 | 0.1681 | Easy | supongo que sí = I suppose so.
 surgir | to arise / to come up |  | Verb | false | 2026-07-26 | 2026-08-18 | 13 | 0.1680 | Easy | surgió un problema = a problem came up.
+tachar | to cross out / to label someone as |  | Verb | false | 2026-10-29 | 1970-01-01 | 0 |  | Hard | 
 tardar | to take (time) |  | Verb | false | 2026-03-26 | 2026-08-16 | 13 | 0.1175 | Easy | 
 tardar en | to take time to / to be slow to |  | Verb | false | 2026-07-26 | 2026-08-16 | 8 | 0.1328 | Easy | tardé mucho en decidirme = it took me a long time to decide.
 terminar | to finish |  | Verb | false | 2026-02-23 | 2026-03-17 | 9 |  | Cold | 
@@ -949,6 +963,7 @@ vestirse | to get dressed |  | Verb | false | 2026-03-13 | 2026-06-12 | 12 | 0.0
 viajar | to travel |  | Verb | false | 2026-02-23 | 2026-02-27 | 6 |  | Cold | 
 vivir | to live |  | Verb | false | 2026-02-23 | 2026-03-02 | 5 |  | Cold | 
 volver | to return / to do again |  | Verb | false | 2026-02-23 | 2026-08-25 | 24 | 0.1571 | Core | 
+votar | to vote |  | Verb | false | 2026-10-29 | 1970-01-01 | 0 |  | Hard | False friend: botar ≠ votar.
 
 
 # >>> Verb Tense Congugations
@@ -1428,3 +1443,5 @@ todavía no | not yet |  | Conversational | false | 2026-10-28 | 1970-01-01 | 0 
 sin lugar a dudas | without a doubt / hands down |  | Conversational | false | 2026-10-28 | 1970-01-01 | 0 |  | Hard | 
 No veo la hora de… | I can't wait to… |  | Conversational | false | 2026-10-28 | 1970-01-01 | 0 |  | Hard | 
 Estoy muy entusiasmado/a con… | I'm very eager / excited about… |  | Conversational | false | 2026-10-28 | 1970-01-01 | 0 |  | Hard | 
+Botar la basura | to take out the trash |  | Conversational | false | 2026-10-29 | 1970-01-01 | 0 |  | Hard | Latin America; Spain says tirar la basura.
+
