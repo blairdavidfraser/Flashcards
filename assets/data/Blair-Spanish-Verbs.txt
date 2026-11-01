@@ -200,6 +200,16 @@ Cada vez que escucho español nativo, entiendo más que la vez anterior. | Every
 ¿Qué te parece si buscamos un lugar más tranquilo para comer? | What do you think about finding a quieter place to eat? |  | Present | false | 2026-05-28 | 2026-10-27 | 26 | 0.1455 | Core | ¿qué te parece si...? = what do you think about...? Essential conversational opener.
 No me importa el precio, siempre que la calidad sea buena. | I don't mind the price, as long as the quality is good. |  | Present | true | 2026-05-28 | 2026-10-12 | 21 | 0.0308 | Core | siempre que + subjunctive = as long as; worth noting the sea (subjunctive of ser).
 ¿Te das cuenta de que hablas mucho más rápido que antes? | Do you realise that you speak much faster than before? |  | Present | false | 2026-05-28 | 2026-10-25 | 14 | 0.0429 | Easy | darse cuenta de = to realise; reflexive, high-frequency.
+¿A qué hora sale el tren a Sevilla? | What time does the train to Seville leave? |  | Present | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Prefiero sentarme junto a la ventana cuando viajo en tren. | I prefer to sit by the window when I travel by train. |  | Present | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Cuánto cuesta el billete de ida y vuelta? | How much is a round-trip ticket? |  | Present | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | billete = Spain; boleto = Mexico.
+Siempre llevo una mochila pequeña y un cargador portátil. | I always carry a small backpack and a portable charger. |  | Present | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Sabes si hay una parada de autobús cerca del hotel? | Do you know if there's a bus stop near the hotel? |  | Present | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Me quedo tres noches en un hotel pequeño del centro. | I'm staying three nights in a small hotel in the centre. |  | Present | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Salgo de Toronto por la noche y llego a Sevilla a mediodía. | I leave Toronto at night and arrive in Seville at midday. |  | Present | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Puedo pagar con tarjeta o solo aceptan efectivo? | Can I pay by card or do you only accept cash? |  | Present | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Prefiero evitar los sitios muy turísticos y buscar barrios más tranquilos. | I prefer to avoid very touristy places and look for quieter neighbourhoods. |  | Present | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Dónde puedo alquilar una bicicleta por unas horas? | Where can I rent a bike for a few hours? |  | Present | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 
 # >>> Present Continuous Tense
 Estoy comiendo en el restaurante ahora | I am eating at the restaurant now |  | Present Continuous | false | 2026-03-07 | 2026-10-14 | 4 |  | Cold | 
@@ -271,6 +281,16 @@ Estoy tratando de sacar tiempo para correr, pero la semana está siendo muy ajet
 ¿Qué está pasando allí? Parece que se están discutiendo algo bastante serio. | What's happening over there? It looks like they're arguing about something quite serious. |  | Present Continuous | false | 2026-05-28 | 2026-10-25 | 14 | 0.0542 | Easy | 
 Me estoy acostumbrando a escuchar español a velocidad normal, aunque todavía me pierdo algunas cosas. | I'm getting used to listening to Spanish at normal speed, even though I still miss some things. |  | Present Continuous | false | 2026-05-28 | 2026-10-25 | 18 | 0.0472 | Easy | perderse algo = to miss something; acostumbrarse = to get used to.
 ¿Están siguiendo adelante con el proyecto aunque les esté faltando tiempo y recursos? | Are they going ahead with the project even though they're running short on time and resources? |  | Present Continuous | false | 2026-05-28 | 2026-10-24 | 26 | 0.0539 | Easy | faltar = to be lacking (from your deck); aunque + subjunctive = even though (uncertain).
+Estamos esperando el tren en el andén número tres. | We're waiting for the train on platform three. |  | Present Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Estás sacando fotos de la catedral? | Are you taking photos of the cathedral? |  | Present Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Estoy buscando un sitio tranquilo para tomar un café. | I'm looking for a quiet place to have a coffee. |  | Present Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Qué están comiendo en aquella mesa? Se ve riquísimo. | What are they eating at that table over there? It looks amazing. |  | Present Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Me estoy perdiendo por las callejuelas del casco antiguo, pero me encanta. | I'm getting lost in the narrow streets of the old town, but I love it. |  | Present Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Está lloviendo y estamos buscando un sitio para refugiarnos. | It's raining and we're looking for somewhere to take shelter. |  | Present Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Cómo estás disfrutando el viaje hasta ahora? | How are you enjoying the trip so far? |  | Present Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Estamos subiendo a la torre para ver la ciudad desde arriba. | We're climbing the tower to see the city from above. |  | Present Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Estoy caminando unos diez kilómetros cada día, así que necesito buen calzado. | I'm walking about ten kilometres a day, so I need good footwear. |  | Present Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Dónde se están reuniendo todos para la visita guiada? | Where is everyone meeting for the guided tour? |  | Present Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 
 # >>> Immediate Future Tense
 Voy a comer en el restaurante esta noche | I am going to eat at the restaurant tonight |  | Immediate Future | false | 2026-03-07 | 2026-10-27 | 14 | 0.0490 | Easy | 
@@ -454,6 +474,16 @@ Le pregunté al recepcionista y me explicó cómo llegar. | I asked the receptio
 Sacé muchas fotos pero ninguna salió bien. | I took lots of photos but none came out well. |  | Preterit | false | 2026-07-26 | 2026-10-27 | 19 | 0.1022 | Easy | 
 Mientras desayunábamos, llegó un mensaje de mi hermana. | While we were having breakfast, a message arrived from my sister. |  | Preterit | false | 2026-07-26 | 2026-10-21 | 14 | 0.1181 | Easy | imperfect + preterit interruption; classic structure.
 Salimos temprano para evitar el tráfico y llegamos justo a tiempo. | We left early to avoid the traffic and arrived just in time. |  | Preterit | false | 2026-07-26 | 2026-10-23 | 11 | 0.1527 | Easy | 
+Fuimos de vacaciones a Oaxaca y a Puerto Escondido con mi familia. | We went on vacation to Oaxaca and Puerto Escondido with my family. |  | Preterit | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Cenamos en Casa Oaxaca y nos encantó. | We had dinner at Casa Oaxaca and loved it. |  | Preterit | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Qué te pareció Oaxaca? | What did you think of Oaxaca? |  | Preterit | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Probé varios moles distintos durante el viaje. | I tried several different moles during the trip. |  | Preterit | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Recorrimos el centro histórico a pie casi todos los días. | We explored the historic centre on foot almost every day. |  | Preterit | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Volví a Toronto con ganas de seguir aprendiendo español. | I came back to Toronto eager to keep learning Spanish. |  | Preterit | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Remé dos veces al día durante toda la concentración. | I rowed twice a day throughout the whole camp. |  | Preterit | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Después de cada sesión, fuimos a comer tapas con el equipo. | After each session, we went for tapas with the team. |  | Preterit | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Me costó acostumbrarme al horario de las comidas en España. | It took me a while to get used to mealtimes in Spain. |  | Preterit | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Qué fue lo que más te gustó de Sevilla? | What was it that you liked most about Seville? |  | Preterit | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 
 # >>> Imperfect Past Tense
 Comía pan con café cada mañana | I used to eat bread with coffee every morning |  | Imperfect | false | 2026-03-05 | 2026-10-18 | 11 | 0.0490 | Easy | 
@@ -545,6 +575,16 @@ No entendía por qué todo el mundo tenía tanta prisa. | I didn't understand wh
 De joven leía mucho pero ahora casi no tengo tiempo. | When I was young I used to read a lot but now I barely have time. |  | Imperfect | false | 2026-07-26 | 2026-10-23 | 11 | 0.1054 | Easy | 
 Me sentía cansado pero seguí corriendo. | I was feeling tired but I kept running. |  | Imperfect | false | 2026-07-26 | 2026-10-27 | 24 | 0.2077 | Core | imperfect (ongoing state) + preterit (deliberate action).
 Solía despertarme temprano, pero últimamente duermo más. | I used to wake up early, but lately I sleep more. |  | Imperfect | false | 2026-07-26 | 2026-10-19 | 13 | 0.1301 | Easy | soler + infinitive = used to do something; very natural alternative to imperfect habit.
+Mientras caminábamos por el centro, empezó a llover de repente. | While we were walking through the centre, it suddenly started to rain. |  | Imperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Cuando llegamos al restaurante, estaba lleno, así que esperamos media hora. | When we got to the restaurant, it was full, so we waited half an hour. |  | Imperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Hacía mucho calor, pero decidimos caminar hasta el mercado. | It was very hot, but we decided to walk to the market. |  | Imperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Al principio no entendía casi nada, pero poco a poco me fui acostumbrando. | At first I understood almost nothing, but little by little I got used to it. |  | Imperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Estábamos cenando cuando el camarero nos trajo un postre que no habíamos pedido. | We were having dinner when the waiter brought us a dessert we hadn't ordered. |  | Imperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Siempre quería conocer Oaxaca, así que cuando surgió la oportunidad, reservamos los vuelos de inmediato. | I'd always wanted to see Oaxaca, so when the opportunity came up, we booked the flights right away. |  | Imperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Mientras mi familia dormía la siesta, yo salía a correr por la playa. | While my family napped, I would go running on the beach. |  | Imperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+El hotel era pequeño y tranquilo, y desde la terraza se veía toda la ciudad. | The hotel was small and quiet, and from the terrace you could see the whole city. |  | Imperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Íbamos a visitar un museo, pero al final nos quedamos en el mercado todo el día. | We were going to visit a museum, but in the end we stayed at the market all day. |  | Imperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Dónde estabas cuando se canceló el vuelo? | Where were you when the flight was cancelled? |  | Imperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 
 # >>> Present Perfect Continuous
 He estado esperando aquí por una hora | I have been waiting here for an hour |  | Present Perfect Continuous | true | 2026-03-12 | 2026-10-25 | 16 | 0.0530 | Easy | 
@@ -558,6 +598,26 @@ Ha estado estudiando para el examen | He has been studying for the exam |  | Pre
 Hemos estado pensando en cambiar de hotel | We have been thinking about changing hotels |  | Present Perfect Continuous | false | 2026-03-12 | 2026-10-27 | 18 | 0.0310 | Easy | 
 Han estado esperando el autobús por mucho tiempo | They have been waiting for the bus for a long time |  | Present Perfect Continuous | false | 2026-03-12 | 2026-10-26 | 21 | 0.1122 | Easy | 
 He estado buscando este lugar | I’ve been looking for this place |  | Present Perfect Continuous | true | 2026-03-12 | 2026-10-24 | 14 | 0.0356 | Easy | 
+He estado mirando vuelos a Sevilla casi todas las noches. | I've been looking at flights to Seville almost every night. |  | Present Perfect Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Has estado pensando en visitar Barcelona antes o después de la concentración? | Have you been thinking about visiting Barcelona before or after the camp? |  | Present Perfect Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Mi esposa y yo hemos estado comparando hoteles en el centro. | My wife and I have been comparing hotels in the centre. |  | Present Perfect Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Hemos estado planeando este viaje desde el verano. | We've been planning this trip since the summer. |  | Present Perfect Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+He estado entrenando más para llegar en buena forma a la concentración. | I've been training more so I arrive in good shape for the camp. |  | Present Perfect Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Has estado practicando español con alguien últimamente? | Have you been practising Spanish with anyone lately? |  | Present Perfect Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Los vuelos han estado llegando con retraso toda la mañana. | Flights have been arriving late all morning. |  | Present Perfect Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+He estado leyendo sobre la historia de Andalucía antes de salir. | I've been reading about the history of Andalusia before leaving. |  | Present Perfect Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Qué has estado haciendo desde que volviste de México? | What have you been doing since you got back from Mexico? |  | Present Perfect Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Desde que volvimos de Oaxaca, hemos estado cocinando más platos mexicanos. | Since we got back from Oaxaca, we've been cooking more Mexican dishes. |  | Present Perfect Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+He estado extrañando la comida de Oaxaca desde que volví. | I've been missing the food in Oaxaca since I got back. |  | Present Perfect Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | extrañar = Latin America; Spain says echar de menos.
+¿Has estado viajando mucho este año? | Have you been travelling much this year? |  | Present Perfect Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Has estado probando platos típicos o comes siempre lo mismo? | Have you been trying typical dishes or do you always eat the same thing? |  | Present Perfect Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+He estado caminando con estas botas todo el día y me duelen los pies. | I've been walking in these boots all day and my feet hurt. |  | Present Perfect Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Hemos estado dando vueltas por el barrio sin encontrar nada abierto. | We've been going around the neighbourhood without finding anything open. |  | Present Perfect Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Cuántas horas has estado viajando hoy? | How many hours have you been travelling today? |  | Present Perfect Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+He estado trabajando a distancia desde el hotel toda la semana. | I've been working remotely from the hotel all week. |  | Present Perfect Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Mis compañeros del club han estado preguntando por la concentración. | My teammates at the club have been asking about the camp. |  | Present Perfect Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+He estado usando una aplicación para aprender frases útiles antes del viaje. | I've been using an app to learn useful phrases before the trip. |  | Present Perfect Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Hemos estado esperando buen tiempo para ir a la playa. | We've been waiting for good weather to go to the beach. |  | Present Perfect Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 
 # >>> Present Subjunctive
 Es mejor que lo hagas ahora | It’s better that you do it now |  | Present Subjunctive | false | 2026-03-26 | 2026-10-25 | 9 | 0.0247 | Easy | 
@@ -586,6 +646,26 @@ Prefiero que me lo expliques tú mismo. | I prefer that you explain it to me you
 Avísame cuando sepas algo. | Let me know when you find out something. |  | Present Subjunctive | false | 2026-07-26 | 2026-10-24 | 13 | 0.1183 | Easy | cuando + subjunctive; future event still uncertain.
 Es posible que haya retraso en el tren. | It's possible there's a delay on the train. |  | Present Subjunctive | false | 2026-07-26 | 2026-10-24 | 10 | 0.0980 | Easy | es posible que + subjunctive; possibility triggers subjunctive.
 Espera hasta que te llamen. | Wait until they call you. |  | Present Subjunctive | false | 2026-07-26 | 2026-10-26 | 13 | 0.0847 | Easy | hasta que + subjunctive in future context.
+Quiero que me recomiendes un sitio donde se coma bien y barato. | I want you to recommend a place where you can eat well and cheaply. |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Ojalá que haga buen tiempo durante la concentración. | I hope the weather is good during the camp. |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Es mejor que reservemos con antelación. | It's better that we book in advance. |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Hay algún sitio cerca donde pueda alquilar una bicicleta? | Is there a place nearby where I can rent a bike? |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+No creo que el museo esté abierto los lunes. | I don't think the museum is open on Mondays. |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Cuando lleguemos a Sevilla, vamos a dejar las maletas en el hotel. | When we get to Seville, we're going to drop our bags at the hotel. |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Dile al taxista que nos lleve a la estación. | Tell the taxi driver to take us to the station. |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Me gusta que la gente sea tan amable aquí. | I like that people are so friendly here. |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Es una pena que no tengamos más tiempo en la ciudad. | It's a pity we don't have more time in the city. |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Antes de que salga el tren, tenemos que comprar los billetes. | Before the train leaves, we have to buy the tickets. |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Espero que podamos pasar unos días en Barcelona después de la concentración. | I hope we can spend a few days in Barcelona after the camp. |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Busco un barrio que no esté lleno de turistas. | I'm looking for a neighbourhood that isn't full of tourists. |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Por mucho que cueste, quiero hablar solo en español durante el viaje. | However hard it is, I want to speak only Spanish during the trip. |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Dudo que podamos ver todo en un solo día. | I doubt we can see everything in a single day. |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+No hay ningún sitio que me guste más que el casco antiguo. | There's no place I like more than the old town. |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Pídele al camarero que traiga la cuenta, por favor. | Ask the waiter to bring the bill, please. |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Para que no te pierdas, descarga el mapa sin conexión. | So that you don't get lost, download the offline map. |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Es importante que lleguemos temprano a la sesión para calentar. | It's important that we get to the session early to warm up. |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Quieres que te acompañe al mercado o prefieres ir solo? | Do you want me to go with you to the market or would you rather go alone? |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Tal vez visitemos el Alcázar si nos sobra tiempo. | Maybe we'll visit the Alcázar if we have time left over. |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | tal vez + subjunctive when the outcome is uncertain.
 
 # >>> Present Perfect
 ¿Te ha pasado eso antes? | Has that happened to you before? |  | Present Perfect | true | 2026-03-12 | 2026-07-24 | 34 | 0.0663 | Easy | 
@@ -609,6 +689,26 @@ He estado tratando de mejorar mi pronunciación. | I have been trying to improve
 Ha estado viajando por América Latina este año. | He has been traveling around Latin America this year. |  | Present Perfect Continuous | false | 2026-07-26 | 2026-10-21 | 7 | 0.1176 | Easy | 
 Hemos estado ahorrando para el viaje desde el año pasado. | We have been saving for the trip since last year. |  | Present Perfect Continuous | false | 2026-07-26 | 2026-10-25 | 8 | 0.0824 | Easy | 
 He estado escuchando podcasts en español durante el trayecto. | I have been listening to Spanish podcasts during the commute. |  | Present Perfect Continuous | false | 2026-07-26 | 2026-10-23 | 7 | 0.1176 | Easy | 
+¿Has estado alguna vez en Sevilla? | Have you ever been to Seville? |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Nunca he estado en Barcelona. | I've never been to Barcelona. |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Ya hemos reservado el hotel para la concentración. | We've already booked the hotel for the camp. |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Todavía no he comprado los billetes de tren. | I still haven't bought the train tickets. |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Esta mañana hemos visitado el mercado. | This morning we visited the market. |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | Spain uses present perfect for today/this morning; Mexico usually uses the preterit (Esta mañana visitamos el mercado).
+¿Has probado ya las tapas de aquí? | Have you tried the tapas here yet? |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+He perdido mi tarjeta del hotel. ¿Me pueden dar otra? | I've lost my hotel key card. Can you give me another one? |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Hoy he caminado más de doce kilómetros. | Today I've walked more than twelve kilometres. |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Qué has hecho hoy? | What have you done today? |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Este año hemos viajado a México y pronto vamos a viajar a España. | This year we've travelled to Mexico and soon we're going to travel to Spain. |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Mi vuelo se ha retrasado dos horas. | My flight has been delayed two hours. |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Ha llegado ya el autobús? | Has the bus arrived yet? |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Me he levantado muy temprano para ver el amanecer. | I got up very early to watch the sunrise. |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Siempre he querido conocer Andalucía. | I've always wanted to see Andalusia. |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+No he entendido bien lo que ha dicho el guía. ¿Puede repetirlo? | I haven't understood well what the guide said. Can you repeat it? |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Hemos comido muy bien en todos los sitios que hemos probado. | We've eaten very well in all the places we've tried. |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Has visto dónde he dejado el pasaporte? | Have you seen where I left my passport? |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Este viaje me ha ayudado a perder el miedo a hablar español. | This trip has helped me lose my fear of speaking Spanish. |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Mis compañeros de equipo ya han llegado al hotel. | My teammates have already arrived at the hotel. |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Hasta ahora, el viaje ha sido mejor de lo que esperaba. | So far, the trip has been better than I expected. |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 
 # >>> Pluperfect
 Ya lo había visto antes | I had already seen it before |  | Pluperfect | true | 2026-03-12 | 2026-10-24 | 21 | 0.0793 | Easy | 
@@ -634,3 +734,23 @@ Nunca había tenido tanto miedo en mi vida. | I had never been so afraid in my l
 Ya habías empezado cuando te avisé. | You had already started when I warned you. |  | Pluperfect | false | 2026-07-26 | 2026-10-21 | 11 | 0.1081 | Easy | 
 No había entendido bien la pregunta. | I hadn't understood the question properly. |  | Pluperfect | false | 2026-07-26 | 2026-10-20 | 7 | 0.1176 | Easy | 
 Habían llegado antes de que abriera el museo. | They had arrived before the museum opened. |  | Pluperfect | false | 2026-07-26 | 2026-10-27 | 20 | 0.0704 | Easy | 
+Cuando llegué al hotel, ya habían dado mi habitación a otra persona. | When I got to the hotel, they had already given my room to someone else. |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+No sabía que habían cambiado el horario del museo. | I didn't know they had changed the museum's hours. |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Nunca habíamos visto un atardecer tan bonito como ese. | We had never seen a sunset as beautiful as that one. |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Antes del viaje a Oaxaca, ya había aprendido varias frases útiles. | Before the trip to Oaxaca, I had already learned several useful phrases. |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Habías oído hablar de ese restaurante antes de ir? | Had you heard of that restaurant before going? |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Llegamos a la plaza y nos dimos cuenta de que habíamos olvidado la cámara. | We reached the square and realised we had forgotten the camera. |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Pensé que habías reservado una mesa. | I thought you had booked a table. |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Cuando salimos del restaurante, ya había oscurecido. | By the time we left the restaurant, it had already got dark. |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Me dijeron que habían perdido mi maleta, pero apareció al día siguiente. | They told me they had lost my suitcase, but it turned up the next day. |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Mis amigos me habían recomendado ese barrio, y tenían razón. | My friends had recommended that neighbourhood to me, and they were right. |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Ya habíamos recorrido medio centro cuando empezó a llover. | We had already walked around half the centre when it started to rain. |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+No habíamos terminado de desayunar cuando llegó el taxi. | We hadn't finished breakfast when the taxi arrived. |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Cuando me di cuenta, ya había perdido el último autobús. | By the time I realised, I had already missed the last bus. |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+¿Ya habías salido cuando te llamé? | Had you already left when I called you? |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Hasta ese momento, no había hablado español con nadie fuera de mis clases. | Until that moment, I hadn't spoken Spanish with anyone outside my lessons. |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Habíamos planeado visitar la catedral, pero estaba cerrada por obras. | We had planned to visit the cathedral, but it was closed for renovation. |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Ya había visto fotos de la ciudad, pero en persona era mucho más grande. | I had already seen photos of the city, but in person it was much bigger. |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+El guía nos contó cosas que nadie nos había dicho antes. | The guide told us things no one had told us before. |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Cuando por fin encontramos el hotel, ya habíamos caminado casi una hora. | When we finally found the hotel, we had already walked for almost an hour. |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Me di cuenta de que había dejado el cargador en el hotel. | I realised I had left the charger at the hotel. |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
