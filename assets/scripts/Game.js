@@ -158,13 +158,13 @@ export class Game {
 
     #filterByCategory(cards, categories, n = null) {
         return cards.filter(c => categories.size === 0 || categories.has(c.category))
-            .slice(0, n || cards.length);
+            .slice(0, n ?? cards.length);
     }
 
     #filterByRank(cards, rank, n = null) {
         return cards.filter(c => c.matches(rank))
             .sort((a, b) => a.lastSeen - b.lastSeen)
-            .slice(0, n || cards.length);
+            .slice(0, n ?? cards.length);
     }
 
     rankCounts() {
