@@ -44,6 +44,20 @@ export class ApplicationScreenCardEdit {
         document.getElementById("studyArea").classList.remove("hidden");
     }
 
+    delete() {
+        const card = this.gameplay.state.card;
+        if (!card) return;
+        const label = card.front.length > 40 ? card.front.slice(0, 40) + '…' : card.front;
+        if (!confirm(`Delete "${label}"?`)) return;
+        this.gameplay.game.dataset.splice(this.gameplay.game.dataset.indexOf(card), 1);
+        this.gameplay.game.removeEnabled(card);
+        this.gameplay.save();
+        this.#clearFields();
+        document.getElementById("editCardArea").classList.add("hidden");
+        document.getElementById("studyArea").classList.remove("hidden");
+        this.#startRound();
+    }
+
     #clearFields() {
         ["editFront", "editBack", "editEmoji", "editCategory", "editComment"]
             .forEach(id => { ApplicationScreenCardEdit.#resetInput(document.getElementById(id)); });

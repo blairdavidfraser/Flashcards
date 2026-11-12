@@ -121,6 +121,7 @@ const screenCardEdit = new ApplicationScreenCardEdit(gameplay, { startRound: () 
 window.showCardEdit = () => screenCardEdit.show();
 window.saveCardEdit = () => screenCardEdit.save();
 window.cancelEdit = () => screenCardEdit.cancel();
+window.deleteCardEdit = () => screenCardEdit.delete();
 
 const screenStatistics = new ApplicationScreenStatistics(console);
 window.statistics = (name, language) => screenStatistics.show(name, language);
