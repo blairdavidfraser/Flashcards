@@ -1562,4 +1562,24 @@ darse un chapuzón | to take a quick dip |  | Conversational | false | 2026-11-0
 ¿Qué quieres ser de grande? | What do you want to be when you grow up? (Spain: de mayor) |  | Conversational | false | 2026-11-09 | 2026-11-11 | 1 | 1.0000 | Core | 
 la más sonada | the most talked-about (one) |  | Conversational | false | 2026-11-09 | 1970-01-01 | 0 |  | Hard | 
 
+Lo que pienso es que… | What I think is that… |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
+Me da la impresión de que… | I get the impression that… |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
+Yo lo veo así: … | Here's how I see it: … |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
+Estoy de acuerdo en parte, pero… | I partly agree, but… |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
+No lo había pensado así. | I hadn't thought of it that way. |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
+Lo que más me llama la atención es… | What strikes me most is… |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
+Me sorprendió que… | I was surprised that… (+ subjunctive) |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
+Si te soy sincero, … | To be honest with you, … |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
+Para mí, lo más importante es… | For me, the most important thing is… |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
+No estoy seguro de si… | I'm not sure whether… |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
+Ayer me pasé el día… | Yesterday I spent the whole day… (+ -ing) |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
+Ayer no me dio tiempo de… | Yesterday I didn't have time to… |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
+Ayer se me pasó el día volando. | Yesterday the day flew by. |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
+Ayer estuve a punto de… | Yesterday I was about to… / I almost… |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
+Ayer me enteré de que… | Yesterday I found out that… |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
+Ayer quedé con… para… | Yesterday I met up with… to… |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
+Mañana, si todo va bien, voy a… | Tomorrow, if all goes well, I'm going to… |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
+A ver si mañana puedo… | Let's see if I can… tomorrow |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
+Mañana tengo un día bastante cargado. | Tomorrow I've got a pretty packed day. |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
+Todavía no sé qué voy a hacer mañana. | I still don't know what I'm going to do tomorrow. |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
 
