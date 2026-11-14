@@ -174,7 +174,7 @@ No tiene sentido | It doesn’t make sense |  | Present | false | 2026-03-13 | 2
 ¿Prefieres correr por la mañana o por la tarde? | Do you prefer to run in the morning or in the afternoon? |  | Present | false | 2026-04-02 | 2026-10-14 | 9 |  | Cold | 
 ¿Cuánto tiempo tardas en llegar al centro? | How long does it take you to get to the city centre? |  | Present | true | 2026-04-02 | 2026-10-27 | 20 | 0.0240 | Easy | llegar = to arrive/get to; context: travel time
 ¿Qué llevas siempre en la mochila? | What do you always carry in your backpack? |  | Present | false | 2026-04-02 | 2026-11-07 | 15 | 0.0240 | Easy | llevar = to carry; not llegar or llenar
-¿Cuándo llegan tus amigos esta noche? | When do your friends arrive tonight? |  | Present | false | 2026-04-02 | 2026-10-25 | 15 | 0.0343 | Easy | llegar = to arrive; context: people coming over
+¿Cuándo llegan tus amigos esta noche? | When do your friends arrive tonight? |  | Present | false | 2026-04-02 | 2026-11-10 | 16 | 0.0240 | Easy | llegar = to arrive; context: people coming over
 ¿Te gusta cocinar en casa o prefieres comer fuera? | Do you like cooking at home or do you prefer eating out? |  | Present | false | 2026-04-02 | 2026-11-06 | 10 | 0.0173 | Easy | 
 ¿Qué haces cuando no puedes dormir? | What do you do when you can't sleep? |  | Present | false | 2026-04-02 | 2026-07-24 | 3 | 0.0000 | Easy | 
 ¿Cuánto tiempo llevas estudiando español? | How long have you been studying Spanish? |  | Present | true | 2026-04-02 | 2026-11-06 | 23 | 0.0270 | Easy | 
@@ -185,12 +185,12 @@ No tiene sentido | It doesn’t make sense |  | Present | false | 2026-03-13 | 2
 ¿Qué haces para mejorar tu nivel de español? | What do you do to improve your Spanish level? |  | Present | false | 2026-04-02 | 2026-11-07 | 8 | 0.0353 | Easy | 
 ¿A qué hora te acuestas normalmente? | What time do you normally go to bed? |  | Present | false | 2026-04-02 | 2026-11-06 | 15 | 0.0343 | Easy | 
 ¿Llevas el almuerzo al trabajo o comes fuera? | Do you bring lunch to work or eat out? |  | Present | false | 2026-04-02 | 2026-10-27 | 22 | 0.0809 | Easy | llevar = to carry/bring; not llegar (arrive) or llenar (fill)
-Cuando me falta energía, evito entrenar demasiado fuerte. | When I'm low on energy, I avoid training too hard. |  | Present | false | 2026-05-28 | 2026-10-25 | 13 | 0.0336 | Easy | 
+Cuando me falta energía, evito entrenar demasiado fuerte. | When I'm low on energy, I avoid training too hard. |  | Present | false | 2026-05-28 | 2026-11-10 | 15 | 0.0165 | Easy | 
 ¿Sabes si el restaurante abre los lunes por la noche? | Do you know if the restaurant is open on Monday evenings? |  | Present | false | 2026-05-28 | 2026-11-07 | 18 | 0.0244 | Easy | 
 No entiendo por qué siempre llega tarde cuando tiene que entregar algo importante. | I don't understand why he always arrives late when he has to hand in something important. |  | Present | false | 2026-05-28 | 2026-10-25 | 14 | 0.0618 | Easy | 
 Normalmente avanzo bastante rápido, pero hoy me cuesta concentrarme. | I usually make progress pretty quickly, but today I'm finding it hard to concentrate. |  | Present | false | 2026-05-28 | 2026-10-27 | 21 | 0.1218 | Easy | 
 ¿A quién le toca limpiar hoy, a ti o a mí? | Whose turn is it to clean today, yours or mine? |  | Present | false | 2026-05-28 | 2026-11-07 | 22 | 0.0327 | Easy | tocarle a alguien = to be someone's turn; very common in spoken Spanish.
-Me cuesta mucho mantener el ritmo cuando corro cuesta arriba. | I find it really hard to keep pace when I run uphill. |  | Present | false | 2026-05-28 | 2026-10-21 | 21 | 0.0420 | Easy | costarle = to find something difficult; very high-frequency spoken pattern.
+Me cuesta mucho mantener el ritmo cuando corro cuesta arriba. | I find it really hard to keep pace when I run uphill. |  | Present | false | 2026-05-28 | 2026-11-10 | 22 | 0.0294 | Easy | costarle = to find something difficult; very high-frequency spoken pattern.
 ¿Por qué no explicas lo que pasa en vez de quedarte callado? | Why don't you explain what's going on instead of staying quiet? |  | Present | false | 2026-05-28 | 2026-11-07 | 20 | 0.0183 | Easy | 
 Siempre que viajo, procuro probar la comida local en lugar de ir a cadenas. | Whenever I travel, I try to eat local food instead of going to chains. |  | Present | false | 2026-05-28 | 2026-10-27 | 23 | 0.0414 | Core | procurar = to try / make an effort to; slightly more deliberate than intentar.
 ¿Funciona bien tu aplicación o todavía tiene errores? | Does your app work well or does it still have bugs? |  | Present | false | 2026-05-28 | 2026-11-07 | 13 | 0.0480 | Easy | 
@@ -272,12 +272,12 @@ Estoy intentando no distraerme, pero el ruido de afuera lo está poniendo difíc
 Me estoy dando cuenta de que hablar español se está volviendo más natural. | I'm realising that speaking Spanish is becoming more natural. |  | Present Continuous | false | 2026-05-28 | 2026-11-01 | 33 | 0.1148 | Easy | volverse = to become (gradual change); highly useful pattern.
 ¿Estás evitando el tema a propósito o simplemente no te estás dando cuenta? | Are you avoiding the subject on purpose or are you just not realising it? |  | Present Continuous | false | 2026-05-28 | 2026-11-06 | 22 | 0.0821 | Easy | 
 Están construyendo algo enorme justo al lado, y el ruido está empezando a molestar. | They're building something enormous right next door, and the noise is starting to bother me. |  | Present Continuous | false | 2026-05-28 | 2026-11-07 | 19 | 0.0309 | Easy | 
-¿Estás siguiendo el hilo o quieres que lo explique de otra manera? | Are you following the thread or do you want me to explain it a different way? |  | Present Continuous | false | 2026-05-28 | 2026-10-25 | 20 | 0.0597 | Easy | seguir el hilo = to follow the thread (from your deck).
+¿Estás siguiendo el hilo o quieres que lo explique de otra manera? | Are you following the thread or do you want me to explain it a different way? |  | Present Continuous | false | 2026-05-28 | 2026-11-10 | 21 | 0.0418 | Easy | seguir el hilo = to follow the thread (from your deck).
 Me está costando mucho mantener el ritmo con todo lo que está pasando esta semana. | I'm finding it really hard to keep up with everything that's happening this week. |  | Present Continuous | false | 2026-05-28 | 2026-10-26 | 19 | 0.0638 | Core | costarle = to find something difficult; very natural spoken structure.
 ¿Estás avanzando bien con el libro o todavía te estás acostumbrando al estilo? | Are you making good progress with the book or are you still getting used to the style? |  | Present Continuous | false | 2026-05-28 | 2026-11-07 | 19 | 0.0320 | Easy | acostumbrarse a = to get used to; avanzar = to make progress (from your deck).
 Estoy notando que los tiempos verbales se están volviendo más automáticos. | I'm noticing that the verb tenses are becoming more automatic. |  | Present Continuous | false | 2026-05-28 | 2026-10-27 | 24 | 0.1308 | Easy | 
 ¿Por qué se está empezando a llenar tan rápido si todavía es temprano? | Why is it starting to fill up so fast if it's still early? |  | Present Continuous | false | 2026-06-22 | 2026-10-27 | 31 | 0.2682 | Core | llenarse = to fill up; combines with empezar a + infinitive naturally.
-Estoy tratando de sacar tiempo para correr, pero la semana está siendo muy ajetreada. | I'm trying to find time to run, but the week is turning out to be very hectic. |  | Present Continuous | false | 2026-05-28 | 2026-10-26 | 29 | 0.1161 | Easy | ajetreado = hectic (from your deck); estar siendo = to be turning out to be.
+Estoy tratando de sacar tiempo para correr, pero la semana está siendo muy ajetreada. | I'm trying to find time to run, but the week is turning out to be very hectic. |  | Present Continuous | false | 2026-05-28 | 2026-11-10 | 30 | 0.0813 | Easy | ajetreado = hectic (from your deck); estar siendo = to be turning out to be.
 ¿Qué está pasando allí? Parece que se están discutiendo algo bastante serio. | What's happening over there? It looks like they're arguing about something quite serious. |  | Present Continuous | false | 2026-05-28 | 2026-11-07 | 15 | 0.0379 | Easy | 
 Me estoy acostumbrando a escuchar español a velocidad normal, aunque todavía me pierdo algunas cosas. | I'm getting used to listening to Spanish at normal speed, even though I still miss some things. |  | Present Continuous | false | 2026-05-28 | 2026-11-08 | 19 | 0.0330 | Easy | perderse algo = to miss something; acostumbrarse = to get used to.
 ¿Están siguiendo adelante con el proyecto aunque les esté faltando tiempo y recursos? | Are they going ahead with the project even though they're running short on time and resources? |  | Present Continuous | false | 2026-05-28 | 2026-11-07 | 27 | 0.0377 | Easy | faltar = to be lacking (from your deck); aunque + subjunctive = even though (uncertain).
@@ -327,18 +327,18 @@ Voy a ver una película después, pero estoy escribiendo un correo ahora | I am 
 ¿Cuándo van a volver? | When are they going to come back? |  | Immediate Future | true | 2026-04-02 | 2026-11-05 | 11 | 0.0343 | Easy | 
 ¿Vas a intentar un nuevo récord? | Are you going to try for a new record? |  | Immediate Future | false | 2026-04-02 | 2026-11-06 | 14 | 0.0240 | Easy | 
 ¿Qué vas a hacer cuando llegues a casa? | What are you going to do when you get home? |  | Immediate Future | true | 2026-04-02 | 2026-10-11 | 6 |  | Cold | llegues = subjunctive after cuando + future; natural spoken Spanish
-¿Vas a llevar agua o va a haber fuentes en el camino? | Are you going to bring water or will there be fountains on the route? |  | Immediate Future | false | 2026-04-02 | 2026-10-26 | 19 | 0.3247 | Easy | llevar agua vs. fuentes; llevar in practical context
+¿Vas a llevar agua o va a haber fuentes en el camino? | Are you going to bring water or will there be fountains on the route? |  | Immediate Future | false | 2026-04-02 | 2026-11-10 | 22 | 0.1114 | Easy | llevar agua vs. fuentes; llevar in practical context
 Voy a llegar tarde si no salgo ahora. | I'm going to arrive late if I don't leave now. |  | Immediate Future | true | 2026-04-02 | 2026-11-08 | 12 | 0.0240 | Easy | llegar tarde; urgency and consequence
 Voy a llevar la mochila pequeña hoy. | I'm going to take the small backpack today. |  | Immediate Future | false | 2026-04-02 | 2026-10-25 | 7 | 0.0240 | Easy | llevar = take/bring; choosing what to carry
 Voy a llenar la botella antes de salir a correr. | I'm going to fill my bottle before going for a run. |  | Immediate Future | false | 2026-04-02 | 2026-07-25 | 4 | 0.0000 | Easy | llenar = fill; pre-run routine
 Vamos a llegar al mismo tiempo si salimos ya. | We're going to arrive at the same time if we leave now. |  | Immediate Future | false | 2026-04-02 | 2026-07-25 | 4 | 0.0000 | Easy | llegar = arrive; coordination context
 Va a llover esta tarde, así que voy a correr ahora. | It's going to rain this afternoon, so I'm going to run now. |  | Immediate Future | false | 2026-04-02 | 2026-11-08 | 20 | 0.0297 | Easy | 
-Voy a intentar llegar antes de las nueve. | I'm going to try to arrive before nine. |  | Immediate Future | true | 2026-04-02 | 2026-10-25 | 8 | 0.0353 | Easy | llegar = arrive; time goal
+Voy a intentar llegar antes de las nueve. | I'm going to try to arrive before nine. |  | Immediate Future | true | 2026-04-02 | 2026-11-10 | 10 | 0.0173 | Easy | llegar = arrive; time goal
 Van a llevar demasiado equipaje otra vez. | They're going to bring too much luggage again. |  | Immediate Future | false | 2026-04-02 | 2026-10-12 | 7 |  | Cold | llevar = carry/bring; travel context
 Vamos a llenar la nevera este fin de semana. | We're going to fill the fridge this weekend. |  | Immediate Future | false | 2026-04-02 | 2026-11-08 | 12 | 0.0168 | Easy | llenar la nevera; domestic context
 Va a empezar en diez minutos, así que hay que llegar ya. | It starts in ten minutes, so we need to arrive now. |  | Immediate Future | false | 2026-04-02 | 2026-10-27 | 22 | 0.0848 | Easy | llegar ya; urgency
 Voy a mejorar mi técnica de carrera este mes. | I'm going to improve my racing technique this month. |  | Immediate Future | false | 2026-04-02 | 2026-10-18 | 13 |  | Cold | 
-Va a llevar el coche al taller mañana. | He's going to take the car to the garage tomorrow. |  | Immediate Future | false | 2026-04-02 | 2026-10-26 | 16 | 0.1011 | Easy | llevar al taller = take to the garage; practical
+Va a llevar el coche al taller mañana. | He's going to take the car to the garage tomorrow. |  | Immediate Future | false | 2026-04-02 | 2026-11-10 | 18 | 0.0495 | Easy | llevar al taller = take to the garage; practical
 Vamos a llegar al hotel antes de la cena. | We're going to arrive at the hotel before dinner. |  | Immediate Future | false | 2026-04-02 | 2026-07-26 | 4 | 0.0000 | Easy | llegar al hotel; travel context
 Ella va a llenar los vasos antes de sentarse. | She's going to fill the glasses before sitting down. |  | Immediate Future | false | 2026-04-02 | 2026-10-25 | 11 |  | Cold | llenar los vasos; dinner table context
 Voy a llevar la comida al parque para comer allí. | I'm going to bring the food to the park to eat there. |  | Immediate Future | false | 2026-04-02 | 2026-07-25 | 3 | 0.0000 | Easy | llevar la comida = bring the food; not llegar
@@ -383,14 +383,14 @@ Sofía fue a la tienda después de cenar | Sofía went to the store after dinner
 Fuimos al centro el fin de semana | We went downtown on the weekend |  | Preterit | false | 2026-03-05 | 2026-11-06 | 13 | 0.0343 | Easy | 
 Fueron a la playa durante el verano | They went to the beach during the summer |  | Preterit | false | 2026-03-05 | 2026-10-24 | 11 |  | Cold | 
 Tuve un problema ayer en el trabajo | I had a problem yesterday at work |  | Preterit | false | 2026-03-05 | 2026-11-08 | 8 | 0.0353 | Easy | 
-Tuviste una buena idea anoche | You had a good idea last night |  | Preterit | false | 2026-03-05 | 2026-10-26 | 12 | 0.0343 | Easy | 
+Tuviste una buena idea anoche | You had a good idea last night |  | Preterit | false | 2026-03-05 | 2026-11-10 | 13 | 0.0240 | Easy | 
 Tuvo una reunión larga esta mañana | He had a long meeting this morning |  | Preterit | false | 2026-03-05 | 2026-07-24 | 2 | 0.0000 | Easy | 
 Marta tuvo un accidente pequeño ayer | Marta had a small accident yesterday |  | Preterit | false | 2026-03-05 | 2026-07-24 | 4 | 0.0000 | Easy | 
 Tuvimos tiempo para descansar | We had time to rest |  | Preterit | false | 2026-03-05 | 2026-11-06 | 19 | 0.0343 | Easy | 
 Tuvieron mucha suerte ese día | They had a lot of luck that day |  | Preterit | false | 2026-03-05 | 2026-11-07 | 12 | 0.0240 | Easy | 
-Hice la tarea ayer | I did the homework yesterday |  | Preterit | false | 2026-03-06 | 2026-10-25 | 8 | 0.0504 | Easy | 
+Hice la tarea ayer | I did the homework yesterday |  | Preterit | false | 2026-03-06 | 2026-11-10 | 10 | 0.0247 | Easy | 
 Hiciste un pastel anoche | You made a cake last night |  | Preterit | false | 2026-03-06 | 2026-11-06 | 12 | 0.0343 | Easy | 
-Hizo ejercicio esta mañana | He exercised this morning |  | Preterit | false | 2026-03-06 | 2026-10-26 | 20 | 0.1156 | Easy | 
+Hizo ejercicio esta mañana | He exercised this morning |  | Preterit | false | 2026-03-06 | 2026-11-10 | 21 | 0.0809 | Easy | 
 Ana hizo la cena ayer | Ana made dinner yesterday |  | Preterit | false | 2026-03-06 | 2026-07-25 | 4 | 0.0000 | Easy | 
 Hicimos un viaje el año pasado | We took a trip last year |  | Preterit | false | 2026-03-06 | 2026-10-26 | 25 | 0.1111 | Easy | 
 Hicieron mucho trabajo ayer | They did a lot of work yesterday |  | Preterit | false | 2026-03-06 | 2026-11-05 | 16 | 0.0343 | Easy | 
@@ -402,7 +402,7 @@ Estuvimos en la oficina | We were in the office |  | Preterit | false | 2026-03-
 Estuvieron en casa anoche | They were at home last night |  | Preterit | false | 2026-03-06 | 2026-11-01 | 20 | 0.0240 | Easy | 
 Fui profesor el año pasado | I was a teacher last year |  | Preterit | false | 2026-03-06 | 2026-11-06 | 13 | 0.0838 | Easy | 
 Fuiste muy amable ayer | You were very kind yesterday |  | Preterit | false | 2026-03-06 | 2026-11-01 | 20 | 0.3738 | Core | 
-Fue mi amigo en la escuela | He was my friend in school |  | Preterit | false | 2026-03-06 | 2026-10-25 | 14 | 0.0490 | Easy | 
+Fue mi amigo en la escuela | He was my friend in school |  | Preterit | false | 2026-03-06 | 2026-11-10 | 15 | 0.0343 | Easy | 
 Laura fue muy inteligente | Laura was very intelligent |  | Preterit | false | 2026-03-06 | 2026-10-11 | 11 |  | Cold | 
 Fuimos buenos amigos | We were good friends |  | Preterit | false | 2026-03-06 | 2026-10-26 | 30 | 0.1179 | Core | 
 Fueron estudiantes antes | They were students before |  | Preterit | false | 2026-03-06 | 2026-11-06 | 12 | 0.0294 | Easy | 
@@ -420,27 +420,27 @@ Ayer tuvimos hambre | Yesterday we were hungry |  | Preterit | false | 2026-02-2
 Ayer vino mi amigo | Yesterday my friend came |  | Preterit | false | 2026-02-27 | 2026-11-08 | 30 | 0.0240 | Easy | 
 Ayer dije la verdad | Yesterday I told the truth |  | Preterit | false | 2026-02-27 | 2026-11-08 | 18 | 0.0240 | Easy | 
 Ayer pude pagar con tarjeta | Yesterday I was able to pay with card |  | Preterit | false | 2026-02-27 | 2026-10-25 | 24 | 0.0492 | Easy | 
-Eso pensé yo | That’s what I thought |  | Preterit | true | 2026-03-12 | 2026-10-26 | 25 | 0.1066 | Easy | 
+Eso pensé yo | That’s what I thought |  | Preterit | true | 2026-03-12 | 2026-11-10 | 26 | 0.0746 | Easy | 
 Pensé que estaba cerrado | I thought it was closed |  | Preterit | false | 2026-03-12 | 2026-11-05 | 15 | 0.0343 | Easy | 
 ¿Me dijiste que era por aquí? | You told me it was this way? |  | Preterit | false | 2026-03-12 | 2026-11-06 | 24 | 0.0569 | Easy | 
 Me perdí en el camino | I got lost on the way |  | Preterit | true | 2026-03-12 | 2026-11-06 | 21 | 0.0888 | Easy | 
-¿Ya cerraron? | Did they already close? |  | Preterit | false | 2026-03-12 | 2026-10-26 | 20 | 0.1342 | Easy | 
+¿Ya cerraron? | Did they already close? |  | Preterit | false | 2026-03-12 | 2026-11-10 | 21 | 0.0939 | Easy | 
 Se me olvidó traer dinero | I forgot to bring money |  | Preterit | true | 2026-03-12 | 2026-10-25 | 30 | 0.0511 | Easy | 
 No encontré la entrada | I didn’t find the entrance |  | Preterit | false | 2026-03-12 | 2026-11-06 | 17 | 0.0343 | Easy | 
 No me di cuenta | I didn’t realize |  | Preterit | false | 2026-03-12 | 2026-11-08 | 9 | 0.0247 | Easy | 
 Me dijeron que era fácil de encontrar | They told me it was easy to find |  | Preterit | false | 2026-03-12 | 2026-10-25 | 15 | 0.0343 | Easy | 
-Lo vi en internet | I saw it online |  | Preterit | false | 2026-03-12 | 2026-10-26 | 17 | 0.1181 | Easy | 
-Me recomendaron este lugar | They recommended this place to me |  | Preterit | false | 2026-03-12 | 2026-10-24 | 14 | 0.0343 | Easy | 
+Lo vi en internet | I saw it online |  | Preterit | false | 2026-03-12 | 2026-11-10 | 19 | 0.0579 | Easy | 
+Me recomendaron este lugar | They recommended this place to me |  | Preterit | false | 2026-03-12 | 2026-11-10 | 15 | 0.0240 | Easy | 
 Terminé yendo a otro sitio | I ended up going somewhere else |  | Preterit | true | 2026-03-12 | 2026-11-06 | 32 | 0.4133 | Core | 
-¿Te pasó lo mismo? | Did the same thing happen to you? |  | Preterit | true | 2026-03-12 | 2026-10-26 | 29 | 0.1299 | Easy | 
+¿Te pasó lo mismo? | Did the same thing happen to you? |  | Preterit | true | 2026-03-12 | 2026-11-10 | 31 | 0.0637 | Easy | 
 No tuve tiempo | I didn’t have time |  | Preterit | true | 2026-03-12 | 2026-07-25 | 3 | 0.0000 | Easy | 
-Me quedé sin batería | My battery died |  | Preterit | false | 2026-03-12 | 2026-10-26 | 15 | 0.1197 | Easy | 
+Me quedé sin batería | My battery died |  | Preterit | false | 2026-03-12 | 2026-11-10 | 17 | 0.0587 | Easy | 
 Se me cayó el teléfono | I dropped my phone |  | Preterit | true | 2026-03-12 | 2026-11-05 | 16 | 0.0343 | Easy | 
-Lo intenté varias veces | I tried (it) several times |  | Preterit | false | 2026-03-12 | 2026-10-25 | 18 | 0.0240 | Easy | 
+Lo intenté varias veces | I tried (it) several times |  | Preterit | false | 2026-03-12 | 2026-11-10 | 19 | 0.0168 | Easy | 
 No me dejaron entrar | They didn’t let me in |  | Preterit | false | 2026-03-12 | 2026-10-27 | 32 | 0.1058 | Easy | 
 Me dijeron que estaba lleno | They told me it was full |  | Preterit | true | 2026-03-12 | 2026-10-29 | 28 | 0.1008 | Easy | 
 Ni idea de qué pasó | No idea what happened |  | Preterit | false | 2026-03-12 | 2026-10-27 | 42 | 0.1019 | Core | 
-Menos mal que llegué a tiempo | Good thing I arrived on time |  | Preterit | false | 2026-03-12 | 2026-10-26 | 8 | 0.0353 | Easy | 
+Menos mal que llegué a tiempo | Good thing I arrived on time |  | Preterit | false | 2026-03-12 | 2026-11-10 | 9 | 0.0247 | Easy | 
 Me tocó esperar | I had to wait |  | Preterit | false | 2026-03-12 | 2026-10-27 | 32 | 0.1396 | Easy | 
 Estuve esperando como una hora | I was waiting for like an hour |  | Preterit | false | 2026-03-12 | 2026-11-01 | 36 | 0.3253 | Core | 
 Al final me fui | In the end I left |  | Preterit | false | 2026-03-12 | 2026-11-07 | 20 | 0.0495 | Easy | 
@@ -452,14 +452,14 @@ Después de cena, Ana se fue | After dinner, Ana left |  | Preterit | false | 20
 Ayer por la mañana fui al mercado y compré fruta fresca. | Yesterday morning I went to the market and bought fresh fruit. |  | Preterit | false | 2026-07-26 | 2026-11-06 | 11 | 0.0960 | Easy | 
 El fin de semana pasado corrí quince kilómetros. | Last weekend I ran fifteen kilometres. |  | Preterit | false | 2026-07-26 | 2026-11-08 | 9 | 0.0577 | Easy | 
 ¿Pudiste reservar mesa para esta noche? | Were you able to book a table for tonight? |  | Preterit | false | 2026-07-26 | 2026-11-08 | 16 | 0.0544 | Easy | poder in preterit = managed to / succeeded in doing.
-Me perdí en el centro histórico pero al final encontré el hotel. | I got lost in the old town but eventually found the hotel. |  | Preterit | false | 2026-07-26 | 2026-10-26 | 16 | 0.1230 | Easy | 
+Me perdí en el centro histórico pero al final encontré el hotel. | I got lost in the old town but eventually found the hotel. |  | Preterit | false | 2026-07-26 | 2026-11-10 | 17 | 0.0861 | Easy | 
 ¿Qué hiciste cuando te enteraste de la noticia? | What did you do when you found out the news? |  | Preterit | false | 2026-07-26 | 2026-10-27 | 23 | 0.1054 | Easy | enterarse de = to find out about; very high-frequency.
 Llegué tarde porque perdí el autobús. | I arrived late because I missed the bus. |  | Preterit | false | 2026-07-26 | 2026-11-06 | 11 | 0.0455 | Easy | perder el autobús = to miss the bus; natural preterit chain.
 Tuvimos que cambiar de hotel porque el nuestro estaba lleno. | We had to change hotels because ours was full. |  | Preterit | false | 2026-07-26 | 2026-11-06 | 12 | 0.0757 | Easy | tener que in preterit = had to (completed obligation).
 El camarero nos trajo la cuenta sin que la pidiéramos. | The waiter brought us the bill without us asking for it. |  | Preterit | false | 2026-07-26 | 2026-10-29 | 29 | 0.1025 | Core | 
-Se me olvidó el nombre del restaurante que me recomendaste. | I forgot the name of the restaurant you recommended. |  | Preterit | false | 2026-07-26 | 2026-10-26 | 15 | 0.0948 | Easy | se me olvidó = I forgot (accidental); very natural structure.
+Se me olvidó el nombre del restaurante que me recomendaste. | I forgot the name of the restaurant you recommended. |  | Preterit | false | 2026-07-26 | 2026-11-10 | 16 | 0.0664 | Easy | se me olvidó = I forgot (accidental); very natural structure.
 Conocí a alguien muy interesante en el viaje. | I met someone very interesting on the trip. |  | Preterit | false | 2026-07-26 | 2026-11-06 | 11 | 0.0807 | Easy | conocer in preterit = to meet for the first time.
-¿Cuánto tardaste en llegar desde el aeropuerto? | How long did it take you to get from the airport? |  | Preterit | false | 2026-07-26 | 2026-10-26 | 17 | 0.0983 | Easy | 
+¿Cuánto tardaste en llegar desde el aeropuerto? | How long did it take you to get from the airport? |  | Preterit | false | 2026-07-26 | 2026-11-10 | 19 | 0.0482 | Easy | 
 Probé el mole por primera vez y me encantó. | I tried mole for the first time and loved it. |  | Preterit | false | 2026-07-26 | 2026-11-06 | 14 | 0.0492 | Easy | 
 El tren salió a tiempo pero llegó con retraso. | The train left on time but arrived late. |  | Preterit | false | 2026-07-26 | 2026-11-06 | 13 | 0.0870 | Easy | 
 No pude dormir bien la primera noche. | I wasn't able to sleep well the first night. |  | Preterit | false | 2026-07-26 | 2026-11-08 | 12 | 0.0198 | Easy | 
@@ -501,12 +501,12 @@ Iban juntos al centro comercial | They used to go together to the mall |  | Impe
 Tenía mucho tiempo antes | I used to have a lot of time before |  | Imperfect | false | 2026-03-05 | 2026-10-25 | 8 | 0.0402 | Easy | 
 Tenías un coche viejo en ese tiempo | You used to have an old car at that time |  | Imperfect | false | 2026-03-05 | 2026-11-07 | 16 | 0.0240 | Easy | 
 Tenía una casa grande en la ciudad | He used to have a big house in the city |  | Imperfect | false | 2026-03-05 | 2026-10-18 | 9 |  | Cold | 
-Laura tenía muchos amigos en la escuela | Laura used to have many friends at school |  | Imperfect | false | 2026-03-05 | 2026-10-25 | 13 | 0.0490 | Easy | 
+Laura tenía muchos amigos en la escuela | Laura used to have many friends at school |  | Imperfect | false | 2026-03-05 | 2026-11-10 | 14 | 0.0343 | Easy | 
 Teníamos más energía antes | We used to have more energy before |  | Imperfect | false | 2026-03-05 | 2026-11-06 | 14 | 0.0343 | Core | 
 Tenían problemas con el jefe | They used to have problems with the boss |  | Imperfect | false | 2026-03-05 | 2026-11-07 | 15 | 0.0343 | Easy | 
 Hacía la tarea cada noche | I used to do homework every night |  | Imperfect | false | 2026-03-06 | 2026-11-06 | 13 | 0.0343 | Easy | 
 Hacías café cada mañana | You used to make coffee every morning |  | Imperfect | false | 2026-03-06 | 2026-10-25 | 17 | 0.0168 | Easy | 
-Hacía ejercicio siempre | He always used to exercise |  | Imperfect | false | 2026-03-06 | 2026-10-25 | 13 | 0.0343 | Easy | 
+Hacía ejercicio siempre | He always used to exercise |  | Imperfect | false | 2026-03-06 | 2026-11-10 | 14 | 0.0240 | Easy | 
 María hacía la cena a menudo | Maria used to make dinner often |  | Imperfect | false | 2026-03-06 | 2026-11-07 | 16 | 0.0343 | Easy | 
 Hacíamos viajes juntos | We used to take trips together |  | Imperfect | false | 2026-03-06 | 2026-11-06 | 15 | 0.0343 | Easy | 
 Hacían mucho trabajo antes | They used to do a lot of work before |  | Imperfect | false | 2026-03-06 | 2026-11-06 | 23 | 0.0587 | Easy | 
@@ -516,11 +516,11 @@ Estaba en el parque a menudo | He used to be in the park often |  | Imperfect | 
 Ana estaba muy cansada antes | Ana used to be very tired before |  | Imperfect | false | 2026-03-06 | 2026-11-06 | 16 | 0.0240 | Easy | 
 Estábamos en la oficina | We used to be in the office |  | Imperfect | false | 2026-03-06 | 2026-11-07 | 15 | 0.0838 | Easy | 
 Estaban en casa siempre | They used to be at home always |  | Imperfect | false | 2026-03-06 | 2026-10-12 | 14 |  | Cold | 
-Era profesor antes | I used to be a teacher |  | Imperfect | false | 2026-03-06 | 2026-10-25 | 18 | 0.0343 | Easy | 
+Era profesor antes | I used to be a teacher |  | Imperfect | false | 2026-03-06 | 2026-11-10 | 19 | 0.0240 | Easy | 
 Eras muy amable siempre | You used to be very kind always |  | Imperfect | false | 2026-03-06 | 2026-10-25 | 15 | 0.0490 | Easy | 
 Era mi amigo cercano | He used to be my close friend |  | Imperfect | false | 2026-03-06 | 2026-10-25 | 9 | 0.0247 | Easy | “Friend” is about the person, not the situation; therefore ‘ser’.
 Laura era muy inteligente | Laura used to be very intelligent |  | Imperfect | false | 2026-03-06 | 2026-10-25 | 14 | 0.0343 | Easy | 
-Éramos buenos amigos | We used to be good friends |  | Imperfect | false | 2026-03-06 | 2026-10-24 | 13 | 0.0490 | Easy | 
+Éramos buenos amigos | We used to be good friends |  | Imperfect | false | 2026-03-06 | 2026-11-10 | 15 | 0.0240 | Easy | 
 Eran estudiantes antes | They used to be students before |  | Imperfect | false | 2026-03-06 | 2026-11-07 | 19 | 0.0343 | Easy | 
 Iba al parque siempre | I used to go to the park always |  | Imperfect | false | 2026-03-06 | 2026-11-06 | 12 |  | Cold | 
 Ibas a la tienda a menudo | You used to go to the store often |  | Imperfect | false | 2026-03-06 | 2026-10-25 | 15 | 0.0343 | Easy | 
@@ -530,7 +530,7 @@ Ana iba a la escuela antes | Ana used to go to school before |  | Imperfect | fa
 Iban al restaurante mucho | They used to go to the restaurant a lot |  | Imperfect | false | 2026-03-06 | 2026-10-03 | 13 |  | Cold | 
 Hablaba con mi jefe cada lunes por la mañana | I used to talk with my boss every Monday morning |  | Imperfect | false | 2026-03-09 | 2026-11-06 | 16 | 0.0240 | Easy | 
 Hablabas con ella cuando eras joven | You used to talk with her when you were young |  | Imperfect | false | 2026-03-09 | 2026-11-06 | 16 | 0.0168 | Easy | 
-Pedro hablaba mucho pero no decía nada | Pedro used to talk a lot but say nothing |  | Imperfect | false | 2026-03-09 | 2026-10-25 | 14 | 0.0490 | Easy | 
+Pedro hablaba mucho pero no decía nada | Pedro used to talk a lot but say nothing |  | Imperfect | false | 2026-03-09 | 2026-11-10 | 15 | 0.0343 | Easy | 
 Hablábamos durante horas sin mirar el reloj | We used to talk for hours without checking the time |  | Imperfect | false | 2026-03-09 | 2026-10-27 | 16 | 0.0490 | Easy | 
 Ellos hablaban mientras caminaban por el parque | They used to talk while walking in the park |  | Imperfect | false | 2026-03-09 | 2026-10-27 | 20 | 0.0601 | Easy | 
 Vivía en el centro cuando trabajaba allí | I used to live downtown when I worked there |  | Imperfect | false | 2026-03-09 | 2026-11-06 | 14 | 0.0343 | Easy | 
@@ -554,7 +554,7 @@ Luis quería viajar por el mundo entero | Luis used to want to travel the whole 
 Queríamos salir aunque estaba lloviendo | We used to want to go out even though it was raining |  | Imperfect | false | 2026-03-09 | 2026-11-06 | 21 | 0.0622 | Easy | 
 Ellos querían comprar la casa pero era cara | They used to want to buy the house but it was expensive |  | Imperfect | false | 2026-03-09 | 2026-11-08 | 9 | 0.0247 | Easy | 
 Cuando era niño comía aquí | When I was a child I used to eat here |  | Imperfect | false | 2026-02-27 | 2026-11-06 | 23 | 0.0343 | Easy | 
-Antes vivía en Canadá | Before, I used to live in Canada |  | Imperfect | false | 2026-02-27 | 2026-10-25 | 17 | 0.0490 | Easy | 
+Antes vivía en Canadá | Before, I used to live in Canada |  | Imperfect | false | 2026-02-27 | 2026-11-10 | 18 | 0.0343 | Easy | 
 No sabía que había que pagar aquí | I didn’t know you had to pay here |  | Imperfect | true | 2026-03-12 | 2026-11-06 | 14 | 0.0343 | Core | 
 Pensaba que abrían más tarde | I thought they opened later |  | Imperfect | true | 2026-03-12 | 2026-11-06 | 8 | 0.0353 | Easy | 
 Como no. Tenía que pasar esto. | Of course. This had to happen. |  | Imperfect | false | 2026-03-12 | 2026-10-27 | 33 | 0.1034 | Easy | 
@@ -562,14 +562,14 @@ Iba a ir ayer, pero no pude | I was going to go yesterday, but I couldn’t |  |
 No funcionaba | It wasn’t working |  | Imperfect | true | 2026-03-12 | 2026-10-04 | 12 |  | Cold | 
 Mientras corría, escuché una canción que no había oído nunca. | While I was running, I heard a song I had never heard before. |  | Imperfect | false | 2026-07-26 | 2026-10-27 | 19 | 0.1389 | Core | imperfect (background) + preterit (interrupting event); classic contrast.
 De niño siempre me perdía en los mercados. | As a child I always used to get lost in markets. |  | Imperfect | false | 2026-07-26 | 2026-11-06 | 19 | 0.0406 | Easy | perderse = to get lost; de niño = as a child.
-Antes no me gustaba el picante, pero ahora me encanta. | Before I didn't like spicy food, but now I love it. |  | Imperfect | false | 2026-07-26 | 2026-10-26 | 16 | 0.1351 | Easy | 
+Antes no me gustaba el picante, pero ahora me encanta. | Before I didn't like spicy food, but now I love it. |  | Imperfect | false | 2026-07-26 | 2026-11-10 | 19 | 0.0463 | Easy | 
 Cada vez que viajaba, aprendía algo nuevo. | Every time I traveled, I learned something new. |  | Imperfect | false | 2026-07-26 | 2026-10-27 | 19 | 0.1231 | Easy | cada vez que + imperfect = habitual past action.
 En aquella época no teníamos tanto dinero. | In those days we didn't have much money. |  | Imperfect | false | 2026-07-26 | 2026-11-06 | 14 | 0.0630 | Easy | en aquella época = in those days; sets imperfect context.
 Cuando vivía en España, salía a correr por el parque cada mañana. | When I lived in Spain, I used to go running in the park every morning. |  | Imperfect | false | 2026-07-26 | 2026-11-06 | 8 | 0.0823 | Easy | 
 El pueblo parecía sacado de un cuento. | The village looked like it was taken from a fairy tale. |  | Imperfect | false | 2026-07-26 | 2026-10-07 | 1 | 0.0000 | Easy | parecer in imperfect = description/appearance in the past.
 No sabía que él también hablaba español. | I didn't know he also spoke Spanish. |  | Imperfect | false | 2026-07-26 | 2026-11-06 | 17 | 0.0880 | Easy | saber in imperfect = ongoing state of not knowing.
 Mientras esperaba, me puse a leer el libro. | While I was waiting, I started reading the book. |  | Imperfect | false | 2026-07-26 | 2026-10-27 | 20 | 0.0923 | Easy | ponerse a + infinitive = to start doing something (spontaneous action).
-Siempre llegaba tarde pero nunca se disculpaba. | He always used to arrive late but never apologized. |  | Imperfect | false | 2026-07-26 | 2026-10-26 | 16 | 0.0976 | Easy | 
+Siempre llegaba tarde pero nunca se disculpaba. | He always used to arrive late but never apologized. |  | Imperfect | false | 2026-07-26 | 2026-11-10 | 18 | 0.0478 | Easy | 
 Era tarde y el restaurante estaba casi vacío. | It was late and the restaurant was almost empty. |  | Imperfect | false | 2026-07-26 | 2026-11-06 | 10 | 0.0403 | Easy | pure description setting a scene; classic imperfect use.
 No entendía por qué todo el mundo tenía tanta prisa. | I didn't understand why everyone was in such a rush. |  | Imperfect | false | 2026-07-26 | 2026-11-06 | 15 | 0.0336 | Easy | 
 De joven leía mucho pero ahora casi no tengo tiempo. | When I was young I used to read a lot but now I barely have time. |  | Imperfect | false | 2026-07-26 | 2026-11-06 | 13 | 0.0516 | Easy | 
@@ -587,10 +587,10 @@ El hotel era pequeño y tranquilo, y desde la terraza se veía toda la ciudad. |
 ¿Dónde estabas cuando se canceló el vuelo? | Where were you when the flight was cancelled? |  | Imperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 
 # >>> Present Perfect Continuous
-He estado esperando aquí por una hora | I have been waiting here for an hour |  | Present Perfect Continuous | true | 2026-03-12 | 2026-10-25 | 16 | 0.0530 | Easy | 
-Has estado trabajando mucho esta semana | You have been working a lot this week |  | Present Perfect Continuous | false | 2026-03-12 | 2026-10-25 | 13 | 0.0277 | Easy | 
+He estado esperando aquí por una hora | I have been waiting here for an hour |  | Present Perfect Continuous | true | 2026-03-12 | 2026-11-10 | 17 | 0.0371 | Easy | 
+Has estado trabajando mucho esta semana | You have been working a lot this week |  | Present Perfect Continuous | false | 2026-03-12 | 2026-11-10 | 14 | 0.0194 | Easy | 
 Ha estado lloviendo toda la tarde | It has been raining all afternoon |  | Present Perfect Continuous | false | 2026-03-12 | 2026-11-08 | 13 | 0.0336 | Easy | 
-Hemos estado buscando un buen restaurante | We have been looking for a good restaurant |  | Present Perfect Continuous | false | 2026-03-12 | 2026-10-25 | 13 | 0.0698 | Easy | 
+Hemos estado buscando un buen restaurante | We have been looking for a good restaurant |  | Present Perfect Continuous | false | 2026-03-12 | 2026-11-10 | 14 | 0.0489 | Easy | 
 Han estado viajando por el país | They have been traveling around the country |  | Present Perfect Continuous | false | 2026-03-12 | 2026-11-06 | 17 | 0.0197 | Easy | 
 He estado intentando aprender más español | I have been trying to learn more Spanish |  | Present Perfect Continuous | false | 2026-03-12 | 2026-10-24 | 17 | 0.0513 | Easy | 
 Has estado hablando con el gerente | You have been talking with the manager |  | Present Perfect Continuous | false | 2026-03-12 | 2026-11-07 | 14 | 0.0334 | Easy | 
@@ -620,7 +620,7 @@ He estado usando una aplicación para aprender frases útiles antes del viaje. |
 Hemos estado esperando buen tiempo para ir a la playa. | We've been waiting for good weather to go to the beach. |  | Present Perfect Continuous | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 
 # >>> Present Subjunctive
-Es mejor que lo hagas ahora | It’s better that you do it now |  | Present Subjunctive | false | 2026-03-26 | 2026-10-25 | 9 | 0.0247 | Easy | 
+Es mejor que lo hagas ahora | It’s better that you do it now |  | Present Subjunctive | false | 2026-03-26 | 2026-11-10 | 10 | 0.0173 | Easy | 
 Creo que es mejor que lo hagas ahora | I think it’s better that you do it now |  | Present Subjunctive | true | 2026-03-26 | 2026-11-07 | 16 | 0.0316 | Easy | 
 Lo hago para que funcione mejor | I do it so that it works better |  | Present Subjunctive | true | 2026-03-26 | 2026-11-06 | 16 | 0.0383 | Easy | 
 Hazlo antes de que sea tarde | Do it before it’s too late |  | Present Subjunctive | true | 2026-03-26 | 2026-11-01 | 20 | 0.0424 | Easy | 
@@ -634,7 +634,7 @@ Es importante que descanses antes de la carrera. | It's important that you rest 
 Me alegra que estés aquí. | I'm glad you're here. |  | Present Subjunctive | false | 2026-10-13 | 2026-11-06 | 13 | 0.0474 | Easy | alegrarse de que + subjunctive; emotional reaction.
 Busco un restaurante que tenga mesa afuera. | I'm looking for a restaurant that has a table outside. |  | Present Subjunctive | false | 2026-07-26 | 2026-11-06 | 11 | 0.0933 | Easy | indefinite antecedent + subjunctive; looking for something uncertain.
 Cuando llegues, llámame. | When you arrive, call me. |  | Present Subjunctive | true | 2026-07-26 | 2026-11-07 | 15 | 0.1069 | Easy | cuando + subjunctive in future context; very common in speech.
-Aunque llueva, voy a salir a correr. | Even if it rains, I'm going to go running. |  | Present Subjunctive | false | 2026-07-26 | 2026-10-25 | 9 | 0.1400 | Easy | aunque + subjunctive = even if (uncertain); aunque + indicative = even though (certain).
+Aunque llueva, voy a salir a correr. | Even if it rains, I'm going to go running. |  | Present Subjunctive | false | 2026-07-26 | 2026-11-10 | 10 | 0.0980 | Easy | aunque + subjunctive = even if (uncertain); aunque + indicative = even though (certain).
 No hay nadie que hable español aquí. | There's no one who speaks Spanish here. |  | Present Subjunctive | false | 2026-07-26 | 2026-11-06 | 11 | 0.1091 | Easy | negative antecedent + subjunctive.
 Te lo digo para que lo entiendas bien. | I'm telling (it) you so that you understand it clearly. |  | Present Subjunctive | false | 2026-07-26 | 2026-10-27 | 24 | 0.1125 | Core | para que + subjunctive = so that; always subjunctive.
 Es una lástima que no puedas venir. | It's a shame you can't come. |  | Present Subjunctive | true | 2026-07-26 | 2026-10-29 | 20 | 0.1402 | Easy | es una lástima que + subjunctive; emotional impersonal expression.
@@ -687,7 +687,7 @@ Han estado viviendo en ese apartamento desde enero. | They have been living in t
 He estado tratando de mejorar mi pronunciación. | I have been trying to improve my pronunciation. |  | Present Perfect Continuous | false | 2026-07-26 | 2026-11-07 | 12 | 0.0371 | Easy | 
 ¿Has estado entrenando para alguna carrera? | Have you been training for a race? |  | Present Perfect Continuous | false | 2026-07-26 | 2026-10-26 | 15 | 0.1004 | Easy | 
 Ha estado viajando por América Latina este año. | He has been traveling around Latin America this year. |  | Present Perfect Continuous | false | 2026-07-26 | 2026-11-06 | 10 | 0.0403 | Easy | 
-Hemos estado ahorrando para el viaje desde el año pasado. | We have been saving for the trip since last year. |  | Present Perfect Continuous | false | 2026-07-26 | 2026-10-25 | 8 | 0.0824 | Easy | 
+Hemos estado ahorrando para el viaje desde el año pasado. | We have been saving for the trip since last year. |  | Present Perfect Continuous | false | 2026-07-26 | 2026-11-10 | 9 | 0.0577 | Easy | 
 He estado escuchando podcasts en español durante el trayecto. | I have been listening to Spanish podcasts during the commute. |  | Present Perfect Continuous | false | 2026-07-26 | 2026-11-07 | 9 | 0.0576 | Easy | 
 ¿Has estado alguna vez en Sevilla? | Have you ever been to Seville? |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 Nunca he estado en Barcelona. | I've never been to Barcelona. |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
