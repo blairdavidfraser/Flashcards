@@ -1560,13 +1560,13 @@ darse un chapuzón | to take a quick dip |  | Conversational | false | 2026-11-0
 ¿Qué quieres ser de grande? (En España: de mejor) | What do you want to be when you grow up? |  | Conversational | false | 2026-11-09 | 2026-11-12 | 3 | 0.7000 | Easy | 
 la más sonada | the most talked-about (one) |  | Conversational | false | 2026-11-09 | 2026-11-13 | 2 | 0.7000 | Core | 
 Lo que pienso es que… | What I think is that… |  | Conversational | false | 2026-11-12 | 2026-11-13 | 4 | 0.3430 | Core | 
-Me da la impresión de que… | I get the impression that… |  | Conversational | false | 2026-11-12 | 2026-11-13 | 3 | 1.5800 | Core | 
+Me da la impresión de que… | I get the impression that… |  | Conversational | false | 2026-11-12 | 2026-11-14 | 4 | 1.4060 | Core | 
 Yo lo veo así: … | Here's how I see it: … |  | Conversational | false | 2026-11-12 | 2026-11-13 | 2 | 0.7000 | Core | 
 Estoy de acuerdo en parte, pero… | I partly agree, but… |  | Conversational | false | 2026-11-12 | 2026-11-13 | 2 | 0.7000 | Core | 
-No lo había pensado así. | I hadn't thought of it that way. |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
+No lo había pensado así. | I hadn't thought of it that way. |  | Conversational | false | 2026-11-12 | 2026-11-14 | 1 | 2.0000 | Core | 
 Lo que más me llama la atención es… | What strikes me most is… |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
 Me sorprendió que… | I was surprised that… (+ subjunctive) |  | Conversational | false | 2026-11-12 | 2026-11-13 | 1 | 1.0000 | Core | 
-Si te soy sincero, … | To be honest with you, … |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
+Si te soy sincero, … | To be honest with you, … |  | Conversational | false | 2026-11-12 | 2026-11-14 | 1 | 2.0000 | Core | 
 Para mí, lo más importante es… | For me, the most important thing is… |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
 No estoy seguro de si… | I'm not sure whether… |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
 Ayer me pasé el día… | Yesterday I spent the whole day… (+ -ing) |  | Conversational | false | 2026-11-12 | 1970-01-01 | 0 |  | Hard | 
