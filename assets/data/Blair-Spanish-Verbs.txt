@@ -210,6 +210,11 @@ Salgo de Toronto por la noche y llego a Sevilla a mediodía. | I leave Toronto a
 ¿Puedo pagar con tarjeta o solo aceptan efectivo? | Can I pay by card or do you only accept cash? |  | Present | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 Prefiero evitar los sitios muy turísticos y buscar barrios más tranquilos. | I prefer to avoid very touristy places and look for quieter neighbourhoods. |  | Present | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 ¿Dónde puedo alquilar una bicicleta por unas horas? | Where can I rent a bike for a few hours? |  | Present | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Suelo salir a correr antes del trabajo. | I usually go running before work. (using soler) |  | Present | false | 2026-11-14 | 1970-01-01 | 0 |  | Hard | 
+¿Sueles cenar tarde cuando viajas? | Do you usually have dinner late when you travel? (using soler) |  | Present | false | 2026-11-14 | 1970-01-01 | 0 |  | Hard | 
+En Toronto suele nevar desde noviembre. | In Toronto it usually snows from November on. (using soler) |  | Present | false | 2026-11-14 | 1970-01-01 | 0 |  | Hard | 
+Los domingos solemos hacer pizza en el horno de leña. | On Sundays we usually make pizza in the wood-fired oven. (using soler) |  | Present | false | 2026-11-14 | 1970-01-01 | 0 |  | Hard | 
+No suelo tomar café después de las tres. | I don't usually drink coffee after three. (using soler) |  | Present | false | 2026-11-14 | 1970-01-01 | 0 |  | Hard | 
 
 # >>> Present Continuous Tense
 Estoy comiendo en el restaurante ahora | I am eating at the restaurant now |  | Present Continuous | false | 2026-03-07 | 2026-10-14 | 4 |  | Cold | 
@@ -585,6 +590,11 @@ Mientras mi familia dormía la siesta, yo salía a correr por la playa. | While 
 El hotel era pequeño y tranquilo, y desde la terraza se veía toda la ciudad. | The hotel was small and quiet, and from the terrace you could see the whole city. |  | Imperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 Íbamos a visitar un museo, pero al final nos quedamos en el mercado todo el día. | We were going to visit a museum, but in the end we stayed at the market all day. |  | Imperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 ¿Dónde estabas cuando se canceló el vuelo? | Where were you when the flight was cancelled? |  | Imperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Antes solíamos cenar a las ocho, pero ahora cenamos más temprano. | We used to have dinner at eight, but now we eat earlier. (using soler) |  | Imperfect | false | 2026-11-14 | 1970-01-01 | 0 |  | Hard | 
+De joven, solía leer hasta muy tarde. | When I was young, I used to read until very late. (using soler) |  | Imperfect | false | 2026-11-14 | 1970-01-01 | 0 |  | Hard | 
+Cuando viajábamos, solíamos probar el plato típico de cada ciudad. | When we travelled, we used to try the local dish in every city. (using soler) |  | Imperfect | false | 2026-11-14 | 1970-01-01 | 0 |  | Hard | 
+¿Dónde solías comer cuando trabajabas en el centro? | Where did you usually eat when you worked downtown? (using soler) |  | Imperfect | false | 2026-11-14 | 1970-01-01 | 0 |  | Hard | 
+El tren solía llegar a las ocho, pero ahora siempre llega con retraso. | The train used to arrive at eight, but now it's always late. (using soler) |  | Imperfect | false | 2026-11-14 | 1970-01-01 | 0 |  | Hard | 
 
 # >>> Present Perfect Continuous
 He estado esperando aquí por una hora | I have been waiting here for an hour |  | Present Perfect Continuous | true | 2026-03-12 | 2026-11-10 | 17 | 0.0371 | Easy | 
@@ -666,6 +676,11 @@ Para que no te pierdas, descarga el mapa sin conexión. | So that you don't get 
 Es importante que lleguemos temprano a la sesión para calentar. | It's important that we get to the session early to warm up. |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 ¿Quieres que te acompañe al mercado o prefieres ir solo? | Do you want me to go with you to the market or would you rather go alone? |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 Tal vez visitemos el Alcázar si nos sobra tiempo. | Maybe we'll visit the Alcázar if we have time left over. |  | Present Subjunctive | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | tal vez + subjunctive when the outcome is uncertain.
+Aunque no suela llover en esta época, voy a llevar el paraguas. | Even if it doesn't usually rain at this time of year, I'm going to take an umbrella. (using soler) |  | Present Subjunctive | false | 2026-11-14 | 1970-01-01 | 0 |  | Hard | soler is rare in the subjunctive and mostly appears after triggers like aunque, no creo que, me sorprende que.
+No creo que suela hacer frío en Sevilla en febrero. | I don't think it's usually cold in Seville in February. (using soler) |  | Present Subjunctive | false | 2026-11-14 | 1970-01-01 | 0 |  | Hard | 
+Me sorprende que suelas acostarte tan tarde. | It surprises me that you usually go to bed so late. (using soler) |  | Present Subjunctive | false | 2026-11-14 | 1970-01-01 | 0 |  | Hard | 
+Busco un restaurante donde la gente del barrio suela comer. | I'm looking for a restaurant where the neighbourhood locals usually eat. (using soler) |  | Present Subjunctive | false | 2026-11-14 | 1970-01-01 | 0 |  | Hard | 
+Dudo que los autobuses suelan llegar a tiempo aquí. | I doubt the buses usually arrive on time here. (using soler) |  | Present Subjunctive | false | 2026-11-14 | 1970-01-01 | 0 |  | Hard | 
 
 # >>> Present Perfect
 ¿Te ha pasado eso antes? | Has that happened to you before? |  | Present Perfect | true | 2026-03-12 | 2026-11-06 | 35 | 0.0464 | Easy | 
