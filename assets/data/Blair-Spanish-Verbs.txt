@@ -215,6 +215,10 @@ Suelo salir a correr antes del trabajo. | I usually go running before work. (usi
 En Toronto suele nevar desde noviembre. | In Toronto it usually snows from November on. (using soler) |  | Present | false | 2026-11-14 | 1970-01-01 | 0 |  | Hard | 
 Los domingos solemos hacer pizza en el horno de leña. | On Sundays we usually make pizza in the wood-fired oven. (using soler) |  | Present | false | 2026-11-14 | 1970-01-01 | 0 |  | Hard | 
 No suelo tomar café después de las tres. | I don't usually drink coffee after three. (using soler) |  | Present | false | 2026-11-14 | 1970-01-01 | 0 |  | Hard | 
+Si no nos damos prisa, perdemos el tren. | If we don't hurry up, we'll miss the train. |  | Present | false | 2026-11-15 | 1970-01-01 | 0 |  | Hard | darse prisa
+Cuando hablan de gente que siempre llega tarde, me doy por aludido. | When they talk about people who are always late, I take it personally. |  | Present | false | 2026-11-15 | 1970-01-01 | 0 |  | Hard | darse por aludido (o enterado); to take something as aimed at you
+Doy por supuesto que el hotel tiene wifi, pero voy a confirmarlo. | I'm assuming the hotel has wifi, but I'm going to confirm it. |  | Present | false | 2026-11-15 | 1970-01-01 | 0 |  | Hard | dar por supuesto; the standard phrase for "to assume" (not "darse un supuesto")
+Con estas fotos te puedes dar una idea de cómo es el pueblo. | With these photos you can get an idea of what the village is like. |  | Present | false | 2026-11-15 | 1970-01-01 | 0 |  | Hard | darse una idea de algo; hacerse una idea is more common in Spain
 
 # >>> Present Continuous Tense
 Estoy comiendo en el restaurante ahora | I am eating at the restaurant now |  | Present Continuous | false | 2026-03-07 | 2026-10-14 | 4 |  | Cold | 
@@ -373,6 +377,11 @@ Voy a intentar no distraerme tanto esta semana y sacar más tiempo para leer. | 
 ¿Vas a avisarme cuando llegues para que podamos encontrarnos en la entrada? | Are you going to let me know when you arrive so we can meet at the entrance? |  | Immediate Future | false | 2026-05-28 | 2026-11-08 | 20 | 0.0179 | Easy | avisar = to let someone know; para que + subjunctive = so that.
 Vamos a tener que buscar una alternativa si el restaurante está lleno cuando lleguemos. | We're going to have to find an alternative if the restaurant is full when we arrive. |  | Immediate Future | false | 2026-05-28 | 2026-11-06 | 15 | 0.0277 | Easy | cuando lleguemos = subjunctive; lleno = full (from your deck context).
 ¿Crees que va a ser suficiente con lo que llevamos o vamos a necesitar comprar más cosas antes de salir? | Do you think what we're bringing will be enough or are we going to need to buy more things before we leave? |  | Immediate Future | false | 2026-05-28 | 2026-10-26 | 26 | 0.1268 | Easy | 
+Después de remar, me voy a dar un baño en el río. | After rowing, I'm going to take a dip in the river. |  | Immediate Future | false | 2026-11-15 | 1970-01-01 | 0 |  | Hard | darse un baño
+Mañana, después de la carrera, me voy a dar un atracón de tapas. | Tomorrow, after the race, I'm going to stuff myself with tapas. |  | Immediate Future | false | 2026-11-15 | 1970-01-01 | 0 |  | Hard | darse un atracón
+Antes de cenar, vamos a darnos una vuelta por el casco antiguo. | Before dinner, we're going to take a stroll around the old town. |  | Immediate Future | false | 2026-11-15 | 1970-01-01 | 0 |  | Hard | darse una vuelta
+Mañana me voy a dar de alta en el club de remo. | Tomorrow I'm going to sign up at the rowing club. |  | Immediate Future | false | 2026-11-15 | 1970-01-01 | 0 |  | Hard | darse de alta; to register / sign up
+Este fin de semana me voy a dar a la tarea de organizar las fotos del viaje. | This weekend I'm going to set about organizing the photos from the trip. |  | Immediate Future | false | 2026-11-15 | 1970-01-01 | 0 |  | Hard | darse a la tarea
 
 # >>> Preterit Past Tense
 Comí en ese restaurante ayer | I ate at that restaurant yesterday |  | Preterit | false | 2026-03-05 | 2026-07-23 | 4 | 0.0000 | Easy | 
@@ -489,6 +498,12 @@ Remé dos veces al día durante toda la concentración. | I rowed twice a day th
 Después de cada sesión, fuimos a comer tapas con el equipo. | After each session, we went for tapas with the team. |  | Preterit | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 Me costó acostumbrarme al horario de las comidas en España. | It took me a while to get used to mealtimes in Spain. |  | Preterit | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 ¿Qué fue lo que más te gustó de Sevilla? | What was it that you liked most about Seville? |  | Preterit | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Casi me di por vencido en el kilómetro 30, pero seguí corriendo. | I almost gave up at kilometre 30, but I kept running. |  | Preterit | false | 2026-11-15 | 1970-01-01 | 0 |  | Hard | darse por vencido
+Para celebrar, nos dimos un gusto y cenamos en un restaurante precioso. | To celebrate, we treated ourselves and had dinner at a gorgeous restaurant. |  | Preterit | false | 2026-11-15 | 1970-01-01 | 0 |  | Hard | darse un gusto
+Me di un golpe en la rodilla al bajar del bote. | I banged my knee getting out of the boat. |  | Preterit | false | 2026-11-15 | 1970-01-01 | 0 |  | Hard | darse un golpe
+Con ese comentario en la reunión, me di un tiro en el pie. | With that comment in the meeting, I shot myself in the foot. |  | Preterit | false | 2026-11-15 | 1970-01-01 | 0 |  | Hard | darse un tiro en el pie; mostly Latin America (Spain: pegarse un tiro en el pie)
+Me di vuelta y vi que alguien me estaba llamando. | I turned around and saw that someone was calling me. |  | Preterit | false | 2026-11-15 | 1970-01-01 | 0 |  | Hard | darse vuelta; Latin America (Spain: darse la vuelta)
+El mes pasado me di de baja de la aplicación porque ya no la usaba. | Last month I cancelled my account on the app because I wasn't using it anymore. |  | Preterit | false | 2026-11-15 | 1970-01-01 | 0 |  | Hard | darse de baja; to unsubscribe / cancel / deregister
 
 # >>> Imperfect Past Tense
 Comía pan con café cada mañana | I used to eat bread with coffee every morning |  | Imperfect | false | 2026-03-05 | 2026-11-06 | 13 | 0.0240 | Easy | 
@@ -595,6 +610,10 @@ De joven, solía leer hasta muy tarde. | When I was young, I used to read until 
 Cuando viajábamos, solíamos probar el plato típico de cada ciudad. | When we travelled, we used to try the local dish in every city. (using soler) |  | Imperfect | false | 2026-11-14 | 1970-01-01 | 0 |  | Hard | 
 ¿Dónde solías comer cuando trabajabas en el centro? | Where did you usually eat when you worked downtown? (using soler) |  | Imperfect | false | 2026-11-14 | 1970-01-01 | 0 |  | Hard | 
 El tren solía llegar a las ocho, pero ahora siempre llega con retraso. | The train used to arrive at eight, but now it's always late. (using soler) |  | Imperfect | false | 2026-11-14 | 1970-01-01 | 0 |  | Hard | 
+En Toronto nos dábamos la mano, pero en España todos se daban dos besos. | In Toronto we used to shake hands, but in Spain everyone would kiss on both cheeks. |  | Imperfect | false | 2026-11-15 | 1970-01-01 | 0 |  | Hard | darse la mano
+Cuando viajaba por trabajo, me daba el lujo de pedir servicio a la habitación. | When I used to travel for work, I would treat myself to room service. |  | Imperfect | false | 2026-11-15 | 1970-01-01 | 0 |  | Hard | darse un lujo
+En esa época trabajaba tanto que nunca me daba un respiro. | Back then I worked so much that I never gave myself a break. |  | Imperfect | false | 2026-11-15 | 1970-01-01 | 0 |  | Hard | darse un respiro
+Mi entrenador nunca se daba por satisfecho, aunque mejorábamos cada semana. | My coach would never be satisfied, even though we improved every week. |  | Imperfect | false | 2026-11-15 | 1970-01-01 | 0 |  | Hard | darse por satisfecho (o contento)
 
 # >>> Present Perfect Continuous
 He estado esperando aquí por una hora | I have been waiting here for an hour |  | Present Perfect Continuous | true | 2026-03-12 | 2026-11-10 | 17 | 0.0371 | Easy | 
@@ -716,7 +735,7 @@ Hoy he caminado más de doce kilómetros. | Today I've walked more than twelve k
 Este año hemos viajado a México y pronto vamos a viajar a España. | This year we've travelled to Mexico and soon we're going to travel to Spain. |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 Mi vuelo se ha retrasado dos horas. | My flight has been delayed two hours. |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 ¿Ha llegado ya el autobús? | Has the bus arrived yet? |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
-Me he levantado muy temprano para ver el amanecer. | I got up very early to watch the sunrise. |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+Me he levantado muy temprano para ver el amanecer. | I've been getting up very early to watch the sunrise. |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 Siempre he querido conocer Andalucía. | I've always wanted to see Andalusia. |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 No he entendido bien lo que ha dicho el guía. ¿Puede repetirlo? | I haven't understood well what the guide said. Can you repeat it? |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 Hemos comido muy bien en todos los sitios que hemos probado. | We've eaten very well in all the places we've tried. |  | Present Perfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
@@ -769,3 +788,4 @@ Ya había visto fotos de la ciudad, pero en persona era mucho más grande. | I h
 El guía nos contó cosas que nadie nos había dicho antes. | The guide told us things no one had told us before. |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 Cuando por fin encontramos el hotel, ya habíamos caminado casi una hora. | When we finally found the hotel, we had already walked for almost an hour. |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
 Me di cuenta de que había dejado el cargador en el hotel. | I realised I had left the charger at the hotel. |  | Pluperfect | false | 2026-11-01 | 1970-01-01 | 0 |  | Hard | 
+
