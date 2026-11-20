@@ -366,6 +366,11 @@ button {
     font-size: 18px;
 }
 
+.btn-rank-hint {
+    outline: 2px solid #4caf50;
+    outline-offset: 2px;
+}
+
 /* ---------- Study Area Layout ---------- */
 
 #studyArea {

@@ -64,6 +64,7 @@ export class ApplicationScreenStudy {
         } else {
             document.getElementById("difficultyButtons").classList.remove("hidden");
             document.getElementById("nextButtons").classList.add("hidden");
+            this.#highlightRankButton();
         }
         document.getElementById("exitButton").classList.add("hidden");
         document.getElementById("cardComment").innerText = this.gameplay.state.card ? this.gameplay.state.card.comment : '';
@@ -89,6 +90,20 @@ export class ApplicationScreenStudy {
     #updateTodayCount() {
         const { recognition, recall } = DailyLog.todayCounts(this.gameplay.name, this.gameplay.language);
         document.getElementById("cardTodayCount").innerText = `${recognition} / ${recall}`;
+    }
+
+    #highlightRankButton() {
+        const card = this.gameplay.state.card;
+        const ids = ['btnEasy', 'btnDiff1', 'btnDiff2', 'btnDiff3', 'btnHard'];
+        ids.forEach(id => document.getElementById(id)?.classList.remove('btn-rank-hint'));
+        if (!card) return;
+        if (card.isEasy()) {
+            document.getElementById('btnEasy')?.classList.add('btn-rank-hint');
+        } else if (card.isHard() || card.penalty === null) {
+            document.getElementById('btnHard')?.classList.add('btn-rank-hint');
+        } else {
+            ['btnDiff1', 'btnDiff2', 'btnDiff3'].forEach(id => document.getElementById(id)?.classList.add('btn-rank-hint'));
+        }
     }
 
     #updateStar() {
